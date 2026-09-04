@@ -1,0 +1,201 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import tenants from '../data/tenants.json';
+import { uniqueValues } from '../lib/tenant-utils.mjs';
+import type { Tenant } from '../types/tenant';
+
+const tenantList = tenants as Tenant[];
+const categories = uniqueValues(tenantList, 'category');
+const halls = uniqueValues(tenantList, 'hall');
+---
+
+<BaseLayout title="Tangsel TradeLink — TEI 2026">
+  <main>
+    <section class="hero shell">
+      <p class="eyebrow">NFC Tenant Directory</p>
+      <h1>Tangsel TradeLink</h1>
+      <p class="lead">Akses cepat profil tenant Trade Expo Indonesia 2026 setelah tap NFC.</p>
+      <div class="hero-badge">Mobile-first · Static · Fast</div>
+    </section>
+
+    <section class="directory shell" aria-labelledby="directory-title">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Direktori</p>
+          <h2 id="directory-title">Tenant</h2>
+        </div>
+        <span class="count" data-count>{tenantList.length} tenant</span>
+      </div>
+
+      {tenantList.length > 0 ? (
+        <>
+          <div class="controls" aria-label="Pencarian dan filter tenant">
+            <label class="field search-field">
+              <span class="sr-only">Cari tenant</span>
+              <input type="search" placeholder="Cari nama, kategori, hall, booth…" data-search autocomplete="off" />
+            </label>
+
+            {categories.length > 0 && (
+              <label class="field">
+                <span class="sr-only">Filter kategori</span>
+                <select data-category>
+                  <option value="">Semua kategori</option>
+                  {categories.map((category) => <option value={category}>{category}</option>)}
+                </select>
+              </label>
+            )}
+
+            {halls.length > 0 && (
+              <label class="field">
+                <span class="sr-only">Filter hall</span>
+                <select data-hall>
+                  <option value="">Semua hall</option>
+                  {halls.map((hall) => <option value={hall}>Hall {hall}</option>)}
+                </select>
+              </label>
+            )}
+          </div>
+
+          <div class="tenant-list" data-list>
+            {tenantList.map((tenant) => (
+              <a
+                class="tenant-card"
+                href={`/tenant/${tenant.slug}`}
+                data-tenant-card
+                data-searchable={[tenant.name, tenant.category, tenant.hall, tenant.booth].join(' ').toLowerCase()}
+                data-category={tenant.category.toLowerCase()}
+                data-hall={tenant.hall.toLowerCase()}
+              >
+                <div class="tenant-card-main">
+                  <strong>{tenant.name}</strong>
+                  {(tenant.category || tenant.hall || tenant.booth) && (
+                    <span>
+                      {[tenant.category, tenant.hall && `Hall ${tenant.hall}`, tenant.booth && `Booth ${tenant.booth}`].filter(Boolean).join(' · ')}
+                    </span>
+                  )}
+                </div>
+                <span class="go" aria-hidden="true">→</span>
+              </a>
+            ))}
+          </div>
+
+          <p class="no-results" data-no-results hidden>Tidak ada tenant yang cocok dengan filter ini.</p>
+        </>
+      ) : (
+        <div class="empty-state">
+          <div class="empty-icon" aria-hidden="true">NFC</div>
+          <h3>Data tenant belum dimasukkan</h3>
+          <p>Struktur landing page sudah siap. Tenant akan muncul otomatis setelah data resmi dari floorplan TEI 2026 ditambahkan ke <code>src/data/tenants.json</code>.</p>
+        </div>
+      )}
+    </section>
+  </main>
+
+  <footer class="shell">
+    <span>Tangsel TradeLink</span>
+    <span>Trade Expo Indonesia 2026</span>
+  </footer>
+
+  <script>
+    const search = document.querySelector<HTMLInputElement>('[data-search]');
+    const category = document.querySelector<HTMLSelectElement>('[data-category]');
+    const hall = document.querySelector<HTMLSelectElement>('[data-hall]');
+    const cards = [...document.querySelectorAll<HTMLElement>('[data-tenant-card]')];
+    const count = document.querySelector<HTMLElement>('[data-count]');
+    const noResults = document.querySelector<HTMLElement>('[data-no-results]');
+
+    const update = () => {
+      const q = (search?.value || '').trim().toLowerCase();
+      const selectedCategory = (category?.value || '').toLowerCase();
+      const selectedHall = (hall?.value || '').toLowerCase();
+      let visible = 0;
+
+      cards.forEach((card) => {
+        const matches = (!q || card.dataset.searchable?.includes(q))
+          && (!selectedCategory || card.dataset.category === selectedCategory)
+          && (!selectedHall || card.dataset.hall === selectedHall);
+        card.hidden = !matches;
+        if (matches) visible += 1;
+      });
+
+      if (count) count.textContent = `${visible} tenant`;
+      if (noResults) noResults.hidden = visible !== 0;
+    };
+
+    [search, category, hall].forEach((control) => {
+      control?.addEventListener(control instanceof HTMLInputElement ? 'input' : 'change', update);
+    });
+  </script>
+</BaseLayout>
+
+<style>
+  main { padding: 18px 0 44px; }
+
+  .hero {
+    position: relative;
+    overflow: hidden;
+    margin-top: 4px;
+    padding: 42px 24px 34px;
+    border-radius: 30px;
+    background:
+      radial-gradient(circle at 85% 20%, rgba(255,255,255,.82), transparent 22%),
+      linear-gradient(135deg, #cfeceb, #dce8f5 58%, #edf3f8);
+    border: 1px solid rgba(255,255,255,.8);
+    box-shadow: var(--shadow);
+  }
+
+  .hero::after {
+    content: '↗';
+    position: absolute;
+    right: -8px;
+    bottom: -34px;
+    font-size: 9rem;
+    line-height: 1;
+    color: rgba(15,111,122,.08);
+    font-weight: 900;
+  }
+
+  .hero h1 { margin: 0; font-size: clamp(2.35rem, 12vw, 4.8rem); line-height: .9; letter-spacing: -.065em; max-width: 620px; }
+  .lead { max-width: 560px; margin: 18px 0 0; color: #40566d; line-height: 1.6; font-size: 1.02rem; }
+  .hero-badge { display: inline-flex; margin-top: 22px; padding: 8px 11px; border-radius: 999px; background: rgba(255,255,255,.68); color: #315467; font-size: .78rem; font-weight: 800; }
+
+  .directory { padding-top: 36px; }
+  .section-head { display: flex; align-items: end; justify-content: space-between; gap: 16px; margin-bottom: 16px; }
+  .section-head h2 { margin: 0; font-size: 2rem; letter-spacing: -.04em; }
+  .count { color: var(--muted); font-size: .86rem; font-weight: 700; }
+
+  .controls { display: grid; grid-template-columns: minmax(0, 1.5fr) repeat(2, minmax(0, .75fr)); gap: 10px; margin-bottom: 14px; }
+  .field input, .field select { width: 100%; min-height: 48px; border: 1px solid var(--line); border-radius: 15px; padding: 0 13px; background: rgba(255,255,255,.9); color: var(--ink); outline: none; }
+  .field input:focus, .field select:focus { border-color: color-mix(in srgb, var(--accent) 42%, transparent); box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent-soft) 70%, transparent); }
+
+  .tenant-list { display: grid; gap: 10px; }
+  .tenant-card { display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 14px; padding: 16px; border: 1px solid var(--line); border-radius: 18px; background: rgba(255,255,255,.9); text-decoration: none; box-shadow: 0 7px 20px rgba(20,45,70,.045); transition: transform .16s ease, box-shadow .16s ease; }
+  .tenant-card:hover, .tenant-card:focus-visible { transform: translateY(-1px); box-shadow: 0 12px 26px rgba(20,45,70,.08); outline: none; }
+  .tenant-card-main { min-width: 0; display: grid; gap: 5px; }
+  .tenant-card strong { font-size: 1rem; }
+  .tenant-card span { color: var(--muted); font-size: .82rem; line-height: 1.35; }
+  .tenant-card .go { width: 34px; height: 34px; display: grid; place-items: center; border-radius: 11px; background: var(--accent-soft); color: var(--accent-strong); font-size: 1rem; font-weight: 900; }
+  .no-results { padding: 26px 16px; text-align: center; color: var(--muted); }
+
+  .empty-state { padding: 34px 22px; border: 1px dashed rgba(16,32,51,.18); border-radius: 24px; background: rgba(255,255,255,.62); text-align: center; }
+  .empty-icon { width: 58px; height: 58px; margin: 0 auto 14px; display: grid; place-items: center; border-radius: 18px; background: var(--accent-soft); color: var(--accent-strong); font-size: .75rem; font-weight: 900; }
+  .empty-state h3 { margin: 0; font-size: 1.15rem; }
+  .empty-state p { max-width: 520px; margin: 10px auto 0; color: var(--muted); line-height: 1.6; }
+  code { padding: 2px 5px; border-radius: 6px; background: rgba(16,32,51,.06); font-size: .86em; }
+
+  footer { display: flex; justify-content: space-between; gap: 12px; padding: 0 0 28px; color: var(--muted); font-size: .75rem; }
+
+  @media (max-width: 680px) {
+    .controls { grid-template-columns: 1fr 1fr; }
+    .search-field { grid-column: 1 / -1; }
+  }
+
+  @media (max-width: 430px) {
+    main { padding-top: 10px; }
+    .hero { padding: 34px 20px 28px; border-radius: 24px; }
+    .directory { padding-top: 28px; }
+    .controls { grid-template-columns: 1fr; }
+    .search-field { grid-column: auto; }
+    footer { flex-direction: column; }
+  }
+</style>
