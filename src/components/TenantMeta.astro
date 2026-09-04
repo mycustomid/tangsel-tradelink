@@ -1,0 +1,24 @@
+---
+interface Props {
+  category?: string;
+  hall?: string;
+  booth?: string;
+}
+
+const { category = '', hall = '', booth = '' } = Astro.props;
+const items = [category, hall && `Hall ${hall}`, booth && `Booth ${booth}`].filter(Boolean);
+---
+
+{items.length > 0 && (
+  <div class="tenant-meta" aria-label="Informasi tenant">
+    {items.map((label) => <span class="pill">{label}</span>)}
+  </div>
+)}
+
+<style>
+  .tenant-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+</style>
