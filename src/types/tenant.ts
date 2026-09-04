@@ -6,13 +6,13 @@ export interface Tenant {
   hall: string;
   booth: string;
   category: string;
-  description: string;
-  logo: string;
-  theme: string;
-  whatsapp: string;
-  instagram: string;
-  maps: string;
-  website: string;
-  catalog: string;
-  email: string;
+  description?: string;
+  logo?: string;
+  theme?: TenantTheme | string;
+  whatsapp?: string;
+  instagram?: string;
+  maps?: string;
+  website?: string;
+  catalog?: string;
+  email?: string;
 }
