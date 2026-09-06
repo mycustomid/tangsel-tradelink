@@ -1,0 +1,22 @@
+{
+  "tagline": "FRAGRANCE FOR EVERYDAY CONFIDENCE.",
+  "eyebrow": "Morris fragrance & personal care by Aroma Prima Livindo",
+  "heroImage": "https://image.thum.io/get/width/1400/crop/900/noanimate/https://livindo.co.id/eau-de-parfum/",
+  "palette": {"bg":"#f8eef5","ink":"#251522","accent":"#bd4c86","surface":"#fffafd"},
+  "highlights": [
+    {"title":"Morris Eau de Parfum","body":"Morris is positioned as an everyday fragrance line designed around freshness, confidence and broad scent choices."},
+    {"title":"Large fragrance portfolio","body":"Aroma Prima Livindo maintains an extensive Eau de Parfum catalogue across gourmand, floral, fantasy, travel and other editions."},
+    {"title":"Tangerang manufacturing","body":"The company lists its manufacturing facility in the Balaraja industrial area, Tangerang, Indonesia."},
+    {"title":"Multi-format personal care","body":"Beyond Eau de Parfum, the portfolio extends into deodorant, men’s care and other fragrance-led personal care products."}
+  ],
+  "gallery": [
+    {"image":"https://image.thum.io/get/width/1100/crop/800/noanimate/https://livindo.co.id/eau-de-parfum/","label":"Morris Eau de Parfum"},
+    {"image":"https://image.thum.io/get/width/1100/crop/800/noanimate/https://livindo.co.id/product-category/eau-de-parfum/","label":"Fragrance collection"},
+    {"image":"https://image.thum.io/get/width/1100/crop/800/noanimate/https://livindo.co.id/product-category/eau-de-toilette/","label":"Eau de Toilette range"}
+  ],
+  "actions": [
+    {"key":"website","label":"Morris Eau de Parfum","url":"https://livindo.co.id/eau-de-parfum/"},
+    {"key":"website","label":"Shop Fragrance Collection","url":"https://livindo.co.id/product-category/eau-de-parfum/"},
+    {"key":"website","label":"Aroma Prima Livindo","url":"https://livindo.co.id/"}
+  ]
+}

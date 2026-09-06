@@ -1,0 +1,21 @@
+{
+  "tagline": "BUILDING CITIES, COMMUNITIES AND FUTURE VALUE.",
+  "eyebrow": "Integrated property development across Indonesia",
+  "heroImage": "https://image.thum.io/get/width/1400/crop/900/noanimate/https://www.sinarmasland.com/id",
+  "palette": {"bg":"#f5f3ed","ink":"#18202a","accent":"#b89a57","surface":"#fffdf8"},
+  "highlights": [
+    {"title":"50+ years","body":"Sinar Mas Land highlights more than five decades of property-development experience."},
+    {"title":"100+ developments","body":"Its portfolio spans township, residential, office, retail, hospitality, commercial and industrial developments."},
+    {"title":"10,000ha+ land bank","body":"The group reports a substantial land bank supporting long-term integrated development."},
+    {"title":"670K+ population","body":"Sinar Mas Land presents its communities at significant scale across its property ecosystem."}
+  ],
+  "gallery": [
+    {"image":"https://image.thum.io/get/width/1100/crop/800/noanimate/https://www.sinarmasland.com/id","label":"Integrated developments"},
+    {"image":"https://image.thum.io/get/width/1100/crop/800/noanimate/https://www.sinarmasland.com/","label":"Property portfolio"}
+  ],
+  "actions": [
+    {"key":"website","label":"Official Website","url":"https://www.sinarmasland.com/id"},
+    {"key":"website","label":"Explore Developments","url":"https://www.sinarmasland.com/"},
+    {"key":"maps","label":"Sinar Mas Land Plaza","url":"https://www.google.com/maps/search/?api=1&query=Sinar%20Mas%20Land%20Plaza%20BSD%20City"}
+  ]
+}

@@ -7,6 +7,13 @@ import RichTenantShowcase from '../../components/RichTenantShowcase.astro';
 import roemahFlagship from '../../data/flagships/roemah-koffie.json';
 import sanfoodShowcase from '../../data/showcases/sanfood-internasional.json';
 import tempeAzakiShowcase from '../../data/showcases/tempe-azaki.json';
+import tmminShowcase from '../../data/showcases/toyota-motor-manufacturing-indonesia-pt-tmmin.json';
+import tatalogamShowcase from '../../data/showcases/tatalogam-lestari-pt.json';
+import morrisShowcase from '../../data/showcases/aroma-prima-livindo-pt-morris-perfume.json';
+import dragonShowcase from '../../data/showcases/dragon-prima-farma.json';
+import cleanMaticShowcase from '../../data/showcases/clean-matic.json';
+import sinarMasLandShowcase from '../../data/showcases/sinar-mas-land.json';
+import himkiShowcase from '../../data/showcases/himki.json';
 import tenants from '../../data/tenants.json';
 import foodResearch from '../../data/research-food.json';
 import manufacturedResearch from '../../data/research-manufactured.json';
@@ -32,6 +39,13 @@ const baseUrl = import.meta.env.BASE_URL;
 const showcaseConfigs: Record<string, any> = {
   'sanfood-internasional': sanfoodShowcase,
   'tempe-azaki': tempeAzakiShowcase,
+  'toyota-motor-manufacturing-indonesia-pt-tmmin': tmminShowcase,
+  'tatalogam-lestari-pt': tatalogamShowcase,
+  'aroma-prima-livindo-pt-morris-perfume': morrisShowcase,
+  'dragon-prima-farma': dragonShowcase,
+  'clean-matic': cleanMaticShowcase,
+  'sinar-mas-land': sinarMasLandShowcase,
+  'himki': himkiShowcase,
 };
 const showcaseConfig = showcaseConfigs[tenant.slug];
 ---

@@ -1,0 +1,22 @@
+{
+  "tagline": "MADE IN INDONESIA. BUILT FOR THE WORLD.",
+  "eyebrow": "World-class automotive manufacturing & export",
+  "heroImage": "https://image.thum.io/get/width/1400/crop/900/noanimate/https://www.toyota.co.id/manufacturing",
+  "palette": {"bg":"#f3f3f3","ink":"#111111","accent":"#eb0a1e","surface":"#ffffff"},
+  "highlights": [
+    {"title":"5 production facilities","body":"TMMIN operates world-class production facilities in Sunter and Karawang for vehicles, engines, components and production tools."},
+    {"title":"99 export destinations","body":"Toyota Indonesia exports CBU, CKD, engines, components and production tools across multiple global regions."},
+    {"title":"Toyota Production System","body":"Manufacturing is structured around Jidoka, Just-in-Time and continuous efficiency across the production process."},
+    {"title":"50+ years in Indonesia","body":"TMMIN has grown as a major manufacturing and export base in the Asia-Pacific automotive ecosystem."}
+  ],
+  "gallery": [
+    {"image":"https://image.thum.io/get/width/1100/crop/800/noanimate/https://www.toyota.co.id/corporate","label":"Corporate & export profile"},
+    {"image":"https://image.thum.io/get/width/1100/crop/800/noanimate/https://www.toyota.co.id/id/manufacturing/how-we-manufacture","label":"How Toyota manufactures"},
+    {"image":"https://image.thum.io/get/width/1100/crop/800/noanimate/https://www.toyota.co.id/manufacturing/factory","label":"Sunter & Karawang facilities"}
+  ],
+  "actions": [
+    {"key":"website","label":"Corporate Profile","url":"https://www.toyota.co.id/corporate"},
+    {"key":"website","label":"Manufacturing","url":"https://www.toyota.co.id/manufacturing"},
+    {"key":"website","label":"How We Manufacture","url":"https://www.toyota.co.id/id/manufacturing/how-we-manufacture"}
+  ]
+}

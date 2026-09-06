@@ -1,0 +1,21 @@
+{
+  "tagline": "BETTER CLEANING TOOLS, ONE CLICK AWAY.",
+  "eyebrow": "Home & professional cleaning equipment",
+  "heroImage": "https://image.thum.io/get/width/1400/crop/900/noanimate/https://cleanmatic.id/",
+  "palette": {"bg":"#ecf7f7","ink":"#123034","accent":"#16a7ae","surface":"#ffffff"},
+  "highlights": [
+    {"title":"30+ years of supply","body":"Clean Matic highlights more than three decades of supporting consumers and business partners with consistent cleaning-equipment supply."},
+    {"title":"Complete cleaning range","body":"The catalogue spans brooms, mops, brushes, squeegees, sponges, mats, dustpans, bins and supporting tools."},
+    {"title":"Retail & wholesale","body":"The brand serves home users while also inviting distributors, resellers, stores and business buyers to partner."},
+    {"title":"Tangsel store presence","body":"Clean Matic lists a store in Taman Tekno BSD, Tangerang Selatan, alongside additional retail touchpoints."}
+  ],
+  "gallery": [
+    {"image":"https://image.thum.io/get/width/1100/crop/800/noanimate/https://cleanmatic.id/","label":"Cleaning product ecosystem"},
+    {"image":"https://image.thum.io/get/width/1100/crop/800/noanimate/https://shopee.co.id/cleanmaticstore","label":"Official online store"}
+  ],
+  "actions": [
+    {"key":"website","label":"Official Website","url":"https://cleanmatic.id/"},
+    {"key":"shopee","label":"Shopee Official Shop","url":"https://shopee.co.id/cleanmaticstore"},
+    {"key":"maps","label":"Taman Tekno Store","url":"https://www.google.com/maps/search/?api=1&query=Clean%20Matic%20Store%20Taman%20Tekno%20Tangerang%20Selatan"}
+  ]
+}

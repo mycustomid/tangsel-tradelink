@@ -1,0 +1,21 @@
+{
+  "tagline": "TRUSTED QUALITY. NATURAL WELLNESS SINCE 1948.",
+  "eyebrow": "Traditional medicine, wellness & personal care manufacturing",
+  "heroImage": "https://image.thum.io/get/width/1400/crop/900/noanimate/https://dragonprimafarma.com/",
+  "palette": {"bg":"#f1f6ee","ink":"#182419","accent":"#4f7f3e","surface":"#ffffff"},
+  "highlights": [
+    {"title":"Established in 1948","body":"Dragon Prima Farma began with menthol products and expanded into a broad traditional medicine and wellness portfolio."},
+    {"title":"Certified production","body":"The company highlights CPOTB, Halal, ISO 9001:2015 and CPKB certifications across its quality journey."},
+    {"title":"Heritage product range","body":"Its portfolio includes menthol, eucalyptus oil, telon oil, balm, aromatherapy, medicated powder and related wellness products."},
+    {"title":"Domestic & export reach","body":"Dragon Prima Farma positions its products for both Indonesian consumers and international markets."}
+  ],
+  "gallery": [
+    {"image":"https://image.thum.io/get/width/1100/crop/800/noanimate/https://dragonprimafarma.com/","label":"Dragon Prima Farma heritage"},
+    {"image":"https://image.thum.io/get/width/1100/crop/800/noanimate/https://dragonprimafarma.com/produk/read/domestik","label":"Domestic product portfolio"}
+  ],
+  "actions": [
+    {"key":"website","label":"Official Website","url":"https://dragonprimafarma.com/"},
+    {"key":"website","label":"Product Portfolio","url":"https://dragonprimafarma.com/produk/read/domestik"},
+    {"key":"whatsapp","label":"Customer Care","url":"https://wa.me/6282111009910"}
+  ]
+}
