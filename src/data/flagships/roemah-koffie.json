@@ -1,0 +1,33 @@
+{
+  "tagline": "Exploring the World through Indonesian Coffee",
+  "eyebrow": "Indonesian coffee, hospitality & culture",
+  "heroImage": "https://ugc.production.linktr.ee/fe6870cc-e8f1-4109-8d07-75662146c44a_Untitled-design--2-.jpeg?io=true&size=avatar-v3_0",
+  "primaryActions": [
+    {"key":"whatsapp","label":"Chat with Roemah Koffie","url":"https://wa.me/628119550020"},
+    {"key":"reservation","label":"Reserve a Table","url":"https://roemahkoffie.co.id/table-reservation/"}
+  ],
+  "menus": [
+    {"label":"Menu BMW","url":"https://drive.google.com/drive/folders/1DfM9Ekf077RtwJTPwhsHs-gDtMFPw0yC?hl=id"},
+    {"label":"Menu Gunawarman","url":"https://drive.google.com/drive/u/0/folders/1p1ZBsYN62RiFmtxJ-tkjZebm0nb-aUdG"},
+    {"label":"Menu Roemah Koffie","url":"https://drive.google.com/drive/u/0/folders/1JhoVh6bOkLD9de4auTDSf0DAIiuKrD34"}
+  ],
+  "locations": [
+    {"label":"Carstensz Mall","url":"https://g.co/kgs/GifACCm"},
+    {"label":"BAIC Tower & Academy","url":"https://g.co/kgs/E6y3kcb"},
+    {"label":"Puri Indah Mall 2","url":"https://g.co/kgs/Haij3Ds"},
+    {"label":"Gunawarman","url":"https://g.co/kgs/KRu8xrj"},
+    {"label":"TB Simatupang","url":"https://share.google/8a9ngJ101i5VbRAJ3"}
+  ],
+  "marketplaces": [
+    {"key":"tokopedia","label":"Tokopedia","url":"https://www.tokopedia.com/roemahkoffie"},
+    {"key":"shopee","label":"Shopee","url":"https://shopee.co.id/roemahkoffieindonesia"},
+    {"key":"tiktok","label":"TikTok Shop","url":"https://vt.tiktok.com/ZSkMaowKf/?page=Mall"}
+  ],
+  "membership": {"label":"Roemah Koffie Membership","url":"https://roemahkoffie.co.id/register/"},
+  "banquet": {"label":"Banquet & Catering Inquiry","url":"https://tr.ee/RoemahKoffieCelebration"},
+  "franchise": {"label":"Franchise Opportunity","url":"https://roemahkoffie.co.id/franchise/"},
+  "academy": {"label":"Coffee Academy","url":"https://roemahkoffie.co.id/academy/"},
+  "website": "https://www.roemahkoffie.co.id/",
+  "instagram": "https://www.instagram.com/roemahkoffieindonesia/",
+  "linktree": "https://linktr.ee/roemahkoffieindonesia"
+}
