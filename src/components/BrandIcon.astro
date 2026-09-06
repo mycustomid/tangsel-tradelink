@@ -1,32 +1,35 @@
 ---
 interface Props { name: string }
 const { name } = Astro.props;
-const brands: Record<string, { slug: string; color: string }> = {
+const brands: Record<string, { slug?: string; color?: string; asset?: string }> = {
   whatsapp: { slug: 'whatsapp', color: '25D366' },
   instagram: { slug: 'instagram', color: 'E4405F' },
   facebook: { slug: 'facebook', color: '0866FF' },
   linkedin: { slug: 'linkedin', color: '0A66C2' },
   tiktok: { slug: 'tiktok', color: '000000' },
   youtube: { slug: 'youtube', color: 'FF0000' },
-  linktree: { slug: 'linktree', color: '43E55E' },
-  maps: { slug: 'googlemaps', color: '4285F4' },
-  tokopedia: { slug: 'tokopedia', color: '42B549' },
-  shopee: { slug: 'shopee', color: 'EE4D2D' },
+  maps: { asset: 'https://upload.wikimedia.org/wikipedia/commons/a/a3/Google_Maps_icon_%282026%29.svg' },
+  tokopedia: { asset: 'https://upload.wikimedia.org/wikipedia/commons/a/a7/Tokopedia.svg' },
+  shopee: { asset: 'https://upload.wikimedia.org/wikipedia/commons/0/0e/Shopee_logo.svg' },
 };
 const brand = brands[name];
 ---
 
-{brand ? (
+{brand?.asset ? (
+  <img class:list={["brand-icon", `brand-${name}`]} src={brand.asset} alt="" width="23" height="23" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+) : brand?.slug ? (
   <img class="brand-icon" src={`https://cdn.simpleicons.org/${brand.slug}/${brand.color}`} alt="" width="23" height="23" loading="lazy" decoding="async" />
 ) : name === 'email' ? (
   <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18v14H3V5Zm2 2v.5l7 5 7-5V7H5Zm14 10V9.95l-7 5-7-5V17h14Z"/></svg>
 ) : name === 'catalog' ? (
   <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 2h9l4 4v16H6V2Zm8 2v3h3l-3-3ZM8 11h8V9H8v2Zm0 4h8v-2H8v2Zm0 4h6v-2H8v2Z"/></svg>
 ) : (
-  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm6.92 6h-3.01a15.7 15.7 0 0 0-1.2-3.08A8.04 8.04 0 0 1 18.92 8ZM12 4c.83 1.08 1.48 2.43 1.84 4h-3.68C10.52 6.43 11.17 5.08 12 4ZM9.29 4.92A15.7 15.7 0 0 0 8.09 8H5.08a8.04 8.04 0 0 1 4.21-3.08ZM4.26 10h3.5a16.57 16.57 0 0 0 0 4h-3.5a8.1 8.1 0 0 1 0-4Zm.82 6h3.01c.27 1.1.67 2.14 1.2 3.08A8.04 8.04 0 0 1 5.08 16ZM12 20c-.83-1.08-1.48-2.43-1.84-4h3.68c-.36 1.57-1.01 2.92-1.84 4Zm2.24-6H9.76a14.46 14.46 0 0 1 0-4h4.48a14.46 14.46 0 0 1 0 4Zm.47 5.08c.53-.94.93-1.98 1.2-3.08h3.01a8.04 8.04 0 0 1-4.21 3.08ZM16.24 14a16.57 16.57 0 0 0 0-4h3.5a8.1 8.1 0 0 1 0 4h-3.5Z"/></svg>
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm6.92 6h-3.01a15.7 15.7 0 0 0-1.2-3.08A8.04 8.04 0 0 1 18.92 8ZM12 4c.83 1.08 1.48 2.43 1.84 4h-3.68C10.52 6.43 11.17 5.08 12 4ZM9.29 4.92A15.7 15.7 0 0 0 8.09 8H5.08a8.04 8.04 0 0 1 4.21-3.08ZM4.26 10h3.5a16.57 16.57 0 0 0 0 4h-3.5a8.1 8.1 0 0 1 0-4Zm.82 6h3.01c.27 1.1.67 2.14 1.2 3.08A8.04 8.04 0 0 1 5.08 16ZM12 20c-.83-1.08-1.48-2.43-1.84-4h3.68c-.36 1.57-1.01 2.92-1.84 4Zm2.24-6H9.76a14.46 14.46 0 0 1 0-4h4.48a14.46 14.46 0 0 1 0 4Zm.47 5.08c.53-.94.93-1.98 1.2-3.08h3.01a8.04 8.04 0 0 1-4.21 3.08ZM16.24 14a16.57 16.57 0 0 0 0-4h3.5a8.1 8.1 0 0 0 0 4h-3.5Z"/></svg>
 )}
 
 <style>
-  .brand-icon, svg { width: 23px; height: 23px; display: block; }
+  .brand-icon, svg { width: 23px; height: 23px; display: block; object-fit: contain; }
+  .brand-tokopedia { width: 76px; height: 24px; }
+  .brand-shopee { width: 24px; height: 24px; }
   svg { fill: currentColor; }
 </style>

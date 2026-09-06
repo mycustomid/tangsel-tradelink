@@ -7,9 +7,13 @@
     {"key":"reservation","label":"Reserve a Table","url":"https://roemahkoffie.co.id/table-reservation/"}
   ],
   "menus": [
-    {"label":"Menu BMW","url":"https://drive.google.com/drive/folders/1DfM9Ekf077RtwJTPwhsHs-gDtMFPw0yC?hl=id"},
-    {"label":"Menu Gunawarman","url":"https://drive.google.com/drive/u/0/folders/1p1ZBsYN62RiFmtxJ-tkjZebm0nb-aUdG"},
-    {"label":"Menu Roemah Koffie","url":"https://drive.google.com/drive/u/0/folders/1JhoVh6bOkLD9de4auTDSf0DAIiuKrD34"}
+    {"label":"Menu BMW","url":"https://drive.google.com/drive/folders/1DfM9Ekf077RtwJTPwhsHs-gDtMFPw0yC?hl=id","image":"https://www.blackxperience.com/assets/content/blackattitude/blackspot/img-1701-resize.jpg","imageAlt":"BMW Motorrad lifestyle showroom where Roemah Koffie has a TB Simatupang location"},
+    {"label":"Menu Gunawarman","url":"https://drive.google.com/drive/u/0/folders/1p1ZBsYN62RiFmtxJ-tkjZebm0nb-aUdG","image":"https://img.inews.co.id/media/1200/files/inews_new/2025/07/21/roemah_koffie.jpg","imageAlt":"Roemah Koffie Gunawarman interior and curated specialty beans"},
+    {"label":"Menu Roemah Koffie","url":"https://drive.google.com/drive/u/0/folders/1JhoVh6bOkLD9de4auTDSf0DAIiuKrD34","image":"https://p19-lemon8-sg-sign.tiktokcdn-us.com/tos-alisg-v-a3e477-sg/76ce9ff6230044bb809d59771436910d~tplv-sdweummd6v-text-logo-v1%3AQGNvaWRpc2NvdmVy%3Aq75.jpeg?lk3s=c7f08e79&source=lemon8_seo&x-expires=1780034400&x-signature=Lmv4m86wmOIge6H3iUONK%2BHlEGA%3D","imageAlt":"Roemah Koffie food and coffee menu highlights"}
+  ],
+  "locationGallery": [
+    {"label":"Carstensz Mall","image":"https://tangselife.com/wp-content/uploads/2025/01/WhatsApp-Image-2025-01-03-at-11.18.04.jpeg","caption":"Heritage-inspired storefront in Tangerang"},
+    {"label":"Gunawarman","image":"https://img.inews.co.id/media/1200/files/inews_new/2025/07/21/roemah_koffie.jpg","caption":"Coffee, culture and a modern roastery experience"}
   ],
   "locations": [
     {"label":"Carstensz Mall","url":"https://g.co/kgs/GifACCm"},
@@ -19,8 +23,8 @@
     {"label":"TB Simatupang","url":"https://share.google/8a9ngJ101i5VbRAJ3"}
   ],
   "marketplaces": [
-    {"key":"tokopedia","label":"Tokopedia","url":"https://www.tokopedia.com/roemahkoffie"},
-    {"key":"shopee","label":"Shopee","url":"https://shopee.co.id/roemahkoffieindonesia"},
+    {"key":"tokopedia","label":"Tokopedia","url":"https://www.tokopedia.com/roemahkoffie","logo":"https://upload.wikimedia.org/wikipedia/commons/a/a7/Tokopedia.svg"},
+    {"key":"shopee","label":"Shopee","url":"https://shopee.co.id/roemahkoffieindonesia","logo":"https://upload.wikimedia.org/wikipedia/commons/0/0e/Shopee_logo.svg"},
     {"key":"tiktok","label":"TikTok Shop","url":"https://vt.tiktok.com/ZSkMaowKf/?page=Mall"}
   ],
   "membership": {"label":"Roemah Koffie Membership","url":"https://roemahkoffie.co.id/register/"},
@@ -28,6 +32,5 @@
   "franchise": {"label":"Franchise Opportunity","url":"https://roemahkoffie.co.id/franchise/"},
   "academy": {"label":"Coffee Academy","url":"https://roemahkoffie.co.id/academy/"},
   "website": "https://www.roemahkoffie.co.id/",
-  "instagram": "https://www.instagram.com/roemahkoffieindonesia/",
-  "linktree": "https://linktr.ee/roemahkoffieindonesia"
+  "instagram": "https://www.instagram.com/roemahkoffieindonesia/"
 }

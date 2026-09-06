@@ -77,7 +77,6 @@ export function getTenantLinks(tenant = {}) {
     ['tiktok', 'TikTok', 'tiktok', safeWebUrl(tenant.tiktok)],
     ['youtube', 'YouTube', 'youtube', safeWebUrl(tenant.youtube)],
     ['website', 'Official Website', 'website', safeWebUrl(tenant.website)],
-    ['linktree', 'Official Links', 'linktree', safeWebUrl(tenant.linktree)],
     ['maps', 'Google Maps', 'maps', safeWebUrl(tenant.maps)],
     ['catalog', 'Product Catalog', 'catalog', safeWebUrl(tenant.catalog)],
     ['email', 'Email', 'email', emailUrl(tenant.email)],
