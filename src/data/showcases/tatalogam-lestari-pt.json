@@ -1,0 +1,20 @@
+{
+  "tagline": "QUALITY COATED STEEL FOR A MORE SUSTAINABLE FUTURE.",
+  "eyebrow": "Metal roofing, light steel & smart building solutions",
+  "heroImage": "https://image.thum.io/get/width/1400/crop/900/noanimate/https://tatalogam.com/",
+  "palette": {"bg":"#f2f7ef","ink":"#17301d","accent":"#3f8d49","surface":"#ffffff"},
+  "highlights": [
+    {"title":"Since 1994","body":"Tatalogam grew from a mission to replace easily corroded roofing with higher-quality coated metal products."},
+    {"title":"Broad product system","body":"Its range spans light steel, metal tiles, floor decks, metal roofing, accessories and large-span building structures."},
+    {"title":"Standards & patents","body":"The company highlights ISO 9001, relevant ASTM/AISC standards and patented metal-roofing technologies."},
+    {"title":"Sustainability focus","body":"Tatalogam positions its products around sustainable materials, energy-efficient manufacturing and long service life."}
+  ],
+  "gallery": [
+    {"image":"https://image.thum.io/get/width/1100/crop/800/noanimate/https://tatalogam.com/","label":"Product & brand ecosystem"},
+    {"image":"https://image.thum.io/get/width/1100/crop/800/noanimate/https://tatalogam.com/authorized-reseller/","label":"Official reseller network"}
+  ],
+  "actions": [
+    {"key":"website","label":"Official Website","url":"https://tatalogam.com/"},
+    {"key":"website","label":"Authorized Resellers","url":"https://tatalogam.com/authorized-reseller/"}
+  ]
+}
