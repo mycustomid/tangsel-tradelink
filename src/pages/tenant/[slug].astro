@@ -10,9 +10,8 @@ import furnitureResearch from '../../data/research-furniture.json';
 import { getTenantLinks, getTenantLogo, resolveTheme } from '../../lib/tenant-utils.mjs';
 import type { Tenant } from '../../types/tenant';
 
-const research = { ...foodResearch, ...manufacturedResearch, ...industrialResearch, ...furnitureResearch } as Record<string, Partial<Tenant>>;
-
 export function getStaticPaths() {
+  const research = { ...foodResearch, ...manufacturedResearch, ...industrialResearch, ...furnitureResearch } as Record<string, Partial<Tenant>>;
   return (tenants as Tenant[]).map((baseTenant) => ({
     params: { slug: baseTenant.slug },
     props: { tenant: { ...baseTenant, ...(research[baseTenant.slug] || {}) } },
