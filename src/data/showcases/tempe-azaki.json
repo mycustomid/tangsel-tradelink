@@ -1,23 +1,9 @@
 {
-  "tagline": "WHEN HEALTHY MEETS TASTY",
-  "eyebrow": "Indonesian tempeh, made for the world",
-  "heroImage": "https://cdn.franchiseglobal.com/assets/images/posts/2025/07/09/rumah-tempe-azaki-ukm-lokal-tembus-10-negara-berkat-digitalisasi.webp",
-  "palette": {"bg":"#f4f6e8","ink":"#152218","accent":"#4f7f32","surface":"#ffffff"},
-  "highlights": [
-    {"title":"Exported to 13 countries","body":"Azaki says its tempeh now reaches 13 international markets."},
-    {"title":"80+ factories","body":"The company operates a broad production network across Indonesia."},
-    {"title":"International food safety","body":"FSSC, HACCP, Halal, SNI, FDA, GACC and BPOM are among the certifications listed by Azaki."},
-    {"title":"Plant-based nutrition","body":"The brand highlights high protein, dietary fiber and preservative-free positioning."}
-  ],
-  "gallery": [
-    {"image":"https://tempeazaki.com/wp-content/uploads/elementor/thumbs/Frame-427323136-r2vkghzxfaiorotejevvvxrdyglt27yv1qdpznczdc.jpg","label":"Original Tempe Chips"},
-    {"image":"https://tempeazaki.com/wp-content/uploads/2025/02/Frame-427323138.jpg","label":"Cheese Tempe Chips"},
-    {"image":"https://cdn.franchiseglobal.com/assets/images/posts/2025/07/09/rumah-tempe-azaki-ukm-lokal-tembus-10-negara-berkat-digitalisasi.webp","label":"Premium tempeh"}
-  ],
-  "actions": [
-    {"key":"website","label":"Official Website","url":"https://tempeazaki.com/"},
-    {"key":"catalog","label":"Explore Products","url":"https://tempeazaki.com/products/"},
-    {"key":"website","label":"Visual Gallery","url":"https://tempeazaki.com/gallery/"},
-    {"key":"whatsapp","label":"WhatsApp","url":"https://wa.me/6281315441691"}
-  ]
+  "logoDomain":"tempeazaki.com","brandLabel":"AZAKI TEMPE","tagline":"WHEN HEALTHY MEETS TASTY","eyebrow":"Indonesian tempeh, engineered for global markets","heroImage":"https://tempeazaki.com/wp-content/uploads/2025/02/Frame-427323138.jpg",
+  "palette":{"bg":"#f4f6e8","ink":"#152218","accent":"#78a94f","surface":"#ffffff"},
+  "story":{"title":"A traditional Indonesian staple scaled with modern food-safety discipline.","body":"Azaki presents tempeh as both cultural heritage and export-grade plant protein. The company highlights modern hygienic production, fresh and frozen formats, 80+ factories across Indonesia and distribution to 13 countries."},
+  "stats":[{"value":"80+","label":"factories across Indonesia"},{"value":"13","label":"export countries"},{"value":"2005","label":"first production facility"},{"value":"FSSC","label":"international food safety"}],
+  "highlights":[{"title":"Global tempeh formats","body":"Fresh, frozen, chips, flour and ready-to-eat formats broaden how tempeh can travel and be consumed."},{"title":"International certifications","body":"Azaki lists FSSC, HACCP, Halal, SNI, US FDA, GACC and BPOM among its quality credentials."},{"title":"Plant-based nutrition","body":"The brand emphasizes protein, dietary fiber, preservative-free positioning and traditional fermentation."},{"title":"Distributed production","body":"Its public story describes expansion to more than 80 factories and cities across Indonesia."}],
+  "gallery":[{"image":"https://tempeazaki.com/wp-content/uploads/2025/02/Frame-427323138.jpg","label":"Tempeh product family","caption":"Fresh, frozen and snack formats built for different markets."},{"image":"https://tempeazaki.com/wp-content/uploads/elementor/thumbs/Frame-427323136-r2vkghzxfaiorotejevvvxrdyglt27yv1qdpznczdc.jpg","label":"Original Tempe Chips","caption":"A convenient snack interpretation of Indonesian tempeh."},{"image":"","label":"13-country export reach","caption":"Bringing Indonesian tempeh into international retail and foodservice channels."}],
+  "actions":[{"key":"website","label":"Official Website","url":"https://tempeazaki.com/"},{"key":"catalog","label":"Explore Products","url":"https://tempeazaki.com/products/"},{"key":"website","label":"About Azaki","url":"https://tempeazaki.com/about/"},{"key":"whatsapp","label":"WhatsApp","url":"https://wa.me/6281315441691"}]
 }

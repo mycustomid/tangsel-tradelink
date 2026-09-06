@@ -1,22 +1,9 @@
 {
-  "tagline": "MADE IN INDONESIA. BUILT FOR THE WORLD.",
-  "eyebrow": "World-class automotive manufacturing & export",
-  "heroImage": "https://image.thum.io/get/width/1400/crop/900/noanimate/https://www.toyota.co.id/manufacturing",
-  "palette": {"bg":"#f3f3f3","ink":"#111111","accent":"#eb0a1e","surface":"#ffffff"},
-  "highlights": [
-    {"title":"5 production facilities","body":"TMMIN operates world-class production facilities in Sunter and Karawang for vehicles, engines, components and production tools."},
-    {"title":"99 export destinations","body":"Toyota Indonesia exports CBU, CKD, engines, components and production tools across multiple global regions."},
-    {"title":"Toyota Production System","body":"Manufacturing is structured around Jidoka, Just-in-Time and continuous efficiency across the production process."},
-    {"title":"50+ years in Indonesia","body":"TMMIN has grown as a major manufacturing and export base in the Asia-Pacific automotive ecosystem."}
-  ],
-  "gallery": [
-    {"image":"https://image.thum.io/get/width/1100/crop/800/noanimate/https://www.toyota.co.id/corporate","label":"Corporate & export profile"},
-    {"image":"https://image.thum.io/get/width/1100/crop/800/noanimate/https://www.toyota.co.id/id/manufacturing/how-we-manufacture","label":"How Toyota manufactures"},
-    {"image":"https://image.thum.io/get/width/1100/crop/800/noanimate/https://www.toyota.co.id/manufacturing/factory","label":"Sunter & Karawang facilities"}
-  ],
-  "actions": [
-    {"key":"website","label":"Corporate Profile","url":"https://www.toyota.co.id/corporate"},
-    {"key":"website","label":"Manufacturing","url":"https://www.toyota.co.id/manufacturing"},
-    {"key":"website","label":"How We Manufacture","url":"https://www.toyota.co.id/id/manufacturing/how-we-manufacture"}
-  ]
+  "logoDomain":"toyota.co.id","brandLabel":"TMMIN","tagline":"MADE IN INDONESIA. BUILT FOR THE WORLD.","eyebrow":"World-class automotive manufacturing & export","heroImage":"https://i.ytimg.com/vi/Xkr_Ozl4pBA/maxresdefault.jpg",
+  "palette":{"bg":"#f3f3f3","ink":"#101010","accent":"#eb0a1e","surface":"#ffffff"},
+  "story":{"title":"Indonesia as a Toyota manufacturing and export base for the world.","body":"TMMIN is Toyota Motor Corporation’s Indonesian manufacturing subsidiary, producing vehicles, engines, components and production tools. Its official corporate profile highlights five production facilities in Sunter and Karawang, decades of local manufacturing and a large global export footprint."},
+  "stats":[{"value":"5","label":"production facilities"},{"value":"50+","label":"years in Indonesia"},{"value":">3.1M","label":"cumulative vehicle exports"},{"value":"99","label":"export destinations listed"}],
+  "highlights":[{"title":"Sunter + Karawang","body":"Five facilities cover engines, press and casting parts, complete vehicles and production tooling."},{"title":"Toyota Production System","body":"Jidoka and Just-in-Time underpin a high-precision manufacturing system focused on quality and efficiency."},{"title":"Global export base","body":"CBU, CKD, engines, components and production tools move from Indonesia to international markets."},{"title":"Electrified manufacturing","body":"Karawang production includes conventional and hybrid models as Indonesia expands electrified vehicle capability."}],
+  "gallery":[{"image":"https://i.ytimg.com/vi/Xkr_Ozl4pBA/maxresdefault.jpg","label":"Karawang manufacturing","caption":"A modern production base supporting domestic and export demand.","url":"https://www.youtube.com/watch?v=Xkr_Ozl4pBA"},{"image":"https://i.ytimg.com/vi/uNifBwyyMDc/maxresdefault.jpg","label":"Inside vehicle production","caption":"Stamping, welding, painting and assembly at TMMIN Karawang.","url":"https://www.youtube.com/watch?v=uNifBwyyMDc"},{"image":"https://i.ytimg.com/vi/a5Q-RaqCADY/maxresdefault.jpg","label":"Export milestone","caption":"Indonesia-made Toyota vehicles reaching global markets.","url":"https://www.youtube.com/watch?v=a5Q-RaqCADY"}],
+  "actions":[{"key":"website","label":"Corporate Profile","url":"https://www.toyota.co.id/corporate"},{"key":"website","label":"Manufacturing","url":"https://www.toyota.co.id/manufacturing"},{"key":"website","label":"How We Manufacture","url":"https://www.toyota.co.id/en/manufacturing/how-we-manufacture"},{"key":"website","label":"Factory Network","url":"https://www.toyota.co.id/en/manufacturing/factory"}]
 }
