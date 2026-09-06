@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
+import { getTenantLinks } from '../src/lib/tenant-utils.mjs';
 
 const readJson = (path) => JSON.parse(fs.readFileSync(new URL(path, import.meta.url), 'utf8'));
 
@@ -11,6 +12,11 @@ test('Roemah Koffie v2 uses image-led menus and locations without Linktree brand
   assert.ok(roemah.menus.every((item) => item.image), 'every menu card needs a thumbnail image');
   assert.ok(Array.isArray(roemah.locationGallery) && roemah.locationGallery.length >= 2, 'location section needs visual gallery imagery');
   assert.ok(roemah.locations.every((item) => item.url), 'every location needs a Google Maps destination');
+});
+
+test('Linktree can remain a research source but is not rendered as a visitor CTA', () => {
+  const links = getTenantLinks({ website: 'https://example.com', linktree: 'https://linktr.ee/example' });
+  assert.deepEqual(links.map((item) => item.key), ['website']);
 });
 
 for (const slug of ['sanfood-internasional', 'tempe-azaki']) {
