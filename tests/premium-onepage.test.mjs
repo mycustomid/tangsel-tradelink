@@ -24,7 +24,7 @@ test('premium tenant pages behave as scroll-led one-page stories', () => {
 });
 
 test('premium routes use brand-only document titles and tenant-specific favicons', () => {
-  assert.doesNotMatch(slug, /\$\{tenant\.name\} — Tangsel TradeLink/);
+  assert.match(slug, /const pageTitle = isPremium \? tenant\.name/);
   assert.match(slug, /favicon=/);
   assert.match(slug, /makeMonogramFavicon/);
 });
