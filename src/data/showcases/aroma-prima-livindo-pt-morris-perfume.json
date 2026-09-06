@@ -1,9 +1,35 @@
 {
-  "logoDomain":"livindo.co.id","brandLabel":"MORRIS","tagline":"FRAGRANCE FOR EVERYDAY CONFIDENCE.","eyebrow":"Morris fragrance & personal care by Aroma Prima Livindo","heroImage":"https://down-id.img.susercontent.com/file/id-11134207-7r98p-llhjs0vw2u84b5",
-  "palette":{"bg":"#f9edf5","ink":"#251522","accent":"#e38db7","surface":"#fffafd"},
-  "story":{"title":"A mass fragrance brand with a surprisingly deep scent wardrobe.","body":"Morris by PT Aroma Prima Livindo spans everyday Eau de Parfum, gourmand, fantasy, travel and other fragrance families. The official catalogue shows a broad portfolio designed around approachable scent stories, while manufacturing is based in Tangerang."},
-  "stats":[{"value":"119","label":"EDP catalogue results listed"},{"value":"110ml","label":"Fantasy Edition format"},{"value":"Tangerang","label":"manufacturing base"},{"value":"6","label":"Fantasy scent stories"}],
-  "highlights":[{"title":"Fantasy Edition","body":"Playful scent identities such as Beauty Inside, Surprise Me, Feel Free and Cozy Life create an easy discovery entry point."},{"title":"Gourmand direction","body":"Pistachio, vanilla and smoothie-inspired releases show a contemporary gourmand side of the Morris portfolio."},{"title":"Broad fragrance wardrobe","body":"The official catalogue spans women, men, travel, themed and everyday fragrance formats."},{"title":"Local manufacturing","body":"Aroma Prima Livindo lists its factory in the Balaraja industrial area of Tangerang, Indonesia."}],
-  "gallery":[{"image":"https://down-id.img.susercontent.com/file/id-11134207-7r98p-llhjs0vw2u84b5","label":"Fantasy Edition","caption":"Six playful scent stories in one recognizable Morris family."},{"image":"","label":"Gourmand Edition","caption":"Dessert-inspired scent directions for contemporary fragrance tastes."},{"image":"","label":"Everyday fragrance wardrobe","caption":"A broad catalogue covering daily wear, travel and themed editions."}],
-  "actions":[{"key":"website","label":"Morris Eau de Parfum","url":"https://livindo.co.id/eau-de-parfum/"},{"key":"catalog","label":"Fragrance Collection","url":"https://livindo.co.id/product-category/eau-de-parfum/"},{"key":"website","label":"Fantasy Edition Detail","url":"https://livindo.co.id/product/morris-eau-de-parfum-fantasy-edition-110ml-beauty-inside/"},{"key":"website","label":"Aroma Prima Livindo","url":"https://livindo.co.id/"}]
+  "logoDomain": "livindo.co.id",
+  "brandLabel": "MORRIS",
+  "tagline": "A deeper wardrobe of everyday scent.",
+  "eyebrow": "Morris fragrance by PT Aroma Prima Livindo",
+  "heroImage": "https://down-id.img.susercontent.com/file/id-11134207-7r98p-llhjs0vw2u84b5",
+  "palette": {"bg":"#f9edf5","ink":"#251522","accent":"#e38db7","surface":"#fffafd"},
+  "story": {
+    "title": "One fragrance label, many moods.",
+    "body": "Morris by PT Aroma Prima Livindo spans everyday Eau de Parfum, gourmand, fantasy, travel and other fragrance families. The official catalogue shows a broad portfolio designed around approachable scent stories, while manufacturing is based in Tangerang."
+  },
+  "stats": [
+    {"value":"119","label":"EDP catalogue results listed"},
+    {"value":"110ml","label":"Fantasy Edition format"},
+    {"value":"Tangerang","label":"manufacturing base"},
+    {"value":"6","label":"Fantasy scent stories"}
+  ],
+  "highlights": [
+    {"title":"Fantasy Edition","body":"Playful scent identities such as Beauty Inside, Surprise Me, Feel Free and Cozy Life create an easy discovery entry point."},
+    {"title":"Gourmand direction","body":"Pistachio, vanilla and smoothie-inspired releases show a contemporary gourmand side of the Morris portfolio."},
+    {"title":"Broad fragrance wardrobe","body":"The official catalogue spans women, men, travel, themed and everyday fragrance formats."},
+    {"title":"Local manufacturing","body":"Aroma Prima Livindo lists its factory in the Balaraja industrial area of Tangerang, Indonesia."}
+  ],
+  "gallery": [
+    {"image":"https://down-id.img.susercontent.com/file/id-11134207-7r98p-llhjs0vw2u84b5","label":"Fantasy Edition","caption":"Six playful scent stories in one recognizable Morris family."},
+    {"image":"","label":"Gourmand Edition","caption":"Dessert-inspired scent directions for contemporary fragrance tastes."},
+    {"image":"","label":"Everyday fragrance wardrobe","caption":"A broad catalogue covering daily wear, travel and themed editions."}
+  ],
+  "actions": [
+    {"key":"website","label":"Morris Eau de Parfum","url":"https://livindo.co.id/eau-de-parfum/"},
+    {"key":"catalog","label":"Fragrance Collection","url":"https://livindo.co.id/product-category/eau-de-parfum/"},
+    {"key":"website","label":"Fantasy Edition Detail","url":"https://livindo.co.id/product/morris-eau-de-parfum-fantasy-edition-110ml-beauty-inside/"},
+    {"key":"website","label":"Aroma Prima Livindo","url":"https://livindo.co.id/"}
+  ]
 }

@@ -1,9 +1,35 @@
 {
-  "logoDomain":"dragonprimafarma.com","brandLabel":"DRAGON","tagline":"TRUSTED QUALITY. NATURAL WELLNESS SINCE 1948.","eyebrow":"Traditional medicine, wellness & personal care manufacturing","heroImage":"https://cf.shopee.co.id/file/bfe101be82a3acbbf35af3a8d4e252d1",
-  "palette":{"bg":"#f1f6ee","ink":"#182419","accent":"#e5bd28","surface":"#ffffff"},
-  "story":{"title":"A heritage wellness manufacturer built around familiar Indonesian household remedies.","body":"Dragon Prima Farma began with menthol products and expanded into eucalyptus oil, telon oil, massage oil, balm, aromatherapy and medicated powder. The company emphasizes herbal ingredients, regulated production, quality control and openness to domestic, maklon and export cooperation."},
-  "stats":[{"value":"1948","label":"heritage since"},{"value":"8+","label":"major wellness categories"},{"value":"BPOM","label":"regulated product portfolio"},{"value":"Halal","label":"certification highlighted"}],
-  "highlights":[{"title":"Balm heritage","body":"Balsem Otot, Hijau and Kuning are part of a long-running topical wellness portfolio."},{"title":"Natural oil portfolio","body":"Eucalyptus, citronella, telon and massage oils extend the Dragon household wellness range."},{"title":"Quality + compliance","body":"The company highlights R&D, QC and national certification as foundations of product consistency."},{"title":"B2B ready","body":"Dragon publicly welcomes national maklon, bulk purchase and international export cooperation."}],
-  "gallery":[{"image":"https://cf.shopee.co.id/file/bfe101be82a3acbbf35af3a8d4e252d1","label":"Dragon product family","caption":"A broad household wellness portfolio under a recognizable heritage brand."},{"image":"https://down-id.img.susercontent.com/file/id-11134207-822wl-mnf5z352lyiw8e","label":"Balsem Kuning","caption":"A classic Dragon balm format with BPOM and Halal positioning."},{"image":"","label":"Natural oils & menthol","caption":"Eucalyptus, telon, citronella, massage oils and menthol products."}],
-  "actions":[{"key":"website","label":"Official Website","url":"https://dragonprimafarma.com/"},{"key":"catalog","label":"Product Portfolio","url":"https://dragonprimafarma.com/produk/read/domestik"},{"key":"website","label":"Balm Collection","url":"https://dragonprimafarma.com/produk/read/balsem"},{"key":"whatsapp","label":"Official WhatsApp","url":"https://wa.me/6282111009910"}]
+  "logoDomain": "dragonprimafarma.com",
+  "brandLabel": "DRAGON",
+  "tagline": "Household wellness, made in Indonesia since 1948.",
+  "eyebrow": "Menthol, oils, balms and traditional wellness",
+  "heroImage": "https://cf.shopee.co.id/file/bfe101be82a3acbbf35af3a8d4e252d1",
+  "palette": {"bg":"#f1f6ee","ink":"#182419","accent":"#e5bd28","surface":"#ffffff"},
+  "story": {
+    "title": "A familiar Indonesian medicine cabinet, scaled into manufacturing.",
+    "body": "Dragon Prima Farma began with menthol products and expanded into eucalyptus oil, telon oil, massage oil, balm, aromatherapy and medicated powder. The company emphasizes herbal ingredients, regulated production, quality control and openness to domestic, maklon and export cooperation."
+  },
+  "stats": [
+    {"value":"1948","label":"heritage since"},
+    {"value":"8+","label":"major wellness categories"},
+    {"value":"BPOM","label":"regulated product portfolio"},
+    {"value":"Halal","label":"certification highlighted"}
+  ],
+  "highlights": [
+    {"title":"Balm heritage","body":"Balsem Otot, Hijau and Kuning are part of a long-running topical wellness portfolio."},
+    {"title":"Natural oil portfolio","body":"Eucalyptus, citronella, telon and massage oils extend the Dragon household wellness range."},
+    {"title":"Quality + compliance","body":"The company highlights R&D, QC and national certification as foundations of product consistency."},
+    {"title":"B2B ready","body":"Dragon publicly welcomes national maklon, bulk purchase and international export cooperation."}
+  ],
+  "gallery": [
+    {"image":"https://cf.shopee.co.id/file/bfe101be82a3acbbf35af3a8d4e252d1","label":"Dragon product family","caption":"A broad household wellness portfolio under a recognizable heritage brand."},
+    {"image":"https://down-id.img.susercontent.com/file/id-11134207-822wl-mnf5z352lyiw8e","label":"Balsem Kuning","caption":"A classic Dragon balm format with BPOM and Halal positioning."},
+    {"image":"","label":"Natural oils & menthol","caption":"Eucalyptus, telon, citronella, massage oils and menthol products."}
+  ],
+  "actions": [
+    {"key":"website","label":"Official Website","url":"https://dragonprimafarma.com/"},
+    {"key":"catalog","label":"Product Portfolio","url":"https://dragonprimafarma.com/produk/read/domestik"},
+    {"key":"website","label":"Balm Collection","url":"https://dragonprimafarma.com/produk/read/balsem"},
+    {"key":"whatsapp","label":"Official WhatsApp","url":"https://wa.me/6282111009910"}
+  ]
 }

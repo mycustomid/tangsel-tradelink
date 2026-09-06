@@ -1,9 +1,35 @@
 {
-  "logoDomain":"tatalogam.com","brandLabel":"TATALOGAM","tagline":"QUALITY COATED STEEL FOR A MORE SUSTAINABLE FUTURE.","eyebrow":"Metal roofing, light steel & smart building systems","heroImage":"https://images.bisnis.com/posts/2020/12/18/1332996/taso.jpg",
-  "palette":{"bg":"#f2f7ef","ink":"#17301d","accent":"#70a943","surface":"#ffffff"},
-  "story":{"title":"From corrosion-resistant roofing to a complete lightweight building ecosystem.","body":"Founded in 1994, Tatalogam positions itself as a pioneer of coated steel roofing and lightweight construction systems in Indonesia. The current ecosystem spans metal roof tiles, light steel, floor decks, large-span structures, accessories, apps and an authorized reseller network."},
-  "stats":[{"value":"1994","label":"founded"},{"value":"ISO 9001","label":"quality system highlighted"},{"value":"2","label":"roofing patents highlighted"},{"value":"6+","label":"major product categories"}],
-  "highlights":[{"title":"Metal roof leadership","body":"Metal tiles and roofing are positioned around corrosion resistance, weather durability and lighter structures."},{"title":"Light steel ecosystem","body":"TASO and related systems extend the offer into structural framing, warehouses and smart housing."},{"title":"Standards + patents","body":"The company highlights ISO 9001, relevant ASTM/AISC standards and Indonesian roofing patents."},{"title":"Authorized reseller network","body":"A broad official reseller list makes product authenticity and local availability part of the customer journey."}],
-  "gallery":[{"image":"https://images.bisnis.com/posts/2020/12/18/1332996/taso.jpg","label":"TASO lightweight steel","caption":"Structural framing designed around strength, consistency and corrosion resistance."},{"image":"","label":"Multi Roof","caption":"Metal roofing that combines lightweight construction with residential aesthetics."},{"image":"","label":"Sakura Roof","caption":"Modern metal roof profiles offered across multiple colors and building styles."}],
-  "actions":[{"key":"website","label":"Official Website","url":"https://tatalogam.com/"},{"key":"catalog","label":"Product Categories","url":"https://tatalogam.com/product-categories/"},{"key":"website","label":"Authorized Resellers","url":"https://tatalogam.com/authorized-reseller/"},{"key":"whatsapp","label":"WhatsApp","url":"https://wa.me/628111920770"}]
+  "logoDomain": "tatalogam.com",
+  "brandLabel": "TATALOGAM",
+  "tagline": "Coated steel. Roofing systems. Lightweight construction.",
+  "eyebrow": "Metal roofing, light steel and building systems since 1994",
+  "heroImage": "https://images.bisnis.com/posts/2020/12/18/1332996/taso.jpg",
+  "palette": {"bg":"#f2f7ef","ink":"#17301d","accent":"#70a943","surface":"#ffffff"},
+  "story": {
+    "title": "A roofing problem became a building-system business.",
+    "body": "Founded in 1994, Tatalogam positions itself as a pioneer of coated steel roofing and lightweight construction systems in Indonesia. The current ecosystem spans metal roof tiles, light steel, floor decks, large-span structures, accessories, apps and an authorized reseller network."
+  },
+  "stats": [
+    {"value":"1994","label":"founded"},
+    {"value":"ISO 9001","label":"quality system highlighted"},
+    {"value":"2","label":"roofing patents highlighted"},
+    {"value":"6+","label":"major product categories"}
+  ],
+  "highlights": [
+    {"title":"Metal roof leadership","body":"Metal tiles and roofing are positioned around corrosion resistance, weather durability and lighter structures."},
+    {"title":"Light steel ecosystem","body":"TASO and related systems extend the offer into structural framing, warehouses and smart housing."},
+    {"title":"Standards + patents","body":"The company highlights ISO 9001, relevant ASTM/AISC standards and Indonesian roofing patents."},
+    {"title":"Authorized reseller network","body":"A broad official reseller list makes product authenticity and local availability part of the customer journey."}
+  ],
+  "gallery": [
+    {"image":"https://images.bisnis.com/posts/2020/12/18/1332996/taso.jpg","label":"TASO lightweight steel","caption":"Structural framing designed around strength, consistency and corrosion resistance."},
+    {"image":"","label":"Multi Roof","caption":"Metal roofing that combines lightweight construction with residential aesthetics."},
+    {"image":"","label":"Sakura Roof","caption":"Modern metal roof profiles offered across multiple colors and building styles."}
+  ],
+  "actions": [
+    {"key":"website","label":"Official Website","url":"https://tatalogam.com/"},
+    {"key":"catalog","label":"Product Categories","url":"https://tatalogam.com/product-categories/"},
+    {"key":"website","label":"Authorized Resellers","url":"https://tatalogam.com/authorized-reseller/"},
+    {"key":"whatsapp","label":"WhatsApp","url":"https://wa.me/628111920770"}
+  ]
 }

@@ -1,9 +1,40 @@
 {
-  "logoDomain":"sinarmasland.com","brandLabel":"SINAR MAS LAND","tagline":"BUILDING CITIES, COMMUNITIES AND FUTURE VALUE.","eyebrow":"Integrated property & industrial development","heroImage":"https://deltamas.id/wp-content/uploads/2024/11/new-GIIC-4.jpg",
-  "palette":{"bg":"#f5f3ed","ink":"#18202a","accent":"#d5b24b","surface":"#fffdf8"},
-  "story":{"title":"Integrated property development at city scale — from townships to industrial ecosystems.","body":"Sinar Mas Land’s portfolio spans township, residential, commercial, office, retail, hospitality and industrial development. Its industrial portfolio includes GIIC in Bekasi and KIIC in Karawang, positioning the group within Indonesia’s manufacturing and investment ecosystem."},
-  "stats":[{"value":"GIIC","label":"green industrial ecosystem"},{"value":"KIIC","label":"Karawang industrial city"},{"value":"BSD","label":"major township platform"},{"value":"7","label":"development categories listed"}],
-  "highlights":[{"title":"Industrial ecosystems","body":"GIIC and KIIC combine industrial land, infrastructure and large-scale manufacturing communities."},{"title":"Integrated development","body":"The portfolio extends across township, residential, retail, office, commercial and hospitality."},{"title":"Green planning","body":"GIIC is positioned around environmentally conscious industrial development and green infrastructure."},{"title":"BSD City base","body":"Sinar Mas Land Plaza in BSD places the group directly within Tangerang’s major development corridor."}],
-  "gallery":[{"image":"https://deltamas.id/wp-content/uploads/2024/11/new-GIIC-4.jpg","label":"GIIC industrial ecosystem","caption":"Large-scale green industrial development in Bekasi."},{"image":"https://asset.kompas.com/crops/86IL5U2qyyJahSPwg9d4TD5BzMw%3D/81x0%3A939x573/1200x900/data/photo/2021/10/12/6165bb5a124a1.jpeg","label":"KIIC Karawang","caption":"A mature industrial city serving national and multinational manufacturers."},{"image":"","label":"Integrated developments","caption":"Township, residential, retail, commercial, hospitality and office platforms."}],
-  "actions":[{"key":"website","label":"Official Website","url":"https://www.sinarmasland.com/id"},{"key":"website","label":"Industrial Portfolio","url":"https://www.sinarmasland.com/id/development/industrial"},{"key":"website","label":"Contact Sinar Mas Land","url":"https://www.sinarmasland.com/id/contact-us"},{"key":"maps","label":"Sinar Mas Land Plaza","url":"https://www.google.com/maps/search/?api=1&query=Sinar%20Mas%20Land%20Plaza%20BSD%20City"}]
+  "logoDomain": "sinarmasland.com",
+  "brandLabel": "SINAR MAS LAND",
+  "tagline": "Townships, industrial estates and places at city scale.",
+  "eyebrow": "Integrated property development from BSD and beyond",
+  "heroImage": "https://deltamas.id/wp-content/uploads/2024/11/new-GIIC-4.jpg",
+  "palette": {
+    "bg": "#f5f3ed",
+    "ink": "#18202a",
+    "accent": "#d5b24b",
+    "surface": "#fffdf8"
+  },
+  "story": {
+    "title": "From individual buildings to the systems around them.",
+    "body": "Sinar Mas Land’s portfolio spans township, residential, commercial, office, retail, hospitality and industrial development. Its industrial portfolio includes GIIC in Bekasi and KIIC in Karawang, positioning the group within Indonesia’s manufacturing and investment ecosystem."
+  },
+  "stats": [
+    {"value":"GIIC","label":"green industrial ecosystem"},
+    {"value":"KIIC","label":"Karawang industrial city"},
+    {"value":"BSD","label":"major township platform"},
+    {"value":"7","label":"development categories listed"}
+  ],
+  "highlights": [
+    {"title":"Industrial ecosystems","body":"GIIC and KIIC combine industrial land, infrastructure and large-scale manufacturing communities."},
+    {"title":"Integrated development","body":"The portfolio extends across township, residential, retail, office, commercial and hospitality."},
+    {"title":"Green planning","body":"GIIC is positioned around environmentally conscious industrial development and green infrastructure."},
+    {"title":"BSD City base","body":"Sinar Mas Land Plaza in BSD places the group directly within Tangerang’s major development corridor."}
+  ],
+  "gallery": [
+    {"image":"https://deltamas.id/wp-content/uploads/2024/11/new-GIIC-4.jpg","label":"GIIC industrial ecosystem","caption":"Large-scale green industrial development in Bekasi."},
+    {"image":"https://asset.kompas.com/crops/86IL5U2qyyJahSPwg9d4TD5BzMw%3D/81x0%3A939x573/1200x900/data/photo/2021/10/12/6165bb5a124a1.jpeg","label":"KIIC Karawang","caption":"A mature industrial city serving national and multinational manufacturers."},
+    {"image":"","label":"Integrated developments","caption":"Township, residential, retail, commercial, hospitality and office platforms."}
+  ],
+  "actions": [
+    {"key":"website","label":"Official Website","url":"https://www.sinarmasland.com/id"},
+    {"key":"website","label":"Industrial Portfolio","url":"https://www.sinarmasland.com/id/development/industrial"},
+    {"key":"website","label":"Contact Sinar Mas Land","url":"https://www.sinarmasland.com/id/contact-us"},
+    {"key":"maps","label":"Sinar Mas Land Plaza","url":"https://www.google.com/maps/search/?api=1&query=Sinar%20Mas%20Land%20Plaza%20BSD%20City"}
+  ]
 }

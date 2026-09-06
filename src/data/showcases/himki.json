@@ -1,9 +1,32 @@
 {
-  "logoDomain":"himki.id","brandLabel":"HIMKI","tagline":"INDONESIA'S GATEWAY TO FURNITURE AND CRAFT.","eyebrow":"National furniture & handicraft industry network","heroImage":"https://static.wixstatic.com/media/7a4d27_362f7df7c055471686bbe485895f0f69~mv2.jpg/v1/fill/w_980%2Ch_551%2Cal_c%2Cq_85%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto/7a4d27_362f7df7c055471686bbe485895f0f69~mv2.jpg",
-  "palette":{"bg":"#f5efe6","ink":"#27221e","accent":"#4ba89c","surface":"#fffaf4"},
-  "story":{"title":"A national bridge between Indonesian makers, global buyers and the furniture value chain.","body":"HIMKI represents Indonesia’s furniture and craft industry and positions itself as a gateway connecting buyers, investors, designers and partners with manufacturers and artisans. The organization highlights 18 production regions, 2,500+ verified suppliers and a US$6 billion export vision for 2031."},
-  "stats":[{"value":"2,500+","label":"verified suppliers"},{"value":"18","label":"production regions"},{"value":"US$6B","label":"2031 export vision"},{"value":"TEI","label":"industry partner & exhibitor"}],
-  "highlights":[{"title":"Buyer gateway","body":"HIMKI connects international buyers and partners with Indonesian manufacturers and artisans."},{"title":"National production map","body":"Eighteen production regions are presented as strategic furniture and craft manufacturing hubs."},{"title":"Design + market access","body":"The association works across design, promotion, market development, standards and member competitiveness."},{"title":"Export acceleration","body":"HIMKI and government partners are actively framing growth around stronger global market access."}],
-  "gallery":[{"image":"https://static.wixstatic.com/media/7a4d27_362f7df7c055471686bbe485895f0f69~mv2.jpg/v1/fill/w_980%2Ch_551%2Cal_c%2Cq_85%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto/7a4d27_362f7df7c055471686bbe485895f0f69~mv2.jpg","label":"HIMKI at Trade Expo","caption":"An industry meeting point for buyers, makers and partners."},{"image":"https://storage.googleapis.com/pimassest1/marketing-files/dezign-district/Newsroom/HIMKI%20Design%20Awards%202026/homepage-thumbnail.jpg","label":"Furniture design ecosystem","caption":"Contemporary Indonesian furniture presented through design-led industry platforms."},{"image":"https://cdn.harianbasis.co/media/images/2026/03/OSOf0VlMBz.jpeg?height=674&location=1&quality=80&watermark=1&width=1200","label":"IFEX furniture showcase","caption":"A visual snapshot of Indonesia’s furniture and craft manufacturing diversity."}],
-  "actions":[{"key":"website","label":"Official Website","url":"https://www.himki.id/"},{"key":"website","label":"About HIMKI","url":"https://www.himki.id/tentang-himki"},{"key":"website","label":"Trade & Industry Updates","url":"https://www.himki.id/"},{"key":"email","label":"Email HIMKI","url":"mailto:info@himki.id"}]
+  "logoDomain": "himki.id",
+  "brandLabel": "HIMKI",
+  "tagline": "Indonesia's gateway to furniture and craft.",
+  "eyebrow": "Furniture and craft manufacturing network across Indonesia",
+  "heroImage": "https://static.wixstatic.com/media/7a4d27_362f7df7c055471686bbe485895f0f69~mv2.jpg/v1/fill/w_980%2Ch_551%2Cal_c%2Cq_85%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto/7a4d27_362f7df7c055471686bbe485895f0f69~mv2.jpg",
+  "palette": {"bg":"#f5efe6","ink":"#27221e","accent":"#4ba89c","surface":"#fffaf4"},
+  "story": {"title":"A national production network, opened to global buyers.","body":"HIMKI represents Indonesia’s furniture and craft industry and positions itself as a gateway connecting buyers, investors, designers and partners with manufacturers and artisans. The organization highlights 18 production regions, 2,500+ verified suppliers and a US$6 billion export vision for 2031."},
+  "stats": [
+    {"value":"2,500+","label":"verified suppliers"},
+    {"value":"18","label":"production regions"},
+    {"value":"US$6B","label":"2031 export vision"},
+    {"value":"TEI","label":"industry partner & exhibitor"}
+  ],
+  "highlights": [
+    {"title":"Buyer gateway","body":"HIMKI connects international buyers and partners with Indonesian manufacturers and artisans."},
+    {"title":"National production map","body":"Eighteen production regions are presented as strategic furniture and craft manufacturing hubs."},
+    {"title":"Design + market access","body":"The association works across design, promotion, market development, standards and member competitiveness."},
+    {"title":"Export acceleration","body":"HIMKI and government partners are actively framing growth around stronger global market access."}
+  ],
+  "gallery": [
+    {"image":"https://static.wixstatic.com/media/7a4d27_362f7df7c055471686bbe485895f0f69~mv2.jpg/v1/fill/w_980%2Ch_551%2Cal_c%2Cq_85%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto/7a4d27_362f7df7c055471686bbe485895f0f69~mv2.jpg","label":"HIMKI at Trade Expo","caption":"An industry meeting point for buyers, makers and partners."},
+    {"image":"https://storage.googleapis.com/pimassest1/marketing-files/dezign-district/Newsroom/HIMKI%20Design%20Awards%202026/homepage-thumbnail.jpg","label":"Furniture design ecosystem","caption":"Contemporary Indonesian furniture presented through design-led industry platforms."},
+    {"image":"https://cdn.harianbasis.co/media/images/2026/03/OSOf0VlMBz.jpeg?height=674&location=1&quality=80&watermark=1&width=1200","label":"IFEX furniture showcase","caption":"A visual snapshot of Indonesia’s furniture and craft manufacturing diversity."}
+  ],
+  "actions": [
+    {"key":"website","label":"Official Website","url":"https://www.himki.id/"},
+    {"key":"website","label":"About HIMKI","url":"https://www.himki.id/tentang-himki"},
+    {"key":"website","label":"Trade & Industry Updates","url":"https://www.himki.id/"},
+    {"key":"email","label":"Email HIMKI","url":"mailto:info@himki.id"}
+  ]
 }
