@@ -6,18 +6,15 @@ export function resolveTheme(tenant = {}) {
 
   const category = String(tenant.category || '').toLowerCase();
   if (/food|beverage|f&b|coffee|snack|culinary|agri/.test(category)) return 'food';
-  if (/beauty|cosmetic|personal care|wellness|skincare/.test(category)) return 'beauty';
+  if (/beauty|cosmetic|personal care|wellness|skincare|pharma/.test(category)) return 'beauty';
   if (/industrial|manufactur|machinery|engineering|automotive|technology/.test(category)) return 'industrial';
   if (/fashion|textile|home decor|furniture|craft|handicraft|interior/.test(category)) return 'editorial';
   return 'default';
 }
 
 export function uniqueValues(tenants, key) {
-  return [...new Set(
-    tenants
-      .map((tenant) => String(tenant?.[key] || '').trim())
-      .filter(Boolean),
-  )].sort((a, b) => a.localeCompare(b, 'id'));
+  return [...new Set(tenants.map((tenant) => String(tenant?.[key] || '').trim()).filter(Boolean))]
+    .sort((a, b) => a.localeCompare(b, 'id'));
 }
 
 export function filterTenants(tenants, { query = '', category = '', hall = '' } = {}) {
@@ -26,10 +23,8 @@ export function filterTenants(tenants, { query = '', category = '', hall = '' } 
   const normalizedHall = String(hall).trim().toLowerCase();
 
   return tenants.filter((tenant) => {
-    const haystack = [tenant.name, tenant.category, tenant.hall, tenant.booth]
-      .map((value) => String(value || '').toLowerCase())
-      .join(' ');
-
+    const haystack = [tenant.name, tenant.category, tenant.hall, tenant.booth, tenant.description]
+      .map((value) => String(value || '').toLowerCase()).join(' ');
     return (!normalizedQuery || haystack.includes(normalizedQuery))
       && (!normalizedCategory || String(tenant.category || '').toLowerCase() === normalizedCategory)
       && (!normalizedHall || String(tenant.hall || '').toLowerCase() === normalizedHall);
@@ -43,9 +38,7 @@ function safeWebUrl(value) {
   try {
     const parsed = new URL(raw);
     return ['http:', 'https:'].includes(parsed.protocol) ? parsed.toString() : '';
-  } catch {
-    return '';
-  }
+  } catch { return ''; }
 }
 
 function whatsappUrl(value) {
@@ -64,17 +57,30 @@ function emailUrl(value) {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email) ? `mailto:${email}` : '';
 }
 
-export function getTenantLinks(tenant) {
-  const candidates = [
-    ['whatsapp', 'WhatsApp', 'WA', whatsappUrl(tenant.whatsapp)],
-    ['maps', 'Google Maps / Rating', 'MAP', safeWebUrl(tenant.maps)],
-    ['instagram', 'Instagram', 'IG', safeWebUrl(tenant.instagram)],
-    ['website', 'Website', 'WEB', safeWebUrl(tenant.website)],
-    ['catalog', 'Katalog', 'CAT', safeWebUrl(tenant.catalog)],
-    ['email', 'Email', '@', emailUrl(tenant.email)],
-  ];
+export function getTenantLogo(tenant = {}) {
+  const explicitLogo = safeWebUrl(tenant.logo);
+  if (explicitLogo) return explicitLogo;
+  const website = safeWebUrl(tenant.website);
+  if (!website || website.startsWith('/')) return '';
+  try {
+    const hostname = new URL(website).hostname;
+    return hostname ? `https://www.google.com/s2/favicons?sz=128&domain_url=${encodeURIComponent(`https://${hostname}`)}` : '';
+  } catch { return ''; }
+}
 
-  return candidates
-    .filter(([, , , href]) => Boolean(href))
-    .map(([key, label, icon, href]) => ({ key, label, icon, href }));
+export function getTenantLinks(tenant = {}) {
+  const candidates = [
+    ['whatsapp', 'WhatsApp', 'whatsapp', whatsappUrl(tenant.whatsapp)],
+    ['instagram', 'Instagram', 'instagram', safeWebUrl(tenant.instagram)],
+    ['facebook', 'Facebook', 'facebook', safeWebUrl(tenant.facebook)],
+    ['linkedin', 'LinkedIn', 'linkedin', safeWebUrl(tenant.linkedin)],
+    ['tiktok', 'TikTok', 'tiktok', safeWebUrl(tenant.tiktok)],
+    ['youtube', 'YouTube', 'youtube', safeWebUrl(tenant.youtube)],
+    ['website', 'Official Website', 'website', safeWebUrl(tenant.website)],
+    ['linktree', 'Official Links', 'linktree', safeWebUrl(tenant.linktree)],
+    ['maps', 'Google Maps', 'maps', safeWebUrl(tenant.maps)],
+    ['catalog', 'Product Catalog', 'catalog', safeWebUrl(tenant.catalog)],
+    ['email', 'Email', 'email', emailUrl(tenant.email)],
+  ];
+  return candidates.filter(([, , , href]) => Boolean(href)).map(([key, label, icon, href]) => ({ key, label, icon, href }));
 }
