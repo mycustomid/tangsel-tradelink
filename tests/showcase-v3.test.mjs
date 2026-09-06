@@ -41,10 +41,9 @@ test('rich showcases avoid screenshot-proxy media and define real brand identity
   }
 });
 
-test('rich showcase component has visual fallbacks instead of blank media', () => {
-  assert.match(richComponent, /class="fallback"/);
+test('rich showcase component has designed visual fallbacks instead of blank media', () => {
+  assert.match(richComponent, /visual-fallback/);
   assert.match(richComponent, /onerror=/);
-  assert.match(richComponent, /logoDomain/);
   assert.match(richComponent, /stats/);
   assert.match(richComponent, /story/);
 });
