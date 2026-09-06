@@ -3,13 +3,19 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import TenantHeader from '../../components/TenantHeader.astro';
 import LinkButton from '../../components/LinkButton.astro';
 import tenants from '../../data/tenants.json';
-import { getTenantLinks, resolveTheme } from '../../lib/tenant-utils.mjs';
+import foodResearch from '../../data/research-food.json';
+import manufacturedResearch from '../../data/research-manufactured.json';
+import industrialResearch from '../../data/research-industrial.json';
+import furnitureResearch from '../../data/research-furniture.json';
+import { getTenantLinks, getTenantLogo, resolveTheme } from '../../lib/tenant-utils.mjs';
 import type { Tenant } from '../../types/tenant';
 
+const research = { ...foodResearch, ...manufacturedResearch, ...industrialResearch, ...furnitureResearch } as Record<string, Partial<Tenant>>;
+
 export function getStaticPaths() {
-  return (tenants as Tenant[]).map((tenant) => ({
-    params: { slug: tenant.slug },
-    props: { tenant },
+  return (tenants as Tenant[]).map((baseTenant) => ({
+    params: { slug: baseTenant.slug },
+    props: { tenant: { ...baseTenant, ...(research[baseTenant.slug] || {}) } },
   }));
 }
 
@@ -17,56 +23,47 @@ interface Props { tenant: Tenant }
 const { tenant } = Astro.props;
 const theme = resolveTheme(tenant);
 const links = getTenantLinks(tenant);
+const logo = getTenantLogo(tenant);
 const baseUrl = import.meta.env.BASE_URL;
 ---
 
-<BaseLayout
-  title={`${tenant.name} — Tangsel TradeLink`}
-  description={tenant.description || `${tenant.name} di Trade Expo Indonesia 2026.`}
-  theme={theme}
->
+<BaseLayout title={`${tenant.name} — Tangsel TradeLink`} description={tenant.description || `${tenant.name} at Trade Expo Indonesia 2026.`} theme={theme}>
   <main class="tenant-page shell">
-    <a class="back" href={baseUrl} aria-label="Kembali ke direktori tenant">← Direktori</a>
+    <TenantHeader name={tenant.name} category={tenant.category} hall={tenant.hall} booth={tenant.booth} description={tenant.description} logo={logo} researchStatus={tenant.researchStatus} verifiedAt={tenant.verifiedAt} />
 
-    <TenantHeader
-      name={tenant.name}
-      category={tenant.category}
-      hall={tenant.hall}
-      booth={tenant.booth}
-      description={tenant.description}
-      logo={tenant.logo}
-    />
+    <section class="connect-head" aria-labelledby="connect-title">
+      <div><p class="kicker">Connect with exhibitor</p><h2 id="connect-title">Official links</h2></div>
+      <span class="count">{links.length} available</span>
+    </section>
 
     {links.length > 0 ? (
-      <section class="links" aria-label={`Tautan ${tenant.name}`}>
-        {links.map((link) => (
-          <LinkButton href={link.href} label={link.label} icon={link.icon} />
-        ))}
+      <section class="links" aria-label={`Official links for ${tenant.name}`}>
+        {links.map((link) => <LinkButton href={link.href} label={link.label} icon={link.icon} />)}
       </section>
     ) : (
-      <section class="links-empty">
-        <p>Kontak dan tautan tenant belum tersedia.</p>
-      </section>
+      <section class="links-empty"><strong>Public contact links are still being verified.</strong><p>We do not publish guessed WhatsApp, social, or website links. Exhibition details above remain available for booth discovery.</p></section>
     )}
 
-    <footer>
-      <span>Powered by Tangsel TradeLink</span>
-      <span>TEI 2026</span>
-    </footer>
+    <aside class="source-note"><span aria-hidden="true">✓</span><p>Hall and booth data are based on the TEI 2026 floorplan. Public digital links are included only when matched to official or reliable industry sources.</p></aside>
+    <footer><span>Powered by Tangsel TradeLink</span><a href={baseUrl}>TEI 2026 tenant directory</a></footer>
   </main>
 </BaseLayout>
 
 <style>
   .tenant-page { padding-top: 14px; padding-bottom: 26px; }
-  .back { display: inline-flex; margin: 0 0 12px 4px; padding: 8px 0; color: var(--muted); font-size: .82rem; font-weight: 800; text-decoration: none; }
-  .back:hover, .back:focus-visible { color: var(--accent-strong); outline: none; }
-  .links { display: grid; gap: 10px; margin-top: 16px; }
-  .links-empty { margin-top: 16px; padding: 18px; border: 1px dashed var(--line); border-radius: 18px; text-align: center; color: var(--muted); background: rgba(255,255,255,.55); }
-  .links-empty p { margin: 0; }
-  footer { display: flex; justify-content: space-between; gap: 12px; margin-top: 24px; padding: 0 4px; color: var(--muted); font-size: .72rem; }
-
-  @media (max-width: 430px) {
-    .tenant-page { width: min(100% - 20px, 760px); }
-    footer { flex-direction: column; align-items: center; }
-  }
+  .connect-head { display: flex; justify-content: space-between; align-items: end; gap: 14px; margin: 22px 4px 10px; }
+  .kicker { margin: 0 0 3px; color: var(--muted); font-size: .72rem; font-weight: 900; letter-spacing: .08em; text-transform: uppercase; }
+  h2 { margin: 0; font-size: 1.15rem; letter-spacing: -.025em; }
+  .count { flex: none; color: var(--muted); font-size: .72rem; font-weight: 800; }
+  .links { display: grid; gap: 10px; }
+  .links-empty { padding: 20px; border: 1px dashed var(--line); border-radius: 18px; color: var(--muted); background: rgba(255,255,255,.58); }
+  .links-empty strong { display: block; margin-bottom: 6px; color: var(--text); }
+  .links-empty p { margin: 0; line-height: 1.55; }
+  .source-note { display: flex; gap: 9px; margin: 18px 4px 0; padding: 12px 14px; border-radius: 14px; background: rgba(255,255,255,.42); color: var(--muted); font-size: .72rem; line-height: 1.45; }
+  .source-note p { margin: 0; }
+  .source-note span { color: var(--accent-strong); font-weight: 900; }
+  footer { display: flex; justify-content: space-between; gap: 12px; margin-top: 22px; padding: 0 4px; color: var(--muted); font-size: .72rem; }
+  footer a { color: inherit; text-decoration: none; font-weight: 800; }
+  footer a:hover, footer a:focus-visible { color: var(--accent-strong); }
+  @media (max-width: 430px) { .tenant-page { width: min(100% - 20px, 760px); } footer { flex-direction: column; align-items: center; } }
 </style>
