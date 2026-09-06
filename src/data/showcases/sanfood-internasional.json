@@ -1,0 +1,24 @@
+{
+  "tagline": "GOOD FOOD FOR GOOD KIDS",
+  "eyebrow": "Healthy family food, kids meals & seasoning",
+  "heroImage": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/catalog-image/103/MTA-166437480/sanfood_sanfood_aromatic_chicken_fat_oil_cooking_minyak_ayam_140ml_dapur_masakan_full02_nzfbfviu.jpg",
+  "palette": {"bg":"#eff8e8","ink":"#1b2a19","accent":"#6ba63c","surface":"#fff9ed"},
+  "highlights": [
+    {"title":"Low sugar & salt","body":"A core product principle highlighted by Sanfood for family-oriented food."},
+    {"title":"No MSG","body":"Sanfood positions its range around cleaner, family-friendly formulations."},
+    {"title":"Certified production","body":"The brand highlights Halal, BPOM, GMP and HACCP certifications."},
+    {"title":"Organic-led ingredients","body":"Selected product lines are positioned around organic and naturally sourced ingredients."}
+  ],
+  "gallery": [
+    {"image":"https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/catalog-image/103/MTA-166437480/sanfood_sanfood_aromatic_chicken_fat_oil_cooking_minyak_ayam_140ml_dapur_masakan_full02_nzfbfviu.jpg","label":"Aromatic oils"},
+    {"image":"https://inaexport.id/uploads/Eksportir_Product/Image/23754/1700624086__Carbonara%20-%20.png","label":"Pasta Carbonara"},
+    {"image":"https://cf.shopee.co.id/file/sg-11134201-22100-htvumq857sivb2","label":"Sauces & seasoning"}
+  ],
+  "actions": [
+    {"key":"website","label":"Official Website","url":"https://www.sanfoodofficial.com/"},
+    {"key":"catalog","label":"Product Catalogue","url":"https://drive.google.com/file/d/1yRvFF9oXQG5aYMzjimgYtDFf_7kl-o1R/view?usp=drive_link"},
+    {"key":"tokopedia","label":"Tokopedia","url":"https://www.tokopedia.com/sanfoodindonesia"},
+    {"key":"shopee","label":"Shopee","url":"https://shopee.co.id/sanfoodbrilian"},
+    {"key":"whatsapp","label":"WhatsApp","url":"https://wa.me/628152556555"}
+  ]
+}

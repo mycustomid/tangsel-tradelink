@@ -1,0 +1,75 @@
+---
+import BrandIcon from './BrandIcon.astro';
+interface Action { key?: string; label: string; url: string }
+interface Highlight { title: string; body: string }
+interface GalleryItem { image: string; label: string }
+interface Props {
+  tenant: { name: string; hall?: string; booth?: string; category?: string };
+  config: {
+    tagline: string; eyebrow: string; heroImage: string;
+    palette?: { bg?: string; ink?: string; accent?: string; surface?: string };
+    highlights: Highlight[]; gallery?: GalleryItem[]; actions: Action[];
+  };
+  baseUrl: string;
+}
+const { tenant, config, baseUrl } = Astro.props;
+const palette = config.palette || {};
+const actionIcon: Record<string, string> = { whatsapp: 'whatsapp', instagram: 'instagram', maps: 'maps', tokopedia: 'tokopedia', shopee: 'shopee', catalog: 'catalog', website: 'website' };
+const styleVars = `--sc-bg:${palette.bg || '#f4f0e8'};--sc-ink:${palette.ink || '#171717'};--sc-accent:${palette.accent || '#8f5b32'};--sc-surface:${palette.surface || '#fff'}`;
+---
+
+<main class="showcase" style={styleVars}>
+  <section class="showcase-hero">
+    <nav><a href={baseUrl}>← Tangsel TradeLink</a><span>TEI 2026 · Hall {tenant.hall || '—'} {tenant.booth ? `· Booth ${tenant.booth}` : ''}</span></nav>
+    <div class="showcase-grid">
+      <div class="copy">
+        <p class="eyebrow">{config.eyebrow}</p>
+        <h1>{tenant.name}</h1>
+        <p class="tagline">{config.tagline}</p>
+        <div class="actions">
+          {config.actions.slice(0, 4).map((action, index) => (
+            <a class:list={["action", index === 0 && 'primary']} href={action.url} target="_blank" rel="noopener noreferrer">
+              <BrandIcon name={actionIcon[action.key || 'website'] || 'website'} /><span>{action.label}</span><b>↗</b>
+            </a>
+          ))}
+        </div>
+      </div>
+      <figure class="hero-media"><img src={config.heroImage} alt={tenant.name} loading="eager" decoding="async"/><figcaption>{tenant.category || 'TEI 2026 Exhibitor'}</figcaption></figure>
+    </div>
+  </section>
+
+  <section class="showcase-section">
+    <header><p>01 / Why this brand</p><h2>Built around a clear product promise.</h2></header>
+    <div class="highlight-grid">
+      {config.highlights.map((item, index) => (
+        <article><span>{String(index + 1).padStart(2,'0')}</span><h3>{item.title}</h3><p>{item.body}</p></article>
+      ))}
+    </div>
+  </section>
+
+  {config.gallery?.length ? (
+    <section class="showcase-section gallery-section">
+      <header><p>02 / Product world</p><h2>See the brand, not just the links.</h2></header>
+      <div class="gallery-grid">
+        {config.gallery.map((item, index) => (
+          <figure class:list={[index === 0 && 'featured']}><img src={item.image} alt={item.label} loading="lazy" decoding="async"/><figcaption>{item.label}</figcaption></figure>
+        ))}
+      </div>
+    </section>
+  ) : null}
+
+  <section class="showcase-section connect-section">
+    <header><p>03 / Connect</p><h2>Continue with the official destination.</h2></header>
+    <div class="connect-grid">
+      {config.actions.map((action) => (
+        <a href={action.url} target="_blank" rel="noopener noreferrer"><BrandIcon name={actionIcon[action.key || 'website'] || 'website'} /><span>{action.label}</span><b>Open ↗</b></a>
+      ))}
+    </div>
+  </section>
+
+  <footer><div><strong>{tenant.name}</strong><span>{config.tagline}</span></div><a href={baseUrl}>TEI 2026 tenant directory</a></footer>
+</main>
+
+<style>
+  :global(body){background:var(--sc-bg)}.showcase{min-height:100vh;background:var(--sc-bg);color:var(--sc-ink);overflow:hidden}.showcase-hero{padding:24px clamp(18px,4vw,64px) 70px;background:linear-gradient(150deg,var(--sc-ink),color-mix(in srgb,var(--sc-ink) 84%,var(--sc-accent)));color:var(--sc-bg)}nav{display:flex;justify-content:space-between;gap:20px;font-size:.72rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase}nav a{color:inherit;text-decoration:none}nav span{opacity:.68;text-align:right}.showcase-grid{max-width:1320px;margin:8vh auto 0;display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:clamp(32px,7vw,108px)}.eyebrow,header p{font-size:.7rem;font-weight:900;letter-spacing:.13em;text-transform:uppercase;color:var(--sc-accent)}h1{margin:14px 0 0;max-width:760px;font-family:Georgia,serif;font-weight:400;font-size:clamp(4rem,8vw,8.5rem);line-height:.84;letter-spacing:-.06em}.tagline{margin:28px 0 0;font-size:clamp(1rem,1.8vw,1.45rem);letter-spacing:.09em;font-weight:900;max-width:620px}.actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:30px}.action{display:flex;align-items:center;gap:10px;padding:13px 16px;border-radius:999px;border:1px solid color-mix(in srgb,var(--sc-bg) 25%,transparent);color:inherit;text-decoration:none;font-weight:900}.action.primary{background:var(--sc-bg);color:var(--sc-ink)}.action b{margin-left:4px}.hero-media{margin:0;position:relative;min-height:520px;border-radius:34px;overflow:hidden;background:var(--sc-surface);box-shadow:0 40px 120px rgba(0,0,0,.28)}.hero-media img{width:100%;height:100%;position:absolute;inset:0;object-fit:cover}.hero-media:after{content:"";position:absolute;inset:auto 0 0;height:42%;background:linear-gradient(transparent,rgba(0,0,0,.65))}.hero-media figcaption{position:absolute;z-index:2;left:24px;bottom:22px;color:white;font-size:.78rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase}.showcase-section{max-width:1240px;margin:0 auto;padding:clamp(70px,9vw,130px) clamp(18px,4vw,44px)}header{display:grid;grid-template-columns:180px 1fr;gap:30px;margin-bottom:40px}header h2{margin:0;max-width:850px;font-family:Georgia,serif;font-size:clamp(2.5rem,5.8vw,5.6rem);font-weight:400;line-height:.95;letter-spacing:-.045em}.highlight-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.highlight-grid article{min-height:250px;padding:24px;border-radius:24px;background:var(--sc-surface);border:1px solid color-mix(in srgb,var(--sc-ink) 13%,transparent);display:flex;flex-direction:column}.highlight-grid article span{font-size:.7rem;font-weight:900;color:var(--sc-accent)}.highlight-grid h3{margin:auto 0 10px;font-family:Georgia,serif;font-size:clamp(1.45rem,2.5vw,2.4rem);line-height:1}.highlight-grid p{margin:0;opacity:.66;line-height:1.55}.gallery-section{padding-top:20px}.gallery-grid{display:grid;grid-template-columns:1.3fr .85fr;grid-template-rows:repeat(2,300px);gap:12px}.gallery-grid figure{margin:0;position:relative;border-radius:26px;overflow:hidden;background:var(--sc-surface)}.gallery-grid figure.featured{grid-row:1/3}.gallery-grid img{width:100%;height:100%;object-fit:cover}.gallery-grid figcaption{position:absolute;left:16px;bottom:16px;padding:8px 11px;border-radius:999px;background:rgba(255,255,255,.87);color:#111;font-size:.72rem;font-weight:900}.connect-section{padding-top:30px}.connect-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.connect-grid a{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:14px;padding:20px;border-radius:18px;background:var(--sc-surface);border:1px solid color-mix(in srgb,var(--sc-ink) 14%,transparent);color:inherit;text-decoration:none}.connect-grid span{font-weight:900}.connect-grid b{font-size:.72rem}footer{display:flex;justify-content:space-between;gap:24px;padding:50px clamp(18px,4vw,64px);background:var(--sc-ink);color:var(--sc-bg)}footer div{display:flex;flex-direction:column;gap:5px}footer span{font-size:.76rem;opacity:.6}footer a{color:inherit;text-decoration:none;font-size:.78rem;font-weight:900}@media(max-width:900px){.showcase-grid{grid-template-columns:1fr}.hero-media{min-height:440px}.highlight-grid{grid-template-columns:repeat(2,1fr)}header{grid-template-columns:1fr;gap:6px}}@media(max-width:620px){.showcase-hero{padding-bottom:46px}.showcase-grid{margin-top:6vh}.hero-media{min-height:390px}.actions{display:grid;grid-template-columns:1fr}.action{justify-content:flex-start}.highlight-grid,.connect-grid{grid-template-columns:1fr}.gallery-grid{grid-template-columns:1fr;grid-template-rows:none}.gallery-grid figure,.gallery-grid figure.featured{height:280px;grid-row:auto}footer{flex-direction:column}}
+</style>
