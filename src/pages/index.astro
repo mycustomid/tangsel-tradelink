@@ -7,6 +7,7 @@ import type { Tenant } from '../types/tenant';
 const tenantList = tenants as Tenant[];
 const categories = uniqueValues(tenantList, 'category');
 const halls = uniqueValues(tenantList, 'hall');
+const baseUrl = import.meta.env.BASE_URL;
 ---
 
 <BaseLayout title="Tangsel TradeLink — TEI 2026">
@@ -60,7 +61,7 @@ const halls = uniqueValues(tenantList, 'hall');
             {tenantList.map((tenant) => (
               <a
                 class="tenant-card"
-                href={`/tenant/${tenant.slug}`}
+                href={`${baseUrl}tenant/${tenant.slug}`}
                 data-tenant-card
                 data-searchable={[tenant.name, tenant.category, tenant.hall, tenant.booth].join(' ').toLowerCase()}
                 data-category={tenant.category.toLowerCase()}

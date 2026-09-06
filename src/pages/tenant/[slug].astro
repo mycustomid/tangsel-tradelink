@@ -17,6 +17,7 @@ interface Props { tenant: Tenant }
 const { tenant } = Astro.props;
 const theme = resolveTheme(tenant);
 const links = getTenantLinks(tenant);
+const baseUrl = import.meta.env.BASE_URL;
 ---
 
 <BaseLayout
@@ -25,7 +26,7 @@ const links = getTenantLinks(tenant);
   theme={theme}
 >
   <main class="tenant-page shell">
-    <a class="back" href="/" aria-label="Kembali ke direktori tenant">← Direktori</a>
+    <a class="back" href={baseUrl} aria-label="Kembali ke direktori tenant">← Direktori</a>
 
     <TenantHeader
       name={tenant.name}
