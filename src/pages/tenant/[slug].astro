@@ -48,11 +48,19 @@ const showcaseConfigs: Record<string, any> = {
   'himki': himkiShowcase,
 };
 const showcaseConfig = showcaseConfigs[tenant.slug];
-const logoDomain = tenant.slug === 'roemah-koffie' ? roemahFlagship.logoDomain : showcaseConfig?.logoDomain;
-const favicon = logoDomain ? `https://www.google.com/s2/favicons?domain=${encodeURIComponent(logoDomain)}&sz=128` : undefined;
+const isPremium = tenant.slug === 'roemah-koffie' || Boolean(showcaseConfig);
+function makeMonogramFavicon(label: string, background = '#161616', foreground = '#ffffff') {
+  const letter = (label.trim()[0] || '•').toUpperCase();
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="16" fill="${background}"/><text x="32" y="43" text-anchor="middle" font-family="Georgia,serif" font-size="36" font-weight="700" fill="${foreground}">${letter}</text></svg>`;
+  return `data:image/svg+xml,${encodeURIComponent(svg)}`;
+}
+const premiumLabel = tenant.slug === 'roemah-koffie' ? 'Roemah Koffie' : (showcaseConfig?.brandLabel || tenant.name);
+const premiumAccent = tenant.slug === 'roemah-koffie' ? '#6f2a1c' : (showcaseConfig?.palette?.accent || '#161616');
+const favicon = isPremium ? makeMonogramFavicon(premiumLabel, premiumAccent) : undefined;
+const pageTitle = isPremium ? tenant.name : `${tenant.name} — Tangsel TradeLink`;
 ---
 
-<BaseLayout title={`${tenant.name} — Tangsel TradeLink`} description={tenant.description || `${tenant.name} at Trade Expo Indonesia 2026.`} theme={theme} favicon={favicon}>
+<BaseLayout title={pageTitle} description={tenant.description || `${tenant.name} at Trade Expo Indonesia 2026.`} theme={theme} favicon={favicon}>
   {tenant.slug === 'roemah-koffie' ? (
     <RoemahKoffieFlagship tenant={tenant} config={roemahFlagship} baseUrl={baseUrl} />
   ) : showcaseConfig ? (
@@ -60,8 +68,20 @@ const favicon = logoDomain ? `https://www.google.com/s2/favicons?domain=${encode
   ) : (
     <main class="tenant-page shell">
       <TenantHeader name={tenant.name} category={tenant.category} hall={tenant.hall} booth={tenant.booth} description={tenant.description} logo={logo} researchStatus={tenant.researchStatus} verifiedAt={tenant.verifiedAt} />
-      <section class="connect-head" aria-labelledby="connect-title"><div><p class="kicker">Connect with exhibitor</p><h2 id="connect-title">Official links</h2></div><span class="count">{links.length} available</span></section>
-      {links.length > 0 ? <section class="links" aria-label={`Official links for ${tenant.name}`}>{links.map((link) => <LinkButton href={link.href} label={link.label} icon={link.icon} />)}</section> : <section class="links-empty"><strong>Public contact links are still being verified.</strong><p>We do not publish guessed WhatsApp, social, or website links. Exhibition details above remain available for booth discovery.</p></section>}
+
+      <section class="connect-head" aria-labelledby="connect-title">
+        <div><p class="kicker">Connect with exhibitor</p><h2 id="connect-title">Official links</h2></div>
+        <span class="count">{links.length} available</span>
+      </section>
+
+      {links.length > 0 ? (
+        <section class="links" aria-label={`Official links for ${tenant.name}`}>
+          {links.map((link) => <LinkButton href={link.href} label={link.label} icon={link.icon} />)}
+        </section>
+      ) : (
+        <section class="links-empty"><strong>Public contact links are still being verified.</strong><p>We do not publish guessed WhatsApp, social, or website links. Exhibition details above remain available for booth discovery.</p></section>
+      )}
+
       <aside class="source-note"><span aria-hidden="true">✓</span><p>Hall and booth data are based on the TEI 2026 floorplan. Public digital links are included only when matched to official or reliable industry sources.</p></aside>
       <footer><span>Powered by Tangsel TradeLink</span><a href={baseUrl}>TEI 2026 tenant directory</a></footer>
     </main>
@@ -69,5 +89,20 @@ const favicon = logoDomain ? `https://www.google.com/s2/favicons?domain=${encode
 </BaseLayout>
 
 <style>
-  .tenant-page{padding-top:14px;padding-bottom:26px}.connect-head{display:flex;justify-content:space-between;align-items:end;gap:14px;margin:22px 4px 10px}.kicker{margin:0 0 3px;color:var(--muted);font-size:.72rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase}h2{margin:0;font-size:1.15rem;letter-spacing:-.025em}.count{flex:none;color:var(--muted);font-size:.72rem;font-weight:800}.links{display:grid;gap:10px}.links-empty{padding:20px;border:1px dashed var(--line);border-radius:18px;color:var(--muted);background:rgba(255,255,255,.58)}.links-empty strong{display:block;margin-bottom:6px;color:var(--text)}.links-empty p{margin:0;line-height:1.55}.source-note{display:flex;gap:9px;margin:18px 4px 0;padding:12px 14px;border-radius:14px;background:rgba(255,255,255,.42);color:var(--muted);font-size:.72rem;line-height:1.45}.source-note p{margin:0}.source-note span{color:var(--accent-strong);font-weight:900}footer{display:flex;justify-content:space-between;gap:12px;margin-top:22px;padding:0 4px;color:var(--muted);font-size:.72rem}footer a{color:inherit;text-decoration:none;font-weight:800}footer a:hover,footer a:focus-visible{color:var(--accent-strong)}@media(max-width:430px){.tenant-page{width:min(100% - 20px,760px)}footer{flex-direction:column;align-items:center}}
+  .tenant-page { padding-top: 14px; padding-bottom: 26px; }
+  .connect-head { display: flex; justify-content: space-between; align-items: end; gap: 14px; margin: 22px 4px 10px; }
+  .kicker { margin: 0 0 3px; color: var(--muted); font-size: .72rem; font-weight: 900; letter-spacing: .08em; text-transform: uppercase; }
+  h2 { margin: 0; font-size: 1.15rem; letter-spacing: -.025em; }
+  .count { flex: none; color: var(--muted); font-size: .72rem; font-weight: 800; }
+  .links { display: grid; gap: 10px; }
+  .links-empty { padding: 20px; border: 1px dashed var(--line); border-radius: 18px; color: var(--muted); background: rgba(255,255,255,.58); }
+  .links-empty strong { display: block; margin-bottom: 6px; color: var(--text); }
+  .links-empty p { margin: 0; line-height: 1.55; }
+  .source-note { display: flex; gap: 9px; margin: 18px 4px 0; padding: 12px 14px; border-radius: 14px; background: rgba(255,255,255,.42); color: var(--muted); font-size: .72rem; line-height: 1.45; }
+  .source-note p { margin: 0; }
+  .source-note span { color: var(--accent-strong); font-weight: 900; }
+  footer { display: flex; justify-content: space-between; gap: 12px; margin-top: 22px; padding: 0 4px; color: var(--muted); font-size: .72rem; }
+  footer a { color: inherit; text-decoration: none; font-weight: 800; }
+  footer a:hover, footer a:focus-visible { color: var(--accent-strong); }
+  @media (max-width: 430px) { .tenant-page { width: min(100% - 20px, 760px); } footer { flex-direction: column; align-items: center; } }
 </style>
