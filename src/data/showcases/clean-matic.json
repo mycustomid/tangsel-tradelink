@@ -1,9 +1,31 @@
 {
-  "logoDomain":"cleanmatic.id","brandLabel":"CLEAN MATIC","tagline":"BETTER CLEANING TOOLS, ONE CLICK AWAY.","eyebrow":"Home & professional cleaning equipment","heroImage":"https://down-id.img.susercontent.com/file/71f769c3f91718471b8d6ee0cc65bca7",
-  "palette":{"bg":"#ecf7f7","ink":"#123034","accent":"#45b883","surface":"#ffffff"},
-  "story":{"title":"A cleaning-tools specialist that turns everyday utility into a complete retail system.","body":"Clean Matic’s online store presents a broad family of brooms, mops, brushes, squeegees, sponges, mats, dustpans, bins and supporting tools. The brand highlights more than three decades of supply, wholesale partnerships and physical store presence in Tangerang Selatan."},
-  "stats":[{"value":"30+","label":"years of supply"},{"value":"10","label":"product families highlighted"},{"value":"BSD","label":"Taman Tekno store"},{"value":"B2B","label":"wholesale + reseller program"}],
-  "highlights":[{"title":"Complete cleaning range","body":"From brooms and mops to bins and support tools, the catalogue covers everyday cleaning workflows."},{"title":"Replaceable + practical","body":"Product descriptions emphasize durable parts, refillability and efficient household use."},{"title":"Retail + wholesale","body":"The brand serves home users while actively inviting distributors, resellers and stores."},{"title":"Tangsel presence","body":"Clean Matic lists a Taman Tekno BSD store, making the brand locally relevant to the Tangsel showcase."}],
-  "gallery":[{"image":"https://down-id.img.susercontent.com/file/71f769c3f91718471b8d6ee0cc65bca7","label":"Cleaning essentials","caption":"Everyday tools designed for practical, repeat use."},{"image":"https://img.mbizmarket.co.id/products/thumbs/800x800/2023/10/11/495e61ddf2dc63179da7f1a0e65692b1.jpg","label":"Microfibre system","caption":"Cleaning textiles and supporting accessories expand the range."},{"image":"","label":"10 product families","caption":"Brooms, mops, brushes, squeegees, sponges, mats, bins and more."}],
-  "actions":[{"key":"website","label":"Clean Matic Store","url":"https://cleanmatic.id/"},{"key":"shopee","label":"Shopee Store","url":"https://shopee.co.id/cleanmaticstore"},{"key":"maps","label":"Taman Tekno Store","url":"https://www.google.com/maps/search/?api=1&query=Clean%20Matic%20Store%20Taman%20Tekno%20Tangerang%20Selatan"}]
+  "logoDomain": "cleanmatic.id",
+  "brandLabel": "CLEAN MATIC",
+  "tagline": "Tools for the work of keeping spaces clean.",
+  "eyebrow": "Brooms, mops, brushes and cleaning systems",
+  "heroImage": "https://down-id.img.susercontent.com/file/71f769c3f91718471b8d6ee0cc65bca7",
+  "palette": {"bg":"#ecf7f7","ink":"#123034","accent":"#45b883","surface":"#ffffff"},
+  "story": {"title":"Utility first. A full cleaning system follows.","body":"Clean Matic’s online store presents a broad family of brooms, mops, brushes, squeegees, sponges, mats, dustpans, bins and supporting tools. The brand highlights more than three decades of supply, wholesale partnerships and physical store presence in Tangerang Selatan."},
+  "stats": [
+    {"value":"30+","label":"years of supply"},
+    {"value":"10","label":"product families highlighted"},
+    {"value":"BSD","label":"Taman Tekno store"},
+    {"value":"B2B","label":"wholesale + reseller program"}
+  ],
+  "highlights": [
+    {"title":"Complete cleaning range","body":"From brooms and mops to bins and support tools, the catalogue covers everyday cleaning workflows."},
+    {"title":"Replaceable + practical","body":"Product descriptions emphasize durable parts, refillability and efficient household use."},
+    {"title":"Retail + wholesale","body":"The brand serves home users while actively inviting distributors, resellers and stores."},
+    {"title":"Tangsel presence","body":"Clean Matic lists a Taman Tekno BSD store, making the brand locally relevant to the Tangsel showcase."}
+  ],
+  "gallery": [
+    {"image":"https://down-id.img.susercontent.com/file/71f769c3f91718471b8d6ee0cc65bca7","label":"Cleaning essentials","caption":"Everyday tools designed for practical, repeat use."},
+    {"image":"https://img.mbizmarket.co.id/products/thumbs/800x800/2023/10/11/495e61ddf2dc63179da7f1a0e65692b1.jpg","label":"Microfibre system","caption":"Cleaning textiles and supporting accessories expand the range."},
+    {"image":"","label":"10 product families","caption":"Brooms, mops, brushes, squeegees, sponges, mats, bins and more."}
+  ],
+  "actions": [
+    {"key":"website","label":"Clean Matic Store","url":"https://cleanmatic.id/"},
+    {"key":"shopee","label":"Shopee Store","url":"https://shopee.co.id/cleanmaticstore"},
+    {"key":"maps","label":"Taman Tekno Store","url":"https://www.google.com/maps/search/?api=1&query=Clean%20Matic%20Store%20Taman%20Tekno%20Tangerang%20Selatan"}
+  ]
 }
