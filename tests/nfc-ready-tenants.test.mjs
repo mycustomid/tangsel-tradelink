@@ -20,6 +20,16 @@ for (const [slug, path] of ready) {
     const config = JSON.parse(fs.readFileSync(new URL(path, import.meta.url), 'utf8'));
     assert.ok(config.tagline?.length > 8, 'tagline required');
     assert.ok(/^https:\/\//.test(config.heroImage || ''), 'remote hero image required');
+
+    if (slug === 'roemah-koffie') {
+      assert.ok(Array.isArray(config.primaryActions) && config.primaryActions.length >= 2, 'flagship actions required');
+      assert.ok(Array.isArray(config.menus) && config.menus.length >= 3, 'flagship menus required');
+      assert.ok(Array.isArray(config.locations) && config.locations.length >= 3, 'flagship locations required');
+      assert.ok(Array.isArray(config.marketplaces) && config.marketplaces.length >= 2, 'flagship marketplaces required');
+      assert.equal(config.primaryActions.some((action) => /linktr\.ee/i.test(action.url || '')), false, 'Linktree must not be visitor-facing');
+      return;
+    }
+
     assert.ok(Array.isArray(config.highlights) && config.highlights.length >= 3, 'at least 3 highlights required');
     assert.ok(Array.isArray(config.actions) && config.actions.length >= 2, 'at least 2 official actions required');
     assert.ok(Array.isArray(config.gallery) && config.gallery.length >= 2, 'at least 2 visual gallery items required');
