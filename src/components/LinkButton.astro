@@ -1,57 +1,20 @@
 ---
-interface Props {
-  href: string;
-  label: string;
-  icon?: string;
-}
-
-const { href, label, icon = '↗' } = Astro.props;
+import BrandIcon from './BrandIcon.astro';
+interface Props { href: string; label: string; icon?: string }
+const { href, label, icon = 'website' } = Astro.props;
 const external = /^https?:\/\//i.test(href);
 ---
 
 <a class="link-button" href={href} target={external ? '_blank' : undefined} rel={external ? 'noopener noreferrer' : undefined}>
-  <span class="icon" aria-hidden="true">{icon}</span>
+  <span class="icon" aria-hidden="true"><BrandIcon name={icon} /></span>
   <span class="label">{label}</span>
   <span class="arrow" aria-hidden="true">↗</span>
 </a>
 
 <style>
-  .link-button {
-    min-height: 58px;
-    display: grid;
-    grid-template-columns: 42px 1fr auto;
-    align-items: center;
-    gap: 12px;
-    padding: 8px 14px 8px 9px;
-    border: 1px solid var(--line);
-    border-radius: 18px;
-    background: var(--surface-strong);
-    box-shadow: 0 8px 24px rgba(16,32,51,.055);
-    text-decoration: none;
-    transition: transform .16s ease, box-shadow .16s ease, border-color .16s ease;
-  }
-
-  .link-button:hover,
-  .link-button:focus-visible {
-    transform: translateY(-1px);
-    border-color: color-mix(in srgb, var(--accent) 28%, transparent);
-    box-shadow: 0 12px 30px rgba(16,32,51,.09);
-    outline: none;
-  }
-
-  .icon {
-    width: 42px;
-    height: 42px;
-    display: grid;
-    place-items: center;
-    border-radius: 13px;
-    background: var(--accent-soft);
-    color: var(--accent-strong);
-    font-size: .72rem;
-    font-weight: 900;
-    letter-spacing: -.02em;
-  }
-
+  .link-button { min-height: 62px; display: grid; grid-template-columns: 44px 1fr auto; align-items: center; gap: 12px; padding: 9px 15px 9px 9px; border: 1px solid var(--line); border-radius: 18px; background: var(--surface-strong); box-shadow: 0 8px 24px rgba(16,32,51,.055); text-decoration: none; transition: transform .16s ease, box-shadow .16s ease, border-color .16s ease; }
+  .link-button:hover,.link-button:focus-visible { transform: translateY(-1px); border-color: color-mix(in srgb, var(--accent) 30%, transparent); box-shadow: 0 12px 30px rgba(16,32,51,.09); outline: none; }
+  .icon { width: 44px; height: 44px; display: grid; place-items: center; border-radius: 13px; background: #fff; color: var(--accent-strong); border: 1px solid rgba(16,32,51,.07); }
   .label { font-weight: 800; }
   .arrow { color: var(--muted); font-size: 1.1rem; }
 </style>
