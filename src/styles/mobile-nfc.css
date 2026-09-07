@@ -1,0 +1,235 @@
+/* Mobile-first interaction layer for the 10 NFC-ready tenant experiences. */
+@media (max-width: 620px) {
+  html { scroll-padding-top: 4px; }
+  body {
+    overflow-x: hidden;
+    padding-bottom: calc(84px + env(safe-area-inset-bottom));
+  }
+
+  .premium-onepage .chapter,
+  .rk-onepage .chapter {
+    min-height: auto;
+    padding: 64px 18px 72px;
+    content-visibility: auto;
+    contain-intrinsic-size: 900px;
+  }
+
+  .premium-onepage .hero,
+  .rk-onepage .hero {
+    min-height: 100svh;
+    padding: calc(18px + env(safe-area-inset-top)) 18px calc(104px + env(safe-area-inset-bottom));
+    justify-content: flex-start;
+    content-visibility: visible;
+    contain-intrinsic-size: auto;
+  }
+
+  .premium-onepage .hero-grid,
+  .rk-onepage .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    margin-top: 28px;
+  }
+
+  .premium-onepage .hero-meta,
+  .rk-onepage .hero-meta {
+    align-items: flex-start;
+    gap: 10px;
+    font-size: .56rem;
+  }
+
+  .premium-onepage .hero-meta span:last-child,
+  .rk-onepage .hero-meta span:last-child { text-align: right; }
+
+  .premium-onepage .hero h1 {
+    margin-top: 18px;
+    font-size: clamp(3.35rem, 16.5vw, 5.55rem);
+    line-height: .84;
+    letter-spacing: -.06em;
+  }
+
+  .rk-onepage .hero h1 {
+    margin-top: 14px;
+    font-size: clamp(3.65rem, 17vw, 5.8rem);
+    line-height: .79;
+  }
+
+  .premium-onepage .tagline,
+  .rk-onepage .tagline {
+    max-width: 32rem;
+    margin-top: 18px;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .premium-onepage .hero-visual,
+  .rk-onepage .hero-card {
+    min-height: 44svh;
+    border-radius: 22px;
+    box-shadow: 0 24px 70px rgba(0,0,0,.25);
+  }
+
+  .premium-onepage .scroll-cue,
+  .rk-onepage .scroll-cue,
+  .premium-onepage .chapter-rail,
+  .rk-onepage .rk-rail { display: none; }
+
+  /* Persistent thumb-zone CTA: re-use each tenant's existing primary actions. */
+  .premium-onepage .hero-actions,
+  .rk-onepage .actions {
+    position: fixed;
+    z-index: 90;
+    left: 12px;
+    right: 12px;
+    bottom: max(10px, env(safe-area-inset-bottom));
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0,1fr));
+    gap: 8px;
+    margin: 0;
+    padding: 8px;
+    border-radius: 20px;
+    background: color-mix(in srgb, var(--ink, #1b0e08) 93%, transparent);
+    box-shadow: 0 18px 60px rgba(0,0,0,.3);
+    backdrop-filter: blur(18px);
+  }
+
+  .premium-onepage .hero-copy.reveal,
+  .rk-onepage .hero-copy.reveal { transform: none; }
+
+  .premium-onepage .hero-actions a,
+  .rk-onepage .actions a {
+    min-height: 48px;
+    justify-content: center;
+    padding: 10px 12px;
+    border-radius: 14px;
+    touch-action: manipulation;
+    text-align: center;
+  }
+
+  .premium-onepage .hero-actions a:nth-child(n+3),
+  .rk-onepage .actions a:nth-child(n+3) { display: none; }
+
+  .premium-onepage .hero-actions a:only-child,
+  .rk-onepage .actions a:only-child { grid-column: 1 / -1; }
+
+  .premium-onepage .story-layout { grid-template-columns: 1fr; gap: 28px; }
+  .premium-onepage .story h2,
+  .premium-onepage .visual-heading h2,
+  .premium-onepage .connect-heading h2,
+  .rk-onepage .section-title h2,
+  .rk-onepage .places-heading h2,
+  .rk-onepage .shop-heading h2,
+  .rk-onepage .business-heading h2 {
+    font-size: clamp(2.8rem, 14vw, 4.8rem);
+  }
+
+  .premium-onepage .visual-heading,
+  .premium-onepage .connect-heading,
+  .rk-onepage .section-title,
+  .rk-onepage .places-heading,
+  .rk-onepage .shop-heading,
+  .rk-onepage .business-heading {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 28px;
+  }
+
+  /* Proof becomes a swipeable editorial strip instead of a long stack. */
+  .premium-onepage .stats-grid,
+  .premium-onepage .highlight-grid,
+  .premium-onepage .gallery,
+  .rk-onepage .menu-grid,
+  .rk-onepage .place-gallery,
+  .rk-onepage .market-grid,
+  .rk-onepage .business-grid {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x proximity;
+    overscroll-behavior-x: contain;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    gap: 10px;
+    margin-inline: -18px;
+    padding: 0 18px 10px;
+  }
+
+  .premium-onepage .stats-grid::-webkit-scrollbar,
+  .premium-onepage .highlight-grid::-webkit-scrollbar,
+  .premium-onepage .gallery::-webkit-scrollbar,
+  .rk-onepage .menu-grid::-webkit-scrollbar,
+  .rk-onepage .place-gallery::-webkit-scrollbar,
+  .rk-onepage .market-grid::-webkit-scrollbar,
+  .rk-onepage .business-grid::-webkit-scrollbar { display: none; }
+
+  .premium-onepage .stats-grid { border: 0; }
+  .premium-onepage .stats-grid article {
+    flex: 0 0 min(76vw, 300px);
+    min-height: 190px;
+    padding: 22px;
+    border: 1px solid color-mix(in srgb, var(--ink) 12%, transparent);
+    border-radius: 22px;
+    background: var(--page);
+    scroll-snap-align: start;
+  }
+  .premium-onepage .stats-grid article:last-child { border-right: 1px solid color-mix(in srgb, var(--ink) 12%, transparent); }
+  .premium-onepage .stats-grid strong { margin-top: 34px; font-size: clamp(2.5rem,13vw,4.2rem); }
+
+  .premium-onepage .highlight-grid { margin-top: 12px; }
+  .premium-onepage .highlight-grid article {
+    flex: 0 0 min(82vw, 330px);
+    min-height: 300px;
+    scroll-snap-align: start;
+  }
+
+  .premium-onepage .gallery > a { display: block; flex: 0 0 86vw; scroll-snap-align: center; }
+  .premium-onepage .gallery > figure { flex: 0 0 86vw; scroll-snap-align: center; }
+  .premium-onepage .gallery figure,
+  .premium-onepage .gallery figure.wide {
+    width: 100%;
+    height: 64svh;
+    min-height: 460px;
+    border-radius: 22px;
+    grid-row: auto;
+  }
+
+  .premium-onepage .links a,
+  .rk-onepage .place-list a,
+  .rk-onepage .market-grid a {
+    min-height: 64px;
+    touch-action: manipulation;
+  }
+
+  .premium-onepage .connect,
+  .rk-onepage .business { padding-bottom: calc(128px + env(safe-area-inset-bottom)); }
+
+  .rk-onepage .menu-card,
+  .rk-onepage .place-gallery figure,
+  .rk-onepage .place-gallery figure.big,
+  .rk-onepage .business-grid a {
+    flex: 0 0 84vw;
+    scroll-snap-align: center;
+    border-radius: 22px;
+  }
+
+  .rk-onepage .menu-card { min-height: 62svh; }
+  .rk-onepage .place-gallery { min-height: 0; }
+  .rk-onepage .place-gallery figure,
+  .rk-onepage .place-gallery figure.big { height: 54svh; min-height: 380px; grid-row: auto; }
+  .rk-onepage .market-grid a { flex: 0 0 78vw; min-height: 88px; scroll-snap-align: start; }
+  .rk-onepage .business-grid a { min-height: 58svh; }
+  .rk-onepage .membership { border-radius: 22px; padding: 24px; }
+  .rk-onepage .membership h3 { margin-top: 36px; }
+
+  .premium-onepage a,
+  .rk-onepage a { -webkit-tap-highlight-color: transparent; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .premium-onepage .stats-grid,
+  .premium-onepage .highlight-grid,
+  .premium-onepage .gallery,
+  .rk-onepage .menu-grid,
+  .rk-onepage .place-gallery,
+  .rk-onepage .market-grid,
+  .rk-onepage .business-grid { scroll-behavior: auto; }
+}
