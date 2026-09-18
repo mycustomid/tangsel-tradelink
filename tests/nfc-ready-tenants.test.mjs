@@ -14,6 +14,7 @@ const ready = [
   ['sinar-mas-land', '../src/data/showcases/sinar-mas-land.json'],
   ['himki', '../src/data/showcases/himki.json'],
   ['li-uli', '../src/data/showcases/li-uli.json'],
+  ['ageman-ecoprint', '../src/data/showcases/ageman-ecoprint.json'],
 ];
 
 for (const [slug, path] of ready) {
