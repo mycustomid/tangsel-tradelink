@@ -3,7 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import TenantHeader from '../../components/TenantHeader.astro';
 import LinkButton from '../../components/LinkButton.astro';
 import RoemahKoffieFlagship from '../../components/RoemahKoffieFlagship.astro';
-import RichTenantShowcase from '../../components/RichTenantShowcase.astro';
+import EnhancedRichTenantShowcase from '../../components/EnhancedRichTenantShowcase.astro';
 import roemahFlagship from '../../data/flagships/roemah-koffie.json';
 import sanfoodShowcase from '../../data/showcases/sanfood-internasional.json';
 import tempeAzakiShowcase from '../../data/showcases/tempe-azaki.json';
@@ -52,14 +52,16 @@ const showcaseConfigs: Record<string, any> = {
 };
 const showcaseConfig = showcaseConfigs[tenant.slug];
 const isPremium = tenant.slug === 'roemah-koffie' || Boolean(showcaseConfig);
+
 function makeMonogramFavicon(label: string, background = '#161616', foreground = '#ffffff') {
   const letter = (label.trim()[0] || '•').toUpperCase();
   const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="16" fill="${background}"/><text x="32" y="43" text-anchor="middle" font-family="Georgia,serif" font-size="36" font-weight="700" fill="${foreground}">${letter}</text></svg>`;
   return `data:image/svg+xml,${encodeURIComponent(svg)}`;
 }
+
 const premiumLabel = tenant.slug === 'roemah-koffie' ? 'Roemah Koffie' : (showcaseConfig?.brandLabel || tenant.name);
 const premiumAccent = tenant.slug === 'roemah-koffie' ? '#6f2a1c' : (showcaseConfig?.palette?.accent || '#161616');
-const favicon = tenant.slug === 'li-uli' ? `${baseUrl}brand/li-uli-mark.svg` : (isPremium ? makeMonogramFavicon(premiumLabel, premiumAccent) : undefined);
+const favicon = logo || (isPremium ? makeMonogramFavicon(premiumLabel, premiumAccent) : undefined);
 const pageTitle = isPremium ? tenant.name : `${tenant.name} — Tangsel TradeLink`;
 ---
 
@@ -67,7 +69,7 @@ const pageTitle = isPremium ? tenant.name : `${tenant.name} — Tangsel TradeLin
   {tenant.slug === 'roemah-koffie' ? (
     <RoemahKoffieFlagship tenant={tenant} config={roemahFlagship} baseUrl={baseUrl} />
   ) : showcaseConfig ? (
-    <RichTenantShowcase tenant={tenant} config={showcaseConfig} baseUrl={baseUrl} />
+    <EnhancedRichTenantShowcase tenant={tenant} config={showcaseConfig} baseUrl={baseUrl} />
   ) : (
     <main class="tenant-page shell">
       <TenantHeader name={tenant.name} category={tenant.category} hall={tenant.hall} booth={tenant.booth} description={tenant.description} logo={logo} researchStatus={tenant.researchStatus} verifiedAt={tenant.verifiedAt} />
@@ -107,7 +109,5 @@ const pageTitle = isPremium ? tenant.name : `${tenant.name} — Tangsel TradeLin
   footer { display: flex; justify-content: space-between; gap: 12px; margin-top: 22px; padding: 0 4px; color: var(--muted); font-size: .72rem; }
   footer a { color: inherit; text-decoration: none; font-weight: 800; }
   footer a:hover, footer a:focus-visible { color: var(--accent-strong); }
-  :global(.premium-onepage[data-brand='LI-ULI'] .hero-actions a.primary) { background: transparent; color: inherit; }
-  :global(.premium-onepage[data-brand='LI-ULI'] .hero-actions a.primary:hover) { background: color-mix(in srgb, var(--page) 10%, transparent); }
   @media (max-width: 430px) { .tenant-page { width: min(100% - 20px, 760px); } footer { flex-direction: column; align-items: center; } }
 </style>
