@@ -14,17 +14,21 @@ import dragonShowcase from '../../data/showcases/dragon-prima-farma.json';
 import cleanMaticShowcase from '../../data/showcases/clean-matic.json';
 import sinarMasLandShowcase from '../../data/showcases/sinar-mas-land.json';
 import himkiShowcase from '../../data/showcases/himki.json';
+import liUliShowcase from '../../data/showcases/li-uli.json';
 import tenants from '../../data/tenants.json';
+import tenantAdditions from '../../data/tenant-additions.json';
 import foodResearch from '../../data/research-food.json';
 import manufacturedResearch from '../../data/research-manufactured.json';
 import industrialResearch from '../../data/research-industrial.json';
 import furnitureResearch from '../../data/research-furniture.json';
+import fashionResearch from '../../data/research-fashion.json';
 import { getTenantLinks, getTenantLogo, resolveTheme } from '../../lib/tenant-utils.mjs';
 import type { Tenant } from '../../types/tenant';
 
 export function getStaticPaths() {
-  const research = { ...foodResearch, ...manufacturedResearch, ...industrialResearch, ...furnitureResearch } as Record<string, Partial<Tenant>>;
-  return (tenants as Tenant[]).map((baseTenant) => ({
+  const research = { ...foodResearch, ...manufacturedResearch, ...industrialResearch, ...furnitureResearch, ...fashionResearch } as Record<string, Partial<Tenant>>;
+  const tenantList = [...(tenants as Tenant[]), ...(tenantAdditions as Tenant[])];
+  return tenantList.map((baseTenant) => ({
     params: { slug: baseTenant.slug },
     props: { tenant: { ...baseTenant, ...(research[baseTenant.slug] || {}) } },
   }));
@@ -46,6 +50,7 @@ const showcaseConfigs: Record<string, any> = {
   'clean-matic': cleanMaticShowcase,
   'sinar-mas-land': sinarMasLandShowcase,
   'himki': himkiShowcase,
+  'li-uli': liUliShowcase,
 };
 const showcaseConfig = showcaseConfigs[tenant.slug];
 const isPremium = tenant.slug === 'roemah-koffie' || Boolean(showcaseConfig);
