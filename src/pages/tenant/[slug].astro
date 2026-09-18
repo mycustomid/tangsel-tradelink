@@ -15,6 +15,7 @@ import cleanMaticShowcase from '../../data/showcases/clean-matic.json';
 import sinarMasLandShowcase from '../../data/showcases/sinar-mas-land.json';
 import himkiShowcase from '../../data/showcases/himki.json';
 import liUliShowcase from '../../data/showcases/li-uli.json';
+import agemanShowcase from '../../data/showcases/ageman-ecoprint.json';
 import tenants from '../../data/tenants.json';
 import foodResearch from '../../data/research-food.json';
 import manufacturedResearch from '../../data/research-manufactured.json';
@@ -49,6 +50,7 @@ const showcaseConfigs: Record<string, any> = {
   'sinar-mas-land': sinarMasLandShowcase,
   'himki': himkiShowcase,
   'li-uli': liUliShowcase,
+  'ageman-ecoprint': agemanShowcase,
 };
 const showcaseConfig = showcaseConfigs[tenant.slug];
 const isPremium = tenant.slug === 'roemah-koffie' || Boolean(showcaseConfig);

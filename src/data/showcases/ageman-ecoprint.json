@@ -1,0 +1,58 @@
+{
+  "brandLabel": "AGEMAN",
+  "tagline": "Fashion ramah lingkungan, dicetak oleh alam.",
+  "eyebrow": "Tangerang Selatan · Ecoprint · Natural Dye · Sustainable Fashion",
+  "heroImage": "https://image.idntimes.com/post/20240428/3-grid-2-2812181fca11c0a1ab8693a3ea622c9e.jpg",
+  "palette": {
+    "bg": "#eef0e4",
+    "ink": "#243029",
+    "accent": "#6d7d49",
+    "surface": "#faf8ef"
+  },
+  "story": {
+    "title": "From leaves and natural dye into contemporary sustainable fashion.",
+    "body": "Ageman Ecoprint was founded in Tangerang Selatan in 2021 as an environmentally conscious fashion label. Founder and CEO Ria Prawita, together with co-founder and fashion designer Anita T. Tanaem, develops fashion using ecoprint techniques, natural dyes and natural fibers. Public profiles of the brand also highlight zero-waste reuse, including turning production leftovers into craft, artwork or organic fertilizer."
+  },
+  "stats": [
+    {"value": "2021", "label": "founded in Tangerang Selatan"},
+    {"value": "Natural", "label": "plant-based motifs and dyes"},
+    {"value": "100%", "label": "natural-fiber direction highlighted in sustainability reporting"},
+    {"value": "Zero Waste", "label": "production waste reused for other outputs"}
+  ],
+  "highlights": [
+    {"title": "Botanical printing", "body": "Leaves, flowers and other plant material are used to create distinctive ecoprint motifs directly on fabric."},
+    {"title": "Natural dye", "body": "Ageman has been profiled using natural color sources including indigofera and turmeric as part of its sustainable-fashion approach."},
+    {"title": "Fashion runway presence", "body": "Ageman represented Bank Indonesia Provinsi Banten at Kelana Wastra Fashion Fest 2024 with a sustainability-focused modest-fashion collection."},
+    {"title": "Circular production mindset", "body": "The brand has described reusing production waste for paintings, craft applications and organic fertilizer rather than treating it as disposable waste."}
+  ],
+  "gallery": [
+    {
+      "image": "https://image.idntimes.com/post/20240428/3-grid-2-2812181fca11c0a1ab8693a3ea622c9e.jpg",
+      "label": "BI x Ageman",
+      "caption": "Ageman's sustainable collection at Kelana Wastra Fashion Fest 2024.",
+      "url": "https://www.idntimes.com/life/women/kelana-wastra-fashion-fest-2024-00-mm7zv-n7t61k"
+    },
+    {
+      "image": "https://image.idntimes.com/post/20240428/whatsapp-image-2024-04-28-at-151353-5e62befda9b4bfd0a0608ae168c15ee1.jpeg",
+      "label": "Kelana Wastra 2024",
+      "caption": "A public fashion-show visual from the event where Ageman represented Bank Indonesia Provinsi Banten.",
+      "url": "https://www.idntimes.com/life/women/kelana-wastra-fashion-fest-2024-00-mm7zv-n7t61k"
+    },
+    {
+      "image": "https://images.glints.com/unsafe/glints-dashboard.oss-ap-southeast-1-internal.aliyuncs.com/company-logo/6461788e279991ea48fb6feb922632c6.jpg",
+      "label": "Ageman Ecoprint",
+      "caption": "Public company logo used on Ageman Ecoprint's verified Glints profile.",
+      "url": "https://glints.com/id/companies/ageman-ecoprint/59882a88-6c16-4721-9e2c-3c7741d48cd3"
+    }
+  ],
+  "actions": [
+    {"key": "whatsapp", "label": "WhatsApp · Ageman", "url": "https://wa.me/6281234538838"},
+    {"key": "maps", "label": "Google Maps · Ageman", "url": "https://share.google/W2hrypk2hTS8xlefp"},
+    {"key": "website", "label": "Official Website", "url": "https://agemanecoprint.netlify.app/"},
+    {"key": "instagram", "label": "Instagram · @agemanecoprint", "url": "https://www.instagram.com/agemanecoprint/"},
+    {"key": "tiktok", "label": "TikTok · @agemanecoprint", "url": "https://www.tiktok.com/@agemanecoprint"},
+    {"key": "tiktokshop", "label": "TikTok Shop", "url": "https://vt.tokopedia.com/t/ZS926vL7Vkdup-OZqd7/"},
+    {"key": "youtube", "label": "YouTube · Ageman Ecoprint", "url": "https://www.youtube.com/@agemanecoprint"},
+    {"key": "drive", "label": "Company Profile", "url": "https://drive.google.com/drive/folders/1YsGGTu76f3Pdh6BpsLJjH_s-NBfk0DOz?usp=drive_link"}
+  ]
+}
