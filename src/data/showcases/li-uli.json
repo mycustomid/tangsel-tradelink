@@ -1,0 +1,57 @@
+{
+  "brandLabel": "LI-ULI",
+  "tagline": "Indonesian wastra, shaped for contemporary life.",
+  "eyebrow": "Tangerang Selatan · Indonesian woven fashion & craft",
+  "heroImage": "https://liulicraft.wordpress.com/wp-content/uploads/2022/05/jpeg-image-1c20eb145b56-1.jpeg?w=847",
+  "palette": {
+    "bg": "#f3eadf",
+    "ink": "#2b211b",
+    "accent": "#c96f43",
+    "surface": "#fffaf4"
+  },
+  "story": {
+    "title": "From Balige weaving to a wider Indonesian fashion story.",
+    "body": "Founded by Ida R. Tampubolon, Li-Uli grew from a craft idea rooted in Balige into an Indonesian wastra fashion brand. Early products paired laminated burlap with Tenun Balige and Ulos Batak for bags and wallets; the brand has since expanded into broader fashion pieces while carrying traditional woven textiles into contemporary design and international-facing showcases."
+  },
+  "stats": [
+    {"value": "2021", "label": "brand founded"},
+    {"value": "Tangsel", "label": "registered and sold from Tangerang Selatan"},
+    {"value": "Class 18", "label": "Li-Uli trademark filing for bags"},
+    {"value": "Global", "label": "products promoted through international showcases"}
+  ],
+  "highlights": [
+    {"title": "Wastra as the identity", "body": "Tenun Balige, Ulos Batak and other Indonesian woven traditions form the visual language behind Li-Uli products."},
+    {"title": "Material with a story", "body": "The brand’s early bags combine laminated burlap with woven textile accents, using a simple material base to foreground regional craft."},
+    {"title": "Craft with social impact", "body": "Ida Tampubolon has trained people with disabilities in Toba to improve bag design and develop fashion products from local wastra through the Rumah BUMN INALUM Toba ecosystem."},
+    {"title": "Beyond the local market", "body": "Li-Uli has been promoted in international-facing programs; Tangsel’s Dekranasda has also cited the brand’s woven bags in connection with recurring orders from a Japanese company."}
+  ],
+  "gallery": [
+    {
+      "image": "https://liulicraft.wordpress.com/wp-content/uploads/2022/05/jpeg-image-1c20eb145b56-1.jpeg?w=847",
+      "label": "Tenun Balige Tote",
+      "caption": "Laminated burlap combined with Tenun Balige inspired by Ulos motifs.",
+      "url": "https://liulicraft.wordpress.com/"
+    },
+    {
+      "image": "https://liulicraft.wordpress.com/wp-content/uploads/2022/05/tt-sadum-bulat-variasi-2-a.jpeg?w=1024",
+      "label": "Ulos Sadum Tote",
+      "caption": "A colorful Ulos Sadum expression translated into an everyday bag.",
+      "url": "https://liulicraft.wordpress.com/"
+    },
+    {
+      "image": "https://liulicraft.wordpress.com/wp-content/uploads/2022/01/yo-2-1.jpeg?w=768",
+      "label": "Li-Uli Craft",
+      "caption": "A contemporary craft direction built around Indonesian woven textiles.",
+      "url": "https://www.instagram.com/liulicraft"
+    }
+  ],
+  "actions": [
+    {"key": "instagram", "label": "Instagram · Fashion", "url": "https://www.instagram.com/liuli_fashion?stkn=MTRiZWUyZXl2cnhkNw=="},
+    {"key": "instagram", "label": "Instagram · Craft", "url": "https://www.instagram.com/liulicraft?stkn=dW40MDl6MzE0cGFo"},
+    {"key": "tiktok", "label": "TikTok · @liulicraft1", "url": "https://www.tiktok.com/@liulicraft1?_r=1&_t=ZS-99pJDrdmjUC"},
+    {"key": "facebook", "label": "Facebook", "url": "https://www.facebook.com/share/19HGUgaRBb/?mibextid=wwXIfr"},
+    {"key": "shopee", "label": "Shopee · Li-Uli", "url": "https://shopee.co.id/tokoliuli"},
+    {"key": "website", "label": "Li-Uli Brand Story", "url": "https://liulicraft.wordpress.com/"},
+    {"key": "catalog", "label": "Karya Perempuan", "url": "https://www.karyaperempuan.id/product/tas-hampers-qgfe1"}
+  ]
+}
