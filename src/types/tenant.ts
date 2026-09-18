@@ -18,6 +18,7 @@ export interface Tenant {
   youtube?: string;
   linktree?: string;
   maps?: string;
+  address?: string;
   website?: string;
   catalog?: string;
   email?: string;

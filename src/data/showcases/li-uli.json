@@ -31,9 +31,11 @@
     {"image": "https://liulicraft.wordpress.com/wp-content/uploads/2022/01/yo-2-1.jpeg?w=768", "label": "Li-Uli Craft", "caption": "A contemporary craft direction built around Indonesian woven textiles.", "url": "https://www.instagram.com/liulicraft"}
   ],
   "actions": [
+    {"key": "whatsapp", "label": "WhatsApp · LI-ULI", "url": "https://wa.me/6281280902454"},
+    {"key": "maps", "label": "Google Maps · BSD", "url": "https://www.google.com/maps/search/?api=1&query=Vermont%20Parkland%20Blok%20G.1%2F21%2C%20BSD%2C%20Kota%20Tangerang%20Selatan%2C%20Banten%2015321%2C%20Indonesia"},
     {"key": "instagram", "label": "Instagram · Fashion", "url": "https://www.instagram.com/liuli_fashion/"},
     {"key": "instagram", "label": "Instagram · Craft", "url": "https://www.instagram.com/liulicraft/"},
-    {"key": "tiktok", "label": "TikTok · @liuli_craft_official", "url": "https://www.tiktok.com/@liuli_craft_official"},
+    {"key": "tiktok", "label": "TikTok · @liulicraft1", "url": "https://www.tiktok.com/@liulicraft1?_r=1&_t=ZS-99pJDrdmjUC"},
     {"key": "facebook", "label": "Facebook", "url": "https://www.facebook.com/share/19HGUgaRBb/?mibextid=wwXIfr"},
     {"key": "shopee", "label": "Shopee · Li-Uli", "url": "https://shopee.co.id/tokoliuli"},
     {"key": "website", "label": "Li-Uli Brand Story", "url": "https://liulicraft.wordpress.com/"},

@@ -50,6 +50,14 @@ function whatsappUrl(value) {
   return digits.length >= 8 ? `https://wa.me/${digits}` : '';
 }
 
+function mapsUrl(tenant = {}) {
+  const explicit = safeWebUrl(tenant.maps);
+  if (explicit) return explicit;
+  const query = String(tenant.address || tenant.name || '').trim();
+  if (!query) return '';
+  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
+}
+
 function emailUrl(value) {
   const raw = String(value || '').trim();
   if (!raw) return '';
@@ -77,7 +85,7 @@ export function getTenantLinks(tenant = {}) {
     ['tiktok', 'TikTok', 'tiktok', safeWebUrl(tenant.tiktok)],
     ['youtube', 'YouTube', 'youtube', safeWebUrl(tenant.youtube)],
     ['website', 'Official Website', 'website', safeWebUrl(tenant.website)],
-    ['maps', 'Google Maps', 'maps', safeWebUrl(tenant.maps)],
+    ['maps', 'Google Maps', 'maps', mapsUrl(tenant)],
     ['catalog', 'Product Catalog', 'catalog', safeWebUrl(tenant.catalog)],
     ['email', 'Email', 'email', emailUrl(tenant.email)],
   ];
