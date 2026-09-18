@@ -13,6 +13,7 @@ const ready = [
   ['clean-matic', '../src/data/showcases/clean-matic.json'],
   ['sinar-mas-land', '../src/data/showcases/sinar-mas-land.json'],
   ['himki', '../src/data/showcases/himki.json'],
+  ['li-uli', '../src/data/showcases/li-uli.json'],
 ];
 
 for (const [slug, path] of ready) {
