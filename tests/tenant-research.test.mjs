@@ -10,11 +10,12 @@ const research = Object.assign(
   readJson('../src/data/research-manufactured.json'),
   readJson('../src/data/research-industrial.json'),
   readJson('../src/data/research-furniture.json'),
+  readJson('../src/data/research-fashion.json'),
 );
 
-test('research layer covers all 85 floorplan tenants with profile copy', () => {
-  assert.equal(base.length, 85);
-  assert.equal(Object.keys(research).length, 85);
+test('research layer covers all tenant directory entries with profile copy', () => {
+  assert.ok(base.length >= 86, `expected at least 86 directory tenants, got ${base.length}`);
+  assert.equal(Object.keys(research).length, base.length);
   for (const tenant of base) {
     assert.ok(research[tenant.slug], `missing research for ${tenant.slug}`);
     assert.ok(research[tenant.slug].description?.length >= 45, `thin description for ${tenant.slug}`);
