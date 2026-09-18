@@ -30,21 +30,9 @@ const logoStyle = safeLogo ? `--tenant-brand-logo:url("${safeLogo}")` : undefine
     background-image: var(--tenant-brand-logo) !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
-    background-size: 72% 72% !important;
+    background-size: contain !important;
     color: transparent !important;
     font-size: 0 !important;
-  }
-
-  .enhanced-rich-showcase a[href*="facebook.com"] .brand-icon-wrap > *,
-  .enhanced-rich-showcase a[href*="linkedin.com"] .brand-icon-wrap > * {
-    display: none !important;
-  }
-
-  .enhanced-rich-showcase a[href*="facebook.com"] .brand-icon-wrap {
-    background: url("https://cdn.simpleicons.org/facebook/0866FF") center / 23px 23px no-repeat !important;
-  }
-
-  .enhanced-rich-showcase a[href*="linkedin.com"] .brand-icon-wrap {
-    background: url("https://cdn.simpleicons.org/linkedin/0A66C2") center / 23px 23px no-repeat !important;
+    overflow: hidden !important;
   }
 </style>
