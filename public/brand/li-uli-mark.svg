@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
-  <title id="title">LI-ULI</title>
-  <desc id="desc">LI-ULI brand mark using the registered red, black and white color family.</desc>
-  <rect width="128" height="128" rx="28" fill="#111111"/>
-  <path d="M24 30h18v42c0 14 8 22 22 22 12 0 20-5 25-16V30h18v68H90V88c-7 9-17 14-30 14-23 0-36-13-36-36V30Z" fill="#ffffff"/>
-  <path d="M28 24 64 8l36 16-36 16-36-16Z" fill="#b8232f"/>
-  <path d="M46 24 64 16l18 8-18 8-18-8Z" fill="#ffffff"/>
-  <circle cx="64" cy="24" r="4" fill="#b8232f"/>
-</svg>
