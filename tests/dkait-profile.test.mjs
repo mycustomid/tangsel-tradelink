@@ -10,6 +10,6 @@ test('Dkait Craft uses client supplied contact channels and OSINT-backed busines
   assert.equal(research.tiktok, 'https://www.tiktok.com/@dkait_craft');
   assert.equal(research.maps, 'https://share.google/K6OtiiVM3xm83aIGg');
   assert.match(research.address, /Puri Flamboyan/);
-  assert.equal(research.logo, '/brand/dkait-craft-wordmark.svg');
+  assert.equal(research.logo, 'https://mycustomid.github.io/tangsel-tradelink/brand/dkait-craft-wordmark.svg');
   assert.ok(fs.existsSync(new URL('../public/brand/dkait-craft-wordmark.svg', import.meta.url)));
 });
