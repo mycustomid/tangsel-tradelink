@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 96" role="img" aria-labelledby="title desc">
+<title id="title">Dkait Craft</title>
+<desc id="desc">Clean Dkait Craft wordmark fallback using the registered black, white, purple and pink brand palette; this is not a reproduction of the trademark artwork.</desc>
+<rect width="320" height="96" rx="22" fill="#151218"/>
+<circle cx="48" cy="48" r="28" fill="#7B3FA1"/>
+<circle cx="48" cy="48" r="19" fill="#E5529B"/>
+<path d="M39 35h9c11 0 19 4 19 13s-8 13-19 13h-9V35Zm9 20c7 0 11-2 11-7s-4-7-11-7h-2v14h2Z" fill="#fff"/>
+<text x="88" y="45" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="800" letter-spacing="1">dkait</text>
+<text x="88" y="69" fill="#E5529B" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" letter-spacing="3">CRAFT</text>
+</svg>
