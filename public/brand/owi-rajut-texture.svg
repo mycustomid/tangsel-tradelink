@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="t d">
+<title id="t">Knitting texture study</title><desc id="d">Editorial knit texture illustration for Owi Rajut, not a product photograph.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#2f2722"/><stop offset="1" stop-color="#5e4438"/></linearGradient>
+<pattern id="p" width="92" height="68" patternUnits="userSpaceOnUse">
+<path d="M0 34C14 8 31 8 46 34S78 60 92 34" fill="none" stroke="#e9c8b0" stroke-width="8" stroke-linecap="round"/>
+<path d="M0 0C14 26 31 26 46 0S78-26 92 0" fill="none" stroke="#b77a61" stroke-width="5" stroke-linecap="round" opacity=".8"/>
+</pattern>
+</defs>
+<rect width="1200" height="900" fill="url(#bg)"/><rect width="1200" height="900" fill="url(#p)" opacity=".95"/>
+<rect x="72" y="670" width="650" height="150" rx="28" fill="#f4eadf" opacity=".94"/>
+<text x="115" y="735" font-family="Arial,Helvetica,sans-serif" font-size="25" letter-spacing="5" fill="#7d5d50">EDITORIAL STUDY</text>
+<text x="115" y="790" font-family="Georgia,serif" font-size="54" font-weight="700" fill="#2c211c">Texture becomes identity.</text>
+</svg>

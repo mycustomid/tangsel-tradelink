@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="t d">
+<title id="t">Yarn palette study</title><desc id="d">Editorial yarn and color palette illustration for Owi Rajut, not a product photograph.</desc>
+<rect width="1200" height="900" fill="#efe8dc"/>
+<g opacity=".98">
+<circle cx="330" cy="365" r="205" fill="#875443"/>
+<circle cx="330" cy="365" r="164" fill="none" stroke="#e9c8b0" stroke-width="18" stroke-dasharray="30 18"/>
+<circle cx="745" cy="405" r="250" fill="#c8986e"/>
+<circle cx="745" cy="405" r="201" fill="none" stroke="#f7ead9" stroke-width="20" stroke-dasharray="26 17"/>
+<circle cx="1010" cy="260" r="110" fill="#31443b"/>
+<circle cx="1010" cy="260" r="84" fill="none" stroke="#b7c3ae" stroke-width="13" stroke-dasharray="18 12"/>
+</g>
+<path d="M890 560C1010 610 1090 700 1170 845" fill="none" stroke="#31443b" stroke-width="20" stroke-linecap="round"/>
+<text x="90" y="760" font-family="Georgia,serif" font-size="72" font-weight="700" fill="#2d241f">Yarn, hands, rhythm.</text>
+<text x="94" y="817" font-family="Arial,Helvetica,sans-serif" font-size="25" letter-spacing="4" fill="#70584c">AN EDITORIAL VISUAL FOR OWI RAJUT</text>
+</svg>

@@ -1,0 +1,52 @@
+{
+  "brandLabel": "OWI RAJUT",
+  "tagline": "Benang, tekstur, dan craft dari Tangerang Selatan.",
+  "eyebrow": "Tangerang Selatan · Knitting Yarn · Hand Knitting Craft",
+  "heroImage": "https://mycustomid.github.io/tangsel-tradelink/brand/owi-rajut-hero.svg",
+  "palette": {
+    "bg": "#eee6da",
+    "ink": "#2c211c",
+    "accent": "#8b5a47",
+    "surface": "#faf6ef"
+  },
+  "story": {
+    "title": "Rajut bukan sekadar bahan — ia adalah ritme, tekstur, dan kerja tangan.",
+    "body": "Owi Rajut tercatat sebagai usaha rajut di Tangerang Selatan. Rekam merek publik menunjukkan Owi Rajut diajukan pada 27 September 2021 di kelas 23 untuk benang rajut dan benang untuk rajutan tangan. Studi Universitas Pamulang juga memasukkan Owi Rajut dalam pemetaan UMKM lokal Tangerang Selatan."
+  },
+  "stats": [
+    {"value": "2021", "label": "trademark filing year"},
+    {"value": "Class 23", "label": "knitting yarn category"},
+    {"value": "Tangsel", "label": "local UMKM footprint"},
+    {"value": "Handmade", "label": "craft-led visual direction"}
+  ],
+  "highlights": [
+    {"title": "Yarn is the starting point", "body": "Owi Rajut’s registered class covers knitting yarn and hand-knitting yarn, placing material and craft at the center of the brand story."},
+    {"title": "Local Tangsel presence", "body": "Owi Rajut appears in Universitas Pamulang research mapping nearby UMKM in South Tangerang."},
+    {"title": "Visual identity through texture", "body": "The page uses an editorial knit-and-yarn system rather than unrelated stock photography, keeping the presentation aligned with the brand category."},
+    {"title": "Direct discovery", "body": "Visitors can continue directly to the brand’s Instagram and the Google Maps location supplied by the tenant contact."}
+  ],
+  "gallery": [
+    {
+      "image": "https://mycustomid.github.io/tangsel-tradelink/brand/owi-rajut-texture.svg",
+      "label": "Knit Texture",
+      "caption": "Editorial texture study inspired by hand knitting; not a product photograph.",
+      "url": "https://www.instagram.com/owi.rajut/"
+    },
+    {
+      "image": "https://mycustomid.github.io/tangsel-tradelink/brand/owi-rajut-yarn.svg",
+      "label": "Yarn Palette",
+      "caption": "Editorial yarn study created for the TradeLink presentation; not an official product image.",
+      "url": "https://www.instagram.com/owi.rajut/"
+    },
+    {
+      "image": "https://mycustomid.github.io/tangsel-tradelink/brand/owi-rajut-hero.svg",
+      "label": "Owi Rajut",
+      "caption": "A TradeLink editorial identity visual built around the verified knitting-yarn category.",
+      "url": "https://www.instagram.com/owi.rajut/"
+    }
+  ],
+  "actions": [
+    {"key": "instagram", "label": "Instagram · @owi.rajut", "url": "https://www.instagram.com/owi.rajut/"},
+    {"key": "maps", "label": "Google Maps · Owi Rajut", "url": "https://share.google/Ene44rW2OTbtqHg39"}
+  ]
+}
