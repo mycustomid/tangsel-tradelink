@@ -21,7 +21,9 @@ test('every tenant exposes a valid Maps discovery link', () => {
     assert.ok(maps?.href, `missing Maps link for ${base.slug}`);
     assert.match(maps.href, /^https:\/\//, `invalid Maps URL for ${base.slug}`);
     assert.ok(
-      maps.href.includes('google.com/maps') || maps.href.includes('share.google'),
+      maps.href.includes('google.com/maps') ||
+      maps.href.includes('maps.app.goo.gl') ||
+      maps.href.includes('share.google'),
       `unexpected Maps provider for ${base.slug}: ${maps.href}`
     );
   }
