@@ -15,6 +15,7 @@ const ready = [
   ['himki', '../src/data/showcases/himki.json'],
   ['li-uli', '../src/data/showcases/li-uli.json'],
   ['ageman-ecoprint', '../src/data/showcases/ageman-ecoprint.json'],
+  ['owi-rajut', '../src/data/showcases/owi-rajut.json'],
 ];
 
 for (const [slug, path] of ready) {
