@@ -79,15 +79,23 @@
     "verifiedAt": "2026-09-20"
   },
   "owi-rajut": {
-    "description": "Owi Rajut is a Tangerang Selatan knitting and yarn craft business. Public trademark records show the Owi Rajut mark was filed on 27 September 2021 in class 23 for knitting yarn and hand-knitting yarn, while a Universitas Pamulang study lists Owi Rajut among local UMKM in South Tangerang.",
+    "description": "Owi Rajut is a Tangerang Selatan knitting-yarn business with trademark application DID2021064524, received on 27 September 2021 in class 23 for knitting yarn and hand-knitting yarn. A 2022 Universitas Pamulang study also records Owi Rajut in a local UMKM dataset at approximately latitude -6.35540522545654 and longitude 106.712101733721.",
     "theme": "editorial",
     "instagram": "https://www.instagram.com/owi.rajut/",
     "maps": "https://share.google/Ene44rW2OTbtqHg39",
+    "mapsFallback": "https://www.google.com/maps/search/?api=1&query=-6.35540522545654%2C106.712101733721",
+    "trademarkApplication": "DID2021064524",
+    "trademarkFiledAt": "2021-09-27",
+    "trademarkClass": "23",
+    "trademarkGoods": ["benang rajut", "benang untuk rajutan tangan"],
+    "latitude": -6.35540522545654,
+    "longitude": 106.712101733721,
     "sources": [
       "https://www.dgip.go.id/uploads/berita_resmi/file/9e6511b217f11a588fa294908106de13.pdf",
+      "https://app.jumbomark.com/tmas?page=26700",
       "https://openjournal.unpam.ac.id/index.php/informatika/article/download/15254/pdf/51477"
     ],
     "researchStatus": "web-verified",
-    "verifiedAt": "2026-09-20"
+    "verifiedAt": "2026-09-21"
   }
 }
