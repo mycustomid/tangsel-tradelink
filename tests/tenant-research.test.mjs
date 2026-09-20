@@ -14,7 +14,7 @@ const research = Object.assign(
 );
 
 test('research layer covers all tenant directory entries with profile copy', () => {
-  assert.ok(base.length >= 87, `expected at least 87 directory tenants, got ${base.length}`);
+  assert.ok(base.length >= 90, `expected at least 90 directory tenants, got ${base.length}`);
   assert.equal(Object.keys(research).length, base.length);
   for (const tenant of base) {
     assert.ok(research[tenant.slug], `missing research for ${tenant.slug}`);
