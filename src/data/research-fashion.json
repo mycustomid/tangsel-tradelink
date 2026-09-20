@@ -63,5 +63,19 @@
     ],
     "researchStatus": "web-verified",
     "verifiedAt": "2026-09-20"
+  },
+  "ilalang-craft": {
+    "description": "Ilalang Craft is a Tangerang Selatan handmade knitwear brand founded in 2019 by Eli Suswati. The business is known for manually knitted footwear made from polyester cord and serves customers from toddlers to adults; its Ilalang Craft word-and-device mark is recorded in class 25 for knitted shoes.",
+    "theme": "editorial",
+    "whatsapp": "https://wa.me/6287779132379",
+    "instagram": "https://www.instagram.com/ilalangcraft.co/",
+    "address": "Griya Asri Pamulang Blok E9/14, Bakti Jaya, Setu, Kota Tangerang Selatan, Banten 15315, Indonesia",
+    "logo": "https://mycustomid.github.io/tangsel-tradelink/brand/ilalang-craft-profile.svg",
+    "sources": [
+      "https://jom.fikom.budiluhur.ac.id/index.php/Pantarei/article/download/793/648",
+      "https://dgip.go.id/uploads/berita_resmi/file/f0491d5b4f1639bc7c3e625db3cd1b3a.pdf"
+    ],
+    "researchStatus": "web-verified",
+    "verifiedAt": "2026-09-20"
   }
 }
