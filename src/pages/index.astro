@@ -8,7 +8,8 @@ import type { Tenant } from '../types/tenant';
 const tenantList = [...(tenants as Tenant[]), ...(tenantExtras as Tenant[])];
 const categories = uniqueValues(tenantList, 'category');
 const halls = uniqueValues(tenantList, 'hall');
-const baseUrl = import.meta.env.BASE_URL;
+const rawBaseUrl = import.meta.env.BASE_URL;
+const baseUrl = rawBaseUrl.endsWith('/') ? rawBaseUrl : `${rawBaseUrl}/`;
 ---
 
 <BaseLayout title="Tangsel TradeLink — TEI 2026">
