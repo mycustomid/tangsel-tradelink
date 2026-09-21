@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img">
+<rect width="1200" height="900" fill="#173331"/>
+<g fill="none" stroke="#31beb8" stroke-width="14" opacity=".92">
+  <path d="M120 690c140-150 220-300 340-500 120 200 200 350 340 500"/>
+  <path d="M190 690h540"/><path d="M300 690V470h320v220"/><path d="M330 470l130-130 130 130"/>
+</g>
+<g transform="translate(830 210)" fill="#dba364">
+  <ellipse rx="65" ry="32" transform="rotate(30)"/><ellipse rx="65" ry="32" transform="rotate(90)"/><ellipse rx="65" ry="32" transform="rotate(150)"/><circle r="25" fill="#f3e8d7"/>
+</g>
+<path d="M40 805c210-135 360 90 560-15s360-80 560 0" fill="none" stroke="#f3e8d7" stroke-width="22"/>
+<text x="80" y="110" font-family="Georgia,serif" font-size="70" fill="#f3e8d7">Tangsel motif vocabulary</text>
+<text x="82" y="160" font-family="Arial,Helvetica,sans-serif" font-size="25" letter-spacing="4" fill="#9adbd7">HOUSE · ORCHID · RIVER · LOCAL HARVEST</text>
+</svg>

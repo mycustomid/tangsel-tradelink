@@ -1,0 +1,52 @@
+{
+  "brandLabel": "RUMAH BATIK SETU",
+  "tagline": "Batik Tangsel, ditulis dari identitas kota dan dikerjakan oleh tangan lokal.",
+  "eyebrow": "Setu · Tangerang Selatan · Batik Tulis & Cap · Local Wastra",
+  "heroImage": "https://mycustomid.github.io/tangsel-tradelink/brand/rumah-batik-setu-hero.svg",
+  "palette": {
+    "bg": "#ece8df",
+    "ink": "#173331",
+    "accent": "#19a9a4",
+    "surface": "#fbf8f1"
+  },
+  "story": {
+    "title": "Motif kota, dikerjakan tangan.",
+    "body": "Rumah Batik Setu tumbuh dari pelatihan membatik di Kecamatan Setu pada 2017 dan berkembang sebagai kelompok wastra yang membawa identitas Tangerang Selatan ke kain. Motif-motifnya mengangkat referensi lokal seperti Rumah Blandongan, kacang Keranggan, anggrek, Sungai Cisadane, bambu dan teratai. Kajian Batik Durang juga mencatat warna toska sebagai unsur identitas visual khas Tangerang Selatan."
+  },
+  "stats": [
+    {"value": "2017", "label": "roots of the Setu batik collective"},
+    {"value": "8", "label": "active artisans reported in 2025"},
+    {"value": "Class 24", "label": "Rumah Batik Setu trademark filing for batik cloth"},
+    {"value": "Tangsel", "label": "local motifs translated into wastra"}
+  ],
+  "highlights": [
+    {"title": "A Tangsel visual vocabulary", "body": "Rumah Blandongan, Keranggan peanuts, orchids, bamboo, lotus and the Cisadane River are translated into batik motifs rooted in the city."},
+    {"title": "Batik tulis and cap", "body": "Public profiles describe Rumah Batik Setu producing both hand-drawn and stamped batik, with products expanding beyond cloth into accessories and lifestyle pieces."},
+    {"title": "Women-led craft ecosystem", "body": "The collective grew from community training and continues to support local women artisans through batik production and market access."},
+    {"title": "Curated for wider retail", "body": "Rumah Batik Setu was among six Tangsel UMKM selected for the Tangerang Selatan Neighborhood collaboration at Uniqlo Living World in 2024."}
+  ],
+  "gallery": [
+    {
+      "image": "https://mycustomid.github.io/tangsel-tradelink/brand/rumah-batik-setu-motif.svg",
+      "label": "Tangsel Motif Language",
+      "caption": "Editorial motif study using local references documented in Rumah Batik Setu research; not an official batik pattern.",
+      "url": "https://www.instagram.com/rumahbatiksetu/"
+    },
+    {
+      "image": "https://mycustomid.github.io/tangsel-tradelink/brand/rumah-batik-setu-toska.svg",
+      "label": "Toska Identity",
+      "caption": "Editorial color study inspired by the turquoise element documented in Batik Durang research; not an official product image.",
+      "url": "https://journal.lppmunindra.ac.id/index.php/Jurnal_Desain/article/view/22807"
+    },
+    {
+      "image": "https://mycustomid.github.io/tangsel-tradelink/brand/rumah-batik-setu-craft.svg",
+      "label": "Tulis & Cap",
+      "caption": "Editorial craft visual for the TradeLink profile; visitors can continue to the official Instagram for current products.",
+      "url": "https://www.instagram.com/rumahbatiksetu/"
+    }
+  ],
+  "actions": [
+    {"key": "instagram", "label": "Instagram · @rumahbatiksetu", "url": "https://www.instagram.com/rumahbatiksetu/"},
+    {"key": "maps", "label": "Google Maps · Rumah Batik Setu", "url": "https://share.google/kzvdtx47TCfX9K5Tu"}
+  ]
+}

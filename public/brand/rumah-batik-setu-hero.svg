@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200" role="img" aria-labelledby="t d">
+<title id="t">Rumah Batik Setu editorial hero</title>
+<desc id="d">Original editorial batik-inspired visual using Tangsel turquoise and abstract local motif references. Not an official batik pattern or product photograph.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f2ede3"/><stop offset="1" stop-color="#d9ece8"/></linearGradient>
+  <pattern id="p" width="180" height="180" patternUnits="userSpaceOnUse">
+    <path d="M90 20c20 28 45 42 68 70-23 28-48 42-68 70-20-28-45-42-68-70 23-28 48-42 68-70Z" fill="none" stroke="#19a9a4" stroke-width="7" opacity=".48"/>
+    <circle cx="90" cy="90" r="20" fill="#d18b4e" opacity=".55"/>
+    <path d="M15 90h45M120 90h45M90 15v45M90 120v45" stroke="#173331" stroke-width="5" opacity=".28"/>
+  </pattern>
+</defs>
+<rect width="1600" height="1200" fill="url(#bg)"/>
+<rect x="72" y="72" width="1456" height="1056" rx="56" fill="url(#p)"/>
+<path d="M0 890C320 740 530 1040 820 880s520-160 780 0v320H0Z" fill="#173331" opacity=".92"/>
+<path d="M0 940c300-150 560 140 850-20s510-135 750-10" fill="none" stroke="#19a9a4" stroke-width="18" opacity=".9"/>
+<g transform="translate(150 180)">
+  <rect width="720" height="410" rx="40" fill="#fbf8f1" opacity=".94"/>
+  <text x="58" y="84" font-family="Arial,Helvetica,sans-serif" font-size="30" letter-spacing="6" fill="#188e8a">SETU · TANGERANG SELATAN</text>
+  <text x="58" y="194" font-family="Georgia,serif" font-size="94" font-weight="700" fill="#173331">Rumah Batik</text>
+  <text x="58" y="285" font-family="Georgia,serif" font-size="94" font-weight="700" fill="#173331">Setu</text>
+  <text x="58" y="350" font-family="Arial,Helvetica,sans-serif" font-size="31" fill="#5c6d68">Motif kota, dikerjakan tangan.</text>
+</g>
+</svg>

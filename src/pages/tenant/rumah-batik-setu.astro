@@ -1,0 +1,30 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import EnhancedRichTenantShowcase from '../../components/EnhancedRichTenantShowcase.astro';
+import config from '../../data/showcases/rumah-batik-setu.json';
+
+const baseUrl = import.meta.env.BASE_URL;
+const tenant = {
+  name: 'RUMAH BATIK SETU',
+  slug: 'rumah-batik-setu',
+  hall: '8',
+  booth: '8-7C',
+  category: 'Fashion, Handicraft & Home Decor',
+  description: 'Rumah Batik Setu develops batik tulis and batik cap rooted in Tangerang Selatan local identity, including motifs inspired by local architecture, flora, agriculture and the Cisadane River.',
+  theme: 'editorial',
+  instagram: 'https://www.instagram.com/rumahbatiksetu/',
+  maps: 'https://share.google/kzvdtx47TCfX9K5Tu',
+  logo: 'https://mycustomid.github.io/tangsel-tradelink/brand/rumah-batik-setu-wordmark.svg',
+  researchStatus: 'web-verified',
+  verifiedAt: '2026-09-21'
+};
+---
+
+<BaseLayout
+  title="RUMAH BATIK SETU — Tangsel TradeLink"
+  description={tenant.description}
+  theme="editorial"
+  favicon={tenant.logo}
+>
+  <EnhancedRichTenantShowcase tenant={tenant} config={config} baseUrl={baseUrl} />
+</BaseLayout>
