@@ -10,16 +10,14 @@ test('Sepatu Wanita NAA is listed with client supplied social, WhatsApp and Maps
   assert.ok(extras.some((tenant) => tenant.slug === 'sepatu-wanita-naa'));
   const actions = Object.fromEntries(config.actions.map((a) => [a.label, a.url]));
   assert.equal(actions['Instagram · @sepatu_wanita_naa'], 'https://www.instagram.com/sepatu_wanita_naa/');
+  assert.equal(actions['Threads · @sepatu_wanita_naa'], 'https://www.threads.com/@sepatu_wanita_naa');
   assert.equal(actions['WhatsApp · NAA Shoes'], 'https://wa.me/message/63AO3V4U5XLVB1');
   assert.equal(actions['Google Maps · NAA Shoes'], 'https://maps.app.goo.gl/bdwuTbR7Efwaiudf7?g_st=awb');
   assert.match(page, /EnhancedRichTenantShowcase/);
   assert.equal(page.includes('Griya'), false, 'private home address should not be rendered as text');
 });
 
-test('NAA premium visual assets are local and the gallery has real brand-specific directions', () => {
-  for (const file of ['naa-shoes-wordmark.svg','naa-shoes-hero.svg','naa-shoes-classic.svg','naa-shoes-ecoprint.svg','naa-shoes-request.svg']) {
-    assert.ok(fs.existsSync(new URL(`../public/brand/${file}`, import.meta.url)), `missing ${file}`);
-  }
+test('NAA premium visual assets use authentic client photography', () => {
   const photos = [
     'naa-shoes-classic-mules.jpeg',
     'naa-shoes-classic-flats-mocha.jpeg',
@@ -32,7 +30,15 @@ test('NAA premium visual assets are local and the gallery has real brand-specifi
   for (const photo of photos) {
     assert.ok(fs.existsSync(new URL(`../public/brand/naa-shoes/${photo}`, import.meta.url)), `missing photo ${photo}`);
   }
-  assert.ok(config.gallery.length >= 3);
+  assert.ok(config.gallery.length >= 7);
   assert.match(config.story.body, /home industry/i);
   assert.ok(config.highlights.some((item) => /request/i.test(item.title + item.body)));
+});
+
+test('NAA copy avoids unsupported material, safety, sustainability and performance claims', () => {
+  const text = JSON.stringify(config).toLowerCase();
+  for (const unsupported of ['anti-slip', 'tanpa limbah', 'ramah lingkungan', 'natural botanical dye', 'bahan berkualitas tinggi', 'pengiriman cepat']) {
+    assert.equal(text.includes(unsupported), false, `unsupported claim leaked into profile: ${unsupported}`);
+  }
+  assert.ok(fs.existsSync(new URL('../public/icons/brands/threads.svg', import.meta.url)), 'Threads icon must be stored locally');
 });

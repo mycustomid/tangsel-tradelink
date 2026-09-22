@@ -11,79 +11,108 @@
   },
   "story": {
     "title": "Everyday shoes, made closer to home.",
-    "body": "Sepatu Wanita NAA adalah home industry alas kaki wanita dari Tangerang Selatan. Merek ini memadukan estetika modern dengan kenyamanan untuk berbagai kesempatan, baik formal maupun kasual. Menghadirkan koleksi classic flats, mules, sandal hak rendah, hingga seri ecoprint dengan motif daun alami dan layanan model bisa direquest. Seluruh pemesanan diarahkan langsung melalui WhatsApp Business dan Instagram resmi."
+    "body": "Sepatu Wanita NAA adalah home industry alas kaki wanita dari Tangerang Selatan. Materi brand yang diberikan menampilkan koleksi classic flats, mules, sandal hak rendah, dan seri ecoprint. Profil Instagram resminya juga menyebut model dapat direquest serta pemesanan dilakukan melalui WhatsApp dan DM."
   },
   "stats": [
-    {"value": "Tangsel", "label": "home-industry origin"},
-    {"value": "Request", "label": "model can be requested"},
-    {"value": "Flats + Mules", "label": "core everyday silhouettes"},
-    {"value": "Ecoprint", "label": "nature-inspired footwear series"}
+    {
+      "value": "Tangsel",
+      "label": "home-industry origin"
+    },
+    {
+      "value": "Request",
+      "label": "model can be requested"
+    },
+    {
+      "value": "Flats + Mules",
+      "label": "core silhouettes shown in client materials"
+    },
+    {
+      "value": "Ecoprint",
+      "label": "botanical-pattern footwear series"
+    }
   ],
   "highlights": [
     {
-      "title": "Made for everyday wear",
-      "body": "Koleksi NAA bergerak dari flatshoes hingga mules dengan siluet sederhana, sol empuk anti-slip, dan bahan berkualitas yang nyaman untuk aktivitas harian."
+      "title": "Everyday silhouettes",
+      "body": "Materi produk NAA menampilkan flatshoes, mules, sandal hak rendah, dan beberapa pilihan warna untuk kebutuhan gaya harian."
     },
     {
       "title": "Model bisa request",
-      "body": "Profil Instagram NAA secara eksplisit menawarkan model yang dapat direquest, memberi ruang bagi pelanggan untuk kebutuhan ukuran dan gaya yang lebih personal."
+      "body": "Bio Instagram NAA secara eksplisit menyebut “MODEL BISA REQUEST”, sehingga pengunjung dapat menghubungi brand untuk menanyakan opsi model yang tersedia."
     },
     {
       "title": "Ecoprint series",
-      "body": "Memanfaatkan jejak dedaunan alami pada sepatu dan sandal hak rendah (NAA Heels Eco), menghasilkan karya ramah lingkungan dengan motif yang tak pernah sama."
+      "body": "Foto produk yang diberikan memperlihatkan seri footwear dengan motif daun dan pola botanical bergaya ecoprint. Detail proses, bahan pewarna, dan klaim lingkungan tidak ditambahkan karena belum ada sumber yang memverifikasinya."
     },
     {
-      "title": "Direct order & consultation",
-      "body": "Pemesanan difokuskan melalui WhatsApp Business dan Instagram DM resmi @sepatu_wanita_naa untuk konsultasi ukuran, kustomisasi, dan pengiriman cepat."
+      "title": "Direct order",
+      "body": "Pemesanan diarahkan melalui WhatsApp Business dan Instagram DM. Untuk kanal lain, hanya akun yang dapat dicocokkan dengan identitas brand yang ditampilkan."
     }
   ],
   "gallery": [
     {
       "image": "https://mycustomid.github.io/tangsel-tradelink/brand/naa-shoes/naa-shoes-classic-mules.jpeg",
       "label": "Classic Mules",
-      "caption": "Siluet mules elegan dengan aksen buckle strap, material nude gloss, dan bantalan sol empuk anti-slip.",
+      "caption": "Mules bernuansa nude dengan detail buckle strap dari materi produk asli NAA.",
       "url": "https://www.instagram.com/sepatu_wanita_naa/"
     },
     {
       "image": "https://mycustomid.github.io/tangsel-tradelink/brand/naa-shoes/naa-shoes-classic-flats-mocha.jpeg",
       "label": "Classic Flats · Mocha Brown",
-      "caption": "Flat shoes berujung runcing dengan warna mocha brown yang timeless dan sentuhan insole gold NAA.",
+      "caption": "Flat shoes berujung runcing dalam warna mocha brown dari koleksi yang diberikan oleh NAA.",
       "url": "https://www.instagram.com/sepatu_wanita_naa/"
     },
     {
       "image": "https://mycustomid.github.io/tangsel-tradelink/brand/naa-shoes/naa-shoes-ecoprint-flats.jpeg",
-      "label": "Sepatu Ecoprint Series",
-      "caption": "Pemanfaatan jejak dedaunan dan serat alami menghasilkan motif unik tanpa limbah lingkungan.",
+      "label": "Ecoprint Series",
+      "caption": "Flat shoes dengan pola daun bergaya ecoprint berdasarkan foto produk asli yang diberikan tenant.",
       "url": "https://www.instagram.com/sepatu_wanita_naa/"
     },
     {
       "image": "https://mycustomid.github.io/tangsel-tradelink/brand/naa-shoes/naa-shoes-ecoprint-heels-earthy.jpeg",
-      "label": "Sandal Ecoprint Heels",
-      "caption": "Sandal hak rendah ecoprint bernuansa earthy cokelat dan natural botanical dye.",
+      "label": "Ecoprint Low Heels",
+      "caption": "Sandal hak rendah dengan pola botanical bernuansa earthy dari materi produk NAA.",
       "url": "https://www.instagram.com/sepatu_wanita_naa/"
     },
     {
       "image": "https://mycustomid.github.io/tangsel-tradelink/brand/naa-shoes/naa-shoes-classic-flats-black.jpeg",
       "label": "Classic Black Flats",
-      "caption": "Flat shoes hitam anggun dengan aksen pita depan manis, cocok untuk formal maupun kasual.",
+      "caption": "Flat shoes hitam dengan aksen pita depan dari materi produk asli NAA.",
       "url": "https://www.instagram.com/sepatu_wanita_naa/"
     },
     {
       "image": "https://mycustomid.github.io/tangsel-tradelink/brand/naa-shoes/naa-shoes-bestseller-collection.jpeg",
-      "label": "Best Seller Collection",
-      "caption": "Ragam pilihan warna favorit (nude, maroon, silver, black) yang siap menemani langkah harian.",
+      "label": "Selected Collection",
+      "caption": "Pilihan produk NAA dalam beberapa warna yang ditampilkan pada materi brand.",
       "url": "https://www.instagram.com/sepatu_wanita_naa/"
     },
     {
       "image": "https://mycustomid.github.io/tangsel-tradelink/brand/naa-shoes/naa-shoes-brand-story.jpeg",
-      "label": "Dedikasi & Kenyamanan",
-      "caption": "Merek alas kaki wanita Tangerang Selatan yang memadukan estetika modern dan kenyamanan seharian.",
+      "label": "NAA Shoes",
+      "caption": "Materi brand NAA Shoes yang digunakan untuk memperkuat identitas visual landing page.",
       "url": "https://www.instagram.com/sepatu_wanita_naa/"
     }
   ],
   "actions": [
-    {"key": "instagram", "label": "Instagram · @sepatu_wanita_naa", "url": "https://www.instagram.com/sepatu_wanita_naa/"},
-    {"key": "whatsapp", "label": "WhatsApp · NAA Shoes", "url": "https://wa.me/message/63AO3V4U5XLVB1"},
-    {"key": "maps", "label": "Google Maps · NAA Shoes", "url": "https://maps.app.goo.gl/bdwuTbR7Efwaiudf7?g_st=awb"}
+    {
+      "key": "instagram",
+      "label": "Instagram · @sepatu_wanita_naa",
+      "url": "https://www.instagram.com/sepatu_wanita_naa/"
+    },
+    {
+      "key": "threads",
+      "label": "Threads · @sepatu_wanita_naa",
+      "url": "https://www.threads.com/@sepatu_wanita_naa"
+    },
+    {
+      "key": "whatsapp",
+      "label": "WhatsApp · NAA Shoes",
+      "url": "https://wa.me/message/63AO3V4U5XLVB1"
+    },
+    {
+      "key": "maps",
+      "label": "Google Maps · NAA Shoes",
+      "url": "https://maps.app.goo.gl/bdwuTbR7Efwaiudf7?g_st=awb"
+    }
   ]
 }
