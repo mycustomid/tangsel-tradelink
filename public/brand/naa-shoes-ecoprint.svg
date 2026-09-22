@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img">
+<rect width="1200" height="900" fill="#85885c"/>
+<text x="82" y="108" font-family="Georgia,serif" font-size="76" fill="#fff9ee">Ecoprint Series</text>
+<text x="86" y="158" font-family="Arial,Helvetica,sans-serif" font-size="24" letter-spacing="5" fill="#f6e5c7">NATURE INTO EVERY STEP</text>
+<g transform="translate(170 230)">
+  <path d="M70 70c110-48 235-48 330 6 82 47 112 119 75 176-39 60-125 76-205 57-74-17-121-51-189-48-77 4-121 24-159-20-34-38-22-119 22-152 35-26 75-35 126-19Z" fill="#e9dfd0" stroke="#6e6a45" stroke-width="8"/>
+  <g fill="#a8a277" opacity=".78">
+    <ellipse cx="155" cy="142" rx="56" ry="27" transform="rotate(32 155 142)"/><ellipse cx="250" cy="108" rx="58" ry="24" transform="rotate(-18 250 108)"/><ellipse cx="332" cy="170" rx="52" ry="25" transform="rotate(48 332 170)"/>
+  </g>
+</g>
+<g transform="translate(650 310)">
+  <path d="M45 70c100-40 217-36 305 10 75 39 105 102 76 154-31 56-110 77-183 62-69-14-111-45-174-41-69 4-111 23-149-15-33-34-25-105 14-139 29-26 64-38 111-31Z" fill="#d4ad63" stroke="#765832" stroke-width="8"/>
+  <g fill="#f3dfab" opacity=".78">
+    <ellipse cx="125" cy="137" rx="47" ry="22" transform="rotate(25 125 137)"/><ellipse cx="214" cy="112" rx="54" ry="22" transform="rotate(-30 214 112)"/><ellipse cx="300" cy="163" rx="45" ry="21" transform="rotate(35 300 163)"/>
+  </g>
+</g>
+<text x="82" y="790" font-family="Arial,Helvetica,sans-serif" font-size="28" fill="#fff3dd">Editorial interpretation of the ecoprint footwear shown in client materials.</text>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200" role="img" aria-labelledby="t d">
+<title id="t">NAA Shoes editorial hero</title>
+<desc id="d">Original editorial footwear visual inspired by client-supplied NAA classic mules and flats. Not a product photograph.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f8efe8"/><stop offset="1" stop-color="#dcc7b7"/></linearGradient>
+  <radialGradient id="glow"><stop stop-color="#ffffff" stop-opacity=".9"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1600" height="1200" fill="url(#bg)"/>
+<circle cx="1260" cy="180" r="400" fill="url(#glow)"/>
+<path d="M0 930C310 790 570 1060 880 900c300-155 470-145 720-25v325H0Z" fill="#261f1b"/>
+<g transform="translate(155 160)">
+  <text x="0" y="0" font-family="Arial,Helvetica,sans-serif" font-size="28" letter-spacing="8" fill="#a06f52">TANGERANG SELATAN · HOME INDUSTRY</text>
+  <text x="0" y="124" font-family="Georgia,serif" font-size="138" font-weight="500" letter-spacing="-7" fill="#211b18">NAA</text>
+  <text x="0" y="232" font-family="Georgia,serif" font-size="84" font-style="italic" fill="#211b18">Shoes</text>
+  <text x="0" y="310" font-family="Arial,Helvetica,sans-serif" font-size="31" fill="#6f5a4d">Step into a better you.</text>
+</g>
+<g transform="translate(770 250) rotate(-8)">
+  <path d="M80 130c165-45 345-34 475 29 65 32 108 92 87 144-22 57-96 78-167 71-83-8-144-45-227-42-70 2-124 33-177 31-75-3-112-64-92-126 17-54 47-83 101-107Z" fill="#b48e76" stroke="#795744" stroke-width="8"/>
+  <path d="M140 158c120-20 245-8 344 30 27 11 48 31 51 54-82-17-171-14-248 11-86 29-158 32-220 10 0-46 22-87 73-105Z" fill="#d9bda9" opacity=".88"/>
+  <rect x="245" y="120" width="180" height="55" rx="25" fill="#9f7963" transform="rotate(12 335 147)"/>
+</g>
+<g transform="translate(940 545) rotate(9)">
+  <path d="M65 115c140-35 285-29 403 22 65 28 107 82 91 133-18 58-86 81-158 77-80-5-137-35-211-34-69 1-122 27-170 24-69-4-103-57-85-112 14-46 38-77 100-110Z" fill="#efe7de" stroke="#9f6f52" stroke-width="8"/>
+  <path d="M120 145c108-18 218-7 310 25-16 28-46 52-87 67-95 36-191 33-271 8 3-42 20-76 48-100Z" fill="#cab39f" opacity=".45"/>
+  <path d="M210 155c45 5 93 13 136 26" stroke="#9f6f52" stroke-width="14" stroke-linecap="round"/>
+</g>
+<g transform="translate(160 805)">
+  <rect width="560" height="132" rx="66" fill="#fff8f2"/>
+  <text x="45" y="54" font-family="Arial,Helvetica,sans-serif" font-size="21" letter-spacing="4" fill="#9f6f52">CLASSIC · COMFORT · REQUEST</text>
+  <text x="45" y="96" font-family="Georgia,serif" font-size="38" fill="#211b18">Flats, mules & ecoprint series</text>
+</g>
+</svg>

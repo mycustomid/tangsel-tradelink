@@ -1,0 +1,65 @@
+{
+  "brandLabel": "NAA SHOES",
+  "tagline": "Step into a better you — sepatu wanita dari home industry Tangerang Selatan.",
+  "eyebrow": "Tangerang Selatan · Women's Shoes · Flats · Mules · Ecoprint",
+  "heroImage": "https://mycustomid.github.io/tangsel-tradelink/brand/naa-shoes-hero.svg",
+  "palette": {
+    "bg": "#f2e7dc",
+    "ink": "#201a17",
+    "accent": "#9f6f52",
+    "surface": "#fffaf5"
+  },
+  "story": {
+    "title": "Everyday shoes, made closer to home.",
+    "body": "Sepatu Wanita NAA adalah home industry alas kaki wanita dari Tangerang Selatan. Materi brand yang diberikan menampilkan koleksi classic flats, mules, sandal dan seri ecoprint, dengan positioning yang menekankan gaya sederhana, nyaman dipakai, serta model yang dapat direquest. Pemesanan diarahkan langsung melalui WhatsApp dan Instagram DM."
+  },
+  "stats": [
+    {"value": "Tangsel", "label": "home-industry origin"},
+    {"value": "Request", "label": "model can be requested"},
+    {"value": "Flats + Mules", "label": "core everyday silhouettes"},
+    {"value": "Ecoprint", "label": "nature-inspired footwear series"}
+  ],
+  "highlights": [
+    {
+      "title": "Made for everyday wear",
+      "body": "Koleksi NAA bergerak dari flatshoes hingga mules dengan siluet sederhana yang mudah dipakai untuk aktivitas harian."
+    },
+    {
+      "title": "Model bisa request",
+      "body": "Profil Instagram NAA secara eksplisit menawarkan model yang dapat direquest, memberi ruang untuk kebutuhan gaya yang lebih personal."
+    },
+    {
+      "title": "Ecoprint series",
+      "body": "Materi produk yang diberikan memperlihatkan seri ecoprint pada sepatu dan sandal dengan motif yang terinspirasi dari bentuk serta warna alam."
+    },
+    {
+      "title": "Direct order",
+      "body": "Pemesanan difokuskan melalui WhatsApp Business dan Instagram DM. Nama TikTok yang diberikan oleh tenant adalah “Sepatu wanita NAA”."
+    }
+  ],
+  "gallery": [
+    {
+      "image": "https://mycustomid.github.io/tangsel-tradelink/brand/naa-shoes-classic.svg",
+      "label": "Classic Flats",
+      "caption": "Editorial product visual based on the client-supplied NAA classic-flats materials.",
+      "url": "https://www.instagram.com/sepatu_wanita_naa/"
+    },
+    {
+      "image": "https://mycustomid.github.io/tangsel-tradelink/brand/naa-shoes-ecoprint.svg",
+      "label": "Ecoprint Series",
+      "caption": "Editorial product visual inspired by the NAA ecoprint footwear materials supplied for this tenant profile.",
+      "url": "https://www.instagram.com/sepatu_wanita_naa/"
+    },
+    {
+      "image": "https://mycustomid.github.io/tangsel-tradelink/brand/naa-shoes-request.svg",
+      "label": "Model Request",
+      "caption": "Editorial visual for NAA’s request-based product positioning; current models remain available through the official Instagram.",
+      "url": "https://www.instagram.com/sepatu_wanita_naa/"
+    }
+  ],
+  "actions": [
+    {"key": "instagram", "label": "Instagram · @sepatu_wanita_naa", "url": "https://www.instagram.com/sepatu_wanita_naa/"},
+    {"key": "whatsapp", "label": "WhatsApp · NAA Shoes", "url": "https://wa.me/message/63AO3V4U5XLVB1"},
+    {"key": "maps", "label": "Google Maps · NAA Shoes", "url": "https://maps.app.goo.gl/bdwuTbR7Efwaiudf7?g_st=awb"}
+  ]
+}

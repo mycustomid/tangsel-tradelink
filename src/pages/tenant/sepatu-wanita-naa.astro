@@ -1,0 +1,31 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import EnhancedRichTenantShowcase from '../../components/EnhancedRichTenantShowcase.astro';
+import config from '../../data/showcases/sepatu-wanita-naa.json';
+
+const baseUrl = import.meta.env.BASE_URL;
+const tenant = {
+  name: 'SEPATU WANITA NAA',
+  slug: 'sepatu-wanita-naa',
+  hall: '8',
+  booth: '8-7C',
+  category: 'Fashion, Handicraft & Home Decor',
+  description: 'NAA Shoes is a women’s footwear home industry from Tangerang Selatan offering flats, mules, sandals, ecoprint series and request-based models through Instagram and WhatsApp.',
+  theme: 'editorial',
+  instagram: 'https://www.instagram.com/sepatu_wanita_naa/',
+  whatsapp: 'https://wa.me/message/63AO3V4U5XLVB1',
+  maps: 'https://maps.app.goo.gl/bdwuTbR7Efwaiudf7?g_st=awb',
+  logo: 'https://mycustomid.github.io/tangsel-tradelink/brand/naa-shoes-wordmark.svg',
+  researchStatus: 'client-verified',
+  verifiedAt: '2026-09-22'
+};
+---
+
+<BaseLayout
+  title="SEPATU WANITA NAA — Tangsel TradeLink"
+  description={tenant.description}
+  theme="editorial"
+  favicon={tenant.logo}
+>
+  <EnhancedRichTenantShowcase tenant={tenant} config={config} baseUrl={baseUrl} />
+</BaseLayout>
