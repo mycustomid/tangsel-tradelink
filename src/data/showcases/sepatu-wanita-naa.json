@@ -2,7 +2,7 @@
   "brandLabel": "NAA SHOES",
   "tagline": "Step into a better you — sepatu wanita dari home industry Tangerang Selatan.",
   "eyebrow": "Tangerang Selatan · Women's Shoes · Flats · Mules · Ecoprint",
-  "heroImage": "https://mycustomid.github.io/tangsel-tradelink/brand/naa-shoes-hero.svg",
+  "heroImage": "https://mycustomid.github.io/tangsel-tradelink/brand/naa-shoes/naa-shoes-classic-mules.jpeg",
   "palette": {
     "bg": "#f2e7dc",
     "ink": "#201a17",
@@ -11,7 +11,7 @@
   },
   "story": {
     "title": "Everyday shoes, made closer to home.",
-    "body": "Sepatu Wanita NAA adalah home industry alas kaki wanita dari Tangerang Selatan. Materi brand yang diberikan menampilkan koleksi classic flats, mules, sandal dan seri ecoprint, dengan positioning yang menekankan gaya sederhana, nyaman dipakai, serta model yang dapat direquest. Pemesanan diarahkan langsung melalui WhatsApp dan Instagram DM."
+    "body": "Sepatu Wanita NAA adalah home industry alas kaki wanita dari Tangerang Selatan. Merek ini memadukan estetika modern dengan kenyamanan untuk berbagai kesempatan, baik formal maupun kasual. Menghadirkan koleksi classic flats, mules, sandal hak rendah, hingga seri ecoprint dengan motif daun alami dan layanan model bisa direquest. Seluruh pemesanan diarahkan langsung melalui WhatsApp Business dan Instagram resmi."
   },
   "stats": [
     {"value": "Tangsel", "label": "home-industry origin"},
@@ -22,38 +22,62 @@
   "highlights": [
     {
       "title": "Made for everyday wear",
-      "body": "Koleksi NAA bergerak dari flatshoes hingga mules dengan siluet sederhana yang mudah dipakai untuk aktivitas harian."
+      "body": "Koleksi NAA bergerak dari flatshoes hingga mules dengan siluet sederhana, sol empuk anti-slip, dan bahan berkualitas yang nyaman untuk aktivitas harian."
     },
     {
       "title": "Model bisa request",
-      "body": "Profil Instagram NAA secara eksplisit menawarkan model yang dapat direquest, memberi ruang untuk kebutuhan gaya yang lebih personal."
+      "body": "Profil Instagram NAA secara eksplisit menawarkan model yang dapat direquest, memberi ruang bagi pelanggan untuk kebutuhan ukuran dan gaya yang lebih personal."
     },
     {
       "title": "Ecoprint series",
-      "body": "Materi produk yang diberikan memperlihatkan seri ecoprint pada sepatu dan sandal dengan motif yang terinspirasi dari bentuk serta warna alam."
+      "body": "Memanfaatkan jejak dedaunan alami pada sepatu dan sandal hak rendah (NAA Heels Eco), menghasilkan karya ramah lingkungan dengan motif yang tak pernah sama."
     },
     {
-      "title": "Direct order",
-      "body": "Pemesanan difokuskan melalui WhatsApp Business dan Instagram DM. Nama TikTok yang diberikan oleh tenant adalah “Sepatu wanita NAA”."
+      "title": "Direct order & consultation",
+      "body": "Pemesanan difokuskan melalui WhatsApp Business dan Instagram DM resmi @sepatu_wanita_naa untuk konsultasi ukuran, kustomisasi, dan pengiriman cepat."
     }
   ],
   "gallery": [
     {
-      "image": "https://mycustomid.github.io/tangsel-tradelink/brand/naa-shoes-classic.svg",
-      "label": "Classic Flats",
-      "caption": "Editorial product visual based on the client-supplied NAA classic-flats materials.",
+      "image": "https://mycustomid.github.io/tangsel-tradelink/brand/naa-shoes/naa-shoes-classic-mules.jpeg",
+      "label": "Classic Mules",
+      "caption": "Siluet mules elegan dengan aksen buckle strap, material nude gloss, dan bantalan sol empuk anti-slip.",
       "url": "https://www.instagram.com/sepatu_wanita_naa/"
     },
     {
-      "image": "https://mycustomid.github.io/tangsel-tradelink/brand/naa-shoes-ecoprint.svg",
-      "label": "Ecoprint Series",
-      "caption": "Editorial product visual inspired by the NAA ecoprint footwear materials supplied for this tenant profile.",
+      "image": "https://mycustomid.github.io/tangsel-tradelink/brand/naa-shoes/naa-shoes-classic-flats-mocha.jpeg",
+      "label": "Classic Flats · Mocha Brown",
+      "caption": "Flat shoes berujung runcing dengan warna mocha brown yang timeless dan sentuhan insole gold NAA.",
       "url": "https://www.instagram.com/sepatu_wanita_naa/"
     },
     {
-      "image": "https://mycustomid.github.io/tangsel-tradelink/brand/naa-shoes-request.svg",
-      "label": "Model Request",
-      "caption": "Editorial visual for NAA’s request-based product positioning; current models remain available through the official Instagram.",
+      "image": "https://mycustomid.github.io/tangsel-tradelink/brand/naa-shoes/naa-shoes-ecoprint-flats.jpeg",
+      "label": "Sepatu Ecoprint Series",
+      "caption": "Pemanfaatan jejak dedaunan dan serat alami menghasilkan motif unik tanpa limbah lingkungan.",
+      "url": "https://www.instagram.com/sepatu_wanita_naa/"
+    },
+    {
+      "image": "https://mycustomid.github.io/tangsel-tradelink/brand/naa-shoes/naa-shoes-ecoprint-heels-earthy.jpeg",
+      "label": "Sandal Ecoprint Heels",
+      "caption": "Sandal hak rendah ecoprint bernuansa earthy cokelat dan natural botanical dye.",
+      "url": "https://www.instagram.com/sepatu_wanita_naa/"
+    },
+    {
+      "image": "https://mycustomid.github.io/tangsel-tradelink/brand/naa-shoes/naa-shoes-classic-flats-black.jpeg",
+      "label": "Classic Black Flats",
+      "caption": "Flat shoes hitam anggun dengan aksen pita depan manis, cocok untuk formal maupun kasual.",
+      "url": "https://www.instagram.com/sepatu_wanita_naa/"
+    },
+    {
+      "image": "https://mycustomid.github.io/tangsel-tradelink/brand/naa-shoes/naa-shoes-bestseller-collection.jpeg",
+      "label": "Best Seller Collection",
+      "caption": "Ragam pilihan warna favorit (nude, maroon, silver, black) yang siap menemani langkah harian.",
+      "url": "https://www.instagram.com/sepatu_wanita_naa/"
+    },
+    {
+      "image": "https://mycustomid.github.io/tangsel-tradelink/brand/naa-shoes/naa-shoes-brand-story.jpeg",
+      "label": "Dedikasi & Kenyamanan",
+      "caption": "Merek alas kaki wanita Tangerang Selatan yang memadukan estetika modern dan kenyamanan seharian.",
       "url": "https://www.instagram.com/sepatu_wanita_naa/"
     }
   ],

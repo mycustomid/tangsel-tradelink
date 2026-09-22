@@ -20,6 +20,18 @@ test('NAA premium visual assets are local and the gallery has real brand-specifi
   for (const file of ['naa-shoes-wordmark.svg','naa-shoes-hero.svg','naa-shoes-classic.svg','naa-shoes-ecoprint.svg','naa-shoes-request.svg']) {
     assert.ok(fs.existsSync(new URL(`../public/brand/${file}`, import.meta.url)), `missing ${file}`);
   }
+  const photos = [
+    'naa-shoes-classic-mules.jpeg',
+    'naa-shoes-classic-flats-mocha.jpeg',
+    'naa-shoes-ecoprint-flats.jpeg',
+    'naa-shoes-ecoprint-heels-earthy.jpeg',
+    'naa-shoes-classic-flats-black.jpeg',
+    'naa-shoes-bestseller-collection.jpeg',
+    'naa-shoes-brand-story.jpeg'
+  ];
+  for (const photo of photos) {
+    assert.ok(fs.existsSync(new URL(`../public/brand/naa-shoes/${photo}`, import.meta.url)), `missing photo ${photo}`);
+  }
   assert.ok(config.gallery.length >= 3);
   assert.match(config.story.body, /home industry/i);
   assert.ok(config.highlights.some((item) => /request/i.test(item.title + item.body)));
