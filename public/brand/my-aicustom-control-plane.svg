@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img">
+<rect width="1200" height="900" fill="#07111d"/>
+<rect x="70" y="70" width="1060" height="760" rx="42" fill="#0d1a29" stroke="#20465d" stroke-width="3"/>
+<text x="115" y="130" font-family="Arial,Helvetica,sans-serif" font-size="25" letter-spacing="6" fill="#36d6ff">GOVERNED AI CONTROL PLANE</text>
+<g transform="translate(120 210)">
+<rect width="255" height="170" rx="24" fill="#10263a"/><rect x="315" width="255" height="170" rx="24" fill="#10263a"/><rect x="630" width="255" height="170" rx="24" fill="#10263a"/>
+<text x="30" y="55" font-family="Arial" font-size="20" fill="#8edff4">01 · KNOWLEDGE</text><text x="345" y="55" font-family="Arial" font-size="20" fill="#8edff4">02 · ACTION</text><text x="660" y="55" font-family="Arial" font-size="20" fill="#8edff4">03 · APPROVAL</text>
+<text x="30" y="108" font-family="Arial" font-size="34" font-weight="700" fill="#fff">RAG</text><text x="345" y="108" font-family="Arial" font-size="34" font-weight="700" fill="#fff">TOOLS / API</text><text x="660" y="108" font-family="Arial" font-size="34" font-weight="700" fill="#fff">HUMAN</text>
+</g>
+<path d="M245 520H950" stroke="#36d6ff" stroke-width="7" stroke-linecap="round"/>
+<g fill="#7cf7d4"><circle cx="245" cy="520" r="17"/><circle cx="480" cy="520" r="17"/><circle cx="715" cy="520" r="17"/><circle cx="950" cy="520" r="17"/></g>
+<g font-family="Arial" fill="#c8dce7" font-size="23" text-anchor="middle"><text x="245" y="575">scope</text><text x="480" y="575">log</text><text x="715" y="575">approve</text><text x="950" y="575">audit</text></g>
+<text x="115" y="735" font-family="Georgia,serif" font-size="64" fill="#f6fbff">Fast AI needs visible controls.</text>
+</svg>

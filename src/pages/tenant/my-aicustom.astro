@@ -1,0 +1,32 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import EnhancedRichTenantShowcase from '../../components/EnhancedRichTenantShowcase.astro';
+import config from '../../data/showcases/my-aicustom.json';
+
+const baseUrl = import.meta.env.BASE_URL;
+const tenant = {
+  name: 'MY-AICUSTOM',
+  slug: 'my-aicustom',
+  hall: '8',
+  booth: '8-7C',
+  category: 'Technology & Digital Services',
+  description: 'MY-AICUSTOM, operating brand PT Azka Digi, builds custom AI agents, automation, RAG, workflow integrations and data systems for business operations.',
+  theme: 'editorial',
+  website: 'https://my-aicustom.com/',
+  instagram: 'https://www.instagram.com/myaicustom/',
+  whatsapp: 'https://wa.me/6282121292938',
+  email: 'myaicustom@gmail.com',
+  logo: 'https://my-aicustom.com/favicon.ico',
+  researchStatus: 'web-verified',
+  verifiedAt: '2026-09-22'
+};
+---
+
+<BaseLayout
+  title="MY-AICUSTOM — Tangsel TradeLink"
+  description={tenant.description}
+  theme="editorial"
+  favicon={tenant.logo}
+>
+  <EnhancedRichTenantShowcase tenant={tenant} config={config} baseUrl={baseUrl} />
+</BaseLayout>

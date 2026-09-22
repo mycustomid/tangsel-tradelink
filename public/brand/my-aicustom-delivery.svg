@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img">
+<defs><linearGradient id="g"><stop stop-color="#36d6ff"/><stop offset="1" stop-color="#7cf7d4"/></linearGradient></defs>
+<rect width="1200" height="900" fill="#091421"/>
+<text x="90" y="120" font-family="Arial" font-size="24" letter-spacing="7" fill="#79dff8">DELIVERY / 05 GATES</text>
+<g transform="translate(90 220)">
+<path d="M80 90H940" stroke="#214d65" stroke-width="16" stroke-linecap="round"/>
+<path d="M80 90H940" stroke="url(#g)" stroke-width="5" stroke-linecap="round"/>
+<g fill="#0c1b29" stroke="#36d6ff" stroke-width="5"><circle cx="80" cy="90" r="48"/><circle cx="295" cy="90" r="48"/><circle cx="510" cy="90" r="48"/><circle cx="725" cy="90" r="48"/><circle cx="940" cy="90" r="48"/></g>
+<g font-family="Arial" font-size="28" font-weight="700" fill="#fff" text-anchor="middle"><text x="80" y="100">1</text><text x="295" y="100">2</text><text x="510" y="100">3</text><text x="725" y="100">4</text><text x="940" y="100">5</text></g>
+<g font-family="Arial" font-size="23" fill="#c7dbe6" text-anchor="middle"><text x="80" y="180">DISCOVER</text><text x="295" y="180">BLUEPRINT</text><text x="510" y="180">PILOT</text><text x="725" y="180">HARDEN</text><text x="940" y="180">SCALE</text></g>
+</g>
+<rect x="90" y="555" width="1020" height="190" rx="32" fill="#0e2030"/>
+<text x="135" y="620" font-family="Arial" font-size="20" letter-spacing="5" fill="#36d6ff">OPERATING PRINCIPLE</text>
+<text x="135" y="690" font-family="Georgia,serif" font-size="58" fill="#fff">Prove value first. Scale after.</text>
+</svg>

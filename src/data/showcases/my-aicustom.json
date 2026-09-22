@@ -1,0 +1,68 @@
+{
+  "brandLabel": "MY-AICUSTOM",
+  "tagline": "Custom AI yang masuk ke workflow bisnis — bukan berhenti sebagai demo.",
+  "eyebrow": "Bintaro · Indonesia · AI Agent · Automation · Data Systems",
+  "heroImage": "https://mycustomid.github.io/tangsel-tradelink/brand/my-aicustom-hero.svg",
+  "palette": {
+    "bg": "#08111d",
+    "ink": "#f5f7fb",
+    "accent": "#36d6ff",
+    "surface": "#0e1a29"
+  },
+  "story": {
+    "title": "Discover. Build. Operate.",
+    "body": "MY-AICUSTOM adalah operating brand PT Azka Digi yang berfokus pada implementasi Custom AI, automation, dan data systems. Pendekatannya menghubungkan AI Agent, RAG, workflow automation, API, CRM, database, dan kanal kerja bisnis dengan guardrail, human approval, serta audit trail agar sistem benar-benar bisa dipakai operasional."
+  },
+  "stats": [
+    {"value": "8", "label": "selected real-world project deliveries"},
+    {"value": "5", "label": "active product lines shown on the official site"},
+    {"value": "4–12w", "label": "delivery sprint range presented in portfolio"},
+    {"value": "GMT+7", "label": "Bintaro-based operating context"}
+  ],
+  "highlights": [
+    {
+      "title": "AI Agent & Customer Service",
+      "body": "AI Agent untuk FAQ, lead qualification, follow-up, komplain, dan handoff ke manusia — dirancang mengikuti SOP dan konteks bisnis."
+    },
+    {
+      "title": "Workflow Automation",
+      "body": "Otomasi proses operasional seperti rekap order, update CRM, dokumen, reporting, approval, dan sinkronisasi lintas aplikasi."
+    },
+    {
+      "title": "Private Knowledge / RAG",
+      "body": "Knowledge assistant berbasis dokumen internal dengan kontrol sumber, batas akses, versioning, dan konteks yang bisa diaudit."
+    },
+    {
+      "title": "AI-Powered Product Engineering",
+      "body": "Web app, dashboard, integration layer, computer vision/OCR, IoT dan sistem data dibangun sebagai satu workflow yang terukur."
+    }
+  ],
+  "gallery": [
+    {
+      "image": "https://mycustomid.github.io/tangsel-tradelink/brand/my-aicustom-control-plane.svg",
+      "label": "AI Control Plane",
+      "caption": "Editorial system visual based on MY-AICUSTOM's official positioning around governed AI, workflow orchestration and human approval.",
+      "url": "https://my-aicustom.com/company-profile/"
+    },
+    {
+      "image": "https://mycustomid.github.io/tangsel-tradelink/brand/my-aicustom-delivery.svg",
+      "label": "Discover → Build → Operate",
+      "caption": "Editorial delivery-flow visual reflecting the phased implementation model described on the official company profile and portfolio.",
+      "url": "https://my-aicustom.com/portfolio/"
+    },
+    {
+      "image": "https://mycustomid.github.io/tangsel-tradelink/brand/my-aicustom-stack.svg",
+      "label": "AI + Automation Stack",
+      "caption": "Editorial architecture visual for AI agents, RAG, workflow automation, APIs and business systems.",
+      "url": "https://my-aicustom.com/service/"
+    }
+  ],
+  "actions": [
+    {"key": "website", "label": "Official Website · my-aicustom.com", "url": "https://my-aicustom.com/"},
+    {"key": "instagram", "label": "Instagram · @myaicustom", "url": "https://www.instagram.com/myaicustom/"},
+    {"key": "whatsapp", "label": "WhatsApp · Konsultasi AI", "url": "https://wa.me/6282121292938"},
+    {"key": "website", "label": "Company Profile", "url": "https://my-aicustom.com/company-profile/"},
+    {"key": "catalog", "label": "Portfolio · Selected Work", "url": "https://my-aicustom.com/portfolio/"},
+    {"key": "email", "label": "Email · myaicustom@gmail.com", "url": "mailto:myaicustom@gmail.com"}
+  ]
+}

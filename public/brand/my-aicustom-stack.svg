@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img">
+<rect width="1200" height="900" fill="#07111c"/>
+<text x="80" y="105" font-family="Arial" font-size="25" letter-spacing="7" fill="#36d6ff">AI + AUTOMATION STACK</text>
+<g transform="translate(85 175)">
+<g fill="#0e2132" stroke="#214e66" stroke-width="3">
+<rect width="310" height="150" rx="26"/><rect x="355" width="310" height="150" rx="26"/><rect x="710" width="310" height="150" rx="26"/>
+<rect y="200" width="310" height="150" rx="26"/><rect x="355" y="200" width="310" height="150" rx="26"/><rect x="710" y="200" width="310" height="150" rx="26"/>
+</g>
+<g font-family="Arial" fill="#f1f8fb">
+<text x="32" y="62" font-size="20" fill="#7ddff8">AGENT</text><text x="32" y="108" font-size="36" font-weight="800">LLM</text>
+<text x="387" y="62" font-size="20" fill="#7ddff8">KNOWLEDGE</text><text x="387" y="108" font-size="36" font-weight="800">RAG</text>
+<text x="742" y="62" font-size="20" fill="#7ddff8">ORCHESTRATION</text><text x="742" y="108" font-size="36" font-weight="800">n8n / API</text>
+<text x="32" y="262" font-size="20" fill="#7ddff8">BUSINESS</text><text x="32" y="308" font-size="36" font-weight="800">CRM</text>
+<text x="387" y="262" font-size="20" fill="#7ddff8">DATA</text><text x="387" y="308" font-size="36" font-weight="800">DB / BI</text>
+<text x="742" y="262" font-size="20" fill="#7ddff8">CHANNELS</text><text x="742" y="308" font-size="36" font-weight="800">WA / WEB</text>
+</g>
+</g>
+<path d="M210 650C380 560 470 760 620 650s300-105 450 0" fill="none" stroke="#36d6ff" stroke-width="10"/>
+<text x="80" y="800" font-family="Georgia,serif" font-size="58" fill="#f5fbff">One workflow. Many systems.</text>
+</svg>
