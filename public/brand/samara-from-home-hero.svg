@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1600" role="img" aria-labelledby="title desc">
+  <title id="title">SAMARA from Home culinary editorial hero</title>
+  <desc id="desc">Warm editorial still life with sauce jars, herbs, tomatoes, and a linen table.</desc>
+  <defs>
+    <linearGradient id="wall" x2="0" y2="1"><stop stop-color="#f3eadf"/><stop offset="1" stop-color="#faf7f2"/></linearGradient>
+    <filter id="grain"><feTurbulence baseFrequency=".8" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 .055"/></feComponentTransfer></filter>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%"><feDropShadow dx="0" dy="28" stdDeviation="28" flood-color="#1f1a18" flood-opacity=".24"/></filter>
+  </defs>
+  <rect width="1200" height="1600" fill="url(#wall)"/>
+  <rect width="1200" height="1600" filter="url(#grain)" opacity=".75"/>
+  <circle cx="1000" cy="220" r="230" fill="#c2593f"/>
+  <path d="M0 1080c240-90 388 72 626-9 219-75 358-27 574-126v655H0Z" fill="#4a5d3f"/>
+  <path d="M70 1056c192 70 368-10 543 60 168 67 314 44 517-36v520H70Z" fill="#e7d8c5" opacity=".88"/>
+  <g transform="translate(92 92)">
+    <text fill="#1f1a18" font-family="Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="7">NATURAL COOKING SAUCES</text>
+    <text y="96" fill="#1f1a18" font-family="Georgia, serif" font-size="114">SAMARA</text>
+    <text y="166" fill="#c2593f" font-family="Georgia, serif" font-size="58" font-style="italic">from Home</text>
+    <path d="M0 205h430" stroke="#1f1a18" stroke-width="2" opacity=".35"/>
+    <text y="252" fill="#1f1a18" opacity=".65" font-family="Arial, sans-serif" font-size="19" letter-spacing="2">HONEST FLAVOUR / MADE CLOSE TO HOME</text>
+  </g>
+  <g filter="url(#shadow)">
+    <ellipse cx="620" cy="1280" rx="380" ry="90" fill="#1f1a18" opacity=".2"/>
+    <g transform="translate(285 610) rotate(-5 180 310)">
+      <rect x="48" y="68" width="264" height="480" rx="76" fill="#1f1a18"/>
+      <rect x="101" y="0" width="158" height="120" rx="20" fill="#c9b69d"/>
+      <rect x="74" y="238" width="212" height="188" rx="12" fill="#faf7f2"/>
+      <text x="180" y="285" text-anchor="middle" fill="#c2593f" font-family="Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="3">SAMARA</text>
+      <text x="180" y="340" text-anchor="middle" fill="#1f1a18" font-family="Georgia, serif" font-size="34">Rawon</text>
+      <text x="180" y="374" text-anchor="middle" fill="#1f1a18" font-family="Georgia, serif" font-size="22" font-style="italic">keluwek paste</text>
+    </g>
+    <g transform="translate(610 705) rotate(7 150 270)">
+      <rect x="25" y="55" width="250" height="430" rx="68" fill="#567245"/>
+      <rect x="76" y="0" width="148" height="100" rx="18" fill="#d8c7af"/>
+      <rect x="52" y="207" width="196" height="166" rx="12" fill="#faf7f2"/>
+      <text x="150" y="252" text-anchor="middle" fill="#c2593f" font-family="Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="3">SAMARA</text>
+      <text x="150" y="303" text-anchor="middle" fill="#1f1a18" font-family="Georgia, serif" font-size="32">Pesto</text>
+      <text x="150" y="337" text-anchor="middle" fill="#1f1a18" font-family="Georgia, serif" font-size="20" font-style="italic">basil &amp; olive oil</text>
+    </g>
+  </g>
+  <g fill="#4a5d3f">
+    <ellipse cx="212" cy="874" rx="36" ry="104" transform="rotate(-42 212 874)"/><ellipse cx="154" cy="960" rx="31" ry="91" transform="rotate(-70 154 960)"/><ellipse cx="235" cy="1000" rx="30" ry="86" transform="rotate(-12 235 1000)"/>
+  </g>
+  <path d="M216 1060c-32-166-25-256 8-352" fill="none" stroke="#4a5d3f" stroke-width="12"/>
+  <g fill="#c2593f"><circle cx="944" cy="1118" r="72"/><circle cx="1038" cy="1182" r="58"/><circle cx="930" cy="1248" r="48"/></g>
+  <g fill="none" stroke="#f6c39f" stroke-width="5" opacity=".78"><path d="m944 1043 22 45-8 26"/><path d="m1038 1124-18 30 10 29"/></g>
+  <text x="92" y="1510" fill="#1f1a18" font-family="Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="4">PESTO · CHIMICHURRI · RAWON · CREAMY SERIES</text>
+</svg>

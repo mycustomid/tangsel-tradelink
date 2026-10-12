@@ -1,0 +1,28 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import EnhancedRichTenantShowcase from '../../components/EnhancedRichTenantShowcase.astro';
+import config from '../../data/showcases/samara-from-home.json';
+
+const tenant = {
+  name: 'SAMARA from Home',
+  slug: 'samara-from-home',
+  hall: '8',
+  booth: '8-7C',
+  category: 'Gourmet Healthy Food & F&B Solutions',
+  description: 'SAMARA from Home meracik saus masak sehat tanpa MSG dan tanpa pengawet sintetis untuk retail gourmet dan food service.',
+  theme: 'food',
+  logo: '/brand/samara-from-home-logo.jpg',
+  instagram: 'https://www.instagram.com/samara.fromhome/',
+  researchStatus: 'web-verified',
+  verifiedAt: '2026-10-12',
+};
+---
+
+<BaseLayout
+  title="SAMARA from Home — Tangsel TradeLink"
+  description={tenant.description}
+  theme="food"
+  favicon="/brand/samara-from-home-logo.jpg"
+>
+  <EnhancedRichTenantShowcase tenant={tenant} config={config} baseUrl={import.meta.env.BASE_URL} />
+</BaseLayout>

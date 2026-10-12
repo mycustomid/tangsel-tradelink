@@ -1,0 +1,105 @@
+{
+  "brandLabel": "HOMESTAY BUMINA EENK",
+  "tagline": "Private Villa & Camping Ground dengan Pemandangan Lepas Kebun Teh Sosro.",
+  "eyebrow": "Pangalengan · Bandung · Wisata & Ekraf Tangsel · Kapasitas 20 Orang",
+  "heroImage": "/brand/bumina-eenk-hero.webp",
+  "palette": {
+    "bg": "#0c231a",
+    "ink": "#fbfaf6",
+    "accent": "#10b981",
+    "surface": "#143327"
+  },
+  "story": {
+    "title": "Kesejukan Dataran Tinggi, Kehangatan Rumah Sendiri.",
+    "body": "Homestay Bumina Eenk adalah destinasi villa dan gathering privat di Sukaluyu, Pangalengan. Berdiri tepat di tepi hamparan hijau kebun teh Sosro, akomodasi ini dirancang untuk kenyamanan keluarga besar maupun rombongan gathering hingga 20 orang. Dilengkapi perapian batu hangat, dapur mandiri lengkap, camping deck kayu berlatar bintang malam, dan akses langsung ke serunya arung jeram Situ Cileunca."
+  },
+  "stats": [
+    {
+      "value": "20 Org",
+      "label": "kapasitas maksimal rombongan gathering keluarga & komunitas"
+    },
+    {
+      "value": "1.400",
+      "label": "mdpl ketinggian sejuk alami udara pegunungan Pangalengan"
+    },
+    {
+      "value": "24 Jam",
+      "label": "dukungan reservasi dan kurasi paket wisata lokal"
+    },
+    {
+      "value": "360°",
+      "label": "panorama hijau kebun teh dan perbukitan tanpa halangan"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Private Villa & Fireplace",
+      "body": "Ruang berkumpul luas dengan sofa santai dan perapian kayu bakar asli untuk malam akrab yang hangat di tengah hawa dingin pegunungan."
+    },
+    {
+      "title": "Camping Deck & Stargazing",
+      "body": "Deck kayu khusus camping di halaman villa yang nyaman untuk mendirikan tenda dan menikmati langit malam bertabur bintang."
+    },
+    {
+      "title": "Dapur Lengkap & Area BBQ",
+      "body": "Fasilitas memasak lengkap dengan kompor, kulkas, peralatan makan, dan panggangan BBQ untuk pesta santap bersama."
+    },
+    {
+      "title": "Akses Wisata & Rafting",
+      "body": "Terletak dekat Situ Cileunca, Nimo Highland, dan Wayang Windu Panenjoan—memudahkan petualangan arung jeram dan sunrise hunt."
+    }
+  ],
+  "gallery": [
+    {
+      "image": "/brand/bumina-eenk-hero.webp",
+      "label": "Villa Bumina Eenk",
+      "caption": "Fasade villa privat berpadu harmonis dengan lanskap perbukitan hijau Sukaluyu, Pangalengan.",
+      "url": "https://buminaeenk.com/"
+    },
+    {
+      "image": "/brand/bumina-eenk-villa.webp",
+      "label": "Halaman Depan & Camping Deck",
+      "caption": "Area terbuka luas dan deck kayu yang lapang untuk aktivitas gathering, api unggun, dan camping.",
+      "url": "https://buminaeenk.com/"
+    },
+    {
+      "image": "/brand/bumina-eenk-tea.webp",
+      "label": "Kebun Teh Sosro",
+      "caption": "Pemandangan segar hamparan kebun teh yang terbentang langsung di depan beranda villa.",
+      "url": "https://buminaeenk.com/"
+    },
+    {
+      "image": "/brand/bumina-eenk-scenery1.webp",
+      "label": "Panorama Dataran Tinggi",
+      "caption": "Udara bersih berkabut dan keheningan alam yang menenangkan jiwa, jauh dari hiruk-pikuk kota.",
+      "url": "https://buminaeenk.com/"
+    }
+  ],
+  "actions": [
+    {
+      "key": "whatsapp",
+      "label": "Reservasi Langsung via WhatsApp (+62 852-1946-0779)",
+      "url": "https://wa.me/6285219460779?text=Halo%2C%20saya%20ingin%20tanya%20ketersediaan%20Homestay%20Bumina%20EENK%20Pangalengan"
+    },
+    {
+      "key": "website",
+      "label": "Kunjungi Website Resmi · buminaeenk.com",
+      "url": "https://buminaeenk.com/"
+    },
+    {
+      "key": "catalog",
+      "label": "Cek Kamar di Booking.com",
+      "url": "https://www.booking.com/hotel/id/bumina-eenk.id.html"
+    },
+    {
+      "key": "catalog",
+      "label": "Cek Ketersediaan di Agoda",
+      "url": "https://www.agoda.com/en-za/homestay-bumina-eenk-bandung-pangalengan/hotel/palayangan-id.html"
+    },
+    {
+      "key": "instagram",
+      "label": "Instagram Resmi · @homestay_buminaeenk",
+      "url": "https://www.instagram.com/homestay_buminaeenk/"
+    }
+  ]
+}

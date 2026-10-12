@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Raja Freeze Dried export format</title>
+  <desc id="desc">Editorial illustration of tropical products moving through a lightweight export route.</desc>
+  <rect width="1200" height="900" fill="#fbfaf6"/>
+  <path d="M0 0h480v900H0z" fill="#0f291e"/>
+  <circle cx="245" cy="420" r="174" fill="#10b981"/>
+  <circle cx="245" cy="420" r="104" fill="#f5c04a"/>
+  <path d="M245 316v208M141 420h208M171 346c51 40 98 40 148 0M171 494c51-40 98-40 148 0" fill="none" stroke="#0f291e" stroke-width="8" opacity=".72"/>
+  <text x="64" y="78" fill="#a7f3d0" font-family="Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="4">EXPORT / LIGHTWEIGHT / STABLE</text>
+  <g transform="translate(552 90)">
+    <text fill="#0f291e" font-family="Georgia, serif" font-size="68">Nature travels</text>
+    <text y="72" fill="#0f291e" font-family="Georgia, serif" font-size="68" font-style="italic">further, lighter.</text>
+    <line y1="124" x2="570" y2="124" stroke="#0f291e" opacity=".2"/>
+    <g transform="translate(0 184)" font-family="Arial, sans-serif">
+      <text fill="#c2593f" font-size="17" font-weight="700" letter-spacing="3">01</text><text x="70" fill="#0f291e" font-size="28">Tropical fruit</text><text x="70" y="30" fill="#0f291e" opacity=".55" font-size="17">snack · topping · ingredient</text>
+      <line y1="72" x2="570" y2="72" stroke="#0f291e" opacity=".16"/>
+      <text y="132" fill="#c2593f" font-size="17" font-weight="700" letter-spacing="3">02</text><text x="70" y="132" fill="#0f291e" font-size="28">Ready meals</text><text x="70" y="162" fill="#0f291e" opacity=".55" font-size="17">rehydratable · compact · practical</text>
+      <line y1="204" x2="570" y2="204" stroke="#0f291e" opacity=".16"/>
+      <text y="264" fill="#c2593f" font-size="17" font-weight="700" letter-spacing="3">03</text><text x="70" y="264" fill="#0f291e" font-size="28">Botanical</text><text x="70" y="294" fill="#0f291e" opacity=".55" font-size="17">herbal · extract · formulation</text>
+      <line y1="336" x2="570" y2="336" stroke="#0f291e" opacity=".16"/>
+      <text y="396" fill="#c2593f" font-size="17" font-weight="700" letter-spacing="3">04</text><text x="70" y="396" fill="#0f291e" font-size="28">Private label</text><text x="70" y="426" fill="#0f291e" opacity=".55" font-size="17">trial · scale-up · repeat production</text>
+    </g>
+  </g>
+  <text x="552" y="838" fill="#0f291e" opacity=".6" font-family="Arial, sans-serif" font-size="17" letter-spacing="2">TANGERANG SELATAN · TEI 2026</text>
+</svg>

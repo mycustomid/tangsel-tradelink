@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Raja Freeze Dried low-temperature process</title>
+  <desc id="desc">Editorial process diagram showing fresh material, freezing, vacuum sublimation, and stable output.</desc>
+  <rect width="1200" height="900" fill="#0a1a13"/>
+  <path d="M0 660C198 578 356 729 562 644s346-46 638-182v438H0Z" fill="#0f291e"/>
+  <g fill="none" stroke="#10b981" stroke-width="2" opacity=".42">
+    <circle cx="925" cy="188" r="110"/><circle cx="925" cy="188" r="155"/><circle cx="925" cy="188" r="200"/>
+  </g>
+  <text x="72" y="88" fill="#10b981" font-family="Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="5">LOW-TEMPERATURE / VACUUM</text>
+  <text x="70" y="180" fill="#fbfaf6" font-family="Georgia, serif" font-size="74">From water</text>
+  <text x="70" y="254" fill="#fbfaf6" font-family="Georgia, serif" font-size="74" font-style="italic">to air.</text>
+  <line x1="72" y1="332" x2="1128" y2="332" stroke="#fbfaf6" opacity=".2"/>
+  <g font-family="Arial, sans-serif">
+    <g transform="translate(72 400)">
+      <circle cx="56" cy="56" r="56" fill="#fbfaf6"/><path d="M24 67c25-61 63-51 70-36 11 25-20 53-70 36Z" fill="#10b981"/><text y="176" fill="#10b981" font-size="17" font-weight="700">01 / MATERIAL</text><text y="214" fill="#fbfaf6" font-size="26">Fresh input</text>
+    </g>
+    <g transform="translate(340 400)">
+      <circle cx="56" cy="56" r="56" fill="#164b38"/><path d="m56 18 10 26 27-8-15 24 23 17-28 3 2 29-19-21-19 21 2-29-28-3 23-17-15-24 27 8Z" fill="#a7f3d0"/><text y="176" fill="#10b981" font-size="17" font-weight="700">02 / −40°C</text><text y="214" fill="#fbfaf6" font-size="26">Deep freeze</text>
+    </g>
+    <g transform="translate(608 400)">
+      <circle cx="56" cy="56" r="56" fill="none" stroke="#10b981" stroke-width="3"/><circle cx="56" cy="56" r="30" fill="#10b981"/><path d="M108 56h74" stroke="#a7f3d0" stroke-width="3" stroke-dasharray="9 10"/><text y="176" fill="#10b981" font-size="17" font-weight="700">03 / VACUUM</text><text y="214" fill="#fbfaf6" font-size="26">Sublimation</text>
+    </g>
+    <g transform="translate(936 400)">
+      <rect x="6" y="5" width="100" height="102" rx="16" fill="#fbfaf6"/><path d="M26 35h60M26 53h60M26 71h42" stroke="#c47027" stroke-width="9" stroke-linecap="round"/><text y="176" fill="#10b981" font-size="17" font-weight="700">04 / STABLE</text><text y="214" fill="#fbfaf6" font-size="26">Pack &amp; protect</text>
+    </g>
+  </g>
+  <text x="72" y="822" fill="#fbfaf6" opacity=".62" font-family="Arial, sans-serif" font-size="18" letter-spacing="2">RAJA FREEZE DRIED FOOD × BUMINA EENK</text>
+</svg>

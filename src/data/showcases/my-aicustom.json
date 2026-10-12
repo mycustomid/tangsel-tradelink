@@ -1,8 +1,8 @@
 {
   "brandLabel": "MY-AICUSTOM",
-  "tagline": "Custom AI yang masuk ke workflow bisnis — bukan berhenti sebagai demo.",
-  "eyebrow": "Bintaro · Indonesia · AI Agent · Automation · Data Systems",
-  "heroImage": "https://mycustomid.github.io/tangsel-tradelink/brand/my-aicustom-hero.svg",
+  "tagline": "AI systems built for the work behind the work.",
+  "eyebrow": "Bintaro · AI agents · Automation · Governed data",
+  "heroImage": "/brand/my-aicustom-hero.svg",
   "palette": {
     "bg": "#08111d",
     "ink": "#f5f7fb",
@@ -10,14 +10,14 @@
     "surface": "#0e1a29"
   },
   "story": {
-    "title": "Discover. Build. Operate.",
-    "body": "MY-AICUSTOM adalah operating brand PT Azka Digi yang berfokus pada implementasi Custom AI, automation, dan data systems. Pendekatannya menghubungkan AI Agent, RAG, workflow automation, API, CRM, database, dan kanal kerja bisnis dengan guardrail, human approval, serta audit trail agar sistem benar-benar bisa dipakai operasional."
+    "title": "From scattered work to one governed system.",
+    "body": "MY-AICUSTOM adalah operating brand PT Azka Digi yang membangun AI Agent, automation, RAG, API, CRM, dan data layer sebagai satu sistem operasional. Setiap implementasi dimulai dari proses nyata, lalu dirancang dengan human approval, observability, dan audit trail agar AI bukan sekadar demo—melainkan infrastruktur kerja yang dapat dipercaya."
   },
   "stats": [
-    {"value": "8", "label": "selected real-world project deliveries"},
-    {"value": "5", "label": "active product lines shown on the official site"},
-    {"value": "4–12w", "label": "delivery sprint range presented in portfolio"},
-    {"value": "GMT+7", "label": "Bintaro-based operating context"}
+    {"value": "01", "label": "control plane for agents, workflows, data, and approvals"},
+    {"value": "24/7", "label": "automation designed around observable business operations"},
+    {"value": "4–12w", "label": "focused delivery window from discovery to production"},
+    {"value": "ID/EN", "label": "bilingual delivery context for local and global teams"}
   ],
   "highlights": [
     {
@@ -39,19 +39,19 @@
   ],
   "gallery": [
     {
-      "image": "https://mycustomid.github.io/tangsel-tradelink/brand/my-aicustom-control-plane.svg",
+      "image": "/brand/my-aicustom-control-plane.svg",
       "label": "AI Control Plane",
       "caption": "Editorial system visual based on MY-AICUSTOM's official positioning around governed AI, workflow orchestration and human approval.",
       "url": "https://my-aicustom.com/company-profile/"
     },
     {
-      "image": "https://mycustomid.github.io/tangsel-tradelink/brand/my-aicustom-delivery.svg",
+      "image": "/brand/my-aicustom-delivery.svg",
       "label": "Discover → Build → Operate",
       "caption": "Editorial delivery-flow visual reflecting the phased implementation model described on the official company profile and portfolio.",
       "url": "https://my-aicustom.com/portfolio/"
     },
     {
-      "image": "https://mycustomid.github.io/tangsel-tradelink/brand/my-aicustom-stack.svg",
+      "image": "/brand/my-aicustom-stack.svg",
       "label": "AI + Automation Stack",
       "caption": "Editorial architecture visual for AI agents, RAG, workflow automation, APIs and business systems.",
       "url": "https://my-aicustom.com/service/"

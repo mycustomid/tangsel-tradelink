@@ -1,0 +1,105 @@
+{
+  "brandLabel": "SAMARA FROM HOME",
+  "tagline": "A pantry of bright, honest flavour.",
+  "eyebrow": "Natural cooking sauces · Gourmet retail · Food-service solutions",
+  "heroImage": "/brand/samara-real-1.jpg",
+  "palette": {
+    "bg": "#faf7f2",
+    "ink": "#1f1a18",
+    "accent": "#c2593f",
+    "surface": "#4a5d3f"
+  },
+  "story": {
+    "title": "Home-kitchen soul, built for a wider table.",
+    "body": "SAMARA from Home meracik saus masak dan pasta bumbu dengan pendekatan artisan: rasa dikenali, bahan berbicara, dan proses tetap dekat dengan dapur. Dari pesto basil hingga rawon keluwek, setiap resep dirancang tanpa MSG dan tanpa pengawet sintetis untuk memudahkan home cook sekaligus memberi fondasi rasa yang konsisten bagi kafe, restoran, hotel, dan catering."
+  },
+  "stats": [
+    {
+      "value": "0",
+      "label": "MSG tambahan dalam proposisi resep SAMARA"
+    },
+    {
+      "value": "06",
+      "label": "signature sauce directions across local and global flavours"
+    },
+    {
+      "value": "2×",
+      "label": "jalur pasar: gourmet retail dan B2B food service"
+    },
+    {
+      "value": "1",
+      "label": "versatile pantry system for home and professional kitchens"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Italian Pesto",
+      "body": "Fresh basil, olive oil, dan savoury depth untuk pasta, sandwich, grilled protein, serta menu café yang perlu bergerak cepat."
+    },
+    {
+      "title": "Argentine Chimichurri",
+      "body": "Herb, garlic, dan acidity yang hidup—dibuat untuk steak, seafood, roasted vegetables, dan finishing sauce."
+    },
+    {
+      "title": "Rawon Heritage",
+      "body": "Pasta rawon berbasis keluwek yang membawa kedalaman rasa Nusantara ke format praktis tanpa kehilangan identitasnya."
+    },
+    {
+      "title": "Creamy & Cheese Series",
+      "body": "Carbonara, pumpkin cheese, dan chili cheese sebagai fondasi menu pasta, dip, baked dish, dan kreasi food service."
+    }
+  ],
+  "gallery": [
+    {
+      "image": "/brand/samara-real-1.jpg",
+      "label": "Artisan Sauces in Glass",
+      "caption": "Foto produk nyata kemasan toples artisanal SAMARA from Home tanpa MSG dan tanpa pengawet sintetis.",
+      "url": "https://www.instagram.com/samara.fromhome/"
+    },
+    {
+      "image": "/brand/samara-feed-1.jpg",
+      "label": "Saus Pasta & Cooking Pantry",
+      "caption": "Pesto basil, chimichurri, dan varian creamy siap olah langsung dari dapur.",
+      "url": "https://www.instagram.com/samara.fromhome/"
+    },
+    {
+      "image": "/brand/samara-feed-2.jpg",
+      "label": "Fresh Herbs & Kitchen Craft",
+      "caption": "Bahan-bahan segar terpilih yang menjadi jiwa dari setiap jar saus SAMARA.",
+      "url": "https://www.instagram.com/samara.fromhome/"
+    },
+    {
+      "image": "/brand/samara-feed-4.jpg",
+      "label": "The Condiment Shelf",
+      "caption": "Koleksi bumbu praktis bernutrisi tinggi untuk kreasi masakan harian dan F&B food service.",
+      "url": "https://www.instagram.com/samara.fromhome/"
+    }
+  ],
+  "actions": [
+    {
+      "key": "instagram",
+      "label": "Instagram · @samara.fromhome",
+      "url": "https://www.instagram.com/samara.fromhome/"
+    },
+    {
+      "key": "catalog",
+      "label": "Katalog & Menu Lengkap di Instagram",
+      "url": "https://www.instagram.com/samara.fromhome/"
+    },
+    {
+      "key": "shopee",
+      "label": "Belanja di Shopee Official Store",
+      "url": "https://shopee.co.id/shop/284144746"
+    },
+    {
+      "key": "tokopedia",
+      "label": "Beli di Tokopedia Official Store",
+      "url": "https://www.tokopedia.com/samarafromhome"
+    },
+    {
+      "key": "instagram",
+      "label": "Direct Message / Order via IG DM",
+      "url": "https://ig.me/m/samara.fromhome"
+    }
+  ]
+}
