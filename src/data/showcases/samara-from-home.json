@@ -1,8 +1,8 @@
 {
   "brandLabel": "SAMARA FROM HOME",
-  "tagline": "A pantry of bright, honest flavour.",
-  "eyebrow": "Natural cooking sauces · Gourmet retail · Food-service solutions",
-  "heroImage": "/brand/samara-real-1.jpg",
+  "tagline": "Small-batch cooking sauces and pantry shortcuts with a home-kitchen point of view.",
+  "eyebrow": "Cooking sauces · Pantry products · Home-kitchen brand",
+  "heroImage": "/brand/samara-real-1.webp",
   "palette": {
     "bg": "#faf7f2",
     "ink": "#1f1a18",
@@ -10,68 +10,68 @@
     "surface": "#4a5d3f"
   },
   "story": {
-    "title": "Home-kitchen soul, built for a wider table.",
-    "body": "SAMARA from Home meracik saus masak dan pasta bumbu dengan pendekatan artisan: rasa dikenali, bahan berbicara, dan proses tetap dekat dengan dapur. Dari pesto basil hingga rawon keluwek, setiap resep dirancang tanpa MSG dan tanpa pengawet sintetis untuk memudahkan home cook sekaligus memberi fondasi rasa yang konsisten bagi kafe, restoran, hotel, dan catering."
+    "title": "A pantry brand that starts from the home kitchen.",
+    "body": "SAMARA from Home hadir sebagai brand kuliner rumahan dengan ragam saus dan bumbu praktis. Handle @samara.fromhome dapat dikorroborasi dari publikasi lama yang menyebut pendirinya sebagai pengusaha kuliner. Pada audit ini, URL marketplace yang sudah tersimpan di repo tidak muncul pada hasil pencarian independen, sehingga TradeLink mempertahankannya sebagai kanal brand-listed—bukan memberi label verified store."
   },
   "stats": [
     {
-      "value": "0",
-      "label": "MSG tambahan dalam proposisi resep SAMARA"
+      "value": "IG",
+      "label": "@samara.fromhome is independently corroborated by a published contributor biography"
     },
     {
-      "value": "06",
-      "label": "signature sauce directions across local and global flavours"
+      "value": "Pantry",
+      "label": "brand positioning centers on sauces, seasonings and practical cooking formats"
     },
     {
-      "value": "2×",
-      "label": "jalur pasar: gourmet retail dan B2B food service"
+      "value": "B2C",
+      "label": "direct social discovery remains the clearest public route in this OSINT pass"
     },
     {
-      "value": "1",
-      "label": "versatile pantry system for home and professional kitchens"
+      "value": "B2B?",
+      "label": "food-service fit is presented as a conversation opportunity, not a verified scale claim"
     }
   ],
   "highlights": [
     {
-      "title": "Italian Pesto",
-      "body": "Fresh basil, olive oil, dan savoury depth untuk pasta, sandwich, grilled protein, serta menu café yang perlu bergerak cepat."
+      "title": "Pesto & Herb Direction",
+      "body": "Herb-led sauces provide a practical base for pasta, sandwiches, grilled protein and home cooking."
     },
     {
-      "title": "Argentine Chimichurri",
-      "body": "Herb, garlic, dan acidity yang hidup—dibuat untuk steak, seafood, roasted vegetables, dan finishing sauce."
+      "title": "Chimichurri Direction",
+      "body": "A bright herb-and-acid profile suited to grilled dishes, roasted vegetables and finishing applications."
     },
     {
-      "title": "Rawon Heritage",
-      "body": "Pasta rawon berbasis keluwek yang membawa kedalaman rasa Nusantara ke format praktis tanpa kehilangan identitasnya."
+      "title": "Indonesian Pantry Direction",
+      "body": "Local flavour references such as rawon can translate heritage taste into an easier cooking format."
     },
     {
-      "title": "Creamy & Cheese Series",
-      "body": "Carbonara, pumpkin cheese, dan chili cheese sebagai fondasi menu pasta, dip, baked dish, dan kreasi food service."
+      "title": "Creamy Comfort Direction",
+      "body": "Creamy and cheese-forward variants extend the pantry into pasta, dips and baked dishes."
     }
   ],
   "gallery": [
     {
-      "image": "/brand/samara-real-1.jpg",
-      "label": "Artisan Sauces in Glass",
-      "caption": "Foto produk nyata kemasan toples artisanal SAMARA from Home tanpa MSG dan tanpa pengawet sintetis.",
+      "image": "/brand/samara-real-1.webp",
+      "label": "Real SAMARA Product Photography",
+      "caption": "Existing real repository photography kept as the page hero instead of generating a synthetic product scene.",
       "url": "https://www.instagram.com/samara.fromhome/"
     },
     {
       "image": "/brand/samara-feed-1.jpg",
-      "label": "Saus Pasta & Cooking Pantry",
-      "caption": "Pesto basil, chimichurri, dan varian creamy siap olah langsung dari dapur.",
+      "label": "Pantry Products",
+      "caption": "Existing brand-feed imagery from the repository.",
       "url": "https://www.instagram.com/samara.fromhome/"
     },
     {
       "image": "/brand/samara-feed-2.jpg",
-      "label": "Fresh Herbs & Kitchen Craft",
-      "caption": "Bahan-bahan segar terpilih yang menjadi jiwa dari setiap jar saus SAMARA.",
+      "label": "Kitchen & Ingredient Context",
+      "caption": "Existing repository imagery retained for visual authenticity.",
       "url": "https://www.instagram.com/samara.fromhome/"
     },
     {
       "image": "/brand/samara-feed-4.jpg",
-      "label": "The Condiment Shelf",
-      "caption": "Koleksi bumbu praktis bernutrisi tinggi untuk kreasi masakan harian dan F&B food service.",
+      "label": "Condiment Shelf",
+      "caption": "Existing repository imagery used without AI-generated replacement.",
       "url": "https://www.instagram.com/samara.fromhome/"
     }
   ],
@@ -83,23 +83,52 @@
     },
     {
       "key": "catalog",
-      "label": "Katalog & Menu Lengkap di Instagram",
+      "label": "Menu & Updates via Instagram",
       "url": "https://www.instagram.com/samara.fromhome/"
     },
     {
       "key": "shopee",
-      "label": "Belanja di Shopee Official Store",
+      "label": "Shopee · brand-listed link",
       "url": "https://shopee.co.id/shop/284144746"
     },
     {
       "key": "tokopedia",
-      "label": "Beli di Tokopedia Official Store",
+      "label": "Tokopedia · brand-listed link",
       "url": "https://www.tokopedia.com/samarafromhome"
     },
     {
       "key": "instagram",
-      "label": "Direct Message / Order via IG DM",
+      "label": "Direct Message via Instagram",
       "url": "https://ig.me/m/samara.fromhome"
     }
-  ]
+  ],
+  "verification": {
+    "status": "partial-osint",
+    "checkedAt": "2026-10-13",
+    "note": "The Instagram identity is corroborated by a published contributor biography. Marketplace URLs are retained from existing brand data but were not independently surfaced by search during this audit, so they are labeled brand-listed rather than verified.",
+    "sources": [
+      {
+        "label": "Published contributor biography referencing @samara.fromhome",
+        "url": "https://fliphtml5.com/eonot/aoas"
+      }
+    ],
+    "channels": [
+      {
+        "key": "instagram",
+        "status": "corroborated"
+      },
+      {
+        "key": "shopee",
+        "status": "brand-listed"
+      },
+      {
+        "key": "tokopedia",
+        "status": "brand-listed"
+      }
+    ]
+  },
+  "performance": {
+    "optimizedAt": "2026-10-13",
+    "heroFormat": "webp"
+  }
 }

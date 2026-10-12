@@ -9,7 +9,7 @@ const verified = researchStatus === 'web-verified';
 <header class="tenant-header">
   <div class="brand-row">
     <div class="logo-wrap">
-      {logo ? <img src={logo} alt={`Logo ${name}`} loading="eager" decoding="async" /> : <span aria-hidden="true">{monogram}</span>}
+      {logo ? <img src={logo} alt={`Logo ${name}`} width="76" height="76" loading="eager" decoding="async" fetchpriority="auto" /> : <span aria-hidden="true">{monogram}</span>}
     </div>
     <div class="brand-copy">
       <p class="eyebrow">TEI 2026 · Digital Booth Card</p>

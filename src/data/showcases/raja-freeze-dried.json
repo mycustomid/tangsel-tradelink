@@ -1,8 +1,8 @@
 {
   "brandLabel": "RAJA FREEZE DRIED FOOD",
-  "tagline": "Fresh character, held in time.",
-  "eyebrow": "TEI 2026 · Low-temperature vacuum sublimation · Export ready",
-  "heroImage": "/brand/raja-freeze-dried-hero.jpg",
+  "tagline": "Low-temperature preservation for tropical ingredients, product development and B2B production.",
+  "eyebrow": "Freeze drying · Vacuum sublimation · Product development · B2B",
+  "heroImage": "/brand/raja-freeze-dried-hero.webp",
   "palette": {
     "bg": "#0f291e",
     "ink": "#fbfaf6",
@@ -10,91 +10,123 @@
     "surface": "#0a1a13"
   },
   "story": {
-    "title": "Preserving nature without flattening its character.",
-    "body": "PT Raja Freeze Dried Food mengolah buah-buahan tropis, sayur, herbal, dan makanan siap saji melalui teknologi sublimasi vakum suhu rendah hingga −40°C. Air dikeluarkan langsung dari kristal es tanpa perlakuan panas berlebih, mempertahankan warna asli, aroma alami, struktur seluler renyah, dan hingga 98% nutrisi alami tanpa bahan pengawet sintetis."
+    "title": "Preservation, handled as a process—not a miracle claim.",
+    "body": "Raja Freeze Dried Food menawarkan produk dan jasa freeze drying untuk buah, sayur, bahan botani, herbal, liquid dan formulasi pangan. Freeze drying bekerja dengan membekukan bahan lalu mengeluarkan air melalui sublimasi di bawah vakum. TradeLink sengaja tidak mengulang angka retensi nutrisi atau umur simpan sebagai jaminan universal karena hasil akhir tetap bergantung pada bahan, proses, kadar air, kemasan dan penyimpanan."
   },
   "stats": [
     {
-      "value": "98%",
-      "label": "retensi nutrisi yang ditargetkan melalui proses suhu rendah"
+      "value": "Freeze",
+      "label": "material is frozen before moisture is removed through sublimation"
     },
     {
-      "value": "−40°C",
-      "label": "tahap pembekuan sebelum sublimasi dalam ruang vakum"
+      "value": "Vacuum",
+      "label": "low-pressure processing is central to the freeze-drying method"
     },
     {
-      "value": "25 th",
-      "label": "potensi daya simpan dengan proses dan kemasan yang tepat"
+      "value": "Sample",
+      "label": "sample and product-development route is offered on the current maklon page"
     },
     {
-      "value": "0",
-      "label": "bahan pengawet sintetis pada proposisi produk"
+      "value": "B2B",
+      "label": "custom production and packaging discussions are part of the public service offer"
     }
   ],
   "highlights": [
     {
       "title": "Tropical Fruit Edit",
-      "body": "Mangga, stroberi, nanas madu, durian, dan buah tropis Nusantara diolah menjadi format renyah dengan warna serta aroma yang meledak di lidah."
+      "body": "Buah tropis dapat dikembangkan menjadi format ringan dan renyah dengan karakter visual yang kuat untuk consumer products."
     },
     {
       "title": "Vegetable & Botanical",
-      "body": "Sayuran, herbal, ekstrak, dan bahan sensitif memperoleh pendekatan proses presisi disesuaikan dengan kadar air dan formulasi."
+      "body": "Sayur, herbal, ekstrak dan bahan sensitif memerlukan parameter proses yang disesuaikan dengan kadar air, komposisi dan target produk."
     },
     {
       "title": "Ready Meal Systems",
-      "body": "Makanan siap saji ringan dan mudah direhidrasi air hangat untuk hospitality, ekspedisi outdoor, hingga cadangan logistik pangan darurat."
+      "body": "Formulasi siap saji dapat dieksplorasi untuk kebutuhan rehidrasi, hospitality, outdoor maupun pengembangan produk khusus."
     },
     {
       "title": "Private Label & Maklon B2B",
-      "body": "Layanan maklon kapasitas industri mulai dari asesmen bahan baku, uji coba pilot batch, pengemasan multi-layer, hingga kesiapan ekspor internasional."
+      "body": "Jalur maklon publik mencakup konsultasi produk, sample/uji produk, produksi, pengemasan dan pengiriman sesuai kebutuhan yang disepakati."
     }
   ],
   "gallery": [
     {
-      "image": "/brand/raja-freeze-dried-hero.jpg",
-      "label": "TEI 2026 Official Booth Display",
-      "caption": "Materi display booth fisik resmi Raja Freeze Dried Food untuk Trade Expo Indonesia 2026 Disperindag Tangerang Selatan.",
-      "url": "https://rajafreezdriedfood.com/"
-    },
-    {
-      "image": "/brand/raja-freeze-dried-product.png",
-      "label": "Real Product Photography",
-      "caption": "Foto resolusi tinggi buah kering beku tropis dengan tekstur renyah dan warna alami yang terjaga utuh.",
-      "url": "https://rajafreezdriedfood.com/products/"
+      "image": "/brand/raja-freeze-dried-hero.webp",
+      "label": "TEI 2026 Booth Material",
+      "caption": "Existing real brand/booth material retained from the repository rather than substituted with synthetic imagery.",
+      "url": "https://rajafreezedriedfood.com/"
     },
     {
       "image": "/brand/raja-freeze-dried-process.svg",
-      "label": "Low-temperature Process",
-      "caption": "Sekuens pembekuan −40°C, vakum, sublimasi, dan moisture barrier control dalam diagram arsitektural.",
-      "url": "https://rajafreezdriedfood.com/facility/"
+      "label": "Freeze → Vacuum → Sublimate",
+      "caption": "Editorial process diagram used to explain the method without health-result guarantees.",
+      "url": "https://rajafreezedriedfood.com/"
     },
     {
       "image": "/brand/raja-freeze-dried-export.svg",
-      "label": "Export-minded Format",
-      "caption": "Produk ringan dan stabil untuk efisiensi logistik ekspor lintas negara tanpa pendingin khusus.",
-      "url": "https://rajafreezdriedfood.com/industries/"
+      "label": "B2B Product Development",
+      "caption": "Editorial view of product development and distribution considerations.",
+      "url": "https://rajafreezedriedfood.com/maklon-freeze-dried/"
     }
   ],
   "actions": [
     {
       "key": "whatsapp",
-      "label": "Diskusikan Maklon & Sample via WhatsApp",
+      "label": "Diskusikan Sample & Maklon via WhatsApp",
       "url": "https://wa.me/6282124985339"
     },
     {
       "key": "website",
-      "label": "Raja Freeze Dried · Official Website",
-      "url": "https://rajafreezdriedfood.com/"
+      "label": "Raja Freeze Dried · Website",
+      "url": "https://rajafreezedriedfood.com/"
     },
     {
       "key": "catalog",
-      "label": "Katalog Kapabilitas & Fasilitas Pabrik",
-      "url": "https://rajafreezdriedfood.com/capabilities/"
+      "label": "Jasa Maklon Freeze Dried",
+      "url": "https://rajafreezedriedfood.com/maklon-freeze-dried/"
     },
     {
       "key": "email",
       "label": "info@rajafreezdriedfood.com",
       "url": "mailto:info@rajafreezdriedfood.com"
     }
-  ]
+  ],
+  "verification": {
+    "status": "primary-source-checked",
+    "checkedAt": "2026-10-13",
+    "note": "Phone/email and maklon flow were checked against current Raja Freeze Dried pages. TradeLink deliberately avoids broad nutrition-retention and universal shelf-life guarantees in its own copy.",
+    "sources": [
+      {
+        "label": "Raja Freeze Dried website",
+        "url": "https://rajafreezedriedfood.com/"
+      },
+      {
+        "label": "Raja Freeze Dried contact",
+        "url": "https://rajafreezedriedfood.com/contact/"
+      },
+      {
+        "label": "Maklon service",
+        "url": "https://rajafreezedriedfood.com/maklon-freeze-dried/"
+      }
+    ],
+    "channels": [
+      {
+        "key": "website",
+        "status": "primary-source"
+      },
+      {
+        "key": "whatsapp",
+        "status": "primary-source"
+      },
+      {
+        "key": "email",
+        "status": "primary-source"
+      }
+    ]
+  },
+  "performance": {
+    "optimizedAt": "2026-10-13",
+    "heroFormat": "webp",
+    "removedOversizeAsset": true
+  }
 }

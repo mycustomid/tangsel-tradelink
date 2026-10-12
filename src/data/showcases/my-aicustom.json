@@ -1,7 +1,7 @@
 {
   "brandLabel": "MY-AICUSTOM",
-  "tagline": "AI systems built for the work behind the work.",
-  "eyebrow": "Bintaro · AI agents · Automation · Governed data",
+  "tagline": "Custom AI agents, automation, RAG and connected workflows built around real operations.",
+  "eyebrow": "PT Azka Digi · Bintaro · AI agents · Automation · Data systems",
   "heroImage": "/brand/my-aicustom-hero.svg",
   "palette": {
     "bg": "#08111d",
@@ -10,59 +10,128 @@
     "surface": "#0e1a29"
   },
   "story": {
-    "title": "From scattered work to one governed system.",
-    "body": "MY-AICUSTOM adalah operating brand PT Azka Digi yang membangun AI Agent, automation, RAG, API, CRM, dan data layer sebagai satu sistem operasional. Setiap implementasi dimulai dari proses nyata, lalu dirancang dengan human approval, observability, dan audit trail agar AI bukan sekadar demo—melainkan infrastruktur kerja yang dapat dipercaya."
+    "title": "Put intelligence inside the workflow.",
+    "body": "MY-AICUSTOM adalah operating brand PT Azka Digi yang membangun AI Agent, workflow automation, RAG, API, dashboard, dan data systems untuk kebutuhan bisnis. Halaman ini menempatkan kapabilitas dan jalur kontak yang dapat ditelusuri di depan—bukan angka performa generik yang sulit diverifikasi."
   },
   "stats": [
-    {"value": "01", "label": "control plane for agents, workflows, data, and approvals"},
-    {"value": "24/7", "label": "automation designed around observable business operations"},
-    {"value": "4–12w", "label": "focused delivery window from discovery to production"},
-    {"value": "ID/EN", "label": "bilingual delivery context for local and global teams"}
+    {
+      "value": "Agentic",
+      "label": "AI agents designed around business context, tools and escalation paths"
+    },
+    {
+      "value": "RAG",
+      "label": "private knowledge retrieval for document-heavy operational use cases"
+    },
+    {
+      "value": "API",
+      "label": "workflow and system integration across existing business tools"
+    },
+    {
+      "value": "ID / EN",
+      "label": "bilingual delivery context for Indonesian and international teams"
+    }
   ],
   "highlights": [
     {
       "title": "AI Agent & Customer Service",
-      "body": "AI Agent untuk FAQ, lead qualification, follow-up, komplain, dan handoff ke manusia — dirancang mengikuti SOP dan konteks bisnis."
+      "body": "AI Agent untuk FAQ, lead qualification, follow-up, komplain, dan handoff ke manusia—dirancang mengikuti konteks dan proses bisnis."
     },
     {
       "title": "Workflow Automation",
-      "body": "Otomasi proses operasional seperti rekap order, update CRM, dokumen, reporting, approval, dan sinkronisasi lintas aplikasi."
+      "body": "Otomasi rekap order, update CRM, dokumen, reporting, approval, dan sinkronisasi lintas aplikasi."
     },
     {
       "title": "Private Knowledge / RAG",
-      "body": "Knowledge assistant berbasis dokumen internal dengan kontrol sumber, batas akses, versioning, dan konteks yang bisa diaudit."
+      "body": "Knowledge assistant berbasis dokumen internal dengan retrieval berbasis sumber dan batas akses yang dapat dirancang sesuai kebutuhan."
     },
     {
       "title": "AI-Powered Product Engineering",
-      "body": "Web app, dashboard, integration layer, computer vision/OCR, IoT dan sistem data dibangun sebagai satu workflow yang terukur."
+      "body": "Web app, dashboard, integration layer, computer vision/OCR, IoT dan sistem data dirangkai menjadi workflow operasional yang terukur."
     }
   ],
   "gallery": [
     {
       "image": "/brand/my-aicustom-control-plane.svg",
       "label": "AI Control Plane",
-      "caption": "Editorial system visual based on MY-AICUSTOM's official positioning around governed AI, workflow orchestration and human approval.",
+      "caption": "Editorial system map for agents, workflows, data and approval paths.",
       "url": "https://my-aicustom.com/company-profile/"
     },
     {
       "image": "/brand/my-aicustom-delivery.svg",
       "label": "Discover → Build → Operate",
-      "caption": "Editorial delivery-flow visual reflecting the phased implementation model described on the official company profile and portfolio.",
+      "caption": "Delivery flow based on MY-AICUSTOM's public company and portfolio positioning.",
       "url": "https://my-aicustom.com/portfolio/"
     },
     {
       "image": "/brand/my-aicustom-stack.svg",
       "label": "AI + Automation Stack",
-      "caption": "Editorial architecture visual for AI agents, RAG, workflow automation, APIs and business systems.",
+      "caption": "Architecture view for AI agents, RAG, workflow automation, APIs and business systems.",
       "url": "https://my-aicustom.com/service/"
     }
   ],
   "actions": [
-    {"key": "website", "label": "Official Website · my-aicustom.com", "url": "https://my-aicustom.com/"},
-    {"key": "instagram", "label": "Instagram · @myaicustom", "url": "https://www.instagram.com/myaicustom/"},
-    {"key": "whatsapp", "label": "WhatsApp · Konsultasi AI", "url": "https://wa.me/6282121292938"},
-    {"key": "website", "label": "Company Profile", "url": "https://my-aicustom.com/company-profile/"},
-    {"key": "catalog", "label": "Portfolio · Selected Work", "url": "https://my-aicustom.com/portfolio/"},
-    {"key": "email", "label": "Email · myaicustom@gmail.com", "url": "mailto:myaicustom@gmail.com"}
-  ]
+    {
+      "key": "website",
+      "label": "Official Website · my-aicustom.com",
+      "url": "https://my-aicustom.com/"
+    },
+    {
+      "key": "instagram",
+      "label": "Instagram · @myaicustom",
+      "url": "https://www.instagram.com/myaicustom/"
+    },
+    {
+      "key": "whatsapp",
+      "label": "WhatsApp · Konsultasi AI",
+      "url": "https://wa.me/6282121292938"
+    },
+    {
+      "key": "catalog",
+      "label": "Company Profile",
+      "url": "https://my-aicustom.com/company-profile/"
+    },
+    {
+      "key": "catalog",
+      "label": "Portfolio · Selected Work",
+      "url": "https://my-aicustom.com/portfolio/"
+    },
+    {
+      "key": "email",
+      "label": "Email · myaicustom@gmail.com",
+      "url": "mailto:myaicustom@gmail.com"
+    }
+  ],
+  "verification": {
+    "status": "primary-source-checked",
+    "checkedAt": "2026-10-13",
+    "note": "Website, service positioning, WhatsApp and public contact email were checked against current MY-AICUSTOM pages. Instagram remains a brand-listed channel.",
+    "sources": [
+      {
+        "label": "MY-AICUSTOM website",
+        "url": "https://my-aicustom.com/"
+      },
+      {
+        "label": "MY-AICUSTOM contact",
+        "url": "https://my-aicustom.com/contact/"
+      }
+    ],
+    "channels": [
+      {
+        "key": "website",
+        "status": "primary-source"
+      },
+      {
+        "key": "whatsapp",
+        "status": "primary-source"
+      },
+      {
+        "key": "email",
+        "status": "primary-source"
+      },
+      {
+        "key": "instagram",
+        "status": "brand-listed"
+      }
+    ]
+  }
 }

@@ -1,30 +1,19 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro';
-import EnhancedRichTenantShowcase from '../../components/EnhancedRichTenantShowcase.astro';
-import config from '../../data/showcases/buminaeenk-freeze-dried.json';
-
-const tenant = {
-  name: 'RAJA FREEZE DRIED FOOD',
-  slug: 'buminaeenk-freeze-dried',
-  hall: '8',
-  booth: '8-7C',
-  category: 'Food, Beverage & Contract Processing',
-  description: 'PT Raja Freeze Dried Food menghadirkan produk serta jasa maklon freeze drying untuk buah, sayur, herbal, dan makanan siap saji.',
-  theme: 'food',
-  logo: '/brand/raja-freeze-dried-favicon.svg',
-  website: 'https://rajafreezdriedfood.com/',
-  whatsapp: 'https://wa.me/6282124985339',
-  email: 'info@rajafreezdriedfood.com',
-  researchStatus: 'web-verified',
-  verifiedAt: '2026-10-12',
-};
+const rawBase = import.meta.env.BASE_URL;
+const baseUrl = rawBase.endsWith('/') ? rawBase : `${rawBase}/`;
+const target = `${baseUrl}tenant/raja-freeze-dried`;
+const canonical = new URL(target, Astro.site ?? new URL(Astro.url.origin)).href;
 ---
-
-<BaseLayout
-  title="Raja Freeze Dried Food — Tangsel TradeLink"
-  description={tenant.description}
-  theme="food"
-  favicon="/brand/raja-freeze-dried-favicon.svg"
->
-  <EnhancedRichTenantShowcase tenant={tenant} config={config} baseUrl={import.meta.env.BASE_URL} />
-</BaseLayout>
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="robots" content="noindex,follow" />
+    <meta http-equiv="refresh" content={`0;url=${target}`} />
+    <link rel="canonical" href={canonical} />
+    <title>Redirecting to Raja Freeze Dried Food</title>
+  </head>
+  <body>
+    <p>Halaman ini telah dipindahkan. <a href={target}>Buka Raja Freeze Dried Food</a>.</p>
+  </body>
+</html>

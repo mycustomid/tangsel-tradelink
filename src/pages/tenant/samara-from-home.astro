@@ -3,26 +3,21 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import EnhancedRichTenantShowcase from '../../components/EnhancedRichTenantShowcase.astro';
 import config from '../../data/showcases/samara-from-home.json';
 
+const baseUrl = import.meta.env.BASE_URL;
 const tenant = {
-  name: 'SAMARA from Home',
-  slug: 'samara-from-home',
-  hall: '8',
-  booth: '8-7C',
-  category: 'Gourmet Healthy Food & F&B Solutions',
-  description: 'SAMARA from Home meracik saus masak sehat tanpa MSG dan tanpa pengawet sintetis untuk retail gourmet dan food service.',
-  theme: 'food',
-  logo: '/brand/samara-from-home-logo.jpg',
-  instagram: 'https://www.instagram.com/samara.fromhome/',
-  researchStatus: 'web-verified',
-  verifiedAt: '2026-10-12',
+  name: 'Samara from Home', slug: 'samara-from-home', hall: '8', booth: '8-7C',
+  category: 'Food, Beverage & Agriculture Products',
+  description: 'SAMARA from Home is a home-kitchen food brand with sauces and pantry products, presented with source-aware channel labels.',
+  theme: 'food', website: 'https://www.instagram.com/samara.fromhome/', instagram: 'https://www.instagram.com/samara.fromhome/',
+  tokopedia: 'https://www.tokopedia.com/samarafromhome', shopee: 'https://shopee.co.id/shop/284144746',
+  logo: '/brand/samara-real-1.jpg', researchStatus: 'partial-osint', verifiedAt: '2026-10-13'
+};
+const structuredData = {
+  '@context': 'https://schema.org', '@type': 'Organization', name: tenant.name,
+  sameAs: [tenant.instagram]
 };
 ---
-
-<BaseLayout
-  title="SAMARA from Home — Tangsel TradeLink"
-  description={tenant.description}
-  theme="food"
-  favicon="/brand/samara-from-home-logo.jpg"
->
-  <EnhancedRichTenantShowcase tenant={tenant} config={config} baseUrl={import.meta.env.BASE_URL} />
+<BaseLayout title="Samara from Home — Tangsel TradeLink" description={tenant.description} theme="food" favicon={tenant.logo}
+  canonical={`${baseUrl}tenant/samara-from-home`} image={config.heroImage} structuredData={structuredData}>
+  <EnhancedRichTenantShowcase tenant={tenant} config={config} baseUrl={baseUrl} />
 </BaseLayout>

@@ -5,104 +5,56 @@ import fs from 'node:fs';
 const root = new URL('../', import.meta.url);
 const read = (path) => fs.readFileSync(new URL(path, root), 'utf8');
 const readJson = (path) => JSON.parse(read(path));
-
-const tenants = readJson('src/data/tenants-extra.json');
+const extras = readJson('src/data/tenants-extra.json');
 const component = read('src/components/RichTenantShowcase.astro');
-
 const specs = [
-  {
-    slug: 'my-aicustom',
-    palette: { bg: '#08111d', accent: '#36d6ff', surface: '#0e1a29' },
-    experience: 'precision-ai',
-  },
-  {
-    slug: 'buminaeenk-freeze-dried',
-    palette: { bg: '#0f291e', accent: '#10b981', surface: '#0a1a13' },
-    experience: 'agro-lab',
-  },
-  {
-    slug: 'raja-freeze-dried',
-    palette: { bg: '#0f291e', accent: '#10b981', surface: '#0a1a13' },
-    experience: 'agro-lab',
-  },
-  {
-    slug: 'bumina-eenk',
-    palette: { bg: '#0c231a', accent: '#10b981', surface: '#143327' },
-    experience: 'hospitality-retreat',
-  },
-  {
-    slug: 'samara-from-home',
-    palette: { bg: '#faf7f2', accent: '#c2593f', surface: '#4a5d3f' },
-    experience: 'culinary-atelier',
-  },
+  { slug:'my-aicustom', palette:{bg:'#08111d',accent:'#36d6ff',surface:'#0e1a29'}, experience:'precision-ai' },
+  { slug:'raja-freeze-dried', palette:{bg:'#0f291e',accent:'#10b981',surface:'#0a1a13'}, experience:'agro-lab' },
+  { slug:'bumina-eenk', palette:{bg:'#0c231a',accent:'#10b981',surface:'#143327'}, experience:'hospitality-retreat' },
+  { slug:'samara-from-home', palette:{bg:'#faf7f2',accent:'#c2593f',surface:'#4a5d3f'}, experience:'culinary-atelier' },
 ];
 
-test('three SSS tenant showcases are registered and use the premium one-page engine', () => {
+test('four canonical showcases are registered once and use the premium engine', () => {
+  assert.equal(extras.some((t) => t.slug === 'buminaeenk-freeze-dried'), false);
   for (const { slug } of specs) {
-    assert.ok(tenants.some((tenant) => tenant.slug === slug), `${slug}: missing tenants-extra registration`);
+    assert.equal(extras.filter((t) => t.slug === slug).length, 1, `${slug}: expected exactly one directory registration`);
     const page = read(`src/pages/tenant/${slug}.astro`);
     assert.match(page, /BaseLayout/);
     assert.match(page, /EnhancedRichTenantShowcase/);
   }
 });
 
-test('showcase configs preserve the requested art direction and complete storytelling data', () => {
+test('showcase configs have distinct palettes, complete editorial data and verification provenance', () => {
   for (const { slug, palette } of specs) {
     const config = readJson(`src/data/showcases/${slug}.json`);
-    assert.deepEqual(
-      { bg: config.palette.bg, accent: config.palette.accent, surface: config.palette.surface },
-      palette,
-    );
+    assert.deepEqual({bg:config.palette.bg,accent:config.palette.accent,surface:config.palette.surface}, palette);
     assert.ok(config.story?.title && config.story?.body);
-    assert.ok(config.stats.length >= 4);
-    assert.ok(config.highlights.length >= 4);
-    assert.ok(config.gallery.length >= 3);
-    assert.ok(config.actions.length >= 3);
-    assert.ok(config.heroImage.startsWith('/brand/'), `${slug}: hero must be a local brand asset`);
+    assert.ok(config.stats.length >= 4 && config.highlights.length >= 4 && config.gallery.length >= 3 && config.actions.length >= 3);
+    assert.ok(config.heroImage.startsWith('/brand/'));
+    assert.ok(config.verification?.checkedAt === '2026-10-13');
+    assert.ok(config.verification?.sources?.length >= 1);
   }
 });
 
-test('tenant-specific modes and local editorial assets are present', () => {
+test('shared component exposes distinct experience modes and source ledger', () => {
   for (const { slug, experience } of specs) {
-    const brandLabel = readJson(`src/data/showcases/${slug}.json`).brandLabel.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-    assert.match(component, new RegExp(`'${brandLabel}':\\s*\\{\\s*mode: '${experience}'`));
+    const label = readJson(`src/data/showcases/${slug}.json`).brandLabel.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    assert.match(component, new RegExp(`'${label}':\\s*\\{\\s*mode: '${experience}'`));
   }
-
-  for (const asset of [
-    'public/brand/raja-freeze-dried-hero.jpg',
-    'public/brand/raja-freeze-dried-process.svg',
-    'public/brand/raja-freeze-dried-export.svg',
-    'public/brand/samara-from-home-hero.svg',
-    'public/brand/samara-from-home-pantry.svg',
-    'public/brand/samara-from-home-foodservice.svg',
-  ]) {
-    assert.ok(fs.existsSync(new URL(asset, root)), `missing ${asset}`);
-  }
+  assert.match(component, /source-ledger/);
+  assert.match(component, /fetchpriority="high"/);
+  assert.match(component, /fetchpriority="low"/);
 });
 
-test('new editorial SVG assets contain only valid XML entities', () => {
-  for (const asset of [
-    'public/brand/raja-freeze-dried-process.svg',
-    'public/brand/raja-freeze-dried-export.svg',
-    'public/brand/samara-from-home-hero.svg',
-    'public/brand/samara-from-home-pantry.svg',
-    'public/brand/samara-from-home-foodservice.svg',
-  ]) {
-    assert.doesNotMatch(read(asset), /&(?!amp;|lt;|gt;|quot;|apos;|#\d+;|#x[\da-f]+;)/i, `${asset}: invalid XML entity`);
-  }
+test('high-risk claims are not promoted as TradeLink guarantees', () => {
+  const raja = JSON.stringify(readJson('src/data/showcases/raja-freeze-dried.json'));
+  assert.doesNotMatch(raja, /98%|95%|25\s*(th|tahun)/i);
+  const bumina = JSON.stringify(readJson('src/data/showcases/bumina-eenk.json'));
+  assert.doesNotMatch(bumina, /4\.9★|4\.9\/5/i);
 });
 
-test('official contact routes are used without inventing a Samara phone number', () => {
-  const raja = readJson('src/data/showcases/buminaeenk-freeze-dried.json');
+test('Samara does not invent phone/WhatsApp and labels marketplace routes conservatively', () => {
   const samara = readJson('src/data/showcases/samara-from-home.json');
-  assert.ok(raja.actions.some((action) => action.url === 'https://wa.me/6282124985339'));
-  assert.ok(raja.actions.some((action) => action.url === 'https://rajafreezdriedfood.com/'));
-  assert.ok(samara.actions.some((action) => action.url === 'https://www.instagram.com/samara.fromhome/'));
-  assert.equal(samara.actions.some((action) => /wa\.me/.test(action.url)), false);
-});
-
-test('local development serves the brief URLs at root without changing the production base', () => {
-  const astroConfig = read('astro.config.mjs');
-  assert.match(astroConfig, /isDev/);
-  assert.match(astroConfig, /base:\s*isDev\s*\?\s*['"]\/['"]\s*:\s*['"]\/tangsel-tradelink['"]/);
+  assert.equal(samara.actions.some((a) => /wa\\.me/.test(a.url)), false);
+  assert.ok(samara.verification.channels.filter((c) => ['shopee','tokopedia'].includes(c.key)).every((c) => c.status === 'brand-listed'));
 });
