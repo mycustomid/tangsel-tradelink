@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="samara-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4a5d3f" />
+      <stop offset="100%" stop-color="#34432c" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="url(#samara-grad)"/>
+  <!-- Kitchen Pantry / Jar with chili flame warmth -->
+  <rect x="42" y="46" width="44" height="48" rx="10" fill="#faf7f2" stroke="#c2593f" stroke-width="3"/>
+  <rect x="50" y="38" width="28" height="8" rx="3" fill="#c2593f"/>
+  <!-- Versatile Sauce Drop / Chili seed accent -->
+  <path d="M64 58c-5 8-8 12-8 16a8 8 0 0 0 16 0c0-4-3-8-8-16z" fill="#c2593f"/>
+  <circle cx="64" cy="74" r="2.5" fill="#fef08a"/>
+</svg>

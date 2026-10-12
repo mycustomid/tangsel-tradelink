@@ -9,11 +9,14 @@ const tenant = {
   category: 'Food, Beverage & Agriculture Products',
   description: 'SAMARA from Home is a home-kitchen food brand with sauces and pantry products, presented with source-aware channel labels.',
   theme: 'food', website: 'https://www.instagram.com/samara.fromhome/', instagram: 'https://www.instagram.com/samara.fromhome/',
+  whatsapp: 'https://wa.me/628561096967', maps: 'https://www.google.com/maps/search/?api=1&query=-6.305892,106.734535',
   tokopedia: 'https://www.tokopedia.com/samarafromhome', shopee: 'https://shopee.co.id/shop/284144746',
-  logo: '/brand/samara-real-1.jpg', researchStatus: 'partial-osint', verifiedAt: '2026-10-13'
+  logo: '/brand/samara-from-home-favicon.svg', researchStatus: 'primary-source-checked', verifiedAt: '2026-10-13'
 };
 const structuredData = {
   '@context': 'https://schema.org', '@type': 'Organization', name: tenant.name,
+  url: tenant.website, telephone: '+62 856-109-6967',
+  address: { '@type': 'PostalAddress', streetAddress: 'Providence House No. 23, Jl. Elang Raya', addressLocality: 'Pamulang', addressRegion: 'Banten', postalCode: '15431', addressCountry: 'ID' },
   sameAs: [tenant.instagram]
 };
 ---

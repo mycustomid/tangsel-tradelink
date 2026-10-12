@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="bumina-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14532d" />
+      <stop offset="100%" stop-color="#15803d" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="url(#bumina-grad)"/>
+  <!-- Mountain & Tea leaf heritage motif -->
+  <path d="M28 88L54 52l22 28 14-16 18 24H28z" fill="#86efac" opacity="0.3"/>
+  <path d="M42 88L64 56l22 32H42z" fill="#bbf7d0" opacity="0.6"/>
+  <!-- Highland sun/warmth -->
+  <circle cx="86" cy="42" r="12" fill="#fef08a"/>
+  <!-- Roof / Homestay silhouette -->
+  <path d="M44 88V74l20-14 20 14v14H44z" fill="#ffffff"/>
+  <rect x="58" y="76" width="12" height="12" rx="2" fill="#14532d"/>
+</svg>

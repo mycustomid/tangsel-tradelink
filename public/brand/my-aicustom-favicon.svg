@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="ai-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="url(#ai-grad)" stroke="#4f46e5" stroke-width="2"/>
+  <circle cx="64" cy="64" r="38" stroke="#818cf8" stroke-width="3" fill="none" opacity="0.4"/>
+  <!-- Neural / autonomous AI nodes -->
+  <circle cx="64" cy="40" r="10" fill="#6366f1"/>
+  <circle cx="44" cy="78" r="9" fill="#06b6d4"/>
+  <circle cx="84" cy="78" r="9" fill="#a855f7"/>
+  <path d="M64 40L44 78M64 40L84 78M44 78L84 78" stroke="#e0e7ff" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="64" cy="64" r="5" fill="#ffffff"/>
+</svg>

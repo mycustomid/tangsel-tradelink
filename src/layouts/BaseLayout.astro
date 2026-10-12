@@ -34,6 +34,14 @@ const imagePath = image
         : `${basePath}${image.replace(/^\//, '')}`)
   : undefined;
 const imageUrl = imagePath ? new URL(imagePath, origin).href : undefined;
+const defaultFavicon = `${basePath}favicon.svg`;
+const faviconPath = favicon
+  ? (favicon.startsWith('http://') || favicon.startsWith('https://') || favicon.startsWith('data:')
+      ? favicon
+      : favicon.startsWith(basePath)
+        ? favicon
+        : `${basePath}${favicon.replace(/^\//, '')}`)
+  : defaultFavicon;
 const structuredJson = structuredData
   ? JSON.stringify(structuredData).replace(/</g, '\\u003c')
   : undefined;
@@ -48,7 +56,9 @@ const structuredJson = structuredData
     <meta name="robots" content={robots} />
     <meta name="theme-color" content="#0b1727" />
     <link rel="canonical" href={canonicalUrl} />
-    <link rel="icon" href={favicon} />
+    <link rel="icon" type="image/svg+xml" href={faviconPath} />
+    <link rel="alternate icon" href={faviconPath} />
+    <link rel="apple-touch-icon" href={faviconPath} />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Tangsel TradeLink" />
     <meta property="og:title" content={title} />
