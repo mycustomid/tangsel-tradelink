@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { resolveTenantFavicon } from '../../lib/tenant-utils.mjs';
 import SmartNfcShowcase from '../../components/SmartNfcShowcase.astro';
 import config from '../../data/showcases/pt-niaga-citra-mandiri.json';
 
@@ -18,7 +19,7 @@ const structuredData = {
   url: "https://mycustomid.github.io/tangsel-tradelink/"
 };
 ---
-<BaseLayout title={`${tenant.name} — Tangsel TradeLink`} description={tenant.description} theme={tenant.theme}
+<BaseLayout favicon={resolveTenantFavicon(tenant, config)} title={`${tenant.name} — Tangsel TradeLink`} description={tenant.description} theme={tenant.theme}
   canonical={`${baseUrl}tenant/${tenant.slug}`} image={config.heroImage} structuredData={structuredData}>
   <SmartNfcShowcase tenant={tenant} config={config} baseUrl={baseUrl} />
 </BaseLayout>

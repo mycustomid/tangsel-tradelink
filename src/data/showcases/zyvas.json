@@ -2,7 +2,7 @@
   "brandLabel": "ZYVAS",
   "tagline": "Contemporary Modest Wear, Homedress & Fashion Harian Modern dari Tangerang Selatan.",
   "eyebrow": "Modest Fashion & Dailywear · Tangsel",
-  "heroImage": "/brand/tei-batch/zyvas.svg",
+  "heroImage": "/brand/zyvas/zyvas-asset-3.jpg",
   "heroFit": "cover",
   "visualMode": "fashion",
   "palette": {
@@ -68,7 +68,11 @@
       ]
     }
   ],
-  "gallery": [],
+  "gallery": [
+    "/brand/zyvas/zyvas-asset-1.jpg",
+    "/brand/zyvas/zyvas-asset-2.jpg",
+    "/brand/zyvas/zyvas-asset-4.jpg"
+  ],
   "actions": [
     {
       "key": "whatsapp",

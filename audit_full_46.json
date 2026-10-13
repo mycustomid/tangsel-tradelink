@@ -1,0 +1,889 @@
+[
+  {
+    "name": "RUMAH BATIK SETU",
+    "slug": "rumah-batik-setu",
+    "category": "Fashion, Handicraft & Home Decor",
+    "hasAstro": true,
+    "hasJson": true,
+    "passesFavicon": true,
+    "heroImage": "https://mycustomid.github.io/tangsel-tradelink/brand/rumah-batik-setu-hero.svg",
+    "isGenericHero": true,
+    "galleryCount": 3,
+    "actionCount": 2,
+    "actions": [
+      "instagram: Instagram · @rumahbatiksetu",
+      "maps: Google Maps · Rumah Batik Setu"
+    ],
+    "status": "no-json"
+  },
+  {
+    "name": "MY-AICUSTOM",
+    "slug": "my-aicustom",
+    "category": "Technology & Digital Services",
+    "hasAstro": true,
+    "hasJson": true,
+    "passesFavicon": true,
+    "heroImage": "/brand/my-aicustom-hero.svg",
+    "isGenericHero": true,
+    "galleryCount": 3,
+    "actionCount": 6,
+    "actions": [
+      "website: Official Website · my-aicustom.com",
+      "instagram: Instagram · @myaicustom",
+      "whatsapp: WhatsApp · Konsultasi AI",
+      "catalog: Company Profile",
+      "catalog: Portfolio · Selected Work",
+      "email: Email · myaicustom@gmail.com"
+    ],
+    "status": "primary-source-checked"
+  },
+  {
+    "name": "SEPATU WANITA NAA",
+    "slug": "sepatu-wanita-naa",
+    "category": "Fashion, Handicraft & Home Decor",
+    "hasAstro": true,
+    "hasJson": true,
+    "passesFavicon": true,
+    "heroImage": "https://mycustomid.github.io/tangsel-tradelink/brand/naa-shoes/naa-shoes-classic-mules.jpeg",
+    "isGenericHero": false,
+    "galleryCount": 7,
+    "actionCount": 4,
+    "actions": [
+      "instagram: Instagram · @sepatu_wanita_naa",
+      "threads: Threads · @sepatu_wanita_naa",
+      "whatsapp: WhatsApp · NAA Shoes",
+      "maps: Google Maps · NAA Shoes"
+    ],
+    "status": "no-json"
+  },
+  {
+    "name": "RAJA FREEZE DRIED FOOD",
+    "slug": "raja-freeze-dried",
+    "category": "Food, Beverage & Contract Processing",
+    "hasAstro": true,
+    "hasJson": true,
+    "passesFavicon": true,
+    "heroImage": "/brand/raja-freeze-dried-hero.webp",
+    "isGenericHero": false,
+    "galleryCount": 3,
+    "actionCount": 4,
+    "actions": [
+      "whatsapp: Diskusikan Sample & Maklon via WhatsApp",
+      "website: Raja Freeze Dried · Website",
+      "catalog: Jasa Maklon Freeze Dried",
+      "email: info@rajafreezdriedfood.com"
+    ],
+    "status": "primary-source-checked"
+  },
+  {
+    "name": "HOMESTAY BUMINA EENK",
+    "slug": "bumina-eenk",
+    "category": "Hospitality, Homestay & Tourism",
+    "hasAstro": true,
+    "hasJson": true,
+    "passesFavicon": true,
+    "heroImage": "/brand/bumina-eenk-hero.webp",
+    "isGenericHero": false,
+    "galleryCount": 4,
+    "actionCount": 5,
+    "actions": [
+      "whatsapp: Reservasi via WhatsApp · +62 852-1946-0779",
+      "website: Website · buminaeenk.com",
+      "catalog: Cek Listing Booking.com",
+      "catalog: Cek Listing Agoda",
+      "instagram: Instagram · @homestay_buminaeenk"
+    ],
+    "status": "primary-plus-ota"
+  },
+  {
+    "name": "SAMARA from Home",
+    "slug": "samara-from-home",
+    "category": "Gourmet Healthy Food & F&B Solutions",
+    "hasAstro": true,
+    "hasJson": true,
+    "passesFavicon": true,
+    "heroImage": "/brand/samara-real-1.webp",
+    "isGenericHero": false,
+    "galleryCount": 2,
+    "actionCount": 5,
+    "actions": [
+      "whatsapp: WhatsApp · Order & Buyer Inquiry",
+      "instagram: Instagram · @samara.fromhome",
+      "maps: Google Maps & Review",
+      "shopee: Shopee · SAMARA from Home",
+      "tokopedia: Tokopedia · SAMARA from Home"
+    ],
+    "status": "primary-source-checked"
+  },
+  {
+    "name": "PT HARMONI HARAPAN BERSAMA",
+    "slug": "hhb",
+    "category": "Services & Logistic",
+    "hasAstro": true,
+    "hasJson": true,
+    "passesFavicon": false,
+    "heroImage": "/brand/hhb-logistics.svg",
+    "isGenericHero": true,
+    "galleryCount": 0,
+    "actionCount": 5,
+    "actions": [
+      "whatsapp: WhatsApp · Bu Fifi / TEI inquiry",
+      "website: Official Website · hhb.co.id",
+      "email: Official Customer Service · cs@hhb.co.id",
+      "email: Sales contact · Sales@hhb.co.id",
+      "website: Indonesia National Single Window · INSW"
+    ],
+    "status": "public-source-checked"
+  },
+  {
+    "name": "ARANOMIYA",
+    "slug": "aranomiya",
+    "category": "Health, Beauty & Personal Care",
+    "hasAstro": true,
+    "hasJson": true,
+    "passesFavicon": false,
+    "heroImage": "https://cdn.linkumkm.id/uploads/library/1/2/1/2/2/3/121223_840x576.jpg",
+    "isGenericHero": false,
+    "galleryCount": 1,
+    "actionCount": 5,
+    "actions": [
+      "whatsapp: WhatsApp · ARANOMIYA",
+      "website: Official Website · aranomiya.com",
+      "instagram: Instagram · @aranomiya",
+      "catalog: Company Profile · OneDrive",
+      "maps: Google Maps"
+    ],
+    "status": "public-source-checked"
+  },
+  {
+    "name": "DBUMBU AURELSHOP",
+    "slug": "dbumbu-aurelshop",
+    "category": "Food, Beverage & Agriculture Products",
+    "hasAstro": true,
+    "hasJson": true,
+    "passesFavicon": false,
+    "heroImage": "/brand/dbumbu-spice.svg",
+    "isGenericHero": true,
+    "galleryCount": 0,
+    "actionCount": 4,
+    "actions": [
+      "whatsapp: WhatsApp · 0812-8060-3913",
+      "shopee: Shopee · AurelShop2018",
+      "instagram: Instagram · @aurelshop2018",
+      "maps: Google Maps"
+    ],
+    "status": "public-source-checked"
+  },
+  {
+    "name": "ZAHHAB HEALTHY DRINK",
+    "slug": "zahhab",
+    "category": "Food, Beverage & Agriculture Products",
+    "hasAstro": true,
+    "hasJson": true,
+    "passesFavicon": false,
+    "heroImage": "/brand/zahhab-date-drink.svg",
+    "isGenericHero": true,
+    "galleryCount": 0,
+    "actionCount": 4,
+    "actions": [
+      "whatsapp: WhatsApp Order · 0813-8751-7575",
+      "instagram: Instagram · @zahhab_head",
+      "tiktok: TikTok · @Zahhab20",
+      "youtube: YouTube · @zahhab2020"
+    ],
+    "status": "verified-authoritative"
+  },
+  {
+    "name": "TEH TELANG OUR HERB",
+    "slug": "our-herb",
+    "category": "Food, Beverage & Agriculture Products",
+    "hasAstro": true,
+    "hasJson": true,
+    "passesFavicon": false,
+    "heroImage": "/brand/our-herb-telang.svg",
+    "isGenericHero": true,
+    "galleryCount": 1,
+    "actionCount": 4,
+    "actions": [
+      "whatsapp: WhatsApp Business · 0878-3820-9055",
+      "whatsapp: WhatsApp Contact · 0819-3681-4817",
+      "instagram: Instagram · @ourherb.id",
+      "website: Rumah Kurasi Tangsel · Our Herb"
+    ],
+    "status": "public-source-checked"
+  },
+  {
+    "name": "MD ORGANIC",
+    "slug": "md-organic",
+    "category": "Food, Beverage & Agriculture Products",
+    "hasAstro": true,
+    "hasJson": true,
+    "passesFavicon": false,
+    "heroImage": "/brand/md-organic-hero.webp",
+    "isGenericHero": false,
+    "galleryCount": 3,
+    "actionCount": 8,
+    "actions": [
+      "whatsapp: WhatsApp Order · 0858-8999-5454",
+      "website: Website Resmi · www.organic-md.com",
+      "tokopedia: Tokopedia Official",
+      "shopee: Shopee Official",
+      "blibli: Blibli Official",
+      "instagram: Instagram · @organic_md",
+      "youtube: YouTube · MD Organic",
+      "maps: Lokasi Kantor & Showroom"
+    ],
+    "status": "primary-source-checked"
+  },
+  {
+    "name": "Titik Kurniasih",
+    "slug": "titik-kurniasih",
+    "category": "Fashion, Handicraft & Home Decor",
+    "hasAstro": true,
+    "hasJson": true,
+    "passesFavicon": false,
+    "heroImage": "/brand/tei-batch/titik-kurniasih.svg",
+    "isGenericHero": true,
+    "galleryCount": 0,
+    "actionCount": 0,
+    "actions": [],
+    "status": "handover-verified"
+  },
+  {
+    "name": "Ladifa Collection",
+    "slug": "ladifa-collection",
+    "category": "Fashion, Handicraft & Home Decor",
+    "hasAstro": true,
+    "hasJson": true,
+    "passesFavicon": false,
+    "heroImage": "/brand/ladifa-collection/ladifa-asset-3.jpg",
+    "isGenericHero": false,
+    "galleryCount": 3,
+    "actionCount": 3,
+    "actions": [
+      "whatsapp: WhatsApp Owner · 0877-8464-4546",
+      "website: Website Resmi · www.ladifa.id",
+      "instagram: Instagram · @ladifacollection"
+    ],
+    "status": "verified-authoritative"
+  },
+  {
+    "name": "Euis Siti Khodijah",
+    "slug": "euis-siti-khodijah",
+    "category": "Fashion, Handicraft & Home Decor",
+    "hasAstro": true,
+    "hasJson": true,
+    "passesFavicon": false,
+    "heroImage": "/brand/tei-batch/euis-siti-khodijah.svg",
+    "isGenericHero": true,
+    "galleryCount": 0,
+    "actionCount": 0,
+    "actions": [],
+    "status": "handover-verified"
+  },
+  {
+    "name": "Fenda Iriani",
+    "slug": "fenda-iriani",
+    "category": "Food, Beverage & Agriculture Products",
+    "hasAstro": true,
+    "hasJson": true,
+    "passesFavicon": false,
+    "heroImage": "/brand/tei-batch/fenda-iriani.svg",
+    "isGenericHero": true,
+    "galleryCount": 0,
+    "actionCount": 2,
+    "actions": [
+      "website: Rumah Kurasi · KEMANIA",
+      "website: Rumah Kurasi · KEMANIA FISH"
+    ],
+    "status": "public-source-checked"
+  },
+  {
+    "name": "Den Bagus",
+    "slug": "den-bagus",
+    "category": "Food, Beverage & Agriculture Products",
+    "hasAstro": true,
+    "hasJson": true,
+    "passesFavicon": false,
+    "heroImage": "/brand/tei-batch/den-bagus.svg",
+    "isGenericHero": true,
+    "galleryCount": 0,
+    "actionCount": 2,
+    "actions": [
+      "website: Tangsel Pos · Peyek Den Bagus profile",
+      "shopee: Local Pride Spot · Peyek Den Bagus"
+    ],
+    "status": "public-source-checked"
+  },
+  {
+    "name": "Shirudo Lab",
+    "slug": "shirudo-lab",
+    "category": "Health, Beauty & Personal Care",
+    "hasAstro": true,
+    "hasJson": true,
+    "passesFavicon": false,
+    "heroImage": "/brand/tei-batch/shirudo-lab.svg",
+    "isGenericHero": true,
+    "galleryCount": 0,
+    "actionCount": 3,
+    "actions": [
+      "instagram: Instagram · @shirudolabindonesia",
+      "shopee: Shopee · Shirudo Lab Indonesia",
+      "website: Apotek Mandjur · IKUZEN NoSpin"
+    ],
+    "status": "public-source-checked"
+  },
+  {
+    "name": "Haira",
+    "slug": "haira",
+    "category": "Fashion, Handicraft & Home Decor",
+    "hasAstro": true,
+    "hasJson": true,
+    "passesFavicon": false,
+    "heroImage": "/brand/tei-batch/haira.svg",
+    "isGenericHero": true,
+    "galleryCount": 0,
+    "actionCount": 1,
+    "actions": [
+      "instagram: Instagram reference · @hafra__id"
+    ],
+    "status": "handover-verified"
+  },
+  {
+    "name": "Lika Snack",
+    "slug": "lika-snack",
+    "category": "Food, Beverage & Agriculture Products",
+    "hasAstro": true,
+    "hasJson": true,
+    "passesFavicon": false,
+    "heroImage": "/brand/tei-batch/lika-snack.svg",
+    "isGenericHero": true,
+    "galleryCount": 0,
+    "actionCount": 1,
+    "actions": [
+      "website: Public UMKM record · Lika Snack"
+    ],
+    "status": "public-source-checked"
+  },
+  {
+    "name": "DANISCAKELICIO",
+    "slug": "daniscakelicio",
+    "category": "Food, Beverage & Agriculture Products",
+    "hasAstro": true,
+    "hasJson": true,
+    "passesFavicon": false,
+    "heroImage": "/brand/tei-batch/daniscakelicio.svg",
+    "isGenericHero": true,
+    "galleryCount": 0,
+    "actionCount": 3,
+    "actions": [
+      "instagram: Instagram · @daniscakelicio",
+      "shopee: Shopee · DANISCAKELICIO",
+      "website: Tangsel Market · DANISCAKELICIO"
+    ],
+    "status": "public-source-checked"
+  },
+  {
+    "name": "PT COSMAR",
+    "slug": "pt-cosmar",
+    "category": "Health, Beauty & Personal Care",
+    "hasAstro": true,
+    "hasJson": true,
+    "passesFavicon": false,
+    "heroImage": "/brand/tei-batch/pt-cosmar.svg",
+    "isGenericHero": true,
+    "galleryCount": 0,
+    "actionCount": 3,
+    "actions": [
+      "website: Official Website · PT Cosmar",
+      "website: Products · PT Cosmar",
+      "maps: Cosmar location / FAQ"
+    ],
+    "status": "public-source-checked"
+  },
+  {
+    "name": "Dapur Nanay",
+    "slug": "dapur-nanay",
+    "category": "Food, Beverage & Agriculture Products",
+    "hasAstro": true,
+    "hasJson": true,
+    "passesFavicon": false,
+    "heroImage": "/brand/dapur-nanay/dapur-nanay-hero.jpg",
+    "isGenericHero": false,
+    "galleryCount": 1,
+    "actionCount": 6,
+    "actions": [
+      "whatsapp: WhatsApp Order · 0818-0969-3375",
+      "website: Katalog Online · dapurnanay.my.canva.site",
+      "instagram: Instagram · @dapur_nanay",
+      "tiktok: TikTok Shop · @dapurnanay",
+      "shopee: Shopee · dapurnanay1",
+      "maps: Google Maps & Review"
+    ],
+    "status": "verified-authoritative"
+  },
+  {
+    "name": "Pempek Wak Ebot",
+    "slug": "pempek-wak-ebot",
+    "category": "Food, Beverage & Agriculture Products",
+    "hasAstro": true,
+    "hasJson": true,
+    "passesFavicon": false,
+    "heroImage": "/brand/tei-batch/pempek-wak-ebot.svg",
+    "isGenericHero": true,
+    "galleryCount": 0,
+    "actionCount": 1,
+    "actions": [
+      "website: BRIN-linked UMKM project reference"
+    ],
+    "status": "public-source-checked"
+  },
+  {
+    "name": "ZYVAS",
+    "slug": "zyvas",
+    "category": "Fashion, Handicraft & Home Decor",
+    "hasAstro": true,
+    "hasJson": true,
+    "passesFavicon": false,
+    "heroImage": "/brand/tei-batch/zyvas.svg",
+    "isGenericHero": true,
+    "galleryCount": 0,
+    "actionCount": 3,
+    "actions": [
+      "whatsapp: WhatsApp Order · 0818-0783-3077",
+      "instagram: Instagram Utama · @zyvas__",
+      "instagram: Instagram Dailywear · @zyvas.dailywear"
+    ],
+    "status": "verified-authoritative"
+  },
+  {
+    "name": "PT NIAGA CITRA MANDIRI",
+    "slug": "pt-niaga-citra-mandiri",
+    "category": "Services & Logistic",
+    "hasAstro": true,
+    "hasJson": true,
+    "passesFavicon": false,
+    "heroImage": "/brand/tei-batch/pt-niaga-citra-mandiri.svg",
+    "isGenericHero": true,
+    "galleryCount": 0,
+    "actionCount": 1,
+    "actions": [
+      "website: Tangsel City · Export release"
+    ],
+    "status": "public-source-checked"
+  },
+  {
+    "name": "RHR Snack",
+    "slug": "rhr-snack",
+    "category": "Food, Beverage & Agriculture Products",
+    "hasAstro": true,
+    "hasJson": true,
+    "passesFavicon": false,
+    "heroImage": "/brand/tei-batch/rhr-snack.svg",
+    "isGenericHero": true,
+    "galleryCount": 0,
+    "actionCount": 2,
+    "actions": [
+      "website: Rumah Kurasi · RHR Snack",
+      "shopee: Shopee · Kerupuk Ikan Tenggiri RHR"
+    ],
+    "status": "public-source-checked"
+  },
+  {
+    "name": "Ery Mamaw",
+    "slug": "ery-mamaw",
+    "category": "Food, Beverage & Agriculture Products",
+    "hasAstro": true,
+    "hasJson": true,
+    "passesFavicon": false,
+    "heroImage": "/brand/tei-batch/ery-mamaw.svg",
+    "isGenericHero": true,
+    "galleryCount": 0,
+    "actionCount": 0,
+    "actions": [],
+    "status": "handover-verified"
+  },
+  {
+    "name": "Rosniati",
+    "slug": "rosniati",
+    "category": "Food, Beverage & Agriculture Products",
+    "hasAstro": true,
+    "hasJson": true,
+    "passesFavicon": false,
+    "heroImage": "/brand/tei-batch/rosniati.svg",
+    "isGenericHero": true,
+    "galleryCount": 0,
+    "actionCount": 1,
+    "actions": [
+      "website: UMKM assistance publication"
+    ],
+    "status": "public-source-checked"
+  },
+  {
+    "name": "Eni Chandra Shanti",
+    "slug": "eni-chandra",
+    "category": "Fashion, Handicraft & Home Decor",
+    "hasAstro": true,
+    "hasJson": true,
+    "passesFavicon": false,
+    "heroImage": "/brand/tei-batch/eni-chandra.svg",
+    "isGenericHero": true,
+    "galleryCount": 0,
+    "actionCount": 3,
+    "actions": [
+      "whatsapp: WhatsApp Owner · 0821-1328-1611",
+      "instagram: Instagram · @aliyacookies",
+      "website: Rumah Kurasi Tangsel"
+    ],
+    "status": "verified-authoritative"
+  },
+  {
+    "name": "Jahe Hayatiqu",
+    "slug": "jahe-hayatiqu",
+    "category": "Food, Beverage & Agriculture Products",
+    "hasAstro": true,
+    "hasJson": true,
+    "passesFavicon": false,
+    "heroImage": "/brand/tei-batch/jahe-hayatiqu.svg",
+    "isGenericHero": true,
+    "galleryCount": 0,
+    "actionCount": 2,
+    "actions": [
+      "instagram: Instagram · @jahemerah_hayatiqu",
+      "website: Public community-service coverage"
+    ],
+    "status": "public-source-checked"
+  },
+  {
+    "name": "OChokat",
+    "slug": "ochokat",
+    "category": "Food, Beverage & Agriculture Products",
+    "hasAstro": true,
+    "hasJson": true,
+    "passesFavicon": false,
+    "heroImage": "/brand/tei-batch/ochokat.svg",
+    "isGenericHero": true,
+    "galleryCount": 0,
+    "actionCount": 1,
+    "actions": [
+      "website: Government-hosted UMKM record"
+    ],
+    "status": "public-source-checked"
+  },
+  {
+    "name": "FENNYCROCHE",
+    "slug": "fennycroche",
+    "category": "Fashion, Handicraft & Home Decor",
+    "hasAstro": true,
+    "hasJson": true,
+    "passesFavicon": false,
+    "heroImage": "/brand/tei-batch/fennycroche.svg",
+    "isGenericHero": true,
+    "galleryCount": 0,
+    "actionCount": 2,
+    "actions": [
+      "instagram: Instagram · @fennycroche",
+      "website: Rumah Kurasi · Fennycroche"
+    ],
+    "status": "public-source-checked"
+  },
+  {
+    "name": "ELLETA",
+    "slug": "elleta",
+    "category": "Fashion, Handicraft & Home Decor",
+    "hasAstro": true,
+    "hasJson": true,
+    "passesFavicon": false,
+    "heroImage": "/brand/tei-batch/elleta.svg",
+    "isGenericHero": true,
+    "galleryCount": 0,
+    "actionCount": 3,
+    "actions": [
+      "whatsapp: WhatsApp Owner · 0813-8900-8035",
+      "instagram: Instagram Utama · @elleta.official",
+      "instagram: Instagram Butik · @elleta.butik"
+    ],
+    "status": "verified-authoritative"
+  },
+  {
+    "name": "Kartika Bela",
+    "slug": "kartika-bela",
+    "category": "Food, Beverage & Agriculture Products",
+    "hasAstro": true,
+    "hasJson": true,
+    "passesFavicon": false,
+    "heroImage": "/brand/tei-batch/kartika-bela.svg",
+    "isGenericHero": true,
+    "galleryCount": 0,
+    "actionCount": 0,
+    "actions": [],
+    "status": "handover-verified"
+  },
+  {
+    "name": "Snapclean",
+    "slug": "snapclean",
+    "category": "Household",
+    "hasAstro": true,
+    "hasJson": true,
+    "passesFavicon": false,
+    "heroImage": "/brand/snapclean/snapclean-asset-2.png",
+    "isGenericHero": false,
+    "galleryCount": 4,
+    "actionCount": 2,
+    "actions": [
+      "website: Website Resmi · snapclean.co.id",
+      "website: Profil PT Satu Nusa Biru"
+    ],
+    "status": "verified-authoritative"
+  },
+  {
+    "name": "Nurazlinda",
+    "slug": "nurazlinda",
+    "category": "Fashion, Handicraft & Home Decor",
+    "hasAstro": true,
+    "hasJson": true,
+    "passesFavicon": false,
+    "heroImage": "/brand/tei-batch/nurazlinda.svg",
+    "isGenericHero": true,
+    "galleryCount": 0,
+    "actionCount": 0,
+    "actions": [],
+    "status": "handover-verified"
+  },
+  {
+    "name": "Fevy",
+    "slug": "fevy",
+    "category": "Fashion, Handicraft & Home Decor",
+    "hasAstro": true,
+    "hasJson": true,
+    "passesFavicon": false,
+    "heroImage": "/brand/tei-batch/fevy.svg",
+    "isGenericHero": true,
+    "galleryCount": 0,
+    "actionCount": 0,
+    "actions": [],
+    "status": "handover-verified"
+  },
+  {
+    "name": "Health Today",
+    "slug": "health-today",
+    "category": "Food, Beverage & Agriculture Products",
+    "hasAstro": true,
+    "hasJson": true,
+    "passesFavicon": false,
+    "heroImage": "/brand/health-today/health-today-asset-1.jpg",
+    "isGenericHero": false,
+    "galleryCount": 4,
+    "actionCount": 3,
+    "actions": [
+      "website: Website Resmi · healthtoday.id",
+      "instagram: Instagram · @healthtodayindonesia",
+      "whatsapp: WhatsApp Sales · 0811-1001-2338"
+    ],
+    "status": "verified-authoritative"
+  },
+  {
+    "name": "Batinos Pastry",
+    "slug": "batinos-pastry",
+    "category": "Food, Beverage & Agriculture Products",
+    "hasAstro": true,
+    "hasJson": true,
+    "passesFavicon": false,
+    "heroImage": "/brand/tei-batch/batinos-pastry.svg",
+    "isGenericHero": true,
+    "galleryCount": 0,
+    "actionCount": 2,
+    "actions": [
+      "instagram: Instagram · @batinos.pastry",
+      "website: Pertamina SMEXPO catalogue"
+    ],
+    "status": "public-source-checked"
+  },
+  {
+    "name": "Meraki",
+    "slug": "meraki",
+    "category": "Fashion, Handicraft & Home Decor",
+    "hasAstro": true,
+    "hasJson": true,
+    "passesFavicon": false,
+    "heroImage": "/brand/tei-batch/meraki.svg",
+    "isGenericHero": true,
+    "galleryCount": 0,
+    "actionCount": 0,
+    "actions": [],
+    "status": "handover-verified"
+  },
+  {
+    "name": "GiGa Tech",
+    "slug": "giga-tech",
+    "category": "Technology & Digital Services",
+    "hasAstro": true,
+    "hasJson": true,
+    "passesFavicon": false,
+    "heroImage": "/brand/giga-tech/giga-tech-asset-4.webp",
+    "isGenericHero": false,
+    "galleryCount": 3,
+    "actionCount": 4,
+    "actions": [
+      "whatsapp: WhatsApp Engineering · 0897-361-6000",
+      "website: Website Resmi · gigatech.co.id",
+      "instagram: Instagram · @gigatech.id",
+      "tiktok: TikTok · @gigatech.co.id"
+    ],
+    "status": "verified-authoritative"
+  },
+  {
+    "name": "Lalisha Food",
+    "slug": "lalisha-food",
+    "category": "Food, Beverage & Agriculture Products",
+    "hasAstro": true,
+    "hasJson": true,
+    "passesFavicon": false,
+    "heroImage": "/brand/tei-batch/lalisha-food.svg",
+    "isGenericHero": true,
+    "galleryCount": 0,
+    "actionCount": 5,
+    "actions": [
+      "instagram: Instagram · @lalishafood",
+      "tiktok: TikTok · @lalishafood",
+      "whatsapp: WhatsApp · Lalisha Food",
+      "website: InaExport · Lalisha Food",
+      "website: Rumah Kurasi · Lalisha Food"
+    ],
+    "status": "public-source-checked"
+  },
+  {
+    "name": "Tokibi Coffee",
+    "slug": "tokibi-coffee",
+    "category": "Food, Beverage & Agriculture Products",
+    "hasAstro": true,
+    "hasJson": true,
+    "passesFavicon": false,
+    "heroImage": "/brand/tei-batch/tokibi-coffee.svg",
+    "isGenericHero": true,
+    "galleryCount": 0,
+    "actionCount": 2,
+    "actions": [
+      "instagram: Instagram · @tokibicoffee",
+      "website: InaExport · Tokibi / PT Agrova Harmoni Lestari"
+    ],
+    "status": "public-source-checked"
+  },
+  {
+    "name": "Mba' Wanti",
+    "slug": "mba-wanti",
+    "category": "Food, Beverage & Agriculture Products",
+    "hasAstro": true,
+    "hasJson": true,
+    "passesFavicon": false,
+    "heroImage": "/brand/tei-batch/mba-wanti.svg",
+    "isGenericHero": true,
+    "galleryCount": 0,
+    "actionCount": 1,
+    "actions": [
+      "website: BRIN-linked UMKM project list"
+    ],
+    "status": "public-source-checked"
+  },
+  {
+    "name": "Datik Batik",
+    "slug": "datik-batik",
+    "category": "Fashion, Handicraft & Home Decor",
+    "hasAstro": true,
+    "hasJson": true,
+    "passesFavicon": false,
+    "heroImage": "/brand/tei-batch/datik-batik.svg",
+    "isGenericHero": true,
+    "galleryCount": 1,
+    "actionCount": 2,
+    "actions": [
+      "instagram: Instagram · @datikbatik",
+      "website: BRI profile · Datik Batik"
+    ],
+    "status": "public-source-checked"
+  },
+  {
+    "name": "Peddler Indonesia",
+    "slug": "peddler-indonesia",
+    "category": "Fashion, Handicraft & Home Decor",
+    "hasAstro": true,
+    "hasJson": true,
+    "passesFavicon": false,
+    "heroImage": "/brand/tei-batch/peddler-indonesia.svg",
+    "isGenericHero": true,
+    "galleryCount": 0,
+    "actionCount": 0,
+    "actions": [],
+    "status": "handover-verified"
+  },
+  {
+    "name": "Dodol Betawi Haji Imang",
+    "slug": "dodol-betawi-haji-imang",
+    "category": "Food, Beverage & Agriculture Products",
+    "hasAstro": true,
+    "hasJson": true,
+    "passesFavicon": false,
+    "heroImage": "/brand/tei-batch/dodol-betawi-haji-imang.svg",
+    "isGenericHero": true,
+    "galleryCount": 0,
+    "actionCount": 3,
+    "actions": [
+      "instagram: Instagram · @dodolbetawi.hajiimang",
+      "website: Linktree · Dodol Haji Imang",
+      "website: Plaza Banten · Dodol Haji Imang"
+    ],
+    "status": "public-source-checked"
+  },
+  {
+    "name": "Larrisa Food",
+    "slug": "larrisa-food",
+    "category": "Food, Beverage & Agriculture Products",
+    "hasAstro": true,
+    "hasJson": true,
+    "passesFavicon": false,
+    "heroImage": "/brand/tei-batch/larrisa-food.svg",
+    "isGenericHero": true,
+    "galleryCount": 0,
+    "actionCount": 1,
+    "actions": [
+      "website: BRIN-linked UMKM project list"
+    ],
+    "status": "public-source-checked"
+  },
+  {
+    "name": "CV MAKMUR JAYA SENTOSA",
+    "slug": "cv-makmur-jaya-sentosa",
+    "category": "Services & Logistic",
+    "hasAstro": true,
+    "hasJson": true,
+    "passesFavicon": false,
+    "heroImage": "/brand/tei-batch/cv-makmur-jaya-sentosa.svg",
+    "isGenericHero": true,
+    "galleryCount": 0,
+    "actionCount": 1,
+    "actions": [
+      "website: Official Website · Makmur Jaya Sentosa"
+    ],
+    "status": "public-source-checked"
+  },
+  {
+    "name": "Kenyess Food",
+    "slug": "kenyess-food",
+    "category": "Food, Beverage & Agriculture Products",
+    "hasAstro": true,
+    "hasJson": true,
+    "passesFavicon": false,
+    "heroImage": "/brand/tei-batch/samara-from-home.svg",
+    "isGenericHero": true,
+    "galleryCount": 0,
+    "actionCount": 5,
+    "actions": [
+      "whatsapp: WhatsApp Order · 0857-8236-2149",
+      "shopee: Shopee · kenyessfood",
+      "tokopedia: Tokopedia · kenyessfood",
+      "tiktok: TikTok Shop · @kenyessfood",
+      "instagram: Instagram · @kenyessfoof"
+    ],
+    "status": "verified-authoritative"
+  }
+]

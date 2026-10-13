@@ -76,6 +76,40 @@ export function getTenantLogo(tenant = {}) {
   } catch { return ''; }
 }
 
+export function makeMonogramFavicon(label = '', background = '#1e3a8a', foreground = '#ffffff') {
+  const letters = String(label || '')
+    .trim()
+    .split(/\s+/)
+    .slice(0, 2)
+    .map((part) => part[0] || '')
+    .join('')
+    .toUpperCase() || 'TL';
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="${background}"/><text x="32" y="41" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif" font-size="26" font-weight="700" fill="${foreground}" text-anchor="middle">${letters}</text></svg>`;
+  return `data:image/svg+xml,${encodeURIComponent(svg)}`;
+}
+
+export function resolveTenantFavicon(tenant = {}, config = {}) {
+  if (config.logo) return config.logo;
+  if (tenant.logo) return tenant.logo;
+
+  const website = safeWebUrl(tenant.website || config.website);
+  if (website && !website.startsWith('/')) {
+    try {
+      const hostname = new URL(website).hostname;
+      if (hostname && !hostname.includes('github.io') && !hostname.includes('canva.site') && !hostname.includes('google.com')) {
+        return `https://www.google.com/s2/favicons?sz=128&domain_url=${encodeURIComponent(`https://${hostname}`)}`;
+      }
+    } catch {}
+  }
+
+  if (config.heroImage && (config.heroImage.endsWith('.png') || config.heroImage.endsWith('.webp') || config.heroImage.endsWith('.svg')) && !config.heroImage.includes('tei-batch')) {
+    return config.heroImage;
+  }
+
+  const bg = config.palette?.accent || '#1e3a8a';
+  return makeMonogramFavicon(tenant.name || config.brandLabel, bg, '#ffffff');
+}
+
 export function getTenantLinks(tenant = {}) {
   const candidates = [
     ['whatsapp', 'WhatsApp', 'whatsapp', whatsappUrl(tenant.whatsapp)],

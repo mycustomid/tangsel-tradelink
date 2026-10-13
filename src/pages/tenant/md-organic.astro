@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { resolveTenantFavicon } from '../../lib/tenant-utils.mjs';
 import SmartNfcShowcase from '../../components/SmartNfcShowcase.astro';
 import config from '../../data/showcases/md-organic.json';
 
@@ -18,7 +19,7 @@ const structuredData = {
   url: tenant.website, telephone: '+62 858-8999-5454', sameAs: [tenant.instagram]
 };
 ---
-<BaseLayout title="MD Organic — Tangsel TradeLink" description={tenant.description} theme="food"
+<BaseLayout favicon={resolveTenantFavicon(tenant, config)} title="MD Organic — Tangsel TradeLink" description={tenant.description} theme="food"
   canonical={`${baseUrl}tenant/md-organic`} image={config.heroImage} structuredData={structuredData}>
   <SmartNfcShowcase tenant={tenant} config={config} baseUrl={baseUrl} />
 </BaseLayout>

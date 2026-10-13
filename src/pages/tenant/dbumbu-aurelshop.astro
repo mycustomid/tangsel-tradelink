@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { resolveTenantFavicon } from '../../lib/tenant-utils.mjs';
 import SmartNfcShowcase from '../../components/SmartNfcShowcase.astro';
 import config from '../../data/showcases/dbumbu-aurelshop.json';
 const baseUrl = import.meta.env.BASE_URL;
@@ -16,7 +17,7 @@ const structuredData = {
   telephone:'+62 812-8060-3913',sameAs:[tenant.instagram,tenant.shopee]
 };
 ---
-<BaseLayout title="DBumbu Aurelshop — Tangsel TradeLink" description={tenant.description} theme="food"
+<BaseLayout favicon={resolveTenantFavicon(tenant, config)} title="DBumbu Aurelshop — Tangsel TradeLink" description={tenant.description} theme="food"
   canonical={`${baseUrl}tenant/dbumbu-aurelshop`} image={config.heroImage} structuredData={structuredData}>
   <SmartNfcShowcase tenant={tenant} config={config} baseUrl={baseUrl} />
 </BaseLayout>

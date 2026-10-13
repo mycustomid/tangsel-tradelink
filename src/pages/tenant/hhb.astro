@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { resolveTenantFavicon } from '../../lib/tenant-utils.mjs';
 import SmartNfcShowcase from '../../components/SmartNfcShowcase.astro';
 import config from '../../data/showcases/hhb.json';
 const baseUrl = import.meta.env.BASE_URL;
@@ -16,7 +17,7 @@ const structuredData = {
   address:{'@type':'PostalAddress',addressLocality:'Tangerang Selatan',addressRegion:'Banten',addressCountry:'ID'}
 };
 ---
-<BaseLayout title="PT Harmoni Harapan Bersama — Tangsel TradeLink" description={tenant.description} theme="industrial"
+<BaseLayout favicon={resolveTenantFavicon(tenant, config)} title="PT Harmoni Harapan Bersama — Tangsel TradeLink" description={tenant.description} theme="industrial"
   canonical={`${baseUrl}tenant/hhb`} image={config.heroImage} structuredData={structuredData}>
   <SmartNfcShowcase tenant={tenant} config={config} baseUrl={baseUrl} />
 </BaseLayout>

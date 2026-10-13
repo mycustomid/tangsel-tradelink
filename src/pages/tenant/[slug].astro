@@ -23,7 +23,7 @@ import manufacturedResearch from '../../data/research-manufactured.json';
 import industrialResearch from '../../data/research-industrial.json';
 import furnitureResearch from '../../data/research-furniture.json';
 import fashionResearch from '../../data/research-fashion.json';
-import { getTenantLinks, getTenantLogo, resolveTheme } from '../../lib/tenant-utils.mjs';
+import { getTenantLinks, getTenantLogo, resolveTheme, resolveTenantFavicon } from '../../lib/tenant-utils.mjs';
 import type { Tenant } from '../../types/tenant';
 
 export function getStaticPaths() {
@@ -63,9 +63,7 @@ function makeMonogramFavicon(label: string, background = '#161616', foreground =
   return `data:image/svg+xml,${encodeURIComponent(svg)}`;
 }
 
-const premiumLabel = tenant.slug === 'roemah-koffie' ? 'Roemah Koffie' : (showcaseConfig?.brandLabel || tenant.name);
-const premiumAccent = tenant.slug === 'roemah-koffie' ? '#6f2a1c' : (showcaseConfig?.palette?.accent || '#161616');
-const favicon = logo || (isPremium ? makeMonogramFavicon(premiumLabel, premiumAccent) : undefined);
+const favicon = resolveTenantFavicon(tenant, showcaseConfig);
 const pageTitle = isPremium ? tenant.name : `${tenant.name} — Tangsel TradeLink`;
 ---
 

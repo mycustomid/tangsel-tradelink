@@ -2,7 +2,7 @@
   "brandLabel": "KENYESS FOOD",
   "tagline": "Aneka Camilan & Makanan Ringan Renyah Gurih Khas Tangerang Selatan.",
   "eyebrow": "Indonesian Snacks & F&B · Tangsel",
-  "heroImage": "/brand/tei-batch/samara-from-home.svg",
+  "heroImage": "/brand/kenyess-food/kenyess-asset-1.jpg",
   "heroFit": "cover",
   "visualMode": "food",
   "palette": {
@@ -12,21 +12,21 @@
     "surface": "#ffcc80"
   },
   "story": {
-    "title": "Camilan Renyah Berkualitas untuk Teman Nyemil Setiap Saat.",
-    "body": "Kenyess Food menghadirkan aneka camilan dan snack gurih renyah pilihan khas UMKM Tangerang Selatan. Diproses higienis dengan bumbu gurih otentik, Kenyess Food siap menemani waktu santai keluarga dan melayani pesanan ritel, reseller, hingga kebutuhan oleh-oleh."
+    "title": "Inovasi Camilan Renyah Berkualitas: BaGor Spinner & Keripik Kemangi Gluten-Free Khas Tangerang Selatan.",
+    "body": "Kenyess Food adalah produsen camilan binaan Dinas Koperasi & UKM Kota Tangerang Selatan serta binaan Disperindag Tangsel untuk Trade Expo Indonesia 2026. Menghadirkan lini produk unggulan BaGor (Bawang Goreng) higienis dengan teknologi spinnerisasi rendah minyak serta KEMANIA (Keripik Kemangi & Kemania Fish olahan ikan kembung gluten-free) yang renyah dan bergizi."
   },
   "stats": [
     {
-      "value": "Tangsel",
-      "label": "Produksi & Workshop Resmi di Tangerang Selatan"
+      "value": "BaGor & Kemania",
+      "label": "Lini Produk Camilan Unggulan Resmi Tangsel"
     },
     {
-      "value": "Renyah & Gurih",
-      "label": "Karakter Rasa Otentik Berkualitas Pilihan"
+      "value": "Spinner Technology",
+      "label": "Bawang Goreng Tiris Minyak Ekstra Renyah & Higienis"
     },
     {
-      "value": "Multi-Channel",
-      "label": "Tersedia di TikTok Shop, Shopee, Tokopedia & WhatsApp"
+      "value": "Gluten-Free",
+      "label": "Inovasi Keripik Kemangi & Olahan Ikan Sehat"
     },
     {
       "value": "TEI 2026",
@@ -35,16 +35,16 @@
   ],
   "highlights": [
     {
-      "title": "Varian Snack Renyah",
-      "body": "Pilihan aneka camilan gurih renyah yang dibuat dari bahan baku berkualitas dan kemasan higienis."
+      "title": "BaGor (Bawang Goreng) Premium",
+      "body": "Diproses dengan mesin spinner peniris minyak otomatis. Tersedia varian Original, Nori Gurih, Pedas, dan Teri Pedas dalam kemasan toples kedap udara."
     },
     {
-      "title": "Kemudahan Belanja Online",
-      "body": "Bisa langsung diorder via TikTok Shop, Shopee, Tokopedia maupun pemesanan grosir via WhatsApp."
+      "title": "KEMANIA & Kemania Fish",
+      "body": "Inovasi snack sehat berbahan dasar daun kemangi segar dan ikan kembung kaya protein, ramah pencernaan dan bersertifikasi aman."
     },
     {
-      "title": "Siap Kemitraan Reseller",
-      "body": "Membuka peluang kerja sama reseller dan pasokan camilan untuk berbagai toko dan acara."
+      "title": "Multi-Channel & Reseller Ready",
+      "body": "Melayani pemesanan e-commerce (Shopee & Tokopedia), TikTok Shop, suplai horeka/restoran, hingga pesanan grosir/oleh-oleh via WhatsApp."
     }
   ],
   "commercialBlocks": [
@@ -54,17 +54,25 @@
       "note": "Pemesanan langsung via marketplace resmi atau hubungi admin WhatsApp.",
       "items": [
         {
-          "label": "Aneka Snack Kenyess",
+          "label": "BaGor Kenyess Toples 80g & 150g",
           "value": "Ready Stock"
         },
         {
-          "label": "Pesanan Reseller & Grosir",
+          "label": "Kemania Keripik Kemangi Gluten-Free",
+          "value": "Ready Stock"
+        },
+        {
+          "label": "Pesanan Reseller & Hampers",
           "value": "Custom Order"
         }
       ]
     }
   ],
-  "gallery": [],
+  "gallery": [
+    "/brand/kenyess-food/kenyess-asset-1.jpg",
+    "/brand/kenyess-food/kenyess-asset-3.jpg",
+    "/brand/kenyess-food/kenyess-asset-4.jpg"
+  ],
   "actions": [
     {
       "key": "whatsapp",
@@ -88,8 +96,8 @@
     },
     {
       "key": "instagram",
-      "label": "Instagram · @kenyessfoof",
-      "url": "https://www.instagram.com/kenyessfoof"
+      "label": "Instagram · @kenyessfood",
+      "url": "https://www.instagram.com/kenyessfood"
     }
   ],
   "verification": {
