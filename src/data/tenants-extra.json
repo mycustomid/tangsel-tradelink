@@ -348,5 +348,12 @@
     "hall": "8",
     "booth": "8-7C",
     "category": "Services & Logistic"
+  },
+  {
+    "name": "Kenyess Food",
+    "slug": "kenyess-food",
+    "hall": "8",
+    "booth": "8-7C",
+    "category": "Food, Beverage & Agriculture Products"
   }
 ]

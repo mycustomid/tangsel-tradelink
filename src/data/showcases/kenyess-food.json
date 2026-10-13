@@ -1,0 +1,110 @@
+{
+  "brandLabel": "KENYESS FOOD",
+  "tagline": "Aneka Camilan & Makanan Ringan Renyah Gurih Khas Tangerang Selatan.",
+  "eyebrow": "Indonesian Snacks & F&B · Tangsel",
+  "heroImage": "/brand/tei-batch/samara-from-home.svg",
+  "heroFit": "cover",
+  "visualMode": "food",
+  "palette": {
+    "bg": "#fef8f0",
+    "ink": "#2a1b12",
+    "accent": "#e65100",
+    "surface": "#ffcc80"
+  },
+  "story": {
+    "title": "Camilan Renyah Berkualitas untuk Teman Nyemil Setiap Saat.",
+    "body": "Kenyess Food menghadirkan aneka camilan dan snack gurih renyah pilihan khas UMKM Tangerang Selatan. Diproses higienis dengan bumbu gurih otentik, Kenyess Food siap menemani waktu santai keluarga dan melayani pesanan ritel, reseller, hingga kebutuhan oleh-oleh."
+  },
+  "stats": [
+    {
+      "value": "Tangsel",
+      "label": "Produksi & Workshop Resmi di Tangerang Selatan"
+    },
+    {
+      "value": "Renyah & Gurih",
+      "label": "Karakter Rasa Otentik Berkualitas Pilihan"
+    },
+    {
+      "value": "Multi-Channel",
+      "label": "Tersedia di TikTok Shop, Shopee, Tokopedia & WhatsApp"
+    },
+    {
+      "value": "TEI 2026",
+      "label": "Peserta Binaan Resmi Disperindag Tangsel"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Varian Snack Renyah",
+      "body": "Pilihan aneka camilan gurih renyah yang dibuat dari bahan baku berkualitas dan kemasan higienis."
+    },
+    {
+      "title": "Kemudahan Belanja Online",
+      "body": "Bisa langsung diorder via TikTok Shop, Shopee, Tokopedia maupun pemesanan grosir via WhatsApp."
+    },
+    {
+      "title": "Siap Kemitraan Reseller",
+      "body": "Membuka peluang kerja sama reseller dan pasokan camilan untuk berbagai toko dan acara."
+    }
+  ],
+  "commercialBlocks": [
+    {
+      "title": "Katalog & Saluran Pembelian",
+      "badge": "Gurih & Renyah",
+      "note": "Pemesanan langsung via marketplace resmi atau hubungi admin WhatsApp.",
+      "items": [
+        {
+          "label": "Aneka Snack Kenyess",
+          "value": "Ready Stock"
+        },
+        {
+          "label": "Pesanan Reseller & Grosir",
+          "value": "Custom Order"
+        }
+      ]
+    }
+  ],
+  "gallery": [],
+  "actions": [
+    {
+      "key": "whatsapp",
+      "label": "WhatsApp Order · 0857-8236-2149",
+      "url": "https://wa.me/6285782362149"
+    },
+    {
+      "key": "shopee",
+      "label": "Shopee · kenyessfood",
+      "url": "https://shopee.co.id/kenyessfood"
+    },
+    {
+      "key": "tokopedia",
+      "label": "Tokopedia · kenyessfood",
+      "url": "https://www.tokopedia.com/kenyessfood"
+    },
+    {
+      "key": "tiktok",
+      "label": "TikTok Shop · @kenyessfood",
+      "url": "https://www.tiktok.com/@kenyessfood"
+    },
+    {
+      "key": "instagram",
+      "label": "Instagram · @kenyessfoof",
+      "url": "https://www.instagram.com/kenyessfoof"
+    }
+  ],
+  "verification": {
+    "status": "verified-authoritative",
+    "checkedAt": "2026-10-13",
+    "note": "Data kanal dan kontak dikonfirmasi resmi oleh Disperindag Tangerang Selatan (Pak Eeng) untuk pameran TEI 2026.",
+    "sources": [
+      {
+        "label": "Disperindag Tangsel Handover",
+        "url": "https://wa.me/6281296361446"
+      }
+    ]
+  },
+  "performance": {
+    "optimizedAt": "2026-10-13",
+    "heroFormat": "svg"
+  }
+}
