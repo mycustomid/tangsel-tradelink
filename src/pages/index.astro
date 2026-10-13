@@ -2,105 +2,722 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import tenants from '../data/tenants.json';
 import tenantExtras from '../data/tenants-extra.json';
-import { uniqueValues } from '../lib/tenant-utils.mjs';
 import type { Tenant } from '../types/tenant';
 
-const tenantList = [...(tenants as Tenant[]), ...(tenantExtras as Tenant[])];
-const categories = uniqueValues(tenantList, 'category');
-const halls = uniqueValues(tenantList, 'hall');
+const rawList = [...(tenants as Tenant[]), ...(tenantExtras as Tenant[])];
+const seenSlugs = new Set();
+const tenantList = rawList.filter(t => {
+  if (!t.slug || seenSlugs.has(t.slug)) return false;
+  seenSlugs.add(t.slug);
+  return true;
+});
+
 const rawBaseUrl = import.meta.env.BASE_URL;
 const baseUrl = rawBaseUrl.endsWith('/') ? rawBaseUrl : `${rawBaseUrl}/`;
+
 const featuredShowcases = [
-  { slug:'my-aicustom', name:'MY-AICUSTOM', kicker:'Intelligent operations', line:'AI agents · automation · RAG', image:`${baseUrl}brand/my-aicustom-hero.svg`, mode:'tech' },
-  { slug:'raja-freeze-dried', name:'Raja Freeze Dried', kicker:'Food technology', line:'Freeze · vacuum · product development', image:`${baseUrl}brand/raja-freeze-dried-hero.webp`, mode:'agro' },
-  { slug:'bumina-eenk', name:'Bumina EENK', kicker:'Pangalengan highlands', line:'Stay · tea fields · direct booking', image:`${baseUrl}brand/bumina-eenk-hero.webp`, mode:'stay' },
-  { slug:'samara-from-home', name:'SAMARA from Home', kicker:'Home-kitchen pantry', line:'Sauces · pantry · social commerce', image:`${baseUrl}brand/samara-real-1.webp`, mode:'food' },
+  {
+    slug: 'my-aicustom',
+    name: 'MY-AICUSTOM',
+    kicker: 'Intelligent Operations',
+    line: 'Enterprise AI Agents · Automation · RAG',
+    image: `${baseUrl}brand/my-aicustom-hero.svg`,
+    category: 'Technology & Digital'
+  },
+  {
+    slug: 'md-organic',
+    name: 'MD Organic',
+    kicker: 'Beras Organik Ekspor',
+    line: 'Bersertifikat Halal, Organik Indonesia & Ekspor',
+    image: `${baseUrl}brand/md-organic/md-organic-hero.webp`,
+    category: 'Food & Agriculture'
+  },
+  {
+    slug: 'ladifa-collection',
+    name: 'Ladifa Collection',
+    kicker: 'Perhiasan & Batu Mulia',
+    line: 'Silver 925 Jewelry · Natural Gemstones Nusantara',
+    image: `${baseUrl}brand/ladifa-collection/ladifa-asset-2.webp`,
+    category: 'Craft & Fashion'
+  },
+  {
+    slug: 'raja-freeze-dried',
+    name: 'Raja Freeze Dried',
+    kicker: 'Food Technology',
+    line: 'Freeze Dried Fruit & Advanced Agro Tech',
+    image: `${baseUrl}brand/raja-freeze-dried-hero.webp`,
+    category: 'Agro Technology'
+  },
+  {
+    slug: 'kenyess-food',
+    name: 'Kenyess Food',
+    kicker: 'Camilan Inovasi Tangsel',
+    line: 'BaGor Spinner Tiris Minyak & Kemania Gluten-Free',
+    image: `${baseUrl}brand/kenyess-food/kenyess-asset-1.jpg`,
+    category: 'F&B Snack'
+  },
+  {
+    slug: 'health-today',
+    name: 'Health Today',
+    kicker: 'Beverage & HoReCa Partner',
+    line: 'Gourmet Syrups & Minuman Resto Terkemuka',
+    image: `${baseUrl}brand/health-today/health-today-asset-1.jpg`,
+    category: 'Beverage Solutions'
+  }
 ];
+
+// Highlight 8 curated tenants for the quick preview
+const previewTenants = tenantList.slice(0, 8);
 ---
 
-<BaseLayout title="Tangsel TradeLink — TEI 2026" description="Tangsel TradeLink connects TEI 2026 visitors with exhibitor profiles, verified public channels and curated Tangsel showcases.">
-  <main>
+<BaseLayout 
+  title="Tangsel TradeLink — Delegasi Resmi TEI 2026" 
+  description="Katalog digital terverifikasi dan direktori 141 tenant delegasi Kota Tangerang Selatan pada Trade Expo Indonesia 2026 di ICE BSD City."
+>
+  <main class="home-page">
+    <!-- Top Navigation -->
+    <header class="top-nav-bar shell">
+      <div class="nav-brand">
+        <a href={baseUrl} class="brand-link">
+          <span class="badge-dot"></span>
+          <strong>Tangsel TradeLink</strong>
+          <span class="edition-tag">TEI 2026</span>
+        </a>
+      </div>
+      <nav class="nav-links" aria-label="Navigasi Halaman">
+        <a href={baseUrl} class="active" aria-current="page">Beranda</a>
+        <a href={`${baseUrl}directory`}>Direktori Tenant</a>
+        <a href={`${baseUrl}guide`}>Panduan Hall 3A</a>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
     <section class="hero shell">
-      <div class="hero-index"><span>TEI / 2026</span><span>TANGERANG SELATAN</span></div>
-      <p class="eyebrow">NFC Tenant Directory</p>
-      <h1>Tangsel<br/>TradeLink</h1>
-      <p class="lead">Tap. Discover. Verify. Connect directly with exhibitors and curated Tangerang Selatan businesses without a maze of generic landing pages.</p>
-      <div class="hero-badge">Static-first · Mobile-ready · Source-aware</div>
+      <div class="hero-top-meta">
+        <span class="meta-tag">TRADE EXPO INDONESIA 2026</span>
+        <span class="meta-location">ICE BSD CITY · HALL 3A</span>
+      </div>
+      
+      <div class="hero-content">
+        <p class="hero-eyebrow">Paviliun Resmi Kota Tangerang Selatan</p>
+        <h1 class="hero-title">Tangsel<br/>TradeLink.</h1>
+        <p class="hero-lead">
+          Platform katalog pintar dan temu bisnis langsung. Akses profil eksportir, sertifikasi, showcase produk, dan kanal kontak terverifikasi tanpa tersesat di direktori generik.
+        </p>
+
+        <div class="hero-actions">
+          <a href={`${baseUrl}directory`} class="btn-primary">
+            Jelajahi 141 Tenant Direktori →
+          </a>
+          <a href={`${baseUrl}guide`} class="btn-secondary">
+            Panduan Paviliun Hall 3A
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-badges-row">
+        <span>✓ 141 Tenant Terkurasi</span>
+        <span>✓ Direct WhatsApp & Sosmed</span>
+        <span>✓ NFC Tap & Go Ready</span>
+      </div>
     </section>
 
-    <section class="featured-showcase" aria-labelledby="featured-title">
-      <header class="featured-head">
-        <div><p class="eyebrow">Curated additions</p><h2 id="featured-title">Four distinct brands.<br/>Four distinct visual systems.</h2></div>
-        <p>Real repository assets, brand-specific layouts and public-source notes—built to avoid the same-template look.</p>
-      </header>
-      <div class="featured-grid">
+    <!-- Featured Curated Bento Grid -->
+    <section class="featured-section shell">
+      <div class="section-head">
+        <div>
+          <p class="section-eyebrow">Showcase Unggulan</p>
+          <h2 class="section-title">Brand & Produk Pilihan Delegasi</h2>
+        </div>
+        <p class="section-desc">
+          Profil mandiri dengan aset otentik, dokumentasi produk asli, dan informasi spesifikasi untuk buyer internasional.
+        </p>
+      </div>
+
+      <div class="bento-grid">
         {featuredShowcases.map((item, index) => (
-          <a class:list={['feature-card', `feature-${index + 1}`]} data-mode={item.mode} href={`${baseUrl}tenant/${item.slug}`}>
-            <figure><img src={item.image} alt={`${item.name} showcase`} loading={index < 2 ? 'eager' : 'lazy'} decoding="async" /></figure>
-            <div class="feature-copy"><small>{item.kicker}</small><strong>{item.name}</strong><span>{item.line}</span></div>
-            <b class="feature-arrow" aria-hidden="true">↗</b>
+          <a href={`${baseUrl}tenant/${item.slug}`} class={`bento-card bento-${index + 1}`}>
+            <div class="card-media">
+              <img src={item.image} alt={item.name} loading={index < 2 ? 'eager' : 'lazy'} decoding="async" />
+              <div class="media-overlay"></div>
+            </div>
+            <div class="card-content">
+              <div class="card-badge">{item.category}</div>
+              <h3 class="card-title">{item.name}</h3>
+              <p class="card-desc">{item.line}</p>
+              <div class="card-cta">
+                <span>Lihat Profil ↗</span>
+              </div>
+            </div>
           </a>
         ))}
       </div>
     </section>
 
-    <section class="directory shell" aria-labelledby="directory-title">
-      <div class="section-head"><div><p class="eyebrow">Full directory</p><h2 id="directory-title">Tenant</h2></div><span class="count" data-count>{tenantList.length} tenant</span></div>
-      {tenantList.length > 0 ? (
-        <>
-          <div class="controls" aria-label="Pencarian dan filter tenant">
-            <label class="field search-field"><span class="sr-only">Cari tenant</span><input type="search" placeholder="Cari nama, kategori, hall, booth…" data-search autocomplete="off" /></label>
-            {categories.length > 0 && <label class="field"><span class="sr-only">Filter kategori</span><select data-category><option value="">Semua kategori</option>{categories.map((category) => <option value={category}>{category}</option>)}</select></label>}
-            {halls.length > 0 && <label class="field"><span class="sr-only">Filter hall</span><select data-hall><option value="">Semua hall</option>{halls.map((hall) => <option value={hall}>Hall {hall}</option>)}</select></label>}
+    <!-- Quick Preview & Directory Call to Action -->
+    <section class="directory-preview-section shell">
+      <div class="preview-card">
+        <div class="preview-head">
+          <div>
+            <span class="preview-tag">Direktori Lengkap TEI 2026</span>
+            <h2>Temukan Mitra Bisnis dari 141 Tenant</h2>
+            <p>Pangan Olahan, Kriya & Fashion, Kimia Manufaktur, Teknologi, hingga Logistik Ekspor.</p>
           </div>
-          <div class="tenant-list" data-list>
-            {tenantList.map((tenant) => (
-              <a class="tenant-card" href={`${baseUrl}tenant/${tenant.slug}`} data-tenant-card data-searchable={[tenant.name, tenant.category, tenant.hall, tenant.booth].join(' ').toLowerCase()} data-category={tenant.category.toLowerCase()} data-hall={tenant.hall.toLowerCase()}>
-                <div class="tenant-card-main"><strong>{tenant.name}</strong>{(tenant.category || tenant.hall || tenant.booth) && <span>{[tenant.category, tenant.hall && `Hall ${tenant.hall}`, tenant.booth && `Booth ${tenant.booth}`].filter(Boolean).join(' · ')}</span>}</div>
-                <span class="go" aria-hidden="true">→</span>
-              </a>
-            ))}
-          </div>
-          <p class="no-results" data-no-results hidden>Tidak ada tenant yang cocok dengan filter ini.</p>
-        </>
-      ) : <div class="empty-state"><div class="empty-icon" aria-hidden="true">NFC</div><h3>Data tenant belum dimasukkan</h3><p>Struktur direktori siap menerima data tenant.</p></div>}
-    </section>
-  </main>
-  <footer class="shell"><span>Tangsel TradeLink</span><span>Trade Expo Indonesia 2026</span></footer>
+          <a href={`${baseUrl}directory`} class="btn-explore-all">
+            Buka Direktori Lengkap ({tenantList.length}) →
+          </a>
+        </div>
 
-  <script>
-    const search = document.querySelector<HTMLInputElement>('[data-search]');
-    const category = document.querySelector<HTMLSelectElement>('[data-category]');
-    const hall = document.querySelector<HTMLSelectElement>('[data-hall]');
-    const cards = [...document.querySelectorAll<HTMLElement>('[data-tenant-card]')];
-    const count = document.querySelector<HTMLElement>('[data-count]');
-    const noResults = document.querySelector<HTMLElement>('[data-no-results]');
-    const update = () => {
-      const q = (search?.value || '').trim().toLowerCase();
-      const selectedCategory = (category?.value || '').toLowerCase();
-      const selectedHall = (hall?.value || '').toLowerCase();
-      let visible = 0;
-      cards.forEach((card) => {
-        const matches = (!q || card.dataset.searchable?.includes(q)) && (!selectedCategory || card.dataset.category === selectedCategory) && (!selectedHall || card.dataset.hall === selectedHall);
-        card.hidden = !matches; if (matches) visible += 1;
-      });
-      if (count) count.textContent = `${visible} tenant`;
-      if (noResults) noResults.hidden = visible !== 0;
-    };
-    [search, category, hall].forEach((control) => control?.addEventListener(control instanceof HTMLInputElement ? 'input' : 'change', update));
-  </script>
+        <div class="preview-chips-row">
+          <a href={`${baseUrl}directory`} class="preview-chip">🌾 Food & Agriculture</a>
+          <a href={`${baseUrl}directory`} class="preview-chip">👗 Fashion & Modest Wear</a>
+          <a href={`${baseUrl}directory`} class="preview-chip">💎 Jewelry & Craft</a>
+          <a href={`${baseUrl}directory`} class="preview-chip">🧪 Chemical & Manufacture</a>
+          <a href={`${baseUrl}directory`} class="preview-chip">⚡ Technology & AI</a>
+        </div>
+
+        <div class="preview-grid">
+          {previewTenants.map((tenant) => (
+            <a href={`${baseUrl}tenant/${tenant.slug}`} class="mini-tenant-card">
+              <div class="mini-card-info">
+                <strong>{tenant.name}</strong>
+                <span>{tenant.category || 'Tenant TEI 2026'} · Hall {tenant.hall || '3A'}</span>
+              </div>
+              <span class="mini-arrow">→</span>
+            </a>
+          ))}
+        </div>
+
+        <div class="preview-bottom-cta">
+          <p>Masih ada <strong>{tenantList.length - previewTenants.length} tenant lainnya</strong> yang siap bermitra.</p>
+          <a href={`${baseUrl}directory`} class="btn-primary">
+            Lihat Semua {tenantList.length} Tenant di Direktori →
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="home-footer shell">
+      <div class="footer-left">
+        <strong>Tangsel TradeLink 2026</strong>
+        <span>Disperindag Pemerintah Kota Tangerang Selatan · Trade Expo Indonesia</span>
+      </div>
+      <div class="footer-right">
+        <a href={`${baseUrl}guide`}>Panduan Pengunjung Hall 3A →</a>
+      </div>
+    </footer>
+  </main>
 </BaseLayout>
 
 <style>
-  main{padding:14px 0 58px}.hero.shell,.directory.shell,footer.shell,.featured-showcase{width:min(100% - 28px,1180px);margin-inline:auto}
-  .hero{position:relative;overflow:hidden;margin-top:4px;min-height:min(720px,88svh);padding:34px clamp(22px,5vw,64px);display:flex;flex-direction:column;justify-content:flex-end;background:radial-gradient(circle at 82% 16%,rgba(51,210,211,.18),transparent 25%),#081722;color:#f2f6f3;border:1px solid rgba(255,255,255,.08)}
-  .hero:after{content:'TRADE / CONNECT';position:absolute;right:-.02em;top:.32em;writing-mode:vertical-rl;font-size:clamp(3rem,8vw,7rem);font-weight:900;letter-spacing:-.06em;color:rgba(255,255,255,.035);pointer-events:none}.hero-index{position:absolute;left:clamp(22px,5vw,64px);right:clamp(22px,5vw,64px);top:26px;display:flex;justify-content:space-between;font-size:.62rem;font-weight:850;letter-spacing:.13em}.hero .eyebrow{color:#63d7d4}.hero h1{margin:0;font-family:Georgia,'Times New Roman',serif;font-size:clamp(4.6rem,13vw,10rem);font-weight:400;line-height:.72;letter-spacing:-.075em}.lead{max-width:660px;margin:28px 0 0;color:#b8c7c8;line-height:1.65;font-size:clamp(.95rem,1.5vw,1.12rem)}.hero-badge{display:inline-flex;align-self:flex-start;margin-top:24px;padding:8px 0;border-bottom:1px solid rgba(99,215,212,.5);color:#dce8e7;font-size:.72rem;font-weight:850;letter-spacing:.08em;text-transform:uppercase}
-  .featured-showcase{padding:74px 0 46px}.featured-head{display:grid;grid-template-columns:1.2fr .8fr;gap:40px;align-items:end;margin-bottom:28px}.featured-head h2{margin:0;font-family:Georgia,serif;font-size:clamp(2.8rem,6vw,5.8rem);font-weight:400;line-height:.92;letter-spacing:-.055em}.featured-head>p{max-width:420px;margin:0 0 6px;color:#657466;line-height:1.6}.featured-grid{display:grid;grid-template-columns:1.1fr .9fr;grid-template-rows:repeat(2,minmax(360px,42vw));gap:8px}.feature-card{position:relative;overflow:hidden;min-height:360px;color:#fff;text-decoration:none;background:#111}.feature-card figure{position:absolute;inset:0;margin:0;background:#111}.feature-card img{width:100%;height:100%;object-fit:cover;transition:transform .7s cubic-bezier(.2,.7,.2,1)}.feature-card:after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,transparent 38%,rgba(0,0,0,.82))}.feature-card:hover img{transform:scale(1.025)}.feature-1{grid-row:span 2}.feature-1 img{object-fit:contain;background:#07101a}.feature-2{border-radius:0 120px 0 0}.feature-3{border-radius:120px 0 0 0}.feature-4{display:none}.feature-copy{position:absolute;z-index:2;left:24px;right:64px;bottom:24px;display:grid;gap:5px}.feature-copy small{font-size:.62rem;text-transform:uppercase;letter-spacing:.12em;opacity:.7}.feature-copy strong{font-family:Georgia,serif;font-size:clamp(1.8rem,4vw,4rem);font-weight:400;line-height:.9}.feature-copy span{font-size:.76rem;opacity:.72}.feature-arrow{position:absolute;z-index:3;right:24px;bottom:25px;font-size:1.4rem}.feature-card[data-mode='agro']{background:#0f291e}.feature-card[data-mode='stay']{background:#173126}.feature-card[data-mode='food']{background:#4a2e27}
-  .directory{padding-top:42px}.section-head{display:flex;align-items:end;justify-content:space-between;gap:16px;margin-bottom:16px}.section-head h2{margin:0;font-size:2.2rem;letter-spacing:-.04em}.count{color:var(--muted);font-size:.82rem;font-weight:800}.controls{display:grid;grid-template-columns:minmax(0,1.5fr) repeat(2,minmax(0,.75fr));gap:8px;margin-bottom:10px}.field input,.field select{width:100%;min-height:50px;border:1px solid var(--line);border-radius:0;padding:0 14px;background:#fff;color:var(--ink);outline:none}.field input:focus,.field select:focus{border-color:var(--accent)}.tenant-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.tenant-card{display:grid;grid-template-columns:1fr auto;align-items:center;gap:14px;min-height:94px;padding:18px;border:1px solid var(--line);background:#fff;text-decoration:none;transition:transform .18s ease,box-shadow .18s ease}.tenant-card:hover,.tenant-card:focus-visible{transform:translateY(-2px);box-shadow:0 14px 34px rgba(20,45,70,.08);outline:none}.tenant-card-main{min-width:0;display:grid;gap:5px}.tenant-card strong{font-size:.98rem}.tenant-card span{color:var(--muted);font-size:.76rem;line-height:1.35}.tenant-card .go{width:34px;height:34px;display:grid;place-items:center;border-radius:50%;background:var(--accent-soft);color:var(--accent-strong);font-weight:900}.no-results{padding:26px 16px;text-align:center;color:var(--muted)}.empty-state{padding:34px 22px;border:1px dashed var(--line);background:#fff;text-align:center}.empty-icon{font-weight:900}.empty-state p{color:var(--muted)}footer{display:flex;justify-content:space-between;gap:12px;padding:0 0 28px;color:var(--muted);font-size:.72rem}
-  @media(min-width:1000px){.featured-grid{grid-template-columns:1.15fr .85fr .72fr;grid-template-rows:minmax(340px,31vw) minmax(340px,31vw)}.feature-1{grid-row:span 2}.feature-2{grid-column:2}.feature-3{grid-column:2}.feature-4{display:block;grid-column:3;grid-row:1/-1;border-radius:160px 160px 0 0}.feature-4 img{object-fit:contain;background:#faf7f2}}
-  @media(max-width:780px){.featured-head{grid-template-columns:1fr}.featured-grid{grid-template-columns:1fr;grid-template-rows:none}.feature-card,.feature-1,.feature-2,.feature-3,.feature-4{display:block;grid-row:auto;min-height:430px;border-radius:0}.tenant-list{grid-template-columns:1fr}.controls{grid-template-columns:1fr 1fr}.search-field{grid-column:1/-1}}
-  @media(max-width:430px){main{padding-top:8px}.hero{min-height:78svh}.hero h1{font-size:18vw}.featured-showcase{padding-top:54px}.featured-grid{gap:6px}.feature-card{min-height:370px}.controls{grid-template-columns:1fr}.search-field{grid-column:auto}footer{flex-direction:column}}
-  @media(hover:none){.feature-card:hover img{transform:none}}@media(prefers-reduced-motion:reduce){.feature-card img,.tenant-card{transition:none}}
-</style>
+  :root {
+    --brand-teal: #0d9488;
+    --brand-teal-light: #5eead4;
+    --brand-teal-dark: #0f766e;
+    --brand-navy: #081722;
+    --brand-sand: #fbfaf8;
+    --brand-border: #e2e8f0;
+  }
 
-<style is:global>.tenant-card{content-visibility:auto;contain-intrinsic-size:72px}</style>
+  .home-page {
+    background-color: var(--brand-sand);
+    min-height: 100vh;
+    padding-bottom: 70px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    color: #1e293b;
+  }
+
+  .shell {
+    width: min(100% - 32px, 1200px);
+    margin-inline: auto;
+  }
+
+  /* Top Navigation */
+  .top-nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+    border-bottom: 1px solid var(--brand-border);
+  }
+  .brand-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: #0f172a;
+  }
+  .badge-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: var(--brand-teal);
+  }
+  .brand-link strong {
+    font-size: 1.05rem;
+    letter-spacing: -0.02em;
+  }
+  .edition-tag {
+    font-size: 0.72rem;
+    font-weight: 700;
+    padding: 2px 7px;
+    border-radius: 12px;
+    background-color: #e0f2fe;
+    color: #0369a1;
+  }
+  .nav-links {
+    display: flex;
+    gap: 16px;
+  }
+  .nav-links a {
+    text-decoration: none;
+    color: #64748b;
+    font-size: 0.88rem;
+    font-weight: 600;
+    padding: 6px 12px;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+  }
+  .nav-links a:hover, .nav-links a.active {
+    color: var(--brand-teal-dark);
+    background-color: #f0fdfa;
+  }
+
+  /* Hero Section */
+  .hero {
+    position: relative;
+    overflow: hidden;
+    margin-top: 12px;
+    border-radius: 24px;
+    padding: clamp(36px, 6vw, 64px);
+    background: radial-gradient(circle at 85% 20%, rgba(94, 234, 212, 0.16), transparent 32%), #081722;
+    color: #f8fafc;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+  }
+  .hero-top-meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    color: var(--brand-teal-light);
+    margin-bottom: 28px;
+  }
+  .hero-eyebrow {
+    color: var(--brand-teal-light);
+    font-size: 0.95rem;
+    font-weight: 700;
+    margin: 0 0 12px;
+  }
+  .hero-title {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: clamp(3.6rem, 10vw, 7.5rem);
+    font-weight: 400;
+    line-height: 0.9;
+    letter-spacing: -0.06em;
+    margin: 0 0 24px;
+    color: #ffffff;
+  }
+  .hero-lead {
+    max-width: 680px;
+    font-size: clamp(1rem, 1.8vw, 1.18rem);
+    line-height: 1.65;
+    color: #cbd5e1;
+    margin: 0 0 32px;
+  }
+  .hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-bottom: 36px;
+  }
+  .btn-primary {
+    display: inline-flex;
+    align-items: center;
+    padding: 14px 26px;
+    background: var(--brand-teal);
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 0.96rem;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+  }
+  .btn-primary:hover {
+    background: #0f766e;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(13, 148, 136, 0.3);
+  }
+  .btn-secondary {
+    display: inline-flex;
+    align-items: center;
+    padding: 14px 24px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 0.96rem;
+    border-radius: 12px;
+    text-decoration: none;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: all 0.2s ease;
+  }
+  .btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.18);
+  }
+  .hero-badges-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 24px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #94a3b8;
+  }
+
+  /* Featured Section */
+  .featured-section {
+    padding: 60px 0 40px;
+  }
+  .section-head {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: 24px;
+    align-items: flex-end;
+    margin-bottom: 32px;
+  }
+  .section-eyebrow {
+    color: var(--brand-teal);
+    font-size: 0.8rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin: 0 0 8px;
+  }
+  .section-title {
+    font-family: Georgia, serif;
+    font-size: clamp(2.2rem, 5vw, 3.8rem);
+    line-height: 1.05;
+    letter-spacing: -0.04em;
+    margin: 0;
+    color: #0f172a;
+  }
+  .section-desc {
+    color: #64748b;
+    line-height: 1.6;
+    margin: 0;
+    font-size: 0.98rem;
+  }
+
+  /* Bento Grid */
+  .bento-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+  .bento-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 18px;
+    min-height: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-decoration: none;
+    color: #ffffff;
+    background: #0f172a;
+    transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s ease;
+  }
+  .bento-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 16px 36px rgba(0, 0, 0, 0.2);
+  }
+  .card-media {
+    position: absolute;
+    inset: 0;
+  }
+  .card-media img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  .bento-card:hover .card-media img {
+    transform: scale(1.05);
+  }
+  .media-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(8, 23, 34, 0.1) 20%, rgba(8, 23, 34, 0.92) 85%);
+  }
+  .card-content {
+    position: relative;
+    z-index: 2;
+    padding: 24px;
+    display: grid;
+    gap: 8px;
+  }
+  .card-badge {
+    align-self: flex-start;
+    font-size: 0.7rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
+    padding: 3px 9px;
+    border-radius: 6px;
+  }
+  .card-title {
+    font-family: Georgia, serif;
+    font-size: 1.6rem;
+    line-height: 1.1;
+    margin: 0;
+  }
+  .card-desc {
+    font-size: 0.85rem;
+    line-height: 1.4;
+    color: #cbd5e1;
+    margin: 0;
+  }
+  .card-cta {
+    margin-top: 6px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--brand-teal-light);
+  }
+
+  /* Directory Preview Card */
+  .directory-preview-section {
+    padding: 20px 0 40px;
+  }
+  .preview-card {
+    background: #ffffff;
+    border: 1px solid var(--brand-border);
+    border-radius: 20px;
+    padding: clamp(24px, 4vw, 40px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.04);
+  }
+  .preview-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 24px;
+  }
+  .preview-tag {
+    font-size: 0.78rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: var(--brand-teal);
+    letter-spacing: 0.08em;
+  }
+  .preview-head h2 {
+    font-family: Georgia, serif;
+    font-size: clamp(1.8rem, 4vw, 2.8rem);
+    line-height: 1.1;
+    margin: 8px 0;
+    color: #0f172a;
+  }
+  .preview-head p {
+    color: #64748b;
+    margin: 0;
+    font-size: 0.95rem;
+  }
+  .btn-explore-all {
+    display: inline-flex;
+    align-items: center;
+    padding: 12px 22px;
+    background: #0f172a;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 0.92rem;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+  }
+  .btn-explore-all:hover {
+    background: var(--brand-teal);
+  }
+
+  .preview-chips-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 24px;
+  }
+  .preview-chip {
+    padding: 8px 14px;
+    border-radius: 20px;
+    background: #f1f5f9;
+    color: #334155;
+    font-size: 0.84rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.2s ease;
+  }
+  .preview-chip:hover {
+    background: #e2e8f0;
+    color: #0f172a;
+  }
+
+  .preview-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 12px;
+    margin-bottom: 30px;
+  }
+  .mini-tenant-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 16px;
+    border-radius: 12px;
+    background: #f8fafc;
+    border: 1px solid var(--brand-border);
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.2s ease;
+  }
+  .mini-tenant-card:hover {
+    background: #ffffff;
+    border-color: var(--brand-teal);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(13, 148, 136, 0.08);
+  }
+  .mini-card-info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    min-width: 0;
+  }
+  .mini-card-info strong {
+    font-size: 0.92rem;
+    color: #0f172a;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .mini-card-info span {
+    font-size: 0.74rem;
+    color: #64748b;
+  }
+  .mini-arrow {
+    color: #94a3b8;
+    font-weight: 800;
+    padding-left: 8px;
+  }
+
+  .preview-bottom-cta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding-top: 20px;
+    border-top: 1px solid var(--brand-border);
+  }
+  .preview-bottom-cta p {
+    margin: 0;
+    color: #475569;
+    font-size: 0.92rem;
+  }
+
+  /* Home Footer */
+  .home-footer {
+    margin-top: 40px;
+    padding-top: 24px;
+    border-top: 1px solid var(--brand-border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    color: #64748b;
+    font-size: 0.85rem;
+  }
+  .footer-left {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .footer-left strong {
+    color: #0f172a;
+  }
+  .footer-right a {
+    color: var(--brand-teal-dark);
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  /* Mobile Media Queries */
+  @media (max-width: 900px) {
+    .bento-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media (max-width: 640px) {
+    .shell {
+      width: min(100% - 24px, 1200px);
+    }
+    .top-nav-bar {
+      flex-direction: column;
+      gap: 12px;
+      align-items: flex-start;
+    }
+    .nav-links {
+      width: 100%;
+      overflow-x: auto;
+      padding-bottom: 4px;
+    }
+    .hero {
+      padding: 30px 20px;
+      border-radius: 18px;
+    }
+    .hero-top-meta {
+      flex-direction: column;
+      gap: 4px;
+      margin-bottom: 18px;
+    }
+    .hero-title {
+      font-size: 3.2rem;
+    }
+    .hero-actions {
+      flex-direction: column;
+    }
+    .btn-primary, .btn-secondary {
+      width: 100%;
+      justify-content: center;
+    }
+    .section-head {
+      grid-template-columns: 1fr;
+    }
+    .bento-grid {
+      grid-template-columns: 1fr;
+      gap: 12px;
+    }
+    .bento-card {
+      min-height: 280px;
+    }
+    .preview-head {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .btn-explore-all {
+      width: 100%;
+      justify-content: center;
+    }
+    .preview-bottom-cta {
+      flex-direction: column;
+      align-items: stretch;
+      text-align: center;
+    }
+    .home-footer {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+</style>

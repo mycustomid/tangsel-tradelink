@@ -1,0 +1,56 @@
+Kamu adalah sub-worker pelaksana (Frontend Engineer) di bawah komando Jane / Antigravity untuk project Tangsel TradeLink di D:\code\tangsel-tradelink.
+
+MANDAT & BATASAN KERAS (NON-NEGOTIABLE):
+1. ZERO TOUCH PADA DATA & ASSET GAMBAR: Dilarang keras memodifikasi, menghapus, atau menimpa isi folder `src/data/` dan `public/brand/`. Seluruh data JSON dan aset visual sudah diverifikasi dan disuplai oleh tim data.
+2. DISK C PRESERVATION: Semua pekerjaan HANYA di `D:\code\tangsel-tradelink\`. Jangan membuat project atau cache baru di drive C:.
+3. DILARANG GIT PUSH: Jangan pernah melakukan git push ke remote GitHub.
+4. ASTRO 5 STANDARDS: Gunakan standar sintaks Astro 5 yang sudah ada di codebase. Jangan menambah dependency npm berat baru yang tidak perlu.
+5. ZERO BUILD ERROR: Setelah pekerjaan selesai, proyek harus lulus `npm run build` dengan 0 error pada seluruh halaman.
+
+TUGAS PEMBANGUNAN FRONTEND END-TO-END:
+
+Tugas 1: Halaman Direktori & Multi-Filter Katalog (`src/pages/directory.astro`)
+- Buat halaman `src/pages/directory.astro` yang mengimpor data tenant dari `../data/tenants.json` dan `../data/tenants-extra.json`.
+- Gunakan `<BaseLayout>` dengan judul "Direktori Tenant & Katalog Produk — Tangsel TradeLink TEI 2026".
+- Tambahkan header navigasi yang elegan, konsisten dengan gaya desain editorial bersih (warm off-white, aksen slate/emerald).
+- Buat fitur interaktif client-side (vanilla JavaScript di tag `<script>`):
+  * Search bar input untuk mencari nama tenant, produk, hall, atau nomor booth secara instan.
+  * Filter pills / tabs berdasarkan kategori: "Semua", "Food & Beverage", "Fashion & Craft", "Chemical & Manufacture", "Technology & Services", "Agriculture & Commodity".
+  * Counter dinamis: menampilkan jumlah tenant yang cocok dengan hasil filter (contoh: "Menampilkan 42 dari 110 tenant").
+  * Empty state yang informatif jika pencarian tidak menemukan hasil.
+- Card tenant harus menampilkan:
+  * Logo atau monogram inisial brand.
+  * Nama tenant dan badge kategori.
+  * Lokasi Booth (Hall & Booth number jika ada).
+  * Deskripsi ringkas produk.
+  * Tombol aksi: "Lihat Showcase ↗" menuju `/tenant/${tenant.slug}`.
+
+Tugas 2: Upgrade Homepage (`src/pages/index.astro`)
+- Perbarui `src/pages/index.astro`:
+  * Perluas section `featuredShowcases` agar menampilkan keragaman sektor unggulan Tangsel, termasuk tenant-tenant baru yang sudah memiliki aset otentik:
+    - `md-organic` (Beras Organik Bersertifikat Ekspor)
+    - `ladifa-collection` (Perhiasan Perak & Batu Mulia Khas Nusantara)
+    - `kenyess-food` (BaGor Spinner & Keripik Kemangi Gluten-Free)
+    - `giga-tech` (Teknologi Propulsi & Baterai Industri)
+    - `health-today` (Sirup & Bahan Baku Minuman HoReCa)
+    - `raja-freeze-dried` (Teknologi Freeze Dried Agro)
+    - `zyvas` (Contemporary Modest Wear & Homedress)
+    - `dapur-nanay` (Kuliner Otentik Khas Nusantara)
+  * Tambahkan tombol CTA yang jelas di hero section: "Jelajahi Direktori Tenant (`/directory`)" dan "Panduan Paviliun Tangsel (`/guide`)".
+
+Tugas 3: Halaman Panduan Booth & Jadwal TEI 2026 (`src/pages/guide.astro`)
+- Buat halaman `src/pages/guide.astro`:
+  * Judul: "Panduan Paviliun Tangerang Selatan — Trade Expo Indonesia 2026".
+  * Informasi Lokasi: ICE BSD City (Indonesia Convention Exhibition), Hall 3A.
+  * Detail Paviliun: Paviliun Terpadu Disperindag Kota Tangerang Selatan menaungi puluhan UMKM dan industri unggulan yang siap ekspor dan temu bisnis B2B.
+  * Fasilitas Paviliun: Ruang Konsultasi Dagang B2B, Display Showcase Produk Fisik, Akses Katalog Digital NFC Tangsel TradeLink.
+  * Kontak Helpdesk & Narahubung Resmi Disperindag Tangsel: Pak Eeng & Tim Fasilitasi Ekspor Disperindag Tangsel (WhatsApp: `https://wa.me/6281296361446`).
+  * Tautan balik ke homepage dan ke halaman direktori.
+
+Tugas 4: Komponen SEO & Meta Schema (`src/components/SeoMeta.astro`)
+- Buat komponen `src/components/SeoMeta.astro` yang menginjeksi meta tags terstruktur dan Schema.org JSON-LD (`Event` untuk TEI 2026, `Organization` untuk Pemkot Tangsel / Disperindag, dan `WebSite`).
+- Pasang atau integrasikan ke layout utama atau halaman terkait.
+
+Tugas 5: Verifikasi Build
+- Jalankan pemeriksaan internal untuk memastikan tidak ada broken link atau missing import.
+- Pastikan build static berjalan lancar.
