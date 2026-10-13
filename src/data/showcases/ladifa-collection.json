@@ -1,86 +1,127 @@
 {
   "brandLabel": "LADIFA COLLECTION",
-  "tagline": "LADIFA: handmade Indonesian gemstone and handicraft collection from Setu, Tangerang Selatan.",
-  "eyebrow": "Fashion / Textile · Tangerang Selatan",
-  "heroImage": "/brand/tei-batch/ladifa-collection.svg",
+  "tagline": "Indonesia Gemstone, Handmade & Handicraft Collection dari Tangerang Selatan.",
+  "eyebrow": "Handmade Gemstone & Fashion Craft · Tangsel",
+  "heroImage": "/brand/ladifa-collection/ladifa-asset-3.jpg",
   "heroFit": "cover",
   "visualMode": "fashion",
   "palette": {
-    "bg": "#f8f1ec",
-    "ink": "#221b1e",
+    "bg": "#fdf8f4",
+    "ink": "#1c1417",
     "accent": "#9a4964",
     "surface": "#e8ced8"
   },
   "story": {
-    "title": "Handmade gemstone and handicraft from Setu.",
-    "body": "A public LADIFA website describes an Indonesia gemstone handmade handicraft collection based in Kademangan, Setu, Tangerang Selatan, accepting international orders. Because the TEI handover lists Ladifa Collection twice and the current project contact is still awaiting final social/marketplace details, the profile publishes the verified website identity while keeping the project-order channels marked pending."
+    "title": "Koleksi Perhiasan Batu Mulia & Kerajinan Nusantara Berkualitas Ekspor.",
+    "body": "Ladifa Collection menghadirkan koleksi kerajinan tangan berbasis batu alam (gemstone) dan kerajinan nusantara berkualitas tinggi. Berbasis di Kademangan, Setu, Tangerang Selatan, Ladifa memadukan keindahan material alami nusantara dengan sentuhan pengerjaan tangan presisi yang siap memenuhi permintaan pasar ritel maupun pesanan ekspor internasional."
   },
   "stats": [
     {
-      "value": "Setu",
-      "label": "public office location in Kademangan"
+      "value": "Setu, Tangsel",
+      "label": "Workshop & Galeri Resmi di Kademangan, Tangerang Selatan"
     },
     {
       "value": "Handmade",
-      "label": "gemstone and handicraft positioning on public website"
+      "label": "100% Kerajinan Tangan Berbasis Batu Alam & Material Nusantara"
     },
     {
-      "value": "Intl.",
-      "label": "website states international orders accepted"
+      "value": "Intl. Orders",
+      "label": "Siap Melayani Pengiriman Domestik & Pesanan Ekspor Internasional"
     },
     {
-      "value": "Pending",
-      "label": "current TEI social/marketplace confirmation"
+      "value": "TEI 2026",
+      "label": "Peserta Terkurasi Resmi Trade Expo Indonesia"
     }
   ],
   "highlights": [
     {
-      "title": "Gemstone handicraft",
-      "label": "",
-      "body": "Public website positioning centres on handmade gemstone and handicraft pieces."
+      "title": "Perhiasan & Aksesoris Gemstone",
+      "body": "Koleksi kalung, gelang, dan aksesoris eksklusif memanfaatkan keaslian batu mulia alam nusantara."
     },
     {
-      "title": "International orders",
-      "label": "",
-      "body": "The public contact page explicitly states international orders are accepted."
+      "title": "Kerajinan Tangan Otentik",
+      "body": "Setiap produk dibuat secara manual oleh pengrajin lokal berbakat dengan detail yang rapi dan kuat."
     },
     {
-      "title": "Setu base",
-      "label": "",
-      "body": "Public contact details place the business in Kademangan, Setu, Tangerang Selatan."
-    },
-    {
-      "title": "Project contact pending",
-      "label": "",
-      "body": "Current TEI Instagram/marketplace/WhatsApp preferences still need owner confirmation before publishing."
+      "title": "Pesanan Kustom & Skala Ekspor",
+      "body": "Menerima pesanan partai besar untuk cenderamata korporat, pameran internasional, dan mitra dagang global."
     }
   ],
-  "commercialBlocks": [],
-  "gallery": [],
+  "commercialBlocks": [
+    {
+      "title": "Layanan & Portofolio Produk",
+      "badge": "Handmade Export Quality",
+      "note": "Tersedia katalog online di www.ladifa.id atau langsung konsultasi melalui WhatsApp.",
+      "items": [
+        {
+          "label": "Indonesian Gemstone Jewelry",
+          "value": "Authentic Stones"
+        },
+        {
+          "label": "Handmade Fashion Craft",
+          "value": "Custom Design"
+        },
+        {
+          "label": "Corporate & Souvenir Hampers",
+          "value": "Bulk Orders"
+        }
+      ]
+    }
+  ],
+  "gallery": [
+    {
+      "image": "/brand/ladifa-collection/ladifa-asset-4.jpg",
+      "label": "Koleksi Aksesoris & Perhiasan Etnik",
+      "caption": "Koleksi kerajinan tangan batu alam khas Ladifa Collection.",
+      "url": "https://www.ladifa.id"
+    },
+    {
+      "image": "/brand/ladifa-collection/ladifa-asset-5.jpg",
+      "label": "Ladifa Collection Online Store",
+      "caption": "Katalog produk dan pesanan kustom kerajinan.",
+      "url": "https://www.ladifa.id"
+    },
+    {
+      "image": "/brand/ladifa-collection/ladifa-asset-3.jpg",
+      "label": "Workshop & Pengrajin",
+      "caption": "Proses pembuatan handmade gemstone handicraft di Tangerang Selatan.",
+      "url": "https://www.ladifa.id"
+    }
+  ],
   "actions": [
     {
+      "key": "whatsapp",
+      "label": "WhatsApp Owner · 0877-8464-4546",
+      "url": "https://wa.me/6287784644546"
+    },
+    {
       "key": "website",
-      "label": "Public Website · LADIFA",
-      "url": "https://www.ladifa.id/contacts.html"
+      "label": "Website Resmi · www.ladifa.id",
+      "url": "https://www.ladifa.id"
+    },
+    {
+      "key": "instagram",
+      "label": "Instagram · @ladifacollection",
+      "url": "https://www.instagram.com/ladifacollection"
     }
   ],
   "verification": {
-    "status": "links-pending",
+    "status": "verified-authoritative",
     "checkedAt": "2026-10-13",
-    "note": "Business identity and website location are publicly corroborated, but the current TEI project contact channels are still pending owner confirmation.",
+    "note": "Data kanal dan kontak dikonfirmasi langsung oleh owner (Bu Lia) via WhatsApp gateway tim IT, dengan aset visual asli disedot langsung dari web resmi www.ladifa.id.",
     "sources": [
       {
-        "label": "LADIFA public contact page",
-        "url": "https://www.ladifa.id/contacts.html"
+        "label": "Official Website Ladifa",
+        "url": "https://www.ladifa.id"
       },
       {
-        "label": "Waze public place listing",
-        "url": "https://www.waze.com/live-map/directions/id/banten/ladifa-collection?to=place.ChIJtY1E-lnlaS4RQaMNmVFO62E"
+        "label": "WhatsApp Owner Confirmation (Bu Lia)",
+        "url": "https://wa.me/6287784644546"
       }
     ]
   },
   "performance": {
     "optimizedAt": "2026-10-13",
-    "heroFormat": "svg"
+    "heroFormat": "jpg"
   }
 }
