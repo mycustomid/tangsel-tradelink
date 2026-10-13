@@ -1,52 +1,71 @@
 {
   "brandLabel": "ARANOMIYA",
-  "tagline": "Authentic Craft & Creative Indonesian Living",
-  "eyebrow": "Indonesian Lifestyle & Heritage Craft · TEI 2026",
-  "heroImage": "/brand/samara-real-1.webp",
+  "tagline": "Indonesian botanical body care for retail, hospitality and private-label collaboration.",
+  "eyebrow": "Natural Soap · Botanical Body Care · Tangerang Selatan",
+  "heroImage": "/brand/aranomiya-botanical.svg",
   "palette": {
-    "bg": "#fcfaf7",
-    "ink": "#1c1917",
-    "accent": "#9a3412",
-    "surface": "#292524"
+    "bg": "#f7f1e8",
+    "ink": "#282019",
+    "accent": "#9b5b3d",
+    "surface": "#d8cfbd"
   },
   "story": {
-    "title": "Sentuhan Kreasi Autentik dari Nusantara untuk Dunia.",
-    "body": "ARANOMIYA menghadirkan ragam karya kreatif, kriya, dan produk gaya hidup berkualitas tinggi yang terinspirasi dari kekayaan budaya Indonesia. Setiap karya dirancang dengan ketelitian, estetika tinggi, dan standar mutu prima untuk memenuhi pasar domestik maupun kebutuhan buyers internasional di Trade Expo Indonesia."
+    "title": "Natural soap, rooted in Indonesian botanicals.",
+    "body": "ARANOMIYA is presented in public trade and halal directories as a producer of natural soap/body cleanser. The founder’s public profile positions the business around herbal soap, shampoo bars and aromatherapy solutions using Indonesian botanical ingredients, with collaboration routes for hotels, spas, retailers, distributors and private-label partners."
   },
   "stats": [
     {
-      "value": "Authentic",
-      "label": "Karakter Desain Khas Nusantara Berkualitas Ekspor"
+      "value": "Producer",
+      "label": "business type listed by InaExport"
     },
     {
-      "value": "Global",
-      "label": "Siap Kemitraan Ekspor & Custom B2B Order"
+      "value": "Natural Soap",
+      "label": "main product listed by InaExport"
     },
     {
-      "value": "TEI 2026",
-      "label": "Peserta Terkurasi Resmi Trade Expo Indonesia"
+      "value": "Botanical",
+      "label": "body-care positioning built around Indonesian plant ingredients"
+    },
+    {
+      "value": "B2B",
+      "label": "hospitality, retail, distributor and private-label collaboration"
     }
   ],
   "highlights": [
     {
-      "title": "Katalog Produk & Profil Perusahaan",
-      "body": "Akses langsung company profile dan portofolio resmi ARANOMIYA untuk referensi buyer dan mitra bisnis."
+      "title": "Natural Soap",
+      "body": "Handmade soap positioning using plant oils, essential oils and botanical ingredients."
     },
     {
-      "title": "Kustomisasi & Pemesanan Skala Besar",
-      "body": "Melayani pesanan tailor-made dengan kontrol kualitas ketat untuk kebutuhan ritel, korporat, dan ekspor."
+      "title": "Shampoo Bars & Body Care",
+      "body": "Personal-care formats beyond bar soap, aligned with the founder’s public product positioning."
+    },
+    {
+      "title": "Hospitality & Spa",
+      "body": "Relevant for hotel amenities, spa retail, curated gifting and hospitality procurement."
+    },
+    {
+      "title": "Private Label",
+      "body": "A clear B2B route for retailers and brands that want botanical products under their own commercial concept."
     }
   ],
-  "gallery": [],
+  "gallery": [
+    {
+      "image": "https://cdn.linkumkm.id/uploads/library/1/2/1/2/2/3/121223_840x576.jpg",
+      "label": "Shaf Von by Aranomiya · Natural Body Care",
+      "caption": "Public product photography surfaced by LinkUMKM; loaded lazily so it does not block the NFC first fold.",
+      "url": "https://linkumkm.id/ecommerce/detail/34726/sabun-cair-natural"
+    }
+  ],
   "actions": [
     {
       "key": "whatsapp",
-      "label": "WhatsApp Official · 0815-8654-2838",
+      "label": "WhatsApp · ARANOMIYA",
       "url": "https://wa.me/6281586542838"
     },
     {
       "key": "website",
-      "label": "Website Resmi · www.aranomiya.com",
+      "label": "Official Website · aranomiya.com",
       "url": "https://www.aranomiya.com"
     },
     {
@@ -56,47 +75,32 @@
     },
     {
       "key": "catalog",
-      "label": "Unduh Company Profile (PDF)",
+      "label": "Company Profile · OneDrive",
       "url": "https://1drv.ms/b/c/c00c80680b54ea76/IQDwQ8dO3VGgS64AyAREHuyOASF1UylBH2vxh5DLseoGxP0?e=Mt7LUx"
     },
     {
-      "key": "contact-card",
-      "label": "Lihat Digital Contact Card",
-      "url": "https://1drv.ms/i/c/c00c80680b54ea76/IQCALOw2y4CyS4gtuA9qropqAU4bsX-Pdzptzb88zOf68Rw?e=ZwQJbp"
-    },
-    {
       "key": "maps",
-      "label": "Lokasi Google Maps",
+      "label": "Google Maps",
       "url": "https://maps.app.goo.gl/EoKbubpxvzuT18FL9"
     }
   ],
   "verification": {
-    "status": "primary-source-checked",
+    "status": "public-source-checked",
     "checkedAt": "2026-10-13",
-    "note": "Data Trade Expo lengkap dikirim langsung oleh perwakilan ARANOMIYA via WhatsApp Gateway resmi.",
+    "note": "Positioning corrected from generic handicraft to natural soap/body care based on InaExport, LPPOM directory and founder public profile.",
     "sources": [
       {
-        "label": "WhatsApp Gateway Communication (ARANOMIYA)",
-        "url": "https://wa.me/6281586542838"
-      }
-    ],
-    "channels": [
-      {
-        "key": "website",
-        "status": "verified"
+        "label": "InaExport exporter profile",
+        "url": "https://inaexport.id/front_end/listeksportir/cetakpdfnew/232008"
       },
       {
-        "key": "instagram",
-        "status": "verified"
+        "label": "LPPOM Halal Directory 2026",
+        "url": "https://halalmui.org/wp-content/uploads/2026/03/LPPOM-Halal-DIrectory-2026_Versi-1_Compressed.pdf"
       },
       {
-        "key": "whatsapp",
-        "status": "verified"
+        "label": "LinkUMKM product photography",
+        "url": "https://linkumkm.id/ecommerce/detail/34726/sabun-cair-natural"
       }
     ]
-  },
-  "performance": {
-    "optimizedAt": "2026-10-13",
-    "heroFormat": "webp"
   }
 }

@@ -1,25 +1,22 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import EnhancedRichTenantShowcase from '../../components/EnhancedRichTenantShowcase.astro';
+import SmartNfcShowcase from '../../components/SmartNfcShowcase.astro';
 import config from '../../data/showcases/dbumbu-aurelshop.json';
-
 const baseUrl = import.meta.env.BASE_URL;
 const tenant = {
-  name: 'DBumbu Aurelshop', slug: 'dbumbu-aurelshop', hall: '8', booth: '8-7C',
-  category: 'Food, Beverage & Agriculture Products',
-  description: 'Bumbu Masak Praktis & Rempah Khas Nusantara — DBumbu Aurelshop.',
-  theme: 'food', website: 'https://www.instagram.com/aurelshop2018',
-  instagram: 'https://www.instagram.com/aurelshop2018',
-  whatsapp: 'https://wa.me/6281280603913', maps: 'https://maps.app.goo.gl/kSZjhvxdMvS4dJyM9',
-  shopee: 'https://www.shopee.co.id/aurelshop2018',
-  researchStatus: 'primary-source-checked', verifiedAt: '2026-10-13'
+  name:'DBumbu Aurelshop', slug:'dbumbu-aurelshop', hall:'8', booth:'8-7C',
+  category:'Food, Beverage & Agriculture Products',
+  description:'Spices, herbs and pantry essentials from South Tangerang — DBumbu Aurelshop / AurelShop2018.',
+  theme:'food', website:'https://shopee.co.id/aurelshop2018', instagram:'https://www.instagram.com/aurelshop2018',
+  whatsapp:'https://wa.me/6281280603913', maps:'https://maps.app.goo.gl/kSZjhvxdMvS4dJyM9',
+  shopee:'https://shopee.co.id/aurelshop2018', researchStatus:'public-source-checked', verifiedAt:'2026-10-13'
 };
 const structuredData = {
-  '@context': 'https://schema.org', '@type': 'Organization', name: tenant.name,
-  telephone: '+62 812-8060-3913', sameAs: [tenant.instagram, tenant.shopee]
+  '@context':'https://schema.org','@type':'Organization',name:tenant.name,
+  telephone:'+62 812-8060-3913',sameAs:[tenant.instagram,tenant.shopee]
 };
 ---
 <BaseLayout title="DBumbu Aurelshop — Tangsel TradeLink" description={tenant.description} theme="food"
   canonical={`${baseUrl}tenant/dbumbu-aurelshop`} image={config.heroImage} structuredData={structuredData}>
-  <EnhancedRichTenantShowcase tenant={tenant} config={config} baseUrl={baseUrl} />
+  <SmartNfcShowcase tenant={tenant} config={config} baseUrl={baseUrl} />
 </BaseLayout>

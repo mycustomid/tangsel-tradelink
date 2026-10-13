@@ -1,52 +1,71 @@
 {
   "brandLabel": "TEH TELANG OUR HERB",
-  "tagline": "Pure Butterfly Pea Flower Tea & Herbal Wellness",
-  "eyebrow": "Artisan Herbal Tea · Peserta TEI Dinas Indag",
-  "heroImage": "/brand/samara-real-1.webp",
+  "tagline": "Butterfly pea tea in a practical teabag format from Setu, South Tangerang.",
+  "eyebrow": "Butterfly Pea Flower Tea · Setu · Tangerang Selatan",
+  "heroImage": "/brand/our-herb-telang.svg",
   "palette": {
-    "bg": "#f5f7fa",
-    "ink": "#111827",
-    "accent": "#4f46e5",
-    "surface": "#1e1b4b"
+    "bg": "#f4f5fb",
+    "ink": "#17182a",
+    "accent": "#4e52c8",
+    "surface": "#dfe3ff"
   },
   "story": {
-    "title": "Keajaiban Warna Biru Alami & Manfaat Herbal Nusantara.",
-    "body": "Our Herb (OH) menghadirkan sajian teh bunga telang (butterfly pea) berkualitas artisan yang dipanen dan dikeringkan secara higienis untuk menjaga kandungan antioksidan tinggi. Peserta resmi kurasi pameran Trade Expo Indonesia bersama Dinas Indag, membawa produk herbal unggulan ke kancah global."
+    "title": "A blue-flower tea with a verifiable local product profile.",
+    "body": "Rumah Kurasi Tangerang Selatan lists Our Herb as a Setu-based beverage product made from butterfly pea flower in teabag form, with stated production capacity of 200 boxes. The page keeps the product story factual and avoids turning general botanical associations into medical claims."
   },
   "stats": [
     {
+      "value": "200 box",
+      "label": "production capacity stated on Rumah Kurasi Tangsel"
+    },
+    {
+      "value": "Tea bag",
+      "label": "product format stated on Rumah Kurasi Tangsel"
+    },
+    {
+      "value": "Setu",
+      "label": "UMKM area listed by Rumah Kurasi Tangsel"
+    },
+    {
       "value": "Telang",
-      "label": "100% Bunga Telang Asli Kaya Antioksidan Alami"
-    },
-    {
-      "value": "Artisan",
-      "label": "Diproses Higienis Tanpa Pewarna & Pengawet Kimia"
-    },
-    {
-      "value": "TEI 2026",
-      "label": "Peserta Binaan Resmi Dinas Indag di Trade Expo Indonesia"
+      "label": "butterfly pea flower is the core ingredient"
     }
   ],
   "highlights": [
     {
-      "title": "Teh Bunga Telang Kering Premium",
-      "body": "Bunga telang pilihan beraroma khas yang menyuguhkan warna biru alami memikat, cocok untuk minuman kesehatan maupun kreasi mocktail hotel & cafe."
+      "title": "Seduhan Telang",
+      "body": "Butterfly pea flower prepared in a convenient teabag format for simple brewing."
     },
     {
-      "title": "Kerja Sama B2B & Suplai Horeca",
-      "body": "Menyediakan pasokan teh herbal dalam kemasan retail maupun bulk order untuk cafe, restoran, dan mitra ekspor."
+      "title": "Blend Potential",
+      "body": "Public product material shows butterfly pea tea used in multiple flavour/blend directions."
+    },
+    {
+      "title": "Hospitality Use",
+      "body": "The visual character and practical format make the product relevant for cafe, hotel and gifting conversations."
+    },
+    {
+      "title": "Buyer Contact",
+      "body": "Business and personal WhatsApp channels are kept separate so buyer inquiries can move directly to the owner."
     }
   ],
-  "gallery": [],
+  "gallery": [
+    {
+      "image": "https://pknstan.ac.id/sites/default/files/gallery-article/3_71.jpg",
+      "label": "Our Herb · Seduhan Telang",
+      "caption": "Product photography from a PKN STAN training/assistance article featuring Our Herb.",
+      "url": "https://pknstan.ac.id/id/pelatihan-1"
+    }
+  ],
   "actions": [
     {
-      "key": "whatsapp-bisnis",
-      "label": "WhatsApp Bisnis · 0878-3820-9055",
+      "key": "whatsapp",
+      "label": "WhatsApp Business · 0878-3820-9055",
       "url": "https://wa.me/6287838209055"
     },
     {
       "key": "whatsapp",
-      "label": "WhatsApp Kontak · 0819-3681-4817",
+      "label": "WhatsApp Contact · 0819-3681-4817",
       "url": "https://wa.me/6281936814817"
     },
     {
@@ -55,34 +74,28 @@
       "url": "https://www.instagram.com/ourherb.id"
     },
     {
-      "key": "facebook",
-      "label": "Facebook · Kumala Our Herb",
-      "url": "https://www.facebook.com"
+      "key": "website",
+      "label": "Rumah Kurasi Tangsel · Our Herb",
+      "url": "https://kurasi.tangerangselatankota.go.id/produk/134"
     }
   ],
   "verification": {
-    "status": "primary-source-checked",
+    "status": "public-source-checked",
     "checkedAt": "2026-10-13",
-    "note": "Data kontak resmi diverifikasi langsung dari Ibu Kumala A. Haryono (peserta TEI Dinas Indag) via WhatsApp Gateway.",
+    "note": "Product type, Setu origin and production capacity checked against Rumah Kurasi Tangerang Selatan; contact channels follow the project handover.",
     "sources": [
       {
-        "label": "WhatsApp Gateway Communication (Kumala Our Herb)",
-        "url": "https://wa.me/6287838209055"
-      }
-    ],
-    "channels": [
-      {
-        "key": "whatsapp",
-        "status": "verified"
+        "label": "Rumah Kurasi Tangerang Selatan",
+        "url": "https://kurasi.tangerangselatankota.go.id/produk/134"
       },
       {
-        "key": "instagram",
-        "status": "verified"
+        "label": "Boourac marketplace",
+        "url": "https://boourac.com/product/our-herb-teh-telang-seduhan-teh-telang-18gr-12x15gr"
+      },
+      {
+        "label": "PKN STAN training article / product photo",
+        "url": "https://pknstan.ac.id/id/pelatihan-1"
       }
     ]
-  },
-  "performance": {
-    "optimizedAt": "2026-10-13",
-    "heroFormat": "webp"
   }
 }

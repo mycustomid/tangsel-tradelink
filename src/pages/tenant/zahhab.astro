@@ -1,24 +1,22 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import EnhancedRichTenantShowcase from '../../components/EnhancedRichTenantShowcase.astro';
+import SmartNfcShowcase from '../../components/SmartNfcShowcase.astro';
 import config from '../../data/showcases/zahhab.json';
-
 const baseUrl = import.meta.env.BASE_URL;
 const tenant = {
-  name: 'Zahhab Healthy Drink', slug: 'zahhab', hall: '8', booth: '8-7C',
-  category: 'Food, Beverage & Agriculture Products',
-  description: 'Natural Healthy Herbal Beverages for Vibrant Living — Zahhab Healthy Drink.',
-  theme: 'food', website: 'https://www.instagram.com/zahhab_head',
-  instagram: 'https://www.instagram.com/zahhab_head',
-  tiktok: 'https://www.tiktok.com/@Zahhab20', youtube: 'https://www.youtube.com/@zahhab2020',
-  researchStatus: 'primary-source-checked', verifiedAt: '2026-10-13'
+  name:'Zahhab Healthy Drink', slug:'zahhab', hall:'8', booth:'8-7C',
+  category:'Food, Beverage & Agriculture Products',
+  description:'Date-based drinks including susu kurma and lemon kurma — Zahhab Healthy Drink.',
+  theme:'food', website:'https://www.instagram.com/zahhab_head', instagram:'https://www.instagram.com/zahhab_head',
+  tiktok:'https://www.tiktok.com/@Zahhab20', youtube:'https://www.youtube.com/@zahhab2020',
+  researchStatus:'public-source-checked', verifiedAt:'2026-10-13'
 };
 const structuredData = {
-  '@context': 'https://schema.org', '@type': 'Organization', name: tenant.name,
-  sameAs: [tenant.instagram, tenant.tiktok, tenant.youtube]
+  '@context':'https://schema.org','@type':'Organization',name:tenant.name,
+  sameAs:[tenant.instagram,tenant.tiktok,tenant.youtube]
 };
 ---
 <BaseLayout title="Zahhab Healthy Drink — Tangsel TradeLink" description={tenant.description} theme="food"
   canonical={`${baseUrl}tenant/zahhab`} image={config.heroImage} structuredData={structuredData}>
-  <EnhancedRichTenantShowcase tenant={tenant} config={config} baseUrl={baseUrl} />
+  <SmartNfcShowcase tenant={tenant} config={config} baseUrl={baseUrl} />
 </BaseLayout>

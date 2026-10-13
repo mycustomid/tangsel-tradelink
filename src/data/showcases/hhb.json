@@ -1,96 +1,143 @@
 {
   "brandLabel": "PT HARMONI HARAPAN BERSAMA",
-  "tagline": "Integrated Freight Forwarding & Export Logistics Partner",
-  "eyebrow": "International Freight Forwarder & EMKL · TEI 2026 Partner",
-  "heroImage": "/brand/samara-real-1.webp",
+  "tagline": "Connecting cargo to the world—by air, sea and compliant customs handling.",
+  "eyebrow": "International Freight Forwarder · Jakarta & Serpong",
+  "heroImage": "/brand/hhb-logistics.svg",
   "palette": {
-    "bg": "#f8fafc",
-    "ink": "#0f172a",
-    "accent": "#0284c7",
-    "surface": "#1e293b"
+    "bg": "#f7f8fa",
+    "ink": "#101b2c",
+    "accent": "#0875b8",
+    "surface": "#dfeaf1"
   },
   "story": {
-    "title": "Mitra Terpercaya Logistik Ekspor & EMKL Nusantara.",
-    "body": "PT Harmoni Harapan Bersama (HHB) adalah penyedia layanan jasa logistik ekspor-impor, pengurusan kepabeanan (PPJK), dan EMKL terintegrasi. Kami melayani pengapalan kontainer (20ft & 40ft), handling FOB Priok, lift on/lift off depo, serta solusi end-to-end bagi pelaku usaha dan IKM Indonesia untuk menembus pasar global."
+    "title": "Eight logistics services, one accountable partner.",
+    "body": "PT Harmoni Harapan Bersama (HHB) melayani international dan domestic air & sea freight, export–import, customs brokerage & clearance, sea-air, break bulk, special project cargo, serta door-to-door. Profil ini mengikuti layanan yang dipublikasikan di website resmi HHB dan menempatkan tarif TEI sebagai referensi indikatif—bukan quotation tetap."
   },
   "stats": [
     {
-      "value": "FOB",
-      "label": "Spesialis Pengurusan Local Charges FOB Pelabuhan Tanjung Priok"
+      "value": "8+",
+      "label": "years of experience stated on the current official website"
     },
     {
-      "value": "20'/40'",
-      "label": "Penanganan Kontainer 20ft & 40ft FCL / LCL"
+      "value": "50+",
+      "label": "countries served stated on the current official website"
     },
     {
-      "value": "EMKL",
-      "label": "Layanan Pengurusan Dokumen Kepabeanan & Bea Cukai Cepat"
+      "value": "8",
+      "label": "service lines presented by HHB"
     },
     {
-      "value": "TEI 2026",
-      "label": "Mitra Pendamping Logistik Peserta Trade Expo Indonesia"
+      "value": "2",
+      "label": "offices: Jakarta and Serpong"
     }
   ],
   "highlights": [
     {
-      "title": "Local Charges Pelayaran (FOB Priok)",
-      "body": "Transparansi estimasi THC 20ft/40ft, doc fee pelayaran resmi, dan seal kontainer untuk kepastian kalkulasi penawaran buyer luar negeri."
+      "title": "Air & Sea Freight",
+      "body": "International dan domestic freight dengan pilihan jalur udara, laut, dan kombinasi sea-air."
     },
     {
-      "title": "Depo Container Handling (Lo-Lo & Storage)",
-      "body": "Manajemen lift on / lift off terintegrasi dengan koordinasi depo rekanan untuk memastikan efisiensi jadwal stuffing & closing time kapal."
+      "title": "Customs Brokerage",
+      "body": "Pengurusan export–import dan customs clearance yang menjadi bagian resmi dari portofolio layanan HHB."
     },
     {
-      "title": "Layanan Forwarding Door to Port & Port to Port",
-      "body": "Jaringan shipping lines global untuk memastikan kargo ekspor tiba tepat waktu dengan biaya logistik paling kompetitif."
+      "title": "Project & Break Bulk",
+      "body": "Handling untuk cargo proyek, dangerous goods, break bulk, dan kebutuhan yang tidak cocok dengan alur general cargo biasa."
+    },
+    {
+      "title": "Door to Door",
+      "body": "Satu jalur koordinasi dari pickup, dokumen, clearance sampai delivery ke penerima."
+    }
+  ],
+  "commercialBlocks": [
+    {
+      "title": "FOB Priok Reference",
+      "badge": "Indicative",
+      "note": "Angka berikut berasal dari handover klien untuk referensi TEI. Konfirmasi ulang shipping line, depot, tanggal, rute, dan currency sebelum dipakai sebagai quotation.",
+      "items": [
+        {
+          "label": "THC 20ft",
+          "value": "USD 95 / cont"
+        },
+        {
+          "label": "THC 40ft",
+          "value": "USD 145 / cont"
+        },
+        {
+          "label": "Doc fee",
+          "value": "USD 10–20"
+        },
+        {
+          "label": "Seal",
+          "value": "USD 15–20"
+        }
+      ]
+    },
+    {
+      "title": "Depot Reference",
+      "badge": "Indicative",
+      "note": "Bukan tarif publik permanen; gunakan hanya sebagai starting point untuk diskusi buyer.",
+      "items": [
+        {
+          "label": "Lift on/off 20ft",
+          "value": "USD 55"
+        },
+        {
+          "label": "Lift on/off 40ft",
+          "value": "USD 70"
+        },
+        {
+          "label": "Storage 20ft",
+          "value": "USD 50"
+        },
+        {
+          "label": "Storage 40ft",
+          "value": "USD 70"
+        }
+      ]
     }
   ],
   "gallery": [],
   "actions": [
     {
       "key": "whatsapp",
-      "label": "WhatsApp Kontak Bu Fifi",
+      "label": "WhatsApp · Bu Fifi / TEI inquiry",
       "url": "https://wa.me/6281806265777"
     },
     {
       "key": "website",
-      "label": "Website Resmi · www.hhb.co.id",
-      "url": "https://www.hhb.co.id"
+      "label": "Official Website · hhb.co.id",
+      "url": "https://www.hhb.co.id/id"
     },
     {
-      "key": "email-sales",
-      "label": "Email Sales · sales@hhb.co.id",
+      "key": "email",
+      "label": "Official Customer Service · cs@hhb.co.id",
+      "url": "mailto:cs@hhb.co.id"
+    },
+    {
+      "key": "email",
+      "label": "Sales contact · Sales@hhb.co.id",
       "url": "mailto:Sales@hhb.co.id"
     },
     {
-      "key": "email-cs",
-      "label": "Customer Support · cs.hhb.2@gmail.com",
-      "url": "mailto:cs.hhb.2@gmail.com"
+      "key": "website",
+      "label": "Indonesia National Single Window · INSW",
+      "url": "https://insw.go.id/intr"
     }
   ],
   "verification": {
-    "status": "primary-source-checked",
+    "status": "public-source-checked",
     "checkedAt": "2026-10-13",
-    "note": "Data kontak resmi diverifikasi langsung dari Bu Fifi (PT Harmoni Harapan Bersama) via WhatsApp Gateway resmi.",
+    "note": "Services, scale and official CS address checked against hhb.co.id; direct TEI contact and reference rates come from the project handover.",
     "sources": [
       {
-        "label": "WhatsApp Gateway Communication (Bu Fifi HHB)",
-        "url": "https://wa.me/6281806265777"
-      }
-    ],
-    "channels": [
-      {
-        "key": "website",
-        "status": "verified"
+        "label": "HHB official website",
+        "url": "https://www.hhb.co.id/id"
       },
       {
-        "key": "whatsapp",
-        "status": "verified"
+        "label": "INSW",
+        "url": "https://insw.go.id/intr"
       }
     ]
-  },
-  "performance": {
-    "optimizedAt": "2026-10-13",
-    "heroFormat": "webp"
   }
 }

@@ -1,40 +1,52 @@
 {
   "brandLabel": "ZAHHAB HEALTHY DRINK",
-  "tagline": "Natural Healthy Herbal Beverages for Vibrant Living",
-  "eyebrow": "Healthy Drinks & Herbal Wellness · Tangsel",
-  "heroImage": "/brand/samara-real-1.webp",
+  "tagline": "Date-based drinks with a simple, everyday refreshment story.",
+  "eyebrow": "Susu Kurma · Lemon Kurma · Tangerang Selatan",
+  "heroImage": "/brand/zahhab-date-drink.svg",
   "palette": {
-    "bg": "#f7faf7",
-    "ink": "#142414",
-    "accent": "#16a34a",
-    "surface": "#14532d"
+    "bg": "#f7f5ea",
+    "ink": "#203024",
+    "accent": "#6b8f3e",
+    "surface": "#d9dfbd"
   },
   "story": {
-    "title": "Kesegaran Alami Minuman Sehat Tradisional Berkualitas.",
-    "body": "Zahhab Healthy Drink mempersembahkan ragam minuman kesehatan alami berbahan dasar herbal pilihan nusantara. Diproduksi higienis untuk menjaga kemurnian nutrisi dan khasiat alaminya, menghadirkan kesegaran yang menyehatkan tubuh setiap hari."
+    "title": "A date-based beverage brand with a clearer product story.",
+    "body": "A published UIN Jakarta research appendix identifies Zahhab Healthy Drink with susu kurma and lemon kurma products. This page keeps that concrete product identity and avoids medical, immunity or therapeutic claims that are not supported by the handover."
   },
   "stats": [
     {
-      "value": "Alami",
-      "label": "Bahan Herbal & Rempah Asli Tanpa Pewarna Buatan"
+      "value": "Kurma",
+      "label": "date-based product identity"
     },
     {
-      "value": "Sehat",
-      "label": "Minuman Segar Penjaga Imunitas & Kebugaran"
+      "value": "Milk",
+      "label": "susu kurma appears in a published UMKM product list"
     },
     {
-      "value": "Multi-Channel",
-      "label": "Aktif di Shopee, TikTok, YouTube & Komunitas Sehat"
+      "value": "Lemon",
+      "label": "lemon kurma appears in the same published list"
+    },
+    {
+      "value": "Social",
+      "label": "Instagram, TikTok and YouTube channels supplied by the owner"
     }
   ],
   "highlights": [
     {
-      "title": "Varian Minuman Segar Herbal Zahhab",
-      "body": "Diracik dari formula herbal warisan yang disesuaikan dengan selera modern, cocok diminum kapan saja dalam keadaan dingin maupun hangat."
+      "title": "Susu Kurma",
+      "body": "A date-and-milk beverage format associated with the Zahhab Healthy Drink product line."
     },
     {
-      "title": "Edukasi Hidup Sehat & Komunitas",
-      "body": "Temukan resep dan tips gaya hidup bugar melalui channel resmi YouTube, TikTok, dan Instagram kami."
+      "title": "Lemon Kurma",
+      "body": "A citrus-and-date variant that gives the brand a second clear product direction."
+    },
+    {
+      "title": "Content Channels",
+      "body": "Instagram, TikTok and YouTube provide the direct discovery path supplied in the client handover."
+    },
+    {
+      "title": "No Medical Overclaim",
+      "body": "The NFC profile intentionally avoids immunity, cure or therapeutic language without product-specific substantiation."
     }
   ],
   "gallery": [],
@@ -53,45 +65,17 @@
       "key": "youtube",
       "label": "YouTube · @zahhab2020",
       "url": "https://www.youtube.com/@zahhab2020"
-    },
-    {
-      "key": "facebook",
-      "label": "Facebook · Zahhab Head",
-      "url": "https://www.facebook.com"
-    },
-    {
-      "key": "shopee",
-      "label": "Shopee Official · Zahhab Official",
-      "url": "https://shopee.co.id"
     }
   ],
   "verification": {
-    "status": "primary-source-checked",
+    "status": "public-source-checked",
     "checkedAt": "2026-10-13",
-    "note": "Semua channel media sosial dan toko resmi dikonfirmasi langsung oleh Kak Ety via WhatsApp Gateway.",
+    "note": "Product identity is supported by a published UIN Jakarta appendix; exact social URLs are retained from the client handover. Generic Facebook/Shopee homepages were removed until direct profile links are known.",
     "sources": [
       {
-        "label": "WhatsApp Gateway Communication (Kak Ety Zahhab)",
-        "url": "https://wa.me/6282121292938"
-      }
-    ],
-    "channels": [
-      {
-        "key": "instagram",
-        "status": "verified"
-      },
-      {
-        "key": "tiktok",
-        "status": "verified"
-      },
-      {
-        "key": "youtube",
-        "status": "verified"
+        "label": "UIN Jakarta UMKM product appendix",
+        "url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/78685/1/YULMA%20RASYIDAH-FST.pdf"
       }
     ]
-  },
-  "performance": {
-    "optimizedAt": "2026-10-13",
-    "heroFormat": "webp"
   }
 }

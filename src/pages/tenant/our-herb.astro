@@ -1,24 +1,21 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import EnhancedRichTenantShowcase from '../../components/EnhancedRichTenantShowcase.astro';
+import SmartNfcShowcase from '../../components/SmartNfcShowcase.astro';
 import config from '../../data/showcases/our-herb.json';
-
 const baseUrl = import.meta.env.BASE_URL;
 const tenant = {
-  name: 'Teh Telang Our Herb', slug: 'our-herb', hall: '8', booth: '8-7C',
-  category: 'Food, Beverage & Agriculture Products',
-  description: 'Pure Butterfly Pea Flower Tea & Herbal Wellness — Teh Telang Our Herb (OH).',
-  theme: 'food', website: 'https://www.instagram.com/ourherb.id',
-  instagram: 'https://www.instagram.com/ourherb.id',
-  whatsapp: 'https://wa.me/6287838209055',
-  researchStatus: 'primary-source-checked', verifiedAt: '2026-10-13'
+  name:'Teh Telang Our Herb', slug:'our-herb', hall:'8', booth:'8-7C',
+  category:'Food, Beverage & Agriculture Products',
+  description:'Butterfly pea flower tea in a practical teabag format from Setu, South Tangerang — Our Herb.',
+  theme:'food', website:'https://kurasi.tangerangselatankota.go.id/produk/134', instagram:'https://www.instagram.com/ourherb.id',
+  whatsapp:'https://wa.me/6287838209055', researchStatus:'public-source-checked', verifiedAt:'2026-10-13'
 };
 const structuredData = {
-  '@context': 'https://schema.org', '@type': 'Organization', name: tenant.name,
-  telephone: '+62 878-3820-9055', sameAs: [tenant.instagram]
+  '@context':'https://schema.org','@type':'Organization',name:tenant.name,
+  url:tenant.website,telephone:'+62 878-3820-9055',sameAs:[tenant.instagram]
 };
 ---
 <BaseLayout title="Teh Telang Our Herb — Tangsel TradeLink" description={tenant.description} theme="food"
   canonical={`${baseUrl}tenant/our-herb`} image={config.heroImage} structuredData={structuredData}>
-  <EnhancedRichTenantShowcase tenant={tenant} config={config} baseUrl={baseUrl} />
+  <SmartNfcShowcase tenant={tenant} config={config} baseUrl={baseUrl} />
 </BaseLayout>

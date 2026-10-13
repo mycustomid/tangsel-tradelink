@@ -1,53 +1,65 @@
 {
   "brandLabel": "DBUMBU AURELSHOP",
-  "tagline": "Bumbu Masak Praktis & Rempah Khas Nusantara",
-  "eyebrow": "Artisan Seasoning & Indonesian Spices · Tangsel",
-  "heroImage": "/brand/samara-real-1.webp",
+  "tagline": "Spices, herbs and pantry essentials from South Tangerang.",
+  "eyebrow": "Rempah · Herbal Ingredients · Pantry Supply",
+  "heroImage": "/brand/dbumbu-spice.svg",
   "palette": {
-    "bg": "#faf7f2",
-    "ink": "#1c1917",
-    "accent": "#ea580c",
-    "surface": "#431407"
+    "bg": "#fbf3e7",
+    "ink": "#2b1a12",
+    "accent": "#d65a1f",
+    "surface": "#e9c88f"
   },
   "story": {
-    "title": "Kelezatan Autentik Dapur Nusantara di Setiap Masakan.",
-    "body": "DBumbu Aurelshop memproduksi bumbu masak praktis dan rempah olahan pilihan siap pakai yang memudahkan siapa saja memasak hidangan lezat bercita rasa nusantara. Higienis, terpercaya, dan telah melayani ribuan pelanggan setia melalui marketplace dan offline channel."
+    "title": "A broad spice shelf, not a one-product story.",
+    "body": "AurelShop2018 operates a wide marketplace catalog from South Tangerang spanning dried spices, powdered botanicals, herbal drink ingredients, fresh ingredients and pantry staples. The NFC page therefore focuses on product discovery and direct ordering instead of unsupported claims about customer counts or shelf life."
   },
   "stats": [
     {
-      "value": "Praktis",
-      "label": "Bumbu Siap Masak Tanpa Repot Mengulek"
+      "value": "Spices",
+      "label": "dried and powdered Indonesian pantry ingredients"
     },
     {
-      "value": "Alami",
-      "label": "Rempah Pilihan Khas Indonesia Berkualitas"
+      "value": "Herbal",
+      "label": "botanical powders and traditional drink ingredients"
     },
     {
-      "value": "Marketplace",
-      "label": "Toko Resmi Shopee dengan Rating Positif"
+      "value": "Tangsel",
+      "label": "marketplace listings identify the store in South Tangerang"
+    },
+    {
+      "value": "Online",
+      "label": "direct WhatsApp, Instagram, Shopee and Maps discovery"
     }
   ],
   "highlights": [
     {
-      "title": "Varian Bumbu Masak Tradisional",
-      "body": "Pilihan lengkap aneka bumbu masakan nusantara dengan resep khas keluarga yang kaya rempah dan sedap."
+      "title": "Whole & Dried Spices",
+      "body": "Examples visible in marketplace listings include star anise, dried chili and other pantry spices."
     },
     {
-      "title": "Kemasan Higienis & Tahan Simpan",
-      "body": "Diproses dengan standar kebersihan tinggi untuk menjaga aroma dan rasa rempah tetap segar."
+      "title": "Powdered Botanicals",
+      "body": "Kencur, temulawak and other powdered ingredients broaden the range for home and small F&B kitchens."
+    },
+    {
+      "title": "Herbal Drink Ingredients",
+      "body": "The catalog also crosses into traditional beverage ingredients and herbal pantry products."
+    },
+    {
+      "title": "Fast Buyer Route",
+      "body": "NFC visitors can move directly to WhatsApp, Shopee, Instagram or the physical-location map."
     }
   ],
   "gallery": [],
   "actions": [
     {
       "key": "whatsapp",
-      "label": "WhatsApp Pemesanan · 0812-8060-3913",
+      "label": "WhatsApp · 0812-8060-3913",
       "url": "https://wa.me/6281280603913"
     },
     {
       "key": "shopee",
-      "label": "Shopee Official · aurelshop2018",
-      "url": "https://www.shopee.co.id/aurelshop2018"
+      "label": "Shopee · AurelShop2018",
+      "url": "https://shopee.co.id/aurelshop2018"
     },
     {
       "key": "instagram",
@@ -56,37 +68,19 @@
     },
     {
       "key": "maps",
-      "label": "Lokasi Google Maps",
+      "label": "Google Maps",
       "url": "https://maps.app.goo.gl/kSZjhvxdMvS4dJyM9"
     }
   ],
   "verification": {
-    "status": "primary-source-checked",
+    "status": "public-source-checked",
     "checkedAt": "2026-10-13",
-    "note": "Data kontak resmi dikonfirmasi langsung oleh Henny Kartika (DBumbu Aurelshop) via WhatsApp Gateway.",
+    "note": "Public Shopee product pages confirm AurelShop2018, South Tangerang location and the broad spices/herbal catalog; direct channels follow the client handover.",
     "sources": [
       {
-        "label": "WhatsApp Gateway Communication (Henny Kartika)",
-        "url": "https://wa.me/6281280603913"
-      }
-    ],
-    "channels": [
-      {
-        "key": "whatsapp",
-        "status": "verified"
-      },
-      {
-        "key": "shopee",
-        "status": "verified"
-      },
-      {
-        "key": "instagram",
-        "status": "verified"
+        "label": "AurelShop2018 on Shopee",
+        "url": "https://shopee.co.id/aurelshop2018"
       }
     ]
-  },
-  "performance": {
-    "optimizedAt": "2026-10-13",
-    "heroFormat": "webp"
   }
 }

@@ -1,26 +1,23 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import EnhancedRichTenantShowcase from '../../components/EnhancedRichTenantShowcase.astro';
+import SmartNfcShowcase from '../../components/SmartNfcShowcase.astro';
 import config from '../../data/showcases/samara-from-home.json';
-
 const baseUrl = import.meta.env.BASE_URL;
 const tenant = {
-  name: 'Samara from Home', slug: 'samara-from-home', hall: '8', booth: '8-7C',
-  category: 'Food, Beverage & Agriculture Products',
-  description: 'Healthy, delicious cooking made easy for everyone — SAMARA from Home artisan cooking sauces and Indonesian sambal.',
-  theme: 'food', website: 'https://www.instagram.com/samara.fromhome/', instagram: 'https://www.instagram.com/samara.fromhome/',
-  whatsapp: 'https://wa.me/628561096967', maps: 'https://www.google.com/maps/search/?api=1&query=-6.305892,106.734535',
-  tokopedia: 'https://www.tokopedia.com/samarafromhome', shopee: 'https://shopee.co.id/shop/284144746',
-  logo: '/brand/samara-logo.webp', researchStatus: 'primary-source-checked', verifiedAt: '2026-10-13'
+  name:'Samara from Home', slug:'samara-from-home', hall:'8', booth:'8-7C',
+  category:'Food, Beverage & Agriculture Products',
+  description:'Healthy, delicious cooking made easy for everyone — SAMARA from Home cooking sauces and Indonesian sambal.',
+  theme:'food', website:'https://www.instagram.com/samara.fromhome/', instagram:'https://www.instagram.com/samara.fromhome/',
+  whatsapp:'https://wa.me/628561096967', maps:'https://www.google.com/maps/search/?api=1&query=-6.305892,106.734535',
+  tokopedia:'https://www.tokopedia.com/samarafromhome', shopee:'https://shopee.co.id/shop/284144746',
+  logo:'/brand/samara-logo.webp', researchStatus:'primary-source-checked', verifiedAt:'2026-10-13'
 };
 const structuredData = {
-  '@context': 'https://schema.org', '@type': 'Organization', name: tenant.name,
-  url: tenant.website, telephone: '+62 856-109-6967',
-  address: { '@type': 'PostalAddress', streetAddress: 'Providence House No. 23, Jl. Elang Raya', addressLocality: 'Pamulang', addressRegion: 'Banten', postalCode: '15431', addressCountry: 'ID' },
-  sameAs: [tenant.instagram]
+  '@context':'https://schema.org','@type':'Organization',name:tenant.name,
+  url:tenant.website,telephone:'+62 856-1096-967',sameAs:[tenant.instagram]
 };
 ---
 <BaseLayout title="Samara from Home — Tangsel TradeLink" description={tenant.description} theme="food" favicon={tenant.logo}
   canonical={`${baseUrl}tenant/samara-from-home`} image={config.heroImage} structuredData={structuredData}>
-  <EnhancedRichTenantShowcase tenant={tenant} config={config} baseUrl={baseUrl} />
+  <SmartNfcShowcase tenant={tenant} config={config} baseUrl={baseUrl} />
 </BaseLayout>
