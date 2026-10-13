@@ -42,15 +42,15 @@ const faviconPath = favicon
         ? favicon
         : `${basePath}${favicon.replace(/^\//, '')}`)
   : defaultFavicon;
-const faviconType = faviconPath.endsWith('.svg')
-  ? 'image/svg+xml'
-  : faviconPath.endsWith('.webp')
-    ? 'image/webp'
-    : faviconPath.endsWith('.png')
-      ? 'image/png'
-      : faviconPath.endsWith('.ico')
-        ? 'image/x-icon'
-        : undefined;
+const isSvg = faviconPath.endsWith('.svg');
+const isPng = faviconPath.endsWith('.png');
+const isIco = faviconPath.endsWith('.ico');
+const isWebp = faviconPath.endsWith('.webp');
+const pngFallback = isSvg
+  ? faviconPath.replace(/\.svg$/, '.png')
+  : isWebp
+    ? faviconPath.replace(/\.webp$/, '.png')
+    : faviconPath;
 const structuredJson = structuredData
   ? JSON.stringify(structuredData).replace(/</g, '\\u003c')
   : undefined;
@@ -65,13 +65,15 @@ const structuredJson = structuredData
     <meta name="robots" content={robots} />
     <meta name="theme-color" content="#0b1727" />
     <link rel="canonical" href={canonicalUrl} />
-    {faviconType ? (
-      <link rel="icon" type={faviconType} href={faviconPath} />
-    ) : (
-      <link rel="icon" href={faviconPath} />
+    {isSvg && <link rel="icon" type="image/svg+xml" href={faviconPath} />}
+    {isPng && <link rel="icon" type="image/png" href={faviconPath} />}
+    {isIco && <link rel="icon" type="image/x-icon" href={faviconPath} />}
+    {isWebp && <link rel="icon" type="image/webp" href={faviconPath} />}
+    {!isSvg && !isPng && !isIco && !isWebp && <link rel="icon" href={faviconPath} />}
+    {pngFallback !== faviconPath && (
+      <link rel="alternate icon" type="image/png" href={pngFallback} />
     )}
-    <link rel="alternate icon" href={faviconPath} />
-    <link rel="apple-touch-icon" href={faviconPath} />
+    <link rel="apple-touch-icon" href={pngFallback} />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Tangsel TradeLink" />
     <meta property="og:title" content={title} />
