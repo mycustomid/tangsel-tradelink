@@ -1,0 +1,150 @@
+{
+  "brandLabel": "MD ORGANIC",
+  "tagline": "Produsen & Supplier Beras Organik Bersertifikat Indonesia",
+  "eyebrow": "Certified Organic Rice & Healthy Living · Tangsel",
+  "heroImage": "/brand/md-organic-hero.webp",
+  "palette": {
+    "bg": "#f9faf6",
+    "ink": "#142614",
+    "accent": "#2e7d32",
+    "surface": "#1b4d1e"
+  },
+  "story": {
+    "title": "Beras Organik Murni Langsung dari Petani Mitra Terpercaya.",
+    "body": "MD Organic menghadirkan beras organik berkualitas tinggi dan produk pangan alami bebas pestisida sintetis. Dirawat langsung oleh petani binaan dengan standar organik ketat untuk menjaga kemurnian nutrisi, menghadirkan asupan sehat terbaik bagi keluarga serta mitra ritel dan ekspor."
+  },
+  "stats": [
+    {
+      "value": "100%",
+      "label": "Beras Organik Alami Bersertifikat Resmi Bebas Pestisida"
+    },
+    {
+      "value": "10k+",
+      "label": "Produk Terjual & Dipercaya Pelanggan Seluruh Indonesia"
+    },
+    {
+      "value": "Retail & B2B",
+      "label": "Mitra Supermarket Ternama & Siap Suplai Ekspor"
+    },
+    {
+      "value": "TEI 2026",
+      "label": "Peserta Terkurasi Resmi Trade Expo Indonesia"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Beras Hitam & Putih Organik",
+      "body": "Kombinasi kaya antioksidan dan serat alami, pilihan terbaik untuk menjaga kesehatan dan nutrisi harian keluarga."
+    },
+    {
+      "title": "Beras Pandan Wangi & Beras Coklat Organik",
+      "body": "Aroma pandan alami yang pulen harum, serta beras coklat kaya serat dan vitamin untuk pola makan sehat."
+    },
+    {
+      "title": "Kemitraan Retail & Distributor",
+      "body": "Tersedia di berbagai jejaring supermarket modern nasional serta melayani kebutuhan suplai skala besar dan ekspor."
+    }
+  ],
+  "commercialBlocks": [
+    {
+      "title": "Koleksi Beras Organik Unggulan",
+      "badge": "Certified Organic",
+      "note": "Tersedia kemasan 2kg vacuum pack higienis untuk menjaga kesegaran butir beras.",
+      "items": [
+        {
+          "label": "Beras Pandan Wangi Organik (2kg)",
+          "value": "Vacuum Pack"
+        },
+        {
+          "label": "Beras Hitam + Putih Organik (2kg)",
+          "value": "Vacuum Pack"
+        },
+        {
+          "label": "Beras Coklat Organik (2kg)",
+          "value": "Vacuum Pack"
+        }
+      ]
+    }
+  ],
+  "gallery": [
+    {
+      "image": "/brand/md-organic-beras-hitam-putih.webp",
+      "label": "Beras Hitam & Putih Organik",
+      "caption": "Kemasan resmi MD Organic vacuum pack.",
+      "url": "https://www.organic-md.com"
+    },
+    {
+      "image": "/brand/md-organic-pandan-wangi.webp",
+      "label": "Beras Pandan Wangi Organik",
+      "caption": "Beras pulen beraroma pandan alami pilihan.",
+      "url": "https://www.organic-md.com"
+    },
+    {
+      "image": "/brand/md-organic-beras-coklat.webp",
+      "label": "Beras Coklat Organik",
+      "caption": "Kaya serat pangan dan nutrisi alami.",
+      "url": "https://www.organic-md.com"
+    }
+  ],
+  "actions": [
+    {
+      "key": "whatsapp",
+      "label": "WhatsApp Order · 0858-8999-5454",
+      "url": "https://wa.me/6285889995454"
+    },
+    {
+      "key": "website",
+      "label": "Website Resmi · www.organic-md.com",
+      "url": "https://www.organic-md.com"
+    },
+    {
+      "key": "tokopedia",
+      "label": "Tokopedia Official",
+      "url": "https://tk.tokopedia.com/ZSbKnanCT/"
+    },
+    {
+      "key": "shopee",
+      "label": "Shopee Official",
+      "url": "https://id.shp.ee/FvTLHMmw"
+    },
+    {
+      "key": "blibli",
+      "label": "Blibli Official",
+      "url": "https://blibli.onelink.me/GNtk/mgmjpy2c"
+    },
+    {
+      "key": "instagram",
+      "label": "Instagram · @organic_md",
+      "url": "https://www.instagram.com/organic_md"
+    },
+    {
+      "key": "youtube",
+      "label": "YouTube · MD Organic",
+      "url": "https://www.youtube.com/@MDOrganic"
+    },
+    {
+      "key": "maps",
+      "label": "Lokasi Kantor & Showroom",
+      "url": "https://www.google.com/maps/search/?api=1&query=Perumahan+anggrek+loka+blok+B4+no+12+graha+Raya+Bintaro+jaya+Tangerang+Selatan"
+    }
+  ],
+  "verification": {
+    "status": "primary-source-checked",
+    "checkedAt": "2026-10-13",
+    "note": "Data kontak dan link kanal resmi dikonfirmasi langsung via pengantar Pak Eeng, aset gambar asli disedot langsung dari web resmi www.organic-md.com via BlackArch scraper.",
+    "sources": [
+      {
+        "label": "Official Website (Scraped via BlackArch)",
+        "url": "https://www.organic-md.com"
+      },
+      {
+        "label": "WhatsApp Forward Pak Eeng (MD Organic)",
+        "url": "https://wa.me/6285889995454"
+      }
+    ]
+  },
+  "performance": {
+    "optimizedAt": "2026-10-13",
+    "heroFormat": "webp"
+  }
+}

@@ -1,0 +1,416 @@
+[
+  {
+    "no": 1,
+    "brand": "PT Harmoni Harapan Bersama (HHB)",
+    "owner": "Bu Fifi",
+    "slug": "hhb",
+    "hasShowcase": true,
+    "hasPage": true,
+    "status": "SUDAH JADI (LIVE LOKAL & REPO)"
+  },
+  {
+    "no": 2,
+    "brand": "Titik Kurniasih",
+    "owner": "Titik Kurniasih",
+    "slug": "titik-kurniasih",
+    "hasShowcase": false,
+    "hasPage": false,
+    "status": "BELUM DIBUAT"
+  },
+  {
+    "no": 3,
+    "brand": "Ladifa Collection",
+    "owner": "Dewi Krisliawati / Bu Lia",
+    "slug": "ladifa-collection",
+    "hasShowcase": false,
+    "hasPage": false,
+    "status": "BELUM DIBUAT"
+  },
+  {
+    "no": 4,
+    "brand": "Euis Siti Khodijah",
+    "owner": "Euis Siti Khodijah",
+    "slug": "euis-siti-khodijah",
+    "hasShowcase": false,
+    "hasPage": false,
+    "status": "BELUM DIBUAT"
+  },
+  {
+    "no": 5,
+    "brand": "Fenda Iriani",
+    "owner": "Fenda Iriani",
+    "slug": "fenda-iriani",
+    "hasShowcase": false,
+    "hasPage": false,
+    "status": "BELUM DIBUAT"
+  },
+  {
+    "no": 6,
+    "brand": "Den Bagus",
+    "owner": "Mimin",
+    "slug": "den-bagus",
+    "hasShowcase": false,
+    "hasPage": false,
+    "status": "BELUM DIBUAT"
+  },
+  {
+    "no": 7,
+    "brand": "Shirudo Lab",
+    "owner": "Lingsia",
+    "slug": "shirudo-lab",
+    "hasShowcase": false,
+    "hasPage": false,
+    "status": "BELUM DIBUAT"
+  },
+  {
+    "no": 8,
+    "brand": "Ladifa Collection",
+    "owner": "Ladifa Collection",
+    "slug": "ladifa-collection",
+    "hasShowcase": false,
+    "hasPage": false,
+    "status": "BELUM DIBUAT"
+  },
+  {
+    "no": 9,
+    "brand": "Haira",
+    "owner": "Rizka Fauziah",
+    "slug": "haira",
+    "hasShowcase": false,
+    "hasPage": false,
+    "status": "BELUM DIBUAT"
+  },
+  {
+    "no": 10,
+    "brand": "Lika Snack",
+    "owner": "Poniyem",
+    "slug": "lika-snack",
+    "hasShowcase": false,
+    "hasPage": false,
+    "status": "BELUM DIBUAT"
+  },
+  {
+    "no": 11,
+    "brand": "DANISCAKELICIO",
+    "owner": "Nani",
+    "slug": "daniscakelicio",
+    "hasShowcase": false,
+    "hasPage": false,
+    "status": "BELUM DIBUAT"
+  },
+  {
+    "no": 12,
+    "brand": "Samara from Home",
+    "owner": "Faye Yolody",
+    "slug": "samara-from-home",
+    "hasShowcase": true,
+    "hasPage": true,
+    "status": "SUDAH JADI (LIVE LOKAL & REPO)"
+  },
+  {
+    "no": 13,
+    "brand": "PT Cosmar",
+    "owner": "PT Cosmar",
+    "slug": "pt-cosmar",
+    "hasShowcase": false,
+    "hasPage": false,
+    "status": "BELUM DIBUAT"
+  },
+  {
+    "no": 14,
+    "brand": "Dapur Nanay",
+    "owner": "Amalia",
+    "slug": "dapur-nanay",
+    "hasShowcase": false,
+    "hasPage": false,
+    "status": "BELUM DIBUAT"
+  },
+  {
+    "no": 15,
+    "brand": "Pempek Wak Ebot",
+    "owner": "Vera",
+    "slug": "pempek-wak-ebot",
+    "hasShowcase": false,
+    "hasPage": false,
+    "status": "BELUM DIBUAT"
+  },
+  {
+    "no": 16,
+    "brand": "ZYVAS",
+    "owner": "Nia Alina",
+    "slug": "zyvas",
+    "hasShowcase": false,
+    "hasPage": false,
+    "status": "BELUM DIBUAT"
+  },
+  {
+    "no": 17,
+    "brand": "PT Niaga Citra Mandiri",
+    "owner": "PT Niaga Citra Mandiri",
+    "slug": "pt-niaga-citra-mandiri",
+    "hasShowcase": false,
+    "hasPage": false,
+    "status": "BELUM DIBUAT"
+  },
+  {
+    "no": 18,
+    "brand": "RHR Snack",
+    "owner": "Kerupuk RHR",
+    "slug": "rhr-snack",
+    "hasShowcase": false,
+    "hasPage": false,
+    "status": "BELUM DIBUAT"
+  },
+  {
+    "no": 19,
+    "brand": "Ery Mamaw",
+    "owner": "Ery Mamaw",
+    "slug": "ery-mamaw",
+    "hasShowcase": false,
+    "hasPage": false,
+    "status": "BELUM DIBUAT"
+  },
+  {
+    "no": 20,
+    "brand": "Zahhab Healthy Drink",
+    "owner": "Kak Ety",
+    "slug": "zahhab",
+    "hasShowcase": true,
+    "hasPage": true,
+    "status": "SUDAH JADI (LIVE LOKAL & REPO)"
+  },
+  {
+    "no": 21,
+    "brand": "Teh Telang Our Herb (OH)",
+    "owner": "Kumala A. Haryono",
+    "slug": "our-herb",
+    "hasShowcase": true,
+    "hasPage": true,
+    "status": "SUDAH JADI (LIVE LOKAL & REPO)"
+  },
+  {
+    "no": 22,
+    "brand": "Rosniati",
+    "owner": "Rosniati",
+    "slug": "rosniati",
+    "hasShowcase": false,
+    "hasPage": false,
+    "status": "BELUM DIBUAT"
+  },
+  {
+    "no": 23,
+    "brand": "Eni Chandra Shanti",
+    "owner": "Eni Chandra Shanti",
+    "slug": "eni-chandra",
+    "hasShowcase": false,
+    "hasPage": false,
+    "status": "BELUM DIBUAT"
+  },
+  {
+    "no": 24,
+    "brand": "Jahe Hayatiqu",
+    "owner": "Nanik",
+    "slug": "jahe-hayatiqu",
+    "hasShowcase": false,
+    "hasPage": false,
+    "status": "BELUM DIBUAT"
+  },
+  {
+    "no": 25,
+    "brand": "OChokat",
+    "owner": "Bela",
+    "slug": "ochokat",
+    "hasShowcase": false,
+    "hasPage": false,
+    "status": "BELUM DIBUAT"
+  },
+  {
+    "no": 26,
+    "brand": "FENNYCROCHE",
+    "owner": "Fenny Luckyharti",
+    "slug": "fennycroche",
+    "hasShowcase": false,
+    "hasPage": false,
+    "status": "BELUM DIBUAT"
+  },
+  {
+    "no": 27,
+    "brand": "DBumbu Aurelshop",
+    "owner": "Henny Kartika Wati",
+    "slug": "dbumbu-aurelshop",
+    "hasShowcase": true,
+    "hasPage": true,
+    "status": "SUDAH JADI (LIVE LOKAL & REPO)"
+  },
+  {
+    "no": 28,
+    "brand": "ELLETA (Batik & Tenun Modern)",
+    "owner": "Joanita Kusumawati",
+    "slug": "elleta",
+    "hasShowcase": false,
+    "hasPage": false,
+    "status": "BELUM DIBUAT"
+  },
+  {
+    "no": 29,
+    "brand": "Kartika Bela",
+    "owner": "Kartika Bela",
+    "slug": "kartika-bela",
+    "hasShowcase": false,
+    "hasPage": false,
+    "status": "BELUM DIBUAT"
+  },
+  {
+    "no": 30,
+    "brand": "Snapclean",
+    "owner": "Estie K.W",
+    "slug": "snapclean",
+    "hasShowcase": false,
+    "hasPage": false,
+    "status": "BELUM DIBUAT"
+  },
+  {
+    "no": 31,
+    "brand": "ARANOMIYA",
+    "owner": "Shasty Pramahesty",
+    "slug": "aranomiya",
+    "hasShowcase": true,
+    "hasPage": true,
+    "status": "SUDAH JADI (LIVE LOKAL & REPO)"
+  },
+  {
+    "no": 32,
+    "brand": "Nurazlinda",
+    "owner": "Nurazlinda",
+    "slug": "nurazlinda",
+    "hasShowcase": false,
+    "hasPage": false,
+    "status": "BELUM DIBUAT"
+  },
+  {
+    "no": 33,
+    "brand": "Fevy",
+    "owner": "Fevy",
+    "slug": "fevy",
+    "hasShowcase": false,
+    "hasPage": false,
+    "status": "BELUM DIBUAT"
+  },
+  {
+    "no": 34,
+    "brand": "Health Today",
+    "owner": "Kevin",
+    "slug": "health-today",
+    "hasShowcase": false,
+    "hasPage": false,
+    "status": "BELUM DIBUAT"
+  },
+  {
+    "no": 35,
+    "brand": "MD Organic (Beras Organik)",
+    "owner": "Sinta",
+    "slug": "md-organic",
+    "hasShowcase": false,
+    "hasPage": false,
+    "status": "BELUM DIBUAT"
+  },
+  {
+    "no": 36,
+    "brand": "Batinos Pastry",
+    "owner": "Dewi Anwar",
+    "slug": "batinos-pastry",
+    "hasShowcase": false,
+    "hasPage": false,
+    "status": "BELUM DIBUAT"
+  },
+  {
+    "no": 37,
+    "brand": "Meraki",
+    "owner": "Lala",
+    "slug": "meraki",
+    "hasShowcase": false,
+    "hasPage": false,
+    "status": "BELUM DIBUAT"
+  },
+  {
+    "no": 38,
+    "brand": "GiGa Tech",
+    "owner": "GiGa Tech",
+    "slug": "giga-tech",
+    "hasShowcase": false,
+    "hasPage": false,
+    "status": "BELUM DIBUAT"
+  },
+  {
+    "no": 39,
+    "brand": "Lalisha Food",
+    "owner": "Haris",
+    "slug": "lalisha-food",
+    "hasShowcase": false,
+    "hasPage": false,
+    "status": "BELUM DIBUAT"
+  },
+  {
+    "no": 40,
+    "brand": "Tokibi Coffee",
+    "owner": "Yuda",
+    "slug": "tokibi-coffee",
+    "hasShowcase": false,
+    "hasPage": false,
+    "status": "BELUM DIBUAT"
+  },
+  {
+    "no": 41,
+    "brand": "Mba' Wanti",
+    "owner": "Darwanti",
+    "slug": "mba-wanti",
+    "hasShowcase": false,
+    "hasPage": false,
+    "status": "BELUM DIBUAT"
+  },
+  {
+    "no": 42,
+    "brand": "Datik Batik",
+    "owner": "Datik D",
+    "slug": "datik-batik",
+    "hasShowcase": false,
+    "hasPage": false,
+    "status": "BELUM DIBUAT"
+  },
+  {
+    "no": 43,
+    "brand": "Peddler Indonesia",
+    "owner": "Peddler Indonesia",
+    "slug": "peddler-indonesia",
+    "hasShowcase": false,
+    "hasPage": false,
+    "status": "BELUM DIBUAT"
+  },
+  {
+    "no": 44,
+    "brand": "Dodol Betawi Haji Imang",
+    "owner": "Sri Liana",
+    "slug": "dodol-betawi-haji-imang",
+    "hasShowcase": false,
+    "hasPage": false,
+    "status": "BELUM DIBUAT"
+  },
+  {
+    "no": 45,
+    "brand": "Larrisa Food",
+    "owner": "Ifa",
+    "slug": "larrisa-food",
+    "hasShowcase": false,
+    "hasPage": false,
+    "status": "BELUM DIBUAT"
+  },
+  {
+    "no": 46,
+    "brand": "CV Makmur Jaya Sentosa",
+    "owner": "Sri Sabbahatun",
+    "slug": "cv-makmur-jaya-sentosa",
+    "hasShowcase": false,
+    "hasPage": false,
+    "status": "BELUM DIBUAT"
+  }
+]
