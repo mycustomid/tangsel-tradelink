@@ -2,7 +2,9 @@
   "brandLabel": "DANISCAKELICIO",
   "tagline": "Ciputat-made cheese stick, kentang kering and keripik bawang for retail, hampers and everyday snacking.",
   "eyebrow": "Food / Pantry · Tangerang Selatan",
-  "heroImage": "/brand/tei-batch/daniscakelicio.svg",
+  "heroImage": "/brand/daniscakelicio/danis-asset-1.jpg",
+  "logo": "/brand/daniscakelicio/danis-asset-1.jpg",
+  "favicon": "/brand/daniscakelicio/danis-asset-1.jpg",
   "heroFit": "cover",
   "visualMode": "food",
   "palette": {
@@ -52,7 +54,12 @@
     }
   ],
   "commercialBlocks": [],
-  "gallery": [],
+  "gallery": [
+    "/brand/daniscakelicio/danis-asset-1.jpg",
+    "/brand/daniscakelicio/danis-asset-2.jpg",
+    "/brand/daniscakelicio/danis-asset-3.jpg",
+    "/brand/daniscakelicio/danis-asset-4.jpg"
+  ],
   "actions": [
     {
       "key": "instagram",

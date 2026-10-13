@@ -3,6 +3,8 @@
   "tagline": "Custom AI agents, automation, RAG and connected workflows built around real operations.",
   "eyebrow": "PT Azka Digi · Bintaro · AI agents · Automation · Data systems",
   "heroImage": "/brand/my-aicustom-hero.svg",
+  "logo": "/brand/my-aicustom-logo.png",
+  "favicon": "/brand/my-aicustom-favicon.png",
   "palette": {
     "bg": "#08111d",
     "ink": "#f5f7fb",

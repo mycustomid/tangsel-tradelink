@@ -2,7 +2,9 @@
   "brandLabel": "ALIYA'S COOKIES (ENI CHANDRA)",
   "tagline": "Kue Kering Nastar & Hampers Homemade Berkualitas Halal dari Pondok Aren Tangsel.",
   "eyebrow": "Artisan Cookies & Bakery · Pondok Aren Tangsel",
-  "heroImage": "/brand/tei-batch/eni-chandra.svg",
+  "heroImage": "/brand/eni-chandra/eni-chandra-asset-1.jpg",
+  "logo": "/brand/eni-chandra/eni-chandra-asset-1.jpg",
+  "favicon": "/brand/eni-chandra/eni-chandra-asset-1.jpg",
   "heroFit": "cover",
   "visualMode": "food",
   "palette": {
@@ -45,6 +47,10 @@
     {
       "title": "Kualitas Homemade Higienis",
       "body": "Setiap butir kue dipanggang dengan standar kebersihan ketat untuk menjaga aroma dan kerenyahan maksimal."
+    },
+    {
+      "title": "Florentine & BrownCris Cookies",
+      "body": "Inovasi camilan cookies modern seperti florentine aneka kacang biji-bijian dan brownies crispy panggang kaya cokelat."
     }
   ],
   "commercialBlocks": [
@@ -68,7 +74,12 @@
       ]
     }
   ],
-  "gallery": [],
+  "gallery": [
+    "/brand/eni-chandra/eni-chandra-asset-1.jpg",
+    "/brand/eni-chandra/eni-chandra-asset-2.jpg",
+    "/brand/eni-chandra/eni-chandra-asset-3.jpg",
+    "/brand/eni-chandra/eni-chandra-asset-4.jpg"
+  ],
   "actions": [
     {
       "key": "whatsapp",

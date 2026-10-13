@@ -89,7 +89,9 @@ export function makeMonogramFavicon(label = '', background = '#1e3a8a', foregrou
 }
 
 export function resolveTenantFavicon(tenant = {}, config = {}) {
+  if (config.favicon) return config.favicon;
   if (config.logo) return config.logo;
+  if (tenant.favicon) return tenant.favicon;
   if (tenant.logo) return tenant.logo;
 
   const website = safeWebUrl(tenant.website || config.website);
@@ -102,7 +104,7 @@ export function resolveTenantFavicon(tenant = {}, config = {}) {
     } catch {}
   }
 
-  if (config.heroImage && (config.heroImage.endsWith('.png') || config.heroImage.endsWith('.webp') || config.heroImage.endsWith('.svg')) && !config.heroImage.includes('tei-batch')) {
+  if (config.heroImage && (/\.(png|webp|svg|jpg|jpeg)$/i.test(config.heroImage)) && !config.heroImage.includes('tei-batch')) {
     return config.heroImage;
   }
 

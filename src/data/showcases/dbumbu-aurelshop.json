@@ -2,7 +2,10 @@
   "brandLabel": "DBUMBU AURELSHOP",
   "tagline": "Spices, herbs and pantry essentials from South Tangerang.",
   "eyebrow": "Rempah · Herbal Ingredients · Pantry Supply",
-  "heroImage": "/brand/dbumbu-spice.svg",
+  "heroImage": "/brand/dbumbu-aurelshop/dbumbu-asset-1.jpg",
+  "logo": "/brand/dbumbu-aurelshop/dbumbu-asset-1.jpg",
+  "favicon": "/brand/dbumbu-aurelshop/dbumbu-asset-1.jpg",
+  "heroFit": "cover",
   "palette": {
     "bg": "#fbf3e7",
     "ink": "#2b1a12",
@@ -49,7 +52,12 @@
       "body": "NFC visitors can move directly to WhatsApp, Shopee, Instagram or the physical-location map."
     }
   ],
-  "gallery": [],
+  "gallery": [
+    "/brand/dbumbu-aurelshop/dbumbu-asset-1.jpg",
+    "/brand/dbumbu-aurelshop/dbumbu-asset-2.jpg",
+    "/brand/dbumbu-aurelshop/dbumbu-asset-3.jpg",
+    "/brand/dbumbu-aurelshop/dbumbu-asset-4.jpg"
+  ],
   "actions": [
     {
       "key": "whatsapp",

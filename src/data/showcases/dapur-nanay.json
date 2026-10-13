@@ -3,6 +3,8 @@
   "tagline": "Naytaste Cheese Stick, Kentang Mustofa & Aneka Camilan Gurih Khas Pamulang Tangerang Selatan.",
   "eyebrow": "Artisan Snack & Pantry · Tangsel",
   "heroImage": "/brand/dapur-nanay/dapur-nanay-hero.jpg",
+  "logo": "/brand/dapur-nanay/dapur-nanay-asset-1.png",
+  "favicon": "/brand/dapur-nanay/dapur-nanay-asset-1.png",
   "heroFit": "cover",
   "visualMode": "food",
   "palette": {
@@ -45,6 +47,10 @@
     {
       "title": "Multi-Channel Ordering",
       "body": "Tersedia pemesanan langsung melalui WhatsApp, Shopee, TikTok Shop, serta katalog Canva interaktif."
+    },
+    {
+      "title": "Paket Hampers & Suplai Event",
+      "body": "Melayani pesanan hampers korporat, bingkisan hari raya, serta pasokan konsumsi snack meeting berstandar higienis."
     }
   ],
   "commercialBlocks": [

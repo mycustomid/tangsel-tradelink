@@ -2,7 +2,9 @@
   "brandLabel": "ELLETA",
   "tagline": "Koleksi Wastra Nusantara, Batik Tulis & Tenun Modern Bergaya Kontemporer.",
   "eyebrow": "Heritage Textile & Modern Batik · Tangsel",
-  "heroImage": "/brand/tei-batch/elleta.svg",
+  "heroImage": "/brand/elleta/elleta-hero.png",
+  "logo": "/brand/elleta/elleta-logo.png",
+  "favicon": "/brand/elleta/elleta-logo.png",
   "heroFit": "cover",
   "visualMode": "fashion",
   "palette": {
@@ -45,6 +47,10 @@
     {
       "title": "Layanan Custom & Kurasi Buyer",
       "body": "Menerima pesanan rancangan kustom untuk seragam korporat, hampers eksklusif, dan buyers internasional."
+    },
+    {
+      "title": "Aksesoris Syal & Wastra Nusantara",
+      "body": "Pilihan syal batik unisex panjang dan aksesoris bandana pelengkap penampilan modis berkarakter khas Indonesia."
     }
   ],
   "commercialBlocks": [
@@ -68,8 +74,18 @@
       ]
     }
   ],
-  "gallery": [],
+  "gallery": [
+    "/brand/elleta/elleta-hero.png",
+    "/brand/elleta/elleta-asset-1.png",
+    "/brand/elleta/elleta-asset-2.jpg",
+    "/brand/elleta/elleta-asset-3.jpg"
+  ],
   "actions": [
+    {
+      "key": "website",
+      "label": "Official Website · elleta.id",
+      "url": "https://elleta.id/"
+    },
     {
       "key": "whatsapp",
       "label": "WhatsApp Owner · 0813-8900-8035",

@@ -3,6 +3,9 @@
   "tagline": "Produsen & Supplier Beras Organik Bersertifikat Indonesia",
   "eyebrow": "Certified Organic Rice & Healthy Living · Tangsel",
   "heroImage": "/brand/md-organic-hero.webp",
+  "logo": "/brand/md-organic-logo.png",
+  "favicon": "/brand/md-organic-logo.png",
+  "heroFit": "cover",
   "palette": {
     "bg": "#f9faf6",
     "ink": "#142614",

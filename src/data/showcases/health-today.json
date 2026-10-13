@@ -3,7 +3,7 @@
   "tagline": "Produsen Bahan Baku Minuman Premium B2B & Solusi Menu HoReCa Terkemuka.",
   "eyebrow": "Beverage Ingredients & HoReCa Supply · Taman Tekno BSD",
   "heroImage": "/brand/health-today/health-today-asset-1.jpg",
-  "heroFit": "cover",
+  "heroFit": "contain",
   "visualMode": "beverage",
   "palette": {
     "bg": "#f3f6ec",
@@ -45,6 +45,10 @@
     {
       "title": "Layanan Menu R&D Khusus",
       "body": "Mendukung pengembangan resep dan standarisasi rasa bagi pelaku usaha kafe dan rantai restoran."
+    },
+    {
+      "title": "Sertifikasi Standar Internasional",
+      "body": "Seluruh fasilitas produksi telah tersertifikasi BPOM, Halal MUI, dan ISO 22000 untuk jaminan higienitas dan mutu keamanan pangan rantai pasok global."
     }
   ],
   "commercialBlocks": [

@@ -63,6 +63,22 @@ const featuredShowcases = [
     line: 'Gourmet Syrups & Minuman Resto Terkemuka',
     image: `${baseUrl}brand/health-today/health-today-asset-1.jpg`,
     category: 'Beverage Solutions'
+  },
+  {
+    slug: 'bumina-eenk',
+    name: 'Bumina Eenk',
+    kicker: 'Hospitality & Retreat',
+    line: 'Sundanese Heritage Homestay & Botanical Garden',
+    image: `${baseUrl}brand/bumina-eenk-hero.webp`,
+    category: 'Hospitality & Retreat'
+  },
+  {
+    slug: 'samara-from-home',
+    name: 'Samara from Home',
+    kicker: 'Artisanal Sambal & Sauces',
+    line: 'Traditional Indonesian Chili Pastes & Culinary Seasoning',
+    image: `${baseUrl}brand/samara-real-1.webp`,
+    category: 'Food & Pantry'
   }
 ];
 
@@ -136,7 +152,7 @@ const previewTenants = tenantList.slice(0, 8);
 
       <div class="bento-grid">
         {featuredShowcases.map((item, index) => (
-          <a href={`${baseUrl}tenant/${item.slug}`} class={`bento-card bento-${index + 1}`}>
+          <a href={`${baseUrl}tenant/${item.slug}`} class={`bento-card bento-${index + 1} featured-showcase`}>
             <div class="card-media">
               <img src={item.image} alt={item.name} loading={index < 2 ? 'eager' : 'lazy'} decoding="async" />
               <div class="media-overlay"></div>
@@ -570,7 +586,9 @@ const previewTenants = tenantList.slice(0, 8);
     gap: 12px;
     margin-bottom: 30px;
   }
-  .mini-tenant-card {
+  .mini-tenant-card, .directory-card {
+    content-visibility: auto;
+    contain-intrinsic-size: 72px;
     display: flex;
     justify-content: space-between;
     align-items: center;

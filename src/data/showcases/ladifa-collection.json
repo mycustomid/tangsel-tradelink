@@ -3,6 +3,8 @@
   "tagline": "Indonesia Gemstone, Handmade & Handicraft Collection dari Tangerang Selatan.",
   "eyebrow": "Handmade Gemstone & Fashion Craft · Tangsel",
   "heroImage": "/brand/ladifa-collection/ladifa-asset-3.jpg",
+  "logo": "/brand/ladifa-collection/ladifa-asset-1.png",
+  "favicon": "/brand/ladifa-collection/ladifa-asset-1.png",
   "heroFit": "cover",
   "visualMode": "fashion",
   "palette": {
@@ -45,6 +47,10 @@
     {
       "title": "Pesanan Kustom & Skala Ekspor",
       "body": "Menerima pesanan partai besar untuk cenderamata korporat, pameran internasional, dan mitra dagang global."
+    },
+    {
+      "title": "Perak Silver 925 & Material Alami",
+      "body": "Memadukan rangka perak kadar 925 dengan batu mulia nusantara terverifikasi untuk estetika elegan dan daya tahan tinggi."
     }
   ],
   "commercialBlocks": [

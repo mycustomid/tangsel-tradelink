@@ -156,17 +156,21 @@ const iconKey = (key = '') => {
       </div>
       <div class="gallery">
         {gallery.map((item:any) => {
-          const image = resolveAsset(item.image);
+          const rawSrc = typeof item === 'string' ? item : (item.image || item.src);
+          const rawLabel = typeof item === 'string' ? `${label} Product` : item.label;
+          const rawCaption = typeof item === 'string' ? '' : item.caption;
+          const image = resolveAsset(rawSrc);
           const figure = (
             <figure>
-              {image && <img src={image} alt={item.label} width="900" height="700" loading="lazy" decoding="async" fetchpriority="low" onerror="this.style.display='none'" />}
+              {image && <img src={image} alt={rawLabel} width="900" height="700" loading="lazy" decoding="async" fetchpriority="low" onerror="this.style.display='none'" />}
               <figcaption>
-                <strong>{item.label}</strong>
-                {item.caption && <span>{item.caption}</span>}
+                <strong>{rawLabel}</strong>
+                {rawCaption && <span>{rawCaption}</span>}
               </figcaption>
             </figure>
           );
-          return item.url ? <a href={item.url} target="_blank" rel="noopener noreferrer">{figure}</a> : figure;
+          const url = typeof item === 'object' ? item.url : null;
+          return url ? <a href={url} target="_blank" rel="noopener noreferrer">{figure}</a> : figure;
         })}
       </div>
     </section>

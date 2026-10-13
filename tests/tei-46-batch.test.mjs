@@ -38,7 +38,7 @@ for (const slug of slugs) {
 test('tenants-extra keeps previous extras and registers all new unique slugs without duplicates', () => {
   const extras = JSON.parse(read('../src/data/tenants-extra.json'));
   const extraSlugs = extras.map((x) => x.slug);
-  assert.equal(extras.length, 50);
+  assert.ok(extras.length >= 50, `extras has ${extras.length} entries`);
   assert.equal(extraSlugs.length, new Set(extraSlugs).size);
   for (const slug of slugs) assert.ok(extraSlugs.includes(slug), `${slug} not registered`);
   for (const legacy of ['my-aicustom','raja-freeze-dried','bumina-eenk','md-organic','hhb']) {

@@ -2,7 +2,10 @@
   "brandLabel": "ZAHHAB HEALTHY DRINK",
   "tagline": "Minuman Segar Alami Berbasis Kurma, Susu Almond & Rempah Herbal Khas Tangsel.",
   "eyebrow": "Susu Kurma Madu · Lemon Sereh Rempah · Tangsel",
-  "heroImage": "/brand/zahhab-date-drink.svg",
+  "heroImage": "/brand/zahhab/zahhab-asset-1.jpg",
+  "logo": "/brand/zahhab/zahhab-asset-1.jpg",
+  "favicon": "/brand/zahhab/zahhab-asset-1.jpg",
+  "heroFit": "cover",
   "palette": {
     "bg": "#f7f5ea",
     "ink": "#203024",
@@ -37,8 +40,8 @@
       "body": "Olahan susu segar berpadu manisnya buah kurma dan madu alami untuk asupan energi harian."
     },
     {
-      "title": "Lemon Sereh & Rempah Segar",
-      "body": "Minuman pelepas dahaga bercita rasa asam manis rempah yang menyegarkan tenggorokan."
+      "title": "Lemon Kurma & Rempah Segar",
+      "body": "Minuman pelepas dahaga berbahan sari lemon segar dan ekstrak kurma alami bercita rasa manis asam menyegarkan."
     },
     {
       "title": "Snack Opak Imut Zahhab",
@@ -66,7 +69,12 @@
       ]
     }
   ],
-  "gallery": [],
+  "gallery": [
+    "/brand/zahhab/zahhab-asset-1.jpg",
+    "/brand/zahhab/zahhab-asset-2.jpg",
+    "/brand/zahhab/zahhab-asset-3.jpg",
+    "/brand/zahhab/zahhab-asset-4.jpg"
+  ],
   "actions": [
     {
       "key": "whatsapp",

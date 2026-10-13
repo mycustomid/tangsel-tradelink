@@ -2,7 +2,9 @@
   "brandLabel": "ARANOMIYA",
   "tagline": "Indonesian botanical body care for retail, hospitality and private-label collaboration.",
   "eyebrow": "Natural Soap · Botanical Body Care · Tangerang Selatan",
-  "heroImage": "https://cdn.linkumkm.id/uploads/library/1/2/1/2/2/3/121223_840x576.jpg",
+  "heroImage": "/brand/aranomiya/aranomiya-asset-2.jpg",
+  "logo": "/brand/aranomiya/aranomiya-asset-2.jpg",
+  "favicon": "/brand/aranomiya/aranomiya-asset-2.jpg",
   "heroFit": "cover",
   "palette": {
     "bg": "#f7f1e8",
@@ -52,10 +54,20 @@
   ],
   "gallery": [
     {
-      "image": "https://cdn.linkumkm.id/uploads/library/1/2/1/2/2/3/121223_840x576.jpg",
+      "image": "/brand/aranomiya/aranomiya-asset-2.jpg",
       "label": "Shaf Von by Aranomiya · Natural Body Care",
       "caption": "Public product photography surfaced by LinkUMKM; loaded lazily so it does not block the NFC first fold.",
       "url": "https://linkumkm.id/ecommerce/detail/34726/sabun-cair-natural"
+    },
+    {
+      "image": "/brand/aranomiya/aranomiya-asset-3.jpg",
+      "label": "Aranomiya Botanical Soap Bar",
+      "caption": "Handmade botanical bar soap crafted with local essential oils."
+    },
+    {
+      "image": "/brand/aranomiya/aranomiya-asset-4.jpg",
+      "label": "Aranomiya Artisan Aromatherapy",
+      "caption": "Aromatherapy and skin-loving botanical formulas."
     }
   ],
   "actions": [

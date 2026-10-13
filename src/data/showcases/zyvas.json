@@ -3,6 +3,8 @@
   "tagline": "Contemporary Modest Wear, Homedress & Fashion Harian Modern dari Tangerang Selatan.",
   "eyebrow": "Modest Fashion & Dailywear · Tangsel",
   "heroImage": "/brand/zyvas/zyvas-asset-3.jpg",
+  "logo": "/brand/zyvas/zyvas-asset-1.jpg",
+  "favicon": "/brand/zyvas/zyvas-asset-1.jpg",
   "heroFit": "cover",
   "visualMode": "fashion",
   "palette": {
@@ -45,6 +47,10 @@
     {
       "title": "Pemesanan Ritel & Kemitraan Reseller",
       "body": "Membuka peluang kerja sama reseller, grosir, dan pasokan untuk butik rekanan."
+    },
+    {
+      "title": "Material Katun Premium & Jahitan Rapi",
+      "body": "Menggunakan bahan kain berserat alami yang sejuk, menyerap keringat, dengan standar jahitan butik berkualitas tinggi."
     }
   ],
   "commercialBlocks": [

@@ -2,7 +2,10 @@
   "brandLabel": "TEH TELANG OUR HERB",
   "tagline": "Butterfly pea tea in a practical teabag format from Setu, South Tangerang.",
   "eyebrow": "Butterfly Pea Flower Tea · Setu · Tangerang Selatan",
-  "heroImage": "/brand/our-herb-telang.svg",
+  "heroImage": "/brand/our-herb/our-herb-asset-1.jpg",
+  "logo": "/brand/our-herb/our-herb-asset-1.jpg",
+  "favicon": "/brand/our-herb/our-herb-asset-1.jpg",
+  "heroFit": "cover",
   "palette": {
     "bg": "#f4f5fb",
     "ink": "#17182a",
@@ -51,10 +54,20 @@
   ],
   "gallery": [
     {
-      "image": "https://pknstan.ac.id/sites/default/files/gallery-article/3_71.jpg",
+      "image": "/brand/our-herb/our-herb-asset-1.jpg",
       "label": "Our Herb · Seduhan Telang",
       "caption": "Product photography from a PKN STAN training/assistance article featuring Our Herb.",
       "url": "https://pknstan.ac.id/id/pelatihan-1"
+    },
+    {
+      "image": "/brand/our-herb/our-herb-asset-2.jpg",
+      "label": "Our Herb Bunga Telang Kering",
+      "caption": "Seduhan herbal telang alami kemasan higienis binaan Rumah Kurasi Tangsel."
+    },
+    {
+      "image": "/brand/our-herb/our-herb-asset-3.jpg",
+      "label": "Our Herb Telang Infusion",
+      "caption": "Kemasan kotak teabag praktis untuk cafe, retail dan konsumsi harian."
     }
   ],
   "actions": [

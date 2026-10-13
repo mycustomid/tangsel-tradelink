@@ -2,7 +2,9 @@
   "brandLabel": "PT HARMONI HARAPAN BERSAMA",
   "tagline": "Connecting cargo to the world—by air, sea and compliant customs handling.",
   "eyebrow": "International Freight Forwarder · Jakarta & Serpong",
-  "heroImage": "/brand/hhb-logistics.svg",
+  "heroImage": "/brand/hhb/hhb-hero.jpg",
+  "logo": "/brand/hhb/hhb-logo.png",
+  "favicon": "/brand/hhb/hhb-favicon.png",
   "palette": {
     "bg": "#f7f8fa",
     "ink": "#101b2c",
@@ -97,7 +99,11 @@
       ]
     }
   ],
-  "gallery": [],
+  "gallery": [
+    "/brand/hhb/hhb-hero.jpg",
+    "/brand/hhb/hhb-team.jpg",
+    "/brand/hhb/hhb-logo.png"
+  ],
   "actions": [
     {
       "key": "whatsapp",
