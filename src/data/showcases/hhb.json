@@ -1,0 +1,96 @@
+{
+  "brandLabel": "PT HARMONI HARAPAN BERSAMA",
+  "tagline": "Integrated Freight Forwarding & Export Logistics Partner",
+  "eyebrow": "International Freight Forwarder & EMKL · TEI 2026 Partner",
+  "heroImage": "/brand/samara-real-1.webp",
+  "palette": {
+    "bg": "#f8fafc",
+    "ink": "#0f172a",
+    "accent": "#0284c7",
+    "surface": "#1e293b"
+  },
+  "story": {
+    "title": "Mitra Terpercaya Logistik Ekspor & EMKL Nusantara.",
+    "body": "PT Harmoni Harapan Bersama (HHB) adalah penyedia layanan jasa logistik ekspor-impor, pengurusan kepabeanan (PPJK), dan EMKL terintegrasi. Kami melayani pengapalan kontainer (20ft & 40ft), handling FOB Priok, lift on/lift off depo, serta solusi end-to-end bagi pelaku usaha dan IKM Indonesia untuk menembus pasar global."
+  },
+  "stats": [
+    {
+      "value": "FOB",
+      "label": "Spesialis Pengurusan Local Charges FOB Pelabuhan Tanjung Priok"
+    },
+    {
+      "value": "20'/40'",
+      "label": "Penanganan Kontainer 20ft & 40ft FCL / LCL"
+    },
+    {
+      "value": "EMKL",
+      "label": "Layanan Pengurusan Dokumen Kepabeanan & Bea Cukai Cepat"
+    },
+    {
+      "value": "TEI 2026",
+      "label": "Mitra Pendamping Logistik Peserta Trade Expo Indonesia"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Local Charges Pelayaran (FOB Priok)",
+      "body": "Transparansi estimasi THC 20ft/40ft, doc fee pelayaran resmi, dan seal kontainer untuk kepastian kalkulasi penawaran buyer luar negeri."
+    },
+    {
+      "title": "Depo Container Handling (Lo-Lo & Storage)",
+      "body": "Manajemen lift on / lift off terintegrasi dengan koordinasi depo rekanan untuk memastikan efisiensi jadwal stuffing & closing time kapal."
+    },
+    {
+      "title": "Layanan Forwarding Door to Port & Port to Port",
+      "body": "Jaringan shipping lines global untuk memastikan kargo ekspor tiba tepat waktu dengan biaya logistik paling kompetitif."
+    }
+  ],
+  "gallery": [],
+  "actions": [
+    {
+      "key": "whatsapp",
+      "label": "WhatsApp Kontak Bu Fifi",
+      "url": "https://wa.me/6281806265777"
+    },
+    {
+      "key": "website",
+      "label": "Website Resmi · www.hhb.co.id",
+      "url": "https://www.hhb.co.id"
+    },
+    {
+      "key": "email-sales",
+      "label": "Email Sales · sales@hhb.co.id",
+      "url": "mailto:Sales@hhb.co.id"
+    },
+    {
+      "key": "email-cs",
+      "label": "Customer Support · cs.hhb.2@gmail.com",
+      "url": "mailto:cs.hhb.2@gmail.com"
+    }
+  ],
+  "verification": {
+    "status": "primary-source-checked",
+    "checkedAt": "2026-10-13",
+    "note": "Data kontak resmi diverifikasi langsung dari Bu Fifi (PT Harmoni Harapan Bersama) via WhatsApp Gateway resmi.",
+    "sources": [
+      {
+        "label": "WhatsApp Gateway Communication (Bu Fifi HHB)",
+        "url": "https://wa.me/6281806265777"
+      }
+    ],
+    "channels": [
+      {
+        "key": "website",
+        "status": "verified"
+      },
+      {
+        "key": "whatsapp",
+        "status": "verified"
+      }
+    ]
+  },
+  "performance": {
+    "optimizedAt": "2026-10-13",
+    "heroFormat": "webp"
+  }
+}

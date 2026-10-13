@@ -1,0 +1,97 @@
+{
+  "brandLabel": "ZAHHAB HEALTHY DRINK",
+  "tagline": "Natural Healthy Herbal Beverages for Vibrant Living",
+  "eyebrow": "Healthy Drinks & Herbal Wellness · Tangsel",
+  "heroImage": "/brand/samara-real-1.webp",
+  "palette": {
+    "bg": "#f7faf7",
+    "ink": "#142414",
+    "accent": "#16a34a",
+    "surface": "#14532d"
+  },
+  "story": {
+    "title": "Kesegaran Alami Minuman Sehat Tradisional Berkualitas.",
+    "body": "Zahhab Healthy Drink mempersembahkan ragam minuman kesehatan alami berbahan dasar herbal pilihan nusantara. Diproduksi higienis untuk menjaga kemurnian nutrisi dan khasiat alaminya, menghadirkan kesegaran yang menyehatkan tubuh setiap hari."
+  },
+  "stats": [
+    {
+      "value": "Alami",
+      "label": "Bahan Herbal & Rempah Asli Tanpa Pewarna Buatan"
+    },
+    {
+      "value": "Sehat",
+      "label": "Minuman Segar Penjaga Imunitas & Kebugaran"
+    },
+    {
+      "value": "Multi-Channel",
+      "label": "Aktif di Shopee, TikTok, YouTube & Komunitas Sehat"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Varian Minuman Segar Herbal Zahhab",
+      "body": "Diracik dari formula herbal warisan yang disesuaikan dengan selera modern, cocok diminum kapan saja dalam keadaan dingin maupun hangat."
+    },
+    {
+      "title": "Edukasi Hidup Sehat & Komunitas",
+      "body": "Temukan resep dan tips gaya hidup bugar melalui channel resmi YouTube, TikTok, dan Instagram kami."
+    }
+  ],
+  "gallery": [],
+  "actions": [
+    {
+      "key": "instagram",
+      "label": "Instagram · @zahhab_head",
+      "url": "https://www.instagram.com/zahhab_head"
+    },
+    {
+      "key": "tiktok",
+      "label": "TikTok · @Zahhab20",
+      "url": "https://www.tiktok.com/@Zahhab20"
+    },
+    {
+      "key": "youtube",
+      "label": "YouTube · @zahhab2020",
+      "url": "https://www.youtube.com/@zahhab2020"
+    },
+    {
+      "key": "facebook",
+      "label": "Facebook · Zahhab Head",
+      "url": "https://www.facebook.com"
+    },
+    {
+      "key": "shopee",
+      "label": "Shopee Official · Zahhab Official",
+      "url": "https://shopee.co.id"
+    }
+  ],
+  "verification": {
+    "status": "primary-source-checked",
+    "checkedAt": "2026-10-13",
+    "note": "Semua channel media sosial dan toko resmi dikonfirmasi langsung oleh Kak Ety via WhatsApp Gateway.",
+    "sources": [
+      {
+        "label": "WhatsApp Gateway Communication (Kak Ety Zahhab)",
+        "url": "https://wa.me/6282121292938"
+      }
+    ],
+    "channels": [
+      {
+        "key": "instagram",
+        "status": "verified"
+      },
+      {
+        "key": "tiktok",
+        "status": "verified"
+      },
+      {
+        "key": "youtube",
+        "status": "verified"
+      }
+    ]
+  },
+  "performance": {
+    "optimizedAt": "2026-10-13",
+    "heroFormat": "webp"
+  }
+}

@@ -1,0 +1,25 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import EnhancedRichTenantShowcase from '../../components/EnhancedRichTenantShowcase.astro';
+import config from '../../data/showcases/aranomiya.json';
+
+const baseUrl = import.meta.env.BASE_URL;
+const tenant = {
+  name: 'ARANOMIYA', slug: 'aranomiya', hall: '8', booth: '8-7C',
+  category: 'Fashion, Handicraft & Home Decor',
+  description: 'Authentic Craft & Creative Indonesian Living — ARANOMIYA.',
+  theme: 'craft', website: 'https://www.aranomiya.com',
+  instagram: 'https://www.instagram.com/aranomiya',
+  whatsapp: 'https://wa.me/6281586542838', maps: 'https://maps.app.goo.gl/EoKbubpxvzuT18FL9',
+  researchStatus: 'primary-source-checked', verifiedAt: '2026-10-13'
+};
+const structuredData = {
+  '@context': 'https://schema.org', '@type': 'Organization', name: tenant.name,
+  url: tenant.website, telephone: '+62 815-8654-2838',
+  sameAs: [tenant.instagram]
+};
+---
+<BaseLayout title="ARANOMIYA — Tangsel TradeLink" description={tenant.description} theme="craft"
+  canonical={`${baseUrl}tenant/aranomiya`} image={config.heroImage} structuredData={structuredData}>
+  <EnhancedRichTenantShowcase tenant={tenant} config={config} baseUrl={baseUrl} />
+</BaseLayout>

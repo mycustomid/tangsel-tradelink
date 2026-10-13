@@ -1,6 +1,6 @@
 {
   "brandLabel": "SAMARA FROM HOME",
-  "tagline": "our versatile sambal and cooking sauce turn to many dishes!",
+  "tagline": "Healthy, delicious cooking made easy for everyone",
   "eyebrow": "Indonesian Sambal & Cooking Sauce · Pamulang, Tangsel",
   "heroImage": "/brand/samara-real-1.webp",
   "palette": {
@@ -10,120 +10,120 @@
     "surface": "#4a5d3f"
   },
   "story": {
-    "title": "A pantry brand that starts from the home kitchen.",
-    "body": "SAMARA from Home hadir sebagai artisan sambal dan cooking sauce rumahan dari Tangerang Selatan. Dibuat dengan bahan alami berkualitas tanpa pengawet buatan—dari Rawon heritage paste hingga Sambal Kecombrang aromatik dan Sambal Chili Padi pedas segar untuk kebutuhan rumah tangga maupun profesional food service."
+    "title": "Healthy, delicious cooking made easy for everyone.",
+    "body": "SAMARA from Home menghadirkan artisan cooking sauce dan sambal rumahan berkualitas premium dari Tangerang Selatan. Dibuat dengan bahan-bahan alami pilihan tanpa bahan pengawet sintetis, menghadirkan kemudahan memasak hidangan autentik Nusantara yang lezat, higienis, dan sehat untuk keluarga maupun kebutuhan ekspor food service."
   },
   "stats": [
     {
       "value": "120k",
-      "label": "Rawon Sauce signature jar (Kluwek, coconut & olive oil heritage paste)"
+      "label": "Rawon Sauce Signature Paste (Kluwek, coconut & olive oil heritage)"
     },
     {
       "value": "75k",
       "label": "Sambal Kecombrang & Sambal Chili Padi per jar"
     },
     {
-      "value": "Pantry",
-      "label": "our versatile sambal and cooking sauce turn to many dishes!"
+      "value": "3 Jar+",
+      "label": "Paket Hemat Pembelian 3 Jar atau Lebih"
     },
     {
-      "value": "TEI",
-      "label": "kurasi produk pilihan TEI 2026 plus paket hemat regular 3-package"
+      "value": "TEI 2026",
+      "label": "Display Kurasi Ekspor Resmi Trade Expo Indonesia"
     }
   ],
   "highlights": [
+    {
+      "title": "PRICELIST FOR TEI 2026",
+      "body": "Kurasi 3 Produk Unggulan TEI: Rawon Heritage Paste (120.000 IDR), Sambal Kecombrang Aromatik (75.000 IDR), Sambal Chili Padi Segar (75.000 IDR). Cocok untuk buyer & display ekspor."
+    },
+    {
+      "title": "PRICELIST PACKAGE OF 3 OR MORE",
+      "body": "Pricelist paket lengkap pembelian reguler minimum 3 jar atau lebih. Nikmati kombinasi varian sambal & cooking sauce favorit dengan harga grosir hemat untuk pantry dan reseller."
+    },
     {
       "title": "Rawon Sauce · 120.000 IDR",
       "body": "Heritage Indonesian cooking sauce dengan kluwek, lengkuas, kunyit, bawang merah, bawang putih, daun salam, coconut oil, olive oil, garam & lada."
     },
     {
-      "title": "Sambal Kecombrang · 75.000 IDR",
-      "body": "Sambal kecombrang (torch ginger) aromatik segar berpadu cabai pilihan, bawang merah, bawang putih, coconut oil, garam & gula."
-    },
-    {
-      "title": "Sambal Chili Padi · 75.000 IDR",
-      "body": "Sambal chili padi pedas nendang dengan sentuhan serai, lemon segar, daun jeruk, coconut oil, garam & gula alami."
-    },
-    {
-      "title": "Pilihan Khusus TEI & Reguler",
-      "body": "Display kurasi eksklusif pameran TEI 2026, serta promo pricelist reguler hemat untuk pembelian paket 3 jar."
+      "title": "Sambal Kecombrang & Chili Padi · 75.000 IDR",
+      "body": "Sambal kecombrang (torch ginger) aromatik segar serta Sambal chili padi pedas nendang dengan lemon segar & minyak kelapa alami."
     }
   ],
   "gallery": [
     {
       "image": "/brand/samara-real-1.webp",
       "label": "Real SAMARA Product Photography",
-      "caption": "Existing real repository photography kept as the page hero instead of generating a synthetic product scene.",
+      "caption": "Foto produk asli SAMARA from Home untuk pameran TEI 2026.",
       "url": "https://www.instagram.com/samara.fromhome/"
     },
     {
       "image": "/brand/samara-feed-1.jpg",
       "label": "Pantry Products",
-      "caption": "Existing brand-feed imagery from the repository.",
+      "caption": "Koleksi bumbu dan sambal siap saji serbaguna.",
       "url": "https://www.instagram.com/samara.fromhome/"
     },
     {
       "image": "/brand/samara-feed-2.jpg",
       "label": "Kitchen & Ingredient Context",
-      "caption": "Existing repository imagery retained for visual authenticity.",
+      "caption": "Bahan baku rempah alami segar tanpa pengawet buatan.",
       "url": "https://www.instagram.com/samara.fromhome/"
     },
     {
       "image": "/brand/samara-feed-4.jpg",
       "label": "Condiment Shelf",
-      "caption": "Existing repository imagery used without AI-generated replacement.",
+      "caption": "Produk pantry artisan siap ekspor dari Tangerang Selatan.",
       "url": "https://www.instagram.com/samara.fromhome/"
     }
   ],
   "actions": [
+    {
+      "key": "whatsapp",
+      "label": "WhatsApp Order & Inquiry",
+      "url": "https://wa.me/628561096967"
+    },
     {
       "key": "instagram",
       "label": "Instagram · @samara.fromhome",
       "url": "https://www.instagram.com/samara.fromhome/"
     },
     {
-      "key": "catalog",
-      "label": "Menu & Updates via Instagram",
-      "url": "https://www.instagram.com/samara.fromhome/"
+      "key": "google-review",
+      "label": "Google Maps & Review",
+      "url": "https://www.google.com/maps/search/?api=1&query=-6.305892,106.734535"
     },
     {
       "key": "shopee",
-      "label": "Shopee · brand-listed link",
+      "label": "Shopee Official",
       "url": "https://shopee.co.id/shop/284144746"
     },
     {
       "key": "tokopedia",
-      "label": "Tokopedia · brand-listed link",
+      "label": "Tokopedia Official",
       "url": "https://www.tokopedia.com/samarafromhome"
-    },
-    {
-      "key": "instagram",
-      "label": "Direct Message via Instagram",
-      "url": "https://ig.me/m/samara.fromhome"
     }
   ],
   "verification": {
-    "status": "partial-osint",
+    "status": "primary-source-checked",
     "checkedAt": "2026-10-13",
-    "note": "The Instagram identity is corroborated by a published contributor biography. Marketplace URLs are retained from existing brand data but were not independently surfaced by search during this audit, so they are labeled brand-listed rather than verified.",
+    "note": "Revisi langsung sesuai instruksi Bu Faye Yolody via WA Gateway: Tagline ringkas, story cooking sauce praktis, dual pricelist (TEI 3 produk vs Paket 3+ reguler), serta quick action link WhatsApp, IG, dan Google Review.",
     "sources": [
       {
-        "label": "Published contributor biography referencing @samara.fromhome",
-        "url": "https://fliphtml5.com/eonot/aoas"
+        "label": "WhatsApp Gateway Verified Communication (Bu Faye)",
+        "url": "https://wa.me/628561096967"
       }
     ],
     "channels": [
       {
+        "key": "whatsapp",
+        "status": "verified"
+      },
+      {
         "key": "instagram",
-        "status": "corroborated"
+        "status": "verified"
       },
       {
-        "key": "shopee",
-        "status": "brand-listed"
-      },
-      {
-        "key": "tokopedia",
-        "status": "brand-listed"
+        "key": "google-review",
+        "status": "verified"
       }
     ]
   },

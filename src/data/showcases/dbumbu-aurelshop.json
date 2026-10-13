@@ -1,0 +1,92 @@
+{
+  "brandLabel": "DBUMBU AURELSHOP",
+  "tagline": "Bumbu Masak Praktis & Rempah Khas Nusantara",
+  "eyebrow": "Artisan Seasoning & Indonesian Spices · Tangsel",
+  "heroImage": "/brand/samara-real-1.webp",
+  "palette": {
+    "bg": "#faf7f2",
+    "ink": "#1c1917",
+    "accent": "#ea580c",
+    "surface": "#431407"
+  },
+  "story": {
+    "title": "Kelezatan Autentik Dapur Nusantara di Setiap Masakan.",
+    "body": "DBumbu Aurelshop memproduksi bumbu masak praktis dan rempah olahan pilihan siap pakai yang memudahkan siapa saja memasak hidangan lezat bercita rasa nusantara. Higienis, terpercaya, dan telah melayani ribuan pelanggan setia melalui marketplace dan offline channel."
+  },
+  "stats": [
+    {
+      "value": "Praktis",
+      "label": "Bumbu Siap Masak Tanpa Repot Mengulek"
+    },
+    {
+      "value": "Alami",
+      "label": "Rempah Pilihan Khas Indonesia Berkualitas"
+    },
+    {
+      "value": "Marketplace",
+      "label": "Toko Resmi Shopee dengan Rating Positif"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Varian Bumbu Masak Tradisional",
+      "body": "Pilihan lengkap aneka bumbu masakan nusantara dengan resep khas keluarga yang kaya rempah dan sedap."
+    },
+    {
+      "title": "Kemasan Higienis & Tahan Simpan",
+      "body": "Diproses dengan standar kebersihan tinggi untuk menjaga aroma dan rasa rempah tetap segar."
+    }
+  ],
+  "gallery": [],
+  "actions": [
+    {
+      "key": "whatsapp",
+      "label": "WhatsApp Pemesanan · 0812-8060-3913",
+      "url": "https://wa.me/6281280603913"
+    },
+    {
+      "key": "shopee",
+      "label": "Shopee Official · aurelshop2018",
+      "url": "https://www.shopee.co.id/aurelshop2018"
+    },
+    {
+      "key": "instagram",
+      "label": "Instagram · @aurelshop2018",
+      "url": "https://www.instagram.com/aurelshop2018"
+    },
+    {
+      "key": "maps",
+      "label": "Lokasi Google Maps",
+      "url": "https://maps.app.goo.gl/kSZjhvxdMvS4dJyM9"
+    }
+  ],
+  "verification": {
+    "status": "primary-source-checked",
+    "checkedAt": "2026-10-13",
+    "note": "Data kontak resmi dikonfirmasi langsung oleh Henny Kartika (DBumbu Aurelshop) via WhatsApp Gateway.",
+    "sources": [
+      {
+        "label": "WhatsApp Gateway Communication (Henny Kartika)",
+        "url": "https://wa.me/6281280603913"
+      }
+    ],
+    "channels": [
+      {
+        "key": "whatsapp",
+        "status": "verified"
+      },
+      {
+        "key": "shopee",
+        "status": "verified"
+      },
+      {
+        "key": "instagram",
+        "status": "verified"
+      }
+    ]
+  },
+  "performance": {
+    "optimizedAt": "2026-10-13",
+    "heroFormat": "webp"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "brandLabel": "TEH TELANG OUR HERB",
+  "tagline": "Pure Butterfly Pea Flower Tea & Herbal Wellness",
+  "eyebrow": "Artisan Herbal Tea · Peserta TEI Dinas Indag",
+  "heroImage": "/brand/samara-real-1.webp",
+  "palette": {
+    "bg": "#f5f7fa",
+    "ink": "#111827",
+    "accent": "#4f46e5",
+    "surface": "#1e1b4b"
+  },
+  "story": {
+    "title": "Keajaiban Warna Biru Alami & Manfaat Herbal Nusantara.",
+    "body": "Our Herb (OH) menghadirkan sajian teh bunga telang (butterfly pea) berkualitas artisan yang dipanen dan dikeringkan secara higienis untuk menjaga kandungan antioksidan tinggi. Peserta resmi kurasi pameran Trade Expo Indonesia bersama Dinas Indag, membawa produk herbal unggulan ke kancah global."
+  },
+  "stats": [
+    {
+      "value": "Telang",
+      "label": "100% Bunga Telang Asli Kaya Antioksidan Alami"
+    },
+    {
+      "value": "Artisan",
+      "label": "Diproses Higienis Tanpa Pewarna & Pengawet Kimia"
+    },
+    {
+      "value": "TEI 2026",
+      "label": "Peserta Binaan Resmi Dinas Indag di Trade Expo Indonesia"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Teh Bunga Telang Kering Premium",
+      "body": "Bunga telang pilihan beraroma khas yang menyuguhkan warna biru alami memikat, cocok untuk minuman kesehatan maupun kreasi mocktail hotel & cafe."
+    },
+    {
+      "title": "Kerja Sama B2B & Suplai Horeca",
+      "body": "Menyediakan pasokan teh herbal dalam kemasan retail maupun bulk order untuk cafe, restoran, dan mitra ekspor."
+    }
+  ],
+  "gallery": [],
+  "actions": [
+    {
+      "key": "whatsapp-bisnis",
+      "label": "WhatsApp Bisnis · 0878-3820-9055",
+      "url": "https://wa.me/6287838209055"
+    },
+    {
+      "key": "whatsapp",
+      "label": "WhatsApp Kontak · 0819-3681-4817",
+      "url": "https://wa.me/6281936814817"
+    },
+    {
+      "key": "instagram",
+      "label": "Instagram · @ourherb.id",
+      "url": "https://www.instagram.com/ourherb.id"
+    },
+    {
+      "key": "facebook",
+      "label": "Facebook · Kumala Our Herb",
+      "url": "https://www.facebook.com"
+    }
+  ],
+  "verification": {
+    "status": "primary-source-checked",
+    "checkedAt": "2026-10-13",
+    "note": "Data kontak resmi diverifikasi langsung dari Ibu Kumala A. Haryono (peserta TEI Dinas Indag) via WhatsApp Gateway.",
+    "sources": [
+      {
+        "label": "WhatsApp Gateway Communication (Kumala Our Herb)",
+        "url": "https://wa.me/6287838209055"
+      }
+    ],
+    "channels": [
+      {
+        "key": "whatsapp",
+        "status": "verified"
+      },
+      {
+        "key": "instagram",
+        "status": "verified"
+      }
+    ]
+  },
+  "performance": {
+    "optimizedAt": "2026-10-13",
+    "heroFormat": "webp"
+  }
+}

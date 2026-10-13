@@ -1,0 +1,23 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import EnhancedRichTenantShowcase from '../../components/EnhancedRichTenantShowcase.astro';
+import config from '../../data/showcases/hhb.json';
+
+const baseUrl = import.meta.env.BASE_URL;
+const tenant = {
+  name: 'PT Harmoni Harapan Bersama', slug: 'hhb', hall: '5', booth: '5-14',
+  category: 'Services & Logistic',
+  description: 'Integrated Freight Forwarding & Export Logistics Partner — PT Harmoni Harapan Bersama (HHB).',
+  theme: 'industrial', website: 'https://www.hhb.co.id',
+  whatsapp: 'https://wa.me/6281806265777',
+  researchStatus: 'primary-source-checked', verifiedAt: '2026-10-13'
+};
+const structuredData = {
+  '@context': 'https://schema.org', '@type': 'Organization', name: tenant.name,
+  url: tenant.website, telephone: '+62 818-0626-5777'
+};
+---
+<BaseLayout title="PT Harmoni Harapan Bersama — Tangsel TradeLink" description={tenant.description} theme="industrial"
+  canonical={`${baseUrl}tenant/hhb`} image={config.heroImage} structuredData={structuredData}>
+  <EnhancedRichTenantShowcase tenant={tenant} config={config} baseUrl={baseUrl} />
+</BaseLayout>

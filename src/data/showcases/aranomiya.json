@@ -1,0 +1,102 @@
+{
+  "brandLabel": "ARANOMIYA",
+  "tagline": "Authentic Craft & Creative Indonesian Living",
+  "eyebrow": "Indonesian Lifestyle & Heritage Craft · TEI 2026",
+  "heroImage": "/brand/samara-real-1.webp",
+  "palette": {
+    "bg": "#fcfaf7",
+    "ink": "#1c1917",
+    "accent": "#9a3412",
+    "surface": "#292524"
+  },
+  "story": {
+    "title": "Sentuhan Kreasi Autentik dari Nusantara untuk Dunia.",
+    "body": "ARANOMIYA menghadirkan ragam karya kreatif, kriya, dan produk gaya hidup berkualitas tinggi yang terinspirasi dari kekayaan budaya Indonesia. Setiap karya dirancang dengan ketelitian, estetika tinggi, dan standar mutu prima untuk memenuhi pasar domestik maupun kebutuhan buyers internasional di Trade Expo Indonesia."
+  },
+  "stats": [
+    {
+      "value": "Authentic",
+      "label": "Karakter Desain Khas Nusantara Berkualitas Ekspor"
+    },
+    {
+      "value": "Global",
+      "label": "Siap Kemitraan Ekspor & Custom B2B Order"
+    },
+    {
+      "value": "TEI 2026",
+      "label": "Peserta Terkurasi Resmi Trade Expo Indonesia"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Katalog Produk & Profil Perusahaan",
+      "body": "Akses langsung company profile dan portofolio resmi ARANOMIYA untuk referensi buyer dan mitra bisnis."
+    },
+    {
+      "title": "Kustomisasi & Pemesanan Skala Besar",
+      "body": "Melayani pesanan tailor-made dengan kontrol kualitas ketat untuk kebutuhan ritel, korporat, dan ekspor."
+    }
+  ],
+  "gallery": [],
+  "actions": [
+    {
+      "key": "whatsapp",
+      "label": "WhatsApp Official · 0815-8654-2838",
+      "url": "https://wa.me/6281586542838"
+    },
+    {
+      "key": "website",
+      "label": "Website Resmi · www.aranomiya.com",
+      "url": "https://www.aranomiya.com"
+    },
+    {
+      "key": "instagram",
+      "label": "Instagram · @aranomiya",
+      "url": "https://www.instagram.com/aranomiya"
+    },
+    {
+      "key": "catalog",
+      "label": "Unduh Company Profile (PDF)",
+      "url": "https://1drv.ms/b/c/c00c80680b54ea76/IQDwQ8dO3VGgS64AyAREHuyOASF1UylBH2vxh5DLseoGxP0?e=Mt7LUx"
+    },
+    {
+      "key": "contact-card",
+      "label": "Lihat Digital Contact Card",
+      "url": "https://1drv.ms/i/c/c00c80680b54ea76/IQCALOw2y4CyS4gtuA9qropqAU4bsX-Pdzptzb88zOf68Rw?e=ZwQJbp"
+    },
+    {
+      "key": "maps",
+      "label": "Lokasi Google Maps",
+      "url": "https://maps.app.goo.gl/EoKbubpxvzuT18FL9"
+    }
+  ],
+  "verification": {
+    "status": "primary-source-checked",
+    "checkedAt": "2026-10-13",
+    "note": "Data Trade Expo lengkap dikirim langsung oleh perwakilan ARANOMIYA via WhatsApp Gateway resmi.",
+    "sources": [
+      {
+        "label": "WhatsApp Gateway Communication (ARANOMIYA)",
+        "url": "https://wa.me/6281586542838"
+      }
+    ],
+    "channels": [
+      {
+        "key": "website",
+        "status": "verified"
+      },
+      {
+        "key": "instagram",
+        "status": "verified"
+      },
+      {
+        "key": "whatsapp",
+        "status": "verified"
+      }
+    ]
+  },
+  "performance": {
+    "optimizedAt": "2026-10-13",
+    "heroFormat": "webp"
+  }
+}
