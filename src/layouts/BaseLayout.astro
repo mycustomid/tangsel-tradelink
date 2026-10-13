@@ -42,6 +42,15 @@ const faviconPath = favicon
         ? favicon
         : `${basePath}${favicon.replace(/^\//, '')}`)
   : defaultFavicon;
+const faviconType = faviconPath.endsWith('.svg')
+  ? 'image/svg+xml'
+  : faviconPath.endsWith('.webp')
+    ? 'image/webp'
+    : faviconPath.endsWith('.png')
+      ? 'image/png'
+      : faviconPath.endsWith('.ico')
+        ? 'image/x-icon'
+        : undefined;
 const structuredJson = structuredData
   ? JSON.stringify(structuredData).replace(/</g, '\\u003c')
   : undefined;
@@ -56,7 +65,11 @@ const structuredJson = structuredData
     <meta name="robots" content={robots} />
     <meta name="theme-color" content="#0b1727" />
     <link rel="canonical" href={canonicalUrl} />
-    <link rel="icon" type="image/svg+xml" href={faviconPath} />
+    {faviconType ? (
+      <link rel="icon" type={faviconType} href={faviconPath} />
+    ) : (
+      <link rel="icon" href={faviconPath} />
+    )}
     <link rel="alternate icon" href={faviconPath} />
     <link rel="apple-touch-icon" href={faviconPath} />
     <meta property="og:type" content="website" />

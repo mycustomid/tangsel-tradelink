@@ -1,7 +1,7 @@
 {
   "brandLabel": "SAMARA FROM HOME",
-  "tagline": "Small-batch cooking sauces and pantry shortcuts with a home-kitchen point of view.",
-  "eyebrow": "Cooking sauces · Pantry products · Home-kitchen brand",
+  "tagline": "our versatile sambal and cooking sauce turn to many dishes!",
+  "eyebrow": "Indonesian Sambal & Cooking Sauce · Pamulang, Tangsel",
   "heroImage": "/brand/samara-real-1.webp",
   "palette": {
     "bg": "#faf7f2",
@@ -11,42 +11,42 @@
   },
   "story": {
     "title": "A pantry brand that starts from the home kitchen.",
-    "body": "SAMARA from Home hadir sebagai brand kuliner rumahan dengan ragam saus dan bumbu praktis. Handle @samara.fromhome dapat dikorroborasi dari publikasi lama yang menyebut pendirinya sebagai pengusaha kuliner. Pada audit ini, URL marketplace yang sudah tersimpan di repo tidak muncul pada hasil pencarian independen, sehingga TradeLink mempertahankannya sebagai kanal brand-listed—bukan memberi label verified store."
+    "body": "SAMARA from Home hadir sebagai artisan sambal dan cooking sauce rumahan dari Tangerang Selatan. Dibuat dengan bahan alami berkualitas tanpa pengawet buatan—dari Rawon heritage paste hingga Sambal Kecombrang aromatik dan Sambal Chili Padi pedas segar untuk kebutuhan rumah tangga maupun profesional food service."
   },
   "stats": [
     {
-      "value": "IG",
-      "label": "@samara.fromhome is independently corroborated by a published contributor biography"
+      "value": "120k",
+      "label": "Rawon Sauce signature jar (Kluwek, coconut & olive oil heritage paste)"
+    },
+    {
+      "value": "75k",
+      "label": "Sambal Kecombrang & Sambal Chili Padi per jar"
     },
     {
       "value": "Pantry",
-      "label": "brand positioning centers on sauces, seasonings and practical cooking formats"
+      "label": "our versatile sambal and cooking sauce turn to many dishes!"
     },
     {
-      "value": "B2C",
-      "label": "direct social discovery remains the clearest public route in this OSINT pass"
-    },
-    {
-      "value": "B2B?",
-      "label": "food-service fit is presented as a conversation opportunity, not a verified scale claim"
+      "value": "TEI",
+      "label": "kurasi produk pilihan TEI 2026 plus paket hemat regular 3-package"
     }
   ],
   "highlights": [
     {
-      "title": "Pesto & Herb Direction",
-      "body": "Herb-led sauces provide a practical base for pasta, sandwiches, grilled protein and home cooking."
+      "title": "Rawon Sauce · 120.000 IDR",
+      "body": "Heritage Indonesian cooking sauce dengan kluwek, lengkuas, kunyit, bawang merah, bawang putih, daun salam, coconut oil, olive oil, garam & lada."
     },
     {
-      "title": "Chimichurri Direction",
-      "body": "A bright herb-and-acid profile suited to grilled dishes, roasted vegetables and finishing applications."
+      "title": "Sambal Kecombrang · 75.000 IDR",
+      "body": "Sambal kecombrang (torch ginger) aromatik segar berpadu cabai pilihan, bawang merah, bawang putih, coconut oil, garam & gula."
     },
     {
-      "title": "Indonesian Pantry Direction",
-      "body": "Local flavour references such as rawon can translate heritage taste into an easier cooking format."
+      "title": "Sambal Chili Padi · 75.000 IDR",
+      "body": "Sambal chili padi pedas nendang dengan sentuhan serai, lemon segar, daun jeruk, coconut oil, garam & gula alami."
     },
     {
-      "title": "Creamy Comfort Direction",
-      "body": "Creamy and cheese-forward variants extend the pantry into pasta, dips and baked dishes."
+      "title": "Pilihan Khusus TEI & Reguler",
+      "body": "Display kurasi eksklusif pameran TEI 2026, serta promo pricelist reguler hemat untuk pembelian paket 3 jar."
     }
   ],
   "gallery": [

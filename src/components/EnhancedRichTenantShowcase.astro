@@ -15,24 +15,23 @@ const priorityExtras = tenantLinks
   .filter((link: any) => ['whatsapp', 'maps'].includes(link.key) && !existing.has(link.key))
   .map((link: any) => ({ key: link.key, label: link.label, url: link.href }));
 const enhancedConfig = { ...config, actions: [...priorityExtras, ...(config.actions || [])] };
-const brandLogo = getTenantLogo(tenant);
-const safeLogo = brandLogo ? brandLogo.replace(/"/g, '%22') : '';
-const logoStyle = safeLogo ? `--tenant-brand-logo:url("${safeLogo}")` : undefined;
+const rawLogo = getTenantLogo(tenant) || (tenant as any)?.logo || (config as any)?.logo;
+const normalizedBase = String(baseUrl).replace(/\/$/, '');
+const brandLogo = normalizedBase && rawLogo?.startsWith('/') && !rawLogo.startsWith(normalizedBase)
+  ? `${normalizedBase}${rawLogo}`
+  : rawLogo;
+const enhancedTenant = brandLogo ? { ...tenant, logo: brandLogo } : tenant;
 ---
 
-<div class:list={['enhanced-rich-showcase', brandLogo && 'has-brand-logo']} style={logoStyle}>
-  <RichTenantShowcase tenant={tenant} config={enhancedConfig} baseUrl={baseUrl} />
+<div class:list={['enhanced-rich-showcase', brandLogo && 'has-brand-logo']}>
+  <RichTenantShowcase tenant={enhancedTenant} config={enhancedConfig} baseUrl={baseUrl} />
 </div>
 
 <style is:global>
-  .enhanced-rich-showcase.has-brand-logo .brand-token > span {
+  .enhanced-rich-showcase.has-brand-logo .brand-token > span,
+  .enhanced-rich-showcase.has-brand-logo .endcap > span {
     background-color: #fff !important;
-    background-image: var(--tenant-brand-logo) !important;
-    background-position: center !important;
-    background-repeat: no-repeat !important;
-    background-size: contain !important;
-    color: transparent !important;
-    font-size: 0 !important;
     overflow: hidden !important;
+    box-shadow: 0 4px 18px rgba(0,0,0,0.2) !important;
   }
 </style>
