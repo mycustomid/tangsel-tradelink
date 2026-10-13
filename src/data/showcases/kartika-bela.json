@@ -1,0 +1,72 @@
+{
+  "brandLabel": "KARTIKA BELA",
+  "tagline": "Family snack profile prepared for direct TEI discovery.",
+  "eyebrow": "Food / Pantry · Tangerang Selatan",
+  "heroImage": "/brand/tei-batch/kartika-bela.svg",
+  "heroFit": "cover",
+  "visualMode": "food",
+  "palette": {
+    "bg": "#faf3e9",
+    "ink": "#2d1c15",
+    "accent": "#c45d2a",
+    "surface": "#ead5b8"
+  },
+  "story": {
+    "title": "Family snack profile prepared for direct TEI discovery.",
+    "body": "Kartika Bela tercatat sebagai usaha kuliner dan makanan ringan keluarga. Profil dibuat siap NFC tanpa mengarang produk atau kanal yang belum didokumentasikan."
+  },
+  "stats": [
+    {
+      "value": "Food",
+      "label": "primary business category"
+    },
+    {
+      "value": "Tangsel",
+      "label": "Tangerang Selatan exhibition profile"
+    },
+    {
+      "value": "TEI 2026",
+      "label": "digital booth discovery context"
+    },
+    {
+      "value": "Handover",
+      "label": "profile verification level"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Product discovery",
+      "body": "A compact food profile built for buyers, retail and hospitality conversations."
+    },
+    {
+      "title": "Claim discipline",
+      "body": "No shelf-life, certification, capacity or health claims are invented."
+    },
+    {
+      "title": "Local route",
+      "body": "The Tangsel exhibition context remains visible for booth discovery."
+    },
+    {
+      "title": "NFC ready",
+      "body": "Mobile-first actions and lightweight local hero art."
+    }
+  ],
+  "commercialBlocks": [],
+  "gallery": [],
+  "actions": [],
+  "verification": {
+    "status": "handover-verified",
+    "checkedAt": "2026-10-13",
+    "note": "Public claims are limited to available public sources and the TEI 2026 project handover. Unknown links, capacities, certifications and prices are intentionally not invented.",
+    "sources": [
+      {
+        "label": "TEI 2026 project handover",
+        "url": "https://mycustomid.github.io/tangsel-tradelink/"
+      }
+    ]
+  },
+  "performance": {
+    "optimizedAt": "2026-10-13",
+    "heroFormat": "svg"
+  }
+}

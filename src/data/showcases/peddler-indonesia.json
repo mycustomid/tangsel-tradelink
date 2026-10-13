@@ -1,0 +1,72 @@
+{
+  "brandLabel": "PEDDLER INDONESIA",
+  "tagline": "Casual footwear and lifestyle profile prepared for TEI 2026.",
+  "eyebrow": "Fashion / Textile · Tangerang Selatan",
+  "heroImage": "/brand/tei-batch/peddler-indonesia.svg",
+  "heroFit": "cover",
+  "visualMode": "fashion",
+  "palette": {
+    "bg": "#f8f1ec",
+    "ink": "#221b1e",
+    "accent": "#9a4964",
+    "surface": "#e8ced8"
+  },
+  "story": {
+    "title": "Casual footwear and lifestyle profile prepared for TEI 2026.",
+    "body": "Peddler Indonesia tercatat sebagai brand sepatu, apparel dan lifestyle. Profil dibuat buyer-ready tanpa menebak katalog, material atau kanal penjualan."
+  },
+  "stats": [
+    {
+      "value": "Fashion",
+      "label": "primary business category"
+    },
+    {
+      "value": "Tangsel",
+      "label": "Tangerang Selatan exhibition profile"
+    },
+    {
+      "value": "TEI 2026",
+      "label": "digital booth discovery context"
+    },
+    {
+      "value": "Handover",
+      "label": "profile verification level"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Buyer discovery",
+      "body": "A concise profile for retail, boutique, gifting and buyer introductions."
+    },
+    {
+      "title": "Local identity",
+      "body": "The page keeps the Tangsel origin visible without inventing unverified heritage claims."
+    },
+    {
+      "title": "Direct channels",
+      "body": "Only channels supplied by the handover or public sources are published."
+    },
+    {
+      "title": "NFC ready",
+      "body": "Mobile-first layout with large tap targets for exhibition use."
+    }
+  ],
+  "commercialBlocks": [],
+  "gallery": [],
+  "actions": [],
+  "verification": {
+    "status": "handover-verified",
+    "checkedAt": "2026-10-13",
+    "note": "No sufficiently specific public result was found that safely matches the TEI tenant Peddler Indonesia.",
+    "sources": [
+      {
+        "label": "TEI 2026 project handover",
+        "url": "https://mycustomid.github.io/tangsel-tradelink/"
+      }
+    ]
+  },
+  "performance": {
+    "optimizedAt": "2026-10-13",
+    "heroFormat": "svg"
+  }
+}

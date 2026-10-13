@@ -1,0 +1,104 @@
+{
+  "brandLabel": "SNAPCLEAN",
+  "tagline": "Cleaning chemicals for household, hospitality and industrial use from a South Tangerang manufacturer.",
+  "eyebrow": "Trade / Industry · Tangerang Selatan",
+  "heroImage": "/brand/snapclean/Sanitizer.png",
+  "heroFit": "contain",
+  "visualMode": "industrial",
+  "palette": {
+    "bg": "#f1f4f6",
+    "ink": "#13212c",
+    "accent": "#32627c",
+    "surface": "#d2e0e8"
+  },
+  "story": {
+    "title": "Cleaning chemicals for household, hospitality and industrial use from a South Tangerang manufacturer.",
+    "body": "Snap Clean is associated publicly with PT Satu Nusa Biru, a soap-and-cleaning-product manufacturer headquartered in Nusa Loka, BSD City. Public marketplace listings show floor cleaner, glass cleaner, detergent and laundry fragrance, while the project repository already contains official Snap Clean product assets scraped from the brand website."
+  },
+  "stats": [
+    {
+      "value": "2015",
+      "label": "PT Satu Nusa Biru founding year on LinkedIn"
+    },
+    {
+      "value": "BSD City",
+      "label": "company headquarters"
+    },
+    {
+      "value": "Home / B2B",
+      "label": "household plus hospitality/industrial positioning"
+    },
+    {
+      "value": "Multi-line",
+      "label": "floor, glass, laundry and hygiene products"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Floor & surface care",
+      "body": "Floor cleaner and glass cleaner are publicly listed product lines."
+    },
+    {
+      "title": "Laundry chemistry",
+      "body": "Detergent and laundry-fragrance formats are publicly available."
+    },
+    {
+      "title": "Hospitality use",
+      "body": "The company publicly positions its cleaning products for industry as well as home use."
+    },
+    {
+      "title": "Real repo assets",
+      "body": "The hero/gallery uses actual Snap Clean assets already stored in the repository."
+    }
+  ],
+  "commercialBlocks": [],
+  "gallery": [
+    {
+      "image": "/brand/snapclean/karbol.png",
+      "label": "Snap Clean Karbol",
+      "caption": "Aset produk resmi yang sudah disimpan di repository.",
+      "url": "https://snapclean.co.id/index.html"
+    },
+    {
+      "image": "/brand/snapclean/fc.png",
+      "label": "Snap Clean Floor Cleaner",
+      "caption": "Aset produk resmi yang sudah disimpan di repository.",
+      "url": "https://snapclean.co.id/index.html"
+    }
+  ],
+  "actions": [
+    {
+      "key": "website",
+      "label": "Official Website · Snap Clean",
+      "url": "https://snapclean.co.id"
+    },
+    {
+      "key": "website",
+      "label": "PT Satu Nusa Biru profile",
+      "url": "https://satunusabiru.com/"
+    }
+  ],
+  "verification": {
+    "status": "public-source-checked",
+    "checkedAt": "2026-10-13",
+    "note": "Claims on this profile were rechecked against public sources on 2026-10-13; unsupported claims and guessed links are intentionally omitted.",
+    "sources": [
+      {
+        "label": "Snap Clean official site",
+        "url": "https://snapclean.co.id"
+      },
+      {
+        "label": "PT Satu Nusa Biru LinkedIn",
+        "url": "https://id.linkedin.com/company/pt-satu-nusa-biru"
+      },
+      {
+        "label": "Shopee · Snap Clean floor cleaner",
+        "url": "https://shopee.co.id/SABUN-PEL-LANTAI-1-Liter-Snap-Clean-Pembersih-Lantai-EXTRA-DISINFEKTAN-i.364532614.15825599033"
+      }
+    ]
+  },
+  "performance": {
+    "optimizedAt": "2026-10-13",
+    "heroFormat": "png"
+  }
+}

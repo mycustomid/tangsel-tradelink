@@ -1,0 +1,72 @@
+{
+  "brandLabel": "FEVY",
+  "tagline": "Handmade craft and decorative-detail profile for TEI 2026.",
+  "eyebrow": "Craft / Handmade · Tangerang Selatan",
+  "heroImage": "/brand/tei-batch/fevy.svg",
+  "heroFit": "cover",
+  "visualMode": "craft",
+  "palette": {
+    "bg": "#f5f0e7",
+    "ink": "#2c241d",
+    "accent": "#98643c",
+    "surface": "#dfcbb2"
+  },
+  "story": {
+    "title": "Handmade craft and decorative-detail profile for TEI 2026.",
+    "body": "Fevy dipetakan sebagai usaha handycraft dan pernik dekorasi. Halaman NFC menggunakan visual editorial ringan dan tidak mengarang material atau kapasitas."
+  },
+  "stats": [
+    {
+      "value": "Craft",
+      "label": "primary business category"
+    },
+    {
+      "value": "Tangsel",
+      "label": "Tangerang Selatan exhibition profile"
+    },
+    {
+      "value": "TEI 2026",
+      "label": "digital booth discovery context"
+    },
+    {
+      "value": "Handover",
+      "label": "profile verification level"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Handmade focus",
+      "body": "A product-first narrative for craft, accessories and decorative goods."
+    },
+    {
+      "title": "Material honesty",
+      "body": "Materials and techniques are only stated when the source actually provides them."
+    },
+    {
+      "title": "Buyer discovery",
+      "body": "Suitable for boutique, gifting, hospitality and curated-retail conversations."
+    },
+    {
+      "title": "NFC ready",
+      "body": "Fast static page designed for a tap-and-connect exhibition flow."
+    }
+  ],
+  "commercialBlocks": [],
+  "gallery": [],
+  "actions": [],
+  "verification": {
+    "status": "handover-verified",
+    "checkedAt": "2026-10-13",
+    "note": "Public claims are limited to available public sources and the TEI 2026 project handover. Unknown links, capacities, certifications and prices are intentionally not invented.",
+    "sources": [
+      {
+        "label": "TEI 2026 project handover",
+        "url": "https://mycustomid.github.io/tangsel-tradelink/"
+      }
+    ]
+  },
+  "performance": {
+    "optimizedAt": "2026-10-13",
+    "heroFormat": "svg"
+  }
+}

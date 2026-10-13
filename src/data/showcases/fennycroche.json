@@ -1,0 +1,87 @@
+{
+  "brandLabel": "FENNYCROCHE",
+  "tagline": "Handmade crochet keychains and accessories from Ciputat, with an export-market orientation.",
+  "eyebrow": "Craft / Handmade · Tangerang Selatan",
+  "heroImage": "/brand/tei-batch/fennycroche.svg",
+  "heroFit": "cover",
+  "visualMode": "craft",
+  "palette": {
+    "bg": "#f5f0e7",
+    "ink": "#2c241d",
+    "accent": "#98643c",
+    "surface": "#dfcbb2"
+  },
+  "story": {
+    "title": "Handmade crochet keychains and accessories from Ciputat, with an export-market orientation.",
+    "body": "Rumah Kurasi Tangerang Selatan lists Fennycroche under Fenny Luckyharti in Ciputat. The curated listing records crochet keychains in multiple models/characters, 50 pcs/month capacity, a public selling range of Rp25,000–Rp225,000, export as the target market and HAKI trademark status."
+  },
+  "stats": [
+    {
+      "value": "50 pcs/mo",
+      "label": "capacity stated by Rumah Kurasi"
+    },
+    {
+      "value": "Rp25k–225k",
+      "label": "public selling range"
+    },
+    {
+      "value": "Export",
+      "label": "target market stated by Rumah Kurasi"
+    },
+    {
+      "value": "HAKI",
+      "label": "trademark legality listed"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Crochet keychains",
+      "body": "Multiple models and characters are highlighted in the curated listing."
+    },
+    {
+      "title": "Premium yarn",
+      "body": "Rumah Kurasi describes use of quality yarn and informative packaging."
+    },
+    {
+      "title": "Export orientation",
+      "body": "Export is explicitly recorded as the target market."
+    },
+    {
+      "title": "Registered mark",
+      "body": "FENNYCROCHE also appears in the Indonesian trademark gazette."
+    }
+  ],
+  "commercialBlocks": [],
+  "gallery": [],
+  "actions": [
+    {
+      "key": "instagram",
+      "label": "Instagram · @fennycroche",
+      "url": "https://www.instagram.com/fennycroche"
+    },
+    {
+      "key": "website",
+      "label": "Rumah Kurasi · Fennycroche",
+      "url": "https://kurasi.tangerangselatankota.go.id/produk/549"
+    }
+  ],
+  "verification": {
+    "status": "public-source-checked",
+    "checkedAt": "2026-10-13",
+    "note": "Claims on this profile were rechecked against public sources on 2026-10-13; unsupported claims and guessed links are intentionally omitted.",
+    "sources": [
+      {
+        "label": "Rumah Kurasi · Fennycroche",
+        "url": "https://kurasi.tangerangselatankota.go.id/produk/549"
+      },
+      {
+        "label": "DJKI trademark gazette",
+        "url": "https://www.dgip.go.id/uploads/berita_resmi/file/4aa86b1d28c87828a57b3b0f3a8c53c2.pdf"
+      }
+    ]
+  },
+  "performance": {
+    "optimizedAt": "2026-10-13",
+    "heroFormat": "svg"
+  }
+}

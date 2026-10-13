@@ -1,0 +1,78 @@
+{
+  "brandLabel": "OCHOKAT",
+  "tagline": "OCHOKAT: South Tangerang chocolate/cacao brand identity linked to Pra Suryaning Bela.",
+  "eyebrow": "Food / Pantry · Tangerang Selatan",
+  "heroImage": "/brand/tei-batch/ochokat.svg",
+  "heroFit": "cover",
+  "visualMode": "food",
+  "palette": {
+    "bg": "#faf3e9",
+    "ink": "#2d1c15",
+    "accent": "#c45d2a",
+    "surface": "#ead5b8"
+  },
+  "story": {
+    "title": "OCHOKAT: South Tangerang chocolate/cacao brand identity linked to Pra Suryaning Bela.",
+    "body": "A government-hosted UMKM record identifies Ir. Pra Suryaning Bela with the brand OCHOKAT in Tangerang Selatan. Public evidence is sufficient to corroborate owner and brand identity, but not detailed chocolate variants, cacao origin or production capacity; those details are therefore left out."
+  },
+  "stats": [
+    {
+      "value": "OCHOKAT",
+      "label": "brand recorded in government-hosted UMKM data"
+    },
+    {
+      "value": "Pra S. Bela",
+      "label": "owner identity in the public record"
+    },
+    {
+      "value": "Tangsel",
+      "label": "South Tangerang address context"
+    },
+    {
+      "value": "Source-bound",
+      "label": "no unsupported product-range claims"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Chocolate identity",
+      "body": "The project handover positions OCHOKAT in artisan chocolate/cacao."
+    },
+    {
+      "title": "Owner match",
+      "body": "Public UMKM data connects OCHOKAT with Pra Suryaning Bela."
+    },
+    {
+      "title": "Buyer profile",
+      "body": "Prepared for retail, gifting and food-service introduction."
+    },
+    {
+      "title": "Evidence boundary",
+      "body": "No origin, capacity or certification claims are added without a direct source."
+    }
+  ],
+  "commercialBlocks": [],
+  "gallery": [],
+  "actions": [
+    {
+      "key": "website",
+      "label": "Government-hosted UMKM record",
+      "url": "https://ppid.kemendagri.go.id/storage/dokumen/fzuXhk1M8131JuJHgtdTD3sB9Rm6yM5ZcJ3tO3SI.pdf"
+    }
+  ],
+  "verification": {
+    "status": "public-source-checked",
+    "checkedAt": "2026-10-13",
+    "note": "Claims on this profile were rechecked against public sources on 2026-10-13; unsupported claims and guessed links are intentionally omitted.",
+    "sources": [
+      {
+        "label": "Kemendagri-hosted UMKM record",
+        "url": "https://ppid.kemendagri.go.id/storage/dokumen/fzuXhk1M8131JuJHgtdTD3sB9Rm6yM5ZcJ3tO3SI.pdf"
+      }
+    ]
+  },
+  "performance": {
+    "optimizedAt": "2026-10-13",
+    "heroFormat": "svg"
+  }
+}

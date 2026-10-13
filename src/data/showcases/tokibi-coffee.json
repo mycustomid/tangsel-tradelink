@@ -1,0 +1,83 @@
+{
+  "brandLabel": "TOKIBI COFFEE",
+  "tagline": "Tokibi Coffee: roasted, ground and green-bean coffee from a Pamulang-based Indonesian coffee trader.",
+  "eyebrow": "Beverage / Horeca · Tangerang Selatan",
+  "heroImage": "/brand/tei-batch/tokibi-coffee.svg",
+  "heroFit": "cover",
+  "visualMode": "beverage",
+  "palette": {
+    "bg": "#f3f6ec",
+    "ink": "#1d2a20",
+    "accent": "#527b4a",
+    "surface": "#d8e1c6"
+  },
+  "story": {
+    "title": "Tokibi Coffee: roasted, ground and green-bean coffee from a Pamulang-based Indonesian coffee trader.",
+    "body": "InaExport lists Tokibi Coffee under PT Agrova Harmoni Lestari, based in Pondok Cabe Udik, Pamulang. The verified exporter profile identifies roasted bean coffee, ground coffee and green bean coffee as the main products and states the company works directly upstream with local farmers."
+  },
+  "stats": [
+    {
+      "value": "2021",
+      "label": "year of establishment on InaExport"
+    },
+    {
+      "value": "Pamulang",
+      "label": "business/factory address area"
+    },
+    {
+      "value": "3",
+      "label": "roasted, ground and green-bean formats"
+    },
+    {
+      "value": "Exporter",
+      "label": "business type on InaExport"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Roasted bean",
+      "body": "A direct route for retail and café buyers."
+    },
+    {
+      "title": "Ground coffee",
+      "body": "Ready-to-brew retail format."
+    },
+    {
+      "title": "Green bean",
+      "body": "Relevant for roasters and commodity buyers."
+    },
+    {
+      "title": "Farmer connection",
+      "body": "InaExport company description states direct work with local farmers."
+    }
+  ],
+  "commercialBlocks": [],
+  "gallery": [],
+  "actions": [
+    {
+      "key": "instagram",
+      "label": "Instagram · @tokibicoffee",
+      "url": "https://www.instagram.com/tokibicoffee"
+    },
+    {
+      "key": "website",
+      "label": "InaExport · Tokibi / PT Agrova Harmoni Lestari",
+      "url": "https://www.inaexport.id/front_end/listeksportir/cetakpdfnew/237476"
+    }
+  ],
+  "verification": {
+    "status": "public-source-checked",
+    "checkedAt": "2026-10-13",
+    "note": "Claims on this profile were rechecked against public sources on 2026-10-13; unsupported claims and guessed links are intentionally omitted.",
+    "sources": [
+      {
+        "label": "InaExport · PT Agrova Harmoni Lestari / Tokibi Coffee",
+        "url": "https://www.inaexport.id/front_end/listeksportir/cetakpdfnew/237476"
+      }
+    ]
+  },
+  "performance": {
+    "optimizedAt": "2026-10-13",
+    "heroFormat": "svg"
+  }
+}

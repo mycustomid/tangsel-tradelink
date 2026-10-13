@@ -1,0 +1,24 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import SmartNfcShowcase from '../../components/SmartNfcShowcase.astro';
+import config from '../../data/showcases/lika-snack.json';
+
+const baseUrl = import.meta.env.BASE_URL;
+const tenant = {
+  name: "Lika Snack", slug: "lika-snack", hall: '8', booth: '8-7C',
+  category: "Food, Beverage & Agriculture Products",
+  description: "Traditional snack profile for TEI 2026 discovery.",
+  theme: "food",
+  researchStatus: "handover-verified", verifiedAt: '2026-10-13'
+};
+const structuredData = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: tenant.name,
+  url: "https://mycustomid.github.io/tangsel-tradelink/"
+};
+---
+<BaseLayout title={`${tenant.name} — Tangsel TradeLink`} description={tenant.description} theme={tenant.theme}
+  canonical={`${baseUrl}tenant/${tenant.slug}`} image={config.heroImage} structuredData={structuredData}>
+  <SmartNfcShowcase tenant={tenant} config={config} baseUrl={baseUrl} />
+</BaseLayout>

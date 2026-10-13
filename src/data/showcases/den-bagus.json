@@ -1,0 +1,91 @@
+{
+  "brandLabel": "DEN BAGUS",
+  "tagline": "Peyek Den Bagus: fish-based rempeyek from Setu that has moved into modern retail and airport gift channels.",
+  "eyebrow": "Food / Pantry · Tangerang Selatan",
+  "heroImage": "/brand/tei-batch/den-bagus.svg",
+  "heroFit": "cover",
+  "visualMode": "food",
+  "palette": {
+    "bg": "#faf3e9",
+    "ink": "#2d1c15",
+    "accent": "#c45d2a",
+    "surface": "#ead5b8"
+  },
+  "story": {
+    "title": "Peyek Den Bagus: fish-based rempeyek from Setu that has moved into modern retail and airport gift channels.",
+    "body": "Peyek Den Bagus is owned by Mimin Casmiaty in Setu. Tangsel Pos reported the business started in 2022 and now produces fish-based rempeyek variants such as anchovy and shrimp, with tuna-nori variants in development. The products have reached retail, gift stores and Soekarno-Hatta Terminal 2, while the Peyek Den Bagus mark is also recorded in the Indonesian trademark gazette."
+  },
+  "stats": [
+    {
+      "value": "2022",
+      "label": "business start reported by Tangsel Pos"
+    },
+    {
+      "value": "Setu",
+      "label": "home base in Tangerang Selatan"
+    },
+    {
+      "value": "Retail",
+      "label": "modern retail and gift-store channels reported"
+    },
+    {
+      "value": "Terminal 2",
+      "label": "Soekarno-Hatta airport presence reported"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Fish-based peyek",
+      "body": "Current variants include anchovy and shrimp-based rempeyek."
+    },
+    {
+      "title": "Product development",
+      "body": "Tuna nori was reported as a new variant under trial in 2026."
+    },
+    {
+      "title": "Retail progression",
+      "body": "The brand has expanded beyond bazaar selling into retail and airport gift channels."
+    },
+    {
+      "title": "Registered identity",
+      "body": "Peyek Den Bagus appears in the Indonesian trademark gazette under Mimin Casmiaty."
+    }
+  ],
+  "commercialBlocks": [],
+  "gallery": [],
+  "actions": [
+    {
+      "key": "website",
+      "label": "Tangsel Pos · Peyek Den Bagus profile",
+      "url": "https://tangselpos.id/detail/52672/peyek-den-bagus-dari-setu-rambah-bandara"
+    },
+    {
+      "key": "shopee",
+      "label": "Local Pride Spot · Peyek Den Bagus",
+      "url": "https://shopee.co.id/localpridespot"
+    }
+  ],
+  "verification": {
+    "status": "public-source-checked",
+    "checkedAt": "2026-10-13",
+    "note": "Claims on this profile were rechecked against public sources on 2026-10-13; unsupported claims and guessed links are intentionally omitted.",
+    "sources": [
+      {
+        "label": "Tangsel Pos · Peyek Den Bagus",
+        "url": "https://tangselpos.id/detail/52672/peyek-den-bagus-dari-setu-rambah-bandara"
+      },
+      {
+        "label": "DJKI trademark gazette",
+        "url": "https://www.dgip.go.id/berita-resmi/856/download"
+      },
+      {
+        "label": "Local Pride Spot",
+        "url": "https://shopee.co.id/localpridespot"
+      }
+    ]
+  },
+  "performance": {
+    "optimizedAt": "2026-10-13",
+    "heroFormat": "svg"
+  }
+}

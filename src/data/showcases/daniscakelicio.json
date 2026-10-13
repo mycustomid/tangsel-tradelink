@@ -1,0 +1,96 @@
+{
+  "brandLabel": "DANISCAKELICIO",
+  "tagline": "Ciputat-made cheese stick, kentang kering and keripik bawang for retail, hampers and everyday snacking.",
+  "eyebrow": "Food / Pantry · Tangerang Selatan",
+  "heroImage": "/brand/tei-batch/daniscakelicio.svg",
+  "heroFit": "cover",
+  "visualMode": "food",
+  "palette": {
+    "bg": "#faf3e9",
+    "ink": "#2d1c15",
+    "accent": "#c45d2a",
+    "surface": "#ead5b8"
+  },
+  "story": {
+    "title": "Ciputat-made cheese stick, kentang kering and keripik bawang for retail, hampers and everyday snacking.",
+    "body": "DANISCAKELICIO is publicly listed in PFpreneur 2026 under Nani Mulyani. Its Shopee store and Tangsel Market listings show three core lines: cheese stick, kentang kering and keripik bawang, with public retail listings from Ciputat."
+  },
+  "stats": [
+    {
+      "value": "3",
+      "label": "core product lines visible in current public listings"
+    },
+    {
+      "value": "Ciputat",
+      "label": "Tangsel Market seller area"
+    },
+    {
+      "value": "PFpreneur",
+      "label": "2026 administration listing"
+    },
+    {
+      "value": "Retail",
+      "label": "Shopee and Tangsel Market presence"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Cheese Stick",
+      "body": "Home-made crunchy snack listed in multiple pack sizes."
+    },
+    {
+      "title": "Kentang Kering",
+      "body": "Potato-based savoury product positioned for snacking and hampers."
+    },
+    {
+      "title": "Keripik Bawang",
+      "body": "Onion cracker line completing the current public product set."
+    },
+    {
+      "title": "Multi-channel",
+      "body": "Products are publicly visible through Shopee and Tangsel Market."
+    }
+  ],
+  "commercialBlocks": [],
+  "gallery": [],
+  "actions": [
+    {
+      "key": "instagram",
+      "label": "Instagram · @daniscakelicio",
+      "url": "https://www.instagram.com/daniscakelicio"
+    },
+    {
+      "key": "shopee",
+      "label": "Shopee · DANISCAKELICIO",
+      "url": "https://shopee.co.id/shop/953337492"
+    },
+    {
+      "key": "website",
+      "label": "Tangsel Market · DANISCAKELICIO",
+      "url": "https://tamara.tangerangselatankota.go.id/?page=4"
+    }
+  ],
+  "verification": {
+    "status": "public-source-checked",
+    "checkedAt": "2026-10-13",
+    "note": "Claims on this profile were rechecked against public sources on 2026-10-13; unsupported claims and guessed links are intentionally omitted.",
+    "sources": [
+      {
+        "label": "Shopee · DANISCAKELICIO",
+        "url": "https://shopee.co.id/shop/953337492"
+      },
+      {
+        "label": "Tangsel Market",
+        "url": "https://tamara.tangerangselatankota.go.id/?page=4"
+      },
+      {
+        "label": "PFpreneur 2026 administration list",
+        "url": "https://cdn.pertaminafoundation.org/Lampiran-BA-014-Verifikasi-Administrasi-PFpreneur-2026.pdf"
+      }
+    ]
+  },
+  "performance": {
+    "optimizedAt": "2026-10-13",
+    "heroFormat": "svg"
+  }
+}

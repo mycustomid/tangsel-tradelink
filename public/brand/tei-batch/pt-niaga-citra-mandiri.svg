@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+<rect width="1200" height="900" fill="#f1f4f6"/>
+<path d="M0 690 C280 570 430 790 710 610 S1010 420 1200 510 V900 H0Z" fill="#d2e0e8"/>
+<circle cx="306" cy="390" r="141" fill="#32627c" opacity=".92"/>
+<rect x="816" y="250" width="250" height="360" rx="4" fill="#13212c" opacity=".94"/>
+<path d="M90 210H1110" stroke="#13212c" stroke-width="2" opacity=".18"/>
+<path d="M90 735H1110" stroke="#13212c" stroke-width="2" opacity=".18"/>
+<g fill="#13212c">
+  <text x="90" y="110" font-family="Georgia,serif" font-size="58">PT Niaga Citra Mandiri</text>
+  <text x="90" y="165" font-family="Arial,sans-serif" font-size="22" letter-spacing="3">TRADE / INDUSTRY</text>
+  <text x="90" y="800" font-family="Arial,sans-serif" font-size="18" letter-spacing="2">TANGSEL TRADELINK / TEI 2026</text>
+</g>
+<g fill="#f1f4f6" font-family="Arial,sans-serif">
+  <text x="850" y="335" font-size="18" letter-spacing="2">SMART NFC</text>
+  <text x="850" y="385" font-size="34" font-weight="700">TAP</text>
+  <text x="850" y="430" font-size="34" font-weight="700">DISCOVER</text>
+  <text x="850" y="475" font-size="34" font-weight="700">CONNECT</text>
+</g>
+</svg>

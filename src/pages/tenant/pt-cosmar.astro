@@ -1,0 +1,24 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import SmartNfcShowcase from '../../components/SmartNfcShowcase.astro';
+import config from '../../data/showcases/pt-cosmar.json';
+
+const baseUrl = import.meta.env.BASE_URL;
+const tenant = {
+  name: "PT Cosmar", slug: "pt-cosmar", hall: '8', booth: '8-7C',
+  category: "Health, Beauty & Personal Care",
+  description: "Cosmetics and skincare manufacturing from Taman Tekno BSD.",
+  theme: "industrial",
+  researchStatus: "public-source-checked", verifiedAt: '2026-10-13'
+};
+const structuredData = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: tenant.name,
+  url: "https://ptcosmar.com/", sameAs: ["https://ptcosmar.com/"]
+};
+---
+<BaseLayout title={`${tenant.name} — Tangsel TradeLink`} description={tenant.description} theme={tenant.theme}
+  canonical={`${baseUrl}tenant/${tenant.slug}`} image={config.heroImage} structuredData={structuredData}>
+  <SmartNfcShowcase tenant={tenant} config={config} baseUrl={baseUrl} />
+</BaseLayout>

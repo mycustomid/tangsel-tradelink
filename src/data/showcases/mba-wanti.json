@@ -1,0 +1,82 @@
+{
+  "brandLabel": "MBA' WANTI",
+  "tagline": "Dapur Mba' Wanti: a Pamulang snack business publicly documented for keripik tempe sagu.",
+  "eyebrow": "Food / Pantry · Tangerang Selatan",
+  "heroImage": "/brand/tei-batch/mba-wanti.svg",
+  "heroFit": "cover",
+  "visualMode": "food",
+  "palette": {
+    "bg": "#faf3e9",
+    "ink": "#2d1c15",
+    "accent": "#c45d2a",
+    "surface": "#ead5b8"
+  },
+  "story": {
+    "title": "Dapur Mba' Wanti: a Pamulang snack business publicly documented for keripik tempe sagu.",
+    "body": "A BRIN-linked UMKM food-technology project lists Dapur Mba'Wanti with keripik tempe sagu, while a 2025 Pamulang halal-compliance study also includes Dapur Mba' Wanti among local food businesses. The profile is narrowed to that documented snack identity."
+  },
+  "stats": [
+    {
+      "value": "Keripik",
+      "label": "publicly documented product type"
+    },
+    {
+      "value": "Tempe sagu",
+      "label": "specific variant in BRIN-linked list"
+    },
+    {
+      "value": "Pamulang",
+      "label": "local UMKM study context"
+    },
+    {
+      "value": "Food",
+      "label": "culinary business category"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Keripik tempe sagu",
+      "body": "The clearest public product identity."
+    },
+    {
+      "title": "Pamulang UMKM",
+      "body": "Included in a local halal-compliance research sample."
+    },
+    {
+      "title": "Food-tech exposure",
+      "body": "Appears in a BRIN-linked UMKM project list."
+    },
+    {
+      "title": "Evidence-led",
+      "body": "No unverified marketplace or capacity claims are added."
+    }
+  ],
+  "commercialBlocks": [],
+  "gallery": [],
+  "actions": [
+    {
+      "key": "website",
+      "label": "BRIN-linked UMKM project list",
+      "url": "https://fliphtml5.com/adqut/vvmp/2_NDH_07_Naskah_Narasi_Proyek_Perubahan_Syaiful_Bakhri/"
+    }
+  ],
+  "verification": {
+    "status": "public-source-checked",
+    "checkedAt": "2026-10-13",
+    "note": "Claims on this profile were rechecked against public sources on 2026-10-13; unsupported claims and guessed links are intentionally omitted.",
+    "sources": [
+      {
+        "label": "BRIN-linked UMKM project list",
+        "url": "https://fliphtml5.com/adqut/vvmp/2_NDH_07_Naskah_Narasi_Proyek_Perubahan_Syaiful_Bakhri/"
+      },
+      {
+        "label": "Pamulang halal-compliance study",
+        "url": "https://www.researchgate.net/publication/397674148_Analisis_Kepatuhan_Pelaku_UMKM_terhadap_Kewajiban_Sertifikasi_Halal_di_Kecamatan_Pamulang_Kota_Tangerang_Selatan"
+      }
+    ]
+  },
+  "performance": {
+    "optimizedAt": "2026-10-13",
+    "heroFormat": "svg"
+  }
+}

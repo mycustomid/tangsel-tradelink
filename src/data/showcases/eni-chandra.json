@@ -1,0 +1,87 @@
+{
+  "brandLabel": "ENI CHANDRA SHANTI",
+  "tagline": "Aliya's Cookies: dry-cookie production from Pondok Aren with a registered brand identity.",
+  "eyebrow": "Craft / Handmade · Tangerang Selatan",
+  "heroImage": "/brand/tei-batch/eni-chandra.svg",
+  "heroFit": "cover",
+  "visualMode": "craft",
+  "palette": {
+    "bg": "#f5f0e7",
+    "ink": "#2c241d",
+    "accent": "#98643c",
+    "surface": "#dfcbb2"
+  },
+  "story": {
+    "title": "Aliya's Cookies: dry-cookie production from Pondok Aren with a registered brand identity.",
+    "body": "Rumah Kurasi Tangerang Selatan lists Aliya's Cookies under Eni Chandra Shanti in Pondok Aren, with nastar as the described product, 10 kg/month capacity and SPP-IRT plus Halal LPPOM MUI. The Aliya's Cookies mark also appears in an Indonesian trademark gazette under Eni Chandra Shanti."
+  },
+  "stats": [
+    {
+      "value": "10 kg/mo",
+      "label": "production capacity on Rumah Kurasi"
+    },
+    {
+      "value": "Nastar",
+      "label": "curated product description"
+    },
+    {
+      "value": "Pondok Aren",
+      "label": "UMKM area"
+    },
+    {
+      "value": "Trademark",
+      "label": "Aliya's Cookies appears in the DJKI gazette"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Aliya's Cookies",
+      "body": "Public sources connect this brand to Eni Chandra Shanti."
+    },
+    {
+      "title": "Nastar",
+      "body": "The municipal curated listing describes nastar as the product."
+    },
+    {
+      "title": "Legalities",
+      "body": "SPP-IRT and Halal LPPOM MUI are listed on Rumah Kurasi."
+    },
+    {
+      "title": "Registered identity",
+      "body": "The brand name is also present in a government trademark gazette."
+    }
+  ],
+  "commercialBlocks": [],
+  "gallery": [],
+  "actions": [
+    {
+      "key": "website",
+      "label": "Rumah Kurasi · Aliya's Cookies",
+      "url": "https://kurasi.tangerangselatankota.go.id/produk/308"
+    },
+    {
+      "key": "website",
+      "label": "DJKI trademark gazette",
+      "url": "https://dgip.go.id/berita-resmi/856/download"
+    }
+  ],
+  "verification": {
+    "status": "public-source-checked",
+    "checkedAt": "2026-10-13",
+    "note": "Claims on this profile were rechecked against public sources on 2026-10-13; unsupported claims and guessed links are intentionally omitted.",
+    "sources": [
+      {
+        "label": "Rumah Kurasi · Aliya's Cookies",
+        "url": "https://kurasi.tangerangselatankota.go.id/produk/308"
+      },
+      {
+        "label": "DJKI trademark gazette",
+        "url": "https://dgip.go.id/berita-resmi/856/download"
+      }
+    ]
+  },
+  "performance": {
+    "optimizedAt": "2026-10-13",
+    "heroFormat": "svg"
+  }
+}

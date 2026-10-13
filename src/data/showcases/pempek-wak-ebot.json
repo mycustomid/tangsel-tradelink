@@ -1,0 +1,78 @@
+{
+  "brandLabel": "PEMPEK WAK EBOT",
+  "tagline": "Pempek from South Tangerang documented in a BRIN-linked food-technology UMKM network.",
+  "eyebrow": "Food / Pantry · Tangerang Selatan",
+  "heroImage": "/brand/tei-batch/pempek-wak-ebot.svg",
+  "heroFit": "cover",
+  "visualMode": "food",
+  "palette": {
+    "bg": "#faf3e9",
+    "ink": "#2d1c15",
+    "accent": "#c45d2a",
+    "surface": "#ead5b8"
+  },
+  "story": {
+    "title": "Pempek from South Tangerang documented in a BRIN-linked food-technology UMKM network.",
+    "body": "Pempek Wak Ebot appears in a BRIN-linked project document among UMKM already using or interested in food irradiation technology. The documented product is pempek. The profile deliberately avoids inventing marketplace, capacity or certification details that are not present in the public source."
+  },
+  "stats": [
+    {
+      "value": "Pempek",
+      "label": "documented product"
+    },
+    {
+      "value": "Tangsel",
+      "label": "TEI 2026 tenant context"
+    },
+    {
+      "value": "BRIN-linked",
+      "label": "appears in food-technology UMKM mapping"
+    },
+    {
+      "value": "Source-aware",
+      "label": "no unsupported marketplace or capacity claims"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Fish-based food",
+      "body": "The public project list identifies pempek as the core product."
+    },
+    {
+      "title": "Technology exposure",
+      "body": "The business appears in a food-irradiation technology interest/use network."
+    },
+    {
+      "title": "Buyer discovery",
+      "body": "Profile is suitable for food-service and retail introduction."
+    },
+    {
+      "title": "Evidence boundary",
+      "body": "Only the publicly documented product identity is asserted."
+    }
+  ],
+  "commercialBlocks": [],
+  "gallery": [],
+  "actions": [
+    {
+      "key": "website",
+      "label": "BRIN-linked UMKM project reference",
+      "url": "https://fliphtml5.com/adqut/vvmp/2_NDH_07_Naskah_Narasi_Proyek_Perubahan_Syaiful_Bakhri/"
+    }
+  ],
+  "verification": {
+    "status": "public-source-checked",
+    "checkedAt": "2026-10-13",
+    "note": "Claims on this profile were rechecked against public sources on 2026-10-13; unsupported claims and guessed links are intentionally omitted.",
+    "sources": [
+      {
+        "label": "BRIN-linked UMKM project reference",
+        "url": "https://fliphtml5.com/adqut/vvmp/2_NDH_07_Naskah_Narasi_Proyek_Perubahan_Syaiful_Bakhri/"
+      }
+    ]
+  },
+  "performance": {
+    "optimizedAt": "2026-10-13",
+    "heroFormat": "svg"
+  }
+}

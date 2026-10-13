@@ -1,0 +1,83 @@
+{
+  "brandLabel": "JAHE HAYATIQU",
+  "tagline": "Hayatiqu red-ginger products developed by Nanik Sri Haryati / SR Herbal in South Tangerang.",
+  "eyebrow": "Beverage / Horeca · Tangerang Selatan",
+  "heroImage": "/brand/tei-batch/jahe-hayatiqu.svg",
+  "heroFit": "cover",
+  "visualMode": "beverage",
+  "palette": {
+    "bg": "#f3f6ec",
+    "ink": "#1d2a20",
+    "accent": "#527b4a",
+    "surface": "#d8e1c6"
+  },
+  "story": {
+    "title": "Hayatiqu red-ginger products developed by Nanik Sri Haryati / SR Herbal in South Tangerang.",
+    "body": "Public community-service coverage documents Nanik Sri Haryati and the Hayatiqu red-ginger business, describing its growth from home production and the role of business/financial mentoring. The page keeps the focus on red-ginger beverage products and avoids medical efficacy claims."
+  },
+  "stats": [
+    {
+      "value": "Jahe merah",
+      "label": "core documented ingredient"
+    },
+    {
+      "value": "SR Herbal",
+      "label": "business identity from public coverage"
+    },
+    {
+      "value": "Tangsel",
+      "label": "South Tangerang enterprise context"
+    },
+    {
+      "value": "No medical claims",
+      "label": "profile intentionally avoids cure/therapy language"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Red-ginger drink",
+      "body": "The strongest public product identity is a red-ginger beverage."
+    },
+    {
+      "title": "Local enterprise",
+      "body": "The business is documented through South Tangerang community-service activity."
+    },
+    {
+      "title": "Business mentoring",
+      "body": "Public coverage discusses business and finance education for the enterprise."
+    },
+    {
+      "title": "Claim discipline",
+      "body": "The profile presents a beverage product, not a therapeutic product."
+    }
+  ],
+  "commercialBlocks": [],
+  "gallery": [],
+  "actions": [
+    {
+      "key": "instagram",
+      "label": "Instagram · @jahemerah_hayatiqu",
+      "url": "https://www.instagram.com/jahemerah_hayatiqu"
+    },
+    {
+      "key": "website",
+      "label": "Public community-service coverage",
+      "url": "https://www.bantennews.co.id/bantenesia/akuntansi-d3-universitas-pamulang-mengedukasi-menabur-manfaat-untuk-negeri-dalam-program-pengabdian-kepada-masyarakat/"
+    }
+  ],
+  "verification": {
+    "status": "public-source-checked",
+    "checkedAt": "2026-10-13",
+    "note": "Claims on this profile were rechecked against public sources on 2026-10-13; unsupported claims and guessed links are intentionally omitted.",
+    "sources": [
+      {
+        "label": "BantenNews / Universitas Pamulang community-service coverage",
+        "url": "https://www.bantennews.co.id/bantenesia/akuntansi-d3-universitas-pamulang-mengedukasi-menabur-manfaat-untuk-negeri-dalam-program-pengabdian-kepada-masyarakat/"
+      }
+    ]
+  },
+  "performance": {
+    "optimizedAt": "2026-10-13",
+    "heroFormat": "svg"
+  }
+}

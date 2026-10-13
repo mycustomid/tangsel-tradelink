@@ -6,97 +6,108 @@
     "slug": "hhb",
     "hasShowcase": true,
     "hasPage": true,
-    "status": "SUDAH JADI (LIVE LOKAL & REPO)"
+    "status": "SELESAI — PAGE + SHOWCASE READY",
+    "verification": "pre-existing-live"
   },
   {
     "no": 2,
     "brand": "Titik Kurniasih",
     "owner": "Titik Kurniasih",
     "slug": "titik-kurniasih",
-    "hasShowcase": false,
-    "hasPage": false,
-    "status": "BELUM DIBUAT"
+    "hasShowcase": true,
+    "hasPage": true,
+    "status": "SELESAI — PAGE + SHOWCASE READY",
+    "verification": "handover-verified"
   },
   {
     "no": 3,
     "brand": "Ladifa Collection",
     "owner": "Dewi Krisliawati / Bu Lia",
     "slug": "ladifa-collection",
-    "hasShowcase": false,
-    "hasPage": false,
-    "status": "BELUM DIBUAT"
+    "hasShowcase": true,
+    "hasPage": true,
+    "status": "SELESAI — PROFIL KONSOLIDASI #3/#8",
+    "verification": "links-pending"
   },
   {
     "no": 4,
     "brand": "Euis Siti Khodijah",
     "owner": "Euis Siti Khodijah",
     "slug": "euis-siti-khodijah",
-    "hasShowcase": false,
-    "hasPage": false,
-    "status": "BELUM DIBUAT"
+    "hasShowcase": true,
+    "hasPage": true,
+    "status": "SELESAI — PAGE + SHOWCASE READY",
+    "verification": "handover-verified"
   },
   {
     "no": 5,
     "brand": "Fenda Iriani",
     "owner": "Fenda Iriani",
     "slug": "fenda-iriani",
-    "hasShowcase": false,
-    "hasPage": false,
-    "status": "BELUM DIBUAT"
+    "hasShowcase": true,
+    "hasPage": true,
+    "status": "SELESAI — PAGE + SHOWCASE READY",
+    "verification": "public-source-checked"
   },
   {
     "no": 6,
     "brand": "Den Bagus",
     "owner": "Mimin",
     "slug": "den-bagus",
-    "hasShowcase": false,
-    "hasPage": false,
-    "status": "BELUM DIBUAT"
+    "hasShowcase": true,
+    "hasPage": true,
+    "status": "SELESAI — PAGE + SHOWCASE READY",
+    "verification": "public-source-checked"
   },
   {
     "no": 7,
     "brand": "Shirudo Lab",
     "owner": "Lingsia",
     "slug": "shirudo-lab",
-    "hasShowcase": false,
-    "hasPage": false,
-    "status": "BELUM DIBUAT"
+    "hasShowcase": true,
+    "hasPage": true,
+    "status": "SELESAI — PAGE + SHOWCASE READY",
+    "verification": "public-source-checked"
   },
   {
     "no": 8,
     "brand": "Ladifa Collection",
     "owner": "Ladifa Collection",
     "slug": "ladifa-collection",
-    "hasShowcase": false,
-    "hasPage": false,
-    "status": "BELUM DIBUAT"
+    "hasShowcase": true,
+    "hasPage": true,
+    "status": "SELESAI — PROFIL KONSOLIDASI #3/#8",
+    "verification": "links-pending"
   },
   {
     "no": 9,
     "brand": "Haira",
     "owner": "Rizka Fauziah",
     "slug": "haira",
-    "hasShowcase": false,
-    "hasPage": false,
-    "status": "BELUM DIBUAT"
+    "hasShowcase": true,
+    "hasPage": true,
+    "status": "SELESAI — PAGE + SHOWCASE READY",
+    "verification": "handover-verified"
   },
   {
     "no": 10,
     "brand": "Lika Snack",
     "owner": "Poniyem",
     "slug": "lika-snack",
-    "hasShowcase": false,
-    "hasPage": false,
-    "status": "BELUM DIBUAT"
+    "hasShowcase": true,
+    "hasPage": true,
+    "status": "SELESAI — PAGE + SHOWCASE READY",
+    "verification": "public-source-checked"
   },
   {
     "no": 11,
     "brand": "DANISCAKELICIO",
     "owner": "Nani",
     "slug": "daniscakelicio",
-    "hasShowcase": false,
-    "hasPage": false,
-    "status": "BELUM DIBUAT"
+    "hasShowcase": true,
+    "hasPage": true,
+    "status": "SELESAI — PAGE + SHOWCASE READY",
+    "verification": "public-source-checked"
   },
   {
     "no": 12,
@@ -105,70 +116,78 @@
     "slug": "samara-from-home",
     "hasShowcase": true,
     "hasPage": true,
-    "status": "SUDAH JADI (LIVE LOKAL & REPO)"
+    "status": "SELESAI — PAGE + SHOWCASE READY",
+    "verification": "pre-existing-live"
   },
   {
     "no": 13,
     "brand": "PT Cosmar",
     "owner": "PT Cosmar",
     "slug": "pt-cosmar",
-    "hasShowcase": false,
-    "hasPage": false,
-    "status": "BELUM DIBUAT"
+    "hasShowcase": true,
+    "hasPage": true,
+    "status": "SELESAI — PAGE + SHOWCASE READY",
+    "verification": "public-source-checked"
   },
   {
     "no": 14,
     "brand": "Dapur Nanay",
     "owner": "Amalia",
     "slug": "dapur-nanay",
-    "hasShowcase": false,
-    "hasPage": false,
-    "status": "BELUM DIBUAT"
+    "hasShowcase": true,
+    "hasPage": true,
+    "status": "SELESAI — PAGE + SHOWCASE READY",
+    "verification": "public-source-checked"
   },
   {
     "no": 15,
     "brand": "Pempek Wak Ebot",
     "owner": "Vera",
     "slug": "pempek-wak-ebot",
-    "hasShowcase": false,
-    "hasPage": false,
-    "status": "BELUM DIBUAT"
+    "hasShowcase": true,
+    "hasPage": true,
+    "status": "SELESAI — PAGE + SHOWCASE READY",
+    "verification": "public-source-checked"
   },
   {
     "no": 16,
     "brand": "ZYVAS",
     "owner": "Nia Alina",
     "slug": "zyvas",
-    "hasShowcase": false,
-    "hasPage": false,
-    "status": "BELUM DIBUAT"
+    "hasShowcase": true,
+    "hasPage": true,
+    "status": "SELESAI — PAGE + SHOWCASE READY",
+    "verification": "handover-verified"
   },
   {
     "no": 17,
     "brand": "PT Niaga Citra Mandiri",
     "owner": "PT Niaga Citra Mandiri",
     "slug": "pt-niaga-citra-mandiri",
-    "hasShowcase": false,
-    "hasPage": false,
-    "status": "BELUM DIBUAT"
+    "hasShowcase": true,
+    "hasPage": true,
+    "status": "SELESAI — PAGE + SHOWCASE READY",
+    "verification": "public-source-checked"
   },
   {
     "no": 18,
     "brand": "RHR Snack",
     "owner": "Kerupuk RHR",
     "slug": "rhr-snack",
-    "hasShowcase": false,
-    "hasPage": false,
-    "status": "BELUM DIBUAT"
+    "hasShowcase": true,
+    "hasPage": true,
+    "status": "SELESAI — PAGE + SHOWCASE READY",
+    "verification": "public-source-checked"
   },
   {
     "no": 19,
     "brand": "Ery Mamaw",
     "owner": "Ery Mamaw",
     "slug": "ery-mamaw",
-    "hasShowcase": false,
-    "hasPage": false,
-    "status": "BELUM DIBUAT"
+    "hasShowcase": true,
+    "hasPage": true,
+    "status": "SELESAI — PAGE + SHOWCASE READY",
+    "verification": "handover-verified"
   },
   {
     "no": 20,
@@ -177,7 +196,8 @@
     "slug": "zahhab",
     "hasShowcase": true,
     "hasPage": true,
-    "status": "SUDAH JADI (LIVE LOKAL & REPO)"
+    "status": "SELESAI — PAGE + SHOWCASE READY",
+    "verification": "pre-existing-live"
   },
   {
     "no": 21,
@@ -186,52 +206,58 @@
     "slug": "our-herb",
     "hasShowcase": true,
     "hasPage": true,
-    "status": "SUDAH JADI (LIVE LOKAL & REPO)"
+    "status": "SELESAI — PAGE + SHOWCASE READY",
+    "verification": "pre-existing-live"
   },
   {
     "no": 22,
     "brand": "Rosniati",
     "owner": "Rosniati",
     "slug": "rosniati",
-    "hasShowcase": false,
-    "hasPage": false,
-    "status": "BELUM DIBUAT"
+    "hasShowcase": true,
+    "hasPage": true,
+    "status": "SELESAI — PAGE + SHOWCASE READY",
+    "verification": "public-source-checked"
   },
   {
     "no": 23,
     "brand": "Eni Chandra Shanti",
     "owner": "Eni Chandra Shanti",
     "slug": "eni-chandra",
-    "hasShowcase": false,
-    "hasPage": false,
-    "status": "BELUM DIBUAT"
+    "hasShowcase": true,
+    "hasPage": true,
+    "status": "SELESAI — PAGE + SHOWCASE READY",
+    "verification": "public-source-checked"
   },
   {
     "no": 24,
     "brand": "Jahe Hayatiqu",
     "owner": "Nanik",
     "slug": "jahe-hayatiqu",
-    "hasShowcase": false,
-    "hasPage": false,
-    "status": "BELUM DIBUAT"
+    "hasShowcase": true,
+    "hasPage": true,
+    "status": "SELESAI — PAGE + SHOWCASE READY",
+    "verification": "public-source-checked"
   },
   {
     "no": 25,
     "brand": "OChokat",
     "owner": "Bela",
     "slug": "ochokat",
-    "hasShowcase": false,
-    "hasPage": false,
-    "status": "BELUM DIBUAT"
+    "hasShowcase": true,
+    "hasPage": true,
+    "status": "SELESAI — PAGE + SHOWCASE READY",
+    "verification": "public-source-checked"
   },
   {
     "no": 26,
     "brand": "FENNYCROCHE",
     "owner": "Fenny Luckyharti",
     "slug": "fennycroche",
-    "hasShowcase": false,
-    "hasPage": false,
-    "status": "BELUM DIBUAT"
+    "hasShowcase": true,
+    "hasPage": true,
+    "status": "SELESAI — PAGE + SHOWCASE READY",
+    "verification": "public-source-checked"
   },
   {
     "no": 27,
@@ -240,34 +266,38 @@
     "slug": "dbumbu-aurelshop",
     "hasShowcase": true,
     "hasPage": true,
-    "status": "SUDAH JADI (LIVE LOKAL & REPO)"
+    "status": "SELESAI — PAGE + SHOWCASE READY",
+    "verification": "pre-existing-live"
   },
   {
     "no": 28,
     "brand": "ELLETA (Batik & Tenun Modern)",
     "owner": "Joanita Kusumawati",
     "slug": "elleta",
-    "hasShowcase": false,
-    "hasPage": false,
-    "status": "BELUM DIBUAT"
+    "hasShowcase": true,
+    "hasPage": true,
+    "status": "SELESAI — PAGE + SHOWCASE READY",
+    "verification": "handover-verified"
   },
   {
     "no": 29,
     "brand": "Kartika Bela",
     "owner": "Kartika Bela",
     "slug": "kartika-bela",
-    "hasShowcase": false,
-    "hasPage": false,
-    "status": "BELUM DIBUAT"
+    "hasShowcase": true,
+    "hasPage": true,
+    "status": "SELESAI — PAGE + SHOWCASE READY",
+    "verification": "handover-verified"
   },
   {
     "no": 30,
     "brand": "Snapclean",
     "owner": "Estie K.W",
     "slug": "snapclean",
-    "hasShowcase": false,
-    "hasPage": false,
-    "status": "BELUM DIBUAT"
+    "hasShowcase": true,
+    "hasPage": true,
+    "status": "SELESAI — PAGE + SHOWCASE READY",
+    "verification": "public-source-checked"
   },
   {
     "no": 31,
@@ -276,34 +306,38 @@
     "slug": "aranomiya",
     "hasShowcase": true,
     "hasPage": true,
-    "status": "SUDAH JADI (LIVE LOKAL & REPO)"
+    "status": "SELESAI — PAGE + SHOWCASE READY",
+    "verification": "pre-existing-live"
   },
   {
     "no": 32,
     "brand": "Nurazlinda",
     "owner": "Nurazlinda",
     "slug": "nurazlinda",
-    "hasShowcase": false,
-    "hasPage": false,
-    "status": "BELUM DIBUAT"
+    "hasShowcase": true,
+    "hasPage": true,
+    "status": "SELESAI — PAGE + SHOWCASE READY",
+    "verification": "handover-verified"
   },
   {
     "no": 33,
     "brand": "Fevy",
     "owner": "Fevy",
     "slug": "fevy",
-    "hasShowcase": false,
-    "hasPage": false,
-    "status": "BELUM DIBUAT"
+    "hasShowcase": true,
+    "hasPage": true,
+    "status": "SELESAI — PAGE + SHOWCASE READY",
+    "verification": "handover-verified"
   },
   {
     "no": 34,
     "brand": "Health Today",
     "owner": "Kevin",
     "slug": "health-today",
-    "hasShowcase": false,
-    "hasPage": false,
-    "status": "BELUM DIBUAT"
+    "hasShowcase": true,
+    "hasPage": true,
+    "status": "SELESAI — PAGE + SHOWCASE READY",
+    "verification": "public-source-checked"
   },
   {
     "no": 35,
@@ -312,105 +346,117 @@
     "slug": "md-organic",
     "hasShowcase": true,
     "hasPage": true,
-    "status": "SUDAH JADI (LIVE LOKAL & REPO)"
+    "status": "SELESAI — PAGE + SHOWCASE READY",
+    "verification": "pre-existing-live"
   },
   {
     "no": 36,
     "brand": "Batinos Pastry",
     "owner": "Dewi Anwar",
     "slug": "batinos-pastry",
-    "hasShowcase": false,
-    "hasPage": false,
-    "status": "BELUM DIBUAT"
+    "hasShowcase": true,
+    "hasPage": true,
+    "status": "SELESAI — PAGE + SHOWCASE READY",
+    "verification": "public-source-checked"
   },
   {
     "no": 37,
     "brand": "Meraki",
     "owner": "Lala",
     "slug": "meraki",
-    "hasShowcase": false,
-    "hasPage": false,
-    "status": "BELUM DIBUAT"
+    "hasShowcase": true,
+    "hasPage": true,
+    "status": "SELESAI — PAGE + SHOWCASE READY",
+    "verification": "handover-verified"
   },
   {
     "no": 38,
     "brand": "GiGa Tech",
     "owner": "GiGa Tech",
     "slug": "giga-tech",
-    "hasShowcase": false,
-    "hasPage": false,
-    "status": "BELUM DIBUAT"
+    "hasShowcase": true,
+    "hasPage": true,
+    "status": "SELESAI — PAGE + SHOWCASE READY",
+    "verification": "handover-verified"
   },
   {
     "no": 39,
     "brand": "Lalisha Food",
     "owner": "Haris",
     "slug": "lalisha-food",
-    "hasShowcase": false,
-    "hasPage": false,
-    "status": "BELUM DIBUAT"
+    "hasShowcase": true,
+    "hasPage": true,
+    "status": "SELESAI — PAGE + SHOWCASE READY",
+    "verification": "public-source-checked"
   },
   {
     "no": 40,
     "brand": "Tokibi Coffee",
     "owner": "Yuda",
     "slug": "tokibi-coffee",
-    "hasShowcase": false,
-    "hasPage": false,
-    "status": "BELUM DIBUAT"
+    "hasShowcase": true,
+    "hasPage": true,
+    "status": "SELESAI — PAGE + SHOWCASE READY",
+    "verification": "public-source-checked"
   },
   {
     "no": 41,
     "brand": "Mba' Wanti",
     "owner": "Darwanti",
     "slug": "mba-wanti",
-    "hasShowcase": false,
-    "hasPage": false,
-    "status": "BELUM DIBUAT"
+    "hasShowcase": true,
+    "hasPage": true,
+    "status": "SELESAI — PAGE + SHOWCASE READY",
+    "verification": "public-source-checked"
   },
   {
     "no": 42,
     "brand": "Datik Batik",
     "owner": "Datik D",
     "slug": "datik-batik",
-    "hasShowcase": false,
-    "hasPage": false,
-    "status": "BELUM DIBUAT"
+    "hasShowcase": true,
+    "hasPage": true,
+    "status": "SELESAI — PAGE + SHOWCASE READY",
+    "verification": "public-source-checked"
   },
   {
     "no": 43,
     "brand": "Peddler Indonesia",
     "owner": "Peddler Indonesia",
     "slug": "peddler-indonesia",
-    "hasShowcase": false,
-    "hasPage": false,
-    "status": "BELUM DIBUAT"
+    "hasShowcase": true,
+    "hasPage": true,
+    "status": "SELESAI — PAGE + SHOWCASE READY",
+    "verification": "handover-verified"
   },
   {
     "no": 44,
     "brand": "Dodol Betawi Haji Imang",
     "owner": "Sri Liana",
     "slug": "dodol-betawi-haji-imang",
-    "hasShowcase": false,
-    "hasPage": false,
-    "status": "BELUM DIBUAT"
+    "hasShowcase": true,
+    "hasPage": true,
+    "status": "SELESAI — PAGE + SHOWCASE READY",
+    "verification": "public-source-checked"
   },
   {
     "no": 45,
     "brand": "Larrisa Food",
     "owner": "Ifa",
     "slug": "larrisa-food",
-    "hasShowcase": false,
-    "hasPage": false,
-    "status": "BELUM DIBUAT"
+    "hasShowcase": true,
+    "hasPage": true,
+    "status": "SELESAI — PAGE + SHOWCASE READY",
+    "verification": "public-source-checked"
   },
   {
     "no": 46,
     "brand": "CV Makmur Jaya Sentosa",
     "owner": "Sri Sabbahatun",
     "slug": "cv-makmur-jaya-sentosa",
-    "hasShowcase": false,
-    "hasPage": false,
-    "status": "BELUM DIBUAT"
+    "hasShowcase": true,
+    "hasPage": true,
+    "status": "SELESAI — PAGE + SHOWCASE READY",
+    "verification": "public-source-checked"
   }
 ]

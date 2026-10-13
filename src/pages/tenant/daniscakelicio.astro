@@ -1,0 +1,24 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import SmartNfcShowcase from '../../components/SmartNfcShowcase.astro';
+import config from '../../data/showcases/daniscakelicio.json';
+
+const baseUrl = import.meta.env.BASE_URL;
+const tenant = {
+  name: "DANISCAKELICIO", slug: "daniscakelicio", hall: '8', booth: '8-7C',
+  category: "Food, Beverage & Agriculture Products",
+  description: "Cheese stick, kentang kering and keripik bawang from Ciputat.",
+  theme: "food",
+  researchStatus: "public-source-checked", verifiedAt: '2026-10-13'
+};
+const structuredData = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: tenant.name,
+  url: "https://www.instagram.com/daniscakelicio", sameAs: ["https://www.instagram.com/daniscakelicio", "https://shopee.co.id/shop/953337492"]
+};
+---
+<BaseLayout title={`${tenant.name} — Tangsel TradeLink`} description={tenant.description} theme={tenant.theme}
+  canonical={`${baseUrl}tenant/${tenant.slug}`} image={config.heroImage} structuredData={structuredData}>
+  <SmartNfcShowcase tenant={tenant} config={config} baseUrl={baseUrl} />
+</BaseLayout>

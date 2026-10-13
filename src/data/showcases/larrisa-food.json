@@ -1,0 +1,78 @@
+{
+  "brandLabel": "LARRISA FOOD",
+  "tagline": "Larrisa Food: packaged baso aci documented in a South Tangerang food-technology UMKM network.",
+  "eyebrow": "Food / Pantry · Tangerang Selatan",
+  "heroImage": "/brand/tei-batch/larrisa-food.svg",
+  "heroFit": "cover",
+  "visualMode": "food",
+  "palette": {
+    "bg": "#faf3e9",
+    "ink": "#2d1c15",
+    "accent": "#c45d2a",
+    "surface": "#ead5b8"
+  },
+  "story": {
+    "title": "Larrisa Food: packaged baso aci documented in a South Tangerang food-technology UMKM network.",
+    "body": "A BRIN-linked project document lists Larrisa Food with 'Baso Aci Kemasan' among South Tangerang UMKM using or interested in food-irradiation technology. The page therefore focuses on packaged baso aci and does not invent frozen-food variants or marketplace links."
+  },
+  "stats": [
+    {
+      "value": "Baso aci",
+      "label": "publicly documented product"
+    },
+    {
+      "value": "Packaged",
+      "label": "format stated in public project list"
+    },
+    {
+      "value": "Tangsel",
+      "label": "TEI 2026 tenant context"
+    },
+    {
+      "value": "Source-aware",
+      "label": "no guessed links or capacities"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Packaged baso aci",
+      "body": "The clearest public product identity."
+    },
+    {
+      "title": "Shelf-stable discussion",
+      "body": "Food-technology context makes packaging/process a relevant B2B topic."
+    },
+    {
+      "title": "Buyer discovery",
+      "body": "Suitable for retail, distributor and food-service introductions."
+    },
+    {
+      "title": "Evidence boundary",
+      "body": "Other product variants await direct confirmation."
+    }
+  ],
+  "commercialBlocks": [],
+  "gallery": [],
+  "actions": [
+    {
+      "key": "website",
+      "label": "BRIN-linked UMKM project list",
+      "url": "https://fliphtml5.com/adqut/vvmp/2_NDH_07_Naskah_Narasi_Proyek_Perubahan_Syaiful_Bakhri/"
+    }
+  ],
+  "verification": {
+    "status": "public-source-checked",
+    "checkedAt": "2026-10-13",
+    "note": "Claims on this profile were rechecked against public sources on 2026-10-13; unsupported claims and guessed links are intentionally omitted.",
+    "sources": [
+      {
+        "label": "BRIN-linked UMKM project list",
+        "url": "https://fliphtml5.com/adqut/vvmp/2_NDH_07_Naskah_Narasi_Proyek_Perubahan_Syaiful_Bakhri/"
+      }
+    ]
+  },
+  "performance": {
+    "optimizedAt": "2026-10-13",
+    "heroFormat": "svg"
+  }
+}

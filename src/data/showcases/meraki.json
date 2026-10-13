@@ -1,0 +1,72 @@
+{
+  "brandLabel": "MERAKI",
+  "tagline": "Handmade craft and gift-goods profile from South Tangerang.",
+  "eyebrow": "Craft / Handmade · Tangerang Selatan",
+  "heroImage": "/brand/tei-batch/meraki.svg",
+  "heroFit": "cover",
+  "visualMode": "craft",
+  "palette": {
+    "bg": "#f5f0e7",
+    "ink": "#2c241d",
+    "accent": "#98643c",
+    "surface": "#dfcbb2"
+  },
+  "story": {
+    "title": "Handmade craft and gift-goods profile from South Tangerang.",
+    "body": "Meraki tercatat sebagai usaha handmade crafts dan gift goods binaan UMKM Tangsel. Profil buyer-facing disiapkan tanpa mengunci kategori material sebelum katalog final tersedia."
+  },
+  "stats": [
+    {
+      "value": "Craft",
+      "label": "primary business category"
+    },
+    {
+      "value": "Tangsel",
+      "label": "Tangerang Selatan exhibition profile"
+    },
+    {
+      "value": "TEI 2026",
+      "label": "digital booth discovery context"
+    },
+    {
+      "value": "Handover",
+      "label": "profile verification level"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Handmade focus",
+      "body": "A product-first narrative for craft, accessories and decorative goods."
+    },
+    {
+      "title": "Material honesty",
+      "body": "Materials and techniques are only stated when the source actually provides them."
+    },
+    {
+      "title": "Buyer discovery",
+      "body": "Suitable for boutique, gifting, hospitality and curated-retail conversations."
+    },
+    {
+      "title": "NFC ready",
+      "body": "Fast static page designed for a tap-and-connect exhibition flow."
+    }
+  ],
+  "commercialBlocks": [],
+  "gallery": [],
+  "actions": [],
+  "verification": {
+    "status": "handover-verified",
+    "checkedAt": "2026-10-13",
+    "note": "Search results strongly surfaced Meraki Cipta Rasa, a food business, which conflicts with the TEI handover 'Meraki (Lala) — Handmade Crafts & Gift Goods'. No cross-binding is made.",
+    "sources": [
+      {
+        "label": "TEI 2026 project handover",
+        "url": "https://mycustomid.github.io/tangsel-tradelink/"
+      }
+    ]
+  },
+  "performance": {
+    "optimizedAt": "2026-10-13",
+    "heroFormat": "svg"
+  }
+}

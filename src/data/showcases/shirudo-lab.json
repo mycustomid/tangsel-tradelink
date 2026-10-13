@@ -1,0 +1,96 @@
+{
+  "brandLabel": "SHIRUDO LAB",
+  "tagline": "Shirudo Lab and IKUZEN aromatherapy/body-care formats with publicly verifiable BPOM-registered products.",
+  "eyebrow": "Beauty / Wellness · Tangerang Selatan",
+  "heroImage": "/brand/tei-batch/shirudo-lab.svg",
+  "heroFit": "cover",
+  "visualMode": "beauty",
+  "palette": {
+    "bg": "#f8f0f4",
+    "ink": "#2b1c26",
+    "accent": "#95607e",
+    "surface": "#e6cfdc"
+  },
+  "story": {
+    "title": "Shirudo Lab and IKUZEN aromatherapy/body-care formats with publicly verifiable BPOM-registered products.",
+    "body": "Public pharmacy listings document Shirudo Lab/IKUZEN formats including massage sprays and aromatherapy inhalers. The products carry specific BPOM registration numbers on pharmacy listings. This TEI profile describes product formats and regulatory visibility but avoids repeating aggressive therapeutic claims from marketplace copy."
+  },
+  "stats": [
+    {
+      "value": "BPOM",
+      "label": "registration shown on public pharmacy listings"
+    },
+    {
+      "value": "Spray",
+      "label": "body-relaxing massage spray format"
+    },
+    {
+      "value": "Inhaler",
+      "label": "IKUZEN aromatherapy inhaler format"
+    },
+    {
+      "value": "Essential oils",
+      "label": "core product formulation theme"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Body spray",
+      "body": "Shirudo body-relaxing spray appears in clove and lavender formats."
+    },
+    {
+      "title": "Aromatherapy inhaler",
+      "body": "IKUZEN inhaler products are publicly listed by established pharmacies."
+    },
+    {
+      "title": "Regulatory visibility",
+      "body": "BPOM numbers are displayed on pharmacy product pages."
+    },
+    {
+      "title": "Conservative copy",
+      "body": "This profile does not reproduce cure/therapy promises from seller descriptions."
+    }
+  ],
+  "commercialBlocks": [],
+  "gallery": [],
+  "actions": [
+    {
+      "key": "instagram",
+      "label": "Instagram · @shirudolabindonesia",
+      "url": "https://www.instagram.com/shirudolabindonesia"
+    },
+    {
+      "key": "shopee",
+      "label": "Shopee · Shirudo Lab Indonesia",
+      "url": "https://shopee.co.id/shirudo.lab"
+    },
+    {
+      "key": "website",
+      "label": "Apotek Mandjur · IKUZEN NoSpin",
+      "url": "https://www.mandjur.co.id/products/ikuzen-nospin-inhaler"
+    }
+  ],
+  "verification": {
+    "status": "public-source-checked",
+    "checkedAt": "2026-10-13",
+    "note": "Claims on this profile were rechecked against public sources on 2026-10-13; unsupported claims and guessed links are intentionally omitted.",
+    "sources": [
+      {
+        "label": "Apotek Mandjur · IKUZEN NoSpin",
+        "url": "https://www.mandjur.co.id/products/ikuzen-nospin-inhaler"
+      },
+      {
+        "label": "Apotek Mandjur · Shirudo Massage Spray",
+        "url": "https://www.mandjur.co.id/products/shirudo-lab-body-relaxing-massage-spray-clove-100-ml"
+      },
+      {
+        "label": "Shopee · Shirudo Lab Indonesia",
+        "url": "https://shopee.co.id/shirudo.lab"
+      }
+    ]
+  },
+  "performance": {
+    "optimizedAt": "2026-10-13",
+    "heroFormat": "svg"
+  }
+}

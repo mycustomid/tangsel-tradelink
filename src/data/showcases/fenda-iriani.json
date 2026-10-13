@@ -1,0 +1,87 @@
+{
+  "brandLabel": "FENDA IRIANI",
+  "tagline": "KEMANIA: crispy basil-leaf snacks from Setu, including a fish-enhanced variant.",
+  "eyebrow": "Food / Pantry · Tangerang Selatan",
+  "heroImage": "/brand/tei-batch/fenda-iriani.svg",
+  "heroFit": "cover",
+  "visualMode": "food",
+  "palette": {
+    "bg": "#faf3e9",
+    "ink": "#2d1c15",
+    "accent": "#c45d2a",
+    "surface": "#ead5b8"
+  },
+  "story": {
+    "title": "KEMANIA: crispy basil-leaf snacks from Setu, including a fish-enhanced variant.",
+    "body": "Rumah Kurasi Tangerang Selatan lists Fenda Iriani as the maker of KEMANIA and KEMANIA FISH in Setu. KEMANIA uses basil leaves with mocaf/cassava flour, while KEMANIA FISH combines basil-leaf chips with mackerel. Both curated listings state SPP-IRT and Halal LPPOM MUI."
+  },
+  "stats": [
+    {
+      "value": "50 kg",
+      "label": "production capacity stated for KEMANIA FISH"
+    },
+    {
+      "value": "Setu",
+      "label": "UMKM area on Rumah Kurasi"
+    },
+    {
+      "value": "SPP-IRT",
+      "label": "legality listed by Rumah Kurasi"
+    },
+    {
+      "value": "Halal",
+      "label": "LPPOM MUI listed by Rumah Kurasi"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "KEMANIA",
+      "body": "Basil-leaf snack prepared with mocaf/cassava flour for a crisp, savoury format."
+    },
+    {
+      "title": "KEMANIA FISH",
+      "body": "Basil-leaf chips paired with mackerel for a fish-forward variant."
+    },
+    {
+      "title": "Local production",
+      "body": "Both products are listed under Fenda Iriani in Setu, Tangerang Selatan."
+    },
+    {
+      "title": "Buyer-ready facts",
+      "body": "Capacity and legalities shown here come directly from the curated municipal listings."
+    }
+  ],
+  "commercialBlocks": [],
+  "gallery": [],
+  "actions": [
+    {
+      "key": "website",
+      "label": "Rumah Kurasi · KEMANIA",
+      "url": "https://kurasi.tangerangselatankota.go.id/produk/536"
+    },
+    {
+      "key": "website",
+      "label": "Rumah Kurasi · KEMANIA FISH",
+      "url": "https://kurasi.tangerangselatankota.go.id/produk/537"
+    }
+  ],
+  "verification": {
+    "status": "public-source-checked",
+    "checkedAt": "2026-10-13",
+    "note": "Claims on this profile were rechecked against public sources on 2026-10-13; unsupported claims and guessed links are intentionally omitted.",
+    "sources": [
+      {
+        "label": "Rumah Kurasi · KEMANIA",
+        "url": "https://kurasi.tangerangselatankota.go.id/produk/536"
+      },
+      {
+        "label": "Rumah Kurasi · KEMANIA FISH",
+        "url": "https://kurasi.tangerangselatankota.go.id/produk/537"
+      }
+    ]
+  },
+  "performance": {
+    "optimizedAt": "2026-10-13",
+    "heroFormat": "svg"
+  }
+}

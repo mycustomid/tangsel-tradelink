@@ -1,0 +1,87 @@
+{
+  "brandLabel": "RHR SNACK",
+  "tagline": "Kerupuk RHR Snack from Setu with documented one-ton production capacity and public retail availability.",
+  "eyebrow": "Food / Pantry · Tangerang Selatan",
+  "heroImage": "/brand/tei-batch/rhr-snack.svg",
+  "heroFit": "cover",
+  "visualMode": "food",
+  "palette": {
+    "bg": "#faf3e9",
+    "ink": "#2d1c15",
+    "accent": "#c45d2a",
+    "surface": "#ead5b8"
+  },
+  "story": {
+    "title": "Kerupuk RHR Snack from Setu with documented one-ton production capacity and public retail availability.",
+    "body": "Rumah Kurasi Tangerang Selatan lists RHR Snack under Eti Nurhaeti in Setu, with one-ton production capacity and multiple kerupuk flavours. The listing records SPP-IRT, Halal LPPOM MUI, BPOM, HAKI and SNI where applicable. A Shopee listing also shows Kerupuk Ikan Tenggiri RHR Snack from a South Tangerang seller."
+  },
+  "stats": [
+    {
+      "value": "1 ton",
+      "label": "production capacity stated by Rumah Kurasi"
+    },
+    {
+      "value": "Setu",
+      "label": "UMKM area"
+    },
+    {
+      "value": "Tenggiri",
+      "label": "public Shopee product variant"
+    },
+    {
+      "value": "Multi-legality",
+      "label": "several legalities listed by Rumah Kurasi"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Kerupuk range",
+      "body": "Rumah Kurasi describes multiple flavour variants."
+    },
+    {
+      "title": "Fish cracker",
+      "body": "Kerupuk Ikan Tenggiri is publicly listed on Shopee."
+    },
+    {
+      "title": "Production scale",
+      "body": "One-ton capacity is stated on the municipal curation profile."
+    },
+    {
+      "title": "Retail route",
+      "body": "Public marketplace availability supports direct consumer discovery."
+    }
+  ],
+  "commercialBlocks": [],
+  "gallery": [],
+  "actions": [
+    {
+      "key": "website",
+      "label": "Rumah Kurasi · RHR Snack",
+      "url": "https://kurasi.tangerangselatankota.go.id/produk/177"
+    },
+    {
+      "key": "shopee",
+      "label": "Shopee · Kerupuk Ikan Tenggiri RHR",
+      "url": "https://shopee.co.id/Kerupuk-Ikan-Tenggiri-RHR-Snack-i.487081002.23876299609"
+    }
+  ],
+  "verification": {
+    "status": "public-source-checked",
+    "checkedAt": "2026-10-13",
+    "note": "Claims on this profile were rechecked against public sources on 2026-10-13; unsupported claims and guessed links are intentionally omitted.",
+    "sources": [
+      {
+        "label": "Rumah Kurasi · RHR Snack",
+        "url": "https://kurasi.tangerangselatankota.go.id/produk/177"
+      },
+      {
+        "label": "Shopee · RHR Snack",
+        "url": "https://shopee.co.id/Kerupuk-Ikan-Tenggiri-RHR-Snack-i.487081002.23876299609"
+      }
+    ]
+  },
+  "performance": {
+    "optimizedAt": "2026-10-13",
+    "heroFormat": "svg"
+  }
+}

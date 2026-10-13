@@ -1,0 +1,24 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import SmartNfcShowcase from '../../components/SmartNfcShowcase.astro';
+import config from '../../data/showcases/peddler-indonesia.json';
+
+const baseUrl = import.meta.env.BASE_URL;
+const tenant = {
+  name: "Peddler Indonesia", slug: "peddler-indonesia", hall: '8', booth: '8-7C',
+  category: "Fashion, Handicraft & Home Decor",
+  description: "Casual footwear and lifestyle profile prepared for TEI 2026.",
+  theme: "editorial",
+  researchStatus: "handover-verified", verifiedAt: '2026-10-13'
+};
+const structuredData = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: tenant.name,
+  url: "https://mycustomid.github.io/tangsel-tradelink/"
+};
+---
+<BaseLayout title={`${tenant.name} — Tangsel TradeLink`} description={tenant.description} theme={tenant.theme}
+  canonical={`${baseUrl}tenant/${tenant.slug}`} image={config.heroImage} structuredData={structuredData}>
+  <SmartNfcShowcase tenant={tenant} config={config} baseUrl={baseUrl} />
+</BaseLayout>

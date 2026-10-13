@@ -1,0 +1,78 @@
+{
+  "brandLabel": "PT NIAGA CITRA MANDIRI",
+  "tagline": "Indonesian cooking-paste producer from Taman Tekno Setu with a documented 2026 export to Saudi Arabia.",
+  "eyebrow": "Trade / Industry · Tangerang Selatan",
+  "heroImage": "/brand/tei-batch/pt-niaga-citra-mandiri.svg",
+  "heroFit": "cover",
+  "visualMode": "industrial",
+  "palette": {
+    "bg": "#f1f4f6",
+    "ink": "#13212c",
+    "accent": "#32627c",
+    "surface": "#d2e0e8"
+  },
+  "story": {
+    "title": "Indonesian cooking-paste producer from Taman Tekno Setu with a documented 2026 export to Saudi Arabia.",
+    "body": "The Tangerang Selatan city government reported PT Niaga Citra Mandiri's first export of Indonesian-flavour cooking paste to Saudi Arabia in March 2026. The product was produced in Taman Tekno Setu and highlighted as a competitive halal processed-food export from South Tangerang."
+  },
+  "stats": [
+    {
+      "value": "Saudi Arabia",
+      "label": "first export destination reported in March 2026"
+    },
+    {
+      "value": "2026",
+      "label": "documented export milestone"
+    },
+    {
+      "value": "Taman Tekno",
+      "label": "production location in Setu"
+    },
+    {
+      "value": "Cooking paste",
+      "label": "exported product category"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Indonesian flavours",
+      "body": "The export shipment is described as Indonesian-flavour cooking paste."
+    },
+    {
+      "title": "Export-ready",
+      "body": "The 2026 shipment provides a concrete international-trade proof point."
+    },
+    {
+      "title": "Setu production",
+      "body": "The city article locates production in Taman Tekno Setu."
+    },
+    {
+      "title": "B2B fit",
+      "body": "The product is naturally suited to distributor, retail and food-service discussions."
+    }
+  ],
+  "commercialBlocks": [],
+  "gallery": [],
+  "actions": [
+    {
+      "key": "website",
+      "label": "Tangsel City · Export release",
+      "url": "https://berita.tangerangselatankota.go.id/berita/pilar-lepas-ekspor-perdana-bumbu-masak-pt-niaga-citra-mandiri-ke-arab-saudi"
+    }
+  ],
+  "verification": {
+    "status": "public-source-checked",
+    "checkedAt": "2026-10-13",
+    "note": "Claims on this profile were rechecked against public sources on 2026-10-13; unsupported claims and guessed links are intentionally omitted.",
+    "sources": [
+      {
+        "label": "Tangerang Selatan City Government",
+        "url": "https://berita.tangerangselatankota.go.id/berita/pilar-lepas-ekspor-perdana-bumbu-masak-pt-niaga-citra-mandiri-ke-arab-saudi"
+      }
+    ]
+  },
+  "performance": {
+    "optimizedAt": "2026-10-13",
+    "heroFormat": "svg"
+  }
+}

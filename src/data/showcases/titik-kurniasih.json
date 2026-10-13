@@ -1,0 +1,72 @@
+{
+  "brandLabel": "TITIK KURNIASIH",
+  "tagline": "Batik Tangerang Selatan with a local-craft point of view.",
+  "eyebrow": "Fashion / Textile · Tangerang Selatan",
+  "heroImage": "/brand/tei-batch/titik-kurniasih.svg",
+  "heroFit": "cover",
+  "visualMode": "fashion",
+  "palette": {
+    "bg": "#f8f1ec",
+    "ink": "#221b1e",
+    "accent": "#9a4964",
+    "surface": "#e8ced8"
+  },
+  "story": {
+    "title": "Batik Tangerang Selatan with a local-craft point of view.",
+    "body": "Profil NFC ini menempatkan karya batik Tangerang Selatan sebagai fokus utama. Detail motif, katalog, harga, dan kanal publik belum dipaksakan sebelum sumber primer tersedia."
+  },
+  "stats": [
+    {
+      "value": "Fashion",
+      "label": "primary business category"
+    },
+    {
+      "value": "Tangsel",
+      "label": "Tangerang Selatan exhibition profile"
+    },
+    {
+      "value": "TEI 2026",
+      "label": "digital booth discovery context"
+    },
+    {
+      "value": "Handover",
+      "label": "profile verification level"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Buyer discovery",
+      "body": "A concise profile for retail, boutique, gifting and buyer introductions."
+    },
+    {
+      "title": "Local identity",
+      "body": "The page keeps the Tangsel origin visible without inventing unverified heritage claims."
+    },
+    {
+      "title": "Direct channels",
+      "body": "Only channels supplied by the handover or public sources are published."
+    },
+    {
+      "title": "NFC ready",
+      "body": "Mobile-first layout with large tap targets for exhibition use."
+    }
+  ],
+  "commercialBlocks": [],
+  "gallery": [],
+  "actions": [],
+  "verification": {
+    "status": "handover-verified",
+    "checkedAt": "2026-10-13",
+    "note": "Public search found a Titik Kurniasih operating 'Dapur Bu Batik' in Alam Sutera, but this conflicts with the TEI handover category 'Batik Tangsel'. The profile therefore remains handover-verified until the exact TEI business identity is confirmed.",
+    "sources": [
+      {
+        "label": "TEI 2026 project handover",
+        "url": "https://mycustomid.github.io/tangsel-tradelink/"
+      }
+    ]
+  },
+  "performance": {
+    "optimizedAt": "2026-10-13",
+    "heroFormat": "svg"
+  }
+}

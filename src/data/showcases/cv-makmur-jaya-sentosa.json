@@ -1,0 +1,82 @@
+{
+  "brandLabel": "CV MAKMUR JAYA SENTOSA",
+  "tagline": "General trading and export-import services connecting Indonesian food, agricultural, textile and MSME products to international markets.",
+  "eyebrow": "Trade / Industry · Tangerang Selatan",
+  "heroImage": "/brand/tei-batch/cv-makmur-jaya-sentosa.svg",
+  "heroFit": "cover",
+  "visualMode": "industrial",
+  "palette": {
+    "bg": "#f1f4f6",
+    "ink": "#13212c",
+    "accent": "#32627c",
+    "surface": "#d2e0e8"
+  },
+  "story": {
+    "title": "General trading and export-import services connecting Indonesian food, agricultural, textile and MSME products to international markets.",
+    "body": "CV Makmur Jaya Sentosa's own website describes a trading and export-import company established in March 2015, handling food, beverages, coffee, agricultural products, garments, textiles and MSME products, with particular focus on Middle Eastern markets. The site also describes consultation, documentation, logistics and customs-compliance support."
+  },
+  "stats": [
+    {
+      "value": "2015",
+      "label": "establishment year stated on company website"
+    },
+    {
+      "value": "Middle East",
+      "label": "priority market region stated by company"
+    },
+    {
+      "value": "Multi-commodity",
+      "label": "food, agriculture, coffee, textile and MSME products"
+    },
+    {
+      "value": "Trade services",
+      "label": "documents, logistics and customs support"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "General trading",
+      "body": "The company handles multiple Indonesian commodity categories."
+    },
+    {
+      "title": "Export-import",
+      "body": "International trade is a core part of the official company positioning."
+    },
+    {
+      "title": "SME bridge",
+      "body": "The company explicitly includes Indonesian MSME products in its export portfolio."
+    },
+    {
+      "title": "Trade support",
+      "body": "Official site describes consultation, documentation, logistics and customs compliance."
+    }
+  ],
+  "commercialBlocks": [],
+  "gallery": [],
+  "actions": [
+    {
+      "key": "website",
+      "label": "Official Website · Makmur Jaya Sentosa",
+      "url": "https://makmurjayasentosa.com/"
+    }
+  ],
+  "verification": {
+    "status": "public-source-checked",
+    "checkedAt": "2026-10-13",
+    "note": "Claims on this profile were rechecked against public sources on 2026-10-13; unsupported claims and guessed links are intentionally omitted.",
+    "sources": [
+      {
+        "label": "CV Makmur Jaya Sentosa official website",
+        "url": "https://makmurjayasentosa.com/"
+      },
+      {
+        "label": "Republika export coverage",
+        "url": "https://sharia.republika.co.id/berita/smptbv490/makmur-jaya-sentosa-lepas-ekspor-makanan-halal-indonesia-ke-dubai"
+      }
+    ]
+  },
+  "performance": {
+    "optimizedAt": "2026-10-13",
+    "heroFormat": "svg"
+  }
+}

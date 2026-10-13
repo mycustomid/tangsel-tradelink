@@ -1,0 +1,96 @@
+{
+  "brandLabel": "PT COSMAR",
+  "tagline": "OEM/ODM cosmetics and skincare manufacturing from Taman Tekno BSD.",
+  "eyebrow": "Trade / Industry · Tangerang Selatan",
+  "heroImage": "/brand/tei-batch/pt-cosmar.svg",
+  "heroFit": "cover",
+  "visualMode": "industrial",
+  "palette": {
+    "bg": "#f1f4f6",
+    "ink": "#13212c",
+    "accent": "#32627c",
+    "surface": "#d2e0e8"
+  },
+  "story": {
+    "title": "OEM/ODM cosmetics and skincare manufacturing from Taman Tekno BSD.",
+    "body": "PT Cosmar operates from Taman Tekno BSD and provides end-to-end cosmetic and skincare contract manufacturing. Its current official website states more than 15 years of R&D experience, 300+ local brand partners, legal-support services including BPOM and Halal, and a standard MOQ of 3,000 pieces."
+  },
+  "stats": [
+    {
+      "value": "300+",
+      "label": "brands stated by the official website"
+    },
+    {
+      "value": "15+ yrs",
+      "label": "R&D experience stated by Cosmar"
+    },
+    {
+      "value": "3,000",
+      "label": "standard MOQ stated in the official FAQ"
+    },
+    {
+      "value": "BSD",
+      "label": "Taman Tekno manufacturing location"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "OEM/ODM",
+      "body": "Concept, formulation, production and brand-development support."
+    },
+    {
+      "title": "Legal support",
+      "body": "Official pages state support for HAKI, BPOM and Halal processes."
+    },
+    {
+      "title": "Broad formats",
+      "body": "Official product catalogue spans face, hair, body, lip, fragrance and hygiene products."
+    },
+    {
+      "title": "B2B consultation",
+      "body": "The company provides consultation and request forms for prospective brand owners."
+    }
+  ],
+  "commercialBlocks": [],
+  "gallery": [],
+  "actions": [
+    {
+      "key": "website",
+      "label": "Official Website · PT Cosmar",
+      "url": "https://ptcosmar.com/"
+    },
+    {
+      "key": "website",
+      "label": "Products · PT Cosmar",
+      "url": "https://ptcosmar.com/produk/"
+    },
+    {
+      "key": "maps",
+      "label": "Cosmar location / FAQ",
+      "url": "https://ptcosmar.com/faq/"
+    }
+  ],
+  "verification": {
+    "status": "public-source-checked",
+    "checkedAt": "2026-10-13",
+    "note": "Claims on this profile were rechecked against public sources on 2026-10-13; unsupported claims and guessed links are intentionally omitted.",
+    "sources": [
+      {
+        "label": "PT Cosmar official website",
+        "url": "https://ptcosmar.com/"
+      },
+      {
+        "label": "PT Cosmar products",
+        "url": "https://ptcosmar.com/produk/"
+      },
+      {
+        "label": "PT Cosmar FAQ",
+        "url": "https://ptcosmar.com/faq/"
+      }
+    ]
+  },
+  "performance": {
+    "optimizedAt": "2026-10-13",
+    "heroFormat": "svg"
+  }
+}

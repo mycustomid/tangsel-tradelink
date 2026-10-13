@@ -1,0 +1,96 @@
+{
+  "brandLabel": "DODOL BETAWI HAJI IMANG",
+  "tagline": "Dodol Betawi Haji Imang from Pondok Cabe, Pamulang—traditional Betawi confectionery with registered brand presence.",
+  "eyebrow": "Food / Pantry · Tangerang Selatan",
+  "heroImage": "/brand/tei-batch/dodol-betawi-haji-imang.svg",
+  "heroFit": "cover",
+  "visualMode": "food",
+  "palette": {
+    "bg": "#faf3e9",
+    "ink": "#2d1c15",
+    "accent": "#c45d2a",
+    "surface": "#ead5b8"
+  },
+  "story": {
+    "title": "Dodol Betawi Haji Imang from Pondok Cabe, Pamulang—traditional Betawi confectionery with registered brand presence.",
+    "body": "Government and marketplace records identify Dodol Betawi Haji Imang under Sri Liana in Pondok Cabe/Pamulang. The brand appears in an Indonesian trademark gazette, in a Banten MSME listing and on Plaza Banten with packaged dodol products such as Dodol Mini Tenong and Mini Gentong."
+  },
+  "stats": [
+    {
+      "value": "Pamulang",
+      "label": "Pondok Cabe business area"
+    },
+    {
+      "value": "Trademark",
+      "label": "brand appears in DJKI gazette"
+    },
+    {
+      "value": "Dodol",
+      "label": "core Betawi confectionery"
+    },
+    {
+      "value": "2",
+      "label": "Mini Tenong and Mini Gentong visible on Plaza Banten"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Betawi dodol",
+      "body": "Traditional confectionery is the documented core product."
+    },
+    {
+      "title": "Gift packaging",
+      "body": "Public marketplace listings show tenong/gentong-style gift formats."
+    },
+    {
+      "title": "Registered identity",
+      "body": "The brand appears in the government trademark gazette."
+    },
+    {
+      "title": "Local recognition",
+      "body": "Sri Liana and the brand are also present in a Banten MSME listing."
+    }
+  ],
+  "commercialBlocks": [],
+  "gallery": [],
+  "actions": [
+    {
+      "key": "instagram",
+      "label": "Instagram · @dodolbetawi.hajiimang",
+      "url": "https://www.instagram.com/dodolbetawi.hajiimang"
+    },
+    {
+      "key": "website",
+      "label": "Linktree · Dodol Haji Imang",
+      "url": "https://linktr.ee/dodolbetawi.hajiimang"
+    },
+    {
+      "key": "website",
+      "label": "Plaza Banten · Dodol Haji Imang",
+      "url": "https://plazabanten.com/shopView/216"
+    }
+  ],
+  "verification": {
+    "status": "public-source-checked",
+    "checkedAt": "2026-10-13",
+    "note": "Claims on this profile were rechecked against public sources on 2026-10-13; unsupported claims and guessed links are intentionally omitted.",
+    "sources": [
+      {
+        "label": "Banten MSME listing",
+        "url": "https://dispora.bantenprov.go.id/storage/dispora/files/875/PPID/LPPD%20Dispora%202025_compressed.pdf"
+      },
+      {
+        "label": "DJKI trademark gazette",
+        "url": "https://www.dgip.go.id/uploads/berita_resmi/file/9e6511b217f11a588fa294908106de13.pdf"
+      },
+      {
+        "label": "Plaza Banten seller page",
+        "url": "https://plazabanten.com/shopView/216"
+      }
+    ]
+  },
+  "performance": {
+    "optimizedAt": "2026-10-13",
+    "heroFormat": "svg"
+  }
+}

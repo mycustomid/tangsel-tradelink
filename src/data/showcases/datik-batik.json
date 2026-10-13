@@ -1,0 +1,98 @@
+{
+  "brandLabel": "DATIK BATIK",
+  "tagline": "Modern South Tangerang batik by Datik Daryanti, spanning fabric, apparel and accessories.",
+  "eyebrow": "Fashion / Textile · Tangerang Selatan",
+  "heroImage": "/brand/tei-batch/datik-batik.svg",
+  "heroFit": "cover",
+  "visualMode": "fashion",
+  "palette": {
+    "bg": "#f8f1ec",
+    "ink": "#221b1e",
+    "accent": "#9a4964",
+    "surface": "#e8ced8"
+  },
+  "story": {
+    "title": "Modern South Tangerang batik by Datik Daryanti, spanning fabric, apparel and accessories.",
+    "body": "BRI, BTN and national media profiles document Datik Daryanti as the founder of Datik Batik in Tangerang Selatan. Public coverage describes fabric, dresses, shirts, outerwear and accessories made with hand-printing, cap and tulis techniques. Sources differ on whether the business began in 2012 or 2014, so this profile avoids presenting a single founding year as undisputed fact."
+  },
+  "stats": [
+    {
+      "value": "Pamulang",
+      "label": "documented South Tangerang base"
+    },
+    {
+      "value": "Batik",
+      "label": "fabric and apparel core"
+    },
+    {
+      "value": "3 techniques",
+      "label": "hand-printing, cap and tulis publicly described"
+    },
+    {
+      "value": "Global",
+      "label": "public coverage documents overseas market exposure"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Fabric to fashion",
+      "body": "Product range includes fabric, dresses, shirts, outerwear and accessories."
+    },
+    {
+      "title": "Multiple techniques",
+      "body": "Public profiles describe hand-printing, cap and tulis production."
+    },
+    {
+      "title": "Local motifs",
+      "body": "Tangsel identity is central to the brand story and public coverage."
+    },
+    {
+      "title": "Market development",
+      "body": "BRI-supported coverage documents efforts to expand market reach beyond Tangsel."
+    }
+  ],
+  "commercialBlocks": [],
+  "gallery": [
+    {
+      "image": "https://img.okezone.com/content/2025/10/21/455/3178194/batik-A5mY_large.jpg",
+      "label": "Datik Batik · public editorial photo",
+      "caption": "Public editorial photography of Datik Daryanti and Datik Batik products; lazy-loaded below the fold.",
+      "url": "https://economy.okezone.com/read/2025/10/21/455/3178194/kisah-insipiratif-umkm-binaan-bri-mengenalkan-batik-khas-tangerang-hingga-tembus-pasar-luar-negeri"
+    }
+  ],
+  "actions": [
+    {
+      "key": "instagram",
+      "label": "Instagram · @datikbatik",
+      "url": "https://www.instagram.com/datikbatik"
+    },
+    {
+      "key": "website",
+      "label": "BRI profile · Datik Batik",
+      "url": "https://www.bri.co.id/web/guest/id/promo-news-detail/1272"
+    }
+  ],
+  "verification": {
+    "status": "public-source-checked",
+    "checkedAt": "2026-10-13",
+    "note": "Claims on this profile were rechecked against public sources on 2026-10-13; unsupported claims and guessed links are intentionally omitted.",
+    "sources": [
+      {
+        "label": "BRI profile · Datik Batik",
+        "url": "https://www.bri.co.id/web/guest/id/promo-news-detail/1272"
+      },
+      {
+        "label": "BTN programme report",
+        "url": "https://www.btn.co.id/assets/media/laporan-pkbl-2019.pdf"
+      },
+      {
+        "label": "ANTARA profile",
+        "url": "https://www.antaranews.com/berita/5187981/kisah-insipiratif-umkm-binaan-bri-kenalkan-batik-khas-tangerang-hingga-ke-pasar-luar-negeri"
+      }
+    ]
+  },
+  "performance": {
+    "optimizedAt": "2026-10-13",
+    "heroFormat": "svg"
+  }
+}

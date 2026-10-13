@@ -1,0 +1,87 @@
+{
+  "brandLabel": "DAPUR NANAY",
+  "tagline": "Naytaste Cheese Stick and savoury snacks from Pamulang with documented export-market intent.",
+  "eyebrow": "Food / Pantry · Tangerang Selatan",
+  "heroImage": "/brand/tei-batch/dapur-nanay.svg",
+  "heroFit": "cover",
+  "visualMode": "food",
+  "palette": {
+    "bg": "#faf3e9",
+    "ink": "#2d1c15",
+    "accent": "#c45d2a",
+    "surface": "#ead5b8"
+  },
+  "story": {
+    "title": "Naytaste Cheese Stick and savoury snacks from Pamulang with documented export-market intent.",
+    "body": "Rumah Kurasi Tangerang Selatan lists Naytaste Cheese Stick under Amalia in Pamulang. The listing records 5,000 pcs production capacity, export as the target market, and legalities including SPP-IRT, Halal LPPOM MUI, BPOM and HAKI. A BRIN-linked project also lists Dapur Nanay with cheese stick and kentang mustofa."
+  },
+  "stats": [
+    {
+      "value": "5,000 pcs",
+      "label": "production capacity on Rumah Kurasi"
+    },
+    {
+      "value": "Export",
+      "label": "target market on Rumah Kurasi"
+    },
+    {
+      "value": "Pamulang",
+      "label": "UMKM area"
+    },
+    {
+      "value": "Multi-legality",
+      "label": "SPP-IRT, Halal, BPOM and HAKI listed"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Naytaste Cheese Stick",
+      "body": "The curated product uses Edam and cheddar positioning."
+    },
+    {
+      "title": "Kentang Mustofa",
+      "body": "Also documented under Dapur Nanay in a BRIN-linked UMKM list."
+    },
+    {
+      "title": "Export intent",
+      "body": "Rumah Kurasi explicitly records export as the target market."
+    },
+    {
+      "title": "Public curation",
+      "body": "Product data is sourced from the municipal Rumah Kurasi listing."
+    }
+  ],
+  "commercialBlocks": [],
+  "gallery": [],
+  "actions": [
+    {
+      "key": "instagram",
+      "label": "Instagram · @dapur_nanay",
+      "url": "https://www.instagram.com/dapur_nanay"
+    },
+    {
+      "key": "website",
+      "label": "Rumah Kurasi · Naytaste Cheese Stick",
+      "url": "https://kurasi.tangerangselatankota.go.id/produk/548"
+    }
+  ],
+  "verification": {
+    "status": "public-source-checked",
+    "checkedAt": "2026-10-13",
+    "note": "Claims on this profile were rechecked against public sources on 2026-10-13; unsupported claims and guessed links are intentionally omitted.",
+    "sources": [
+      {
+        "label": "Rumah Kurasi · Naytaste Cheese Stick",
+        "url": "https://kurasi.tangerangselatankota.go.id/produk/548"
+      },
+      {
+        "label": "BRIN-linked UMKM project list",
+        "url": "https://fliphtml5.com/adqut/vvmp/2_NDH_07_Naskah_Narasi_Proyek_Perubahan_Syaiful_Bakhri/"
+      }
+    ]
+  },
+  "performance": {
+    "optimizedAt": "2026-10-13",
+    "heroFormat": "svg"
+  }
+}

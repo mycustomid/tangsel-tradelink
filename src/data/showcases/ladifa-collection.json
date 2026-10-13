@@ -1,0 +1,86 @@
+{
+  "brandLabel": "LADIFA COLLECTION",
+  "tagline": "LADIFA: handmade Indonesian gemstone and handicraft collection from Setu, Tangerang Selatan.",
+  "eyebrow": "Fashion / Textile · Tangerang Selatan",
+  "heroImage": "/brand/tei-batch/ladifa-collection.svg",
+  "heroFit": "cover",
+  "visualMode": "fashion",
+  "palette": {
+    "bg": "#f8f1ec",
+    "ink": "#221b1e",
+    "accent": "#9a4964",
+    "surface": "#e8ced8"
+  },
+  "story": {
+    "title": "Handmade gemstone and handicraft from Setu.",
+    "body": "A public LADIFA website describes an Indonesia gemstone handmade handicraft collection based in Kademangan, Setu, Tangerang Selatan, accepting international orders. Because the TEI handover lists Ladifa Collection twice and the current project contact is still awaiting final social/marketplace details, the profile publishes the verified website identity while keeping the project-order channels marked pending."
+  },
+  "stats": [
+    {
+      "value": "Setu",
+      "label": "public office location in Kademangan"
+    },
+    {
+      "value": "Handmade",
+      "label": "gemstone and handicraft positioning on public website"
+    },
+    {
+      "value": "Intl.",
+      "label": "website states international orders accepted"
+    },
+    {
+      "value": "Pending",
+      "label": "current TEI social/marketplace confirmation"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Gemstone handicraft",
+      "label": "",
+      "body": "Public website positioning centres on handmade gemstone and handicraft pieces."
+    },
+    {
+      "title": "International orders",
+      "label": "",
+      "body": "The public contact page explicitly states international orders are accepted."
+    },
+    {
+      "title": "Setu base",
+      "label": "",
+      "body": "Public contact details place the business in Kademangan, Setu, Tangerang Selatan."
+    },
+    {
+      "title": "Project contact pending",
+      "label": "",
+      "body": "Current TEI Instagram/marketplace/WhatsApp preferences still need owner confirmation before publishing."
+    }
+  ],
+  "commercialBlocks": [],
+  "gallery": [],
+  "actions": [
+    {
+      "key": "website",
+      "label": "Public Website · LADIFA",
+      "url": "https://www.ladifa.id/contacts.html"
+    }
+  ],
+  "verification": {
+    "status": "links-pending",
+    "checkedAt": "2026-10-13",
+    "note": "Business identity and website location are publicly corroborated, but the current TEI project contact channels are still pending owner confirmation.",
+    "sources": [
+      {
+        "label": "LADIFA public contact page",
+        "url": "https://www.ladifa.id/contacts.html"
+      },
+      {
+        "label": "Waze public place listing",
+        "url": "https://www.waze.com/live-map/directions/id/banten/ladifa-collection?to=place.ChIJtY1E-lnlaS4RQaMNmVFO62E"
+      }
+    ]
+  },
+  "performance": {
+    "optimizedAt": "2026-10-13",
+    "heroFormat": "svg"
+  }
+}

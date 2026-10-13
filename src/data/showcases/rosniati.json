@@ -1,0 +1,78 @@
+{
+  "brandLabel": "ROSNIATI",
+  "tagline": "Kering kentang profile documented in a Pamulang UMKM product-assistance programme.",
+  "eyebrow": "Food / Pantry · Tangerang Selatan",
+  "heroImage": "/brand/tei-batch/rosniati.svg",
+  "heroFit": "cover",
+  "visualMode": "food",
+  "palette": {
+    "bg": "#faf3e9",
+    "ink": "#2d1c15",
+    "accent": "#c45d2a",
+    "surface": "#ead5b8"
+  },
+  "story": {
+    "title": "Kering kentang profile documented in a Pamulang UMKM product-assistance programme.",
+    "body": "An academic community-service publication listing Pamulang-area UMKM identifies Rosniati with the product kering kentang. This page therefore narrows the previously generic 'processed dry food' copy to the one product identity that can be publicly supported."
+  },
+  "stats": [
+    {
+      "value": "Kering kentang",
+      "label": "publicly documented product"
+    },
+    {
+      "value": "Pamulang",
+      "label": "programme context"
+    },
+    {
+      "value": "UMKM",
+      "label": "food micro-enterprise profile"
+    },
+    {
+      "value": "Verified",
+      "label": "product identity supported by academic publication"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Kering kentang",
+      "body": "The clearest public product identity for Rosniati."
+    },
+    {
+      "title": "Dry-food format",
+      "body": "Well suited to pantry, gifting and snack-retail conversations."
+    },
+    {
+      "title": "Evidence-led",
+      "body": "No unsupported marketplace, capacity or certification data is shown."
+    },
+    {
+      "title": "NFC ready",
+      "body": "Profile remains simple for fast booth discovery."
+    }
+  ],
+  "commercialBlocks": [],
+  "gallery": [],
+  "actions": [
+    {
+      "key": "website",
+      "label": "UMKM assistance publication",
+      "url": "https://ejournal.urindo.ac.id/index.php/PAMAS/article/download/3652/1915"
+    }
+  ],
+  "verification": {
+    "status": "public-source-checked",
+    "checkedAt": "2026-10-13",
+    "note": "Claims on this profile were rechecked against public sources on 2026-10-13; unsupported claims and guessed links are intentionally omitted.",
+    "sources": [
+      {
+        "label": "PAMAS UMKM assistance publication",
+        "url": "https://ejournal.urindo.ac.id/index.php/PAMAS/article/download/3652/1915"
+      }
+    ]
+  },
+  "performance": {
+    "optimizedAt": "2026-10-13",
+    "heroFormat": "svg"
+  }
+}

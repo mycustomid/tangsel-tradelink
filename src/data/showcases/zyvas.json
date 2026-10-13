@@ -1,0 +1,78 @@
+{
+  "brandLabel": "ZYVAS",
+  "tagline": "Contemporary modest wear from the Tangsel fashion community.",
+  "eyebrow": "Fashion / Textile · Tangerang Selatan",
+  "heroImage": "/brand/tei-batch/zyvas.svg",
+  "heroFit": "cover",
+  "visualMode": "fashion",
+  "palette": {
+    "bg": "#f8f1ec",
+    "ink": "#221b1e",
+    "accent": "#9a4964",
+    "surface": "#e8ced8"
+  },
+  "story": {
+    "title": "Contemporary modest wear from the Tangsel fashion community.",
+    "body": "ZYVAS dipetakan sebagai modest wear dan fashion kontemporer dalam handover TEI. Kanal @zyvas__ dipertahankan sebagai referensi langsung dari data proyek."
+  },
+  "stats": [
+    {
+      "value": "Fashion",
+      "label": "primary business category"
+    },
+    {
+      "value": "Tangsel",
+      "label": "Tangerang Selatan exhibition profile"
+    },
+    {
+      "value": "TEI 2026",
+      "label": "digital booth discovery context"
+    },
+    {
+      "value": "Handover",
+      "label": "profile verification level"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Buyer discovery",
+      "body": "A concise profile for retail, boutique, gifting and buyer introductions."
+    },
+    {
+      "title": "Local identity",
+      "body": "The page keeps the Tangsel origin visible without inventing unverified heritage claims."
+    },
+    {
+      "title": "Direct channels",
+      "body": "Only channels supplied by the handover or public sources are published."
+    },
+    {
+      "title": "NFC ready",
+      "body": "Mobile-first layout with large tap targets for exhibition use."
+    }
+  ],
+  "commercialBlocks": [],
+  "gallery": [],
+  "actions": [
+    {
+      "key": "instagram",
+      "label": "Instagram · @zyvas__",
+      "url": "https://www.instagram.com/zyvas__"
+    }
+  ],
+  "verification": {
+    "status": "handover-verified",
+    "checkedAt": "2026-10-13",
+    "note": "Official social handles are taken from the 2026 TEI project handover. Public web search did not provide enough independent evidence to upgrade the full business profile to public-source-checked.",
+    "sources": [
+      {
+        "label": "TEI 2026 project handover",
+        "url": "https://mycustomid.github.io/tangsel-tradelink/"
+      }
+    ]
+  },
+  "performance": {
+    "optimizedAt": "2026-10-13",
+    "heroFormat": "svg"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "brandLabel": "LALISHA FOOD",
+  "tagline": "Instant seblak in Original Kencur and Keju Creamy variants, built for retail and export-market conversations.",
+  "eyebrow": "Food / Pantry · Tangerang Selatan",
+  "heroImage": "/brand/tei-batch/lalisha-food.svg",
+  "heroFit": "cover",
+  "visualMode": "food",
+  "palette": {
+    "bg": "#faf3e9",
+    "ink": "#2d1c15",
+    "accent": "#c45d2a",
+    "surface": "#ead5b8"
+  },
+  "story": {
+    "title": "Instant seblak in Original Kencur and Keju Creamy variants, built for retail and export-market conversations.",
+    "body": "Rumah Kurasi and InaExport both publish Seblak Instan Lalisha Food from Setu. The product is available as Original Kencur and Keju Creamy, requires only hot-water preparation, and has public P-IRT and Halal documentation. InaExport lists a monthly capacity of 10,000 packs and minimum order of 100 packs."
+  },
+  "stats": [
+    {
+      "value": "10,000",
+      "label": "packs/month capacity on InaExport"
+    },
+    {
+      "value": "100 packs",
+      "label": "minimum order on InaExport"
+    },
+    {
+      "value": "2",
+      "label": "Original Kencur and Keju Creamy variants"
+    },
+    {
+      "value": "Halal / P-IRT",
+      "label": "certificates visible on InaExport"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Original Kencur",
+      "body": "Classic spicy-savoury seblak profile."
+    },
+    {
+      "title": "Keju Creamy",
+      "body": "Creamier variant for a broader retail audience."
+    },
+    {
+      "title": "3-minute prep",
+      "body": "InaExport describes preparation with hot water in about three minutes."
+    },
+    {
+      "title": "Retail expansion",
+      "body": "Public reporting mentions K3Mart, Gerai Lengkong and online channels."
+    }
+  ],
+  "commercialBlocks": [],
+  "gallery": [],
+  "actions": [
+    {
+      "key": "instagram",
+      "label": "Instagram · @lalishafood",
+      "url": "https://www.instagram.com/lalishafood"
+    },
+    {
+      "key": "tiktok",
+      "label": "TikTok · @lalishafood",
+      "url": "https://www.tiktok.com/@lalishafood"
+    },
+    {
+      "key": "whatsapp",
+      "label": "WhatsApp · Lalisha Food",
+      "url": "https://wa.me/6285779060370"
+    },
+    {
+      "key": "website",
+      "label": "InaExport · Lalisha Food",
+      "url": "https://inaexport.id/produk/snack-food/40774/seblak-instan-original-dan-keju"
+    },
+    {
+      "key": "website",
+      "label": "Rumah Kurasi · Lalisha Food",
+      "url": "https://kurasi.tangerangselatankota.go.id/produk/398"
+    }
+  ],
+  "verification": {
+    "status": "public-source-checked",
+    "checkedAt": "2026-10-13",
+    "note": "Claims on this profile were rechecked against public sources on 2026-10-13; unsupported claims and guessed links are intentionally omitted.",
+    "sources": [
+      {
+        "label": "InaExport · Lalisha Food",
+        "url": "https://inaexport.id/produk/snack-food/40774/seblak-instan-original-dan-keju"
+      },
+      {
+        "label": "Rumah Kurasi · Lalisha Food",
+        "url": "https://kurasi.tangerangselatankota.go.id/produk/398"
+      },
+      {
+        "label": "Tangsel media profile",
+        "url": "https://katasatu.id/pecinta-pedas-wajib-coba-seblak-instan-lalisha-food-kini-hadir-di-tangsel/"
+      }
+    ]
+  },
+  "performance": {
+    "optimizedAt": "2026-10-13",
+    "heroFormat": "svg"
+  }
+}

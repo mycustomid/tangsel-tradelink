@@ -1,0 +1,96 @@
+{
+  "brandLabel": "HEALTH TODAY",
+  "tagline": "Professional beverage ingredients for HoReCa, cafés and menu-development teams.",
+  "eyebrow": "Beverage / Horeca · Tangerang Selatan",
+  "heroImage": "/brand/health-today/logo.svg",
+  "heroFit": "contain",
+  "visualMode": "beverage",
+  "palette": {
+    "bg": "#f3f6ec",
+    "ink": "#1d2a20",
+    "accent": "#527b4a",
+    "surface": "#d8e1c6"
+  },
+  "story": {
+    "title": "Professional beverage ingredients for HoReCa, cafés and menu-development teams.",
+    "body": "Health Today Indonesia says it has produced beverage ingredients since 2007 and serves more than 1,000 customers. The company supplies premium powder, syrup, fruit mix, tea, coffee, gourmet sauce, toppings and related beverage products, with its first factory in Taman Tekno, Tangerang Selatan and an R&D/microbiology lab."
+  },
+  "stats": [
+    {
+      "value": "2007",
+      "label": "year established"
+    },
+    {
+      "value": "1,000+",
+      "label": "customers stated by official About page"
+    },
+    {
+      "value": "HoReCa",
+      "label": "core B2B customer focus"
+    },
+    {
+      "value": "ISO / Halal / BPOM",
+      "label": "certifications presented on official site"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Powder & syrup",
+      "body": "Core beverage-ingredient product families."
+    },
+    {
+      "title": "Fruit & toppings",
+      "body": "Fruit mix, Sunfield fruit and topping systems expand menu development."
+    },
+    {
+      "title": "Tea & coffee",
+      "body": "Artisan tea and crafted coffee are part of the official catalogue."
+    },
+    {
+      "title": "Beverage specialist",
+      "body": "The company positions itself as a menu-development and beverage-business partner."
+    }
+  ],
+  "commercialBlocks": [],
+  "gallery": [],
+  "actions": [
+    {
+      "key": "website",
+      "label": "Official Website · Health Today",
+      "url": "https://www.healthtoday.id/id/"
+    },
+    {
+      "key": "instagram",
+      "label": "Instagram · @healthtodayindonesia",
+      "url": "https://www.instagram.com/healthtodayindonesia"
+    },
+    {
+      "key": "whatsapp",
+      "label": "WhatsApp · Health Today",
+      "url": "https://wa.me/6281110012338"
+    }
+  ],
+  "verification": {
+    "status": "public-source-checked",
+    "checkedAt": "2026-10-13",
+    "note": "Claims on this profile were rechecked against public sources on 2026-10-13; unsupported claims and guessed links are intentionally omitted.",
+    "sources": [
+      {
+        "label": "Health Today official site",
+        "url": "https://www.healthtoday.id/id/"
+      },
+      {
+        "label": "Health Today About",
+        "url": "https://www.healthtoday.id/id/about-us/"
+      },
+      {
+        "label": "Health Today Products",
+        "url": "https://www.healthtoday.id/id/products/"
+      }
+    ]
+  },
+  "performance": {
+    "optimizedAt": "2026-10-13",
+    "heroFormat": "svg"
+  }
+}

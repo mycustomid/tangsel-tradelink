@@ -1,0 +1,72 @@
+{
+  "brandLabel": "GIGA TECH",
+  "tagline": "Technology and digital-solution profile prepared for business matching.",
+  "eyebrow": "Tech / Digital · Tangerang Selatan",
+  "heroImage": "/brand/tei-batch/giga-tech.svg",
+  "heroFit": "cover",
+  "visualMode": "tech",
+  "palette": {
+    "bg": "#eef5f7",
+    "ink": "#0d2028",
+    "accent": "#167b8d",
+    "surface": "#cce5e9"
+  },
+  "story": {
+    "title": "Technology and digital-solution profile prepared for business matching.",
+    "body": "GiGa Tech tercatat dalam handover sebagai penyedia inovasi perangkat lunak/perangkat keras. Detail produk, spesifikasi dan kontak bisnis tidak diinventarisasi sebelum sumber primer tersedia."
+  },
+  "stats": [
+    {
+      "value": "Digital",
+      "label": "primary business category"
+    },
+    {
+      "value": "Tangsel",
+      "label": "Tangerang Selatan exhibition profile"
+    },
+    {
+      "value": "TEI 2026",
+      "label": "digital booth discovery context"
+    },
+    {
+      "value": "Handover",
+      "label": "profile verification level"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Business problem first",
+      "body": "Technology positioning is framed around buyer discovery, not generic innovation slogans."
+    },
+    {
+      "title": "Claim discipline",
+      "body": "No fabricated client counts, stack claims or product specifications."
+    },
+    {
+      "title": "Direct route",
+      "body": "Public channels can be added without changing the page architecture."
+    },
+    {
+      "title": "NFC ready",
+      "body": "Fast, static and mobile-first."
+    }
+  ],
+  "commercialBlocks": [],
+  "gallery": [],
+  "actions": [],
+  "verification": {
+    "status": "handover-verified",
+    "checkedAt": "2026-10-13",
+    "note": "No sufficiently specific public result was found that safely matches the TEI tenant GiGa Tech in Tangerang Selatan.",
+    "sources": [
+      {
+        "label": "TEI 2026 project handover",
+        "url": "https://mycustomid.github.io/tangsel-tradelink/"
+      }
+    ]
+  },
+  "performance": {
+    "optimizedAt": "2026-10-13",
+    "heroFormat": "svg"
+  }
+}
