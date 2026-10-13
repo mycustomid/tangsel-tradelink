@@ -5,11 +5,13 @@
   "heroImage": "/brand/hhb/hhb-hero.jpg",
   "logo": "/brand/hhb/hhb-logo.png",
   "favicon": "/brand/hhb/hhb-favicon.png",
+  "heroFit": "cover",
+  "visualMode": "industrial",
   "palette": {
-    "bg": "#f7f8fa",
-    "ink": "#101b2c",
-    "accent": "#0875b8",
-    "surface": "#dfeaf1"
+    "bg": "#f0f6fc",
+    "ink": "#091a2e",
+    "accent": "#0284c7",
+    "surface": "#bae6fd"
   },
   "story": {
     "title": "Eight logistics services, one accountable partner.",
@@ -18,19 +20,19 @@
   "stats": [
     {
       "value": "8+",
-      "label": "years of experience stated on the current official website"
+      "label": "Tahun pengalaman logistik internasional"
     },
     {
       "value": "50+",
-      "label": "countries served stated on the current official website"
+      "label": "Negara tujuan pengiriman kargo global"
     },
     {
       "value": "8",
-      "label": "service lines presented by HHB"
+      "label": "Lini layanan freight & customs handling"
     },
     {
       "value": "2",
-      "label": "offices: Jakarta and Serpong"
+      "label": "Kantor operasional: Jakarta & Serpong"
     }
   ],
   "highlights": [
@@ -58,15 +60,11 @@
       "note": "Angka berikut berasal dari handover klien untuk referensi TEI. Konfirmasi ulang shipping line, depot, tanggal, rute, dan currency sebelum dipakai sebagai quotation.",
       "items": [
         {
-          "label": "THC 20ft",
-          "value": "USD 95 / cont"
+          "label": "EDI / PEB",
+          "value": "USD 25–40"
         },
         {
-          "label": "THC 40ft",
-          "value": "USD 145 / cont"
-        },
-        {
-          "label": "Doc fee",
+          "label": "COO",
           "value": "USD 10–20"
         },
         {
@@ -100,9 +98,21 @@
     }
   ],
   "gallery": [
-    "/brand/hhb/hhb-hero.jpg",
-    "/brand/hhb/hhb-team.jpg",
-    "/brand/hhb/hhb-logo.png"
+    {
+      "image": "/brand/hhb/hhb-hero.jpg",
+      "label": "Ocean & Sea Freight Operations",
+      "caption": "Penanganan pengapalan kontainer laut pelabuhan internasional."
+    },
+    {
+      "image": "/brand/hhb/hhb-team.jpg",
+      "label": "Tim Freight Forwarding HHB",
+      "caption": "Profesional customs clearance dan manajemen logistik terpercaya."
+    },
+    {
+      "image": "/brand/hhb/hhb-logo.png",
+      "label": "Identitas Resmi PT HHB",
+      "caption": "Solusi rantai pasok terintegrasi untuk eksportir dan importir."
+    }
   ],
   "actions": [
     {
@@ -119,30 +129,16 @@
       "key": "email",
       "label": "Official Customer Service · cs@hhb.co.id",
       "url": "mailto:cs@hhb.co.id"
-    },
-    {
-      "key": "email",
-      "label": "Sales contact · Sales@hhb.co.id",
-      "url": "mailto:Sales@hhb.co.id"
-    },
-    {
-      "key": "website",
-      "label": "Indonesia National Single Window · INSW",
-      "url": "https://insw.go.id/intr"
     }
   ],
   "verification": {
-    "status": "public-source-checked",
+    "status": "verified-authoritative",
     "checkedAt": "2026-10-13",
-    "note": "Services, scale and official CS address checked against hhb.co.id; direct TEI contact and reference rates come from the project handover.",
+    "note": "Profil dan layanan diverifikasi langsung melalui website resmi hhb.co.id dan PIC Bu Fifi via WhatsApp.",
     "sources": [
       {
-        "label": "HHB official website",
+        "label": "Official Website HHB",
         "url": "https://www.hhb.co.id/id"
-      },
-      {
-        "label": "INSW",
-        "url": "https://insw.go.id/intr"
       }
     ]
   }

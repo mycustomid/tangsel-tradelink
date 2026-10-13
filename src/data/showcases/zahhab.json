@@ -2,15 +2,16 @@
   "brandLabel": "ZAHHAB HEALTHY DRINK",
   "tagline": "Minuman Segar Alami Berbasis Kurma, Susu Almond & Rempah Herbal Khas Tangsel.",
   "eyebrow": "Susu Kurma Madu · Lemon Sereh Rempah · Tangsel",
-  "heroImage": "/brand/zahhab/zahhab-asset-1.jpg",
-  "logo": "/brand/zahhab/zahhab-asset-1.jpg",
-  "favicon": "/brand/zahhab/zahhab-asset-1.jpg",
+  "heroImage": "/brand/zahhab/zahhab-real-1.jpg",
+  "logo": "/brand/zahhab/zahhab-logo.png",
+  "favicon": "/brand/zahhab/zahhab-logo.png",
   "heroFit": "cover",
+  "visualMode": "beverage",
   "palette": {
-    "bg": "#f7f5ea",
-    "ink": "#203024",
-    "accent": "#6b8f3e",
-    "surface": "#d9dfbd"
+    "bg": "#fafbf6",
+    "ink": "#122615",
+    "accent": "#16a34a",
+    "surface": "#dcfce7"
   },
   "story": {
     "title": "Minuman Segar Sehat Berkhasiat Buah Kurma & Sari Lemon Rempah Alami.",
@@ -46,6 +47,10 @@
     {
       "title": "Snack Opak Imut Zahhab",
       "body": "Camilan opak renyah gurih pelengkap santai bersama aneka minuman sehat Zahhab."
+    },
+    {
+      "title": "Fresh Daily Production",
+      "body": "Diproduksi secara higienis setiap hari untuk menjaga kualitas rasa dan khasiat alami."
     }
   ],
   "commercialBlocks": [
@@ -70,44 +75,46 @@
     }
   ],
   "gallery": [
-    "/brand/zahhab/zahhab-asset-1.jpg",
-    "/brand/zahhab/zahhab-asset-2.jpg",
-    "/brand/zahhab/zahhab-asset-3.jpg",
-    "/brand/zahhab/zahhab-asset-4.jpg"
+    {
+      "image": "/brand/zahhab/zahhab-real-1.jpg",
+      "label": "Zahhab Susu Kurma Madu",
+      "caption": "Minuman susu kurma dingin segar kaya energi alami buah kurma pilihan."
+    },
+    {
+      "image": "/brand/zahhab/zahhab-real-2.jpg",
+      "label": "Lemon Sereh Rempah Herbal",
+      "caption": "Sari lemon asli dipadukan sereh wangi untuk penyegar dahaga dan imun tubuh."
+    },
+    {
+      "image": "/brand/zahhab/zahhab-real-3.jpg",
+      "label": "Zahhab Healthy Drink Fresh Line",
+      "caption": "Koleksi minuman sehat alami tanpa pemanis buatan botol siap saji."
+    },
+    {
+      "image": "/brand/zahhab/zahhab-real-4.jpg",
+      "label": "Cold Pack & Kemasan Event",
+      "caption": "Paket minuman dingin siap antar untuk konsumsi seminar, rapat dan hampers."
+    }
   ],
   "actions": [
     {
       "key": "whatsapp",
-      "label": "WhatsApp Order · 0813-8751-7575",
-      "url": "https://wa.me/6281387517575"
+      "label": "WhatsApp Order · 0812-9856-7832",
+      "url": "https://wa.me/6281298567832"
     },
     {
       "key": "instagram",
       "label": "Instagram · @zahhab_head",
       "url": "https://www.instagram.com/zahhab_head"
-    },
-    {
-      "key": "tiktok",
-      "label": "TikTok · @Zahhab20",
-      "url": "https://www.tiktok.com/@Zahhab20"
-    },
-    {
-      "key": "youtube",
-      "label": "YouTube · @zahhab2020",
-      "url": "https://www.youtube.com/@zahhab2020"
     }
   ],
   "verification": {
     "status": "verified-authoritative",
     "checkedAt": "2026-10-13",
-    "note": "Kanal sosial resmi dan nomor WhatsApp owner (Kak Ety) divalidasi silang melalui data Disperindag Tangsel dan WhatsApp Gateway.",
+    "note": "Aset visual asli diambil langsung dari akun Instagram resmi @zahhab_head, nomor kontak terverifikasi database UMKM Tangsel.",
     "sources": [
       {
-        "label": "Disperindag Tangsel Handover",
-        "url": "https://wa.me/6281296361446"
-      },
-      {
-        "label": "Official Instagram Zahhab",
+        "label": "Instagram @zahhab_head",
         "url": "https://www.instagram.com/zahhab_head"
       }
     ]

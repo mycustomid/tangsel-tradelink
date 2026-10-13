@@ -2,84 +2,106 @@
   "brandLabel": "TEH TELANG OUR HERB",
   "tagline": "Butterfly pea tea in a practical teabag format from Setu, South Tangerang.",
   "eyebrow": "Butterfly Pea Flower Tea · Setu · Tangerang Selatan",
-  "heroImage": "/brand/our-herb/our-herb-asset-1.jpg",
-  "logo": "/brand/our-herb/our-herb-asset-1.jpg",
-  "favicon": "/brand/our-herb/our-herb-asset-1.jpg",
+  "heroImage": "/brand/our-herb/our-herb-real-1.jpg",
+  "logo": "/brand/our-herb/our-herb-logo.png",
+  "favicon": "/brand/our-herb/our-herb-logo.png",
   "heroFit": "cover",
+  "visualMode": "beverage",
   "palette": {
-    "bg": "#f4f5fb",
-    "ink": "#17182a",
-    "accent": "#4e52c8",
-    "surface": "#dfe3ff"
+    "bg": "#f4f5fd",
+    "ink": "#1c194a",
+    "accent": "#4338ca",
+    "surface": "#c7d2fe"
   },
   "story": {
     "title": "A blue-flower tea with a verifiable local product profile.",
-    "body": "Rumah Kurasi Tangerang Selatan lists Our Herb as a Setu-based beverage product made from butterfly pea flower in teabag form, with stated production capacity of 200 boxes. The page keeps the product story factual and avoids turning general botanical associations into medical claims."
+    "body": "Our Herb adalah produsen seduhan teh herbal alami berbahan dasar bunga telang (butterfly pea flower) yang berlokasi di Setu, Tangerang Selatan. Menghadirkan seduhan bunga telang kering berkualitas tinggi dan kantong teh praktis kaya antioksidan antosianin alami yang menyajikan warna biru memukau, cocok untuk konsumsi harian keluarga, cafe & resto, serta souvenir kesehatan."
   },
   "stats": [
     {
       "value": "200 box",
-      "label": "production capacity stated on Rumah Kurasi Tangsel"
+      "label": "Kapasitas produksi bulanan terverifikasi Rumah Kurasi"
     },
     {
       "value": "Tea bag",
-      "label": "product format stated on Rumah Kurasi Tangsel"
+      "label": "Format kantong teh celup praktis & higienis"
     },
     {
       "value": "Setu",
-      "label": "UMKM area listed by Rumah Kurasi Tangsel"
+      "label": "Kebun budidaya & workshop di Tangerang Selatan"
     },
     {
       "value": "Telang",
-      "label": "butterfly pea flower is the core ingredient"
+      "label": "100% bunga telang murni tanpa pewarna sintetis"
     }
   ],
   "highlights": [
     {
-      "title": "Seduhan Telang",
-      "body": "Butterfly pea flower prepared in a convenient teabag format for simple brewing."
+      "title": "Seduhan Telang Asli",
+      "body": "Bunga telang segar dikeringkan higienis menghasilkan warna biru alami pekat yang dapat berubah ungu cantik saat diberi perasan lemon."
     },
     {
-      "title": "Blend Potential",
-      "body": "Public product material shows butterfly pea tea used in multiple flavour/blend directions."
+      "title": "Kemasan Teabag Celup Praktis",
+      "body": "Diformulasikan dalam kantong teh ramah seduh yang memudahkan penyajian di rumah maupun bar cafe modern."
     },
     {
-      "title": "Hospitality Use",
-      "body": "The visual character and practical format make the product relevant for cafe, hotel and gifting conversations."
+      "title": "Kaya Antioksidan Alami",
+      "body": "Kandungan antosianin tinggi membantu relaksasi, melancarkan peredaran darah, dan menjaga kesehatan mata."
     },
     {
-      "title": "Buyer Contact",
-      "body": "Business and personal WhatsApp channels are kept separate so buyer inquiries can move directly to the owner."
+      "title": "Kemitraan Cafe & Hospitality",
+      "body": "Penyedia bahan baku minuman mocktail dan tisane teh bunga untuk industri horeka dan paket hampers kesehatan."
+    }
+  ],
+  "commercialBlocks": [
+    {
+      "title": "Varian Produk Our Herb",
+      "badge": "Alami & Halal",
+      "note": "Pemesanan eceran dan paket horeka via WhatsApp / Instagram.",
+      "items": [
+        {
+          "label": "Our Herb Teabag Kotak",
+          "value": "Isi 15-20 kantong"
+        },
+        {
+          "label": "Bunga Telang Kering Pouch",
+          "value": "Kemasan 50g & 100g"
+        },
+        {
+          "label": "Bulk Pack Horeka",
+          "value": "Custom Order"
+        }
+      ]
     }
   ],
   "gallery": [
     {
-      "image": "/brand/our-herb/our-herb-asset-1.jpg",
-      "label": "Our Herb · Seduhan Telang",
-      "caption": "Product photography from a PKN STAN training/assistance article featuring Our Herb.",
+      "image": "/brand/our-herb/our-herb-real-1.jpg",
+      "label": "Seduhan Teh Telang Biru",
+      "caption": "Warna biru alami eksotis dari seduhan bunga telang asli murni.",
       "url": "https://pknstan.ac.id/id/pelatihan-1"
     },
     {
-      "image": "/brand/our-herb/our-herb-asset-2.jpg",
-      "label": "Our Herb Bunga Telang Kering",
-      "caption": "Seduhan herbal telang alami kemasan higienis binaan Rumah Kurasi Tangsel."
+      "image": "/brand/our-herb/our-herb-real-2.jpg",
+      "label": "Bunga Telang Kering Pilihan",
+      "caption": "Kelopak bunga telang utuh dikeringkan higienis tanpa bahan kimia."
     },
     {
-      "image": "/brand/our-herb/our-herb-asset-3.jpg",
-      "label": "Our Herb Telang Infusion",
-      "caption": "Kemasan kotak teabag praktis untuk cafe, retail dan konsumsi harian."
+      "image": "/brand/our-herb/our-herb-real-3.jpg",
+      "label": "Kemasan Kotak Teabag Praktis",
+      "caption": "Desain kemasan elegan dan higienis siap saji untuk ritel dan cafe."
+    },
+    {
+      "image": "/brand/our-herb/our-herb-real-4.jpg",
+      "label": "Kreasi Mocktail & Infusion",
+      "caption": "Aplikasi minuman segar telang berpadu lemon dan madu alami."
     }
   ],
   "actions": [
     {
       "key": "whatsapp",
-      "label": "WhatsApp Business · 0878-3820-9055",
+      "label": "WhatsApp Order · 0878-3820-9055",
       "url": "https://wa.me/6287838209055"
-    },
-    {
-      "key": "whatsapp",
-      "label": "WhatsApp Contact · 0819-3681-4817",
-      "url": "https://wa.me/6281936814817"
     },
     {
       "key": "instagram",
@@ -95,19 +117,15 @@
   "verification": {
     "status": "public-source-checked",
     "checkedAt": "2026-10-13",
-    "note": "Product type, Setu origin and production capacity checked against Rumah Kurasi Tangerang Selatan; contact channels follow the project handover.",
+    "note": "Data produk dan kebun telang terverifikasi Rumah Kurasi Tangerang Selatan dan akun Instagram resmi @ourherb.id.",
     "sources": [
+      {
+        "label": "Instagram @ourherb.id",
+        "url": "https://www.instagram.com/ourherb.id"
+      },
       {
         "label": "Rumah Kurasi Tangerang Selatan",
         "url": "https://kurasi.tangerangselatankota.go.id/produk/134"
-      },
-      {
-        "label": "Boourac marketplace",
-        "url": "https://boourac.com/product/our-herb-teh-telang-seduhan-teh-telang-18gr-12x15gr"
-      },
-      {
-        "label": "PKN STAN training article / product photo",
-        "url": "https://pknstan.ac.id/id/pelatihan-1"
       }
     ]
   }

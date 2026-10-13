@@ -8,10 +8,10 @@
   "heroFit": "cover",
   "visualMode": "fashion",
   "palette": {
-    "bg": "#f8f1ec",
-    "ink": "#221b1e",
-    "accent": "#9a4964",
-    "surface": "#e8ced8"
+    "bg": "#faf5f0",
+    "ink": "#2e0e18",
+    "accent": "#9f1239",
+    "surface": "#fce7f3"
   },
   "story": {
     "title": "Elegansi Wastra Nusantara Berkualitas Kurasi Ekspor oleh Joanita Kusumawati.",
@@ -75,10 +75,26 @@
     }
   ],
   "gallery": [
-    "/brand/elleta/elleta-hero.png",
-    "/brand/elleta/elleta-asset-1.png",
-    "/brand/elleta/elleta-asset-2.jpg",
-    "/brand/elleta/elleta-asset-3.jpg"
+    {
+      "image": "/brand/elleta/elleta-hero.png",
+      "label": "Koleksi Tenun & Outer ELLETA",
+      "caption": "Blazer tenun nusantara berpotongan modern kontemporer."
+    },
+    {
+      "image": "/brand/elleta/elleta-asset-1.png",
+      "label": "Busana Batik Tulis Sutra",
+      "caption": "Gaun batik sutra eksklusif dengan sentuhan warna alam matang."
+    },
+    {
+      "image": "/brand/elleta/elleta-asset-2.jpg",
+      "label": "Detail Motif Kain Tenun",
+      "caption": "Penenunan tradisional dengan benang berkualitas tinggi tahan luntur."
+    },
+    {
+      "image": "/brand/elleta/elleta-asset-3.jpg",
+      "label": "Syal & Aksesoris Wastra",
+      "caption": "Syal batik sutra elegan aksen gaya kasual maupun formal."
+    }
   ],
   "actions": [
     {
@@ -116,9 +132,5 @@
         "url": "https://www.instagram.com/elleta.official"
       }
     ]
-  },
-  "performance": {
-    "optimizedAt": "2026-10-13",
-    "heroFormat": "svg"
   }
 }

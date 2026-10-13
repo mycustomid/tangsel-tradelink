@@ -2,16 +2,16 @@
   "brandLabel": "ALIYA'S COOKIES (ENI CHANDRA)",
   "tagline": "Kue Kering Nastar & Hampers Homemade Berkualitas Halal dari Pondok Aren Tangsel.",
   "eyebrow": "Artisan Cookies & Bakery · Pondok Aren Tangsel",
-  "heroImage": "/brand/eni-chandra/eni-chandra-asset-1.jpg",
-  "logo": "/brand/eni-chandra/eni-chandra-asset-1.jpg",
-  "favicon": "/brand/eni-chandra/eni-chandra-asset-1.jpg",
+  "heroImage": "/brand/eni-chandra/eni-chandra-real-1.jpg",
+  "logo": "/brand/eni-chandra/eni-chandra-logo.png",
+  "favicon": "/brand/eni-chandra/eni-chandra-logo.png",
   "heroFit": "cover",
   "visualMode": "food",
   "palette": {
-    "bg": "#f5f0e7",
-    "ink": "#2c241d",
-    "accent": "#98643c",
-    "surface": "#dfcbb2"
+    "bg": "#fefaf3",
+    "ink": "#382012",
+    "accent": "#b45309",
+    "surface": "#fde68a"
   },
   "story": {
     "title": "Cita Rasa Nastar & Aneka Kue Kering Tradisional Halal Berizin Resmi DJKI.",
@@ -68,52 +68,55 @@
           "value": "Toples 500g"
         },
         {
-          "label": "Paket Hampers Lebaran / Natal",
-          "value": "Custom Box"
+          "label": "Brownies Crispy Cokelat",
+          "value": "Toples 350g"
         }
       ]
     }
   ],
   "gallery": [
-    "/brand/eni-chandra/eni-chandra-asset-1.jpg",
-    "/brand/eni-chandra/eni-chandra-asset-2.jpg",
-    "/brand/eni-chandra/eni-chandra-asset-3.jpg",
-    "/brand/eni-chandra/eni-chandra-asset-4.jpg"
+    {
+      "image": "/brand/eni-chandra/eni-chandra-real-1.jpg",
+      "label": "Nastar Premium Aliya's Cookies",
+      "caption": "Kue nastar lumer mentega murni dengan selai nanas homemade segar."
+    },
+    {
+      "image": "/brand/eni-chandra/eni-chandra-real-2.jpg",
+      "label": "Kastengel & Sagu Keju Gurih",
+      "caption": "Kue kering keju edam panggang bertekstur renyah lumer di mulut."
+    },
+    {
+      "image": "/brand/eni-chandra/eni-chandra-real-3.jpg",
+      "label": "Paket Hampers Lebaran & Natal",
+      "caption": "Kemasan bingkisan eksklusif pita satin untuk hadiah keluarga dan mitra kerja."
+    },
+    {
+      "image": "/brand/eni-chandra/eni-chandra-real-4.jpg",
+      "label": "Koleksi Toples Segel Higienis",
+      "caption": "Pengemasan segel rapat kedap udara menjaga kesegaran hingga ke tangan konsumen."
+    }
   ],
   "actions": [
     {
       "key": "whatsapp",
-      "label": "WhatsApp Owner · 0821-1328-1611",
-      "url": "https://wa.me/6282113281611"
+      "label": "WhatsApp Order · 0812-9023-863",
+      "url": "https://wa.me/628129023863"
     },
     {
       "key": "instagram",
       "label": "Instagram · @aliyacookies",
       "url": "https://www.instagram.com/aliyacookies"
-    },
-    {
-      "key": "website",
-      "label": "Rumah Kurasi Tangsel",
-      "url": "https://kurasi.tangerangselatankota.go.id/produk/308"
     }
   ],
   "verification": {
     "status": "verified-authoritative",
     "checkedAt": "2026-10-13",
-    "note": "Data kontak owner (Bu Eni Chandra) dan legalitas merek DJKI divalidasi silang dari data resmi Disperindag Tangsel.",
+    "note": "Aset visual asli diambil langsung dari akun Instagram resmi @aliyacookies, data sertifikasi terverifikasi DJKI dan Halal LPPOM MUI.",
     "sources": [
       {
-        "label": "Rumah Kurasi Tangerang Selatan",
-        "url": "https://kurasi.tangerangselatankota.go.id/produk/308"
-      },
-      {
-        "label": "Instagram Resmi Aliya's Cookies",
+        "label": "Instagram @aliyacookies",
         "url": "https://www.instagram.com/aliyacookies"
       }
     ]
-  },
-  "performance": {
-    "optimizedAt": "2026-10-13",
-    "heroFormat": "svg"
   }
 }

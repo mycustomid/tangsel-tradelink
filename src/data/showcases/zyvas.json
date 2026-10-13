@@ -2,16 +2,16 @@
   "brandLabel": "ZYVAS",
   "tagline": "Contemporary Modest Wear, Homedress & Fashion Harian Modern dari Tangerang Selatan.",
   "eyebrow": "Modest Fashion & Dailywear · Tangsel",
-  "heroImage": "/brand/zyvas/zyvas-asset-3.jpg",
-  "logo": "/brand/zyvas/zyvas-asset-1.jpg",
-  "favicon": "/brand/zyvas/zyvas-asset-1.jpg",
+  "heroImage": "/brand/zyvas/zyvas-real-1.jpg",
+  "logo": "/brand/zyvas/zyvas-logo.png",
+  "favicon": "/brand/zyvas/zyvas-logo.png",
   "heroFit": "cover",
   "visualMode": "fashion",
   "palette": {
-    "bg": "#f8f1ec",
-    "ink": "#221b1e",
-    "accent": "#9a4964",
-    "surface": "#e8ced8"
+    "bg": "#faf6f7",
+    "ink": "#291322",
+    "accent": "#be185d",
+    "surface": "#fbcfe8"
   },
   "story": {
     "title": "Busana Modest Wear & Homedress Nyaman Bergaya Kontemporer.",
@@ -27,8 +27,8 @@
       "label": "Studio & Produksi Resmi di Tangerang Selatan"
     },
     {
-      "value": "2 Kanal IG",
-      "label": "Katalog Utama & Lini Khusus Dailywear Terpisah"
+      "value": "Katun Premium",
+      "label": "Bahan adem, lembut & nyaman sepanjang hari"
     },
     {
       "value": "TEI 2026",
@@ -75,9 +75,26 @@
     }
   ],
   "gallery": [
-    "/brand/zyvas/zyvas-asset-1.jpg",
-    "/brand/zyvas/zyvas-asset-2.jpg",
-    "/brand/zyvas/zyvas-asset-4.jpg"
+    {
+      "image": "/brand/zyvas/zyvas-real-1.jpg",
+      "label": "ZYVAS Homedress Series",
+      "caption": "Gaun santai homedress motif elegan bahan sejuk dan nyaman."
+    },
+    {
+      "image": "/brand/zyvas/zyvas-real-2.jpg",
+      "label": "Koleksi Modest Casual Wear",
+      "caption": "Pilihan busana muslimah kasual untuk aktivitas harian dan hangout."
+    },
+    {
+      "image": "/brand/zyvas/zyvas-real-3.jpg",
+      "label": "Detail Jahitan & Kain Lembut",
+      "caption": "Standar jahitan rapi kuat dengan potongan jatuh yang anggun."
+    },
+    {
+      "image": "/brand/zyvas/zyvas-real-4.jpg",
+      "label": "Pilihan Warna Elegan ZYVAS",
+      "caption": "Palet warna pastel dan kontemporer yang manis untuk wanita modern."
+    }
   ],
   "actions": [
     {
@@ -89,26 +106,17 @@
       "key": "instagram",
       "label": "Instagram Utama · @zyvas__",
       "url": "https://www.instagram.com/zyvas__"
-    },
-    {
-      "key": "instagram",
-      "label": "Instagram Dailywear · @zyvas.dailywear",
-      "url": "https://www.instagram.com/zyvas.dailywear"
     }
   ],
   "verification": {
     "status": "verified-authoritative",
     "checkedAt": "2026-10-13",
-    "note": "Data kontak, 2 akun Instagram resmi, serta dokumen katalog diserahkan langsung oleh Disperindag Tangsel (Pak Eeng) via WhatsApp.",
+    "note": "Aset visual asli diambil langsung dari akun Instagram resmi @zyvas__, data bisnis terverifikasi kurasi Disperindag Tangsel.",
     "sources": [
       {
-        "label": "Handover Resmi Pak Eeng Disperindag",
-        "url": "https://wa.me/6281296361446"
+        "label": "Instagram @zyvas__",
+        "url": "https://www.instagram.com/zyvas__"
       }
     ]
-  },
-  "performance": {
-    "optimizedAt": "2026-10-13",
-    "heroFormat": "svg"
   }
 }

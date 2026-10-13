@@ -2,16 +2,16 @@
   "brandLabel": "DAPUR NANAY",
   "tagline": "Naytaste Cheese Stick, Kentang Mustofa & Aneka Camilan Gurih Khas Pamulang Tangerang Selatan.",
   "eyebrow": "Artisan Snack & Pantry · Tangsel",
-  "heroImage": "/brand/dapur-nanay/dapur-nanay-hero.jpg",
+  "heroImage": "/brand/dapur-nanay/dapur-nanay-real-1.jpg",
   "logo": "/brand/dapur-nanay/dapur-nanay-asset-1.png",
   "favicon": "/brand/dapur-nanay/dapur-nanay-asset-1.png",
   "heroFit": "cover",
   "visualMode": "food",
   "palette": {
-    "bg": "#faf3e9",
-    "ink": "#2d1c15",
-    "accent": "#c45d2a",
-    "surface": "#ead5b8"
+    "bg": "#fffdf2",
+    "ink": "#2d1d07",
+    "accent": "#ca8a04",
+    "surface": "#fef08a"
   },
   "story": {
     "title": "Camilan Gurih Premium Olahan Keju Edam & Cheddar Berkualitas Ekspor.",
@@ -76,10 +76,24 @@
   ],
   "gallery": [
     {
-      "image": "/brand/dapur-nanay/dapur-nanay-asset-1.png",
-      "label": "Naytaste Cheese Stick & Kentang Mustofa",
-      "caption": "Produk olahan camilan premium khas Dapur Nanay Pamulang.",
-      "url": "https://dapurnanay.my.canva.site/dapurnanay-com"
+      "image": "/brand/dapur-nanay/dapur-nanay-real-1.jpg",
+      "label": "Naytaste Cheese Stick Edam",
+      "caption": "Stik keju renyah premium olahan keju edam asli tanpa pengawet."
+    },
+    {
+      "image": "/brand/dapur-nanay/dapur-nanay-real-2.jpg",
+      "label": "Kentang Mustofa Balado",
+      "caption": "Kentang mustofa bumbu balado gurih pedas manis penambah selera."
+    },
+    {
+      "image": "/brand/dapur-nanay/dapur-nanay-real-3.jpg",
+      "label": "Kemasan Toples Segel",
+      "caption": "Segel toples kedap udara menjaga kerenyahan stik keju tetap optimal."
+    },
+    {
+      "image": "/brand/dapur-nanay/dapur-nanay-real-4.jpg",
+      "label": "Paket Hampers & Oleh-oleh Pamulang",
+      "caption": "Pilihan bingkisan cantik untuk perayaan dan oleh-oleh khas Tangsel."
     }
   ],
   "actions": [
@@ -117,20 +131,16 @@
   "verification": {
     "status": "verified-authoritative",
     "checkedAt": "2026-10-13",
-    "note": "Data kontak, katalog produk Canva, dan link marketplace dikonfirmasi resmi oleh Disperindag Tangsel (Pak Eeng) via WhatsApp.",
+    "note": "Foto produk asli diambil langsung dari akun Instagram @dapur_nanay, data kanal dan kontak dikonfirmasi resmi oleh Disperindag Tangsel.",
     "sources": [
       {
-        "label": "Handover Resmi Pak Eeng Disperindag",
-        "url": "https://wa.me/6281296361446"
+        "label": "Instagram @dapur_nanay",
+        "url": "https://www.instagram.com/dapur_nanay"
       },
       {
-        "label": "Katalog Resmi Dapur Nanay",
+        "label": "Canva Catalog",
         "url": "https://dapurnanay.my.canva.site/dapurnanay-com"
       }
     ]
-  },
-  "performance": {
-    "optimizedAt": "2026-10-13",
-    "heroFormat": "jpg"
   }
 }

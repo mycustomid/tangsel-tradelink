@@ -8,10 +8,10 @@
   "heroFit": "cover",
   "visualMode": "food",
   "palette": {
-    "bg": "#fef8f0",
-    "ink": "#2a1b12",
-    "accent": "#e65100",
-    "surface": "#ffcc80"
+    "bg": "#fffaf4",
+    "ink": "#341d0c",
+    "accent": "#c2410c",
+    "surface": "#fed7aa"
   },
   "story": {
     "title": "Inovasi Camilan Renyah Berkualitas: BaGor Spinner & Keripik Kemangi Gluten-Free Khas Tangerang Selatan.",
@@ -71,9 +71,26 @@
     }
   ],
   "gallery": [
-    "/brand/kenyess-food/kenyess-asset-1.jpg",
-    "/brand/kenyess-food/kenyess-asset-3.jpg",
-    "/brand/kenyess-food/kenyess-asset-4.jpg"
+    {
+      "image": "/brand/kenyess-food/kenyess-asset-1.jpg",
+      "label": "BaGor (Bawang Goreng) Renyah",
+      "caption": "Bawang merah Brebes olahan teknologi peniris minyak otomatis."
+    },
+    {
+      "image": "/brand/kenyess-food/kenyess-asset-2.jpg",
+      "label": "Identitas Resmi Kenyess Food",
+      "caption": "Kemasan standing pouch dan toples higienis berizin Dinkes & Halal."
+    },
+    {
+      "image": "/brand/kenyess-food/kenyess-asset-3.jpg",
+      "label": "Kemania Keripik Kemangi",
+      "caption": "Inovasi keripik sehat bebas gluten dengan aroma wangi daun kemangi."
+    },
+    {
+      "image": "/brand/kenyess-food/kenyess-asset-4.jpg",
+      "label": "Varian Rasa BaGor Pilihan",
+      "caption": "Varian Original, Nori gurih, dan Pedas nendang cocok untuk taburan lauk."
+    }
   ],
   "actions": [
     {
@@ -112,9 +129,5 @@
         "url": "https://wa.me/6281296361446"
       }
     ]
-  },
-  "performance": {
-    "optimizedAt": "2026-10-13",
-    "heroFormat": "svg"
   }
 }

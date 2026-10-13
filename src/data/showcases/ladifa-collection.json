@@ -8,10 +8,10 @@
   "heroFit": "cover",
   "visualMode": "fashion",
   "palette": {
-    "bg": "#fdf8f4",
-    "ink": "#1c1417",
-    "accent": "#9a4964",
-    "surface": "#e8ced8"
+    "bg": "#f9f8fc",
+    "ink": "#1c1429",
+    "accent": "#7e22ce",
+    "surface": "#e9d5ff"
   },
   "story": {
     "title": "Koleksi Perhiasan Batu Mulia & Kerajinan Nusantara Berkualitas Ekspor.",
@@ -77,21 +77,23 @@
   "gallery": [
     {
       "image": "/brand/ladifa-collection/ladifa-asset-4.jpg",
-      "label": "Koleksi Aksesoris & Perhiasan Etnik",
-      "caption": "Koleksi kerajinan tangan batu alam khas Ladifa Collection.",
-      "url": "https://www.ladifa.id"
+      "label": "Koleksi Kalung & Aksesoris Gemstone",
+      "caption": "Kerajinan tangan batu mulia nusantara dengan ikatan perak halus."
     },
     {
       "image": "/brand/ladifa-collection/ladifa-asset-5.jpg",
-      "label": "Ladifa Collection Online Store",
-      "caption": "Katalog produk dan pesanan kustom kerajinan.",
-      "url": "https://www.ladifa.id"
+      "label": "Gelang Batu Alam Etnik",
+      "caption": "Rangkaian batu alam berwarna alami dengan aura elegan."
     },
     {
-      "image": "/brand/ladifa-collection/ladifa-asset-3.jpg",
-      "label": "Workshop & Pengrajin",
-      "caption": "Proses pembuatan handmade gemstone handicraft di Tangerang Selatan.",
-      "url": "https://www.ladifa.id"
+      "image": "/brand/ladifa-collection/ladifa-asset-6.jpg",
+      "label": "Detail Pengerjaan Handmade",
+      "caption": "Finishing manual presisi oleh pengrajin berpengalaman Tangerang Selatan."
+    },
+    {
+      "image": "/brand/ladifa-collection/ladifa-asset-7.jpg",
+      "label": "Koleksi Suvenir & Cinderamata",
+      "caption": "Pilihan bingkisan mewah untuk tamu kenegaraan dan cinderamata pameran."
     }
   ],
   "actions": [
@@ -114,20 +116,16 @@
   "verification": {
     "status": "verified-authoritative",
     "checkedAt": "2026-10-13",
-    "note": "Data kanal dan kontak dikonfirmasi langsung oleh owner (Bu Lia) via WhatsApp gateway tim IT, dengan aset visual asli disedot langsung dari web resmi www.ladifa.id.",
+    "note": "Data kanal dan kontak dikonfirmasi langsung oleh owner (Bu Lia) via WhatsApp, aset visual asli diambil dari website resmi www.ladifa.id.",
     "sources": [
       {
         "label": "Official Website Ladifa",
         "url": "https://www.ladifa.id"
       },
       {
-        "label": "WhatsApp Owner Confirmation (Bu Lia)",
-        "url": "https://wa.me/6287784644546"
+        "label": "Instagram @ladifacollection",
+        "url": "https://www.instagram.com/ladifacollection"
       }
     ]
-  },
-  "performance": {
-    "optimizedAt": "2026-10-13",
-    "heroFormat": "jpg"
   }
 }

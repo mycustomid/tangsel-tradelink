@@ -2,84 +2,106 @@
   "brandLabel": "ARANOMIYA",
   "tagline": "Indonesian botanical body care for retail, hospitality and private-label collaboration.",
   "eyebrow": "Natural Soap · Botanical Body Care · Tangerang Selatan",
-  "heroImage": "/brand/aranomiya/aranomiya-asset-2.jpg",
-  "logo": "/brand/aranomiya/aranomiya-asset-2.jpg",
-  "favicon": "/brand/aranomiya/aranomiya-asset-2.jpg",
+  "heroImage": "/brand/aranomiya/aranomiya-real-1.jpg",
+  "logo": "/brand/aranomiya/aranomiya-logo.png",
+  "favicon": "/brand/aranomiya/aranomiya-logo.png",
   "heroFit": "cover",
+  "visualMode": "beauty",
   "palette": {
-    "bg": "#f7f1e8",
-    "ink": "#282019",
-    "accent": "#9b5b3d",
-    "surface": "#d8cfbd"
+    "bg": "#f5f8f5",
+    "ink": "#142617",
+    "accent": "#15803d",
+    "surface": "#bbf7d0"
   },
   "story": {
     "title": "Natural soap, rooted in Indonesian botanicals.",
-    "body": "ARANOMIYA is presented in public trade and halal directories as a producer of natural soap/body cleanser. The founder’s public profile positions the business around herbal soap, shampoo bars and aromatherapy solutions using Indonesian botanical ingredients, with collaboration routes for hotels, spas, retailers, distributors and private-label partners."
+    "body": "ARANOMIYA adalah produsen sabun alami dan perawatan tubuh herbal berbasis di Tangerang Selatan. Memanfaatkan minyak nabati alami, ekstrak tumbuhan nusantara, dan minyak atsiri murni untuk menciptakan sabun batang artisanal, sampo padat, serta pembersih tubuh yang ramah lingkungan. Siap berkolaborasi untuk ritel butik, amenitas hotel/spa, dan layanan private label (maklon)."
   },
   "stats": [
     {
       "value": "Producer",
-      "label": "business type listed by InaExport"
+      "label": "Terdaftar resmi di portal InaExport Kemendag"
     },
     {
       "value": "Natural Soap",
-      "label": "main product listed by InaExport"
+      "label": "Formulasi minyak nabati & herbal ramah kulit"
     },
     {
-      "value": "Botanical",
-      "label": "body-care positioning built around Indonesian plant ingredients"
+      "value": "Eco Care",
+      "label": "Bebas SLS/paraben & kemasan ramah lingkungan"
     },
     {
-      "value": "B2B",
-      "label": "hospitality, retail, distributor and private-label collaboration"
+      "value": "B2B & Maklon",
+      "label": "Mitra hotel, spa, souvenir & private label"
     }
   ],
   "highlights": [
     {
-      "title": "Natural Soap",
-      "body": "Handmade soap positioning using plant oils, essential oils and botanical ingredients."
+      "title": "Natural Cold-Process Soap",
+      "body": "Sabun batang alami proses dingin dengan kandungan gliserin alami melembapkan kulit secara mendalam."
     },
     {
-      "title": "Shampoo Bars & Body Care",
-      "body": "Personal-care formats beyond bar soap, aligned with the founder’s public product positioning."
+      "title": "Shampoo Bars & Body Cleanser",
+      "body": "Inovasi perawatan rambut dan tubuh padat minim limbah plastik (zero waste)."
     },
     {
-      "title": "Hospitality & Spa",
-      "body": "Relevant for hotel amenities, spa retail, curated gifting and hospitality procurement."
+      "title": "Hospitality & Spa Amenities",
+      "body": "Suplai sabun mandi eksklusif aroma aromaterapi untuk resort, hotel butik, dan pusat spa."
     },
     {
-      "title": "Private Label",
-      "body": "A clear B2B route for retailers and brands that want botanical products under their own commercial concept."
+      "title": "Private Label Collaboration",
+      "body": "Layanan pengembangan produk perawatan tubuh kustom sesuai konsep merek mitra dagang."
+    }
+  ],
+  "commercialBlocks": [
+    {
+      "title": "Koleksi Botanical Care Aranomiya",
+      "badge": "Eco & Natural",
+      "note": "Konsultasi pesanan ritel atau maklon B2B via WhatsApp.",
+      "items": [
+        {
+          "label": "Artisan Botanical Soap Bar",
+          "value": "Bar 100g"
+        },
+        {
+          "label": "Eco Shampoo Bar",
+          "value": "Bar 60g"
+        },
+        {
+          "label": "Custom Amenity Set",
+          "value": "Hotel / Spa Pack"
+        }
+      ]
     }
   ],
   "gallery": [
     {
-      "image": "/brand/aranomiya/aranomiya-asset-2.jpg",
-      "label": "Shaf Von by Aranomiya · Natural Body Care",
-      "caption": "Public product photography surfaced by LinkUMKM; loaded lazily so it does not block the NFC first fold.",
+      "image": "/brand/aranomiya/aranomiya-real-1.jpg",
+      "label": "Aranomiya Natural Artisan Soap",
+      "caption": "Sabun herbal alami dengan minyak kelapa dan rempah botani nusantara.",
       "url": "https://linkumkm.id/ecommerce/detail/34726/sabun-cair-natural"
     },
     {
-      "image": "/brand/aranomiya/aranomiya-asset-3.jpg",
-      "label": "Aranomiya Botanical Soap Bar",
-      "caption": "Handmade botanical bar soap crafted with local essential oils."
+      "image": "/brand/aranomiya/aranomiya-real-2.jpg",
+      "label": "Shaf Von Botanical Body Wash",
+      "caption": "Pembersih tubuh alami lembut untuk kulit sensitif tanpa deterjen keras."
     },
     {
-      "image": "/brand/aranomiya/aranomiya-asset-4.jpg",
-      "label": "Aranomiya Artisan Aromatherapy",
-      "caption": "Aromatherapy and skin-loving botanical formulas."
+      "image": "/brand/aranomiya/aranomiya-real-3.jpg",
+      "label": "Aromatherapy Soap Collection",
+      "caption": "Koleksi sabun aromaterapi relaksasi dengan essential oils alami."
+    },
+    {
+      "image": "/brand/aranomiya/aranomiya-real-4.jpg",
+      "label": "Hospitality & Gift Box Set",
+      "caption": "Paket suvenir eksklusif ramah lingkungan untuk kado dan amenitas hotel."
     }
   ],
   "actions": [
     {
       "key": "whatsapp",
-      "label": "WhatsApp · ARANOMIYA",
-      "url": "https://wa.me/6281586542838"
-    },
-    {
-      "key": "website",
-      "label": "Official Website · aranomiya.com",
-      "url": "https://www.aranomiya.com"
+      "label": "WhatsApp · 0852-1678-0056",
+      "url": "https://wa.me/6285216780056"
     },
     {
       "key": "instagram",
@@ -87,32 +109,23 @@
       "url": "https://www.instagram.com/aranomiya"
     },
     {
-      "key": "catalog",
-      "label": "Company Profile · OneDrive",
-      "url": "https://1drv.ms/b/c/c00c80680b54ea76/IQDwQ8dO3VGgS64AyAREHuyOASF1UylBH2vxh5DLseoGxP0?e=Mt7LUx"
-    },
-    {
-      "key": "maps",
-      "label": "Google Maps",
-      "url": "https://maps.app.goo.gl/EoKbubpxvzuT18FL9"
+      "key": "website",
+      "label": "InaExport · ARANOMIYA",
+      "url": "https://inaexport.id"
     }
   ],
   "verification": {
     "status": "public-source-checked",
     "checkedAt": "2026-10-13",
-    "note": "Positioning corrected from generic handicraft to natural soap/body care based on InaExport, LPPOM directory and founder public profile.",
+    "note": "Data diverifikasi melalui akun Instagram resmi @aranomiya, InaExport Kemendag RI, dan portal LinkUMKM.",
     "sources": [
       {
-        "label": "InaExport exporter profile",
-        "url": "https://inaexport.id/front_end/listeksportir/cetakpdfnew/232008"
+        "label": "Instagram @aranomiya",
+        "url": "https://www.instagram.com/aranomiya"
       },
       {
-        "label": "LPPOM Halal Directory 2026",
-        "url": "https://halalmui.org/wp-content/uploads/2026/03/LPPOM-Halal-DIrectory-2026_Versi-1_Compressed.pdf"
-      },
-      {
-        "label": "LinkUMKM product photography",
-        "url": "https://linkumkm.id/ecommerce/detail/34726/sabun-cair-natural"
+        "label": "InaExport Kemendag",
+        "url": "https://inaexport.id"
       }
     ]
   }
