@@ -310,9 +310,9 @@
     "brand": "MD Organic (Beras Organik)",
     "owner": "Sinta",
     "slug": "md-organic",
-    "hasShowcase": false,
-    "hasPage": false,
-    "status": "BELUM DIBUAT"
+    "hasShowcase": true,
+    "hasPage": true,
+    "status": "SUDAH JADI (LIVE LOKAL & REPO)"
   },
   {
     "no": 36,
