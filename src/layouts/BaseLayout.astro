@@ -64,16 +64,15 @@ const structuredJson = structuredData
     <meta name="description" content={description} />
     <meta name="robots" content={robots} />
     <meta name="theme-color" content="#0b1727" />
-    <link rel="canonical" href={canonicalUrl} />
-    {isSvg && <link rel="icon" type="image/svg+xml" href={faviconPath} />}
-    {isPng && <link rel="icon" type="image/png" href={faviconPath} />}
-    {isIco && <link rel="icon" type="image/x-icon" href={faviconPath} />}
-    {isWebp && <link rel="icon" type="image/webp" href={faviconPath} />}
-    {!isSvg && !isPng && !isIco && !isWebp && <link rel="icon" href={faviconPath} />}
+    {isSvg && <link rel="icon" type="image/svg+xml" href={`${faviconPath}?v=3`} />}
+    {isPng && <link rel="icon" type="image/png" href={`${faviconPath}?v=3`} />}
+    {isIco && <link rel="icon" type="image/x-icon" href={`${faviconPath}?v=3`} />}
+    {isWebp && <link rel="icon" type="image/png" href={`${pngFallback}?v=3`} />}
+    {!isSvg && !isPng && !isIco && !isWebp && <link rel="icon" href={`${faviconPath}?v=3`} />}
     {pngFallback !== faviconPath && (
-      <link rel="alternate icon" type="image/png" href={pngFallback} />
+      <link rel="alternate icon" type="image/png" href={`${pngFallback}?v=3`} />
     )}
-    <link rel="apple-touch-icon" href={pngFallback} />
+    <link rel="apple-touch-icon" href={`${pngFallback}?v=3`} />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Tangsel TradeLink" />
     <meta property="og:title" content={title} />
