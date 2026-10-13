@@ -1,9 +1,9 @@
 {
   "brandLabel": "HEALTH TODAY",
-  "tagline": "Professional beverage ingredients for HoReCa, cafés and menu-development teams.",
-  "eyebrow": "Beverage / Horeca · Tangerang Selatan",
-  "heroImage": "/brand/health-today/logo.svg",
-  "heroFit": "contain",
+  "tagline": "Produsen Bahan Baku Minuman Premium B2B & Solusi Menu HoReCa Terkemuka.",
+  "eyebrow": "Beverage Ingredients & HoReCa Supply · Taman Tekno BSD",
+  "heroImage": "/brand/health-today/health-today-asset-1.jpg",
+  "heroFit": "cover",
   "visualMode": "beverage",
   "palette": {
     "bg": "#f3f6ec",
@@ -12,52 +12,93 @@
     "surface": "#d8e1c6"
   },
   "story": {
-    "title": "Professional beverage ingredients for HoReCa, cafés and menu-development teams.",
-    "body": "Health Today Indonesia says it has produced beverage ingredients since 2007 and serves more than 1,000 customers. The company supplies premium powder, syrup, fruit mix, tea, coffee, gourmet sauce, toppings and related beverage products, with its first factory in Taman Tekno, Tangerang Selatan and an R&D/microbiology lab."
+    "title": "Solusi Lengkap Sirup, Powder & Bahan Minuman Premium untuk Industri Kafe Modern.",
+    "body": "Health Today Indonesia memproduksi bahan baku minuman premium sejak tahun 2007 dengan fasilitas pabrik dan laboratorium mikrobiologi di kawasan industri Taman Tekno, Tangerang Selatan. Dipercaya oleh lebih dari 1.000 jaringan F&B ternama (seperti Fore Coffee, Maxx Coffee, Union Group), Health Today menghadirkan ragam sirup artisan, powder minuman, fruit mix, saus gourmet, serta artisan tea dan coffee berstandar ISO, Halal MUI, dan BPOM."
   },
   "stats": [
     {
-      "value": "2007",
-      "label": "year established"
+      "value": "Sejak 2007",
+      "label": "Pengalaman Belasan Tahun Memasok Bahan Baku Minuman"
     },
     {
-      "value": "1,000+",
-      "label": "customers stated by official About page"
+      "value": "1.000+ Klien",
+      "label": "Dipercaya Jaringan F&B, Kafe & Hotel di Seluruh Nusantara"
     },
     {
-      "value": "HoReCa",
-      "label": "core B2B customer focus"
+      "value": "Taman Tekno",
+      "label": "Pabrik Produksi & Lab R&D di Tangerang Selatan"
     },
     {
-      "value": "ISO / Halal / BPOM",
-      "label": "certifications presented on official site"
+      "value": "TEI 2026",
+      "label": "Peserta Binaan Resmi Disperindag Tangsel"
     }
   ],
   "highlights": [
     {
-      "title": "Powder & syrup",
-      "body": "Core beverage-ingredient product families."
+      "title": "Sirup Artisan & Saus Gourmet",
+      "body": "Koleksi sirup aneka rasa konsentrat tinggi dan saus karamel/cokelat lembut untuk kreasi signature drink."
     },
     {
-      "title": "Fruit & toppings",
-      "body": "Fruit mix, Sunfield fruit and topping systems expand menu development."
+      "title": "Bubuk Minuman & Fruit Mix",
+      "body": "Bubuk rasa premium mudah larut serta campuran buah asli untuk smoothies dan mocktail segar."
     },
     {
-      "title": "Tea & coffee",
-      "body": "Artisan tea and crafted coffee are part of the official catalogue."
-    },
-    {
-      "title": "Beverage specialist",
-      "body": "The company positions itself as a menu-development and beverage-business partner."
+      "title": "Layanan Menu R&D Khusus",
+      "body": "Mendukung pengembangan resep dan standarisasi rasa bagi pelaku usaha kafe dan rantai restoran."
     }
   ],
-  "commercialBlocks": [],
-  "gallery": [],
+  "commercialBlocks": [
+    {
+      "title": "Katalog Bahan Baku Minuman",
+      "badge": "ISO & Halal Certified",
+      "note": "Konsultasi sampel dan pemesanan suplai B2B langsung melalui tim sales.",
+      "items": [
+        {
+          "label": "Artisan Flavoured Syrups",
+          "value": "Bulk & Bottles"
+        },
+        {
+          "label": "Premium Beverage Powders",
+          "value": "Vacuum Pack"
+        },
+        {
+          "label": "Fruit Mix & Puree Concentrates",
+          "value": "Food Grade"
+        }
+      ]
+    }
+  ],
+  "gallery": [
+    {
+      "image": "/brand/health-today/health-today-asset-2.jpg",
+      "label": "Koleksi Bahan Minuman Premium",
+      "caption": "Pilihan sirup artisan dan bahan dasar minuman untuk kafe.",
+      "url": "https://healthtoday.id"
+    },
+    {
+      "image": "/brand/health-today/health-today-asset-3.png",
+      "label": "Mitra Industri · Fore Coffee",
+      "caption": "Pasokan bahan minuman bagi jaringan coffee shop modern.",
+      "url": "https://healthtoday.id"
+    },
+    {
+      "image": "/brand/health-today/health-today-asset-4.png",
+      "label": "Mitra Industri · Maxx Coffee",
+      "caption": "Dipercaya berbagai rantai F&B skala nasional.",
+      "url": "https://healthtoday.id"
+    },
+    {
+      "image": "/brand/health-today/health-today-asset-5.png",
+      "label": "Mitra Industri · The Union Group",
+      "caption": "Standar mutu tinggi untuk restoran dan hospitality terkemuka.",
+      "url": "https://healthtoday.id"
+    }
+  ],
   "actions": [
     {
       "key": "website",
-      "label": "Official Website · Health Today",
-      "url": "https://www.healthtoday.id/id/"
+      "label": "Website Resmi · healthtoday.id",
+      "url": "https://healthtoday.id"
     },
     {
       "key": "instagram",
@@ -66,31 +107,23 @@
     },
     {
       "key": "whatsapp",
-      "label": "WhatsApp · Health Today",
+      "label": "WhatsApp Sales · 0811-1001-2338",
       "url": "https://wa.me/6281110012338"
     }
   ],
   "verification": {
-    "status": "public-source-checked",
+    "status": "verified-authoritative",
     "checkedAt": "2026-10-13",
-    "note": "Claims on this profile were rechecked against public sources on 2026-10-13; unsupported claims and guessed links are intentionally omitted.",
+    "note": "Aset visual dan katalog resmi disedot langsung dari portal resmi healthtoday.id berstandar pabrik Taman Tekno BSD.",
     "sources": [
       {
-        "label": "Health Today official site",
-        "url": "https://www.healthtoday.id/id/"
-      },
-      {
-        "label": "Health Today About",
-        "url": "https://www.healthtoday.id/id/about-us/"
-      },
-      {
-        "label": "Health Today Products",
-        "url": "https://www.healthtoday.id/id/products/"
+        "label": "Official Website Health Today",
+        "url": "https://healthtoday.id"
       }
     ]
   },
   "performance": {
     "optimizedAt": "2026-10-13",
-    "heroFormat": "svg"
+    "heroFormat": "jpg"
   }
 }

@@ -2,7 +2,8 @@
   "brandLabel": "ARANOMIYA",
   "tagline": "Indonesian botanical body care for retail, hospitality and private-label collaboration.",
   "eyebrow": "Natural Soap · Botanical Body Care · Tangerang Selatan",
-  "heroImage": "/brand/aranomiya-botanical.svg",
+  "heroImage": "https://cdn.linkumkm.id/uploads/library/1/2/1/2/2/3/121223_840x576.jpg",
+  "heroFit": "cover",
   "palette": {
     "bg": "#f7f1e8",
     "ink": "#282019",

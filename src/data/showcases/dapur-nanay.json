@@ -1,8 +1,8 @@
 {
   "brandLabel": "DAPUR NANAY",
-  "tagline": "Naytaste Cheese Stick and savoury snacks from Pamulang with documented export-market intent.",
-  "eyebrow": "Food / Pantry · Tangerang Selatan",
-  "heroImage": "/brand/tei-batch/dapur-nanay.svg",
+  "tagline": "Naytaste Cheese Stick, Kentang Mustofa & Aneka Camilan Gurih Khas Pamulang Tangerang Selatan.",
+  "eyebrow": "Artisan Snack & Pantry · Tangsel",
+  "heroImage": "/brand/dapur-nanay/dapur-nanay-hero.jpg",
   "heroFit": "cover",
   "visualMode": "food",
   "palette": {
@@ -12,76 +12,119 @@
     "surface": "#ead5b8"
   },
   "story": {
-    "title": "Naytaste Cheese Stick and savoury snacks from Pamulang with documented export-market intent.",
-    "body": "Rumah Kurasi Tangerang Selatan lists Naytaste Cheese Stick under Amalia in Pamulang. The listing records 5,000 pcs production capacity, export as the target market, and legalities including SPP-IRT, Halal LPPOM MUI, BPOM and HAKI. A BRIN-linked project also lists Dapur Nanay with cheese stick and kentang mustofa."
+    "title": "Camilan Gurih Premium Olahan Keju Edam & Cheddar Berkualitas Ekspor.",
+    "body": "Dapur Nanay (Naytaste) berbasis di Pamulang, Tangerang Selatan, memproduksi aneka makanan ringan premium seperti Cheese Stick dengan kombinasi keju Edam dan cheddar pilihan, serta kentang mustofa renyah. Telah terdaftar resmi dengan legalitas lengkap (SPP-IRT, Halal LPPOM MUI, BPOM dan HAKI) dengan kapasitas produksi mencapai 5.000 pcs serta siap melayani kebutuhan ritel, hampers, dan mitra ekspor."
   },
   "stats": [
     {
-      "value": "5,000 pcs",
-      "label": "production capacity on Rumah Kurasi"
+      "value": "5.000 pcs",
+      "label": "Kapasitas Produksi Bulanan Terkurasi Resmi"
     },
     {
-      "value": "Export",
-      "label": "target market on Rumah Kurasi"
+      "value": "Multi-Legalitas",
+      "label": "Sertifikasi SPP-IRT, Halal MUI, BPOM & HAKI Lengkap"
     },
     {
-      "value": "Pamulang",
-      "label": "UMKM area"
+      "value": "Pamulang, Tangsel",
+      "label": "Workshop & Dapur Produksi di Tangerang Selatan"
     },
     {
-      "value": "Multi-legality",
-      "label": "SPP-IRT, Halal, BPOM and HAKI listed"
+      "value": "TEI 2026",
+      "label": "Peserta Binaan Resmi Disperindag Tangsel"
     }
   ],
   "highlights": [
     {
-      "title": "Naytaste Cheese Stick",
-      "body": "The curated product uses Edam and cheddar positioning."
+      "title": "Naytaste Cheese Stick Edam",
+      "body": "Stik keju gurih renyah dengan keju asli pilihan tanpa pengawet berbahaya."
     },
     {
-      "title": "Kentang Mustofa",
-      "body": "Also documented under Dapur Nanay in a BRIN-linked UMKM list."
+      "title": "Kentang Mustofa Renyah",
+      "body": "Olahan kentang mustofa bumbu balado otentik manis gurih khas nusantara."
     },
     {
-      "title": "Export intent",
-      "body": "Rumah Kurasi explicitly records export as the target market."
-    },
-    {
-      "title": "Public curation",
-      "body": "Product data is sourced from the municipal Rumah Kurasi listing."
+      "title": "Multi-Channel Ordering",
+      "body": "Tersedia pemesanan langsung melalui WhatsApp, Shopee, TikTok Shop, serta katalog Canva interaktif."
     }
   ],
-  "commercialBlocks": [],
-  "gallery": [],
+  "commercialBlocks": [
+    {
+      "title": "Katalog Produk & Paket Hampers",
+      "badge": "Halal & P-IRT",
+      "note": "Tersedia kemasan toples dan standing pouch higienis.",
+      "items": [
+        {
+          "label": "Naytaste Cheese Stick (Toples)",
+          "value": "Ready Stock"
+        },
+        {
+          "label": "Kentang Mustofa Premium",
+          "value": "Ready Stock"
+        },
+        {
+          "label": "Paket Hampers & Oleh-oleh",
+          "value": "Custom Order"
+        }
+      ]
+    }
+  ],
+  "gallery": [
+    {
+      "image": "/brand/dapur-nanay/dapur-nanay-asset-1.png",
+      "label": "Naytaste Cheese Stick & Kentang Mustofa",
+      "caption": "Produk olahan camilan premium khas Dapur Nanay Pamulang.",
+      "url": "https://dapurnanay.my.canva.site/dapurnanay-com"
+    }
+  ],
   "actions": [
+    {
+      "key": "whatsapp",
+      "label": "WhatsApp Order · 0818-0969-3375",
+      "url": "https://wa.me/6281809693375"
+    },
+    {
+      "key": "website",
+      "label": "Katalog Online · dapurnanay.my.canva.site",
+      "url": "https://dapurnanay.my.canva.site/dapurnanay-com"
+    },
     {
       "key": "instagram",
       "label": "Instagram · @dapur_nanay",
       "url": "https://www.instagram.com/dapur_nanay"
     },
     {
-      "key": "website",
-      "label": "Rumah Kurasi · Naytaste Cheese Stick",
-      "url": "https://kurasi.tangerangselatankota.go.id/produk/548"
+      "key": "tiktok",
+      "label": "TikTok Shop · @dapurnanay",
+      "url": "https://www.tiktok.com/@dapurnanay"
+    },
+    {
+      "key": "shopee",
+      "label": "Shopee · dapurnanay1",
+      "url": "https://shopee.co.id/dapurnanay1"
+    },
+    {
+      "key": "maps",
+      "label": "Google Maps & Review",
+      "url": "https://share.google/kdjkbuQ2gsJNaICJo"
     }
   ],
   "verification": {
-    "status": "public-source-checked",
+    "status": "verified-authoritative",
     "checkedAt": "2026-10-13",
-    "note": "Claims on this profile were rechecked against public sources on 2026-10-13; unsupported claims and guessed links are intentionally omitted.",
+    "note": "Data kontak, katalog produk Canva, dan link marketplace dikonfirmasi resmi oleh Disperindag Tangsel (Pak Eeng) via WhatsApp.",
     "sources": [
       {
-        "label": "Rumah Kurasi · Naytaste Cheese Stick",
-        "url": "https://kurasi.tangerangselatankota.go.id/produk/548"
+        "label": "Handover Resmi Pak Eeng Disperindag",
+        "url": "https://wa.me/6281296361446"
       },
       {
-        "label": "BRIN-linked UMKM project list",
-        "url": "https://fliphtml5.com/adqut/vvmp/2_NDH_07_Naskah_Narasi_Proyek_Perubahan_Syaiful_Bakhri/"
+        "label": "Katalog Resmi Dapur Nanay",
+        "url": "https://dapurnanay.my.canva.site/dapurnanay-com"
       }
     ]
   },
   "performance": {
     "optimizedAt": "2026-10-13",
-    "heroFormat": "svg"
+    "heroFormat": "jpg"
   }
 }

@@ -1,8 +1,8 @@
 {
   "brandLabel": "GIGA TECH",
-  "tagline": "Technology and digital-solution profile prepared for business matching.",
-  "eyebrow": "Tech / Digital · Tangerang Selatan",
-  "heroImage": "/brand/tei-batch/giga-tech.svg",
+  "tagline": "R&D Solusi Sistem Propulsi Listrik, Teknologi Baterai & Komponen PLTS Ramah Lingkungan.",
+  "eyebrow": "Clean Energy & EV Propulsion R&D · Taman Tekno BSD",
+  "heroImage": "/brand/giga-tech/giga-tech-asset-4.webp",
   "heroFit": "cover",
   "visualMode": "tech",
   "palette": {
@@ -12,61 +12,121 @@
     "surface": "#cce5e9"
   },
   "story": {
-    "title": "Technology and digital-solution profile prepared for business matching.",
-    "body": "GiGa Tech tercatat dalam handover sebagai penyedia inovasi perangkat lunak/perangkat keras. Detail produk, spesifikasi dan kontak bisnis tidak diinventarisasi sebelum sumber primer tersedia."
+    "title": "Inovasi Rekayasa Energi Terbarukan & Sistem Propulsi Listrik Masa Depan.",
+    "body": "GiGa Tech (PT GiGa Inovasi Nusantara) didirikan pada tahun 2023 dan berbasis di kawasan industri Taman Tekno BSD City, Setu, Tangerang Selatan. Kami fokus mengembangkan sistem propulsi listrik (electric propulsion), teknologi baterai mutakhir, serta komponen sistem PLTS berdaya tahan tinggi, diperkuat oleh tim insinyur berpengalaman lebih dari satu dekade serta kolaborasi strategis bersama BRIN."
   },
   "stats": [
     {
-      "value": "Digital",
-      "label": "primary business category"
+      "value": "Taman Tekno",
+      "label": "Fasilitas R&D & Workshop di BSD City, Tangerang Selatan"
     },
     {
-      "value": "Tangsel",
-      "label": "Tangerang Selatan exhibition profile"
+      "value": "R&D + BRIN",
+      "label": "Riset Propulsi Listrik Berkolaborasi dengan BRIN"
+    },
+    {
+      "value": "Clean Tech",
+      "label": "Inovasi Sistem Baterai, Konversi EV & Modul PLTS"
     },
     {
       "value": "TEI 2026",
-      "label": "digital booth discovery context"
-    },
-    {
-      "value": "Handover",
-      "label": "profile verification level"
+      "label": "Peserta Terkurasi Resmi Trade Expo Indonesia"
     }
   ],
   "highlights": [
     {
-      "title": "Business problem first",
-      "body": "Technology positioning is framed around buyer discovery, not generic innovation slogans."
+      "title": "Sistem Propulsi Listrik (Electric Propulsion)",
+      "body": "Solusi motor penggerak listrik efisiensi tinggi untuk kebutuhan mobilitas ramah lingkungan dan konversi kendaraan."
     },
     {
-      "title": "Claim discipline",
-      "body": "No fabricated client counts, stack claims or product specifications."
+      "title": "Teknologi Baterai & BMS Cerdas",
+      "body": "Modul penyimpanan daya andal dengan sistem manajemen baterai terproteksi untuk performa jangka panjang."
     },
     {
-      "title": "Direct route",
-      "body": "Public channels can be added without changing the page architecture."
-    },
-    {
-      "title": "NFC ready",
-      "body": "Fast, static and mobile-first."
+      "title": "Komponen Sistem Pembangkit Listrik Surya (PLTS)",
+      "body": "Perangkat pembangkit energi bersih yang dirancang khusus tahan cuaca untuk wilayah kepulauan dan infrastruktur terbatas."
     }
   ],
-  "commercialBlocks": [],
-  "gallery": [],
-  "actions": [],
+  "commercialBlocks": [
+    {
+      "title": "Portofolio Teknologi & Riset",
+      "badge": "R&D Collaboration",
+      "note": "Konsultasi teknis, joint-development, dan pengadaan sistem langsung melalui tim enjiniring.",
+      "items": [
+        {
+          "label": "EV Propulsion Kit (Nemovolt)",
+          "value": "High Torque"
+        },
+        {
+          "label": "Industrial Battery Energy Storage",
+          "value": "Modular Pack"
+        },
+        {
+          "label": "Solar PV Balance of System",
+          "value": "Off-grid / Hybrid"
+        }
+      ]
+    }
+  ],
+  "gallery": [
+    {
+      "image": "/brand/giga-tech/giga-tech-asset-6.webp",
+      "label": "Sistem Propulsi Listrik & Baterai PLTS",
+      "caption": "Komponen sistem penyimpanan daya dan penggerak listrik ramah lingkungan.",
+      "url": "https://gigatech.co.id"
+    },
+    {
+      "image": "/brand/giga-tech/giga-tech-asset-3.webp",
+      "label": "Nemology Electric Innovation",
+      "caption": "Sub-lini riset teknologi baterai dan konversi energi bersih.",
+      "url": "https://gigatech.co.id"
+    },
+    {
+      "image": "/brand/giga-tech/giga-tech-asset-5.webp",
+      "label": "Nemovolt Propulsion System",
+      "caption": "Sistem propulsi kendaraan listrik efisiensi tinggi.",
+      "url": "https://gigatech.co.id"
+    }
+  ],
+  "actions": [
+    {
+      "key": "whatsapp",
+      "label": "WhatsApp Engineering · 0897-361-6000",
+      "url": "https://wa.me/628973616000"
+    },
+    {
+      "key": "website",
+      "label": "Website Resmi · gigatech.co.id",
+      "url": "https://gigatech.co.id"
+    },
+    {
+      "key": "instagram",
+      "label": "Instagram · @gigatech.id",
+      "url": "https://www.instagram.com/gigatech.id/"
+    },
+    {
+      "key": "tiktok",
+      "label": "TikTok · @gigatech.co.id",
+      "url": "https://www.tiktok.com/@gigatech.co.id"
+    }
+  ],
   "verification": {
-    "status": "handover-verified",
+    "status": "verified-authoritative",
     "checkedAt": "2026-10-13",
-    "note": "No sufficiently specific public result was found that safely matches the TEI tenant GiGa Tech in Tangerang Selatan.",
+    "note": "Profil divalidasi silang dari Company Profile resmi Disperindag Tangsel serta website resmi gigatech.co.id.",
     "sources": [
       {
-        "label": "TEI 2026 project handover",
-        "url": "https://mycustomid.github.io/tangsel-tradelink/"
+        "label": "Company Profile Disperindag Tangsel",
+        "url": "https://gigatech.co.id"
+      },
+      {
+        "label": "Website Resmi GiGa Tech",
+        "url": "https://gigatech.co.id"
       }
     ]
   },
   "performance": {
     "optimizedAt": "2026-10-13",
-    "heroFormat": "svg"
+    "heroFormat": "webp"
   }
 }

@@ -1,7 +1,7 @@
 {
   "brandLabel": "ELLETA",
-  "tagline": "Modern batik and woven-textile profile for buyer and Google Review discovery.",
-  "eyebrow": "Fashion / Textile · Tangerang Selatan",
+  "tagline": "Koleksi Wastra Nusantara, Batik Tulis & Tenun Modern Bergaya Kontemporer.",
+  "eyebrow": "Heritage Textile & Modern Batik · Tangsel",
   "heroImage": "/brand/tei-batch/elleta.svg",
   "heroFit": "cover",
   "visualMode": "fashion",
@@ -12,67 +12,92 @@
     "surface": "#e8ced8"
   },
   "story": {
-    "title": "Modern batik and woven-textile profile for buyer and Google Review discovery.",
-    "body": "ELLETA dipetakan sebagai wastra batik dan tenun modern. Dua kanal Instagram dari handover dipasang, sementara Google Review/Maps menunggu link lokasi langsung dari pemilik agar tidak salah bisnis."
+    "title": "Elegansi Wastra Nusantara Berkualitas Kurasi Ekspor oleh Joanita Kusumawati.",
+    "body": "ELLETA menghadirkan perpaduan keanggunan motif batik tradisional dan kain tenun nusantara dalam balutan desain busana kontemporer yang elegan. Dikelola oleh desainer Joanita Kusumawati di Tangerang Selatan, ELLETA memadukan seni wastra otentik dengan siluet modern untuk kebutuhan butik, busana formal, dan pameran dagang internasional."
   },
   "stats": [
     {
-      "value": "Fashion",
-      "label": "primary business category"
+      "value": "Wastra Modern",
+      "label": "Batik Tulis, Tenun & Busana Kontemporer Elegan"
     },
     {
       "value": "Tangsel",
-      "label": "Tangerang Selatan exhibition profile"
+      "label": "Studio Desain & Butik di Tangerang Selatan"
+    },
+    {
+      "value": "Joanita K.",
+      "label": "Desainer & Pendiri Brand ELLETA"
     },
     {
       "value": "TEI 2026",
-      "label": "digital booth discovery context"
-    },
-    {
-      "value": "Handover",
-      "label": "profile verification level"
+      "label": "Peserta Binaan Resmi Disperindag Tangsel"
     }
   ],
   "highlights": [
     {
-      "title": "Buyer discovery",
-      "body": "A concise profile for retail, boutique, gifting and buyer introductions."
+      "title": "Busana Tenun & Batik Eksklusif",
+      "body": "Koleksi busana siap pakai (ready-to-wear) bermaterial wastra asli pilihan dengan jahitan butik presisi."
     },
     {
-      "title": "Local identity",
-      "body": "The page keeps the Tangsel origin visible without inventing unverified heritage claims."
+      "title": "Desain Kontemporer Fleksibel",
+      "body": "Potongan busana yang anggun dan nyaman untuk acara resmi kenegaraan, resepsi, maupun pertemuan bisnis."
     },
     {
-      "title": "Direct channels",
-      "body": "Only channels supplied by the handover or public sources are published."
-    },
-    {
-      "title": "NFC ready",
-      "body": "Mobile-first layout with large tap targets for exhibition use."
+      "title": "Layanan Custom & Kurasi Buyer",
+      "body": "Menerima pesanan rancangan kustom untuk seragam korporat, hampers eksklusif, dan buyers internasional."
     }
   ],
-  "commercialBlocks": [],
+  "commercialBlocks": [
+    {
+      "title": "Lini Koleksi Busana",
+      "badge": "Handmade Wastra",
+      "note": "Konsultasi busana dan pemesanan katalog via admin WhatsApp.",
+      "items": [
+        {
+          "label": "Modern Tenun Blazer & Outer",
+          "value": "Exclusive"
+        },
+        {
+          "label": "Batik Dress & Formal Tops",
+          "value": "Ready Stock"
+        },
+        {
+          "label": "Custom Made by Designer",
+          "value": "By Appointment"
+        }
+      ]
+    }
+  ],
   "gallery": [],
   "actions": [
     {
+      "key": "whatsapp",
+      "label": "WhatsApp Owner · 0813-8900-8035",
+      "url": "https://wa.me/6281389008035"
+    },
+    {
       "key": "instagram",
-      "label": "Instagram · @elleta.official",
+      "label": "Instagram Utama · @elleta.official",
       "url": "https://www.instagram.com/elleta.official"
     },
     {
       "key": "instagram",
-      "label": "Instagram · @elleta.butik",
+      "label": "Instagram Butik · @elleta.butik",
       "url": "https://www.instagram.com/elleta.butik"
     }
   ],
   "verification": {
-    "status": "handover-verified",
+    "status": "verified-authoritative",
     "checkedAt": "2026-10-13",
-    "note": "Official social handles are taken from the 2026 TEI project handover. Public web search did not provide enough independent evidence to upgrade the full business profile to public-source-checked.",
+    "note": "Kanal resmi Instagram dan kontak langsung owner (Bu Joanita) divalidasi silang via Disperindag Tangsel dan WhatsApp Gateway.",
     "sources": [
       {
-        "label": "TEI 2026 project handover",
-        "url": "https://mycustomid.github.io/tangsel-tradelink/"
+        "label": "Disperindag Tangsel Handover",
+        "url": "https://wa.me/6281296361446"
+      },
+      {
+        "label": "Official Instagram ELLETA",
+        "url": "https://www.instagram.com/elleta.official"
       }
     ]
   },

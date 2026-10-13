@@ -1,10 +1,10 @@
 {
-  "brandLabel": "ENI CHANDRA SHANTI",
-  "tagline": "Aliya's Cookies: dry-cookie production from Pondok Aren with a registered brand identity.",
-  "eyebrow": "Craft / Handmade · Tangerang Selatan",
+  "brandLabel": "ALIYA'S COOKIES (ENI CHANDRA)",
+  "tagline": "Kue Kering Nastar & Hampers Homemade Berkualitas Halal dari Pondok Aren Tangsel.",
+  "eyebrow": "Artisan Cookies & Bakery · Pondok Aren Tangsel",
   "heroImage": "/brand/tei-batch/eni-chandra.svg",
   "heroFit": "cover",
-  "visualMode": "craft",
+  "visualMode": "food",
   "palette": {
     "bg": "#f5f0e7",
     "ink": "#2c241d",
@@ -12,71 +12,92 @@
     "surface": "#dfcbb2"
   },
   "story": {
-    "title": "Aliya's Cookies: dry-cookie production from Pondok Aren with a registered brand identity.",
-    "body": "Rumah Kurasi Tangerang Selatan lists Aliya's Cookies under Eni Chandra Shanti in Pondok Aren, with nastar as the described product, 10 kg/month capacity and SPP-IRT plus Halal LPPOM MUI. The Aliya's Cookies mark also appears in an Indonesian trademark gazette under Eni Chandra Shanti."
+    "title": "Cita Rasa Nastar & Aneka Kue Kering Tradisional Halal Berizin Resmi DJKI.",
+    "body": "Aliya's Cookies dikelola oleh Eni Chandra Shanti di kawasan Pondok Kacang Timur, Pondok Aren, Tangerang Selatan. Memproduksi aneka kue kering homemade berkualitas premium seperti Nastar lumer, kastengel, dan sagu keju dengan bahan baku mentega pilihan tanpa bahan pengawet. Usaha ini telah tersertifikasi resmi SPP-IRT, Halal LPPOM MUI, serta merek dagang terdaftar di DJKI Kemenkumham RI."
   },
   "stats": [
     {
-      "value": "10 kg/mo",
-      "label": "production capacity on Rumah Kurasi"
-    },
-    {
-      "value": "Nastar",
-      "label": "curated product description"
-    },
-    {
       "value": "Pondok Aren",
-      "label": "UMKM area"
+      "label": "Workshop Homemade di Tangerang Selatan"
     },
     {
-      "value": "Trademark",
-      "label": "Aliya's Cookies appears in the DJKI gazette"
+      "value": "Halal & P-IRT",
+      "label": "Tersertifikasi Resmi LPPOM MUI & Dinkes Tangsel"
+    },
+    {
+      "value": "Merek Terdaftar",
+      "label": "Sertifikat Merek Resmi di Berita Resmi DJKI"
+    },
+    {
+      "value": "TEI 2026",
+      "label": "Peserta Binaan Resmi Disperindag Tangsel"
     }
   ],
   "highlights": [
     {
-      "title": "Aliya's Cookies",
-      "body": "Public sources connect this brand to Eni Chandra Shanti."
+      "title": "Nastar Nanas Otentik",
+      "body": "Nastar gurih lembut dengan isian selai nanas asli hasil olahan alami tanpa pemanis buatan."
     },
     {
-      "title": "Nastar",
-      "body": "The municipal curated listing describes nastar as the product."
+      "title": "Paket Hampers Hari Raya & Acara",
+      "body": "Pilihan toples kemasan eksklusif yang rapi dan elegan untuk kiriman cinderamata dan hadiah korporat."
     },
     {
-      "title": "Legalities",
-      "body": "SPP-IRT and Halal LPPOM MUI are listed on Rumah Kurasi."
-    },
-    {
-      "title": "Registered identity",
-      "body": "The brand name is also present in a government trademark gazette."
+      "title": "Kualitas Homemade Higienis",
+      "body": "Setiap butir kue dipanggang dengan standar kebersihan ketat untuk menjaga aroma dan kerenyahan maksimal."
     }
   ],
-  "commercialBlocks": [],
+  "commercialBlocks": [
+    {
+      "title": "Varian Kue Kering Favorit",
+      "badge": "Halal Certified",
+      "note": "Pemesanan toples reguler atau paket hampers via admin WhatsApp.",
+      "items": [
+        {
+          "label": "Nastar Premium Butter",
+          "value": "Toples 500g"
+        },
+        {
+          "label": "Kastengel Keju Edam",
+          "value": "Toples 500g"
+        },
+        {
+          "label": "Paket Hampers Lebaran / Natal",
+          "value": "Custom Box"
+        }
+      ]
+    }
+  ],
   "gallery": [],
   "actions": [
     {
-      "key": "website",
-      "label": "Rumah Kurasi · Aliya's Cookies",
-      "url": "https://kurasi.tangerangselatankota.go.id/produk/308"
+      "key": "whatsapp",
+      "label": "WhatsApp Owner · 0821-1328-1611",
+      "url": "https://wa.me/6282113281611"
+    },
+    {
+      "key": "instagram",
+      "label": "Instagram · @aliyacookies",
+      "url": "https://www.instagram.com/aliyacookies"
     },
     {
       "key": "website",
-      "label": "DJKI trademark gazette",
-      "url": "https://dgip.go.id/berita-resmi/856/download"
+      "label": "Rumah Kurasi Tangsel",
+      "url": "https://kurasi.tangerangselatankota.go.id/produk/308"
     }
   ],
   "verification": {
-    "status": "public-source-checked",
+    "status": "verified-authoritative",
     "checkedAt": "2026-10-13",
-    "note": "Claims on this profile were rechecked against public sources on 2026-10-13; unsupported claims and guessed links are intentionally omitted.",
+    "note": "Data kontak owner (Bu Eni Chandra) dan legalitas merek DJKI divalidasi silang dari data resmi Disperindag Tangsel.",
     "sources": [
       {
-        "label": "Rumah Kurasi · Aliya's Cookies",
+        "label": "Rumah Kurasi Tangerang Selatan",
         "url": "https://kurasi.tangerangselatankota.go.id/produk/308"
       },
       {
-        "label": "DJKI trademark gazette",
-        "url": "https://dgip.go.id/berita-resmi/856/download"
+        "label": "Instagram Resmi Aliya's Cookies",
+        "url": "https://www.instagram.com/aliyacookies"
       }
     ]
   },

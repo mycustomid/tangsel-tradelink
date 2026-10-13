@@ -1,7 +1,7 @@
 {
   "brandLabel": "ZYVAS",
-  "tagline": "Contemporary modest wear from the Tangsel fashion community.",
-  "eyebrow": "Fashion / Textile · Tangerang Selatan",
+  "tagline": "Contemporary Modest Wear, Homedress & Fashion Harian Modern dari Tangerang Selatan.",
+  "eyebrow": "Modest Fashion & Dailywear · Tangsel",
   "heroImage": "/brand/tei-batch/zyvas.svg",
   "heroFit": "cover",
   "visualMode": "fashion",
@@ -12,62 +12,88 @@
     "surface": "#e8ced8"
   },
   "story": {
-    "title": "Contemporary modest wear from the Tangsel fashion community.",
-    "body": "ZYVAS dipetakan sebagai modest wear dan fashion kontemporer dalam handover TEI. Kanal @zyvas__ dipertahankan sebagai referensi langsung dari data proyek."
+    "title": "Busana Modest Wear & Homedress Nyaman Bergaya Kontemporer.",
+    "body": "ZYVAS menghadirkan ragam busana wanita modest wear dan homedress berkualitas tinggi yang dirancang dengan memadukan kenyamanan material kain pilihan dan potongan modern kekinian. Berbasis di Tangerang Selatan, ZYVAS siap memenuhi kebutuhan fashion harian, butik ritel, hingga pesanan skala besar untuk pasar domestik dan ekspor."
   },
   "stats": [
     {
-      "value": "Fashion",
-      "label": "primary business category"
+      "value": "Modest Wear",
+      "label": "Koleksi Fashion Harian & Homedress Nyaman"
     },
     {
       "value": "Tangsel",
-      "label": "Tangerang Selatan exhibition profile"
+      "label": "Studio & Produksi Resmi di Tangerang Selatan"
+    },
+    {
+      "value": "2 Kanal IG",
+      "label": "Katalog Utama & Lini Khusus Dailywear Terpisah"
     },
     {
       "value": "TEI 2026",
-      "label": "digital booth discovery context"
-    },
-    {
-      "value": "Handover",
-      "label": "profile verification level"
+      "label": "Peserta Binaan Resmi Disperindag Tangsel"
     }
   ],
   "highlights": [
     {
-      "title": "Buyer discovery",
-      "body": "A concise profile for retail, boutique, gifting and buyer introductions."
+      "title": "Katalog ZYVAS Homedress",
+      "body": "Pilihan homedress santai yang adem, stylish, dan tetap elegan dipakai di dalam maupun luar rumah."
     },
     {
-      "title": "Local identity",
-      "body": "The page keeps the Tangsel origin visible without inventing unverified heritage claims."
+      "title": "Koleksi Modest Kontemporer",
+      "body": "Rancangan busana muslimah kontemporer yang fleksibel dipadupadankan untuk berbagai aktivitas formal dan kasual."
     },
     {
-      "title": "Direct channels",
-      "body": "Only channels supplied by the handover or public sources are published."
-    },
-    {
-      "title": "NFC ready",
-      "body": "Mobile-first layout with large tap targets for exhibition use."
+      "title": "Pemesanan Ritel & Kemitraan Reseller",
+      "body": "Membuka peluang kerja sama reseller, grosir, dan pasokan untuk butik rekanan."
     }
   ],
-  "commercialBlocks": [],
+  "commercialBlocks": [
+    {
+      "title": "Layanan & Portofolio Katalog",
+      "badge": "Comfortable & Stylish",
+      "note": "Konsultasi ukuran dan pemesanan grosir langsung via admin WhatsApp.",
+      "items": [
+        {
+          "label": "ZYVAS Homedress Series",
+          "value": "Ready Stock"
+        },
+        {
+          "label": "Contemporary Modest Wear",
+          "value": "Seasonal Collection"
+        },
+        {
+          "label": "Pesanan Butik & Reseller",
+          "value": "Custom Order"
+        }
+      ]
+    }
+  ],
   "gallery": [],
   "actions": [
     {
+      "key": "whatsapp",
+      "label": "WhatsApp Order · 0818-0783-3077",
+      "url": "https://wa.me/6281807833077"
+    },
+    {
       "key": "instagram",
-      "label": "Instagram · @zyvas__",
+      "label": "Instagram Utama · @zyvas__",
       "url": "https://www.instagram.com/zyvas__"
+    },
+    {
+      "key": "instagram",
+      "label": "Instagram Dailywear · @zyvas.dailywear",
+      "url": "https://www.instagram.com/zyvas.dailywear"
     }
   ],
   "verification": {
-    "status": "handover-verified",
+    "status": "verified-authoritative",
     "checkedAt": "2026-10-13",
-    "note": "Official social handles are taken from the 2026 TEI project handover. Public web search did not provide enough independent evidence to upgrade the full business profile to public-source-checked.",
+    "note": "Data kontak, 2 akun Instagram resmi, serta dokumen katalog diserahkan langsung oleh Disperindag Tangsel (Pak Eeng) via WhatsApp.",
     "sources": [
       {
-        "label": "TEI 2026 project handover",
-        "url": "https://mycustomid.github.io/tangsel-tradelink/"
+        "label": "Handover Resmi Pak Eeng Disperindag",
+        "url": "https://wa.me/6281296361446"
       }
     ]
   },

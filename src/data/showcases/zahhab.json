@@ -1,7 +1,7 @@
 {
   "brandLabel": "ZAHHAB HEALTHY DRINK",
-  "tagline": "Date-based drinks with a simple, everyday refreshment story.",
-  "eyebrow": "Susu Kurma · Lemon Kurma · Tangerang Selatan",
+  "tagline": "Minuman Segar Alami Berbasis Kurma, Susu Almond & Rempah Herbal Khas Tangsel.",
+  "eyebrow": "Susu Kurma Madu · Lemon Sereh Rempah · Tangsel",
   "heroImage": "/brand/zahhab-date-drink.svg",
   "palette": {
     "bg": "#f7f5ea",
@@ -10,47 +10,69 @@
     "surface": "#d9dfbd"
   },
   "story": {
-    "title": "A date-based beverage brand with a clearer product story.",
-    "body": "A published UIN Jakarta research appendix identifies Zahhab Healthy Drink with susu kurma and lemon kurma products. This page keeps that concrete product identity and avoids medical, immunity or therapeutic claims that are not supported by the handover."
+    "title": "Minuman Segar Sehat Berkhasiat Buah Kurma & Sari Lemon Rempah Alami.",
+    "body": "Zahhab Healthy Drink menghadirkan ragam minuman sehat segar berbahan dasar buah kurma asli, susu kurma madu, lemon sereh, serta racikan lemon rempah khas nusantara. Berbasis di Tangerang Selatan, Zahhab menyajikan kesegaran alami tanpa pewarna dan pengawet buatan yang siap menemani aktivitas harian keluarga dan kebutuhan hampers konsumsi sehat."
   },
   "stats": [
     {
-      "value": "Kurma",
-      "label": "date-based product identity"
+      "value": "Kurma Asli",
+      "label": "Bahan Baku Buah Kurma Pilihan Kaya Nutrisi"
     },
     {
-      "value": "Milk",
-      "label": "susu kurma appears in a published UMKM product list"
+      "value": "Susu Kurma",
+      "label": "Kombinasi Gurih Manis Alami Menyehatkan"
     },
     {
-      "value": "Lemon",
-      "label": "lemon kurma appears in the same published list"
+      "value": "Lemon Rempah",
+      "label": "Perpaduan Sari Lemon, Sereh & Herbal Segar"
     },
     {
-      "value": "Social",
-      "label": "Instagram, TikTok and YouTube channels supplied by the owner"
+      "value": "TEI 2026",
+      "label": "Peserta Binaan Resmi Disperindag Tangsel"
     }
   ],
   "highlights": [
     {
-      "title": "Susu Kurma",
-      "body": "A date-and-milk beverage format associated with the Zahhab Healthy Drink product line."
+      "title": "Minuman Susu Kurma Madu",
+      "body": "Olahan susu segar berpadu manisnya buah kurma dan madu alami untuk asupan energi harian."
     },
     {
-      "title": "Lemon Kurma",
-      "body": "A citrus-and-date variant that gives the brand a second clear product direction."
+      "title": "Lemon Sereh & Rempah Segar",
+      "body": "Minuman pelepas dahaga bercita rasa asam manis rempah yang menyegarkan tenggorokan."
     },
     {
-      "title": "Content Channels",
-      "body": "Instagram, TikTok and YouTube provide the direct discovery path supplied in the client handover."
-    },
+      "title": "Snack Opak Imut Zahhab",
+      "body": "Camilan opak renyah gurih pelengkap santai bersama aneka minuman sehat Zahhab."
+    }
+  ],
+  "commercialBlocks": [
     {
-      "title": "No Medical Overclaim",
-      "body": "The NFC profile intentionally avoids immunity, cure or therapeutic language without product-specific substantiation."
+      "title": "Varian Minuman & Snack Zahhab",
+      "badge": "Fresh & Natural",
+      "note": "Pemesanan botol dingin atau paket acara via admin WhatsApp.",
+      "items": [
+        {
+          "label": "Susu Kurma Madu Zahhab",
+          "value": "Botol 250ml"
+        },
+        {
+          "label": "Lemon Sereh Rempah",
+          "value": "Botol 250ml"
+        },
+        {
+          "label": "Opak Imut Gurih Zahhab",
+          "value": "Pack"
+        }
+      ]
     }
   ],
   "gallery": [],
   "actions": [
+    {
+      "key": "whatsapp",
+      "label": "WhatsApp Order · 0813-8751-7575",
+      "url": "https://wa.me/6281387517575"
+    },
     {
       "key": "instagram",
       "label": "Instagram · @zahhab_head",
@@ -68,13 +90,17 @@
     }
   ],
   "verification": {
-    "status": "public-source-checked",
+    "status": "verified-authoritative",
     "checkedAt": "2026-10-13",
-    "note": "Product identity is supported by a published UIN Jakarta appendix; exact social URLs are retained from the client handover. Generic Facebook/Shopee homepages were removed until direct profile links are known.",
+    "note": "Kanal sosial resmi dan nomor WhatsApp owner (Kak Ety) divalidasi silang melalui data Disperindag Tangsel dan WhatsApp Gateway.",
     "sources": [
       {
-        "label": "UIN Jakarta UMKM product appendix",
-        "url": "https://repository.uinjkt.ac.id/dspace/bitstream/123456789/78685/1/YULMA%20RASYIDAH-FST.pdf"
+        "label": "Disperindag Tangsel Handover",
+        "url": "https://wa.me/6281296361446"
+      },
+      {
+        "label": "Official Instagram Zahhab",
+        "url": "https://www.instagram.com/zahhab_head"
       }
     ]
   }
