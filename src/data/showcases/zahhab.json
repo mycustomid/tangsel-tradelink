@@ -2,11 +2,11 @@
   "brandLabel": "ZAHHAB HEALTHY DRINK",
   "tagline": "Minuman Segar Alami Berbasis Kurma, Susu Almond & Rempah Herbal Khas Tangsel.",
   "eyebrow": "Susu Kurma Madu · Lemon Sereh Rempah · Tangsel",
-  "heroImage": "/brand/zahhab/zahhab-real-1.jpg",
+  "heroImage": "/brand/zahhab/zahhab-p-11.jpg",
   "logo": "/brand/zahhab/zahhab-logo.png",
   "favicon": "/brand/zahhab/zahhab-logo.png",
-  "heroFit": "cover",
-  "visualMode": "beverage",
+  "heroFit": "contain",
+  "visualMode": "food",
   "palette": {
     "bg": "#fafbf6",
     "ink": "#122615",
@@ -76,24 +76,24 @@
   ],
   "gallery": [
     {
-      "image": "/brand/zahhab/zahhab-real-1.jpg",
-      "label": "Zahhab Susu Kurma Madu",
-      "caption": "Minuman susu kurma dingin segar kaya energi alami buah kurma pilihan."
+      "image": "/brand/zahhab/zahhab-p-11.jpg",
+      "label": "Zahhab Opak Imut Collection",
+      "caption": "Koleksi camilan opak singkong renyah Zahhab aneka rasa bersertifikasi Halal dan P-IRT."
     },
     {
-      "image": "/brand/zahhab/zahhab-real-2.jpg",
-      "label": "Lemon Sereh Rempah Herbal",
-      "caption": "Sari lemon asli dipadukan sereh wangi untuk penyegar dahaga dan imun tubuh."
+      "image": "/brand/zahhab/zahhab-p-7.jpg",
+      "label": "Paket Hampers Zahhab",
+      "caption": "Hampers cantik Zahhab berisi Opak Imut dan Pop Rengginang kemasan toples elegan."
     },
     {
-      "image": "/brand/zahhab/zahhab-real-3.jpg",
-      "label": "Zahhab Healthy Drink Fresh Line",
-      "caption": "Koleksi minuman sehat alami tanpa pemanis buatan botol siap saji."
+      "image": "/brand/zahhab/zahhab-p-10.jpg",
+      "label": "Susu Kurma Madu & Hampers",
+      "caption": "Susu Kurma Madu (SuKuMa) botolan segar berpadu paket bingkisan sehat Zahhab."
     },
     {
-      "image": "/brand/zahhab/zahhab-real-4.jpg",
-      "label": "Cold Pack & Kemasan Event",
-      "caption": "Paket minuman dingin siap antar untuk konsumsi seminar, rapat dan hampers."
+      "image": "/brand/zahhab/zahhab-p-5.jpg",
+      "label": "Kemasan Pouch Zahhab",
+      "caption": "Standing pouch higienis ziplock ramah konsumsi harian dan oleh-oleh Tangsel."
     }
   ],
   "actions": [
@@ -111,7 +111,7 @@
   "verification": {
     "status": "verified-authoritative",
     "checkedAt": "2026-10-13",
-    "note": "Aset visual asli diambil langsung dari akun Instagram resmi @zahhab_head, nomor kontak terverifikasi database UMKM Tangsel.",
+    "note": "Aset visual asli diambil langsung dari akun Instagram resmi @zahhab_head.",
     "sources": [
       {
         "label": "Instagram @zahhab_head",

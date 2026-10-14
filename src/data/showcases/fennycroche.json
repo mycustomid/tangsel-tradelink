@@ -1,59 +1,122 @@
 {
   "brandLabel": "FENNYCROCHE",
-  "tagline": "Handmade crochet keychains and accessories from Ciputat, with an export-market orientation.",
-  "eyebrow": "Craft / Handmade · Tangerang Selatan",
-  "heroImage": "/brand/tei-batch/fennycroche.svg",
+  "tagline": "Handmade crochet keychains, bags, and artisan accessories from Ciputat with export-grade craftsmanship.",
+  "eyebrow": "Artisan Crochet & Handmade Craft · Tangerang Selatan",
+  "heroImage": "/brand/fennycroche/fennycroche-hero.jpg",
+  "logo": "/brand/fennycroche/fennycroche-gallery-5.jpg",
+  "favicon": "/brand/fennycroche/fennycroche-gallery-5.jpg",
   "heroFit": "cover",
   "visualMode": "craft",
   "palette": {
-    "bg": "#f5f0e7",
+    "bg": "#f9f6f0",
     "ink": "#2c241d",
     "accent": "#98643c",
     "surface": "#dfcbb2"
   },
   "story": {
-    "title": "Handmade crochet keychains and accessories from Ciputat, with an export-market orientation.",
-    "body": "Rumah Kurasi Tangerang Selatan lists Fennycroche under Fenny Luckyharti in Ciputat. The curated listing records crochet keychains in multiple models/characters, 50 pcs/month capacity, a public selling range of Rp25,000–Rp225,000, export as the target market and HAKI trademark status."
+    "title": "Ketelitian Rajutan Tangan Nusantara dengan Standar Mutu Ekspor oleh Fenny Luckyharti.",
+    "body": "Fennycroche didirikan oleh Fenny Luckyharti di Ciputat, Tangerang Selatan, berfokus pada kerajinan rajut tangan (handmade crochet) bernilai seni tinggi. Menghasilkan ragam gantungan kunci karakter, dompet rajut, tas, dan aksesoris estetik menggunakan benang rajut premium yang lembut, awet, dan ramah lingkungan. Produk Fennycroche telah terkurasi resmi oleh Rumah Kurasi Tangerang Selatan, memiliki sertifikat merek terdaftar di DJKI Kemenkumham RI, serta siap memenuhi pesanan souvenir korporat, ritel ekspor, dan koleksi cinderamata internasional."
   },
   "stats": [
     {
-      "value": "50 pcs/mo",
-      "label": "capacity stated by Rumah Kurasi"
+      "value": "50 pcs/bln",
+      "label": "Kapasitas produksi kurasi Rumah Kurasi Tangsel"
     },
     {
       "value": "Rp25k–225k",
-      "label": "public selling range"
-    },
-    {
-      "value": "Export",
-      "label": "target market stated by Rumah Kurasi"
+      "label": "Rentang harga produk terjangkau & bernilai seni"
     },
     {
       "value": "HAKI",
-      "label": "trademark legality listed"
+      "label": "Merek dagang resmi terdaftar di DJKI RI"
+    },
+    {
+      "value": "Export Ready",
+      "label": "Standar kurasi ekspor Disperindag Tangsel"
     }
   ],
   "highlights": [
     {
-      "title": "Crochet keychains",
-      "body": "Multiple models and characters are highlighted in the curated listing."
+      "title": "Gantungan Kunci & Boneka Karakter",
+      "body": "Desain karakter boneka amigurumi rajut yang presisi, unik, dan memiliki jahitan kuat tanpa mudah terurai."
     },
     {
-      "title": "Premium yarn",
-      "body": "Rumah Kurasi describes use of quality yarn and informative packaging."
+      "title": "Material Benang Premium",
+      "body": "Menggunakan benang katun dan wol pilihan berkualitas tinggi dengan warna cerah yang tahan cuci dan tidak mudah berbulu."
     },
     {
-      "title": "Export orientation",
-      "body": "Export is explicitly recorded as the target market."
+      "title": "Kemasan Display Eksklusif",
+      "body": "Dilengkapi kartu informasi produk dan kemasan mika rapi yang siap dipajang di rak butik maupun diberikan sebagai souvenir pameran."
     },
     {
-      "title": "Registered mark",
-      "body": "FENNYCROCHE also appears in the Indonesian trademark gazette."
+      "title": "Pesanan Kustom & Souvenir Event",
+      "body": "Menerima pesanan motif kustom untuk souvenir pernikahan, merchandise korporat, dan cinderamata delegasi tamu negara."
     }
   ],
-  "commercialBlocks": [],
-  "gallery": [],
+  "commercialBlocks": [
+    {
+      "title": "Katalog Produk Fennycroche",
+      "badge": "Handmade Craft",
+      "note": "Pemesanan langsung via WhatsApp atau kunjungi workshop resmi Ciputat.",
+      "items": [
+        {
+          "label": "Gantungan Kunci Amigurumi Karakter",
+          "value": "Rp25.000 – Rp75.000"
+        },
+        {
+          "label": "Tas & Pouch Rajut Motif Bunga",
+          "value": "Rp125.000 – Rp225.000"
+        },
+        {
+          "label": "Custom Souvenir & Hampers Rajut",
+          "value": "By Order"
+        }
+      ]
+    }
+  ],
+  "gallery": [
+    {
+      "image": "/brand/fennycroche/fennycroche-hero.jpg",
+      "label": "Koleksi Rajut Fennycroche",
+      "caption": "Ragam gantungan kunci dan boneka rajut karakter buatan tangan otentik."
+    },
+    {
+      "image": "/brand/fennycroche/fennycroche-gallery-1.jpg",
+      "label": "Detail Amigurumi Presisi",
+      "caption": "Rajutan tangan rapi dengan detail ekspresi karakter yang menggemaskan."
+    },
+    {
+      "image": "/brand/fennycroche/fennycroche-gallery-2.jpg",
+      "label": "Tas & Pouch Rajutan Eksklusif",
+      "caption": "Aksesoris tas rajut benang katun lembut bernuansa warna pastel elegan."
+    },
+    {
+      "image": "/brand/fennycroche/fennycroche-gallery-3.jpg",
+      "label": "Kemasan Souvenir Siap Pajang",
+      "caption": "Display rapi berlabel resmi Fennycroche untuk pasar ritel dan cinderamata."
+    },
+    {
+      "image": "/brand/fennycroche/fennycroche-gallery-5.jpg",
+      "label": "Karakter Rajut Spesial Pameran",
+      "caption": "Karya kurasi unggulan binaan Disperindag Kota Tangerang Selatan."
+    }
+  ],
   "actions": [
+    {
+      "key": "whatsapp",
+      "label": "WhatsApp Order · 0819-9894-8609",
+      "url": "https://wa.me/6281998948609"
+    },
+    {
+      "key": "google",
+      "label": "Google Review · Fennycroche",
+      "url": "https://share.google/Oe4hK5lmZXGXJWa58"
+    },
+    {
+      "key": "maps",
+      "label": "Google Maps · Workshop Ciputat",
+      "url": "https://www.google.com/maps/dir//Fennycroche,+komplek+kejaksaan+agung+RI,+jl.kav.kesehatan+Jl.+Cipunegara+13+blok+E2,+RT.GPW03+Rt002%2FRW.09,+Ciputat,+Kec.+Ciputat,+Kota+Tangerang+Selatan,+Banten+15411/@-6.3373312,106.7155456,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x2e69ef36fa6fa40f:0xc800193a11c5bdfd!2m2!1d106.7533625!2d-6.3373006"
+    },
     {
       "key": "instagram",
       "label": "Instagram · @fennycroche",
@@ -66,22 +129,22 @@
     }
   ],
   "verification": {
-    "status": "public-source-checked",
-    "checkedAt": "2026-10-13",
-    "note": "Claims on this profile were rechecked against public sources on 2026-10-13; unsupported claims and guessed links are intentionally omitted.",
+    "status": "verified-authoritative",
+    "checkedAt": "2026-10-14",
+    "note": "Data kontak, lokasi workshop, dan link review diverifikasi langsung dari Bu Fenny Lucky H dan Disperindag Tangsel (Pak Eeng).",
     "sources": [
       {
-        "label": "Rumah Kurasi · Fennycroche",
+        "label": "Disperindag Tangsel & Bu Fenny Lucky H",
+        "url": "https://wa.me/6281998948609"
+      },
+      {
+        "label": "Rumah Kurasi Tangsel",
         "url": "https://kurasi.tangerangselatankota.go.id/produk/549"
       },
       {
-        "label": "DJKI trademark gazette",
-        "url": "https://www.dgip.go.id/uploads/berita_resmi/file/4aa86b1d28c87828a57b3b0f3a8c53c2.pdf"
+        "label": "Google Business Fennycroche",
+        "url": "https://share.google/Oe4hK5lmZXGXJWa58"
       }
     ]
-  },
-  "performance": {
-    "optimizedAt": "2026-10-13",
-    "heroFormat": "svg"
   }
 }

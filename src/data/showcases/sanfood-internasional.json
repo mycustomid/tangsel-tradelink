@@ -4,10 +4,94 @@
   "tagline": "Good food for good kids.",
   "eyebrow": "Family food, seasoning and export-ready production",
   "heroImage": "https://cf.shopee.co.id/file/sg-11134201-22100-htvumq857sivb2",
-  "palette": {"bg":"#eff8e8","ink":"#1b2a19","accent":"#7fb84c","surface":"#fffaf0"},
-  "story": {"title":"Family food, then food-safety discipline, then export.","body":"Sanfood traces its story to 2017 and positions the business around family-friendly food, local agricultural ingredients and progressively stronger production standards. Its public profile highlights Halal, BPOM, GMP and HACCP milestones alongside regular Middle East exports."},
-  "stats": [{"value":"2017","label":"brand journey began"},{"value":"HACCP","label":"food-safety milestone"},{"value":"2025","label":"regular Middle East exports"},{"value":"ID","label":"made in Indonesia"}],
-  "highlights": [{"title":"Family-first formulation","body":"Sanfood presents products around practical family nutrition, cleaner formulations and everyday cooking."},{"title":"Certified production","body":"Its public company profile lists Halal, BPOM, GMP, PSAT, Green Label and HACCP milestones."},{"title":"Local ingredients","body":"The brand story emphasizes working with Indonesian agricultural ingredients and local supply."},{"title":"Export ambition","body":"Sanfood describes a move from domestic family food into recurring Middle East export activity."}],
-  "gallery": [{"image":"https://cf.shopee.co.id/file/sg-11134201-22100-htvumq857sivb2","label":"Sauces & seasoning","caption":"A broad cooking-sauce and seasoning family."},{"image":"https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/catalog-image/103/MTA-166437480/sanfood_sanfood_aromatic_chicken_fat_oil_cooking_minyak_ayam_140ml_dapur_masakan_full02_nzfbfviu.jpg","label":"Aromatic cooking oils","caption":"Convenient flavor-building products for home cooking."},{"image":"","label":"Certified food production","caption":"Halal, BPOM, GMP and HACCP-backed growth story."}],
-  "actions": [{"key":"website","label":"Official Website","url":"https://www.sanfood.id/"},{"key":"catalog","label":"Product Catalogue","url":"https://drive.google.com/file/d/1yRvFF9oXQG5aYMzjimgYtDFf_7kl-o1R/view?usp=drive_link"},{"key":"tokopedia","label":"Tokopedia","url":"https://www.tokopedia.com/sanfoodindonesia"},{"key":"shopee","label":"Shopee","url":"https://shopee.co.id/sanfoodbrilian"},{"key":"whatsapp","label":"WhatsApp","url":"https://wa.me/628152556555"}]
+  "palette": {
+    "bg": "#eff8e8",
+    "ink": "#1b2a19",
+    "accent": "#7fb84c",
+    "surface": "#fffaf0"
+  },
+  "story": {
+    "title": "Family food, then food-safety discipline, then export.",
+    "body": "Sanfood traces its story to 2017 and positions the business around family-friendly food, local agricultural ingredients and progressively stronger production standards. Its public profile highlights Halal, BPOM, GMP and HACCP milestones alongside regular Middle East exports."
+  },
+  "stats": [
+    {
+      "value": "2017",
+      "label": "brand journey began"
+    },
+    {
+      "value": "HACCP",
+      "label": "food-safety milestone"
+    },
+    {
+      "value": "2025",
+      "label": "regular Middle East exports"
+    },
+    {
+      "value": "ID",
+      "label": "made in Indonesia"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Family-first formulation",
+      "body": "Sanfood presents products around practical family nutrition, cleaner formulations and everyday cooking."
+    },
+    {
+      "title": "Certified production",
+      "body": "Its public company profile lists Halal, BPOM, GMP, PSAT, Green Label and HACCP milestones."
+    },
+    {
+      "title": "Local ingredients",
+      "body": "The brand story emphasizes working with Indonesian agricultural ingredients and local supply."
+    },
+    {
+      "title": "Export ambition",
+      "body": "Sanfood describes a move from domestic family food into recurring Middle East export activity."
+    }
+  ],
+  "gallery": [
+    {
+      "image": "https://cf.shopee.co.id/file/sg-11134201-22100-htvumq857sivb2",
+      "label": "Sauces & seasoning",
+      "caption": "A broad cooking-sauce and seasoning family."
+    },
+    {
+      "image": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/catalog-image/103/MTA-166437480/sanfood_sanfood_aromatic_chicken_fat_oil_cooking_minyak_ayam_140ml_dapur_masakan_full02_nzfbfviu.jpg",
+      "label": "Aromatic cooking oils",
+      "caption": "Convenient flavor-building products for home cooking."
+    },
+    {
+      "image": "https://images.tokopedia.net/img/cache/700/VqbcmM/2021/11/17/c3629a8a-e901-44dc-9d41-0ca2d672a8c3.jpg",
+      "label": "Kaldu Alami Sanfood",
+      "caption": "Penyedap rasa kaldu jamur dan sapi alami non-MSG untuk masakan sehat."
+    }
+  ],
+  "actions": [
+    {
+      "key": "website",
+      "label": "Official Website",
+      "url": "https://www.sanfood.id/"
+    },
+    {
+      "key": "catalog",
+      "label": "Product Catalogue",
+      "url": "https://drive.google.com/file/d/1yRvFF9oXQG5aYMzjimgYtDFf_7kl-o1R/view?usp=drive_link"
+    },
+    {
+      "key": "tokopedia",
+      "label": "Tokopedia",
+      "url": "https://www.tokopedia.com/sanfoodindonesia"
+    },
+    {
+      "key": "shopee",
+      "label": "Shopee",
+      "url": "https://shopee.co.id/sanfoodbrilian"
+    },
+    {
+      "key": "whatsapp",
+      "label": "WhatsApp",
+      "url": "https://wa.me/628152556555"
+    }
+  ]
 }

@@ -1,10 +1,10 @@
 {
   "brandLabel": "KENYESS FOOD",
-  "tagline": "Aneka Camilan & Makanan Ringan Renyah Gurih Khas Tangerang Selatan.",
-  "eyebrow": "Indonesian Snacks & F&B · Tangsel",
-  "heroImage": "/brand/kenyess-food/kenyess-asset-1.jpg",
-  "logo": "/brand/kenyess-food/kenyess-asset-2.jpg",
-  "favicon": "/brand/kenyess-food/kenyess-asset-2.jpg",
+  "tagline": "Pelestarian Kuliner Tradisional Nusantara, Camilan Sehat Bebas Gluten & Bumbu Asinan Betawi Asli.",
+  "eyebrow": "Artisan Indonesian Snacks & Traditional Culinary Preservation · Tangsel",
+  "heroImage": "/brand/kenyess-food/kenyess-asinan-betawi.jpg",
+  "logo": "/brand/kenyess-food/kenyess-logo.jpg",
+  "favicon": "/brand/kenyess-food/kenyess-logo.jpg",
   "heroFit": "cover",
   "visualMode": "food",
   "palette": {
@@ -14,82 +14,90 @@
     "surface": "#fed7aa"
   },
   "story": {
-    "title": "Inovasi Camilan Renyah Berkualitas: BaGor Spinner & Keripik Kemangi Gluten-Free Khas Tangerang Selatan.",
-    "body": "Kenyess Food adalah produsen camilan binaan Dinas Koperasi & UKM Kota Tangerang Selatan serta binaan Disperindag Tangsel untuk Trade Expo Indonesia 2026. Menghadirkan lini produk unggulan BaGor (Bawang Goreng) higienis dengan teknologi spinnerisasi rendah minyak serta KEMANIA (Keripik Kemangi & Kemania Fish olahan ikan kembung gluten-free) yang renyah dan bergizi."
+    "title": "Inovasi Camilan Bebas Gluten & Pelestarian Keotentikan Kuliner Tradisional Nusantara.",
+    "body": "Kenyess Food adalah produsen makanan olahan terdepan asal Tangerang Selatan yang berfokus pada inovasi camilan sehat bebas gluten (gluten-free) serta pelestarian keotentikan kuliner tradisional Nusantara. Berangkat dari komitmen menyajikan cita rasa Indonesia berkualitas tinggi, higienis, dan praktis, Kenyess Food memadukan bahan alami pilihan seperti daun kemangi segar, rempah-rempah asli Betawi, bawang merah super, dan protein ikan laut dengan teknik pengolahan modern tanpa bahan pengawet sintetis. Siap melayani konsumen modern serta mitra B2B domestik maupun pasar internasional."
   },
   "stats": [
     {
-      "value": "BaGor & Kemania",
-      "label": "Lini Produk Camilan Unggulan Resmi Tangsel"
-    },
-    {
-      "value": "Spinner Technology",
-      "label": "Bawang Goreng Tiris Minyak Ekstra Renyah & Higienis"
+      "value": "Asinan Betawi",
+      "label": "Produk Unggulan Resmi Peserta TEI 2026"
     },
     {
       "value": "Gluten-Free",
-      "label": "Inovasi Keripik Kemangi & Olahan Ikan Sehat"
+      "label": "Inovasi Keripik Kemani & Kemania Fish Sehat"
     },
     {
-      "value": "TEI 2026",
-      "label": "Peserta Binaan Resmi Disperindag Tangsel"
+      "value": "Bawang Sumenep",
+      "label": "Bawang Goreng Asli Sumenep Tiris Minyak Ekstra Renyah"
+    },
+    {
+      "value": "100% Alami",
+      "label": "Tanpa Pengawet Sintetis Berizin Halal & P-IRT"
     }
   ],
   "highlights": [
     {
-      "title": "BaGor (Bawang Goreng) Premium",
-      "body": "Diproses dengan mesin spinner peniris minyak otomatis. Tersedia varian Original, Nori Gurih, Pedas, dan Teri Pedas dalam kemasan toples kedap udara."
+      "title": "Bumbu Asinan Betawi (Official Entry TEI 2026)",
+      "body": "Racikan otentik pasta bumbu asinan khas Betawi dengan rempah alami pilihan, kacang tanah sangrai gurih, dan asam cuka alami siap saji tanpa pengawet."
     },
     {
-      "title": "KEMANIA & Kemania Fish",
-      "body": "Inovasi snack sehat berbahan dasar daun kemangi segar dan ikan kembung kaya protein, ramah pencernaan dan bersertifikasi aman."
+      "title": "Kemania & Kemania Fish (Gluten-Free)",
+      "body": "Inovasi keripik sehat berbahan daun kemangi segar dan ikan kembung kaya protein nabati-hewani yang renyah dan ramah pencernaan."
     },
     {
-      "title": "Multi-Channel & Reseller Ready",
-      "body": "Melayani pemesanan e-commerce (Shopee & Tokopedia), TikTok Shop, suplai horeka/restoran, hingga pesanan grosir/oleh-oleh via WhatsApp."
+      "title": "Bawang Goreng Asli Sumenep (BaGor)",
+      "body": "Bawang merah khas Sumenep pilihan beraroma harum manis alami diolah dengan teknologi mesin spinner peniris minyak. Super renyah, wangi, dan rendah minyak."
+    },
+    {
+      "title": "Kemitraan B2B & Pasar Ekspor",
+      "body": "Siap melayani kontrak pasokan horeka/restoran, toko oleh-oleh modern, ritel e-commerce, hingga pesanan ekspor cinderamata kuliner Nusantara."
     }
   ],
   "commercialBlocks": [
     {
-      "title": "Katalog & Saluran Pembelian",
-      "badge": "Gurih & Renyah",
-      "note": "Pemesanan langsung via marketplace resmi atau hubungi admin WhatsApp.",
+      "title": "Katalog Produk Kenyess Food",
+      "badge": "TEI 2026 Featured",
+      "note": "Pemesanan langsung via marketplace resmi atau hubungi kontak WhatsApp pengadaan.",
       "items": [
         {
-          "label": "BaGor Kenyess Toples 80g & 150g",
+          "label": "Bumbu Asinan Betawi Asli TEI",
+          "value": "Kemasan Jar Higienis"
+        },
+        {
+          "label": "Bawang Goreng Asli Sumenep Toples",
           "value": "Ready Stock"
         },
         {
-          "label": "Kemania Keripik Kemangi Gluten-Free",
-          "value": "Ready Stock"
+          "label": "Kemania Keripik Kemangi Bebas Gluten",
+          "value": "Pouch 100g"
         },
         {
-          "label": "Pesanan Reseller & Hampers",
-          "value": "Custom Order"
+          "label": "Kemania Fish Olahan Ikan Laut",
+          "value": "Pouch 100g"
         }
       ]
     }
   ],
   "gallery": [
     {
-      "image": "/brand/kenyess-food/kenyess-asset-1.jpg",
-      "label": "BaGor (Bawang Goreng) Renyah",
-      "caption": "Bawang merah Brebes olahan teknologi peniris minyak otomatis."
+      "image": "/brand/kenyess-food/kenyess-asinan-betawi.jpg",
+      "label": "Bumbu Asinan Betawi Asli",
+      "caption": "Produk kurasi resmi pameran TEI 2026 berbahan rempah asli dan kacang sangrai pilihan."
     },
     {
-      "image": "/brand/kenyess-food/kenyess-asset-2.jpg",
+      "image": "/brand/kenyess-food/kenyess-bawang-sumenep.jpg",
+      "label": "Bawang Goreng Asli Sumenep",
+      "caption": "Bawang merah Sumenep pilihan diolah dengan mesin spinner peniris minyak, ekstra renyah dan wangi otentik."
+    },
+    {
+      "image": "/brand/kenyess-food/kenyess-kemania-chips.jpg",
+      "label": "Kemania Keripik Daun Kemangi Gluten-Free",
+      "caption": "Inovasi camilan sehat berbahan daun kemangi segar bebas gluten ramah pencernaan."
+    },
+    {
+      "image": "/brand/kenyess-food/kenyess-logo.jpg",
       "label": "Identitas Resmi Kenyess Food",
-      "caption": "Kemasan standing pouch dan toples higienis berizin Dinkes & Halal."
-    },
-    {
-      "image": "/brand/kenyess-food/kenyess-asset-3.jpg",
-      "label": "Kemania Keripik Kemangi",
-      "caption": "Inovasi keripik sehat bebas gluten dengan aroma wangi daun kemangi."
-    },
-    {
-      "image": "/brand/kenyess-food/kenyess-asset-4.jpg",
-      "label": "Varian Rasa BaGor Pilihan",
-      "caption": "Varian Original, Nori gurih, dan Pedas nendang cocok untuk taburan lauk."
+      "caption": "Lambang resmi pelestarian kuliner tradisional Nusantara terdaftar."
     }
   ],
   "actions": [
@@ -100,7 +108,7 @@
     },
     {
       "key": "shopee",
-      "label": "Shopee · kenyessfood",
+      "label": "Shopee Official · kenyessfood",
       "url": "https://shopee.co.id/kenyessfood"
     },
     {
@@ -121,11 +129,15 @@
   ],
   "verification": {
     "status": "verified-authoritative",
-    "checkedAt": "2026-10-13",
-    "note": "Data kanal dan kontak dikonfirmasi resmi oleh Disperindag Tangerang Selatan (Pak Eeng) untuk pameran TEI 2026.",
+    "checkedAt": "2026-10-14",
+    "note": "Deskripsi resmi diserahkan langsung oleh owner Kenyess Food, mencakup penambahan produk unggulan Bumbu Asinan Betawi untuk pameran TEI 2026.",
     "sources": [
       {
-        "label": "Disperindag Tangsel Handover",
+        "label": "Owner Kenyess Food Handover",
+        "url": "https://wa.me/6285782362149"
+      },
+      {
+        "label": "Disperindag Tangsel TEI 2026",
         "url": "https://wa.me/6281296361446"
       }
     ]

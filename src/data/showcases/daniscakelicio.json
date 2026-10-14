@@ -2,7 +2,7 @@
   "brandLabel": "DANISCAKELICIO",
   "tagline": "Ciputat-made cheese stick, kentang kering and keripik bawang for retail, hampers and everyday snacking.",
   "eyebrow": "Artisan Cheese Snack & Hampers · Ciputat Tangsel",
-  "heroImage": "/brand/daniscakelicio/daniscakelicio-real-1.jpg",
+  "heroImage": "/brand/daniscakelicio/danis-cheesestick.jpg",
   "logo": "/brand/daniscakelicio/daniscakelicio-logo.png",
   "favicon": "/brand/daniscakelicio/daniscakelicio-logo.png",
   "heroFit": "cover",
@@ -76,24 +76,24 @@
   ],
   "gallery": [
     {
-      "image": "/brand/daniscakelicio/daniscakelicio-real-1.jpg",
-      "label": "Daniscakelicio Cheese Stick",
-      "caption": "Koleksi stik keju renyah toples artisan homemade Daniscakelicio."
+      "image": "/brand/daniscakelicio/danis-cheesestick.jpg",
+      "label": "Cheese Stick DANIS",
+      "caption": "Stik keju gurih renyah 120g kemasan pouch higienis berizin P-IRT dan Halal."
     },
     {
-      "image": "/brand/daniscakelicio/daniscakelicio-real-2.jpg",
-      "label": "Paket Hampers Daniscakelicio",
-      "caption": "Hampers camilan gurih untuk bingkisan keluarga dan korporat."
+      "image": "/brand/daniscakelicio/danis-keripikbawang.jpg",
+      "label": "Keripik Bawang DANIS",
+      "caption": "Keripik bawang renyah 120g olahan bumbu seledri dan rempah pilihan."
     },
     {
-      "image": "/brand/daniscakelicio/daniscakelicio-real-3.jpg",
-      "label": "Kentang Kering & Bawang Crispy",
-      "caption": "Pilihan camilan pelengkap meja makan dan santai harian."
+      "image": "/brand/daniscakelicio/danis-kentangkering.jpg",
+      "label": "Kentang Kering DANIS",
+      "caption": "Kentang kering balado 80g garing gurih praktis cocok untuk lauk dan camilan."
     },
     {
-      "image": "/brand/daniscakelicio/daniscakelicio-real-4.jpg",
-      "label": "Kemasan Segar Higienis",
-      "caption": "Pengemasan higienis siap kirim ke seluruh area Jabodetabek dan luar kota."
+      "image": "/brand/daniscakelicio/danis-hires-4.webp",
+      "label": "Sajian Kentang Kering",
+      "caption": "Artisan kentang kering olahan dapur Ciputat dengan rempah cabai dan bawang asli."
     }
   ],
   "actions": [

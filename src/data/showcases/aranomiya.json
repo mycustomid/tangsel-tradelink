@@ -2,9 +2,9 @@
   "brandLabel": "ARANOMIYA",
   "tagline": "Indonesian botanical body care for retail, hospitality and private-label collaboration.",
   "eyebrow": "Natural Soap · Botanical Body Care · Tangerang Selatan",
-  "heroImage": "/brand/aranomiya/aranomiya-real-1.jpg",
-  "logo": "/brand/aranomiya/aranomiya-logo.png",
-  "favicon": "/brand/aranomiya/aranomiya-logo.png",
+  "heroImage": "/brand/aranomiya/aranomiya-asset-4.jpg",
+  "logo": "/brand/aranomiya/aranomiya-asset-4.jpg",
+  "favicon": "/brand/aranomiya/aranomiya-asset-4.jpg",
   "heroFit": "cover",
   "visualMode": "beauty",
   "palette": {
@@ -15,7 +15,7 @@
   },
   "story": {
     "title": "Natural soap, rooted in Indonesian botanicals.",
-    "body": "ARANOMIYA adalah produsen sabun alami dan perawatan tubuh herbal berbasis di Tangerang Selatan. Memanfaatkan minyak nabati alami, ekstrak tumbuhan nusantara, dan minyak atsiri murni untuk menciptakan sabun batang artisanal, sampo padat, serta pembersih tubuh yang ramah lingkungan. Siap berkolaborasi untuk ritel butik, amenitas hotel/spa, dan layanan private label (maklon)."
+    "body": "ARANOMIYA adalah produsen sabun alami dan perawatan tubuh herbal berbasis di Tangerang Selatan yang dipimpin oleh Shasty. Memanfaatkan minyak nabati alami, ekstrak tumbuhan nusantara, dan minyak atsiri murni untuk menciptakan sabun batang artisanal, sampo padat, serta pembersih tubuh yang ramah lingkungan. Siap berkolaborasi untuk ritel butik, amenitas hotel/spa, dan layanan private label (maklon)."
   },
   "stats": [
     {
@@ -76,31 +76,31 @@
   ],
   "gallery": [
     {
-      "image": "/brand/aranomiya/aranomiya-real-1.jpg",
-      "label": "Aranomiya Natural Artisan Soap",
-      "caption": "Sabun herbal alami dengan minyak kelapa dan rempah botani nusantara.",
+      "image": "/brand/aranomiya/aranomiya-asset-4.jpg",
+      "label": "Aranomiya Natural Botanical Soap",
+      "caption": "Sabun herbal alami dengan minyak kelapa murni dan ekstrak botani nusantara.",
       "url": "https://linkumkm.id/ecommerce/detail/34726/sabun-cair-natural"
-    },
-    {
-      "image": "/brand/aranomiya/aranomiya-real-2.jpg",
-      "label": "Shaf Von Botanical Body Wash",
-      "caption": "Pembersih tubuh alami lembut untuk kulit sensitif tanpa deterjen keras."
-    },
-    {
-      "image": "/brand/aranomiya/aranomiya-real-3.jpg",
-      "label": "Aromatherapy Soap Collection",
-      "caption": "Koleksi sabun aromaterapi relaksasi dengan essential oils alami."
     },
     {
       "image": "/brand/aranomiya/aranomiya-real-4.jpg",
       "label": "Hospitality & Gift Box Set",
       "caption": "Paket suvenir eksklusif ramah lingkungan untuk kado dan amenitas hotel."
+    },
+    {
+      "image": "/brand/aranomiya/aranomiya-asset-2.jpg",
+      "label": "Koleksi Perawatan Herbal Alami",
+      "caption": "Pembersih tubuh alami lembut untuk kulit sensitif tanpa deterjen keras."
     }
   ],
   "actions": [
     {
       "key": "whatsapp",
-      "label": "WhatsApp · 0852-1678-0056",
+      "label": "WhatsApp Shasty · 0815-8654-2838",
+      "url": "https://wa.me/6281586542838"
+    },
+    {
+      "key": "whatsapp",
+      "label": "WhatsApp CS · 0852-1678-0056",
       "url": "https://wa.me/6285216780056"
     },
     {
@@ -115,10 +115,14 @@
     }
   ],
   "verification": {
-    "status": "public-source-checked",
-    "checkedAt": "2026-10-13",
-    "note": "Data diverifikasi melalui akun Instagram resmi @aranomiya, InaExport Kemendag RI, dan portal LinkUMKM.",
+    "status": "verified-authoritative",
+    "checkedAt": "2026-10-14",
+    "note": "Aset visual resolusi tinggi studio, kontak langsung Kak Shasty dan InaExport Kemendag RI.",
     "sources": [
+      {
+        "label": "WhatsApp Kak Shasty Aranomiya",
+        "url": "https://wa.me/6281586542838"
+      },
       {
         "label": "Instagram @aranomiya",
         "url": "https://www.instagram.com/aranomiya"

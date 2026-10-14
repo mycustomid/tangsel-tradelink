@@ -1,10 +1,10 @@
 {
   "brandLabel": "DBUMBU AURELSHOP",
-  "tagline": "Spices, herbs and pantry essentials from South Tangerang.",
+  "tagline": "Spices, herbs, Black Garlic, and pantry essentials from South Tangerang.",
   "eyebrow": "Rempah Nusantara · Black Garlic · Pantry Supply Tangsel",
-  "heroImage": "/brand/dbumbu-aurelshop/dbumbu-real-1.jpg",
-  "logo": "/brand/dbumbu-aurelshop/dbumbu-real-1.jpg",
-  "favicon": "/brand/dbumbu-aurelshop/dbumbu-real-1.jpg",
+  "heroImage": "/brand/dbumbu-aurelshop/dbumbu-black-garlic.jpg",
+  "logo": "/brand/dbumbu-aurelshop/dbumbu-logo.jpg",
+  "favicon": "/brand/dbumbu-aurelshop/dbumbu-logo.jpg",
   "heroFit": "cover",
   "visualMode": "food",
   "palette": {
@@ -14,7 +14,7 @@
     "surface": "#ffedd5"
   },
   "story": {
-    "title": "A broad spice shelf, not a one-product story.",
+    "title": "A broad spice shelf, black garlic innovation, and premium pantry essentials.",
     "body": "UD UMKM DBumbu (AurelShop2018) berbasis di Pamulang, Tangerang Selatan, beroperasi sebagai supplier dan produsen aneka bumbu dapur, rempah-rempah kering nusantara, bahan herbal, serta produk kesehatan olahan fermentasi bawang hitam (Daebak Black Garlic). Melayani pesanan ritel, grosir horeka, dan pengiriman ke seluruh Indonesia melalui Shopee dan Tokopedia."
   },
   "stats": [
@@ -76,24 +76,24 @@
   ],
   "gallery": [
     {
-      "image": "/brand/dbumbu-aurelshop/dbumbu-real-1.jpg",
+      "image": "/brand/dbumbu-aurelshop/dbumbu-black-garlic.jpg",
       "label": "DBumbu Daebak Black Garlic",
-      "caption": "Bawang hitam tunggal fermentasi alami manis legit kaya antioksidan."
+      "caption": "Bawang putih tunggal fermentasi alami bercita rasa manis legit kaya antioksidan."
     },
     {
-      "image": "/brand/dbumbu-aurelshop/dbumbu-real-2.jpg",
-      "label": "Rempah Bubuk & Bumbu Dapur",
-      "caption": "Aneka bumbu halus dan rempah murni siap pakai untuk dapur dan restoran."
-    },
-    {
-      "image": "/brand/dbumbu-aurelshop/dbumbu-real-3.jpg",
+      "image": "/brand/dbumbu-aurelshop/dbumbu-spice-collection.jpg",
       "label": "Koleksi Rempah Utuh Pilihan",
-      "caption": "Cengkeh, kapulaga, dan kayu manis pilihan beraroma tajam alami."
+      "caption": "Cengkeh, kapulaga, kayu manis, bunga lawang, dan pala pilihan beraroma tajam alami."
     },
     {
-      "image": "/brand/dbumbu-aurelshop/dbumbu-real-4.jpg",
-      "label": "Pantry & Herbal Supply Tangsel",
-      "caption": "Stok bahan herbal dan rimpang kering siap kirim grosir maupun eceran."
+      "image": "/brand/dbumbu-aurelshop/dbumbu-powder-spices.jpg",
+      "label": "Rempah Bubuk & Bumbu Dapur",
+      "caption": "Kunyit, jahe, dan ketumbar bubuk murni siap pakai untuk dapur dan restoran."
+    },
+    {
+      "image": "/brand/dbumbu-aurelshop/dbumbu-logo.jpg",
+      "label": "Identitas Resmi DBumbu Aurelshop",
+      "caption": "Pemasok rempah nusantara dan black garlic terpercaya dari Pamulang, Tangerang Selatan."
     }
   ],
   "actions": [
@@ -120,8 +120,8 @@
   ],
   "verification": {
     "status": "public-source-checked",
-    "checkedAt": "2026-10-13",
-    "note": "Data produk dan toko online terverifikasi di Shopee AurelShop2018, Indonetwork UMKM Tangsel, dan postingan produk DBumbu.",
+    "checkedAt": "2026-10-14",
+    "note": "Aset visual resolusi tinggi studio dan data produk diverifikasi di Shopee AurelShop2018.",
     "sources": [
       {
         "label": "AurelShop2018 on Shopee",

@@ -1,5 +1,7 @@
 {
   "brandLabel": "SAMARA FROM HOME",
+  "titleAsLogo": true,
+  "titleLogo": "/brand/samara-wordmark.webp",
   "tagline": "Healthy, delicious cooking made easy for everyone",
   "eyebrow": "Indonesian Sambal & Cooking Sauce · Pamulang, Tangsel",
   "heroImage": "/brand/samara-real-1.webp",
@@ -12,8 +14,8 @@
     "surface": "#4a5d3f"
   },
   "story": {
-    "title": "Home-kitchen flavour, made easier to serve.",
-    "body": "SAMARA from Home menghadirkan artisan cooking sauce dan sambal rumahan dari Tangerang Selatan. Fokusnya sederhana: rasa Nusantara yang praktis untuk keluarga, pantry, gifting, dan kebutuhan food service, dengan positioning tanpa pengawet buatan sesuai brief langsung pemilik brand."
+    "title": "Who We Are",
+    "body": "Samara from Home was born during the Covid-19 pandemic in 2020, when we all had to stay healthy at home. It started from my desire to give the best nutrition for my toddler and my family. That's why Samara sauces are non-MSG and vegan-friendly, made only from the finest natural ingredients. Over time, Samara's sauces have been loved by many who want to create cafe-style dishes at home. Today, Samara from Home has grown into various cooking sauce variants that can be shipped across Indonesia and even brought abroad."
   },
   "stats": [
     {
@@ -89,15 +91,21 @@
   ],
   "gallery": [
     {
-      "image": "/brand/samara-real-1.webp",
-      "label": "SAMARA product photography",
-      "caption": "Foto produk asli yang sudah tersedia di repository.",
+      "image": "/brand/samara-feed-10.jpg",
+      "label": "Aneka Saus & Sambal Botol SAMARA",
+      "caption": "Koleksi cooking sauce dan sambal non-MSG untuk masakan praktis dan lezat di rumah.",
       "url": "https://www.instagram.com/samara.fromhome/"
     },
     {
       "image": "/brand/samara-feed-1.jpg",
-      "label": "Pantry products",
-      "caption": "Materi brand SAMARA from Home.",
+      "label": "Pantry Sauces & Spices",
+      "caption": "Varian bumbu masak berkualitas siap saji ramah keluarga.",
+      "url": "https://www.instagram.com/samara.fromhome/"
+    },
+    {
+      "image": "/brand/samara-feed-2.jpg",
+      "label": "Rawon & Sambal Kecombrang",
+      "caption": "Menu unggulan display TEI 2026 bercita rasa otentik Nusantara.",
       "url": "https://www.instagram.com/samara.fromhome/"
     }
   ],

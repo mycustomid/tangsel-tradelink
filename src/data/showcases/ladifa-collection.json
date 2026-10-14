@@ -76,6 +76,11 @@
   ],
   "gallery": [
     {
+      "image": "/brand/ladifa-collection/ladifa-asset-3.jpg",
+      "label": "Koleksi Perhiasan Perak & Gemstone",
+      "caption": "Kerajinan tangan batu mulia nusantara berpadu perak 925 eksklusif."
+    },
+    {
       "image": "/brand/ladifa-collection/ladifa-asset-4.jpg",
       "label": "Koleksi Kalung & Aksesoris Gemstone",
       "caption": "Kerajinan tangan batu mulia nusantara dengan ikatan perak halus."
@@ -84,16 +89,6 @@
       "image": "/brand/ladifa-collection/ladifa-asset-5.jpg",
       "label": "Gelang Batu Alam Etnik",
       "caption": "Rangkaian batu alam berwarna alami dengan aura elegan."
-    },
-    {
-      "image": "/brand/ladifa-collection/ladifa-asset-6.jpg",
-      "label": "Detail Pengerjaan Handmade",
-      "caption": "Finishing manual presisi oleh pengrajin berpengalaman Tangerang Selatan."
-    },
-    {
-      "image": "/brand/ladifa-collection/ladifa-asset-7.jpg",
-      "label": "Koleksi Suvenir & Cinderamata",
-      "caption": "Pilihan bingkisan mewah untuk tamu kenegaraan dan cinderamata pameran."
     }
   ],
   "actions": [

@@ -2,7 +2,7 @@
   "brandLabel": "MD ORGANIC",
   "tagline": "Produsen & Supplier Beras Organik Bersertifikat Indonesia",
   "eyebrow": "Certified Organic Rice & Healthy Living · Tangsel",
-  "heroImage": "/brand/md-organic/md-organic-hero.webp",
+  "heroImage": "/brand/md-organic/md-organic-pandan-wangi-hires.webp",
   "logo": "/brand/md-organic/md-organic-logo.png",
   "favicon": "/brand/md-organic/md-organic-logo.png",
   "heroFit": "cover",
@@ -72,24 +72,24 @@
   ],
   "gallery": [
     {
-      "image": "/brand/md-organic/md-organic-pandan-wangi.webp",
+      "image": "/brand/md-organic/md-organic-pandan-wangi-hires.webp",
       "label": "Beras Pandan Wangi Organik",
       "caption": "Beras pulen harum alami bersertifikat organik Indonesia."
     },
     {
-      "image": "/brand/md-organic/md-organic-beras-coklat.webp",
+      "image": "/brand/md-organic/md-organic-beras-coklat-hires.webp",
       "label": "Beras Coklat Organik",
       "caption": "Kaya serat pangan dan nutrisi alami untuk diet sehat."
     },
     {
-      "image": "/brand/md-organic/md-organic-beras-hitam-putih.webp",
+      "image": "/brand/md-organic/md-organic-beras-hitam-putih-hires.webp",
       "label": "Beras Hitam & Putih Organik",
       "caption": "Kemasan vacuum pack higienis menjaga mutu butir beras."
     },
     {
-      "image": "/brand/md-organic/md-organic-hero.webp",
-      "label": "Koleksi Lengkap MD Organic",
-      "caption": "Pilihan pangan sehat dari alam untuk keluarga dan ritel modern."
+      "image": "/brand/md-organic/md-organic-ciherang-hires.webp",
+      "label": "Beras Putih Ciherang Organik",
+      "caption": "Beras putih organik pulen bermutu tinggi tanpa pemutih kimia."
     }
   ],
   "actions": [
@@ -136,8 +136,8 @@
   ],
   "verification": {
     "status": "primary-source-checked",
-    "checkedAt": "2026-10-13",
-    "note": "Data kontak dan link kanal resmi dikonfirmasi langsung via pengantar Pak Eeng, aset gambar asli disedot langsung dari web resmi www.organic-md.com.",
+    "checkedAt": "2026-10-14",
+    "note": "Aset visual resolusi tinggi 1600x1600 bersumber langsung dari portal resmi www.organic-md.com.",
     "sources": [
       {
         "label": "Official Website",

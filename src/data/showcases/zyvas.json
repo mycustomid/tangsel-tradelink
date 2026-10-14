@@ -2,33 +2,33 @@
   "brandLabel": "ZYVAS",
   "tagline": "Contemporary Modest Wear, Homedress & Fashion Harian Modern dari Tangerang Selatan.",
   "eyebrow": "Modest Fashion & Dailywear · Tangsel",
-  "heroImage": "/brand/zyvas/zyvas-real-1.jpg",
+  "heroImage": "/brand/zyvas/zyvas-p-16.jpg",
   "logo": "/brand/zyvas/zyvas-logo.png",
   "favicon": "/brand/zyvas/zyvas-logo.png",
   "heroFit": "cover",
   "visualMode": "fashion",
   "palette": {
-    "bg": "#faf6f7",
-    "ink": "#291322",
-    "accent": "#be185d",
-    "surface": "#fbcfe8"
+    "bg": "#f9f6f3",
+    "ink": "#1e1e1e",
+    "accent": "#9f2a47",
+    "surface": "#f2eae4"
   },
   "story": {
     "title": "Busana Modest Wear & Homedress Nyaman Bergaya Kontemporer.",
-    "body": "ZYVAS menghadirkan ragam busana wanita modest wear dan homedress berkualitas tinggi yang dirancang dengan memadukan kenyamanan material kain pilihan dan potongan modern kekinian. Berbasis di Tangerang Selatan, ZYVAS siap memenuhi kebutuhan fashion harian, butik ritel, hingga pesanan skala besar untuk pasar domestik dan ekspor."
+    "body": "ZYVAS menghadirkan ragam busana wanita modest wear dan contemporary dailywear berkualitas tinggi yang memadukan kelembutan kain berserat alami dengan sentuhan tenun lurik nusantara. Berbasis di Tangerang Selatan, ZYVAS siap memenuhi kebutuhan fashion modern, butik ritel, hingga kemitraan pameran internasional Trade Expo Indonesia."
   },
   "stats": [
     {
-      "value": "Modest Wear",
-      "label": "Koleksi Fashion Harian & Homedress Nyaman"
+      "value": "Contemporary",
+      "label": "Sentuhan Tenun Lurik & Desain Kontemporer"
     },
     {
       "value": "Tangsel",
       "label": "Studio & Produksi Resmi di Tangerang Selatan"
     },
     {
-      "value": "Katun Premium",
-      "label": "Bahan adem, lembut & nyaman sepanjang hari"
+      "value": "Kain Alami",
+      "label": "Material sejuk, jatuh elegan & nyaman harian"
     },
     {
       "value": "TEI 2026",
@@ -37,20 +37,20 @@
   ],
   "highlights": [
     {
-      "title": "Katalog ZYVAS Homedress",
-      "body": "Pilihan homedress santai yang adem, stylish, dan tetap elegan dipakai di dalam maupun luar rumah."
+      "title": "Kimono Blazer & Woven Lurik",
+      "body": "Outer kimono kontemporer beraksen stola tenun lurik tradisional yang anggun untuk formal maupun semi-kasual."
     },
     {
-      "title": "Koleksi Modest Kontemporer",
-      "body": "Rancangan busana muslimah kontemporer yang fleksibel dipadupadankan untuk berbagai aktivitas formal dan kasual."
+      "title": "Contemporary Tunic & Blouse",
+      "body": "Rancangan blus modern tanpa lengan dengan pita samping dan tunik sutra anggun yang fleksibel dipadupadankan."
     },
     {
       "title": "Pemesanan Ritel & Kemitraan Reseller",
-      "body": "Membuka peluang kerja sama reseller, grosir, dan pasokan untuk butik rekanan."
+      "body": "Membuka peluang kerja sama reseller, grosir, dan pasokan untuk butik rekanan serta ekspor."
     },
     {
-      "title": "Material Katun Premium & Jahitan Rapi",
-      "body": "Menggunakan bahan kain berserat alami yang sejuk, menyerap keringat, dengan standar jahitan butik berkualitas tinggi."
+      "title": "Material Premium & Jahitan Butik",
+      "body": "Standar kerapian jahitan butik profesional dengan kain berserat lembut yang sejuk dan menyerap keringat."
     }
   ],
   "commercialBlocks": [
@@ -60,11 +60,11 @@
       "note": "Konsultasi ukuran dan pemesanan grosir langsung via admin WhatsApp.",
       "items": [
         {
-          "label": "ZYVAS Homedress Series",
+          "label": "Kimono Outer Series",
           "value": "Ready Stock"
         },
         {
-          "label": "Contemporary Modest Wear",
+          "label": "Contemporary Modest Blouse",
           "value": "Seasonal Collection"
         },
         {
@@ -76,24 +76,24 @@
   ],
   "gallery": [
     {
-      "image": "/brand/zyvas/zyvas-real-1.jpg",
-      "label": "ZYVAS Homedress Series",
-      "caption": "Gaun santai homedress motif elegan bahan sejuk dan nyaman."
+      "image": "/brand/zyvas/zyvas-p-16.jpg",
+      "label": "Kimono Blazer & Tenun Lurik",
+      "caption": "Blazer kimono hitam berpadu stola tenun lurik nusantara dan celana linen kontemporer."
     },
     {
-      "image": "/brand/zyvas/zyvas-real-2.jpg",
-      "label": "Koleksi Modest Casual Wear",
-      "caption": "Pilihan busana muslimah kasual untuk aktivitas harian dan hangout."
+      "image": "/brand/zyvas/zyvas-p-9.jpg",
+      "label": "Lace Kimono & Palazzo Ensemble",
+      "caption": "Atasan kimono renda merah beraksen lurik berpadu celana kulot putih modern."
     },
     {
-      "image": "/brand/zyvas/zyvas-real-3.jpg",
-      "label": "Detail Jahitan & Kain Lembut",
-      "caption": "Standar jahitan rapi kuat dengan potongan jatuh yang anggun."
+      "image": "/brand/zyvas/zyvas-p-13.jpg",
+      "label": "ZYVAS Teraskota Tunic",
+      "caption": "Tunik sutra elegan warna krem dengan aksen stola tenun untuk tampilan anggun."
     },
     {
-      "image": "/brand/zyvas/zyvas-real-4.jpg",
-      "label": "Pilihan Warna Elegan ZYVAS",
-      "caption": "Palet warna pastel dan kontemporer yang manis untuk wanita modern."
+      "image": "/brand/zyvas/zyvas-p-12.jpg",
+      "label": "Lurik Contemporary Blouse",
+      "caption": "Blus kasual lurik modern beraksen pita samping bergaya minimalis chic."
     }
   ],
   "actions": [

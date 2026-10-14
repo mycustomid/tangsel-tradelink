@@ -1,0 +1,136 @@
+{
+  "brandLabel": "CUAN-DONG GLOBAL HOLDINGS",
+  "tagline": "Evidence-led Indonesia export procurement and structured supply chain orchestration.",
+  "eyebrow": "Export Procurement & Trade Operations · Tangerang Selatan",
+  "heroImage": "/brand/cuan-dong/cuan-dong-hero.jpg",
+  "logo": "/brand/cuan-dong/cuan-dong-logo.png",
+  "favicon": "/brand/cuan-dong/cuan-dong-favicon.png",
+  "heroFit": "cover",
+  "visualMode": "manufactured",
+  "palette": {
+    "bg": "#07162d",
+    "ink": "#f8fafc",
+    "accent": "#38bdf8",
+    "surface": "#0f2444"
+  },
+  "story": {
+    "title": "Institutional-grade procurement and supply gatekeeping from Indonesia to global markets.",
+    "body": "CUAN-DONG Global Holdings menjembatani pembeli internasional dengan produsen dan eksportir komoditas unggulan Indonesia melalui skema pengadaan terstruktur. Beroperasi dari Tangerang Selatan, CUAN-DONG mengelola verifikasi kepatuhan pemasok, pengendalian spesifikasi mutu, inspeksi pra-pengapalan, hingga kesiapan dokumen ekspor (COA, Phytosanitary, Bill of Lading) untuk memastikan kelancaran transaksi lintas negara."
+  },
+  "stats": [
+    {
+      "value": "Global Reach",
+      "label": "Jaringan pembeli dan pasar ekspor lintas benua"
+    },
+    {
+      "value": "Multi-Commodity",
+      "label": "Kakao, kopi, rempah, turunan kelapa, dan hasil laut"
+    },
+    {
+      "value": "Inspection Gate",
+      "label": "Audit kualitas dan verifikasi spesifikasi ketat"
+    },
+    {
+      "value": "TEI 2026",
+      "label": "Mitra dagang resmi Trade Expo Indonesia"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Pengadaan Komoditas Terverifikasi",
+      "body": "Menghubungkan pembeli global dengan rantai pasok langsung dari petani, koperasi, dan pengolah bersertifikat mutu ekspor di seluruh Indonesia."
+    },
+    {
+      "title": "Pengendalian Kualitas & Inspeksi",
+      "body": "Penerapan gatekeeping ketat di gudang konsolidasi sebelum barang masuk kontainer untuk mencegah ketidaksesuaian spesifikasi kontrak dagang."
+    },
+    {
+      "title": "Kesiapan Dokumen & Regulasi",
+      "body": "Manajemen lengkap dokumen ekspor termasuk sertifikat asal (COO), fitosanitari, uji laboratorium bebas cemaran, dan izin karantina."
+    },
+    {
+      "title": "Logistik & Kontainerisasi Aman",
+      "body": "Kordinasi pengapalan kontainer FCL/LCL dari pelabuhan utama Indonesia (Tanjung Priok, Tanjung Perak) dengan pelacakan transparan."
+    }
+  ],
+  "commercialBlocks": [
+    {
+      "title": "Kategori Pengadaan Unggulan",
+      "badge": "Export Grade",
+      "note": "Konsultasi RFQ dan penjadwalan business matching via website resmi atau WhatsApp pengadaan.",
+      "items": [
+        {
+          "label": "Indonesian Specialty Coffee & Cocoa",
+          "value": "FCL / LCL Supply"
+        },
+        {
+          "label": "Spices & Coconut Derivatives",
+          "value": "Standardized Spec"
+        },
+        {
+          "label": "Marine & Industrial Supply",
+          "value": "Contract Processing"
+        }
+      ]
+    }
+  ],
+  "gallery": [
+    {
+      "image": "/brand/cuan-dong/cuan-dong-warehouse.jpg",
+      "label": "Gudang Konsolidasi & Muat Ekspor",
+      "caption": "Fasilitas inspeksi dan muat kontainer terstandar sebelum pengapalan."
+    },
+    {
+      "image": "/brand/cuan-dong/cuan-dong-spices.jpg",
+      "label": "Rempah-Rempah Asli Nusantara",
+      "caption": "Kayu manis, cengkeh, dan pala berkualitas ekspor pilihan."
+    },
+    {
+      "image": "/brand/cuan-dong/cuan-dong-coffee.jpg",
+      "label": "Specialty Coffee Indonesia",
+      "caption": "Biji kopi arabika dan robusta single-origin dengan cupping score tinggi."
+    },
+    {
+      "image": "/brand/cuan-dong/cuan-dong-cocoa.jpg",
+      "label": "Olahan Kakao & Cokelat",
+      "caption": "Bahan baku kakao premium untuk industri makanan global."
+    }
+  ],
+  "actions": [
+    {
+      "key": "website",
+      "label": "Website Resmi · cuan-dong.com",
+      "url": "https://cuan-dong.com/"
+    },
+    {
+      "key": "whatsapp",
+      "label": "WhatsApp Desk · 0813-1723-0957",
+      "url": "https://wa.me/6281317230957"
+    },
+    {
+      "key": "instagram",
+      "label": "Instagram · @cuandong_holdings",
+      "url": "https://www.instagram.com/cuandong_holdings"
+    },
+    {
+      "key": "email",
+      "label": "Email Pengadaan · cuandongholdings@gmail.com",
+      "url": "mailto:cuandongholdings@gmail.com"
+    }
+  ],
+  "verification": {
+    "status": "verified-authoritative",
+    "checkedAt": "2026-10-14",
+    "note": "Data perusahaan, legalitas ekspor, dan kontak diserahkan resmi oleh Disperindag Tangerang Selatan (Pak Eeng).",
+    "sources": [
+      {
+        "label": "Disperindag Tangsel Handover",
+        "url": "https://wa.me/6281296361446"
+      },
+      {
+        "label": "CUAN-DONG Global Holdings",
+        "url": "https://cuan-dong.com/"
+      }
+    ]
+  }
+}

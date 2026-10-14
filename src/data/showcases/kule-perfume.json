@@ -1,0 +1,139 @@
+{
+  "brandLabel": "KULE PERFUME",
+  "tagline": "Fine artisan fragrance and high-concentration extrait de parfum crafted in Serpong, South Tangerang.",
+  "eyebrow": "Fine Fragrance & Extrait de Parfum · Serpong Tangsel",
+  "heroImage": "/brand/kule-perfume/kule-oud-royal.jpg",
+  "logo": "/brand/kule-perfume/kule-logo.jpg",
+  "favicon": "/brand/kule-perfume/kule-logo.jpg",
+  "heroFit": "cover",
+  "visualMode": "manufactured",
+  "palette": {
+    "bg": "#121214",
+    "ink": "#f4f4f5",
+    "accent": "#d97706",
+    "surface": "#27272a"
+  },
+  "story": {
+    "title": "Eksplorasi Aroma Mewah dan Konsentrasi Extrait de Parfum Tahan Lama Khas Tangerang Selatan.",
+    "body": "KULE PERFUME menghadirkan seni peracikan wewangian premium berkonsentrasi Extrait de Parfum tinggi dengan ketahanan aroma luar biasa (10-14 jam). Diformulasikan di Serpong Riverside Residence, Tangerang Selatan oleh Pak Ardi (Kabid Perdagangan Disperindag Tangsel), KULE memadukan konsentrat minyak wangi impor pilihan dengan karakter wangi elegan yang setara parfum desainer dunia, siap menjangkau penikmat parfum personal maupun pasar ritel dan hospitality."
+  },
+  "stats": [
+    {
+      "value": "Extrait de Parfum",
+      "label": "Konsentrasi konsentrat minyak wangi 30–40% tahan lama"
+    },
+    {
+      "value": "Serpong",
+      "label": "Studio kurasi & distribusi resmi di Tangerang Selatan"
+    },
+    {
+      "value": "Unisex & Elegance",
+      "label": "Karakter wangi mewah pria, wanita, dan unisex"
+    },
+    {
+      "value": "TEI 2026",
+      "label": "Koleksi wewangian resmi Trade Expo Indonesia"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Kule Oud Royal (Extrait de Parfum Pria 50ml)",
+      "body": "Perpaduan maskulin woody oud mewah, amber hangat, dan sentuhan rempah oriental dengan proyeksi aroma kuat dan sillage berwibawa."
+    },
+    {
+      "title": "Kule Sweet Escape (Extrait de Parfum Wanita 50ml)",
+      "body": "Sensasi manis anggun dari wild berries, bunga peony mekar, dan sentuhan vanila lembut yang memikat sepanjang hari."
+    },
+    {
+      "title": "Kule Cheerfull (Extrait de Parfum Wanita)",
+      "body": "Kesegaran sparkling citrus dipadu kelopak bunga putih segar yang membangkitkan energi dan keceriaan suasana."
+    },
+    {
+      "title": "Kule Creamy Bliss (Eau de Parfum)",
+      "body": "Kehangatan aroma vanilla cream, almond panggang, dan soft musk yang lembut memanjakan indera penciuman."
+    }
+  ],
+  "commercialBlocks": [
+    {
+      "title": "Katalog Varian Kule Parfum",
+      "badge": "Extrait de Parfum",
+      "note": "Pemesanan langsung via Shopee Official Store atau konsultasi aroma via WhatsApp.",
+      "items": [
+        {
+          "label": "Kule Oud Royal 50ml (Pria)",
+          "value": "Rp250.000"
+        },
+        {
+          "label": "Kule Sweet Escape 50ml (Wanita)",
+          "value": "Ready Stock"
+        },
+        {
+          "label": "Kule Cheerfull 50ml (Wanita)",
+          "value": "Ready Stock"
+        },
+        {
+          "label": "Kule Creamy Bliss 30ml / 50ml",
+          "value": "Ready Stock"
+        }
+      ]
+    }
+  ],
+  "gallery": [
+    {
+      "image": "/brand/kule-perfume/kule-oud-royal.jpg",
+      "label": "Kule Oud Royal Extrait de Parfum",
+      "caption": "Botol flacon amber gelap eksklusif dengan formula oud mewah berkarakter maskulin."
+    },
+    {
+      "image": "/brand/kule-perfume/kule-sweet-escape.jpg",
+      "label": "Kule Sweet Escape Flacon",
+      "caption": "Aroma feminin manis memikat dengan tutup metalik emas premium."
+    },
+    {
+      "image": "/brand/kule-perfume/kule-cheerfull.jpg",
+      "label": "Kule Cheerfull Freshness",
+      "caption": "Kesegaran floral citrus segar untuk aktivitas harian yang berenergi."
+    }
+  ],
+  "actions": [
+    {
+      "key": "shopee",
+      "label": "Shopee Official · kule_parfum",
+      "url": "https://shopee.co.id/kule_parfum"
+    },
+    {
+      "key": "whatsapp",
+      "label": "WhatsApp Desk · 0819-1110-4646",
+      "url": "https://wa.me/6281911104646"
+    },
+    {
+      "key": "instagram",
+      "label": "Instagram · @kuleperfume",
+      "url": "https://www.instagram.com/kuleperfume"
+    },
+    {
+      "key": "maps",
+      "label": "Google Maps · Serpong Riverside",
+      "url": "https://maps.app.goo.gl/8mKBrDXxzNFpwyrd7?g_st=ac"
+    }
+  ],
+  "verification": {
+    "status": "verified-authoritative",
+    "checkedAt": "2026-10-14",
+    "note": "Data brand, toko resmi Shopee, nomor WhatsApp, dan lokasi Maps diverifikasi langsung dari Disperindag Tangsel (Pak Eeng & Pak Ardi).",
+    "sources": [
+      {
+        "label": "Disperindag Tangsel Handover",
+        "url": "https://wa.me/6281296361446"
+      },
+      {
+        "label": "Shopee Official Store Kule",
+        "url": "https://shopee.co.id/kule_parfum"
+      },
+      {
+        "label": "Google Maps Kule Parfum Serpong",
+        "url": "https://maps.app.goo.gl/8mKBrDXxzNFpwyrd7?g_st=ac"
+      }
+    ]
+  }
+}

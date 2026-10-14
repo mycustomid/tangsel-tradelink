@@ -1,0 +1,37 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { resolveTenantFavicon } from '../../lib/tenant-utils.mjs';
+import SmartNfcShowcase from '../../components/SmartNfcShowcase.astro';
+import config from '../../data/showcases/cuan-dong.json';
+
+const baseUrl = import.meta.env.BASE_URL;
+const tenant = {
+  name: "CUAN-DONG Global Holdings",
+  slug: "cuan-dong",
+  hall: '8',
+  booth: '8-7C',
+  category: "Export Procurement & Trade Operations",
+  description: "Evidence-led Indonesia export procurement and structured supply chain orchestration.",
+  theme: "tech",
+  researchStatus: "verified",
+  verifiedAt: '2026-10-14'
+};
+const structuredData = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: tenant.name,
+  url: "https://cuan-dong.com/",
+  sameAs: ["https://www.instagram.com/cuandong_holdings"]
+};
+---
+<BaseLayout
+  favicon={resolveTenantFavicon(tenant, config)}
+  title={`${tenant.name} — Tangsel TradeLink`}
+  description={tenant.description}
+  theme={tenant.theme}
+  canonical={`${baseUrl}tenant/${tenant.slug}`}
+  image={config.heroImage}
+  structuredData={structuredData}
+>
+  <SmartNfcShowcase tenant={tenant} config={config} baseUrl={baseUrl} />
+</BaseLayout>

@@ -8,3 +8,15 @@ dist/
 graphify-out/
 output/
 CODEX_TASK_SSS.txt
+*.py
+debug_shopee.cjs
+download_danis_raw.cjs
+scrape_shopee_playwright.cjs
+preview_server.cjs
+extracted_fahri.md
+extracted_raw_error.txt
+extracted_tei_md/
+raw_mined_data.json
+wa_mined_assets.json
+scripts/
+
