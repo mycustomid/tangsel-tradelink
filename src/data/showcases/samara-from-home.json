@@ -5,6 +5,10 @@
   "tagline": "Healthy, delicious cooking made easy for everyone",
   "eyebrow": "Indonesian Sambal & Cooking Sauce · Pamulang, Tangsel",
   "heroImage": "/brand/samara-real-1.webp",
+  "pricelistImage": "/brand/samara-pricelist.webp",
+  "pricelistLabel": "Official Menu & Pricelist",
+  "pricelistTitle": "Pricelist & Penjelasan Produk",
+  "hideHighlights": true,
   "logo": "/brand/samara-logo.png",
   "favicon": "/brand/samara-favicon.png",
   "palette": {
@@ -19,72 +23,118 @@
   },
   "stats": [
     {
-      "value": "Rp120k",
-      "label": "Rawon Sauce Paste · TEI 2026 display"
+      "value": "40K–75K",
+      "label": "Dairy Sauces · Carbonara, Pumpkin & Chili Cheese"
     },
     {
-      "value": "Rp75k",
-      "label": "Sambal Kecombrang · TEI 2026 display"
+      "value": "45K–130K",
+      "label": "Savory & Vegan · Pesto, Chimichurri, Rawon"
     },
     {
-      "value": "Rp75k",
-      "label": "Sambal Chili Padi · TEI 2026 display"
+      "value": "50K",
+      "label": "Sambal · Kecombrang & Chili Padi"
     },
     {
-      "value": "3+ jars",
-      "label": "Package route available for larger orders"
+      "value": "GrabFood",
+      "label": "Go-Food · Samara Pasta & Nasi Goreng"
     }
   ],
   "highlights": [
     {
+      "title": "Carbonara & Cheese",
+      "body": "Saus creamy berbasis telur, keju, dan susu kaya nutrisi tanpa pengawet untuk pasta dan hidangan keluarga."
+    },
+    {
+      "title": "Italian Pesto & Chimichurri",
+      "body": "Bestseller saus artisan daun basil segar, kacang mete, dan rempah untuk steak, roti panggang, dan pasta."
+    },
+    {
       "title": "Rawon Sauce Paste",
-      "body": "Cooking paste berbasis karakter kluwek untuk mempercepat preparation tanpa menghilangkan identitas rasa rawon."
+      "body": "Cooking paste berbasis kluwek otentik dan rempah aromatik Nusantara untuk rawon, sup, dan nasi goreng."
     },
     {
-      "title": "Sambal Kecombrang",
-      "body": "Profil aromatik kecombrang untuk rice bowl, lauk, grilled menu, dan condiment service."
-    },
-    {
-      "title": "Sambal Chili Padi",
-      "body": "Sambal cabai rawit untuk penggunaan rumah tangga maupun menu F&B yang membutuhkan heat dan brightness."
-    },
-    {
-      "title": "Food-service conversation",
-      "body": "Buyer, reseller, cafe, catering, dan hospitality dapat langsung membahas komposisi order melalui WhatsApp."
+      "title": "Sambal Kecombrang & Chili Padi",
+      "body": "Sambal aromatik bunga kecombrang dan cabai rawit pedas segar dengan minyak kelapa alami."
     }
   ],
   "commercialBlocks": [
     {
-      "title": "TEI 2026 Display",
-      "badge": "3 products",
-      "note": "Harga display yang dikirim langsung oleh pemilik brand untuk kebutuhan TEI 2026.",
+      "title": "Dairy Sauces",
+      "badge": "110gr / 220gr",
+      "note": "Carbonara, Pumpkin Cheese, dan Chili Cheese sauces yang creamy, bergizi, dan cocok untuk anak maupun dewasa.",
       "items": [
         {
-          "label": "Rawon Sauce Paste",
-          "value": "Rp120.000"
+          "label": "Carbonara sauce (110gr / 220gr)",
+          "value": "40K / 75K"
         },
         {
-          "label": "Sambal Kecombrang",
-          "value": "Rp75.000"
+          "label": "Pumpkin Cheese (110gr / 220gr)",
+          "value": "40K / 75K"
         },
         {
-          "label": "Sambal Chili Padi",
-          "value": "Rp75.000"
+          "label": "Chili Cheese (110gr / 220gr)",
+          "value": "40K / 75K"
         }
       ]
     },
     {
-      "title": "Package of 3 or More",
-      "badge": "Direct inquiry",
-      "note": "Brief hanya menetapkan minimum tiga jar; harga paket final tidak diinventarisasi agar tidak mengarang diskon.",
+      "title": "Savory & Vegan Sauces",
+      "badge": "110gr / 220gr",
+      "note": "Saus savory vegan berbahan alami tanpa MSG untuk pasta, steak, fried rice, dan hidangan sehat.",
       "items": [
         {
-          "label": "Minimum order",
-          "value": "3 jars+"
+          "label": "Italian Pesto (110gr / 220gr)",
+          "value": "65K / 125K"
         },
         {
-          "label": "Package price",
-          "value": "Ask via WhatsApp"
+          "label": "Chimichurri (110gr / 220gr)",
+          "value": "70K / 130K"
+        },
+        {
+          "label": "Eggplant Sauce (110gr / 220gr)",
+          "value": "40K / 80K"
+        },
+        {
+          "label": "Rawon Sauce (110gr / 220gr)",
+          "value": "45K / 90K"
+        },
+        {
+          "label": "Chickpea Sauce (110gr / 220gr)",
+          "value": "45K / 90K"
+        }
+      ]
+    },
+    {
+      "title": "Sambal Nusantara",
+      "badge": "220gr Jar",
+      "note": "Sambal bercita rasa pedas, gurih aromatik kecombrang dan asam segar cabai rawit.",
+      "items": [
+        {
+          "label": "Sambal Kecombrang (220gr)",
+          "value": "50K"
+        },
+        {
+          "label": "Sambal Chili Padi (220gr)",
+          "value": "50K"
+        }
+      ]
+    },
+    {
+      "title": "Pemesanan & Delivery",
+      "badge": "Delivery & Online",
+      "note": "Pesan langsung untuk pengiriman ke seluruh Indonesia maupun takeaway makanan siap saji.",
+      "items": [
+        {
+          "label": "GrabFood & Go-Food",
+          "value": "Samara Pasta & Nasi Goreng"
+        },
+        {
+          "label": "Tokopedia",
+          "value": "samarafromhome"
+        },
+        {
+          "label": "Direct WhatsApp",
+          "value": "0856-1096-967 / 0856-9333-4007"
         }
       ]
     }
@@ -105,7 +155,7 @@
     {
       "image": "/brand/samara-feed-2.jpg",
       "label": "Rawon & Sambal Kecombrang",
-      "caption": "Menu unggulan display TEI 2026 bercita rasa otentik Nusantara.",
+      "caption": "Menu unggulan display bercita rasa otentik Nusantara.",
       "url": "https://www.instagram.com/samara.fromhome/"
     }
   ],
@@ -121,28 +171,23 @@
       "url": "https://www.instagram.com/samara.fromhome/"
     },
     {
+      "key": "tokopedia",
+      "label": "Tokopedia · samarafromhome",
+      "url": "https://www.tokopedia.com/samarafromhome"
+    },
+    {
       "key": "maps",
       "label": "Google Maps & Review",
       "url": "https://www.google.com/maps/search/?api=1&query=-6.305892,106.734535"
-    },
-    {
-      "key": "shopee",
-      "label": "Shopee · SAMARA from Home",
-      "url": "https://shopee.co.id/shop/284144746"
-    },
-    {
-      "key": "tokopedia",
-      "label": "Tokopedia · SAMARA from Home",
-      "url": "https://www.tokopedia.com/samarafromhome"
     }
   ],
   "verification": {
     "status": "primary-source-checked",
     "checkedAt": "2026-10-13",
-    "note": "Copy, pricing and contact actions aligned to the owner revision in README_TASK.",
+    "note": "Copy, pricelist image, and direct channels verified directly from client revision.",
     "sources": [
       {
-        "label": "Owner revision / project handover",
+        "label": "Client official WhatsApp pricelist",
         "url": "https://wa.me/628561096967"
       }
     ]

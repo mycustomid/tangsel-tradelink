@@ -32,14 +32,13 @@ test('only Samara uses Samara photography', () => {
   }
 });
 
-test('Samara keeps exact TEI pricing and does not invent a 3+ jar discount', () => {
+test('Samara uses authentic client menu pricelist image and verified pricing structure', () => {
   const config = json(files.samara);
   assert.equal(config.tagline, 'Healthy, delicious cooking made easy for everyone');
+  assert.match(config.pricelistImage, /samara-pricelist\.webp$/);
   const text = JSON.stringify(config.commercialBlocks);
-  assert.match(text, /Rp120\.000/);
-  assert.equal((text.match(/Rp75\.000/g) || []).length, 2);
-  assert.match(text, /3 jars\+/);
-  assert.match(text, /Ask via WhatsApp/);
+  assert.match(text, /Carbonara sauce|Italian Pesto|Kecombrang/i);
+  assert.match(text, /40K \/ 75K|50K/);
 });
 
 test('HHB uses official public scale and marks handover rates as indicative', () => {

@@ -53,8 +53,8 @@ test('high-risk claims are not promoted as TradeLink guarantees', () => {
   assert.doesNotMatch(bumina, /4\.9★|4\.9\/5/i);
 });
 
-test('Samara labels marketplace routes conservatively', () => {
+test('Samara labels marketplace routes conservatively and respects removal of shopee', () => {
   const samara = readJson('src/data/showcases/samara-from-home.json');
-  assert.ok(samara.actions.some((a) => a.key === 'shopee'));
   assert.ok(samara.actions.some((a) => a.key === 'tokopedia'));
+  assert.equal(samara.actions.some((a) => a.key === 'shopee'), false);
 });
