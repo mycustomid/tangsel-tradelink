@@ -2,7 +2,7 @@
   "brandLabel": "NAA SHOES",
   "tagline": "Step into a better you — sepatu wanita dari home industry Tangerang Selatan.",
   "eyebrow": "Tangerang Selatan · Women's Shoes · Flats · Mules · Ecoprint",
-  "heroImage": "https://mycustomid.github.io/tangsel-tradelink/brand/naa-shoes/naa-shoes-classic-mules.jpeg",
+  "heroImage": "/brand/naa-shoes/naa-shoes-classic-mules.jpeg",
   "palette": {
     "bg": "#f2e7dc",
     "ink": "#201a17",
@@ -11,7 +11,7 @@
   },
   "story": {
     "title": "Everyday shoes, made closer to home.",
-    "body": "Sepatu Wanita NAA adalah home industry alas kaki wanita dari Tangerang Selatan. Materi brand yang diberikan menampilkan koleksi classic flats, mules, sandal hak rendah, dan seri ecoprint. Profil Instagram resminya juga menyebut model dapat direquest serta pemesanan dilakukan melalui WhatsApp dan DM."
+    "body": "Sepatu Wanita NAA adalah home industry alas kaki wanita dari Tangerang Selatan. Memadukan kenyamanan dan tren terkini melalui ragam classic flats, mules beraksen buckle elegan, sandal hak rendah, hingga seri ecoprint bermotif botanical alami. Tersedia opsi pemesanan model kustom melalui WhatsApp dan Instagram DM."
   },
   "stats": [
     {
@@ -42,7 +42,7 @@
     },
     {
       "title": "Ecoprint series",
-      "body": "Foto produk yang diberikan memperlihatkan seri footwear dengan motif daun dan pola botanical bergaya ecoprint. Detail proses, bahan pewarna, dan klaim lingkungan tidak ditambahkan karena belum ada sumber yang memverifikasinya."
+      "body": "Seri sepatu estetik dengan motif botanical dedaunan alami bergaya ecoprint yang unik dan artistik."
     },
     {
       "title": "Direct order",
@@ -51,43 +51,43 @@
   ],
   "gallery": [
     {
-      "image": "https://mycustomid.github.io/tangsel-tradelink/brand/naa-shoes/naa-shoes-classic-mules.jpeg",
+      "image": "/brand/naa-shoes/naa-shoes-classic-mules.jpeg",
       "label": "Classic Mules",
       "caption": "Mules bernuansa nude dengan detail buckle strap dari materi produk asli NAA.",
       "url": "https://www.instagram.com/sepatu_wanita_naa/"
     },
     {
-      "image": "https://mycustomid.github.io/tangsel-tradelink/brand/naa-shoes/naa-shoes-classic-flats-mocha.jpeg",
+      "image": "/brand/naa-shoes/naa-shoes-classic-flats-mocha.jpeg",
       "label": "Classic Flats · Mocha Brown",
       "caption": "Flat shoes berujung runcing dalam warna mocha brown dari koleksi yang diberikan oleh NAA.",
       "url": "https://www.instagram.com/sepatu_wanita_naa/"
     },
     {
-      "image": "https://mycustomid.github.io/tangsel-tradelink/brand/naa-shoes/naa-shoes-ecoprint-flats.jpeg",
+      "image": "/brand/naa-shoes/naa-shoes-ecoprint-flats.jpeg",
       "label": "Ecoprint Series",
       "caption": "Flat shoes dengan pola daun bergaya ecoprint berdasarkan foto produk asli yang diberikan tenant.",
       "url": "https://www.instagram.com/sepatu_wanita_naa/"
     },
     {
-      "image": "https://mycustomid.github.io/tangsel-tradelink/brand/naa-shoes/naa-shoes-ecoprint-heels-earthy.jpeg",
+      "image": "/brand/naa-shoes/naa-shoes-ecoprint-heels-earthy.jpeg",
       "label": "Ecoprint Low Heels",
       "caption": "Sandal hak rendah dengan pola botanical bernuansa earthy dari materi produk NAA.",
       "url": "https://www.instagram.com/sepatu_wanita_naa/"
     },
     {
-      "image": "https://mycustomid.github.io/tangsel-tradelink/brand/naa-shoes/naa-shoes-classic-flats-black.jpeg",
+      "image": "/brand/naa-shoes/naa-shoes-classic-flats-black.jpeg",
       "label": "Classic Black Flats",
       "caption": "Flat shoes hitam dengan aksen pita depan dari materi produk asli NAA.",
       "url": "https://www.instagram.com/sepatu_wanita_naa/"
     },
     {
-      "image": "https://mycustomid.github.io/tangsel-tradelink/brand/naa-shoes/naa-shoes-bestseller-collection.jpeg",
+      "image": "/brand/naa-shoes/naa-shoes-bestseller-collection.jpeg",
       "label": "Selected Collection",
       "caption": "Pilihan produk NAA dalam beberapa warna yang ditampilkan pada materi brand.",
       "url": "https://www.instagram.com/sepatu_wanita_naa/"
     },
     {
-      "image": "https://mycustomid.github.io/tangsel-tradelink/brand/naa-shoes/naa-shoes-brand-story.jpeg",
+      "image": "/brand/naa-shoes/naa-shoes-brand-story.jpeg",
       "label": "NAA Shoes",
       "caption": "Materi brand NAA Shoes yang digunakan untuk memperkuat identitas visual landing page.",
       "url": "https://www.instagram.com/sepatu_wanita_naa/"

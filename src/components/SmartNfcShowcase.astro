@@ -11,6 +11,8 @@ const { tenant, config, baseUrl = '' } = Astro.props;
 const normalizedBase = String(baseUrl).replace(/\/$/, '');
 const resolveAsset = (src?: string) =>
   src?.startsWith('/brand/') ? `${normalizedBase}${src}` : src;
+const resolveLink = (url?: string) =>
+  url?.startsWith('/') && !url.startsWith('//') ? `${normalizedBase}${url}` : url;
 const heroImage = resolveAsset(config.heroImage);
 const p = config.palette || {};
 const vars = `--nfc-bg:${p.bg || '#faf7f2'};--nfc-ink:${p.ink || '#1f1a18'};--nfc-accent:${p.accent || '#9a3412'};--nfc-surface:${p.surface || '#ffffff'};--hero-fit:${config.heroFit || 'cover'}`;
@@ -62,7 +64,7 @@ const iconKey = (key = '') => {
       {primaryActions.length > 0 && (
         <div class="hero-actions" aria-label={`${label} primary actions`}>
           {primaryActions.map((action:any, index:number) => (
-            <a class:list={['action', index === 0 && 'primary']} href={action.url} target="_blank" rel="noopener noreferrer">
+            <a class:list={['action', index === 0 && 'primary']} href={resolveLink(action.url)} target="_blank" rel="noopener noreferrer">
               <BrandIcon name={iconKey(action.key)} />
               <span>{action.label}</span>
               <b aria-hidden="true">↗</b>
@@ -100,21 +102,23 @@ const iconKey = (key = '') => {
     </figure>
   </section>
 
-  <section class="nfc-overview" aria-labelledby="about-title">
+  <section class:list={['nfc-overview', (!config.hideStats && (config.stats || []).length > 0) ? '' : 'no-facts']} aria-labelledby="about-title">
     <div class="story">
       <p class="section-label">About</p>
       <h2 id="about-title">{config.story?.title}</h2>
       <p class="story-body">{config.story?.body}</p>
     </div>
 
-    <div class="facts" aria-label={`${label} quick facts`}>
-      {(config.stats || []).slice(0,4).map((stat:any) => (
-        <article>
-          <strong>{stat.value}</strong>
-          <span>{stat.label}</span>
-        </article>
-      ))}
-    </div>
+    {!config.hideStats && (config.stats || []).length > 0 && (
+      <div class="facts" aria-label={`${label} quick facts`}>
+        {(config.stats || []).slice(0,4).map((stat:any) => (
+          <article>
+            <strong>{stat.value}</strong>
+            <span>{stat.label}</span>
+          </article>
+        ))}
+      </div>
+    )}
   </section>
 
   {!config.hideHighlights && (config.highlights || []).length > 0 && (
@@ -135,7 +139,7 @@ const iconKey = (key = '') => {
     </section>
   )}
 
-  {(config.pricelistImage || commercialBlocks.length > 0) && (
+  {(config.pricelistImage || (!config.hideCommercialBlocks && commercialBlocks.length > 0)) && (
     <section class="nfc-section commercial" aria-labelledby="commercial-title">
       <div class="section-heading">
         <p class="section-label">{config.pricelistLabel || 'Commercial reference'}</p>
@@ -154,7 +158,7 @@ const iconKey = (key = '') => {
           />
         </figure>
       )}
-      {commercialBlocks.length > 0 && (
+      {!config.hideCommercialBlocks && commercialBlocks.length > 0 && (
         <div class="commercial-grid">
           {commercialBlocks.map((block:any) => (
             <article class="commercial-card">
@@ -216,7 +220,7 @@ const iconKey = (key = '') => {
     {actions.length > 0 ? (
       <div class="action-grid">
         {actions.map((action:any) => (
-          <a href={action.url} target="_blank" rel="noopener noreferrer">
+          <a href={resolveLink(action.url)} target="_blank" rel="noopener noreferrer">
             <BrandIcon name={iconKey(action.key)} />
             <strong>{action.label}</strong>
             <b aria-hidden="true">↗</b>
@@ -274,6 +278,8 @@ const iconKey = (key = '') => {
   .visual-fallback span{max-width:260px;font-size:.7rem;font-weight:900;letter-spacing:.12em;text-transform:uppercase}
   .nfc-overview,.nfc-section,.nfc-connect{max-width:1180px;margin:0 auto;padding:clamp(34px,5vw,58px) 0;border-top:1px solid color-mix(in srgb,var(--nfc-ink) 12%,transparent)}
   .nfc-overview{display:grid;grid-template-columns:1.08fr .92fr;gap:clamp(30px,6vw,72px);align-items:start}
+  .nfc-overview.no-facts{grid-template-columns:1fr;max-width:880px}
+  .nfc-overview.no-facts .story-body{max-width:100%}
   .story h2,.section-heading h2{margin:12px 0 0;font-family:Georgia,'Times New Roman',serif;font-size:clamp(2rem,4.4vw,4.4rem);font-weight:400;line-height:.95;letter-spacing:-.04em;text-wrap:balance}
   .story-body{max-width:720px;margin:22px 0 0;font-size:1rem;line-height:1.72;color:color-mix(in srgb,var(--nfc-ink) 74%,transparent)}
   .facts{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid color-mix(in srgb,var(--nfc-ink) 12%,transparent)}

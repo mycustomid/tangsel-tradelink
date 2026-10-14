@@ -1,8 +1,8 @@
 {
   "brandLabel": "ALIYA'S COOKIES (ENI CHANDRA)",
-  "tagline": "Kue Kering Nastar & Hampers Homemade Berkualitas Halal dari Pondok Aren Tangsel.",
-  "eyebrow": "Artisan Cookies & Bakery · Pondok Aren Tangsel",
-  "heroImage": "/brand/eni-chandra/eni-chandra-asset-1.jpg",
+  "tagline": "Fortune Cookies, Rengginang Lorjuk, Fudgy Brownies & Kue Kering Homemade Halal dari Tangsel.",
+  "eyebrow": "Artisan Bakery, Cookies & Traditional Snack · Pondok Aren Tangsel",
+  "heroImage": "/brand/eni-chandra/eni-chandra-asset-2.jpg",
   "logo": "/brand/eni-chandra/eni-chandra-logo.png",
   "favicon": "/brand/eni-chandra/eni-chandra-logo.png",
   "heroFit": "cover",
@@ -14,8 +14,8 @@
     "surface": "#fde68a"
   },
   "story": {
-    "title": "Cita Rasa Nastar & Aneka Kue Kering Tradisional Halal Berizin Resmi DJKI.",
-    "body": "Aliya's Cookies dikelola oleh Eni Chandra Shanti di kawasan Pondok Kacang Timur, Pondok Aren, Tangerang Selatan. Memproduksi aneka kue kering homemade berkualitas premium seperti Nastar lumer, kastengel, dan sagu keju dengan bahan baku mentega pilihan tanpa bahan pengawet. Usaha ini telah tersertifikasi resmi SPP-IRT, Halal LPPOM MUI, serta merek dagang terdaftar di DJKI Kemenkumham RI."
+    "title": "Kelezatan Kue Kering Homemade, Rengginang Lorjuk Aliyaras & Aneka Bakery Halal DJKI.",
+    "body": "Aliya's Cookies didirikan dan dikelola oleh Eni Chandra Shanti di Jl. Gelora III, Pondok Kacang Timur, Pondok Aren, Tangerang Selatan. Memproduksi aneka kudapan homemade bercita rasa premium: mulai dari Fortune Homemade Cookies dengan pesan keberuntungan, Rengginang Lorjuk Aliyaras khas berbahan ketan pilihan tanpa MSG, hingga Fudgy Shiny Brownies dan Bolu Marmer lembut. Seluruh produk diproses higienis dan telah tersertifikasi resmi SPP-IRT, Halal LPPOM MUI, serta terdaftar di Rumah Kurasi UMKM Tangerang Selatan untuk pameran Trade Expo Indonesia."
   },
   "stats": [
     {
@@ -27,8 +27,8 @@
       "label": "Tersertifikasi Resmi LPPOM MUI & Dinkes Tangsel"
     },
     {
-      "value": "Merek Terdaftar",
-      "label": "Sertifikat Merek Resmi di Berita Resmi DJKI"
+      "value": "Aliyaras",
+      "label": "Merek Dagang Resmi Terdaftar & Terkurasi"
     },
     {
       "value": "TEI 2026",
@@ -37,63 +37,67 @@
   ],
   "highlights": [
     {
-      "title": "Nastar Nanas Otentik",
-      "body": "Nastar gurih lembut dengan isian selai nanas asli hasil olahan alami tanpa pemanis buatan."
+      "title": "Fortune Homemade Cookies",
+      "body": "Kue keberuntungan unik aneka warna dengan pesan harapan personal di dalamnya, ideal untuk hampers dan suvenir event korporat."
     },
     {
-      "title": "Paket Hampers Hari Raya & Acara",
-      "body": "Pilihan toples kemasan eksklusif yang rapi dan elegan untuk kiriman cinderamata dan hadiah korporat."
+      "title": "Rengginang Lorjuk Aliyaras",
+      "body": "Camilan gurih renyah perpaduan ketan pilihan dan lorjuk berkualitas tanpa MSG dan tanpa bahan pengawet sintetik."
     },
     {
-      "title": "Kualitas Homemade Higienis",
-      "body": "Setiap butir kue dipanggang dengan standar kebersihan ketat untuk menjaga aroma dan kerenyahan maksimal."
+      "title": "Fudgy Shiny Brownies Almond",
+      "body": "Brownies panggang kaya cokelat dengan lapisan shiny crust renyah di luar dan tekstur fudgy lumer bertabur almond slice."
     },
     {
-      "title": "Florentine & BrownCris Cookies",
-      "body": "Inovasi camilan cookies modern seperti florentine aneka kacang biji-bijian dan brownies crispy panggang kaya cokelat."
+      "title": "Bolu Marmer Klasik Premium",
+      "body": "Bolu marmer lembut beraroma butter harum dengan tekstur empuk pas sebagai teman minum teh dan sajian keluarga."
     }
   ],
   "commercialBlocks": [
     {
-      "title": "Varian Kue Kering Favorit",
-      "badge": "Halal Certified",
-      "note": "Pemesanan toples reguler atau paket hampers via admin WhatsApp.",
+      "title": "Lini Produk Unggulan Aliya's Cookies",
+      "badge": "Halal & P-IRT Certified",
+      "note": "Melayani pesanan toples, kemasan pouch higienis, maupun paket hampers kustom via WhatsApp.",
       "items": [
         {
-          "label": "Nastar Premium Butter",
-          "value": "Toples 500g"
+          "label": "Fortune Cookies Box (12 pcs)",
+          "value": "Aneka Rasa & Warna"
         },
         {
-          "label": "Kastengel Keju Edam",
-          "value": "Toples 500g"
+          "label": "Rengginang Lorjuk Aliyaras",
+          "value": "Pouch Higienis P-IRT"
         },
         {
-          "label": "Brownies Crispy Cokelat",
-          "value": "Toples 350g"
+          "label": "Fudgy Brownies Almond",
+          "value": "Box Ukuran Reguler"
+        },
+        {
+          "label": "Bolu Marmer Butter",
+          "value": "Loyang Bundt"
         }
       ]
     }
   ],
   "gallery": [
     {
-      "image": "/brand/eni-chandra/eni-chandra-asset-1.jpg",
-      "label": "Nastar Premium Aliya's Cookies",
-      "caption": "Kue nastar lumer mentega murni dengan selai nanas homemade segar."
-    },
-    {
       "image": "/brand/eni-chandra/eni-chandra-asset-2.jpg",
-      "label": "Kastengel & Sagu Keju Gurih",
-      "caption": "Kue kering keju edam panggang bertekstur renyah lumer di mulut."
+      "label": "Fortune Homemade Cookies Box",
+      "caption": "Kue keberuntungan aneka warna isi 12 buah dengan pesan harapan manis untuk hampers dan suvenir."
     },
     {
-      "image": "/brand/eni-chandra/eni-chandra-asset-3.jpg",
-      "label": "Paket Hampers Lebaran & Natal",
-      "caption": "Kemasan bingkisan eksklusif pita satin untuk hadiah keluarga dan mitra kerja."
+      "image": "/brand/eni-chandra/eni-chandra-real-2.jpg",
+      "label": "Rengginang Lorjuk Aliyaras",
+      "caption": "Ketan pilihan dan lorjuk gurih renyah bersertifikat Halal dan izin resmi P-IRT 206351701072128-26."
     },
     {
-      "image": "/brand/eni-chandra/eni-chandra-asset-4.jpg",
-      "label": "Koleksi Toples Segel Higienis",
-      "caption": "Pengemasan segel rapat kedap udara menjaga kesegaran hingga ke tangan konsumen."
+      "image": "/brand/eni-chandra/eni-chandra-real-4.jpg",
+      "label": "Fudgy Shiny Brownies Almond",
+      "caption": "Brownies panggang lezat bertabur almond slice renyah dengan tekstur cokelat fudgy pekat."
+    },
+    {
+      "image": "/brand/eni-chandra/eni-chandra-real-3.jpg",
+      "label": "Bolu Marmer Klasik Premium",
+      "caption": "Bolu marmer bertekstur lembut dengan pola cantik dan aroma harum mentega pilihan."
     }
   ],
   "actions": [
@@ -104,18 +108,22 @@
     },
     {
       "key": "instagram",
-      "label": "Instagram · @aliyacookies",
-      "url": "https://www.instagram.com/aliyacookies"
+      "label": "Instagram · @aliyacookies.bk",
+      "url": "https://www.instagram.com/aliyacookies.bk"
     }
   ],
   "verification": {
     "status": "verified-authoritative",
-    "checkedAt": "2026-10-14",
-    "note": "Aset visual asli resolusi tinggi studio, data sertifikasi terverifikasi DJKI dan Halal LPPOM MUI.",
+    "checkedAt": "2026-10-15",
+    "note": "Aset visual asli produk kue & rengginang diverifikasi dari label P-IRT resmi Aliyaras dan kurasi Disperindag Tangsel.",
     "sources": [
       {
-        "label": "Instagram @aliyacookies",
-        "url": "https://www.instagram.com/aliyacookies"
+        "label": "Rumah Kurasi UMKM Tangsel",
+        "url": "https://kurasi.tangerangselatankota.go.id"
+      },
+      {
+        "label": "Disperindag Tangsel Handover",
+        "url": "https://wa.me/6281296361446"
       }
     ]
   }

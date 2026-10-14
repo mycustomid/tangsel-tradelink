@@ -99,6 +99,11 @@
       "url": "https://wa.me/6287838209055"
     },
     {
+      "key": "catalog",
+      "label": "Inquiry Export Catalog & Company Profile",
+      "url": "https://wa.me/6287838209055?text=Hello%20Our%20Herb,%20please%20send%20the%20export%20catalog%20and%20company%20profile"
+    },
+    {
       "key": "instagram",
       "label": "Instagram · @ourherb.id",
       "url": "https://www.instagram.com/ourherb.id"

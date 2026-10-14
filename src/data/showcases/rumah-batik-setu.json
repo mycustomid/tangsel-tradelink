@@ -2,7 +2,7 @@
   "brandLabel": "RUMAH BATIK SETU",
   "tagline": "Batik Tangsel, ditulis dari identitas kota dan dikerjakan oleh tangan lokal.",
   "eyebrow": "Setu · Tangerang Selatan · Batik Tulis & Cap · Local Wastra",
-  "heroImage": "https://mycustomid.github.io/tangsel-tradelink/brand/rumah-batik-setu-hero.svg",
+  "heroImage": "/brand/rumah-batik-setu-hero.svg",
   "palette": {
     "bg": "#ece8df",
     "ink": "#173331",
@@ -27,19 +27,19 @@
   ],
   "gallery": [
     {
-      "image": "https://mycustomid.github.io/tangsel-tradelink/brand/rumah-batik-setu-motif.svg",
+      "image": "/brand/rumah-batik-setu-motif.svg",
       "label": "Tangsel Motif Language",
       "caption": "Editorial motif study using local references documented in Rumah Batik Setu research; not an official batik pattern.",
       "url": "https://www.instagram.com/rumahbatiksetu/"
     },
     {
-      "image": "https://mycustomid.github.io/tangsel-tradelink/brand/rumah-batik-setu-toska.svg",
+      "image": "/brand/rumah-batik-setu-toska.svg",
       "label": "Toska Identity",
       "caption": "Editorial color study inspired by the turquoise element documented in Batik Durang research; not an official product image.",
       "url": "https://journal.lppmunindra.ac.id/index.php/Jurnal_Desain/article/view/22807"
     },
     {
-      "image": "https://mycustomid.github.io/tangsel-tradelink/brand/rumah-batik-setu-craft.svg",
+      "image": "/brand/rumah-batik-setu-craft.svg",
       "label": "Tulis & Cap",
       "caption": "Editorial craft visual for the TradeLink profile; visitors can continue to the official Instagram for current products.",
       "url": "https://www.instagram.com/rumahbatiksetu/"

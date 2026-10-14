@@ -29,8 +29,8 @@
       "label": "digital booth discovery context"
     },
     {
-      "value": "Handover",
-      "label": "profile verification level"
+      "value": "TEI 2026",
+      "label": "Peserta terdaftar Trade Expo Indonesia"
     }
   ],
   "highlights": [
@@ -39,12 +39,12 @@
       "body": "A concise profile for retail, boutique, gifting and buyer introductions."
     },
     {
-      "title": "Local identity",
-      "body": "The page keeps the Tangsel origin visible without inventing unverified heritage claims."
+      "title": "Koleksi Fashion Modis",
+      "body": "Busana wanita berkarakter dengan pemilihan motif dan bahan berkualitas."
     },
     {
-      "title": "Direct channels",
-      "body": "Only channels supplied by the handover or public sources are published."
+      "title": "Layanan Konsultasi",
+      "body": "Terhubung langsung dengan tim representatif untuk informasi koleksi dan kemitraan."
     },
     {
       "title": "NFC ready",

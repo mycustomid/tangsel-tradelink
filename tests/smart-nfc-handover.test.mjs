@@ -32,13 +32,16 @@ test('only Samara uses Samara photography', () => {
   }
 });
 
-test('Samara uses authentic client menu pricelist image and verified pricing structure', () => {
+test('Samara uses authentic client menu pricelist image and respects removal of retail pricing blocks', () => {
   const config = json(files.samara);
   assert.equal(config.tagline, 'Healthy, delicious cooking made easy for everyone');
   assert.match(config.pricelistImage, /samara-pricelist\.webp$/);
-  const text = JSON.stringify(config.commercialBlocks);
-  assert.match(text, /Carbonara sauce|Italian Pesto|Kecombrang/i);
-  assert.match(text, /40K \/ 75K|50K/);
+  assert.equal(config.hideCommercialBlocks, true);
+  assert.equal(config.hideStats, true);
+  assert.equal(config.gallery[0].label, 'GIFT PACKAGE');
+  assert.equal(config.gallery[1].label, 'B2B');
+  assert.equal(config.gallery[2].label, 'made with fresh ingredients!');
+  assert.doesNotMatch(JSON.stringify(config), /GrabFood|Go-Food/i);
 });
 
 test('HHB uses official public scale and marks handover rates as indicative', () => {

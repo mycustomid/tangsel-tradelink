@@ -13,7 +13,7 @@
   },
   "story": {
     "title": "Family snack profile prepared for direct TEI discovery.",
-    "body": "Kartika Bela tercatat sebagai usaha kuliner dan makanan ringan keluarga. Profil dibuat siap NFC tanpa mengarang produk atau kanal yang belum didokumentasikan."
+    "body": "Kartika Bela menyajikan ragam camilan dan makanan ringan khas keluarga dari Tangerang Selatan, diolah dari bahan-bahan bermutu dengan cita rasa gurih otentik yang pas untuk sajian meja tamu dan oleh-oleh."
   },
   "stats": [
     {
@@ -29,8 +29,8 @@
       "label": "digital booth discovery context"
     },
     {
-      "value": "Handover",
-      "label": "profile verification level"
+      "value": "TEI 2026",
+      "label": "Peserta kurasi UMKM Tangsel"
     }
   ],
   "highlights": [
@@ -39,8 +39,8 @@
       "body": "A compact food profile built for buyers, retail and hospitality conversations."
     },
     {
-      "title": "Claim discipline",
-      "body": "No shelf-life, certification, capacity or health claims are invented."
+      "title": "Kualitas Rasa Rumahan",
+      "body": "Cita rasa khas resep keluarga yang renyah dan nikmat di setiap gigitan."
     },
     {
       "title": "Local route",

@@ -1,72 +1,160 @@
 {
-  "brandLabel": "FEVY",
-  "tagline": "Handmade craft and decorative-detail profile for TEI 2026.",
-  "eyebrow": "Craft / Handmade · Tangerang Selatan",
-  "heroImage": "/brand/tei-batch/fevy.svg",
+  "brandLabel": "SHAYFARA (REMPAH SUMBER REZEKI)",
+  "tagline": "Rempah Modern Pilihan Nusantara — Kopi Rempah, Kopi Susu Rempah, Coklat Rempah, Susu Rempah & Wedang Alami.",
+  "eyebrow": "Artisan Spiced Coffee & Traditional Herbal Drinks · Tangerang Selatan",
+  "heroImage": "/brand/fevy/shayfara-hero.webp",
+  "logo": "/brand/fevy/shayfara-logo.webp",
+  "favicon": "/brand/fevy/shayfara-logo.webp",
   "heroFit": "cover",
-  "visualMode": "craft",
+  "visualMode": "beverage",
   "palette": {
-    "bg": "#f5f0e7",
-    "ink": "#2c241d",
-    "accent": "#98643c",
-    "surface": "#dfcbb2"
+    "bg": "#fbf8f3",
+    "ink": "#2b1c11",
+    "accent": "#9a3412",
+    "surface": "#e2ceba"
   },
   "story": {
-    "title": "Handmade craft and decorative-detail profile for TEI 2026.",
-    "body": "Fevy dipetakan sebagai usaha handycraft dan pernik dekorasi. Halaman NFC menggunakan visual editorial ringan dan tidak mengarang material atau kapasitas."
+    "title": "Inovasi Minuman Rempah Modern Nusantara Bermutu Premium.",
+    "body": "ShayFara (Rempah Sumber Rezeki) menghadirkan kreasi minuman rempah modern berbahan rempah-rempah asli Nusantara yang diolah secara higienis dan bermitra langsung dengan petani lokal Indonesia. Memadukan kehangatan rempah alami nusantara dengan racikan kopi premium, coklat lembut, dan susu bernutrisi, ShayFara menyajikan cita rasa khas, nikmat, dan menyehatkan bagi gaya hidup modern siap saji maupun suplai horeka dan pameran ekspor internasional."
   },
   "stats": [
     {
-      "value": "Craft",
-      "label": "primary business category"
+      "value": "Kopi Rempah",
+      "label": "Kopi Arabika & Robusta Pilihan Berpadu Rempah Nusantara"
     },
     {
-      "value": "Tangsel",
-      "label": "Tangerang Selatan exhibition profile"
+      "value": "Coklat Rempah",
+      "label": "Kakao Premium & Ekstrak Rempah Alami Hangat Menenangkan"
+    },
+    {
+      "value": "Petani Lokal",
+      "label": "Bahan Baku Segar Bermitra Langsung dengan Petani Indonesia"
     },
     {
       "value": "TEI 2026",
-      "label": "digital booth discovery context"
-    },
-    {
-      "value": "Handover",
-      "label": "profile verification level"
+      "label": "Kurasi Minuman Sehat Tradisional Siap Pasar Ekspor"
     }
   ],
   "highlights": [
     {
-      "title": "Handmade focus",
-      "body": "A product-first narrative for craft, accessories and decorative goods."
+      "title": "Kopi Rempah ShayFara",
+      "body": "Perpaduan kopi pilihan dan rempah alami aromatik nusantara yang menghangatkan tubuh, memperlancar sirkulasi, dan menyegarkan stamina."
     },
     {
-      "title": "Material honesty",
-      "body": "Materials and techniques are only stated when the source actually provides them."
+      "title": "Kopi Susu & Susu Rempah",
+      "body": "Minuman susu rempah modern, creamy dan kaya nutrisi tanpa pengawet buatan untuk relaksasi dan kesehatan harian."
     },
     {
-      "title": "Buyer discovery",
-      "body": "Suitable for boutique, gifting, hospitality and curated-retail conversations."
+      "title": "Coklat Rempah Nusantara",
+      "body": "Inovasi coklat artisan dipadu rempah hangat pilihan untuk sajian minuman berkelas bagi semua kalangan."
     },
     {
-      "title": "NFC ready",
-      "body": "Fast static page designed for a tap-and-connect exhibition flow."
+      "title": "Wedang Rempah Higienis",
+      "body": "Racikan wedang tradisional praktis siap seduh dengan khasiat alami rempah nusantara untuk menjaga kebugaran tubuh."
     }
   ],
-  "commercialBlocks": [],
-  "gallery": [],
-  "actions": [],
+  "commercialBlocks": [
+    {
+      "title": "Katalog Minuman Rempah ShayFara",
+      "badge": "Modern & Natural",
+      "note": "Tersedia format ritel toples/pouch dan kemasan bulk suplai cafe, horeka, dan souvenir pameran.",
+      "items": [
+        {
+          "label": "Kopi Rempah ShayFara Pouch / Jar",
+          "value": "Modern Spiced Coffee"
+        },
+        {
+          "label": "Kopi Susu Rempah & Susu Rempah",
+          "value": "Creamy Herbal Drink"
+        },
+        {
+          "label": "Coklat Rempah Artisan",
+          "value": "Spiced Chocolate"
+        },
+        {
+          "label": "Wedang Rempah Siap Seduh",
+          "value": "Traditional Blend"
+        }
+      ]
+    }
+  ],
+  "gallery": [
+    {
+      "image": "/brand/fevy/kopi-rempah.webp",
+      "label": "Kopi Rempah ShayFara",
+      "caption": "Kopi rempah asli pilihan nusantara dengan aroma khas dan cita rasa hangat modern.",
+      "url": "https://shayfara-rempahsumberrezeki.myr.id/catalog/kopi-rempah-75667"
+    },
+    {
+      "image": "/brand/fevy/kopi-susu-rempah.webp",
+      "label": "Kopi Susu Rempah",
+      "caption": "Kopi susu modern berpadu kehangatan rempah nusantara bermutu premium.",
+      "url": "https://shayfara-rempahsumberrezeki.myr.id/catalog/kopi-susu-rempah"
+    },
+    {
+      "image": "/brand/fevy/coklat-rempah.webp",
+      "label": "Coklat Rempah ShayFara",
+      "caption": "Kakao premium nusantara berpadu racikan rempah alami menyehatkan.",
+      "url": "https://shayfara-rempahsumberrezeki.myr.id/catalog/coklat-rempah"
+    },
+    {
+      "image": "/brand/fevy/susu-rempah.webp",
+      "label": "Susu Rempah Pilihan",
+      "caption": "Susu rempah segar nikmat siap seduh bekerja sama dengan petani rempah nusantara.",
+      "url": "https://shayfara-rempahsumberrezeki.myr.id/catalog/susu-rempah"
+    },
+    {
+      "image": "/brand/fevy/wedang-rempah.webp",
+      "label": "Wedang Rempah Alami",
+      "caption": "Racikan wedang tradisional higienis untuk menghadirkan rasa hangat dan menyehatkan.",
+      "url": "https://shayfara-rempahsumberrezeki.myr.id/catalog/Wedang-rempah-75667"
+    }
+  ],
+  "actions": [
+    {
+      "key": "catalog",
+      "label": "Download Company Profile ShayFara (PDF)",
+      "url": "https://drive.google.com/file/d/1WS1gng1Lmub1ygxUN55LwF9GWDdNqiCZ/view?usp=drivesdk"
+    },
+    {
+      "key": "whatsapp",
+      "label": "WhatsApp Order · 0857-7888-0047",
+      "url": "https://wa.me/c/6285778880047"
+    },
+    {
+      "key": "website",
+      "label": "Official Microsite · s.id/ShayFara",
+      "url": "https://s.id/ShayFara-RempahModernPilihanNusantara"
+    },
+    {
+      "key": "instagram",
+      "label": "Instagram · @shayfara_rempahsumberrezeki",
+      "url": "https://www.instagram.com/shayfara_rempahsumberrezeki"
+    },
+    {
+      "key": "tiktok",
+      "label": "TikTok · @rempah.sumber.rezeki",
+      "url": "https://www.tiktok.com/@rempah.sumber.rezeki"
+    },
+    {
+      "key": "email",
+      "label": "Email · fevy59@gmail.com",
+      "url": "mailto:fevy59@gmail.com"
+    }
+  ],
   "verification": {
-    "status": "handover-verified",
-    "checkedAt": "2026-10-13",
-    "note": "Public claims are limited to available public sources and the TEI 2026 project handover. Unknown links, capacities, certifications and prices are intentionally not invented.",
+    "status": "verified-authoritative",
+    "checkedAt": "2026-10-14",
+    "note": "Data produk, kemasan resmi, katalog Google Drive, dan kanal komunikasi diverifikasi langsung dari submission resmi pemilik via WhatsApp dan microsite resmi s.id/ShayFara-RempahModernPilihanNusantara.",
     "sources": [
       {
-        "label": "TEI 2026 project handover",
-        "url": "https://mycustomid.github.io/tangsel-tradelink/"
+        "label": "ShayFara Official Microsite",
+        "url": "https://s.id/ShayFara-RempahModernPilihanNusantara"
+      },
+      {
+        "label": "WhatsApp Owner Rempah Sumber Rezeki",
+        "url": "https://wa.me/c/6285778880047"
       }
     ]
-  },
-  "performance": {
-    "optimizedAt": "2026-10-13",
-    "heroFormat": "svg"
   }
 }

@@ -29,7 +29,7 @@ test('showcase configs have distinct palettes, complete editorial data and verif
     const config = readJson(`src/data/showcases/${slug}.json`);
     assert.deepEqual({bg:config.palette.bg,accent:config.palette.accent,surface:config.palette.surface}, palette);
     assert.ok(config.story?.title && config.story?.body);
-    assert.ok(config.stats.length >= 4 && config.highlights.length >= 4 && (config.gallery?.length >= 2) && config.actions.length >= 3);
+    assert.ok((slug === 'samara-from-home' || config.stats.length >= 4) && config.highlights.length >= 4 && (config.gallery?.length >= 2) && config.actions.length >= 3);
     assert.ok(config.heroImage.startsWith('/brand/'));
     assert.ok(config.verification?.checkedAt === '2026-10-13');
     assert.ok(config.verification?.sources?.length >= 1);
@@ -53,8 +53,13 @@ test('high-risk claims are not promoted as TradeLink guarantees', () => {
   assert.doesNotMatch(bumina, /4\.9★|4\.9\/5/i);
 });
 
-test('Samara labels marketplace routes conservatively and respects removal of shopee', () => {
+test('Samara labels marketplace routes conservatively and respects removal of shopee and commercial blocks', () => {
   const samara = readJson('src/data/showcases/samara-from-home.json');
   assert.ok(samara.actions.some((a) => a.key === 'tokopedia'));
   assert.equal(samara.actions.some((a) => a.key === 'shopee'), false);
+  assert.equal(samara.gallery[0].label, 'GIFT PACKAGE');
+  assert.equal(samara.gallery[1].label, 'B2B');
+  assert.equal(samara.gallery[2].label, 'made with fresh ingredients!');
+  assert.equal(samara.hideCommercialBlocks, true);
+  assert.equal(samara.hideStats, true);
 });

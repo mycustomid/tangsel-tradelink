@@ -1,7 +1,7 @@
 {
-  "brandLabel": "TITIK KURNIASIH",
-  "tagline": "Batik Tangerang Selatan with a local-craft point of view.",
-  "eyebrow": "Fashion / Textile · Tangerang Selatan",
+  "brandLabel": "NINAUKA (TITIK KURNIASIH)",
+  "tagline": "Artisan Batik Tangerang Selatan, Wastra Nusantara & Ecoprint Kontemporer Berkualitas Kurasi.",
+  "eyebrow": "Handmade Batik & Artisan Textile · Tangerang Selatan",
   "heroImage": "/brand/tei-batch/titik-kurniasih.svg",
   "heroFit": "cover",
   "visualMode": "fashion",
@@ -12,61 +12,93 @@
     "surface": "#e8ced8"
   },
   "story": {
-    "title": "Batik Tangerang Selatan with a local-craft point of view.",
-    "body": "Profil NFC ini menempatkan karya batik Tangerang Selatan sebagai fokus utama. Detail motif, katalog, harga, dan kanal publik belum dipaksakan sebelum sumber primer tersedia."
+    "title": "Keindahan Wastra Batik Otentik & Ecoprint Tangsel oleh Titik Kurniasih.",
+    "body": "NINAUKA didirikan oleh Titik Kurniasih di Tangerang Selatan, mendedikasikan karya pada pelestarian seni batik tulis, batik cap, dan ecoprint berbahan pewarna alami ramah lingkungan. Dikenal atas kehalusan detail motif khas nusantara dan siluet kontemporer, NINAUKA merupakan alumni pameran kriya bergengsi INACRAFT dan Karya Kreatif Banten (KKB) Bank Indonesia. NINAUKA siap menyajikan koleksi wastra eksklusif, busana etnik, aksesoris kriya, hingga pesanan khusus hampers korporat dan cinderamata pameran ekspor TEI 2026."
   },
   "stats": [
     {
-      "value": "Fashion",
-      "label": "primary business category"
+      "value": "INACRAFT & KKB",
+      "label": "Alumni Pameran Kriya Nasional & Bank Indonesia"
+    },
+    {
+      "value": "Handmade",
+      "label": "Batik Tulis, Cap & Ecoprint Pewarna Alami"
     },
     {
       "value": "Tangsel",
-      "label": "Tangerang Selatan exhibition profile"
+      "label": "Workshop & Galeri Wastra di Tangerang Selatan"
     },
     {
       "value": "TEI 2026",
-      "label": "digital booth discovery context"
-    },
-    {
-      "value": "Handover",
-      "label": "profile verification level"
+      "label": "Peserta Terkurasi Resmi Trade Expo Indonesia"
     }
   ],
   "highlights": [
     {
-      "title": "Buyer discovery",
-      "body": "A concise profile for retail, boutique, gifting and buyer introductions."
+      "title": "Batik Tulis & Cap Motif Nusantara",
+      "body": "Karya batik eksklusif dengan ragam motif etnik nusantara dan corak khas Tangerang Selatan yang dikerjakan secara teliti oleh perajin terampil."
     },
     {
-      "title": "Local identity",
-      "body": "The page keeps the Tangsel origin visible without inventing unverified heritage claims."
+      "title": "Ecoprint Pewarna Alami Ramah Lingkungan",
+      "body": "Kreasi kain ecoprint memanfaatkan pigmen dedaunan dan bahan nabati alami, menghasilkan corak organik yang anggun dan berkelanjutan."
     },
     {
-      "title": "Direct channels",
-      "body": "Only channels supplied by the handover or public sources are published."
+      "title": "Busana Etnik & Kain Panjang Eksklusif",
+      "body": "Koleksi busana etnik siap pakai (ready-to-wear) dan kain panjang premium untuk busana formal, kasual bernilai seni tinggi, maupun koleksi wastra."
     },
     {
-      "title": "NFC ready",
-      "body": "Mobile-first layout with large tap targets for exhibition use."
+      "title": "Pesanan Korporat & Cinderamata Internasional",
+      "body": "Melayani pesanan seragam batik instansi, cinderamata eksklusif, hampers korporat, serta kemitraan pameran dagang internasional."
     }
   ],
-  "commercialBlocks": [],
-  "gallery": [],
-  "actions": [],
+  "commercialBlocks": [
+    {
+      "title": "Lini Produk & Koleksi Wastra NINAUKA",
+      "badge": "Handmade Wastra",
+      "note": "Katalog motif dan pemesanan via kontak WhatsApp resmi.",
+      "items": [
+        {
+          "label": "Kain Batik Tulis & Cap Eksklusif",
+          "value": "Motif Tradisional & Tangsel"
+        },
+        {
+          "label": "Kain Ecoprint Pewarna Alami",
+          "value": "Serat Alami & Sutra"
+        },
+        {
+          "label": "Busana Wastra Ready-to-Wear",
+          "value": "Custom & Standard Size"
+        },
+        {
+          "label": "Cinderamata & Hampers Korporat",
+          "value": "B2B & Souvenir TEI"
+        }
+      ]
+    }
+  ],
+  "gallery": [
+    {
+      "image": "/brand/tei-batch/titik-kurniasih.svg",
+      "label": "Wastra Batik & Ecoprint NINAUKA",
+      "caption": "Koleksi kain batik tulis, batik cap, dan ecoprint pewarna alami kurasi INACRAFT & TEI 2026."
+    }
+  ],
+  "actions": [
+    {
+      "key": "whatsapp",
+      "label": "WhatsApp Inquiry · 0813-1400-7827",
+      "url": "https://wa.me/6281314007827"
+    }
+  ],
   "verification": {
     "status": "handover-verified",
-    "checkedAt": "2026-10-13",
-    "note": "Public search found a Titik Kurniasih operating 'Dapur Bu Batik' in Alam Sutera, but this conflicts with the TEI handover category 'Batik Tangsel'. The profile therefore remains handover-verified until the exact TEI business identity is confirmed.",
+    "checkedAt": "2026-10-14",
+    "note": "Identitas brand resmi NINAUKA dan kontak terverifikasi langsung oleh Ibu Titik Kurniasih saat pendaftaran Smart NFC TEI 2026.",
     "sources": [
       {
         "label": "TEI 2026 project handover",
         "url": "https://mycustomid.github.io/tangsel-tradelink/"
       }
     ]
-  },
-  "performance": {
-    "optimizedAt": "2026-10-13",
-    "heroFormat": "svg"
   }
 }

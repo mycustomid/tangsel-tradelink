@@ -9,6 +9,8 @@
   "pricelistLabel": "Official Menu & Pricelist",
   "pricelistTitle": "Pricelist & Penjelasan Produk",
   "hideHighlights": true,
+  "hideStats": true,
+  "hideCommercialBlocks": true,
   "logo": "/brand/samara-logo.png",
   "favicon": "/brand/samara-favicon.png",
   "palette": {
@@ -21,24 +23,7 @@
     "title": "Who We Are",
     "body": "Samara from Home was born during the Covid-19 pandemic in 2020, when we all had to stay healthy at home. It started from my desire to give the best nutrition for my toddler and my family. That's why Samara sauces are non-MSG and vegan-friendly, made only from the finest natural ingredients. Over time, Samara's sauces have been loved by many who want to create cafe-style dishes at home. Today, Samara from Home has grown into various cooking sauce variants that can be shipped across Indonesia and even brought abroad."
   },
-  "stats": [
-    {
-      "value": "40K–75K",
-      "label": "Dairy Sauces · Carbonara, Pumpkin & Chili Cheese"
-    },
-    {
-      "value": "45K–130K",
-      "label": "Savory & Vegan · Pesto, Chimichurri, Rawon"
-    },
-    {
-      "value": "50K",
-      "label": "Sambal · Kecombrang & Chili Padi"
-    },
-    {
-      "value": "GrabFood",
-      "label": "Go-Food · Samara Pasta & Nasi Goreng"
-    }
-  ],
+  "stats": [],
   "highlights": [
     {
       "title": "Carbonara & Cheese",
@@ -57,105 +42,34 @@
       "body": "Sambal aromatik bunga kecombrang dan cabai rawit pedas segar dengan minyak kelapa alami."
     }
   ],
-  "commercialBlocks": [
-    {
-      "title": "Dairy Sauces",
-      "badge": "110gr / 220gr",
-      "note": "Carbonara, Pumpkin Cheese, dan Chili Cheese sauces yang creamy, bergizi, dan cocok untuk anak maupun dewasa.",
-      "items": [
-        {
-          "label": "Carbonara sauce (110gr / 220gr)",
-          "value": "40K / 75K"
-        },
-        {
-          "label": "Pumpkin Cheese (110gr / 220gr)",
-          "value": "40K / 75K"
-        },
-        {
-          "label": "Chili Cheese (110gr / 220gr)",
-          "value": "40K / 75K"
-        }
-      ]
-    },
-    {
-      "title": "Savory & Vegan Sauces",
-      "badge": "110gr / 220gr",
-      "note": "Saus savory vegan berbahan alami tanpa MSG untuk pasta, steak, fried rice, dan hidangan sehat.",
-      "items": [
-        {
-          "label": "Italian Pesto (110gr / 220gr)",
-          "value": "65K / 125K"
-        },
-        {
-          "label": "Chimichurri (110gr / 220gr)",
-          "value": "70K / 130K"
-        },
-        {
-          "label": "Eggplant Sauce (110gr / 220gr)",
-          "value": "40K / 80K"
-        },
-        {
-          "label": "Rawon Sauce (110gr / 220gr)",
-          "value": "45K / 90K"
-        },
-        {
-          "label": "Chickpea Sauce (110gr / 220gr)",
-          "value": "45K / 90K"
-        }
-      ]
-    },
-    {
-      "title": "Sambal Nusantara",
-      "badge": "220gr Jar",
-      "note": "Sambal bercita rasa pedas, gurih aromatik kecombrang dan asam segar cabai rawit.",
-      "items": [
-        {
-          "label": "Sambal Kecombrang (220gr)",
-          "value": "50K"
-        },
-        {
-          "label": "Sambal Chili Padi (220gr)",
-          "value": "50K"
-        }
-      ]
-    },
-    {
-      "title": "Pemesanan & Delivery",
-      "badge": "Delivery & Online",
-      "note": "Pesan langsung untuk pengiriman ke seluruh Indonesia maupun takeaway makanan siap saji.",
-      "items": [
-        {
-          "label": "GrabFood & Go-Food",
-          "value": "Samara Pasta & Nasi Goreng"
-        },
-        {
-          "label": "Tokopedia",
-          "value": "samarafromhome"
-        },
-        {
-          "label": "Direct WhatsApp",
-          "value": "0856-1096-967 / 0856-9333-4007"
-        }
-      ]
-    }
+  "badges": [
+    "GIFT PACKAGE",
+    "B2B READY",
+    "MADE WITH FRESH INGREDIENTS"
   ],
+  "tags": [
+    "GIFT PACKAGE",
+    "B2B READY",
+    "MADE WITH FRESH INGREDIENTS"
+  ],
+  "commercialBlocks": [],
   "gallery": [
     {
       "image": "/brand/samara-feed-10.jpg",
-      "label": "Aneka Saus & Sambal Botol SAMARA",
-      "caption": "Koleksi cooking sauce dan sambal non-MSG untuk masakan praktis dan lezat di rumah.",
+      "label": "GIFT PACKAGE",
+      "caption": "Koleksi paket hampers eksklusif saus artisan dan sambal nusantara non-MSG.",
       "url": "https://www.instagram.com/samara.fromhome/"
     },
     {
       "image": "/brand/samara-feed-1.jpg",
-      "label": "Pantry Sauces & Spices",
-      "caption": "Varian bumbu masak berkualitas siap saji ramah keluarga.",
+      "label": "B2B",
+      "caption": "Solusi kemasan Food Service Pack (horeka) siap suplai cafe, resto, dan mitra ekspor.",
       "url": "https://www.instagram.com/samara.fromhome/"
     },
     {
       "image": "/brand/samara-feed-2.jpg",
-      "label": "Rawon & Sambal Kecombrang",
-      "caption": "Menu unggulan display bercita rasa otentik Nusantara.",
+      "label": "made with fresh ingredients!",
+      "caption": "Dibuat dari bahan-bahan alami segar pilihan tanpa bahan pengawet sintetis.",
       "url": "https://www.instagram.com/samara.fromhome/"
     }
   ],
@@ -166,14 +80,19 @@
       "url": "https://wa.me/628561096967"
     },
     {
-      "key": "instagram",
-      "label": "Instagram · @samara.fromhome",
-      "url": "https://www.instagram.com/samara.fromhome/"
+      "key": "catalog",
+      "label": "Download Export Flyer & Menu (PDF)",
+      "url": "/docs/samara-flyer-exp.pdf"
     },
     {
       "key": "tokopedia",
       "label": "Tokopedia · samarafromhome",
       "url": "https://www.tokopedia.com/samarafromhome"
+    },
+    {
+      "key": "instagram",
+      "label": "Instagram · @samara.fromhome",
+      "url": "https://www.instagram.com/samara.fromhome/"
     },
     {
       "key": "maps",

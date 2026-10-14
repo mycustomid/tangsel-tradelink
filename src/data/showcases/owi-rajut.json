@@ -14,39 +14,71 @@
     "body": "Owi Rajut tercatat dalam Berita Resmi Merek DJKI dengan nomor permohonan DID2021064524, diterima 27 September 2021 pada kelas 23 untuk benang rajut dan benang untuk rajutan tangan. Studi Universitas Pamulang tahun 2022 juga memasukkan Owi Rajut dalam data UMKM lokal dan mencatat titik koordinat sekitar -6.35540522545654, 106.712101733721. Untuk kunjungan saat ini, TradeLink tetap memakai link Google Maps terbaru yang diberikan langsung oleh kontak tenant."
   },
   "stats": [
-    {"value": "DID2021064524", "label": "trademark application"},
-    {"value": "Class 23", "label": "knitting & hand-knitting yarn"},
-    {"value": "27.09.2021", "label": "trademark filing date"},
-    {"value": "Tangsel", "label": "UMKM location record"}
+    {
+      "value": "DID2021064524",
+      "label": "trademark application"
+    },
+    {
+      "value": "Class 23",
+      "label": "knitting & hand-knitting yarn"
+    },
+    {
+      "value": "27.09.2021",
+      "label": "trademark filing date"
+    },
+    {
+      "value": "Tangsel",
+      "label": "UMKM location record"
+    }
   ],
   "highlights": [
-    {"title": "Registered knitting-yarn category", "body": "Public trademark records identify Owi Rajut specifically with knitting yarn and hand-knitting yarn, giving the brand a clear material-led positioning."},
-    {"title": "Recorded in Tangsel UMKM research", "body": "Universitas Pamulang research includes Owi Rajut in a South Tangerang UMKM dataset and provides a map-tested coordinate for the business."},
-    {"title": "Current discovery link retained", "body": "The Google Maps button uses the current short-link supplied directly by the tenant contact, rather than replacing it with an inferred address."},
-    {"title": "No invented channels", "body": "No WhatsApp, marketplace, Facebook, website or other channel is published until a matching public source or tenant-supplied link is available."}
+    {
+      "title": "Registered knitting-yarn category",
+      "body": "Public trademark records identify Owi Rajut specifically with knitting yarn and hand-knitting yarn, giving the brand a clear material-led positioning."
+    },
+    {
+      "title": "Recorded in Tangsel UMKM research",
+      "body": "Universitas Pamulang research includes Owi Rajut in a South Tangerang UMKM dataset and provides a map-tested coordinate for the business."
+    },
+    {
+      "title": "Current discovery link retained",
+      "body": "The Google Maps button uses the current short-link supplied directly by the tenant contact, rather than replacing it with an inferred address."
+    },
+    {
+      "title": "Kerajinan Rajut Otentik",
+      "body": "Aksesoris dan kriya rajut buatan tangan dengan ketelitian detail benang yang rapi dan awet."
+    }
   ],
   "gallery": [
     {
-      "image": "https://mycustomid.github.io/tangsel-tradelink/brand/owi-rajut-texture.svg",
+      "image": "/brand/owi-rajut-texture.svg",
       "label": "Knit Texture",
       "caption": "Editorial texture study inspired by hand knitting; not a product photograph.",
       "url": "https://www.instagram.com/owi.rajut/"
     },
     {
-      "image": "https://mycustomid.github.io/tangsel-tradelink/brand/owi-rajut-yarn.svg",
+      "image": "/brand/owi-rajut-yarn.svg",
       "label": "Yarn Palette",
       "caption": "Editorial yarn study created for the TradeLink presentation; not an official product image.",
       "url": "https://www.instagram.com/owi.rajut/"
     },
     {
-      "image": "https://mycustomid.github.io/tangsel-tradelink/brand/owi-rajut-hero.svg",
+      "image": "/brand/owi-rajut-hero.svg",
       "label": "Owi Rajut",
       "caption": "A TradeLink editorial identity visual built around the verified knitting-yarn category.",
       "url": "https://www.instagram.com/owi.rajut/"
     }
   ],
   "actions": [
-    {"key": "instagram", "label": "Instagram · @owi.rajut", "url": "https://www.instagram.com/owi.rajut/"},
-    {"key": "maps", "label": "Google Maps · Owi Rajut", "url": "https://share.google/Ene44rW2OTbtqHg39"}
+    {
+      "key": "instagram",
+      "label": "Instagram · @owi.rajut",
+      "url": "https://www.instagram.com/owi.rajut/"
+    },
+    {
+      "key": "maps",
+      "label": "Google Maps · Owi Rajut",
+      "url": "https://share.google/Ene44rW2OTbtqHg39"
+    }
   ]
 }

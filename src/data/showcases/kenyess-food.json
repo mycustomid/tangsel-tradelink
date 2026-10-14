@@ -60,44 +60,40 @@
       "note": "Pemesanan langsung via marketplace resmi atau hubungi kontak WhatsApp pengadaan.",
       "items": [
         {
-          "label": "Bumbu Asinan Betawi Asli TEI",
+          "label": "Bumbu Asinan Betawi Asli (TEI 2026 Featured)",
           "value": "Kemasan Jar Higienis"
         },
         {
-          "label": "Bawang Goreng Asli Sumenep Toples",
-          "value": "Ready Stock"
-        },
-        {
-          "label": "Kemania Keripik Kemangi Bebas Gluten",
+          "label": "Keripik Kemania & Kemania Fish (Gluten-Free)",
           "value": "Pouch 100g"
         },
         {
-          "label": "Kemania Fish Olahan Ikan Laut",
-          "value": "Pouch 100g"
+          "label": "Bawang Goreng Asli Sumenep (BaGor)",
+          "value": "Toples Ready Stock"
         }
       ]
     }
   ],
   "gallery": [
     {
-      "image": "/brand/kenyess-food/kenyess-asinan-betawi.jpg",
-      "label": "Bumbu Asinan Betawi Asli",
+      "image": "/brand/kenyess-food/kenyess-wa-asinan.jpg",
+      "label": "Bumbu Asinan Betawi Asli (TEI 2026)",
       "caption": "Produk kurasi resmi pameran TEI 2026 berbahan rempah asli dan kacang sangrai pilihan."
     },
     {
-      "image": "/brand/kenyess-food/kenyess-bawang-sumenep.jpg",
-      "label": "Bawang Goreng Asli Sumenep",
-      "caption": "Bawang merah Sumenep pilihan diolah dengan mesin spinner peniris minyak, ekstra renyah dan wangi otentik."
+      "image": "/brand/kenyess-food/kenyess-wa-kemania.jpg",
+      "label": "Keripik Kemania & Kemania Fish (Gluten-Free)",
+      "caption": "Inovasi camilan sehat berbahan daun kemangi segar bebas gluten dan olahan ikan laut bernutrisi."
     },
     {
-      "image": "/brand/kenyess-food/kenyess-kemania-chips.jpg",
-      "label": "Kemania Keripik Daun Kemangi Gluten-Free",
-      "caption": "Inovasi camilan sehat berbahan daun kemangi segar bebas gluten ramah pencernaan."
+      "image": "/brand/kenyess-food/kenyess-wa-bagor.jpg",
+      "label": "Bawang Goreng Asli Sumenep (BaGor)",
+      "caption": "Bawang merah Sumenep pilihan diolah dengan mesin peniris minyak (spinner), ekstra renyah, wangi, dan rendah minyak."
     },
     {
-      "image": "/brand/kenyess-food/kenyess-logo.jpg",
-      "label": "Identitas Resmi Kenyess Food",
-      "caption": "Lambang resmi pelestarian kuliner tradisional Nusantara terdaftar."
+      "image": "/brand/kenyess-food/kenyess-asinan-betawi.jpg",
+      "label": "Sajian Bumbu Asinan Betawi",
+      "caption": "Pasta bumbu asinan khas Betawi higienis dan praktis siap saji untuk keluarga maupun resto."
     }
   ],
   "actions": [

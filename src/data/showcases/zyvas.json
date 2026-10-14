@@ -106,6 +106,11 @@
       "key": "instagram",
       "label": "Instagram Utama · @zyvas__",
       "url": "https://www.instagram.com/zyvas__"
+    },
+    {
+      "key": "instagram",
+      "label": "Instagram Dailywear · @zyvas.dailywear",
+      "url": "https://www.instagram.com/zyvas.dailywear"
     }
   ],
   "verification": {
