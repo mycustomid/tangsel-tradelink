@@ -3,6 +3,8 @@
   "tagline": "Produsen Bahan Pembersih & Sanitasi Higienis Skala Rumah Tangga, Hospitality & Industri.",
   "eyebrow": "Cleaning Chemical & Hygiene Solutions · BSD City Tangsel",
   "heroImage": "/brand/snapclean/snapclean-asset-2.png",
+  "logo": "/brand/snapclean/logo.png",
+  "favicon": "/brand/snapclean/logo.png",
   "heroFit": "contain",
   "visualMode": "industrial",
   "palette": {
@@ -74,9 +76,9 @@
   ],
   "gallery": [
     {
-      "image": "/brand/snapclean/snapclean-asset-1.png",
-      "label": "Logo Resmi Snap Clean",
-      "caption": "Brand manufaktur pembersih higienis PT Satu Nusa Biru.",
+      "image": "/brand/snapclean/Sanitizer.png",
+      "label": "Snap Clean Hand Sanitizer",
+      "caption": "Formula sanitasi tangan antiseptik berstandar izin edar resmi Kemenkes RI.",
       "url": "https://www.snapclean.co.id"
     },
     {

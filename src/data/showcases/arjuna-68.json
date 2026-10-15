@@ -85,20 +85,7 @@
       ]
     }
   ],
-  "gallery": [
-    {
-      "image": "/brand/arjuna-68/arjuna-68-hero.webp",
-      "label": "Kartu Nama Resmi Arjuna 68",
-      "caption": "Home made cake, pastry and cookies — Order WhatsApp 0812 9376 2929.",
-      "fit": "contain"
-    },
-    {
-      "image": "/brand/arjuna-68/arjuna-68-logo.webp",
-      "label": "Logo & Maskot Arjuna 68",
-      "caption": "Identitas toko kue artisan keluarga Jakarta Pusat.",
-      "fit": "contain"
-    }
-  ],
+  "gallery": [],
   "actions": [
     {
       "key": "whatsapp",

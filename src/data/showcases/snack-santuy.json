@@ -89,20 +89,7 @@
       ]
     }
   ],
-  "gallery": [
-    {
-      "image": "/brand/snack-santuy/snack-santuy-hero.webp",
-      "label": "Flyer Resmi Open Reseller TEI 2026",
-      "caption": "Spesifikasi produk lengkap dengan sertifikasi Halal, PIRT, dan nomor order.",
-      "fit": "contain"
-    },
-    {
-      "image": "/brand/snack-santuy/snack-santuy-logo.webp",
-      "label": "Logo Resmi Snack Santuy",
-      "caption": "Identitas camilan sehat renyah terpercaya.",
-      "fit": "contain"
-    }
-  ],
+  "gallery": [],
   "actions": [
     {
       "key": "whatsapp",

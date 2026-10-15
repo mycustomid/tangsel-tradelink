@@ -76,20 +76,15 @@
   ],
   "gallery": [
     {
-      "image": "/brand/our-herb/our-herb-box-front.jpg",
-      "label": "Kemasan Depan Our Herb",
-      "caption": "Kotak kemasan resmi Our Herb Butterfly Pea Flower Tea siap saji.",
+      "image": "/brand/our-herb/our-herb-infusion.jpg",
+      "label": "Seduhan Herbal Alami Our Herb",
+      "caption": "Racikan tanaman obat herbal beraroma menenangkan untuk kesehatan tubuh.",
       "url": "https://pknstan.ac.id/id/pelatihan-1"
     },
     {
       "image": "/brand/our-herb/our-herb-box-back.jpg",
       "label": "Informasi Khasiat & Nutrisi",
       "caption": "Panduan seduh dan sertifikasi mutu teh bunga telang terstandar."
-    },
-    {
-      "image": "/brand/our-herb/our-herb-infusion.jpg",
-      "label": "Warna Seduhan Biru Alami",
-      "caption": "Warna biru eksotis dari ekstrak bunga telang murni tanpa pewarna."
     }
   ],
   "actions": [

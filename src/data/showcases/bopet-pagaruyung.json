@@ -81,20 +81,7 @@
       ]
     }
   ],
-  "gallery": [
-    {
-      "image": "/brand/bopet-pagaruyung/bopet-pagaruyung-hero.webp",
-      "label": "Kartu Kontak Resmi Niken Gubie",
-      "caption": "Representasi resmi Bopet Pagaruyung pada Trade Expo Indonesia 2026.",
-      "fit": "contain"
-    },
-    {
-      "image": "/brand/bopet-pagaruyung/bopet-pagaruyung-logo.webp",
-      "label": "Identitas Visual Bopet Pagaruyung",
-      "caption": "Sentuhan warna pastel elegan merepresentasikan kehangatan cita rasa nusantara.",
-      "fit": "contain"
-    }
-  ],
+  "gallery": [],
   "actions": [
     {
       "key": "whatsapp",

@@ -39,9 +39,7 @@ const isIco = faviconPath.endsWith('.ico');
 const isWebp = faviconPath.endsWith('.webp');
 const pngFallback = isSvg
   ? faviconPath.replace(/\.svg$/, '.png')
-  : isWebp
-    ? faviconPath.replace(/\.webp$/, '.png')
-    : faviconPath;
+  : faviconPath;
 
 const origin = Astro.site ?? new URL(Astro.url.origin);
 const canonicalUrl = new URL(canonical || Astro.url.pathname, origin).href;

@@ -85,20 +85,7 @@
       ]
     }
   ],
-  "gallery": [
-    {
-      "image": "/brand/kusuma-kencana-mulya/kusuma-kencana-mulya-hero.webp",
-      "label": "Kartu Kontak Bisnis Adie Sugiarto",
-      "caption": "Business Executive PT Kusuma Kencana Mulya — Pekalongan, Jawa Tengah.",
-      "fit": "contain"
-    },
-    {
-      "image": "/brand/kusuma-kencana-mulya/kusuma-kencana-mulya-logo.webp",
-      "label": "Emblem Resmi PT Kusuma Kencana Mulya",
-      "caption": "Lambang daun hijau dan inisial K melambangkan pertumbuhan industri tekstil berkelanjutan.",
-      "fit": "contain"
-    }
-  ],
+  "gallery": [],
   "actions": [
     {
       "key": "whatsapp",

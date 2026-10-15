@@ -4,6 +4,7 @@
   "eyebrow": "Multi-Origin Green Coffee, OEM / Private Label & ODM Development · Hanoi & Phu Tho, Viet Nam",
   "heroImage": "/brand/sapa-legend-coffee/sapa-legend-hero.webp",
   "logo": "/brand/sapa-legend-coffee/sapa-legend-logo.webp",
+  "favicon": "/brand/sapa-legend-coffee/sapa-legend-logo.webp",
   "heroFit": "cover",
   "visualMode": "beverage",
   "palette": {
@@ -87,9 +88,9 @@
   ],
   "gallery": [
     {
-      "image": "/brand/sapa-legend-coffee/sapa-legend-hero.webp",
-      "label": "SAPA LEGEND Global Coffee Brand Partner",
-      "caption": "Connecting Vietnamese highland coffee terroirs with international commercial markets.",
+      "image": "/brand/sapa-legend-coffee/sapa-factory-roastery.webp",
+      "label": "Fasilitas Roastery & Processing Modern",
+      "caption": "Fasilitas pengolahan dan pemanggangan biji kopi berstandar ekspor internasional di Vietnam.",
       "url": "https://www.sapalegendcoffee.vn"
     },
     {
@@ -115,12 +116,6 @@
       "label": "Freeze-Dried Instant Coffee Solutions",
       "caption": "High-efficiency soluble coffee retaining natural roasted aromatics for global brands.",
       "url": "https://www.sapalegendcoffee.vn/freeze-dried-instant-coffee.html"
-    },
-    {
-      "image": "/brand/sapa-legend-coffee/sapa-factory-roastery.webp",
-      "label": "Modern Processing & Roastery Facility",
-      "caption": "5,000 m² industrial facility in Phu Son IP, scaling to 20,000 m² capacity by 2028.",
-      "url": "https://www.sapalegendcoffee.vn/gioi-thieu"
     }
   ],
   "actions": [

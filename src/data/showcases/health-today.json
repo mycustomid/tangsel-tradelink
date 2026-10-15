@@ -129,5 +129,6 @@
   "performance": {
     "optimizedAt": "2026-10-13",
     "heroFormat": "jpg"
-  }
+  },
+  "favicon": "/brand/health-today/logo.svg"
 }

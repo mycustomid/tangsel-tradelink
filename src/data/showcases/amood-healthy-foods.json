@@ -89,20 +89,7 @@
       ]
     }
   ],
-  "gallery": [
-    {
-      "image": "/brand/amood-healthy-foods/amood-healthy-foods-hero.webp",
-      "label": "Kartu Nama CEO Muhammad Alamudi",
-      "caption": "CEO & Founder PT Amood Healthy Foods — Tebet, Jakarta Selatan.",
-      "fit": "contain"
-    },
-    {
-      "image": "/brand/amood-healthy-foods/amood-healthy-foods-logo.webp",
-      "label": "Logo Resmi Amood Healthy Foods",
-      "caption": "Slogan \"For Your Good Mood\" merefleksikan camilan bernutrisi penambah semangat.",
-      "fit": "contain"
-    }
-  ],
+  "gallery": [],
   "actions": [
     {
       "key": "whatsapp",

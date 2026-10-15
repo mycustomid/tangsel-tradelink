@@ -85,20 +85,7 @@
       ]
     }
   ],
-  "gallery": [
-    {
-      "image": "/brand/the-munching-queen/the-munching-queen-hero.webp",
-      "label": "Kartu Kontak Resmi & Perwakilan Ekspor",
-      "caption": "Dian Ika Safitri (Export Marketing) — UD Cahaya Kencana Surabaya.",
-      "fit": "contain"
-    },
-    {
-      "image": "/brand/the-munching-queen/the-munching-queen-logo.webp",
-      "label": "Brand Identity The Munching Queen",
-      "caption": "Simbol mahkota ramah anak dengan misi camilan sehat tanpa bahan pengawet.",
-      "fit": "contain"
-    }
-  ],
+  "gallery": [],
   "actions": [
     {
       "key": "whatsapp",

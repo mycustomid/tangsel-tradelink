@@ -79,27 +79,20 @@
   ],
   "gallery": [
     {
-      "image": "/brand/aranomiya/soap-kunyit-1.webp",
-      "label": "Aranomiya Natural Botanical Soap",
-      "caption": "Sabun herbal alami dengan minyak kelapa murni dan ekstrak botani nusantara.",
+      "image": "/brand/aranomiya/soap-herbal-tamanu.webp",
+      "label": "Aranomiya Natural Botanical Soap Bar",
+      "caption": "Sabun herbal alami proses dingin dengan minyak nabati murni dan ekstrak botani nusantara.",
       "url": "https://linkumkm.id/ecommerce/detail/34726/sabun-cair-natural"
     },
     {
-      "image": "/brand/aranomiya/soap-cair-charcoal.webp",
-      "label": "Koleksi Perawatan Herbal Alami",
-      "caption": "Pembersih tubuh alami lembut untuk kulit sensitif tanpa deterjen keras.",
-      "url": "https://toco.id/listing/shaf-von-by-aranomiya-sabun-alami-cair-activated-charcoal-60ml-1756098806448"
-    },
-    {
-      "image": "/brand/aranomiya/soap-herbal-tamanu.webp",
-      "label": "Aranomiya Tamanu Natural Soap Bar",
-      "caption": "Sabun mandi alami batang dengan minyak tamanu murni untuk regenerasi dan kelembutan kulit.",
-      "url": "https://toco.id/listing/shaf-von-by-aranomiya-sabun-alami-herbal-tamanu-100gr-1756098623147"
-    },
-    {
       "image": "/brand/aranomiya/aranomiya-real-4.jpg",
-      "label": "Hospitality & Gift Box Set",
-      "caption": "Paket suvenir eksklusif ramah lingkungan untuk kado siraman dan amenitas hotel."
+      "label": "Koleksi Gift Souvenir & Amenitas Organza",
+      "caption": "Paket suvenir eksklusif aneka varian sabun alami (Calendula, Batik, Kunyit) dalam kemasan kantong organza emas ramah lingkungan."
+    },
+    {
+      "image": "/brand/aranomiya/soap-batang-tamanu-bare.webp",
+      "label": "Artisan Cold-Process Soap Bar",
+      "caption": "Tekstur padat lembut sabun proses dingin tanpa SLS/paraben, mempertahankan gliserin alami untuk melembapkan kulit secara mendalam."
     }
   ],
   "actions": [
