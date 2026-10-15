@@ -1,0 +1,134 @@
+{
+  "brandLabel": "PT KUSUMA KENCANA MULYA",
+  "tagline": "Pabrik Tekstil & Pelopor Batik Printing Modern Pekalongan Sejak 1988.",
+  "eyebrow": "Adie Sugiarto · Industrial Textile Manufacturer · Buaran, Pekalongan",
+  "heroImage": "/brand/kusuma-kencana-mulya/kusuma-kencana-mulya-hero.webp",
+  "logo": "/brand/kusuma-kencana-mulya/kusuma-kencana-mulya-logo.webp",
+  "favicon": "/brand/kusuma-kencana-mulya/favicon.png",
+  "heroFit": "contain",
+  "heroAspectRatio": "4/3",
+  "galleryAspectRatio": "1/1",
+  "galleryFit": "contain",
+  "visualMode": "editorial",
+  "palette": {
+    "bg": "#f9f6f1",
+    "ink": "#162032",
+    "accent": "#1e3a8a",
+    "surface": "#e0e7ff"
+  },
+  "story": {
+    "title": "Lebih dari 30 Tahun Memimpin Inovasi Tekstil & Batik Printing Pekalongan.",
+    "body": "PT Kusuma Kencana Mulya (KKM) berdiri sejak tahun 1988 di Pekalongan, Jawa Tengah. Sebagai salah satu pabrik tekstil dan pelopor industri batik printing modern terkemuka di Kota Batik, KKM memiliki kapasitas produksi masif dengan teknologi cetak presisi tinggi. Memproduksi aneka kain batik meteran, sarung batik premium, sprei, selendang, taplak meja, serta kain fashion kustom untuk pasar domestik dan ekspor global."
+  },
+  "stats": [
+    {
+      "value": "Sejak 1988",
+      "label": "35+ Tahun Pengalaman Industri Tekstil"
+    },
+    {
+      "value": "Pekalongan",
+      "label": "Pusat Manufaktur Kota Batik Dunia"
+    },
+    {
+      "value": "Kapasitas Besar",
+      "label": "Siap Suplai Grosir & Kontainer Ekspor"
+    },
+    {
+      "value": "Custom Motif",
+      "label": "Menerima Pembuatan Motif Khusus Instansi"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Kain Batik Printing Halus",
+      "body": "Kain katun bermutu tinggi dengan ketahanan warna prima, motif tajam, dan tekstur lembut nyaman dipakai."
+    },
+    {
+      "title": "Sarung & Selendang Batik Tradisional",
+      "body": "Ragam motif pesisiran Pekalongan klasik dan kontemporer untuk busana muslim dan acara kenegaraan."
+    },
+    {
+      "title": "Perlengkapan Rumah Tangga & Hotel",
+      "body": "Sprei batik, taplak meja, sarung bantal etnik bermutu hotel berbintang dan pasar suvenir premium."
+    },
+    {
+      "title": "Kemitraan Seragam Instansi & Korporat",
+      "body": "Layanan desain motif logo kustom dan produksi massal seragam batik kantor, sekolah, dan organisasi."
+    }
+  ],
+  "commercialBlocks": [
+    {
+      "title": "Lini Produk Manufaktur & Kerjasama Tekstil",
+      "badge": "Pabrik Tekstil 1988",
+      "note": "Melayani pesanan maklon cetak kain, pembelian grosir rol kain, dan tender korporasi.",
+      "items": [
+        {
+          "label": "Kain Batik Printing Katun Prima/Primissima",
+          "value": "Grosir Rol"
+        },
+        {
+          "label": "Sarung Batik Pekalongan Berkualitas",
+          "value": "Eksklusif & Standar"
+        },
+        {
+          "label": "Sprei & Bed Cover Batik Etnik",
+          "value": "Hotel & Home Living"
+        },
+        {
+          "label": "Selendang & Pashmina Motif Batik",
+          "value": "Aksesori Fashion"
+        },
+        {
+          "label": "Produksi Seragam Batik Kustom",
+          "value": "Logo & Motif Khusus"
+        }
+      ]
+    }
+  ],
+  "gallery": [
+    {
+      "image": "/brand/kusuma-kencana-mulya/kusuma-kencana-mulya-hero.webp",
+      "label": "Kartu Kontak Bisnis Adie Sugiarto",
+      "caption": "Business Executive PT Kusuma Kencana Mulya — Pekalongan, Jawa Tengah.",
+      "fit": "contain"
+    },
+    {
+      "image": "/brand/kusuma-kencana-mulya/kusuma-kencana-mulya-logo.webp",
+      "label": "Emblem Resmi PT Kusuma Kencana Mulya",
+      "caption": "Lambang daun hijau dan inisial K melambangkan pertumbuhan industri tekstil berkelanjutan.",
+      "fit": "contain"
+    }
+  ],
+  "actions": [
+    {
+      "key": "whatsapp",
+      "label": "WhatsApp Business · Adie Sugiarto",
+      "url": "https://wa.me/6281275657020"
+    },
+    {
+      "key": "email",
+      "label": "Email · adicahyanto@yahoo.com",
+      "url": "mailto:adicahyanto@yahoo.com"
+    },
+    {
+      "key": "website",
+      "label": "Situs Resmi · kusumakencanamulya.com",
+      "url": "http://www.kusumakencanamulya.com"
+    }
+  ],
+  "verification": {
+    "status": "verified-authoritative",
+    "checkedAt": "2026-10-15",
+    "note": "Diverifikasi langsung dari kartu nama pameran TEI 2026 dan profil korporat resmi PT Kusuma Kencana Mulya.",
+    "sources": [
+      {
+        "label": "Situs Resmi Kusuma Kencana Mulya",
+        "url": "http://www.kusumakencanamulya.com"
+      },
+      {
+        "label": "WhatsApp Kontak Adie Sugiarto",
+        "url": "https://wa.me/6281275657020"
+      }
+    ]
+  }
+}

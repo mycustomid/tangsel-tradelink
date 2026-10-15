@@ -1,0 +1,31 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { resolveTenantFavicon } from '../../lib/tenant-utils.mjs';
+import SmartNfcShowcase from '../../components/SmartNfcShowcase.astro';
+import config from '../../data/showcases/arjuna-68.json';
+
+const baseUrl = import.meta.env.BASE_URL;
+const tenant = {
+  name: "Arjuna 68",
+  slug: "arjuna-68",
+  hall: '7',
+  booth: '7-26',
+  category: "Food, Beverage & Agriculture Products",
+  description: "Home Made Cake, Pastry & Premium Cookies — Kelezatan Panggang Otentik Jakarta Pusat.",
+  theme: "food",
+  whatsapp: "https://wa.me/6281293762929",
+  website: "",
+  researchStatus: "verified-authoritative",
+  verifiedAt: '2026-10-15'
+};
+const structuredData = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: tenant.name,
+  url: "https://mycustomid.github.io/tangsel-tradelink/tenant/arjuna-68"
+};
+---
+<BaseLayout favicon={resolveTenantFavicon(tenant, config)} title={`${tenant.name} — Tangsel TradeLink`} description={tenant.description} theme={tenant.theme}
+  canonical={`${baseUrl}tenant/${tenant.slug}`} image={config.heroImage} structuredData={structuredData}>
+  <SmartNfcShowcase tenant={tenant} config={config} baseUrl={baseUrl} />
+</BaseLayout>

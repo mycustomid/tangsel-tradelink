@@ -376,5 +376,47 @@
     "hall": "8",
     "booth": "8-7C",
     "category": "Food, Beverage & Agriculture Products"
+  },
+  {
+    "name": "THE MUNCHING QUEEN",
+    "slug": "the-munching-queen",
+    "hall": "6",
+    "booth": "6-42",
+    "category": "Food, Beverage & Agriculture Products"
+  },
+  {
+    "name": "SNACK SANTUY",
+    "slug": "snack-santuy",
+    "hall": "7",
+    "booth": "7-18",
+    "category": "Food, Beverage & Agriculture Products"
+  },
+  {
+    "name": "BOPET PAGARUYUNG",
+    "slug": "bopet-pagaruyung",
+    "hall": "7",
+    "booth": "7-22",
+    "category": "Food, Beverage & Agriculture Products"
+  },
+  {
+    "name": "PT KUSUMA KENCANA MULYA",
+    "slug": "kusuma-kencana-mulya",
+    "hall": "6",
+    "booth": "6-12",
+    "category": "Fashion, Handicraft & Home Decor"
+  },
+  {
+    "name": "ARJUNA 68",
+    "slug": "arjuna-68",
+    "hall": "7",
+    "booth": "7-26",
+    "category": "Food, Beverage & Agriculture Products"
+  },
+  {
+    "name": "PT AMOOD HEALTHY FOODS",
+    "slug": "amood-healthy-foods",
+    "hall": "6",
+    "booth": "6-08",
+    "category": "Food, Beverage & Agriculture Products"
   }
 ]

@@ -1,0 +1,138 @@
+{
+  "brandLabel": "SNACK SANTUY",
+  "tagline": "Solusi Sehat Keripik Sayur & Buah Crispy — Tanpa Gula Tambahan, Tanpa Pengawet, Halal & PIRT.",
+  "eyebrow": "Snack Sehat Nutrisi Alami · Open Reseller Modal Minimalis",
+  "heroImage": "/brand/snack-santuy/snack-santuy-hero.webp",
+  "logo": "/brand/snack-santuy/snack-santuy-logo.webp",
+  "favicon": "/brand/snack-santuy/favicon.png",
+  "heroFit": "contain",
+  "heroAspectRatio": "4/3",
+  "galleryAspectRatio": "1/1",
+  "galleryFit": "contain",
+  "visualMode": "food",
+  "palette": {
+    "bg": "#f6faf5",
+    "ink": "#1b2e1e",
+    "accent": "#15803d",
+    "surface": "#dcfce7"
+  },
+  "story": {
+    "title": "Kebaikan Sayur & Buah Asli Nusantara Dalam Gigitan Renyah Bergizi.",
+    "body": "Snack Santuy lahir sebagai solusi praktis bagi keluarga dan anak-anak yang sulit mengonsumsi sayuran (anti-GTM). Diproduksi menggunakan metode higienis yang mengunci vitamin serta warna alami sayur dan buah tanpa tambahan gula, pengawet kimia, maupun pewarna sintetis. Mengantongi sertifikasi Halal dan P-IRT resmi, Snack Santuy membuka peluang kemitraan reseller nasional mulai Rp100.000 dengan margin menguntungkan."
+  },
+  "stats": [
+    {
+      "value": "Halal & PIRT",
+      "label": "Legalitas Keamanan Pangan Lengkap"
+    },
+    {
+      "value": "100% Sayur",
+      "label": "Bahan Sayur & Buah Asli Pilihan"
+    },
+    {
+      "value": "Zero Pengawet",
+      "label": "Tanpa Gula Tambahan & Kimia Sintetis"
+    },
+    {
+      "value": "Mulai 100K",
+      "label": "Paket Reseller Terjangkau Modal Minimalis"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Crunchy Edamame & Spinach",
+      "body": "Kedelai edamame jepang dan bayam hijau renyah tinggi serat dan protein nabati."
+    },
+    {
+      "title": "Broccoli Crispy & Jackfruit",
+      "body": "Kuntum brokoli utuh krispi dan nangka manis alami dengan kerenyahan tahan lama."
+    },
+    {
+      "title": "Otak-Otak Crispy Original",
+      "body": "Camilan olahan ikan gurih bertekstur krispi renyah untuk teman santai kapan saja."
+    },
+    {
+      "title": "Peluang Reseller Se-Indonesia",
+      "body": "Dukungan materi promosi lengkap, foto produk profesional, dan margin reseller menarik."
+    }
+  ],
+  "commercialBlocks": [
+    {
+      "title": "Daftar Varian & Paket Usaha Reseller",
+      "badge": "Open Reseller",
+      "note": "Pemesanan dapat langsung dikirim ke seluruh Indonesia via kurir ekspedisi resmi.",
+      "items": [
+        {
+          "label": "Crunchy Edamame Pouch",
+          "value": "Protein Nabati"
+        },
+        {
+          "label": "Crunchy Spinach (Keripik Bayam)",
+          "value": "Tinggi Zat Besi"
+        },
+        {
+          "label": "Brocoli Crispy Homemade",
+          "value": "Sayur Anti-GTM"
+        },
+        {
+          "label": "Jackfruit Crispy Alami",
+          "value": "Buah Asli Manis"
+        },
+        {
+          "label": "Otak-Otak Crispy Original",
+          "value": "Gurih Ikan Pilihan"
+        },
+        {
+          "label": "Starter Kit Reseller (Mulai 100K)",
+          "value": "Siap Jualan"
+        }
+      ]
+    }
+  ],
+  "gallery": [
+    {
+      "image": "/brand/snack-santuy/snack-santuy-hero.webp",
+      "label": "Flyer Resmi Open Reseller TEI 2026",
+      "caption": "Spesifikasi produk lengkap dengan sertifikasi Halal, PIRT, dan nomor order.",
+      "fit": "contain"
+    },
+    {
+      "image": "/brand/snack-santuy/snack-santuy-logo.webp",
+      "label": "Logo Resmi Snack Santuy",
+      "caption": "Identitas camilan sehat renyah terpercaya.",
+      "fit": "contain"
+    }
+  ],
+  "actions": [
+    {
+      "key": "whatsapp",
+      "label": "WhatsApp Order · 0881 0252 52498",
+      "url": "https://wa.me/62881025252498"
+    },
+    {
+      "key": "instagram",
+      "label": "Instagram · @snacksantuy_official",
+      "url": "https://www.instagram.com/snacksantuy_official/"
+    },
+    {
+      "key": "tiktok",
+      "label": "TikTok · @snacksantuy_official",
+      "url": "https://www.tiktok.com/@snacksantuy_official"
+    }
+  ],
+  "verification": {
+    "status": "verified-authoritative",
+    "checkedAt": "2026-10-15",
+    "note": "Diverifikasi langsung dari flyer pameran TEI 2026 dan kanal media sosial resmi Snack Santuy.",
+    "sources": [
+      {
+        "label": "Instagram Resmi Snack Santuy",
+        "url": "https://www.instagram.com/snacksantuy_official/"
+      },
+      {
+        "label": "WhatsApp Order Resmi",
+        "url": "https://wa.me/62881025252498"
+      }
+    ]
+  }
+}

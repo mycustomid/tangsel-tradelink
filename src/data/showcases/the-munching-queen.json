@@ -1,0 +1,134 @@
+{
+  "brandLabel": "THE MUNCHING QUEEN",
+  "tagline": "Healthy Kids & Family Snacks — Inovasi Keripik Bernutrisi Tinggi Tanpa MSG Buatan.",
+  "eyebrow": "UD Cahaya Kencana · Export Quality Healthy Bites · Surabaya, Jawa Timur",
+  "heroImage": "/brand/the-munching-queen/the-munching-queen-hero.webp",
+  "logo": "/brand/the-munching-queen/the-munching-queen-logo.webp",
+  "favicon": "/brand/the-munching-queen/favicon.png",
+  "heroFit": "contain",
+  "heroAspectRatio": "4/3",
+  "galleryAspectRatio": "1/1",
+  "galleryFit": "contain",
+  "visualMode": "food",
+  "palette": {
+    "bg": "#fdfbf7",
+    "ink": "#231815",
+    "accent": "#d97706",
+    "surface": "#fef3c7"
+  },
+  "story": {
+    "title": "Camilan Sehat Ramah Anak Berstandar Ekspor dari UD Cahaya Kencana Surabaya.",
+    "body": "The Munching Queen didirikan di bawah naungan UD Cahaya Kencana (Surabaya) untuk menghadirkan camilan sehat, lezat, dan aman bagi anak-anak serta seluruh anggota keluarga. Mengutamakan bahan baku alami berkualitas tinggi tanpa tambahan MSG maupun perisa artifisial berbahaya. Lini produk unggulan mencakup oven-baked pasta chips, kerupuk keju ikan, keripik tempe renyah, hingga brownies krispi yang siap diekspor ke berbagai pasar mancanegara."
+  },
+  "stats": [
+    {
+      "value": "No MSG",
+      "label": "Bebas MSG & Pewarna Buatan"
+    },
+    {
+      "value": "Kid Friendly",
+      "label": "Camilan Aman & Bernutrisi untuk Anak"
+    },
+    {
+      "value": "Export Ready",
+      "label": "Standar Kemasan & Mutu Ekspor Terjamin"
+    },
+    {
+      "value": "Surabaya",
+      "label": "Basis Produksi Higienis Jawa Timur"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Oven-Baked Pasta Chips",
+      "body": "Keripik pasta panggang renyah rendah minyak dengan taburan bumbu keju dan rempah alami yang disukai anak-anak."
+    },
+    {
+      "title": "Fish & Cheese Crackers",
+      "body": "Kerupuk olahan ikan segar berpadu gurihnya keju asli kaya kalsium dan protein tinggi."
+    },
+    {
+      "title": "Crispy Tempeh & Brownies",
+      "body": "Kombinasi keripik tempe tradisional higienis dan varian brownies kering cokelat murni yang renyah legit."
+    },
+    {
+      "title": "Kemasan Zipper Stand Pouch",
+      "body": "Desain kemasan modern kedap udara dengan visual ramah anak yang menarik perhatian di rak ritel internasional."
+    }
+  ],
+  "commercialBlocks": [
+    {
+      "title": "Katalog Produk & Kemitraan Ekspor",
+      "badge": "Export Quality",
+      "note": "Menerima pesanan ritel, reseller distributor, suvenir hampers, dan pengadaan ekspor kontainer.",
+      "items": [
+        {
+          "label": "Oven-Baked Pasta Chips Series",
+          "value": "Varian Bestseller"
+        },
+        {
+          "label": "Fish & Cheese Nutritional Crackers",
+          "value": "Kaya Kalsium"
+        },
+        {
+          "label": "Artisan Crispy Tempeh Chips",
+          "value": "Protein Nabati"
+        },
+        {
+          "label": "Crunchy Chocolate Brownie Bites",
+          "value": "Camilan Manis Sehat"
+        },
+        {
+          "label": "OEM & Private Label Services",
+          "value": "Kemitraan Maklon"
+        }
+      ]
+    }
+  ],
+  "gallery": [
+    {
+      "image": "/brand/the-munching-queen/the-munching-queen-hero.webp",
+      "label": "Kartu Kontak Resmi & Perwakilan Ekspor",
+      "caption": "Dian Ika Safitri (Export Marketing) — UD Cahaya Kencana Surabaya.",
+      "fit": "contain"
+    },
+    {
+      "image": "/brand/the-munching-queen/the-munching-queen-logo.webp",
+      "label": "Brand Identity The Munching Queen",
+      "caption": "Simbol mahkota ramah anak dengan misi camilan sehat tanpa bahan pengawet.",
+      "fit": "contain"
+    }
+  ],
+  "actions": [
+    {
+      "key": "whatsapp",
+      "label": "WhatsApp Export · Dian Ika Safitri",
+      "url": "https://wa.me/6281289638889"
+    },
+    {
+      "key": "email",
+      "label": "Email Inquiries · dianika@cahaya-kencana.com",
+      "url": "mailto:dianika@cahaya-kencana.com"
+    },
+    {
+      "key": "website",
+      "label": "Official Website · Cahaya Kencana",
+      "url": "https://www.cahaya-kencana.com"
+    }
+  ],
+  "verification": {
+    "status": "verified-authoritative",
+    "checkedAt": "2026-10-15",
+    "note": "Diverifikasi langsung dari kartu bisnis pameran TEI 2026 dan direktori resmi UD Cahaya Kencana.",
+    "sources": [
+      {
+        "label": "Website Resmi Cahaya Kencana",
+        "url": "https://www.cahaya-kencana.com"
+      },
+      {
+        "label": "Kontak WhatsApp Dian Ika Safitri",
+        "url": "https://wa.me/6281289638889"
+      }
+    ]
+  }
+}

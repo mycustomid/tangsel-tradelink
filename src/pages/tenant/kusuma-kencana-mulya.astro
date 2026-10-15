@@ -1,0 +1,31 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { resolveTenantFavicon } from '../../lib/tenant-utils.mjs';
+import SmartNfcShowcase from '../../components/SmartNfcShowcase.astro';
+import config from '../../data/showcases/kusuma-kencana-mulya.json';
+
+const baseUrl = import.meta.env.BASE_URL;
+const tenant = {
+  name: "PT Kusuma Kencana Mulya",
+  slug: "kusuma-kencana-mulya",
+  hall: '6',
+  booth: '6-12',
+  category: "Fashion, Handicraft & Home Decor",
+  description: "Pabrik Tekstil & Pelopor Batik Printing Modern Pekalongan Sejak 1988.",
+  theme: "editorial",
+  whatsapp: "https://wa.me/6281275657020",
+  website: "http://www.kusumakencanamulya.com",
+  researchStatus: "verified-authoritative",
+  verifiedAt: '2026-10-15'
+};
+const structuredData = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: tenant.name,
+  url: "https://mycustomid.github.io/tangsel-tradelink/tenant/kusuma-kencana-mulya"
+};
+---
+<BaseLayout favicon={resolveTenantFavicon(tenant, config)} title={`${tenant.name} — Tangsel TradeLink`} description={tenant.description} theme={tenant.theme}
+  canonical={`${baseUrl}tenant/${tenant.slug}`} image={config.heroImage} structuredData={structuredData}>
+  <SmartNfcShowcase tenant={tenant} config={config} baseUrl={baseUrl} />
+</BaseLayout>

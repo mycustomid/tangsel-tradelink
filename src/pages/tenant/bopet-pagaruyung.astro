@@ -1,0 +1,31 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { resolveTenantFavicon } from '../../lib/tenant-utils.mjs';
+import SmartNfcShowcase from '../../components/SmartNfcShowcase.astro';
+import config from '../../data/showcases/bopet-pagaruyung.json';
+
+const baseUrl = import.meta.env.BASE_URL;
+const tenant = {
+  name: "Bopet Pagaruyung",
+  slug: "bopet-pagaruyung",
+  hall: '7',
+  booth: '7-22',
+  category: "Food, Beverage & Agriculture Products",
+  description: "Cita Rasa Tradisi Kuliner Minang & Racikan Rempah Otentik Nusantara.",
+  theme: "food",
+  whatsapp: "https://wa.me/62895321424198",
+  website: "",
+  researchStatus: "verified-authoritative",
+  verifiedAt: '2026-10-15'
+};
+const structuredData = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: tenant.name,
+  url: "https://mycustomid.github.io/tangsel-tradelink/tenant/bopet-pagaruyung"
+};
+---
+<BaseLayout favicon={resolveTenantFavicon(tenant, config)} title={`${tenant.name} — Tangsel TradeLink`} description={tenant.description} theme={tenant.theme}
+  canonical={`${baseUrl}tenant/${tenant.slug}`} image={config.heroImage} structuredData={structuredData}>
+  <SmartNfcShowcase tenant={tenant} config={config} baseUrl={baseUrl} />
+</BaseLayout>

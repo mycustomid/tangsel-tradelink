@@ -8,15 +8,20 @@ const baseUrl = import.meta.env.BASE_URL;
 const tenant = {
   name: "Den Bagus", slug: "den-bagus", hall: '8', booth: '8-7C',
   category: "Food, Beverage & Agriculture Products",
-  description: "Tangsel snack profile built for direct exhibition discovery.",
+  description: "Peyek tradisional gurih renyah khas Setu oleh Bu Mimin Casmiaty — tembus ritel modern & Bandara Soekarno-Hatta Terminal 2.",
   theme: "food",
-  researchStatus: "handover-verified", verifiedAt: '2026-10-13'
+  researchStatus: "verified-authoritative", verifiedAt: '2026-10-15'
 };
 const structuredData = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
   name: tenant.name,
-  url: "https://mycustomid.github.io/tangsel-tradelink/"
+  url: "https://mycustomid.github.io/tangsel-tradelink/tenant/den-bagus",
+  sameAs: [
+    "https://shopee.co.id/mimincasmiaty",
+    "https://www.instagram.com/peyek_denbagus/",
+    "https://tangselpos.id/detail/52672/peyek-den-bagus-dari-setu-rambah-bandara"
+  ]
 };
 ---
 <BaseLayout favicon={resolveTenantFavicon(tenant, config)} title={`${tenant.name} — Tangsel TradeLink`} description={tenant.description} theme={tenant.theme}

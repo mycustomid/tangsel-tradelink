@@ -1,0 +1,129 @@
+{
+  "brandLabel": "ARJUNA 68",
+  "tagline": "Home Made Cake, Pastry & Premium Cookies — Kelezatan Panggang Otentik Jakarta Pusat.",
+  "eyebrow": "Artisan Bakery & Kue Kering Istimewa · Jakarta Pusat",
+  "heroImage": "/brand/arjuna-68/arjuna-68-hero.webp",
+  "logo": "/brand/arjuna-68/arjuna-68-logo.webp",
+  "favicon": "/brand/arjuna-68/favicon.png",
+  "heroFit": "contain",
+  "heroAspectRatio": "4/3",
+  "galleryAspectRatio": "1/1",
+  "galleryFit": "contain",
+  "visualMode": "food",
+  "palette": {
+    "bg": "#fffdfa",
+    "ink": "#2e1b10",
+    "accent": "#c2410c",
+    "surface": "#ffedd5"
+  },
+  "story": {
+    "title": "Kreasi Kue Rumahan Berkualitas Tinggi dari Bahan Premium Pilihan.",
+    "body": "Arjuna 68 berbasis di Jakarta Pusat menghadirkan aneka kue rumahan, pastry renyah, dan kue kering (cookies) bermutu tinggi. Dipanggang segar setiap hari menggunakan mentega berkualitas dan cokelat pilihan tanpa bahan pemanis buatan. Dari fudgy brownies lumer, nastar wisman lumer, kastengel keju edam melimpah, hingga lapis legit harum rempah, Arjuna 68 menjadi pilihan utama untuk hampers hari raya, arisan, suvenir kantor, dan santap santai keluarga se-Jabodetabek."
+  },
+  "stats": [
+    {
+      "value": "Fresh Baked",
+      "label": "Dipanggang Segar Berdasarkan Pesanan"
+    },
+    {
+      "value": "Butter Premium",
+      "label": "Mentega Bermutu Tinggi Tanpa Pengawet"
+    },
+    {
+      "value": "Jakarta Pusat",
+      "label": "Pengiriman Cepat Aman Seluruh Jabodetabek"
+    },
+    {
+      "value": "Hampers Spesial",
+      "label": "Kemasan Cantik untuk Hadiah & Acara"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Premium Cookies & Kue Kering",
+      "body": "Nastar lumer selai nanas segar, kastengel keju edam gurih renyah, dan putri salju dingin lembut."
+    },
+    {
+      "title": "Fudgy Brownies Panggang",
+      "body": "Tekstur shiny crust luar renyah dengan bagian dalam cokelat pekat lumer yang bikin nagih."
+    },
+    {
+      "title": "Pastry & Savory Bakes",
+      "body": "Banana choco cheese pastry dan picnic roll chicken lezat beraroma mentega semerbak."
+    },
+    {
+      "title": "Lapis Legit Harum Rempah",
+      "body": "Lapisan demi lapisan dipanggang sabar menghadirkan tekstur basah legit kaya kuning telur."
+    }
+  ],
+  "commercialBlocks": [
+    {
+      "title": "Menu Pilihan & Pemesanan Hampers",
+      "badge": "Home Made Fresh",
+      "note": "Menerima pesanan toples harian, paket hampers Lebaran/Natal, dan pesanan snack box kantor.",
+      "items": [
+        {
+          "label": "Nastar Wisman Toples Spesial",
+          "value": "Bestseller Cookies"
+        },
+        {
+          "label": "Kastengel Keju Edam Gurih",
+          "value": "Keju Melimpah"
+        },
+        {
+          "label": "Fudgy Brownies Panggang Topping",
+          "value": "Almond & Chocochip"
+        },
+        {
+          "label": "Banana Choco Cheese Pastry",
+          "value": "Renyah Gurih Manis"
+        },
+        {
+          "label": "Paket Custom Hampers Hari Raya",
+          "value": "Box Eksklusif & Pita"
+        }
+      ]
+    }
+  ],
+  "gallery": [
+    {
+      "image": "/brand/arjuna-68/arjuna-68-hero.webp",
+      "label": "Kartu Nama Resmi Arjuna 68",
+      "caption": "Home made cake, pastry and cookies — Order WhatsApp 0812 9376 2929.",
+      "fit": "contain"
+    },
+    {
+      "image": "/brand/arjuna-68/arjuna-68-logo.webp",
+      "label": "Logo & Maskot Arjuna 68",
+      "caption": "Identitas toko kue artisan keluarga Jakarta Pusat.",
+      "fit": "contain"
+    }
+  ],
+  "actions": [
+    {
+      "key": "whatsapp",
+      "label": "WhatsApp Order · 0812 9376 2929",
+      "url": "https://wa.me/6281293762929"
+    },
+    {
+      "key": "instagram",
+      "label": "Instagram · @arjuna68cake",
+      "url": "https://www.instagram.com/arjuna68cake/"
+    }
+  ],
+  "verification": {
+    "status": "verified-authoritative",
+    "checkedAt": "2026-10-15",
+    "note": "Diverifikasi langsung dari kartu nama pameran TEI 2026 dan profil Instagram @arjuna68cake.",
+    "sources": [
+      {
+        "label": "Instagram Resmi @arjuna68cake",
+        "url": "https://www.instagram.com/arjuna68cake/"
+      },
+      {
+        "label": "WhatsApp Order Arjuna 68",
+        "url": "https://wa.me/6281293762929"
+      }
+    ]
+  }
+}

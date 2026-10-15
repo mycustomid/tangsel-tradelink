@@ -1,0 +1,31 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { resolveTenantFavicon } from '../../lib/tenant-utils.mjs';
+import SmartNfcShowcase from '../../components/SmartNfcShowcase.astro';
+import config from '../../data/showcases/amood-healthy-foods.json';
+
+const baseUrl = import.meta.env.BASE_URL;
+const tenant = {
+  name: "PT Amood Healthy Foods",
+  slug: "amood-healthy-foods",
+  hall: '6',
+  booth: '6-08',
+  category: "Food, Beverage & Agriculture Products",
+  description: "Nuts Specialist — Kacang Almond & Mete Panggang Premium \"For Your Good Mood\".",
+  theme: "food",
+  whatsapp: "https://wa.me/6281381828281",
+  website: "https://www.amood.id",
+  researchStatus: "verified-authoritative",
+  verifiedAt: '2026-10-15'
+};
+const structuredData = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: tenant.name,
+  url: "https://mycustomid.github.io/tangsel-tradelink/tenant/amood-healthy-foods"
+};
+---
+<BaseLayout favicon={resolveTenantFavicon(tenant, config)} title={`${tenant.name} — Tangsel TradeLink`} description={tenant.description} theme={tenant.theme}
+  canonical={`${baseUrl}tenant/${tenant.slug}`} image={config.heroImage} structuredData={structuredData}>
+  <SmartNfcShowcase tenant={tenant} config={config} baseUrl={baseUrl} />
+</BaseLayout>

@@ -83,7 +83,7 @@ const structuredJson = structuredData
     {isSvg && <link rel="icon" type="image/svg+xml" href={`${faviconPath}?v=3`} />}
     {isPng && <link rel="icon" type="image/png" href={`${faviconPath}?v=3`} />}
     {isIco && <link rel="icon" type="image/x-icon" href={`${faviconPath}?v=3`} />}
-    {isWebp && <link rel="icon" type="image/png" href={`${pngFallback}?v=3`} />}
+    {isWebp && <link rel="icon" type="image/webp" href={`${faviconPath}?v=3`} />}
     {!isSvg && !isPng && !isIco && !isWebp && <link rel="icon" href={`${faviconPath}?v=3`} />}
     {pngFallback !== faviconPath && (
       <link rel="alternate icon" type="image/png" href={`${pngFallback}?v=3`} />

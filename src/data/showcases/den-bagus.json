@@ -4,14 +4,18 @@
   "eyebrow": "Artisan Rempeyek & Traditional Savory Crisps · Setu, Tangerang Selatan",
   "heroImage": "/brand/peyek-den-bagus/peyek-den-bagus-hero.webp",
   "logo": "/brand/peyek-den-bagus/peyek-den-bagus-logo.webp",
-  "favicon": "/brand/peyek-den-bagus/peyek-den-bagus-logo.webp",
+  "favicon": "/brand/peyek-den-bagus/peyek-den-bagus-logo.png",
   "heroFit": "cover",
+  "heroAspectRatio": "16/9",
+  "heroAspectRatioMobile": "4/3",
+  "galleryAspectRatio": "1/1",
+  "galleryFit": "cover",
   "visualMode": "food",
   "palette": {
-    "bg": "#faf3e9",
-    "ink": "#2d1c15",
-    "accent": "#c45d2a",
-    "surface": "#ead5b8"
+    "bg": "#faf4ec",
+    "ink": "#2b1810",
+    "accent": "#b75b2a",
+    "surface": "#edd5be"
   },
   "story": {
     "title": "Cita Rasa Rempeyek Otentik Setu Berkualitas Ritel Modern oleh Bu Mimin Casmiaty.",
@@ -84,7 +88,7 @@
   ],
   "gallery": [
     {
-      "image": "/brand/peyek-den-bagus/peyek-den-bagus-hero.webp",
+      "image": "/brand/peyek-den-bagus/peyek-tampah-tradisional.webp",
       "label": "Peyek Den Bagus Tampah Tradisional",
       "caption": "Rempeyek tipis bertekstur krispi bertabur kacang tanah dan irisan daun jeruk aromatik."
     },
@@ -96,7 +100,8 @@
     {
       "image": "/brand/peyek-den-bagus/peyek-den-bagus-logo.webp",
       "label": "Badge Resmi Peyek Den Bagus",
-      "caption": "Identitas merek resmi terdaftar Bu Mimin Casmiaty dari Setu Tangerang Selatan."
+      "caption": "Identitas merek resmi terdaftar Bu Mimin Casmiaty dari Setu Tangerang Selatan.",
+      "fit": "contain"
     },
     {
       "image": "/brand/peyek-den-bagus/peyek-bumbu-rempah.webp",

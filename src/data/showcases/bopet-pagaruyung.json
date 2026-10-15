@@ -1,0 +1,121 @@
+{
+  "brandLabel": "BOPET PAGARUYUNG",
+  "tagline": "Cita Rasa Tradisi Kuliner Minang & Racikan Rempah Otentik Nusantara.",
+  "eyebrow": "Niken Gubie · Kuliner Tradisional Nusantara · Palembang & Sekitarnya",
+  "heroImage": "/brand/bopet-pagaruyung/bopet-pagaruyung-hero.webp",
+  "logo": "/brand/bopet-pagaruyung/bopet-pagaruyung-logo.webp",
+  "favicon": "/brand/bopet-pagaruyung/favicon.png",
+  "heroFit": "contain",
+  "heroAspectRatio": "4/3",
+  "galleryAspectRatio": "1/1",
+  "galleryFit": "contain",
+  "visualMode": "food",
+  "palette": {
+    "bg": "#faf6f0",
+    "ink": "#2c1810",
+    "accent": "#b91c1c",
+    "surface": "#fee2e2"
+  },
+  "story": {
+    "title": "Melestarikan Khazanah Cita Rasa Masakan Minang Asli Warisan Leluhur.",
+    "body": "Bopet Pagaruyung menyajikan sajian kuliner khas Minang otentik yang diracik menggunakan rempah-rempah segar alami tanpa jalan pintas. Mengedepankan resep tradisional turun-temurun, Bopet Pagaruyung menghadirkan kekayaan cita rasa Nusantara yang menggugah selera untuk sarapan, santap keluarga, katering acara, hingga sajian oleh-oleh khas berdaya simpan terpercaya."
+  },
+  "stats": [
+    {
+      "value": "Resep Asli",
+      "label": "Racikan Rempah Minang Otentik"
+    },
+    {
+      "value": "Higienis",
+      "label": "Proses Olah Bersih & Halal"
+    },
+    {
+      "value": "Katering",
+      "label": "Siap Melayani Acara & Pertemuan"
+    },
+    {
+      "value": "Nusantara",
+      "label": "Kekayaan Rasa Tradisional Berkelas"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Aneka Sarapan Khas Minang",
+      "body": "Katupek sayur, lontong pical, bubur kampiun, dan ketan sarikaya dengan kuah santan gurih melimpah."
+    },
+    {
+      "title": "Olahan Lauk Rempah Unggulan",
+      "body": "Rendang daging empuk meresap, dendeng batokok sambal lado mudo, dan ayam pop khas ranah Minang."
+    },
+    {
+      "title": "Katering Acara & Nasi Kotak",
+      "body": "Paket prasmanan dan nasi kotak higienis untuk pertemuan kantor, syukuran, dan arisan."
+    },
+    {
+      "title": "Kemasan Frozen & Siap Saji",
+      "body": "Varian rendang dan lauk bumbu vakum tahan lama untuk oleh-oleh dan stok praktis di rumah."
+    }
+  ],
+  "commercialBlocks": [
+    {
+      "title": "Layanan Menu & Pemesanan Katering",
+      "badge": "Otentik Minang",
+      "note": "Menerima pesanan partai besar, nasi kotak acara, dan kemitraan suplai konsumsi.",
+      "items": [
+        {
+          "label": "Paket Sarapan Khas Minang",
+          "value": "Katupek & Lontong"
+        },
+        {
+          "label": "Rendang Daging Sapi Rempah Spesial",
+          "value": "Kemasan Vakum"
+        },
+        {
+          "label": "Dendeng Batokok Lado Mudo",
+          "value": "Gurih Pedas Segar"
+        },
+        {
+          "label": "Paket Nasi Kotak Acara Kantor",
+          "value": "Pilihan Menu Lengkap"
+        }
+      ]
+    }
+  ],
+  "gallery": [
+    {
+      "image": "/brand/bopet-pagaruyung/bopet-pagaruyung-hero.webp",
+      "label": "Kartu Kontak Resmi Niken Gubie",
+      "caption": "Representasi resmi Bopet Pagaruyung pada Trade Expo Indonesia 2026.",
+      "fit": "contain"
+    },
+    {
+      "image": "/brand/bopet-pagaruyung/bopet-pagaruyung-logo.webp",
+      "label": "Identitas Visual Bopet Pagaruyung",
+      "caption": "Sentuhan warna pastel elegan merepresentasikan kehangatan cita rasa nusantara.",
+      "fit": "contain"
+    }
+  ],
+  "actions": [
+    {
+      "key": "whatsapp",
+      "label": "WhatsApp Order · Niken Gubie",
+      "url": "https://wa.me/62895321424198"
+    },
+    {
+      "key": "email",
+      "label": "Email Inquiries · niken.122024@gmail.com",
+      "url": "mailto:niken.122024@gmail.com"
+    }
+  ],
+  "verification": {
+    "status": "verified-authoritative",
+    "checkedAt": "2026-10-15",
+    "note": "Diverifikasi langsung dari kartu nama pameran TEI 2026 atas nama Niken Gubie.",
+    "sources": [
+      {
+        "label": "WhatsApp Kontak Niken Gubie",
+        "url": "https://wa.me/62895321424198"
+      }
+    ]
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "brandLabel": "PT AMOOD HEALTHY FOODS",
+  "tagline": "Nuts Specialist — Kacang Almond & Mete Panggang Premium \"For Your Good Mood\".",
+  "eyebrow": "Muhammad Alamudi · CEO & Founder · Tebet, South Jakarta",
+  "heroImage": "/brand/amood-healthy-foods/amood-healthy-foods-hero.webp",
+  "logo": "/brand/amood-healthy-foods/amood-healthy-foods-logo.webp",
+  "favicon": "/brand/amood-healthy-foods/favicon.png",
+  "heroFit": "contain",
+  "heroAspectRatio": "4/3",
+  "galleryAspectRatio": "1/1",
+  "galleryFit": "contain",
+  "visualMode": "food",
+  "palette": {
+    "bg": "#faf7f4",
+    "ink": "#1c1917",
+    "accent": "#ea580c",
+    "surface": "#ffedd5"
+  },
+  "story": {
+    "title": "Pelopor Camilan Kacang Sehat Bergizi Tinggi yang Mendunia.",
+    "body": "PT Amood Healthy Foods didirikan pada tahun 2019 oleh Muhammad Alamudi dengan komitmen memproduksi camilan sehat bercita rasa premium. Sebagai spesialis olahan kacang (Nuts Specialist), Amood menghadirkan roasted almond dan roasted cashew bermutu tinggi dengan variasi rasa inovatif seperti Garlic Sea Salt, Honey Butter, Spicy, Salted Egg, dan Dark Chocolate. Telah terdaftar Halal, BPOM, dan menembus jaringan pasar modern Hero Supermarket, e-commerce nasional, hingga pameran dagang internasional seperti MIHAS Malaysia dan pasar Jepang."
+  },
+  "stats": [
+    {
+      "value": "Halal & BPOM",
+      "label": "Standar Keamanan Pangan & Uji Laboratorium"
+    },
+    {
+      "value": "Nuts Specialist",
+      "label": "Kacang Almond & Mete Impor Pilihan Tertinggi"
+    },
+    {
+      "value": "Hero Market",
+      "label": "Tersedia di Supermarket Modern & E-Commerce"
+    },
+    {
+      "value": "Global Reach",
+      "label": "Ekspansi Aktif ke Pasar Asia & Timur Tengah"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Roasted Almond Aneka Rasa",
+      "body": "Almond panggang renyah beraroma smoky dengan balutan rasa Honey Butter, Garlic Sea Salt, dan Spicy."
+    },
+    {
+      "title": "Roasted Cashew (Kacang Mete)",
+      "body": "Kacang mete utuh super gurih diolah tanpa minyak berlebih, menjaga nutrisi lemak baik esensial."
+    },
+    {
+      "title": "Low-Calorie Almond Milk",
+      "body": "Susu almond bubuk rendah kalori alternatif bebas laktosa bernutrisi tinggi untuk gaya hidup sehat."
+    },
+    {
+      "title": "Kemasan Modern Hermetik",
+      "body": "Kemasan toples segel dan pouch foil kedap udara menjamin kerenyahan awet tanpa bahan pengawet kimia."
+    }
+  ],
+  "commercialBlocks": [
+    {
+      "title": "Katalog Produk & Kemitraan Ekspor",
+      "badge": "Export & Modern Retail",
+      "note": "Menerima pesanan grosir ritel modern, korporat hampers, distributor daerah, dan ekspor kontainer.",
+      "items": [
+        {
+          "label": "Roasted Almond Garlic Sea Salt",
+          "value": "Varian Bestseller"
+        },
+        {
+          "label": "Roasted Almond Honey Butter",
+          "value": "Manis Gurih Favorit"
+        },
+        {
+          "label": "Roasted Cashew Premium Quality",
+          "value": "Mete Utuh Pilihan"
+        },
+        {
+          "label": "Low-Calorie Almond Milk Powder",
+          "value": "Bebas Laktosa"
+        },
+        {
+          "label": "Corporate & Holiday Gift Hampers",
+          "value": "Kemasan Eksklusif"
+        },
+        {
+          "label": "Export Supply & Private Label",
+          "value": "Kapasitas Industri"
+        }
+      ]
+    }
+  ],
+  "gallery": [
+    {
+      "image": "/brand/amood-healthy-foods/amood-healthy-foods-hero.webp",
+      "label": "Kartu Nama CEO Muhammad Alamudi",
+      "caption": "CEO & Founder PT Amood Healthy Foods — Tebet, Jakarta Selatan.",
+      "fit": "contain"
+    },
+    {
+      "image": "/brand/amood-healthy-foods/amood-healthy-foods-logo.webp",
+      "label": "Logo Resmi Amood Healthy Foods",
+      "caption": "Slogan \"For Your Good Mood\" merefleksikan camilan bernutrisi penambah semangat.",
+      "fit": "contain"
+    }
+  ],
+  "actions": [
+    {
+      "key": "whatsapp",
+      "label": "WhatsApp CEO · Muhammad Alamudi",
+      "url": "https://wa.me/6281381828281"
+    },
+    {
+      "key": "email",
+      "label": "Email Inquiries · m.alamudi@amood.id",
+      "url": "mailto:m.alamudi@amood.id"
+    },
+    {
+      "key": "website",
+      "label": "Official Website · amood.id",
+      "url": "https://www.amood.id"
+    },
+    {
+      "key": "instagram",
+      "label": "Instagram · @amoodhealthyfoods",
+      "url": "https://www.instagram.com/amoodhealthyfoods/"
+    }
+  ],
+  "verification": {
+    "status": "verified-authoritative",
+    "checkedAt": "2026-10-15",
+    "note": "Diverifikasi langsung dari kartu nama CEO pameran TEI 2026, website resmi amood.id, dan direktori ekspor.",
+    "sources": [
+      {
+        "label": "Situs Resmi PT Amood Healthy Foods",
+        "url": "https://www.amood.id"
+      },
+      {
+        "label": "WhatsApp Kontak Muhammad Alamudi",
+        "url": "https://wa.me/6281381828281"
+      },
+      {
+        "label": "Instagram @amoodhealthyfoods",
+        "url": "https://www.instagram.com/amoodhealthyfoods/"
+      }
+    ]
+  }
+}
