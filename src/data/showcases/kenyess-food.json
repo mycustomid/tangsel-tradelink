@@ -2,7 +2,7 @@
   "brandLabel": "KENYESS FOOD",
   "tagline": "Pelestarian Kuliner Tradisional Nusantara, Camilan Sehat Bebas Gluten & Bumbu Asinan Betawi Asli.",
   "eyebrow": "Artisan Indonesian Snacks & Traditional Culinary Preservation · Tangsel",
-  "heroImage": "/brand/kenyess-food/kenyess-asinan-betawi.jpg",
+  "heroImage": "/brand/kenyess-food/kenyess-london-asinan.jpg",
   "logo": "/brand/kenyess-food/kenyess-logo.jpg",
   "favicon": "/brand/kenyess-food/kenyess-logo.jpg",
   "heroFit": "cover",
@@ -75,6 +75,11 @@
     }
   ],
   "gallery": [
+    {
+      "image": "/brand/kenyess-food/kenyess-london-asinan.jpg",
+      "label": "Bumbu Asinan Betawi di Big Ben London",
+      "caption": "Founder Kenyess Food Bu Fenda Iriani membawa Bumbu Asinan Betawi Asli ke kancah global di London, UK."
+    },
     {
       "image": "/brand/kenyess-food/kenyess-wa-asinan.jpg",
       "label": "Bumbu Asinan Betawi Asli (TEI 2026)",
