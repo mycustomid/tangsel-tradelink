@@ -1,11 +1,14 @@
 {
   "brandLabel": "ARANOMIYA",
   "tagline": "Indonesian botanical body care for retail, hospitality and private-label collaboration.",
-  "eyebrow": "Natural Soap · Botanical Body Care · Tangerang Selatan",
-  "heroImage": "/brand/aranomiya/aranomiya-asset-4.jpg",
-  "logo": "/brand/aranomiya/aranomiya-asset-4.jpg",
-  "favicon": "/brand/aranomiya/aranomiya-asset-4.jpg",
+  "eyebrow": "Handcrafted Natural Soap · Botanical Body Care · Serua, Ciputat, Tangerang Selatan",
+  "heroImage": "/brand/aranomiya/soap-kunyit-1.webp",
+  "logo": "/brand/aranomiya/aranomiya-logo.png",
+  "favicon": "/brand/aranomiya/aranomiya-logo.png",
   "heroFit": "cover",
+  "heroAspectRatio": "1/1",
+  "heroAspectRatioMobile": "1/1",
+  "galleryAspectRatio": "1/1",
   "visualMode": "beauty",
   "palette": {
     "bg": "#f5f8f5",
@@ -60,36 +63,43 @@
       "note": "Konsultasi pesanan ritel atau maklon B2B via WhatsApp.",
       "items": [
         {
-          "label": "Artisan Botanical Soap Bar",
+          "label": "Artisan Botanical Soap Bar (Kunyit / Tamanu)",
           "value": "Bar 100g"
         },
         {
-          "label": "Eco Shampoo Bar",
-          "value": "Bar 60g"
+          "label": "Activated Charcoal Liquid Soap (Face & Body)",
+          "value": "Bottle 60ml"
         },
         {
-          "label": "Custom Amenity Set",
-          "value": "Hotel / Spa Pack"
+          "label": "Custom Souvenir & Amenity Set (Organza Pack)",
+          "value": "Hotel / Event Pack"
         }
       ]
     }
   ],
   "gallery": [
     {
-      "image": "/brand/aranomiya/aranomiya-asset-4.jpg",
+      "image": "/brand/aranomiya/soap-kunyit-1.webp",
       "label": "Aranomiya Natural Botanical Soap",
       "caption": "Sabun herbal alami dengan minyak kelapa murni dan ekstrak botani nusantara.",
       "url": "https://linkumkm.id/ecommerce/detail/34726/sabun-cair-natural"
     },
     {
-      "image": "/brand/aranomiya/aranomiya-real-4.jpg",
-      "label": "Hospitality & Gift Box Set",
-      "caption": "Paket suvenir eksklusif ramah lingkungan untuk kado dan amenitas hotel."
+      "image": "/brand/aranomiya/soap-cair-charcoal.webp",
+      "label": "Koleksi Perawatan Herbal Alami",
+      "caption": "Pembersih tubuh alami lembut untuk kulit sensitif tanpa deterjen keras.",
+      "url": "https://toco.id/listing/shaf-von-by-aranomiya-sabun-alami-cair-activated-charcoal-60ml-1756098806448"
     },
     {
-      "image": "/brand/aranomiya/aranomiya-asset-2.jpg",
-      "label": "Koleksi Perawatan Herbal Alami",
-      "caption": "Pembersih tubuh alami lembut untuk kulit sensitif tanpa deterjen keras."
+      "image": "/brand/aranomiya/soap-herbal-tamanu.webp",
+      "label": "Aranomiya Tamanu Natural Soap Bar",
+      "caption": "Sabun mandi alami batang dengan minyak tamanu murni untuk regenerasi dan kelembutan kulit.",
+      "url": "https://toco.id/listing/shaf-von-by-aranomiya-sabun-alami-herbal-tamanu-100gr-1756098623147"
+    },
+    {
+      "image": "/brand/aranomiya/aranomiya-real-4.jpg",
+      "label": "Hospitality & Gift Box Set",
+      "caption": "Paket suvenir eksklusif ramah lingkungan untuk kado siraman dan amenitas hotel."
     }
   ],
   "actions": [
@@ -106,12 +116,12 @@
     {
       "key": "website",
       "label": "InaExport · ARANOMIYA",
-      "url": "https://inaexport.id"
+      "url": "https://inaexport.id/perusahaan/95439-aranomiya-abimantrana-jaya"
     }
   ],
   "verification": {
     "status": "verified-authoritative",
-    "checkedAt": "2026-10-14",
+    "checkedAt": "2026-10-15",
     "note": "Aset visual resolusi tinggi studio, kontak langsung Kak Shasty dan InaExport Kemendag RI.",
     "sources": [
       {
@@ -124,7 +134,7 @@
       },
       {
         "label": "InaExport Kemendag",
-        "url": "https://inaexport.id"
+        "url": "https://inaexport.id/perusahaan/95439-aranomiya-abimantrana-jaya"
       }
     ]
   }

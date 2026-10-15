@@ -6,6 +6,7 @@
   "logo": "/brand/fevy/shayfara-logo.webp",
   "favicon": "/brand/fevy/shayfara-favicon.png",
   "heroFit": "cover",
+  "galleryAspectRatio": "3/4",
   "visualMode": "beverage",
   "palette": {
     "bg": "#fbf8f3",
