@@ -5,7 +5,9 @@
   "heroImage": "/brand/kenyess-food/kenyess-london-asinan.jpg",
   "logo": "/brand/kenyess-food/kenyess-logo.jpg",
   "favicon": "/brand/kenyess-food/kenyess-logo.jpg",
-  "heroFit": "cover",
+  "heroFit": "contain",
+  "heroAspectRatio": "3/4",
+  "heroAspectRatioMobile": "9/16",
   "visualMode": "food",
   "palette": {
     "bg": "#fffaf4",
