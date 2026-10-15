@@ -55,32 +55,42 @@
   "gallery": [],
   "actions": [
     {
-      "key": "website",
-      "label": "Tangsel Pos · Peyek Den Bagus profile",
-      "url": "https://tangselpos.id/detail/52672/peyek-den-bagus-dari-setu-rambah-bandara"
+      "key": "shopee",
+      "label": "Shopee Official · mimincasmiaty",
+      "url": "https://shopee.co.id/mimincasmiaty"
     },
     {
-      "key": "shopee",
-      "label": "Local Pride Spot · Peyek Den Bagus",
-      "url": "https://shopee.co.id/localpridespot"
+      "key": "whatsapp",
+      "label": "WhatsApp Order · +62 877-7174-8642",
+      "url": "https://wa.me/6287771748642"
+    },
+    {
+      "key": "instagram",
+      "label": "Instagram · @peyek_denbagus",
+      "url": "https://www.instagram.com/peyek_denbagus/"
+    },
+    {
+      "key": "website",
+      "label": "Tangsel Pos · Peyek Den Bagus Profile",
+      "url": "https://tangselpos.id/detail/52672/peyek-den-bagus-dari-setu-rambah-bandara"
     }
   ],
   "verification": {
-    "status": "public-source-checked",
-    "checkedAt": "2026-10-13",
-    "note": "Claims on this profile were rechecked against public sources on 2026-10-13; unsupported claims and guessed links are intentionally omitted.",
+    "status": "verified-authoritative",
+    "checkedAt": "2026-10-15",
+    "note": "Akun Shopee resmi langsung ke toko owner Bu Mimin Casmiaty (mimincasmiaty) dan kontak WhatsApp resmi 0877-7174-8642.",
     "sources": [
       {
-        "label": "Tangsel Pos · Peyek Den Bagus",
+        "label": "Shopee Resmi Mimin Casmiaty",
+        "url": "https://shopee.co.id/mimincasmiaty"
+      },
+      {
+        "label": "Instagram Resmi Peyek Den Bagus",
+        "url": "https://www.instagram.com/peyek_denbagus/"
+      },
+      {
+        "label": "Tangsel Pos · Liputan Peyek Den Bagus",
         "url": "https://tangselpos.id/detail/52672/peyek-den-bagus-dari-setu-rambah-bandara"
-      },
-      {
-        "label": "DJKI trademark gazette",
-        "url": "https://www.dgip.go.id/berita-resmi/856/download"
-      },
-      {
-        "label": "Local Pride Spot",
-        "url": "https://shopee.co.id/localpridespot"
       }
     ]
   },

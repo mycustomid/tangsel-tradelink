@@ -86,10 +86,12 @@ const iconKey = (key = '') => {
     </div>
 
     <figure class="hero-visual">
-      <div class="visual-fallback" aria-hidden="true">
-        <strong>{initials}</strong>
-        <span>{label}</span>
-      </div>
+      {!heroImage && (
+        <div class="visual-fallback" aria-hidden="true">
+          <strong>{initials}</strong>
+          <span>{label}</span>
+        </div>
+      )}
       {heroImage && (
         <>
           {heroFit === 'contain' && (
@@ -213,7 +215,19 @@ const iconKey = (key = '') => {
           const figure = (
             <figure class="gallery-card">
               <div class="gallery-img-wrap">
-                {image && <img src={image} alt={rawLabel} width="900" height="700" loading="lazy" decoding="async" fetchpriority="low" onerror="this.style.display='none'" />}
+                {image && (
+                  <img
+                    src={image}
+                    alt={rawLabel}
+                    width="900"
+                    height="700"
+                    loading="lazy"
+                    decoding="async"
+                    fetchpriority="low"
+                    style={item.fit === 'contain' ? 'object-fit:contain;padding:6px;background:color-mix(in srgb,var(--nfc-ink) 2%,white)' : undefined}
+                    onerror="this.style.display='none'"
+                  />
+                )}
               </div>
               <figcaption>
                 <strong>{rawLabel}</strong>
@@ -221,7 +235,8 @@ const iconKey = (key = '') => {
               </figcaption>
             </figure>
           );
-          const url = typeof item === 'object' ? item.url : null;
+          const rawUrl = typeof item === 'object' ? item.url : null;
+          const url = rawUrl ? resolveAsset(rawUrl) : null;
           return url ? <a href={url} target="_blank" rel="noopener noreferrer">{figure}</a> : figure;
         })}
       </div>

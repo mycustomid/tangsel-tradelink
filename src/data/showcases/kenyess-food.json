@@ -5,9 +5,9 @@
   "heroImage": "/brand/kenyess-food/kenyess-london-asinan.jpg",
   "logo": "/brand/kenyess-food/kenyess-logo.jpg",
   "favicon": "/brand/kenyess-food/kenyess-logo.jpg",
-  "heroFit": "contain",
+  "heroFit": "cover",
   "heroAspectRatio": "3/4",
-  "heroAspectRatioMobile": "9/16",
+  "heroAspectRatioMobile": "4/5",
   "visualMode": "food",
   "palette": {
     "bg": "#fffaf4",
@@ -78,29 +78,35 @@
   ],
   "gallery": [
     {
-      "image": "/brand/kenyess-food/kenyess-london-asinan.jpg",
-      "label": "Bumbu Asinan Betawi di Big Ben London",
-      "caption": "Founder Kenyess Food Bu Fenda Iriani membawa Bumbu Asinan Betawi Asli ke kancah global di London, UK."
+      "image": "/brand/kenyess-food/kenyess-bagor-trio.jpg",
+      "label": "Trio BaGor Kenyess (Bawang Goreng Asli Sumenep)",
+      "caption": "Bawang Goreng Sumenep pilihan aneka varian: Pedas Daun Jeruk, Original, dan Rumput Laut, ekstra renyah & rendah minyak.",
+      "fit": "contain",
+      "url": "/brand/kenyess-food/kenyess-bagor-trio.jpg"
     },
     {
       "image": "/brand/kenyess-food/kenyess-wa-asinan.jpg",
       "label": "Bumbu Asinan Betawi Asli (TEI 2026)",
-      "caption": "Produk kurasi resmi pameran TEI 2026 berbahan rempah asli dan kacang sangrai pilihan."
+      "caption": "Produk kurasi resmi pameran TEI 2026 berbahan rempah asli dan kacang sangrai pilihan.",
+      "url": "/brand/kenyess-food/kenyess-wa-asinan.jpg"
     },
     {
       "image": "/brand/kenyess-food/kenyess-wa-kemania.jpg",
       "label": "Keripik Kemania & Kemania Fish (Gluten-Free)",
-      "caption": "Inovasi camilan sehat berbahan daun kemangi segar bebas gluten dan olahan ikan laut bernutrisi."
+      "caption": "Inovasi camilan sehat berbahan daun kemangi segar bebas gluten dan olahan ikan laut bernutrisi.",
+      "url": "/brand/kenyess-food/kenyess-wa-kemania.jpg"
     },
     {
       "image": "/brand/kenyess-food/kenyess-wa-bagor.jpg",
       "label": "Bawang Goreng Asli Sumenep (BaGor)",
-      "caption": "Bawang merah Sumenep pilihan diolah dengan mesin peniris minyak (spinner), ekstra renyah, wangi, dan rendah minyak."
+      "caption": "Bawang merah Sumenep pilihan diolah dengan mesin peniris minyak (spinner), ekstra renyah, wangi, dan rendah minyak.",
+      "url": "/brand/kenyess-food/kenyess-wa-bagor.jpg"
     },
     {
       "image": "/brand/kenyess-food/kenyess-asinan-betawi.jpg",
       "label": "Sajian Bumbu Asinan Betawi",
-      "caption": "Pasta bumbu asinan khas Betawi higienis dan praktis siap saji untuk keluarga maupun resto."
+      "caption": "Pasta bumbu asinan khas Betawi higienis dan praktis siap saji untuk keluarga maupun resto.",
+      "url": "/brand/kenyess-food/kenyess-asinan-betawi.jpg"
     }
   ],
   "actions": [
@@ -132,8 +138,8 @@
   ],
   "verification": {
     "status": "verified-authoritative",
-    "checkedAt": "2026-10-14",
-    "note": "Deskripsi resmi diserahkan langsung oleh owner Kenyess Food, mencakup penambahan produk unggulan Bumbu Asinan Betawi untuk pameran TEI 2026.",
+    "checkedAt": "2026-10-15",
+    "note": "Deskripsi resmi diserahkan langsung oleh owner Kenyess Food, mencakup penambahan produk unggulan Bumbu Asinan Betawi untuk pameran TEI 2026 serta foto produk resmi BaGor Trio.",
     "sources": [
       {
         "label": "Owner Kenyess Food Handover",

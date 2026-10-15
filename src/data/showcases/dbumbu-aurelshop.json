@@ -1,116 +1,149 @@
 {
-  "brandLabel": "DBUMBU AURELSHOP",
-  "tagline": "Spices, herbs, Black Garlic, and pantry essentials from South Tangerang.",
-  "eyebrow": "Rempah Nusantara · Black Garlic · Pantry Supply Tangsel",
-  "heroImage": "/brand/dbumbu-aurelshop/dbumbu-black-garlic.jpg",
+  "brandLabel": "DBUMBU",
+  "tagline": "Pusat Rempah, Herbal & Bahan Dapur: Supplier Sayuran Segar Horeka & Bawang Hitam Fermentasi.",
+  "eyebrow": "Pusat Rempah Nusantara · Herbal Kering · Sayuran Segar Horeka · Tangerang Selatan",
+  "heroImage": "/brand/dbumbu-aurelshop/dbumbu-fresh-vegetables.jpg",
   "logo": "/brand/dbumbu-aurelshop/dbumbu-logo.jpg",
   "favicon": "/brand/dbumbu-aurelshop/dbumbu-logo.jpg",
   "heroFit": "cover",
   "visualMode": "food",
   "palette": {
-    "bg": "#fdf7f2",
-    "ink": "#331409",
-    "accent": "#ea580c",
-    "surface": "#ffedd5"
+    "bg": "#fcf8f2",
+    "ink": "#231815",
+    "accent": "#059669",
+    "surface": "#fef3c7"
   },
   "story": {
-    "title": "A broad spice shelf, black garlic innovation, and premium pantry essentials.",
-    "body": "UD UMKM DBumbu (AurelShop2018) berbasis di Pamulang, Tangerang Selatan, beroperasi sebagai supplier dan produsen aneka bumbu dapur, rempah-rempah kering nusantara, bahan herbal, serta produk kesehatan olahan fermentasi bawang hitam (Daebak Black Garlic). Melayani pesanan ritel, grosir horeka, dan pengiriman ke seluruh Indonesia melalui Shopee dan Tokopedia."
+    "title": "Pusat Rempah Nusantara, Bawang Hitam Fermentasi & Pasokan Sayuran Segar Horeka.",
+    "body": "Berbasis di Pamulang, Tangerang Selatan, DBumbu (dikelola oleh Henny Kartika Wati) hadir sebagai pusat rantai pasok terpadu untuk kebutuhan horeka (hotel, restoran, katering), industri jamu tradisional, dan konsumsi rumah tangga modern. Menghadirkan katalog lengkap sayuran segar sortiran pasar induk, bumbu giling harian higienis, aneka bawang kupas, inovasi fermentasi bawang hitam (Daebak Black Garlic), serta lebih dari 100+ varian rempah nusantara (biji, bubuk murni, dan simplisia herbal seperti kapulaga, cengkeh, kayu manis, lada, adas, angkak, kelor, hingga pasak bumi)."
   },
   "stats": [
     {
-      "value": "Spices",
-      "label": "Rempah utuh & bubuk murni kualitas pasar induk"
+      "value": "100+ Rempah",
+      "label": "Varian Rempah Biji, Bubuk Murni & Herbal Kering"
+    },
+    {
+      "value": "Fresh Horeka",
+      "label": "Sayuran Segar, Bumbu Giling & Bawang Kupas"
     },
     {
       "value": "Black Garlic",
-      "label": "Bawang hitam fermentasi alami berkhasiat tinggi"
+      "label": "Bawang Hitam Fermentasi Alami Kaya Antioksidan"
     },
     {
-      "value": "Pamulang",
-      "label": "Gudang & workshop suplai di Tangerang Selatan"
-    },
-    {
-      "value": "Online",
-      "label": "Toko online aktif Shopee, Tokopedia & WhatsApp"
+      "value": "Tangsel Hub",
+      "label": "Pusat Pasokan & Pengiriman Harian di Tangerang Selatan"
     }
   ],
   "highlights": [
     {
+      "title": "Pusat Rempah & Herbal Kering Nusantara",
+      "body": "Menyediakan kapulaga, cengkeh, kayu manis, lada, adas, angkak, daun herbal (kelor, senna, insulin), hingga simplisia jamu tradisional dalam bentuk utuh maupun bubuk murni."
+    },
+    {
       "title": "Daebak Black Garlic DBumbu",
-      "body": "Bawang putih tunggal fermentasi alami bercita rasa manis legit tanpa bau menyengat untuk kesehatan imun dan jantung."
+      "body": "Bawang putih tunggal fermentasi alami bercita rasa manis legit tanpa aroma menyengat, bermanfaat untuk menjaga stamina dan kesehatan jantung."
     },
     {
-      "title": "Rempah Kering & Bubuk Murni",
-      "body": "Bunga lawang, kapulaga, cengkeh, lada, jahe, temulawak, dan aneka rempah dapur murni tanpa campuran kimia."
+      "title": "Pasokan Sayuran & Bumbu Dapur Segar",
+      "body": "Suplai rutin bawang merah kupas/iris/goreng, bumbu giling segar (jahe, kunyit, laos, cabai), aneka jamur segar, beras ketan, dan hasil bumi pilihan."
     },
     {
-      "title": "Bahan Minuman Herbal Tradisional",
-      "body": "Penyedia rimpang kering dan bahan seduhan jamu herbal siap olah untuk konsumsi keluarga dan UMKM minuman."
-    },
-    {
-      "title": "Suplai Horeka & Dapur Restoran",
-      "body": "Melayani pembelian partai besar kiloan dengan harga grosir kompetitif langsung dari pusat rempah."
+      "title": "Layanan Ritel, Grosir & Kemitraan Horeka",
+      "body": "Melayani pesanan eceran maupun partai besar kiloan dengan harga grosir langsung dari workshop pasokan."
     }
   ],
   "commercialBlocks": [
     {
-      "title": "Katalog Suplai Rempah & Herbal",
-      "badge": "Murni & Higienis",
-      "note": "Pemesanan eceran via Shopee/Tokopedia atau partai via WhatsApp.",
+      "title": "Katalog Fresh Vegetables & Spices",
+      "badge": "Fresh Horeka",
+      "note": "Pemesanan pasokan rutin dapur & horeka via WhatsApp 0822-5977-1919.",
       "items": [
         {
-          "label": "DBumbu Daebak Black Garlic",
-          "value": "Jar 200g & 500g"
+          "label": "Sayuran Segar & Bawang Kupas Sortir",
+          "value": "Bawang Merah/Putih Kating, Iris, Buncis, Brokoli"
         },
         {
-          "label": "Aneka Rempah Bubuk Murni",
-          "value": "Pack 100g - 1kg"
+          "label": "Bumbu Giling Segar Higienis",
+          "value": "Bawang Merah/Putih, Cabai, Jahe, Kunyit, Laos, Sereh"
         },
         {
-          "label": "Rempah Kering & Bahan Herbal",
-          "value": "Grosir / Kiloan"
+          "label": "Jamur Segar & Hasil Laut Kering",
+          "value": "Enoki, Kancing, Shimeji, Cumi Asin, Ebi, Teri Medan"
+        }
+      ]
+    },
+    {
+      "title": "Katalog Rempah, Herbal & Bahan Dapur",
+      "badge": "Murni & Higienis",
+      "note": "Rempah utuh, bubuk murni dan simplisia jamu kering siap kemas.",
+      "items": [
+        {
+          "label": "Rempah Nusantara Biji & Bubuk Murni",
+          "value": "Adas, Angkak, Kapulaga, Cengkeh, Kayu Manis, Lada, Pala"
+        },
+        {
+          "label": "Daun Herbal & Jamu Tradisional",
+          "value": "Kelor, Senna, Sambiloto, Insulin, Temulawak, Wedang Uwuh"
+        },
+        {
+          "label": "Daebak Black Garlic (Bawang Hitam)",
+          "value": "Jar 200g - 500g & Kemasan Custom"
         }
       ]
     }
   ],
   "gallery": [
     {
+      "image": "/brand/dbumbu-aurelshop/dbumbu-fresh-vegetables.jpg",
+      "label": "Katalog Fresh Vegetables & Kitchen Herbs",
+      "caption": "Tampah aneka sayuran segar, bawang merah/putih, rimpang, dan cabai pilihan untuk kebutuhan horeka.",
+      "url": "/brand/dbumbu-aurelshop/dbumbu-fresh-vegetables.jpg"
+    },
+    {
+      "image": "/brand/dbumbu-aurelshop/dbumbu-spices-hero.jpg",
+      "label": "Pusat Rempah Nusantara DBumbu",
+      "caption": "Koleksi rempah-rempah pilihan nusantara siap pasok untuk industri makanan, minuman, dan jamu.",
+      "url": "/brand/dbumbu-aurelshop/dbumbu-spices-hero.jpg"
+    },
+    {
       "image": "/brand/dbumbu-aurelshop/dbumbu-black-garlic.jpg",
-      "label": "DBumbu Daebak Black Garlic",
-      "caption": "Bawang putih tunggal fermentasi alami bercita rasa manis legit kaya antioksidan."
+      "label": "Daebak Black Garlic DBumbu",
+      "caption": "Bawang putih tunggal fermentasi alami berkhasiat tinggi dengan cita rasa manis legit.",
+      "url": "/brand/dbumbu-aurelshop/dbumbu-black-garlic.jpg"
     },
     {
-      "image": "/brand/dbumbu-aurelshop/dbumbu-spice-collection.jpg",
-      "label": "Koleksi Rempah Utuh Pilihan",
-      "caption": "Cengkeh, kapulaga, kayu manis, bunga lawang, dan pala pilihan beraroma tajam alami."
-    },
-    {
-      "image": "/brand/dbumbu-aurelshop/dbumbu-powder-spices.jpg",
-      "label": "Rempah Bubuk & Bumbu Dapur",
-      "caption": "Kunyit, jahe, dan ketumbar bubuk murni siap pakai untuk dapur dan restoran."
-    },
-    {
-      "image": "/brand/dbumbu-aurelshop/dbumbu-logo.jpg",
-      "label": "Identitas Resmi DBumbu Aurelshop",
-      "caption": "Pemasok rempah nusantara dan black garlic terpercaya dari Pamulang, Tangerang Selatan."
+      "image": "/brand/dbumbu-aurelshop/dbumbu-bawang-kupas-horeka.jpg",
+      "label": "Suplai Bawang Kupas & Bawang Goreng",
+      "caption": "Bawang merah kupas, bawang iris, dan bawang goreng higienis siap pakai untuk resto dan katering.",
+      "url": "/brand/dbumbu-aurelshop/dbumbu-bawang-kupas-horeka.jpg"
     }
   ],
   "actions": [
     {
       "key": "whatsapp",
-      "label": "WhatsApp · 0812-8060-3913",
-      "url": "https://wa.me/6281280603913"
+      "label": "WhatsApp Order · 0822-5977-1919",
+      "url": "https://wa.me/6282259771919"
     },
     {
       "key": "shopee",
-      "label": "Shopee · AurelShop2018",
+      "label": "Shopee Official · aurelshop2018",
       "url": "https://shopee.co.id/aurelshop2018"
+    },
+    {
+      "key": "email",
+      "label": "Email · aliefshop2019@gmail.com",
+      "url": "mailto:aliefshop2019@gmail.com"
+    },
+    {
+      "key": "whatsapp",
+      "label": "WhatsApp CS · 0812-8060-3913",
+      "url": "https://wa.me/6281280603913"
     },
     {
       "key": "instagram",
       "label": "Instagram · @dbumbu",
-      "url": "https://www.instagram.com/dbumbu"
+      "url": "https://www.instagram.com/aurelshop2018"
     },
     {
       "key": "maps",
@@ -119,17 +152,21 @@
     }
   ],
   "verification": {
-    "status": "public-source-checked",
-    "checkedAt": "2026-10-14",
-    "note": "Aset visual resolusi tinggi studio dan data produk diverifikasi di Shopee AurelShop2018.",
+    "status": "handover-verified",
+    "checkedAt": "2026-10-15",
+    "note": "Katalog resmi Product Fresh Vegetables & Spices, Catalog Product Spices, serta identitas logo resmi terverifikasi langsung dari Bu Henny Kartika Wati (DBumbu) untuk TEI 2026.",
     "sources": [
       {
-        "label": "AurelShop2018 on Shopee",
-        "url": "https://shopee.co.id/aurelshop2018"
+        "label": "Katalog Resmi DBumbu Fresh Vegetables & Spices (PDF)",
+        "url": "https://wa.me/6282259771919"
       },
       {
-        "label": "DBumbu Tangsel Marketplace",
-        "url": "https://indonetwork.co.id"
+        "label": "Katalog Resmi DBumbu Pusat Rempah & Herbal (PDF)",
+        "url": "https://wa.me/6282259771919"
+      },
+      {
+        "label": "Shopee Toko Resmi aurelshop2018",
+        "url": "https://shopee.co.id/aurelshop2018"
       }
     ]
   }
