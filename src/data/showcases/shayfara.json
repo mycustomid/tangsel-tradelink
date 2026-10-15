@@ -1,0 +1,172 @@
+{
+  "brandLabel": "SHAYFARA (PT REMPAH SUMBER REZEKI)",
+  "tagline": "Minuman Rempah Modern Nusantara — Sehat, Enak, & Lifestyle Pilihan Keluarga Indonesia.",
+  "eyebrow": "Modern Indonesian Spices & Artisan Herbal Beverages · Ciputat, Tangerang Selatan",
+  "heroImage": "/brand/fevy/shayfara-hero.webp",
+  "logo": "/brand/fevy/shayfara-logo.webp",
+  "favicon": "/brand/fevy/shayfara-favicon.png",
+  "heroFit": "cover",
+  "visualMode": "beverage",
+  "palette": {
+    "bg": "#fbf8f3",
+    "ink": "#24180f",
+    "accent": "#8d3b14",
+    "surface": "#eedecb"
+  },
+  "story": {
+    "title": "Inovasi Minuman Rempah Modern: Hangat Alami Tanpa Pahit dan Getir.",
+    "body": "Didirikan pada tahun 2022 oleh Fevy Mulyani di Serua Indah, Ciputat, Tangerang Selatan, PT Rempah Sumber Rezeki (ShayFara) lahir dari inspirasi khasiat rempah Nusantara untuk mengubah persepsi jamu tradisional yang identik dengan rasa pahit menjadi minuman rempah modern, lezat, bernutrisi, dan berkelas gaya hidup. Memadukan rempah asli Indonesia—jahe merah, kapulaga, kayu secang, serai, cengkeh, dan kayu manis—dengan racikan kopi Arabika Gayo, kakao murni, dan susu gurih creamy bermitra langsung dengan petani lokal. ShayFara telah bermitra resmi dengan SMESCO, Kementerian Koperasi, DPRD Tangsel, ASPPENDO, serta jaringan hotel terkemuka (Hotel Aston & Swiss-Belinn Tangerang)."
+  },
+  "stats": [
+    {
+      "value": "11 Varian",
+      "label": "Kreasi Minuman Rempah Modern (Kopi, Coklat, Susu & Wedang)"
+    },
+    {
+      "value": "Mitra Petani",
+      "label": "Bahan Baku Segar Bermitra Langsung dengan Petani Lokal Nusantara"
+    },
+    {
+      "value": "Legalitas Lengkap",
+      "label": "NIB, HAKI Merek, Halal MUI & Australia, P-IRT, Uji Lab & Nutrisi"
+    },
+    {
+      "value": "Horeka Ready",
+      "label": "Suplai Rutin Hotel Aston, Swiss-Belinn, SMESCO & Oleh-Oleh Tangsel"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Kopi Rempah ShayFara (Arabika Gayo)",
+      "body": "Perpaduan kopi Arabika Gayo dataran tinggi Aceh dengan racikan jahe, cengkeh, kayu manis, dan serai. Menghasilkan aroma harum, stamina prima, dan kehangatan khas di setiap tegukan."
+    },
+    {
+      "title": "Kopi Susu & Susu Rempah Creamy",
+      "body": "Inovasi susu rempah modern yang lembut dan creamy, kaya nutrisi dan antioksidan untuk relaksasi tubuh serta daya tahan tanpa bahan pengawet buatan."
+    },
+    {
+      "title": "Coklat Rempah Artisan",
+      "body": "Kombinasi kakao murni pilihan Nusantara dan rempah aromatik hangat, menghadirkan sensasi nikmat manis legit dan relaksasi alami di segala suasana."
+    },
+    {
+      "title": "Wedang Rempah & Ready-to-Drink Bottles",
+      "body": "Sajian wedang rempah alami higienis dan botol segar siap minum (Kopi Susu, Wedang, Kunyit, Mengkudu) untuk ritel horeka, cafe, dan hampers eksklusif."
+    }
+  ],
+  "commercialBlocks": [
+    {
+      "title": "Katalog Ritel & Kemitraan ShayFara",
+      "badge": "Halal & P-IRT",
+      "note": "Tersedia format ritel pouch zipper, toples kedap udara, botol kaca ready-to-drink, serta kemasan bulk suplai cafe, hotel, dan pameran ekspor.",
+      "items": [
+        {
+          "label": "Kopi Rempah ShayFara (Pouch 85g / 100g)",
+          "value": "Rp 65.000"
+        },
+        {
+          "label": "Kopi Susu Rempah ShayFara (Pouch 100g)",
+          "value": "Rp 65.000"
+        },
+        {
+          "label": "Cokelat Rempah ShayFara (Pouch 85g)",
+          "value": "Rp 55.000"
+        },
+        {
+          "label": "Susu Rempah ShayFara (Pouch 85g)",
+          "value": "Rp 55.000"
+        },
+        {
+          "label": "Wedang Rempah Siap Seduh",
+          "value": "Rp 45.000"
+        },
+        {
+          "label": "Botol Kaca Siap Minum (Wedang / Kunyit / Kopi Susu)",
+          "value": "Ready-to-Drink"
+        }
+      ]
+    }
+  ],
+  "gallery": [
+    {
+      "image": "/brand/fevy/kopi-rempah.webp",
+      "label": "Kopi Rempah ShayFara (85g / 100g)",
+      "caption": "Arabika Gayo, jahe, kapulaga, cengkeh & kayu manis. Menghangatkan dan meningkatkan fokus.",
+      "url": "https://shayfara-rempahsumberrezeki.myr.id/catalog/kopi-rempah-75667"
+    },
+    {
+      "image": "/brand/fevy/kopi-susu-rempah.webp",
+      "label": "Kopi Susu Rempah ShayFara",
+      "caption": "Harmoni kopi Gayo, susu creamy, dan rempah aromatik nusantara untuk teman kerja dan santai.",
+      "url": "https://shayfara-rempahsumberrezeki.myr.id/catalog/kopi-susu-rempah"
+    },
+    {
+      "image": "/brand/fevy/coklat-rempah.webp",
+      "label": "Coklat Rempah Artisan (85g)",
+      "caption": "Kakao premium nusantara berpadu jahe, secang, dan kapulaga. Manis legit dan menenangkan.",
+      "url": "https://shayfara-rempahsumberrezeki.myr.id/catalog/coklat-rempah"
+    },
+    {
+      "image": "/brand/fevy/susu-rempah.webp",
+      "label": "Susu Rempah Pilihan Nusantara (85g)",
+      "caption": "Susu murni gurih berpadu rempah nusantara berkhasiat menjaga imunitas dan meredakan lelah.",
+      "url": "https://shayfara-rempahsumberrezeki.myr.id/catalog/susu-rempah"
+    },
+    {
+      "image": "/brand/fevy/wedang-rempah.webp",
+      "label": "Wedang Rempah Alami Siap Seduh",
+      "caption": "Racikan wedang tradisional higienis kaya antioksidan untuk kebugaran tubuh setiap hari.",
+      "url": "https://s.id/ShayFara-RempahModernPilihanNusantara"
+    }
+  ],
+  "actions": [
+    {
+      "key": "catalog",
+      "label": "Download Company Profile ShayFara 2026 (PDF)",
+      "url": "https://drive.google.com/file/d/1WS1gng1Lmub1ygxUN55LwF9GWDdNqiCZ/view?usp=drivesdk"
+    },
+    {
+      "key": "whatsapp",
+      "label": "WhatsApp Order & Kemitraan · 0857-7888-0047",
+      "url": "https://wa.me/c/6285778880047"
+    },
+    {
+      "key": "website",
+      "label": "Official Microsite · s.id/ShayFara",
+      "url": "https://s.id/ShayFara-RempahModernPilihanNusantara"
+    },
+    {
+      "key": "instagram",
+      "label": "Instagram · @shayfara_rempahsumberrezeki",
+      "url": "https://www.instagram.com/shayfara_rempahsumberrezeki"
+    },
+    {
+      "key": "tiktok",
+      "label": "TikTok · @rempah.sumber.rezeki",
+      "url": "https://www.tiktok.com/@rempah.sumber.rezeki"
+    },
+    {
+      "key": "email",
+      "label": "Email · fevy59@gmail.com",
+      "url": "mailto:fevy59@gmail.com"
+    }
+  ],
+  "verification": {
+    "status": "verified-authoritative",
+    "checkedAt": "2026-10-15",
+    "note": "Diverifikasi 100% dari Company Profile 2026 PT Rempah Sumber Rezeki, microsite resmi s.id/ShayFara-RempahModernPilihanNusantara, katalog Mayar.id, dan kontak resmi founder Ibu Fevy Mulyani.",
+    "sources": [
+      {
+        "label": "Company Profile PT Rempah Sumber Rezeki 2026",
+        "url": "https://drive.google.com/file/d/1WS1gng1Lmub1ygxUN55LwF9GWDdNqiCZ/view?usp=drivesdk"
+      },
+      {
+        "label": "ShayFara Official Microsite",
+        "url": "https://s.id/ShayFara-RempahModernPilihanNusantara"
+      },
+      {
+        "label": "WhatsApp Owner Rempah Sumber Rezeki",
+        "url": "https://wa.me/c/6285778880047"
+      }
+    ]
+  }
+}

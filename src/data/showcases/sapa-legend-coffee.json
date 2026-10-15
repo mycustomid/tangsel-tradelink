@@ -1,0 +1,181 @@
+{
+  "brandLabel": "SAPA LEGEND COFFEE",
+  "tagline": "Global Coffee Brand Partner — End-to-End Vietnamese & Highland Coffee Supply Solutions.",
+  "eyebrow": "Multi-Origin Green Coffee, OEM / Private Label & ODM Development · Hanoi & Phu Tho, Viet Nam",
+  "heroImage": "/brand/sapa-legend-coffee/sapa-legend-hero.webp",
+  "logo": "/brand/sapa-legend-coffee/sapa-legend-logo.webp",
+  "heroFit": "cover",
+  "visualMode": "beverage",
+  "palette": {
+    "bg": "#120e0c",
+    "ink": "#f7f4ed",
+    "accent": "#d4a373",
+    "surface": "#211a17"
+  },
+  "story": {
+    "title": "From Vietnamese Highlands to the World: Sustainable Multi-Origin Coffee Excellence.",
+    "body": "Established in 2012 as Sapa Blue Mountain, SAPA LEGEND was built on deep highland heritage and specialty coffee expertise. As a premier Global Coffee Brand Partner, Sapa Legend bridges over 3,500 farming households across Vietnam's iconic origins—Son La, Lam Dong, Quang Tri, and Laos—with international markets. Supplying over 5,000 MT of green coffee beans annually and operating a modern 5,000 m² manufacturing facility in Phu Tho (expanding to 20,000 m² by 2028), Sapa Legend delivers end-to-end multi-origin green beans, custom OEM/private-label roasting, instant freeze-dried solutions, and ESG-aligned transparent supply chain management across 15+ export destinations worldwide."
+  },
+  "stats": [
+    {
+      "value": "5,000 MT/Yr",
+      "label": "Annual Green Coffee Supply Capacity (2026/2027 Crop Year)"
+    },
+    {
+      "value": "3,500+ Farmers",
+      "label": "Vietnamese Farming Households Across Sapa, Son La & Lam Dong"
+    },
+    {
+      "value": "15+ Markets",
+      "label": "Global Export Destinations (US, UK, S. Korea, China, Indonesia & EU)"
+    },
+    {
+      "value": "5,000 m² Plant",
+      "label": "Modern Processing & Roastery (Scaling to 20,000 m² by 2028)"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Multi-Origin Green Coffee Sourcing",
+      "body": "Direct origin sourcing across Arabica (Son La, Lam Dong, Laos), Robusta (Lam Dong, Central Highlands), and rare Liberica (Quang Tri). Available in commercial and specialty grades with S13–S18 screen sorting."
+    },
+    {
+      "title": "OEM & Private Label Roasting",
+      "body": "Modern manufacturing producing roasted whole bean, precision ground coffee, and drip bag filter packs tailored to buyer formulations and export quality specifications."
+    },
+    {
+      "title": "ODM Product Innovation & Formulation",
+      "body": "Translating target-market insights into commercial coffee products—from blend formulation and sensory validation to roast profiling, packaging design, and regulatory export compliance."
+    },
+    {
+      "title": "Freeze-Dried & Spray-Dried Instant Coffee",
+      "body": "Advanced soluble instant coffee production with moisture <5% and caffeine >1.5%, retaining rich roast aromatics and smooth crema for retail packaging and industrial bulk supply."
+    }
+  ],
+  "commercialBlocks": [
+    {
+      "title": "Commercial Portfolio & Export Supply Capabilities",
+      "badge": "Export Standard & Traceable",
+      "note": "Supplied in 60 kg export jute/PP woven bags or 1,000 kg bulk jumbo bags. Full traceability, sample development, and custom OEM packaging available upon RFQ.",
+      "items": [
+        {
+          "label": "Liberica Clean (Unwashed) — Quang Tri",
+          "value": "Screen S14/S16/S18 · Rare Floral Profile"
+        },
+        {
+          "label": "Robusta Clean (Unwashed) & Honey — Lam Dong",
+          "value": "Screen S13/S14/S16/S18 · Bold Crema"
+        },
+        {
+          "label": "Arabica Honey Process & Fully-Washed — Son La",
+          "value": "Screen S16/S18 · Highland Specialty"
+        },
+        {
+          "label": "Freeze-Dried Instant Coffee (Bulk & OEM)",
+          "value": "Moisture <5% · Caffeine >1.5%"
+        },
+        {
+          "label": "Spray-Dried Soluble Coffee Solutions",
+          "value": "Custom Formulation & Blend Profiles"
+        },
+        {
+          "label": "OEM Roasted Whole Beans & Drip Bag Filter Packs",
+          "value": "Private Label Export Ready"
+        }
+      ]
+    }
+  ],
+  "gallery": [
+    {
+      "image": "/brand/sapa-legend-coffee/sapa-legend-hero.webp",
+      "label": "SAPA LEGEND Global Coffee Brand Partner",
+      "caption": "Connecting Vietnamese highland coffee terroirs with international commercial markets.",
+      "url": "https://www.sapalegendcoffee.vn"
+    },
+    {
+      "image": "/brand/sapa-legend-coffee/liberica-clean.webp",
+      "label": "Liberica Clean (Unwashed) — Quang Tri",
+      "caption": "Rare heritage Liberica coffee beans with distinctive floral and ripe jackfruit notes.",
+      "url": "https://www.sapalegendcoffee.vn/liberica-clean-unwashed.html"
+    },
+    {
+      "image": "/brand/sapa-legend-coffee/robusta-clean.webp",
+      "label": "Robusta Clean (Unwashed) — Lam Dong",
+      "caption": "Premium commercial grade Robusta with rich crema, bold body, and low acidity.",
+      "url": "https://www.sapalegendcoffee.vn/robusta-clean-unwashed.html"
+    },
+    {
+      "image": "/brand/sapa-legend-coffee/arabica-honey.webp",
+      "label": "Arabica Honey Process — Son La & Lam Dong",
+      "caption": "Highland Arabica with sweet fruity undertones, bright acidity, and silky smooth finish.",
+      "url": "https://www.sapalegendcoffee.vn/arabica-honey-process.html"
+    },
+    {
+      "image": "/brand/sapa-legend-coffee/freeze-dried-instant.webp",
+      "label": "Freeze-Dried Instant Coffee Solutions",
+      "caption": "High-efficiency soluble coffee retaining natural roasted aromatics for global brands.",
+      "url": "https://www.sapalegendcoffee.vn/freeze-dried-instant-coffee.html"
+    },
+    {
+      "image": "/brand/sapa-legend-coffee/sapa-factory-roastery.webp",
+      "label": "Modern Processing & Roastery Facility",
+      "caption": "5,000 m² industrial facility in Phu Son IP, scaling to 20,000 m² capacity by 2028.",
+      "url": "https://www.sapalegendcoffee.vn/gioi-thieu"
+    }
+  ],
+  "actions": [
+    {
+      "key": "whatsapp",
+      "label": "WhatsApp Inquiries · +84 868 273 883",
+      "url": "https://wa.me/qr/SKWPLFU7THBTC1"
+    },
+    {
+      "key": "website",
+      "label": "Official Website · sapalegendcoffee.vn",
+      "url": "https://www.sapalegendcoffee.vn"
+    },
+    {
+      "key": "maps",
+      "label": "Google Maps · Hanoi Head Office",
+      "url": "https://maps.app.goo.gl/cbkJDeX5pQCyA8eu5?g_st=iz"
+    },
+    {
+      "key": "linkedin",
+      "label": "LinkedIn · Sapa Legend Global Coffee",
+      "url": "https://www.linkedin.com/company/sapa-legend-global-coffee-brand-partner/"
+    },
+    {
+      "key": "facebook",
+      "label": "Facebook · Sapa Legend Coffee",
+      "url": "https://www.facebook.com/share/18c8JQBRcy/?mibextid=wwXIfr"
+    },
+    {
+      "key": "email",
+      "label": "Email · info@sapalegendcoffee.vn",
+      "url": "mailto:info@sapalegendcoffee.vn"
+    }
+  ],
+  "verification": {
+    "status": "verified-authoritative",
+    "checkedAt": "2026-10-15",
+    "note": "Verified 100% from official corporate domain sapalegendcoffee.vn, verified Hanoi office location, LinkedIn corporate profile, and Facebook business page.",
+    "sources": [
+      {
+        "label": "SAPA LEGEND Official Portal",
+        "url": "https://www.sapalegendcoffee.vn"
+      },
+      {
+        "label": "LinkedIn Corporate Profile",
+        "url": "https://www.linkedin.com/company/sapa-legend-global-coffee-brand-partner/"
+      },
+      {
+        "label": "Google Maps Head Office",
+        "url": "https://maps.app.goo.gl/cbkJDeX5pQCyA8eu5?g_st=iz"
+      },
+      {
+        "label": "Facebook Official Brand Page",
+        "url": "https://www.facebook.com/share/18c8JQBRcy/?mibextid=wwXIfr"
+      }
+    ]
+  }
+}

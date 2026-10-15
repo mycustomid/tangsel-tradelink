@@ -1,8 +1,10 @@
 {
-  "brandLabel": "DEN BAGUS",
-  "tagline": "Peyek Den Bagus: fish-based rempeyek from Setu that has moved into modern retail and airport gift channels.",
-  "eyebrow": "Food / Pantry · Tangerang Selatan",
-  "heroImage": "/brand/tei-batch/den-bagus.svg",
+  "brandLabel": "PEYEK DEN BAGUS",
+  "tagline": "Peyek Tradisional Gurih Renyah Khas Setu — Tembus Pasar Ritel Modern & Bandara Soekarno-Hatta.",
+  "eyebrow": "Artisan Rempeyek & Traditional Savory Crisps · Setu, Tangerang Selatan",
+  "heroImage": "/brand/peyek-den-bagus/peyek-den-bagus-hero.webp",
+  "logo": "/brand/peyek-den-bagus/peyek-den-bagus-logo.webp",
+  "favicon": "/brand/peyek-den-bagus/peyek-den-bagus-logo.webp",
   "heroFit": "cover",
   "visualMode": "food",
   "palette": {
@@ -12,47 +14,96 @@
     "surface": "#ead5b8"
   },
   "story": {
-    "title": "Peyek Den Bagus: fish-based rempeyek from Setu that has moved into modern retail and airport gift channels.",
-    "body": "Peyek Den Bagus is owned by Mimin Casmiaty in Setu. Tangsel Pos reported the business started in 2022 and now produces fish-based rempeyek variants such as anchovy and shrimp, with tuna-nori variants in development. The products have reached retail, gift stores and Soekarno-Hatta Terminal 2, while the Peyek Den Bagus mark is also recorded in the Indonesian trademark gazette."
+    "title": "Cita Rasa Rempeyek Otentik Setu Berkualitas Ritel Modern oleh Bu Mimin Casmiaty.",
+    "body": "Peyek Den Bagus dirintis oleh Mimin Casmiaty di Setu, Tangerang Selatan sejak tahun 2022. Memadukan tepung beras bermutu tinggi, bumbu rempah daun jeruk aromatik, serta limpahan topping kacang tanah dan seafood pilihan (teri Medan dan udang rebon). Digoreng dadakan setiap hari menggunakan minyak bersih tanpa bahan pengawet kimia sehingga menghasilkan rempeyek yang tipis, garing, tidak berminyak, dan tahan renyah. Peyek Den Bagus telah menembus gerai ritel modern, pusat oleh-oleh Jabodetabek, hingga etalase Bandara Internasional Soekarno-Hatta Terminal 2, serta memiliki merek terdaftar resmi di DJKI Kemenkumham RI."
   },
   "stats": [
     {
-      "value": "2022",
-      "label": "business start reported by Tangsel Pos"
-    },
-    {
-      "value": "Setu",
-      "label": "home base in Tangerang Selatan"
-    },
-    {
-      "value": "Retail",
-      "label": "modern retail and gift-store channels reported"
+      "value": "Bestseller",
+      "label": "Peyek Kacang Tanah & Teri Medan Paling Diminati"
     },
     {
       "value": "Terminal 2",
-      "label": "Soekarno-Hatta airport presence reported"
+      "label": "Ritel Resmi Pusat Oleh-Oleh Bandara Soekarno-Hatta"
+    },
+    {
+      "value": "Fresh Daily",
+      "label": "Goreng Dadakan Harian dengan Minyak Baru Higienis"
+    },
+    {
+      "value": "HAKI",
+      "label": "Merek Terdaftar Resmi di DJKI Kemenkumham RI"
     }
   ],
   "highlights": [
     {
-      "title": "Fish-based peyek",
-      "body": "Current variants include anchovy and shrimp-based rempeyek."
+      "title": "Peyek Kacang Tanah Original",
+      "body": "Varian legendaris dengan taburan kacang tanah renyah merata, berpadu wangi daun jeruk segar. Pilihan paling aman dan disukai semua usia."
     },
     {
-      "title": "Product development",
-      "body": "Tuna nori was reported as a new variant under trial in 2026."
+      "title": "Peyek Teri Medan & Udang Rebon",
+      "body": "Sensasi gurih asin sedap khas laut nusantara menggunakan teri Medan garing tidak amis dan udang rebon berkualitas."
     },
     {
-      "title": "Retail progression",
-      "body": "The brand has expanded beyond bazaar selling into retail and airport gift channels."
+      "title": "Peyek Kacang Hijau & Pedas Cabai",
+      "body": "Gigitan unik renyah padat kacang hijau serta varian cabai segar asli yang pedas gurih nampol sebagai teman makan nasi hangat."
     },
     {
-      "title": "Registered identity",
-      "body": "Peyek Den Bagus appears in the Indonesian trademark gazette under Mimin Casmiaty."
+      "title": "Kemasan Toples Segel & Pouch Zipper",
+      "body": "Hadir dalam toples kedap udara anti-melempem untuk hampers/oleh-oleh dan standing pouch praktis untuk perjalanan."
     }
   ],
-  "commercialBlocks": [],
-  "gallery": [],
+  "commercialBlocks": [
+    {
+      "title": "Katalog Menu & Paket Peyek Den Bagus",
+      "badge": "Otentik & Renyah",
+      "note": "Menerima pesanan ritel harian, hampers acara, suvenir kantor, dan suplai grosir toko oleh-oleh.",
+      "items": [
+        {
+          "label": "Peyek Kacang Tanah (Toples Kedap Udara / Pouch)",
+          "value": "Varian Bestseller"
+        },
+        {
+          "label": "Peyek Teri Medan Super Gurih",
+          "value": "Varian Gurih Laut"
+        },
+        {
+          "label": "Peyek Udang Rebon Harum Daun Jeruk",
+          "value": "Varian Wangi Rebon"
+        },
+        {
+          "label": "Peyek Kacang Hijau Tradisional",
+          "value": "Varian Tekstur Padat"
+        },
+        {
+          "label": "Paket Hampers & Cinderamata Acara",
+          "value": "Custom Toples & Pita"
+        }
+      ]
+    }
+  ],
+  "gallery": [
+    {
+      "image": "/brand/peyek-den-bagus/peyek-den-bagus-hero.webp",
+      "label": "Peyek Den Bagus Tampah Tradisional",
+      "caption": "Rempeyek tipis bertekstur krispi bertabur kacang tanah dan irisan daun jeruk aromatik."
+    },
+    {
+      "image": "/brand/peyek-den-bagus/peyek-kacang.webp",
+      "label": "Peyek Kacang Tanah Bestseller",
+      "caption": "Kacang melimpah renyah tanpa minyak berlebih, camilan pendamping nasi dan pecel favorit."
+    },
+    {
+      "image": "/brand/peyek-den-bagus/peyek-den-bagus-logo.webp",
+      "label": "Badge Resmi Peyek Den Bagus",
+      "caption": "Identitas merek resmi terdaftar Bu Mimin Casmiaty dari Setu Tangerang Selatan."
+    },
+    {
+      "image": "/brand/peyek-den-bagus/peyek-bumbu-rempah.webp",
+      "label": "Racikan Rempah Alami",
+      "caption": "Bumbu tradisional ulek dan daun jeruk pilihan menghadirkan aroma otentik rumahan."
+    }
+  ],
   "actions": [
     {
       "key": "shopee",
@@ -61,7 +112,7 @@
     },
     {
       "key": "whatsapp",
-      "label": "WhatsApp Order · +62 877-7174-8642",
+      "label": "WhatsApp Order · 0877-7174-8642",
       "url": "https://wa.me/6287771748642"
     },
     {
@@ -71,14 +122,14 @@
     },
     {
       "key": "website",
-      "label": "Tangsel Pos · Peyek Den Bagus Profile",
+      "label": "Tangsel Pos · Liputan Ritel & Bandara",
       "url": "https://tangselpos.id/detail/52672/peyek-den-bagus-dari-setu-rambah-bandara"
     }
   ],
   "verification": {
     "status": "verified-authoritative",
     "checkedAt": "2026-10-15",
-    "note": "Akun Shopee resmi langsung ke toko owner Bu Mimin Casmiaty (mimincasmiaty) dan kontak WhatsApp resmi 0877-7174-8642.",
+    "note": "Data diverifikasi dari akun Shopee resmi Bu Mimin Casmiaty, Instagram @peyek_denbagus, Bank Konten 40 Post n8n, dan liputan Tangsel Pos.",
     "sources": [
       {
         "label": "Shopee Resmi Mimin Casmiaty",
@@ -93,9 +144,5 @@
         "url": "https://tangselpos.id/detail/52672/peyek-den-bagus-dari-setu-rambah-bandara"
       }
     ]
-  },
-  "performance": {
-    "optimizedAt": "2026-10-13",
-    "heroFormat": "svg"
   }
 }

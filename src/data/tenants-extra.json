@@ -259,11 +259,11 @@
     "category": "Fashion, Handicraft & Home Decor"
   },
   {
-    "name": "Fevy",
+    "name": "ShayFara (PT Rempah Sumber Rezeki)",
     "slug": "fevy",
     "hall": "8",
     "booth": "8-7C",
-    "category": "Fashion, Handicraft & Home Decor"
+    "category": "Food, Beverage & Agriculture Products"
   },
   {
     "name": "Health Today",
@@ -369,5 +369,12 @@
     "hall": "8",
     "booth": "8-7C",
     "category": "Health, Beauty & Personal Care"
+  },
+  {
+    "name": "SAPA LEGEND COFFEE",
+    "slug": "sapa-legend-coffee",
+    "hall": "8",
+    "booth": "8-7C",
+    "category": "Food, Beverage & Agriculture Products"
   }
 ]

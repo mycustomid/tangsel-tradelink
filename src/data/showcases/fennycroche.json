@@ -101,6 +101,29 @@
       "caption": "Karya kurasi unggulan binaan Disperindag Kota Tangerang Selatan."
     }
   ],
+  "testimonials": [
+    {
+      "image": "/brand/fennycroche/testimonial-international-buyer.webp",
+      "role": "Trade Expo Indonesia · International Buyer Engagement",
+      "title": "Apresiasi Buyer & Delegasi Internasional",
+      "quote": "Antusiasme delegasi mancanegara terhadap kerapian amigurumi dan ragam suvenir rajutan tangan khas Indonesia.",
+      "caption": "Pertemuan bisnis dan pengenalan katalog produk rajut bersama delegasi mancanegara di venue pameran ekspor."
+    },
+    {
+      "image": "/brand/fennycroche/testimonial-buyer-visit.webp",
+      "role": "Exhibition Visitor & Corporate Gifting",
+      "title": "Kunjungan & Pembelian Souvenir Eksklusif",
+      "quote": "Pelanggan dan mitra bisnis memilih souvenir amigurumi kemasan kotak mika eksklusif untuk cinderamata resmi.",
+      "caption": "Penyerahan suvenir rajut karakter siap display kepada pengunjung dan pembeli resmi di booth pameran."
+    },
+    {
+      "image": "/brand/fennycroche/testimonial-booth-display.webp",
+      "role": "Official Retail Packaging & Product Catalog",
+      "title": "Display Standar Ritel & Booklet Resmi Ekspor",
+      "quote": "Setiap karya dilengkapi box display mika transparan, kartu deskripsi produk, dan booklet katalog resmi siap ekspor.",
+      "caption": "Penataan display meja pameran dengan packaging mika rapi, brosur katalog, dan keranjang amigurumi."
+    }
+  ],
   "actions": [
     {
       "key": "whatsapp",
