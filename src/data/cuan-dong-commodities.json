@@ -85,7 +85,9 @@
       "whatsappNumber": "+62 813-1723-0957",
       "prefilledText": "Hello CUAN-DONG Global Holdings, we are inquiring about procuring Indonesian Fermented Cocoa Beans (HS 1801.00.00). Please share your latest FOB/CIF price per metric ton, technical specification sheet, COA, and export contract terms for 1x20ft / 40ft FCL.",
       "whatsappUrl": "https://wa.me/6281317230957?text=Hello%20CUAN-DONG%20Global%20Holdings%2C%20we%20are%20inquiring%20about%20procuring%20Indonesian%20Fermented%20Cocoa%20Beans%20(HS%201801.00.00).%20Please%20share%20your%20latest%20FOB%2FCIF%20price%20per%20metric%20ton%2C%20technical%20specification%20sheet%2C%20COA%2C%20and%20export%20contract%20terms%20for%201x20ft%20%2F%2040ft%20FCL."
-    }
+    },
+    "heroImage": "/brand/cuan-dong/commodities/cocoa-beans-hero.jpg",
+    "packagingImage": "/brand/cuan-dong/commodities/cocoa-beans-packaging.jpg"
   },
   {
     "id": "cocoa-powder",
@@ -174,7 +176,9 @@
       "whatsappNumber": "+62 813-1723-0957",
       "prefilledText": "Hello CUAN-DONG Global Holdings, we require a commercial B2B quotation for Cocoa Powder (HS 1805.00.00). Please provide your COA, product specification sheet, FOB/CIF pricing, and available fat levels (10-12% or 20-22% Natural/Alkalized) for 1x20ft / 40ft FCL.",
       "whatsappUrl": "https://wa.me/6281317230957?text=Hello%20CUAN-DONG%20Global%20Holdings%2C%20we%20require%20a%20commercial%20B2B%20quotation%20for%20Cocoa%20Powder%20(HS%201805.00.00).%20Please%20provide%20your%20COA%2C%20product%20specification%20sheet%2C%20FOB%2FCIF%20pricing%2C%20and%20available%20fat%20levels%20(10-12%25%20or%2020-22%25%20Natural%2FAlkalized)%20for%201x20ft%20%2F%2040ft%20FCL."
-    }
+    },
+    "heroImage": "/brand/cuan-dong/commodities/cocoa-powder-hero.jpg",
+    "packagingImage": "/brand/cuan-dong/commodities/cocoa-powder-packaging.jpg"
   },
   {
     "id": "cocoa-butter",
@@ -265,7 +269,9 @@
       "whatsappNumber": "+62 813-1723-0957",
       "prefilledText": "Hello CUAN-DONG Global Holdings, we are looking to procure Prime Pressed Pure Cocoa Butter (HS 1804.00.00). Please provide your COA, product specification sheet, pricing for Natural vs Deodorized grades, and MOQ terms for 1x20ft FCL.",
       "whatsappUrl": "https://wa.me/6281317230957?text=Hello%20CUAN-DONG%20Global%20Holdings%2C%20we%20are%20looking%20to%20procure%20Prime%20Pressed%20Pure%20Cocoa%20Butter%20(HS%201804.00.00).%20Please%20provide%20your%20COA%2C%20product%20specification%20sheet%2C%20pricing%20for%20Natural%20vs%20Deodorized%20grades%2C%20and%20MOQ%20terms%20for%201x20ft%20FCL."
-    }
+    },
+    "heroImage": "/brand/cuan-dong/commodities/cocoa-butter-hero.jpg",
+    "packagingImage": "/brand/cuan-dong/commodities/cocoa-butter-packaging.jpg"
   },
   {
     "id": "cinnamon",
@@ -354,7 +360,9 @@
       "whatsappNumber": "+62 813-1723-0957",
       "prefilledText": "Hello CUAN-DONG Global Holdings, we wish to submit an RFQ for Indonesian Cassia Vera / Cinnamon (HS 0906.11.00). Please share your technical specs, COA, FOB/CIF quote, and grade options (AA Sticks, KBBC Broken, or Powder) for 1x20ft / 40ft FCL.",
       "whatsappUrl": "https://wa.me/6281317230957?text=Hello%20CUAN-DONG%20Global%20Holdings%2C%20we%20wish%20to%20submit%20an%20RFQ%20for%20Indonesian%20Cassia%20Vera%20%2F%20Cinnamon%20(HS%200906.11.00).%20Please%20share%20your%20technical%20specs%2C%20COA%2C%20FOB%2FCIF%20quote%2C%20and%20grade%20options%20(AA%20Sticks%2C%20KBBC%20Broken%2C%20or%20Powder)%20for%201x20ft%20%2F%2040ft%20FCL."
-    }
+    },
+    "heroImage": "/brand/cuan-dong/commodities/cinnamon-hero.jpg",
+    "packagingImage": "/brand/cuan-dong/commodities/cinnamon-packaging.jpg"
   },
   {
     "id": "cardamom",
@@ -440,7 +448,9 @@
       "whatsappNumber": "+62 813-1723-0957",
       "prefilledText": "Hello CUAN-DONG Global Holdings, we are inquiring about purchasing Java Cardamom (HS 0908.31.00). Please provide your technical spec sheet, COA, FOB/CIF pricing per metric ton, and availability for Super Grade A White / Natural Brown pods.",
       "whatsappUrl": "https://wa.me/6281317230957?text=Hello%20CUAN-DONG%20Global%20Holdings%2C%20we%20are%20inquiring%20about%20purchasing%20Java%20Cardamom%20(HS%200908.31.00).%20Please%20provide%20your%20technical%20spec%20sheet%2C%20COA%2C%20FOB%2FCIF%20pricing%20per%20metric%20ton%2C%20and%20availability%20for%20Super%20Grade%20A%20White%20%2F%20Natural%20Brown%20pods."
-    }
+    },
+    "heroImage": "/brand/cuan-dong/commodities/cardamom-hero.jpg",
+    "packagingImage": "/brand/cuan-dong/commodities/cardamom-packaging.jpg"
   },
   {
     "id": "vanilla",
@@ -526,7 +536,9 @@
       "whatsappNumber": "+62 813-1723-0957",
       "prefilledText": "Hello CUAN-DONG Global Holdings, we are inquiring about purchasing Indonesian Vanilla Beans (HS 0905.10.00). Please provide your latest HPLC assay, COA, air freight/ocean pricing per kg, and samples policy for Gourmet Planifolia / Tahitensis.",
       "whatsappUrl": "https://wa.me/6281317230957?text=Hello%20CUAN-DONG%20Global%20Holdings%2C%20we%20are%20inquiring%20about%20purchasing%20Indonesian%20Vanilla%20Beans%20(HS%200905.10.00).%20Please%20provide%20your%20latest%20HPLC%20assay%2C%20COA%2C%20air%20freight%2Focean%20pricing%20per%20kg%2C%20and%20samples%20policy%20for%20Gourmet%20Planifolia%20%2F%20Tahitensis."
-    }
+    },
+    "heroImage": "/brand/cuan-dong/commodities/vanilla-hero.jpg",
+    "packagingImage": "/brand/cuan-dong/commodities/vanilla-packaging.jpg"
   },
   {
     "id": "clove",
@@ -613,7 +625,9 @@
       "whatsappNumber": "+62 813-1723-0957",
       "prefilledText": "Hello CUAN-DONG Global Holdings, we are inquiring about procuring Indonesian Whole Cloves (HS 0907.10.00). Please share your technical spec sheet, COA, FOB/CIF price per MT, and availability for Lalpari HPS / Zanzibar CG-1 grades.",
       "whatsappUrl": "https://wa.me/6281317230957?text=Hello%20CUAN-DONG%20Global%20Holdings%2C%20we%20are%20inquiring%20about%20procuring%20Indonesian%20Whole%20Cloves%20(HS%200907.10.00).%20Please%20share%20your%20technical%20spec%20sheet%2C%20COA%2C%20FOB%2FCIF%20price%20per%20MT%2C%20and%20availability%20for%20Lalpari%20HPS%20%2F%20Zanzibar%20CG-1%20grades."
-    }
+    },
+    "heroImage": "/brand/cuan-dong/commodities/clove-hero.jpg",
+    "packagingImage": "/brand/cuan-dong/commodities/clove-packaging.jpg"
   },
   {
     "id": "copra",
@@ -699,7 +713,9 @@
       "whatsappNumber": "+62 813-1723-0957",
       "prefilledText": "Hello CUAN-DONG Global Holdings, we are interested in procuring Indonesian Coconut Copra (HS 1203.00.00). Please provide your latest FOB/CIF quote, COA, oil content assay, and grade options (White Edible vs Milling Copra) for 1x20ft / 40ft HC FCL.",
       "whatsappUrl": "https://wa.me/6281317230957?text=Hello%20CUAN-DONG%20Global%20Holdings%2C%20we%20are%20interested%20in%20procuring%20Indonesian%20Coconut%20Copra%20(HS%201203.00.00).%20Please%20provide%20your%20latest%20FOB%2FCIF%20quote%2C%20COA%2C%20oil%20content%20assay%2C%20and%20grade%20options%20(White%20Edible%20vs%20Milling%20Copra)%20for%201x20ft%20%2F%2040ft%20HC%20FCL."
-    }
+    },
+    "heroImage": "/brand/cuan-dong/commodities/copra-hero.jpg",
+    "packagingImage": "/brand/cuan-dong/commodities/copra-packaging.jpg"
   },
   {
     "id": "coconut-feed",
@@ -784,7 +800,9 @@
       "whatsappNumber": "+62 813-1723-0957",
       "prefilledText": "Hello CUAN-DONG Global Holdings, we require a quotation for Copra Meal / Coconut Cake Pellets for Animal Feed (HS 2306.50.00). Please provide your technical spec sheet, nutritional feed analysis, FOB/CIF price per MT, and pellet vs meal availability for 1x20ft / 40ft HC FCL.",
       "whatsappUrl": "https://wa.me/6281317230957?text=Hello%20CUAN-DONG%20Global%20Holdings%2C%20we%20require%20a%20quotation%20for%20Copra%20Meal%20%2F%20Coconut%20Cake%20Pellets%20for%20Animal%20Feed%20(HS%202306.50.00).%20Please%20provide%20your%20technical%20spec%20sheet%2C%20nutritional%20feed%20analysis%2C%20FOB%2FCIF%20price%20per%20MT%2C%20and%20pellet%20vs%20meal%20availability%20for%201x20ft%20%2F%2040ft%20HC%20FCL."
-    }
+    },
+    "heroImage": "/brand/cuan-dong/commodities/coconut-feed-hero.jpg",
+    "packagingImage": "/brand/cuan-dong/commodities/coconut-feed-packaging.jpg"
   },
   {
     "id": "canned-sardines",
@@ -874,6 +892,8 @@
       "whatsappNumber": "+62 813-1723-0957",
       "prefilledText": "Hello CUAN-DONG Global Holdings, we are inquiring about procuring Canned Sardines in Tomato Sauce & Oil (HS 1604.13.10). Please provide your product catalog, COA, OEM private-label terms, and FOB/CIF quotation for 1x20ft / 40ft FCL.",
       "whatsappUrl": "https://wa.me/6281317230957?text=Hello%20CUAN-DONG%20Global%20Holdings%2C%20we%20are%20inquiring%20about%20procuring%20Canned%20Sardines%20in%20Tomato%20Sauce%20%26%20Oil%20(HS%201604.13.10).%20Please%20provide%20your%20product%20catalog%2C%20COA%2C%20OEM%20private-label%20terms%2C%20and%20FOB%2FCIF%20quotation%20for%201x20ft%20%2F%2040ft%20FCL."
-    }
+    },
+    "heroImage": "/brand/cuan-dong/commodities/canned-sardines-hero.jpg",
+    "packagingImage": "/brand/cuan-dong/commodities/canned-sardines-packaging.jpg"
   }
 ]

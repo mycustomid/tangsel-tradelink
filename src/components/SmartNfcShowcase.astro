@@ -29,7 +29,9 @@ const initials = label.split(/\s+/).filter(Boolean).slice(0,2).map((x:string)=>x
 const actions = Array.isArray(config.actions) ? config.actions : [];
 const primaryActions = actions.slice(0,2);
 const commercialBlocks = Array.isArray(config.commercialBlocks) ? config.commercialBlocks : [];
-const gallery = Array.isArray(config.gallery) ? config.gallery.slice(0, 6) : [];
+const isEn = config.lang === 'en';
+const galleryLimit = typeof config.galleryLimit === 'number' ? config.galleryLimit : 6;
+const gallery = Array.isArray(config.gallery) ? config.gallery.slice(0, galleryLimit) : [];
 const testimonials = Array.isArray(config.testimonials) ? config.testimonials : [];
 const iconKey = (key = '') => {
   const normalized = String(key).toLowerCase();
@@ -42,11 +44,11 @@ const quickLabel = (action: any, index: number) => {
   const k = iconKey(action.key);
   if (k === 'whatsapp') return 'WhatsApp';
   if (k === 'zalo') return 'Zalo';
-  if (k === 'catalog') return 'Katalog';
-  if (k === 'maps') return 'Lokasi';
+  if (k === 'catalog') return isEn ? 'Catalog' : 'Katalog';
+  if (k === 'maps') return isEn ? 'Location' : 'Lokasi';
   if (k === 'website') return 'Website';
   if (k === 'email') return 'Email';
-  return index === 0 ? 'Hubungi' : 'Buka';
+  return isEn ? (index === 0 ? 'Contact' : 'Open') : (index === 0 ? 'Hubungi' : 'Buka');
 };
 ---
 
@@ -135,7 +137,7 @@ const quickLabel = (action: any, index: number) => {
 
   <section class:list={['nfc-overview', (!config.hideStats && (config.stats || []).length > 0) ? '' : 'no-facts']} aria-labelledby="about-title">
     <div class="story">
-      <p class="section-label">About</p>
+      <p class="section-label">{isEn ? 'Corporate Profile & Capabilities' : 'About'}</p>
       <h2 id="about-title">{config.story?.title}</h2>
       <p class="story-body">{config.story?.body}</p>
     </div>
@@ -155,7 +157,7 @@ const quickLabel = (action: any, index: number) => {
   {!config.hideHighlights && (config.highlights || []).length > 0 && (
     <section class="nfc-section" aria-labelledby="offer-title">
       <div class="section-heading">
-        <p class="section-label">In focus</p>
+        <p class="section-label">{isEn ? 'Institutional Advantages' : 'In focus'}</p>
         <h2 id="offer-title">What buyers should know.</h2>
       </div>
       <div class="highlight-grid">
@@ -173,8 +175,8 @@ const quickLabel = (action: any, index: number) => {
   {(config.pricelistImage || (!config.hideCommercialBlocks && commercialBlocks.length > 0)) && (
     <section class="nfc-section commercial" aria-labelledby="commercial-title">
       <div class="section-heading">
-        <p class="section-label">{config.pricelistLabel || 'Commercial reference'}</p>
-        <h2 id="commercial-title">{config.pricelistTitle || 'Pricing & reference points.'}</h2>
+        <p class="section-label">{config.pricelistLabel || (isEn ? 'Export Commodity Desks' : 'Commercial reference')}</p>
+        <h2 id="commercial-title">{config.pricelistTitle || (isEn ? 'Standardized B2B Specifications & Supply Capacity.' : 'Pricing & reference points.')}</h2>
       </div>
       {config.pricelistImage && (
         <figure class="pricelist-showcase-wrap">
@@ -182,9 +184,9 @@ const quickLabel = (action: any, index: number) => {
             type="button"
             class="pricelist-lightbox-trigger js-lightbox-trigger"
             aria-haspopup="dialog"
-            aria-label={`Buka gambar katalog ${label} ukuran penuh`}
+            aria-label={isEn ? `Open full-size catalog image for ${label}` : `Buka gambar katalog ${label} ukuran penuh`}
             data-full-img={resolveAsset(config.pricelistImage)}
-            data-caption={`${label} — ${config.pricelistTitle || 'Katalog & Daftar Harga'}`}
+            data-caption={`${label} — ${config.pricelistTitle || (isEn ? 'Official Catalog & Price List' : 'Katalog & Daftar Harga')}`}
           >
             <img
               src={resolveAsset(config.pricelistImage)}
@@ -197,7 +199,7 @@ const quickLabel = (action: any, index: number) => {
             />
             <span class="pricelist-zoom-hint" aria-hidden="true">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
-              <span>Klik untuk perbesar</span>
+              <span>{isEn ? 'Click to enlarge' : 'Klik untuk perbesar'}</span>
             </span>
           </button>
         </figure>
@@ -229,8 +231,8 @@ const quickLabel = (action: any, index: number) => {
   {gallery.length > 0 && (
     <section class="nfc-section" aria-labelledby="visual-title">
       <div class="section-heading">
-        <p class="section-label">Visuals</p>
-        <h2 id="visual-title">Brand & product context.</h2>
+        <p class="section-label">{isEn ? 'Commodity & Operations Gallery' : 'Visuals'}</p>
+        <h2 id="visual-title">{isEn ? 'Unbranded export-grade commodities & white-label readiness.' : 'Brand & product context.'}</h2>
       </div>
       <div class="gallery">
         {gallery.map((item:any) => {
@@ -343,7 +345,7 @@ const quickLabel = (action: any, index: number) => {
 
   <section class="nfc-connect" aria-labelledby="connect-title">
     <div class="section-heading">
-      <p class="section-label">Direct channels</p>
+      <p class="section-label">{isEn ? 'Official Export Channels' : 'Direct channels'}</p>
       <h2 id="connect-title">{actions.length > 0 ? 'Connect without another layer.' : 'Contact channel not published yet.'}</h2>
     </div>
     {actions.length > 0 ? (
@@ -381,13 +383,13 @@ const quickLabel = (action: any, index: number) => {
     </nav>
   )}
 
-  <dialog id="nfc-lightbox-modal" class="nfc-lightbox-dialog" aria-modal="true" aria-label="Tampilan Penuh Gambar">
+  <dialog id="nfc-lightbox-modal" class="nfc-lightbox-dialog" aria-modal="true" aria-label={isEn ? 'Full Image View' : 'Tampilan Penuh Gambar'}>
     <div class="lightbox-dialog-inner">
-      <button type="button" class="lightbox-close-btn" id="lightbox-close-btn" aria-label="Tutup tampilan penuh">
+      <button type="button" class="lightbox-close-btn" id="lightbox-close-btn" aria-label={isEn ? 'Close full view' : 'Tutup tampilan penuh'}>
         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
       </button>
       <div class="lightbox-img-scroll">
-        <img id="lightbox-main-img" src="" alt="Tampilan penuh gambar katalog" loading="lazy" />
+        <img id="lightbox-main-img" src="" alt={isEn ? 'Full size product visual' : 'Tampilan penuh gambar katalog'} loading="lazy" />
       </div>
       <p id="lightbox-caption" class="lightbox-caption-text"></p>
     </div>

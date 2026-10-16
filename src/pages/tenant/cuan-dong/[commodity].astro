@@ -18,6 +18,8 @@ interface Commodity {
   hsCode: string;
   origin: string;
   harvestSeason: string;
+  heroImage: string;
+  packagingImage: string;
   shortDescription: string;
   fullDescription: string;
   gradesAvailable: string[];
@@ -57,10 +59,41 @@ const categoryImageMap: Record<string, string> = {
   'Marine & Seafood': '/brand/cuan-dong/cuan-dong-shipping.jpg',
 };
 
-const heroImagePath = categoryImageMap[commodity.category] || '/brand/cuan-dong/cuan-dong-hero.jpg';
+const heroImagePath = commodity.heroImage || categoryImageMap[commodity.category] || '/brand/cuan-dong/cuan-dong-hero.jpg';
+const packagingImagePath = commodity.packagingImage || `/brand/cuan-dong/commodities/${commodity.slug}-packaging.jpg`;
 const resolvedHeroImage = `${normalizedBase}${heroImagePath}`;
+const resolvedPackagingImage = `${normalizedBase}${packagingImagePath}`;
+const resolvedWarehouseImage = `${normalizedBase}/brand/cuan-dong/cuan-dong-warehouse.jpg`;
+const resolvedShippingImage = `${normalizedBase}/brand/cuan-dong/cuan-dong-shipping.jpg`;
 const resolvedLogo = `${normalizedBase}/brand/cuan-dong/cuan-dong-logo.png`;
 const resolvedFavicon = `${normalizedBase}/brand/cuan-dong/cuan-dong-favicon.png`;
+
+const visualGalleryItems = [
+  {
+    src: resolvedHeroImage,
+    badge: '01 · EXPORT GRADE SPECIMEN',
+    title: 'Raw / Processed Export Grade Visual (Unbranded)',
+    caption: `Verified export-grade ${commodity.title} inspected for color, moisture equilibrium, and physical purity prior to batch lot allocation.`,
+  },
+  {
+    src: resolvedPackagingImage,
+    badge: '02 · WHITE-LABEL PACKAGING',
+    title: 'White-Label Bulk Export Packaging (Zero Third-Party Logos)',
+    caption: `Neutral export-ready bags, cartons, or OEM containers with zero third-party manufacturer marks—ready for buyer private-label stenciling.`,
+  },
+  {
+    src: resolvedWarehouseImage,
+    badge: '03 · QUALITY GATEKEEPING',
+    title: 'Consolidation & Pre-Shipment Inspection Gate',
+    caption: 'Controlled consolidation warehouse protocol including random probe sampling, moisture testing, and SGS / Sucofindo pre-shipment verification.',
+  },
+  {
+    src: resolvedShippingImage,
+    badge: '04 · FCL MARITIME DISPATCH',
+    title: 'FCL Container Loading & Port Dispatch',
+    caption: `Container stuffing with food-grade Kraft liner, desiccant moisture poles, ISPM-15 pallets, and direct dispatch via ${commodity.loadingPort}.`,
+  },
+];
 
 const specLabelOverrides: Record<string, string> = {
   moistureContent: 'Moisture Content',
@@ -228,7 +261,7 @@ const structuredData = [
     telephone: '+62-813-1723-0957',
     address: {
       '@type': 'PostalAddress',
-      addressLocality: 'Tangerang Selatan',
+      addressLocality: 'South Tangerang',
       addressRegion: 'Banten',
       addressCountry: 'ID',
     },
@@ -238,6 +271,7 @@ const structuredData = [
     '@context': 'https://schema.org',
     '@type': 'Product',
     name: commodity.title,
+    image: [resolvedHeroImage, resolvedPackagingImage],
     description: commodity.fullDescription,
     sku: `CDGH-${commodity.id.toUpperCase()}`,
     mpn: `HS-${commodity.hsCode}`,
@@ -317,6 +351,7 @@ const structuredData = [
 ---
 
 <BaseLayout
+  lang="en"
   title={commodity.seo.title}
   description={commodity.seo.metaDescription}
   favicon={resolvedFavicon}
@@ -355,14 +390,14 @@ const structuredData = [
             <div class="cd-badge-row">
               <span class="cd-badge cd-badge-category">{commodity.category}</span>
               <span class="cd-badge cd-badge-hs">HS CODE: {commodity.hsCode}</span>
-              <span class="cd-badge cd-badge-verified">EXPORT READY · COA VERIFIED</span>
+              <span class="cd-badge cd-badge-verified">EXPORT READY · UNBRANDED WHITE-LABEL</span>
             </div>
 
             <h1 id="commodity-heading" class="cd-title">{commodity.title}</h1>
 
             <div class="cd-origin-bar">
               <div class="cd-origin-item">
-                <span class="cd-meta-label">ORIGINPROVENANCE</span>
+                <span class="cd-meta-label">ORIGIN PROVENANCE</span>
                 <strong class="cd-meta-value">{commodity.origin}</strong>
               </div>
               <div class="cd-origin-item">
@@ -406,6 +441,7 @@ const structuredData = [
                   loading="eager"
                   decoding="async"
                   fetchpriority="high"
+                  onerror="this.style.display='none'"
                 />
                 <div class="cd-dossier-overlay">
                   <img
@@ -481,13 +517,51 @@ const structuredData = [
         </div>
       </section>
 
+      <!-- Visual Inspection & White-Label Packaging Gallery -->
+      <section class="cd-section cd-visual-section" aria-labelledby="visual-gallery-heading">
+        <div class="cd-container">
+          <div class="cd-section-header">
+            <div>
+              <p class="cd-eyebrow">01 · UNBRANDED STUDIO & WAREHOUSE VISUAL VERIFICATION</p>
+              <h2 id="visual-gallery-heading" class="cd-section-title">Visual Inspection &amp; White-Label Packaging Gallery</h2>
+            </div>
+            <p class="cd-section-note">
+              All export consignments are supplied in clean, unbranded neutral packaging or customized OEM private-label formats with zero third-party manufacturer marks.
+            </p>
+          </div>
+
+          <div class="cd-visual-grid">
+            {visualGalleryItems.map((vis) => (
+              <figure class="cd-visual-card">
+                <div class="cd-visual-img-wrap">
+                  <img
+                    src={vis.src}
+                    alt={`${commodity.title} — ${vis.title}`}
+                    width="720"
+                    height="480"
+                    loading="lazy"
+                    decoding="async"
+                    onerror="this.style.display='none'"
+                  />
+                  <span class="cd-visual-badge">{vis.badge}</span>
+                </div>
+                <figcaption class="cd-visual-caption">
+                  <strong>{vis.title}</strong>
+                  <p>{vis.caption}</p>
+                </figcaption>
+              </figure>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <!-- Main Technical Grid: Grades + Physical/Chemical Matrix -->
       <section class="cd-section" aria-labelledby="specs-heading">
         <div class="cd-container">
           <div class="cd-section-header">
             <div>
-              <p class="cd-eyebrow">01 · LABORATORY & COMMERCIAL PARAMETERS</p>
-              <h2 id="specs-heading" class="cd-section-title">Technical Specifications & Export Grades</h2>
+              <p class="cd-eyebrow">02 · LABORATORY & COMMERCIAL PARAMETERS</p>
+              <h2 id="specs-heading" class="cd-section-title">Technical Specifications &amp; Export Grades</h2>
             </div>
             <p class="cd-section-note">
               All physical, chemical, and microbiological parameters are verified prior to container stuffing and documented via batch-specific Certificate of Analysis (COA).
@@ -498,7 +572,7 @@ const structuredData = [
             <!-- Available Export Grades -->
             <div class="cd-panel cd-grades-panel">
               <div class="cd-panel-head">
-                <h3>Available Export Grades & Formulations</h3>
+                <h3>Available Export Grades &amp; Formulations</h3>
                 <span class="cd-count-pill">{commodity.gradesAvailable.length} Grades</span>
               </div>
               <p class="cd-panel-desc">
@@ -514,7 +588,7 @@ const structuredData = [
               </ul>
 
               <div class="cd-qa-callout">
-                <h4>Quality Assurance & Inspection Protocol</h4>
+                <h4>Quality Assurance &amp; Inspection Protocol</h4>
                 <p>
                   Every shipment undergoes multi-stage gatekeeping at CUAN-DONG consolidation warehouses: raw batch sampling, moisture/purity assay, metal detection, and container cleanliness verification. Independent third-party pre-shipment inspection (SGS, Sucofindo, Bureau Veritas, or Intertek) is supported at port of loading.
                 </p>
@@ -524,7 +598,7 @@ const structuredData = [
             <!-- Physical & Chemical Specification Matrix -->
             <div class="cd-panel cd-matrix-panel">
               <div class="cd-panel-head">
-                <h3>Physical & Chemical Specification Matrix</h3>
+                <h3>Physical &amp; Chemical Specification Matrix</h3>
                 <span class="cd-count-pill cd-mono">COA STANDARD</span>
               </div>
               <div class="cd-table-wrap">
@@ -555,8 +629,8 @@ const structuredData = [
         <div class="cd-container">
           <div class="cd-section-header">
             <div>
-              <p class="cd-eyebrow">02 · MARITIME LOGISTICS & REGULATORY COMPLIANCE</p>
-              <h2 id="logistics-heading" class="cd-section-title">Packaging, Container Loadability & Certifications</h2>
+              <p class="cd-eyebrow">03 · MARITIME LOGISTICS &amp; REGULATORY COMPLIANCE</p>
+              <h2 id="logistics-heading" class="cd-section-title">Packaging, Container Loadability &amp; Certifications</h2>
             </div>
             <p class="cd-section-note">
               Engineered for long-haul maritime transit from Indonesian deep-water ports to global destinations with full customs and quarantine documentation.
@@ -592,7 +666,7 @@ const structuredData = [
               </div>
 
               <div class="cd-sub-block">
-                <h4>Supported Incoterms (2020) & Port of Loading</h4>
+                <h4>Supported Incoterms (2020) &amp; Port of Loading</h4>
                 <div class="cd-incoterms-pills">
                   {commodity.incoTerms.map((term) => (
                     <span class="cd-incoterm-pill">{term}</span>
@@ -607,7 +681,7 @@ const structuredData = [
             <!-- Export Compliance & Certifications -->
             <div class="cd-panel">
               <div class="cd-panel-head">
-                <h3>Global Export Compliance & Certifications</h3>
+                <h3>Global Export Compliance &amp; Certifications</h3>
                 <span class="cd-count-pill">{commodity.certifications.length} Documents</span>
               </div>
               <p class="cd-panel-desc">
@@ -626,9 +700,9 @@ const structuredData = [
               </ul>
 
               <div class="cd-compliance-note">
-                <strong>Destination Customs & Quarantine Readiness:</strong>
+                <strong>Destination Customs &amp; Quarantine Readiness:</strong>
                 <p>
-                  We coordinate ISPM-15 heat-treated wooden pallets, phosphine/methyl bromide container fumigation, Kraft paper & desiccant moisture protection, and Preferential Certificates of Origin (Form D, Form E, Form AK, Form ICO) to optimize import tariff duties for international buyers.
+                  We coordinate ISPM-15 heat-treated wooden pallets, phosphine/methyl bromide container fumigation, Kraft paper &amp; desiccant moisture protection, and Preferential Certificates of Origin (Form D, Form E, Form AK, Form ICO) to optimize import tariff duties for international buyers.
                 </p>
               </div>
             </div>
@@ -641,10 +715,10 @@ const structuredData = [
         <div class="cd-container">
           <div class="cd-rfq-box">
             <div class="cd-rfq-copy">
-              <p class="cd-eyebrow">03 · DIRECT INSTITUTIONAL TRADE DESK</p>
-              <h2 id="rfq-heading">Request Official Quotation & COA for {commodity.title}</h2>
+              <p class="cd-eyebrow">04 · DIRECT INSTITUTIONAL TRADE DESK</p>
+              <h2 id="rfq-heading">Request Official Quotation &amp; COA for {commodity.title}</h2>
               <p>
-                Connect directly with <strong>{commodity.rfqAction.desk}</strong> in Bintaro, Tangerang Selatan. Indicate your required grade, target destination port (FOB / CIF / CFR), packaging format, and annual/spot contract volume.
+                Connect directly with <strong>{commodity.rfqAction.desk}</strong> in Bintaro, South Tangerang. Indicate your required grade, target destination port (FOB / CIF / CFR), white-label packaging format, and annual/spot contract volume.
               </p>
               <div class="cd-rfq-meta">
                 <span><strong>HS Code:</strong> {commodity.hsCode}</span>
@@ -689,7 +763,7 @@ const structuredData = [
         <div class="cd-container">
           <div class="cd-section-header">
             <div>
-              <p class="cd-eyebrow">04 · MULTI-COMMODITY PORTFOLIO</p>
+              <p class="cd-eyebrow">05 · MULTI-COMMODITY PORTFOLIO</p>
               <h2 id="related-heading" class="cd-section-title">Explore Other CUAN-DONG Export Commodities</h2>
             </div>
             <a href={showcaseUrl} class="cd-view-all-link">
@@ -701,15 +775,28 @@ const structuredData = [
           <div class="cd-related-grid">
             {relatedCommodities.map((item) => (
               <a href={`${normalizedBase}/tenant/cuan-dong/${item.slug}`} class="cd-related-card">
-                <div class="cd-related-top">
-                  <span class="cd-related-cat">{item.category}</span>
-                  <span class="cd-related-hs cd-mono">HS {item.hsCode}</span>
+                <div class="cd-related-thumb">
+                  <img
+                    src={`${normalizedBase}${item.heroImage}`}
+                    alt={item.title}
+                    width="480"
+                    height="300"
+                    loading="lazy"
+                    decoding="async"
+                    onerror="this.style.display='none'"
+                  />
                 </div>
-                <h3 class="cd-related-title">{item.title}</h3>
-                <p class="cd-related-desc">{item.shortDescription}</p>
-                <div class="cd-related-foot">
-                  <span>MOQ: {item.minOrderQuantity}</span>
-                  <span class="cd-related-arrow">View Specs →</span>
+                <div class="cd-related-body">
+                  <div class="cd-related-top">
+                    <span class="cd-related-cat">{item.category}</span>
+                    <span class="cd-related-hs cd-mono">HS {item.hsCode}</span>
+                  </div>
+                  <h3 class="cd-related-title">{item.title}</h3>
+                  <p class="cd-related-desc">{item.shortDescription}</p>
+                  <div class="cd-related-foot">
+                    <span>MOQ: {item.minOrderQuantity}</span>
+                    <span class="cd-related-arrow">View Specs →</span>
+                  </div>
                 </div>
               </a>
             ))}
@@ -723,7 +810,7 @@ const structuredData = [
       <div class="cd-container cd-footer-inner">
         <div>
           <strong>CUAN-DONG GLOBAL HOLDINGS</strong>
-          <p>Export Procurement & Structured Supply Chain Operations · Bintaro Jaya, Tangerang Selatan, Indonesia</p>
+          <p>Export Procurement &amp; Structured Supply Chain Operations · Bintaro Jaya, South Tangerang, Indonesia</p>
         </div>
         <div class="cd-footer-links">
           <a href={showcaseUrl}>← CUAN-DONG Showcase</a>
@@ -1223,6 +1310,86 @@ const structuredData = [
     color: var(--cd-ink-subtle);
   }
 
+  /* Visual Inspection & White-Label Packaging Gallery */
+  .cd-visual-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+  }
+
+  .cd-visual-card {
+    margin: 0;
+    border-radius: 16px;
+    overflow: hidden;
+    background: var(--cd-surface);
+    border: 1px solid var(--cd-border);
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 14px 32px -12px rgba(0, 0, 0, 0.45);
+    transition: transform 0.2s ease, border-color 0.2s ease;
+  }
+
+  .cd-visual-card:hover {
+    transform: translateY(-2px);
+    border-color: var(--cd-border-strong);
+  }
+
+  .cd-visual-img-wrap {
+    position: relative;
+    aspect-ratio: 16 / 10;
+    background: #050f20;
+    overflow: hidden;
+  }
+
+  .cd-visual-img-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.35s ease;
+  }
+
+  .cd-visual-card:hover .cd-visual-img-wrap img {
+    transform: scale(1.03);
+  }
+
+  .cd-visual-badge {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    padding: 5px 10px;
+    border-radius: 6px;
+    background: rgba(7, 22, 45, 0.88);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(56, 189, 248, 0.35);
+    color: var(--cd-accent);
+    font-size: 0.65rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .cd-visual-caption {
+    padding: 18px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .cd-visual-caption strong {
+    font-size: 0.96rem;
+    font-weight: 800;
+    color: #ffffff;
+  }
+
+  .cd-visual-caption p {
+    margin: 0;
+    font-size: 0.8rem;
+    line-height: 1.55;
+    color: var(--cd-ink-muted);
+  }
+
   .cd-tech-layout,
   .cd-logistics-grid {
     display: grid;
@@ -1603,12 +1770,12 @@ const structuredData = [
   }
 
   .cd-related-card {
-    padding: 20px;
     border-radius: 14px;
     background: var(--cd-surface);
     border: 1px solid var(--cd-border);
     text-decoration: none;
     color: inherit;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     transition: transform 0.18s ease, border-color 0.18s ease, background 0.18s ease;
@@ -1618,6 +1785,32 @@ const structuredData = [
     transform: translateY(-3px);
     border-color: var(--cd-border-strong);
     background: var(--cd-surface-hover);
+  }
+
+  .cd-related-thumb {
+    aspect-ratio: 16 / 10;
+    background: #050f20;
+    overflow: hidden;
+    border-bottom: 1px solid var(--cd-border);
+  }
+
+  .cd-related-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+  }
+
+  .cd-related-card:hover .cd-related-thumb img {
+    transform: scale(1.04);
+  }
+
+  .cd-related-body {
+    padding: 18px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
   }
 
   .cd-related-top {
@@ -1783,6 +1976,7 @@ const structuredData = [
     }
 
     .cd-metrics-grid,
+    .cd-visual-grid,
     .cd-related-grid {
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
@@ -1802,6 +1996,7 @@ const structuredData = [
 
     .cd-origin-bar,
     .cd-metrics-grid,
+    .cd-visual-grid,
     .cd-related-grid {
       grid-template-columns: 1fr;
     }

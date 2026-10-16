@@ -10,6 +10,7 @@ interface Props {
   canonical?: string;
   image?: string;
   robots?: string;
+  lang?: string;
   structuredData?: Record<string, unknown> | Record<string, unknown>[];
 }
 
@@ -21,6 +22,7 @@ const {
   canonical,
   image,
   robots = 'index,follow,max-image-preview:large',
+  lang = 'id',
   structuredData,
 } = Astro.props;
 
@@ -58,7 +60,7 @@ const structuredJson = structuredData
 ---
 
 <!doctype html>
-<html lang="id">
+<html lang={lang}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />

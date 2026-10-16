@@ -1,12 +1,16 @@
 {
   "brandLabel": "CUAN-DONG GLOBAL HOLDINGS",
-  "tagline": "Evidence-led Indonesia export procurement and structured supply chain orchestration.",
-  "eyebrow": "Export Procurement & Trade Operations · Tangerang Selatan",
+  "lang": "en",
+  "galleryLimit": 10,
+  "tagline": "Evidence-led Indonesian export procurement and structured B2B supply chain orchestration.",
+  "eyebrow": "Institutional Export Procurement & Trade Operations · South Tangerang, Indonesia",
   "heroImage": "/brand/cuan-dong/cuan-dong-shipping.jpg",
   "logo": "/brand/cuan-dong/cuan-dong-logo.png",
   "favicon": "/brand/cuan-dong/cuan-dong-favicon.png",
   "heroFit": "cover",
   "visualMode": "manufactured",
+  "pricelistLabel": "Export Commodity Desks",
+  "pricelistTitle": "Standardized B2B Specifications & FCL Supply Capacity.",
   "palette": {
     "bg": "#07162d",
     "ink": "#f8fafc",
@@ -14,43 +18,43 @@
     "surface": "#0f2444"
   },
   "story": {
-    "title": "Institutional-grade procurement and supply gatekeeping from Indonesia to global markets.",
-    "body": "CUAN-DONG Global Holdings menjembatani pembeli internasional dengan produsen dan eksportir komoditas unggulan Indonesia melalui skema pengadaan terstruktur. Beroperasi dari Tangerang Selatan, CUAN-DONG mengelola verifikasi kepatuhan pemasok, pengendalian spesifikasi mutu, inspeksi pra-pengapalan, hingga kesiapan dokumen ekspor (COA, Phytosanitary, Bill of Lading) untuk memastikan kelancaran transaksi lintas negara."
+    "title": "Institutional-grade procurement and quality gatekeeping from Indonesia to global markets.",
+    "body": "CUAN-DONG Global Holdings connects international institutional buyers with verified Indonesian agricultural processors, cooperatives, and marine canneries through a structured, transparent procurement framework. Operating from Bintaro Jaya, South Tangerang, our trade desk manages end-to-end supplier compliance, laboratory specification control, unbranded white-label packaging, pre-shipment warehouse inspection, and complete export documentation (Batch COA, Phytosanitary, Fumigation, Health Certificates, and Bill of Lading) for seamless cross-border settlement."
   },
   "stats": [
     {
       "value": "Global Reach",
-      "label": "Jaringan pembeli dan pasar ekspor lintas benua"
+      "label": "Cross-continental B2B buyer network & international port delivery"
     },
     {
-      "value": "Multi-Commodity",
-      "label": "Kakao, kopi, rempah, turunan kelapa, dan hasil laut"
+      "value": "10 Commodities",
+      "label": "Cocoa derivatives, archipelago spices, coconut products & marine OEM"
     },
     {
       "value": "Inspection Gate",
-      "label": "Audit kualitas dan verifikasi spesifikasi ketat"
+      "label": "Strict pre-shipment QC, lab COA & zero-defect container stuffing"
     },
     {
       "value": "TEI 2026",
-      "label": "Mitra dagang resmi Trade Expo Indonesia"
+      "label": "Official verified trade partner at Trade Expo Indonesia (Hall 8 · 8-7C)"
     }
   ],
   "highlights": [
     {
-      "title": "Pengadaan Komoditas Terverifikasi",
-      "body": "Menghubungkan pembeli global dengan rantai pasok langsung dari petani, koperasi, dan pengolah bersertifikat mutu ekspor di seluruh Indonesia."
+      "title": "Verified Direct-Origin Procurement",
+      "body": "Direct allocation contracts with certified agricultural cooperatives, cocoa presses, oil expeller mills, and FDA/HACCP marine canneries across Indonesia."
     },
     {
-      "title": "Pengendalian Kualitas & Inspeksi",
-      "body": "Penerapan gatekeeping ketat di gudang konsolidasi sebelum barang masuk kontainer untuk mencegah ketidaksesuaian spesifikasi kontrak dagang."
+      "title": "Multi-Stage Quality & Lab Gatekeeping",
+      "body": "Rigorous consolidation warehouse inspection prior to container stuffing—verifying moisture, volatile oil, fat purity, microbiological safety, and SGS/Sucofindo assay compliance."
     },
     {
-      "title": "Kesiapan Dokumen & Regulasi",
-      "body": "Manajemen lengkap dokumen ekspor termasuk sertifikat asal (COO), fitosanitari, uji laboratorium bebas cemaran, dan izin karantina."
+      "title": "100% White-Label & Unbranded Export Packaging",
+      "body": "All bulk jute bags, craft sacks, corrugated cartons, and OEM lithographed tins are supplied strictly unbranded or customized to buyer private-label specifications with zero third-party manufacturer marks."
     },
     {
-      "title": "Logistik & Kontainerisasi Aman",
-      "body": "Kordinasi pengapalan kontainer FCL/LCL dari pelabuhan utama Indonesia (Tanjung Priok, Tanjung Perak) dengan pelacakan transparan."
+      "title": "Full Export Documentation & FCL Logistics",
+      "body": "End-to-end administration of Certificates of Origin (Form D, E, AK, ICO), Phytosanitary, Halal BPJPH, HACCP, and FCL/LCL shipping from Tanjung Priok, Tanjung Perak, Makassar, and Bitung."
     }
   ],
   "commercialBlocks": [
@@ -111,35 +115,65 @@
   ],
   "gallery": [
     {
-      "image": "/brand/cuan-dong/cuan-dong-warehouse.jpg",
-      "label": "Gudang Konsolidasi & Muat Ekspor",
-      "caption": "Fasilitas inspeksi dan muat kontainer terstandar sebelum pengapalan."
+      "image": "/brand/cuan-dong/commodities/cocoa-beans-hero.jpg",
+      "label": "Indonesian Fermented Cocoa Beans (HS 1801.00.00)",
+      "caption": "Grade 1-A Sulawesi & Sumatra sun-dried fermented beans, >50% butterfat, unbranded export jute sacks."
     },
     {
-      "image": "/brand/cuan-dong/cuan-dong-spices.jpg",
-      "label": "Rempah-Rempah Asli Nusantara",
-      "caption": "Kayu manis, cengkeh, dan pala berkualitas ekspor pilihan."
+      "image": "/brand/cuan-dong/commodities/cocoa-powder-hero.jpg",
+      "label": "Natural & Alkalized Cocoa Powder (HS 1805.00.00)",
+      "caption": "200-mesh ultra-fine dispersion in Pure Natural and Dutch-process Alkalized (10–12% & 20–22% fat), 25kg white-label craft bags."
     },
     {
-      "image": "/brand/cuan-dong/cuan-dong-coffee.jpg",
-      "label": "Specialty Coffee Indonesia",
-      "caption": "Biji kopi arabika dan robusta single-origin dengan cupping score tinggi."
+      "image": "/brand/cuan-dong/commodities/cocoa-butter-hero.jpg",
+      "label": "Pure Prime Pressed Cocoa Butter (HS 1804.00.00)",
+      "caption": "Natural & Deodorized PPP blocks, FFA <1.0%, 32–35°C clean melt, 25kg unbranded export cartons or ISO tank."
     },
     {
-      "image": "/brand/cuan-dong/cuan-dong-cocoa.jpg",
-      "label": "Olahan Kakao & Cokelat",
-      "caption": "Bahan baku kakao premium untuk industri makanan global."
+      "image": "/brand/cuan-dong/commodities/cinnamon-hero.jpg",
+      "label": "Indonesian Cassia Vera Cinnamon (HS 0906.11.00)",
+      "caption": "Mount Kerinci high-oil (2.5–4.0%) hand-scraped AA quills, cut sticks, and KBBC pressed bales."
+    },
+    {
+      "image": "/brand/cuan-dong/commodities/cardamom-hero.jpg",
+      "label": "Java White & Green Cardamom (HS 0908.31.00)",
+      "caption": "Plump 8–12mm Amomum compactum capsules with high cineole essential oil (2.0–3.5%) in unbranded export cartons."
+    },
+    {
+      "image": "/brand/cuan-dong/commodities/vanilla-hero.jpg",
+      "label": "Gourmet Vanilla Beans Planifolia & Tahitensis (HS 0905.10.00)",
+      "caption": "Oily black cured pods (16–22cm, vanillin 1.8–2.4%, moisture 30–35%), vacuum-sealed in neutral food-grade barrier pouches."
+    },
+    {
+      "image": "/brand/cuan-dong/commodities/clove-hero.jpg",
+      "label": "Indonesian Hand-Picked Cloves (HS 0907.10.00)",
+      "caption": "Maluku & Sulawesi Lalpari HPS and CG-1 whole cloves, >19% volatile oil and >80% eugenol purity."
+    },
+    {
+      "image": "/brand/cuan-dong/commodities/copra-hero.jpg",
+      "label": "White Edible & Milling Coconut Copra (HS 1203.00.00)",
+      "caption": "Smokeless kiln-dried ivory edible half-cups (FFA <0.5%) and high-yield expeller milling copra (65–68% oil)."
+    },
+    {
+      "image": "/brand/cuan-dong/commodities/coconut-feed-hero.jpg",
+      "label": "Copra Meal & Coconut Cake Pellets (HS 2306.50.00)",
+      "caption": "18–22% crude protein expeller pellets & meal for cattle, swine, and aquaculture feed in 50kg PP or 1,000kg FIBC bags."
+    },
+    {
+      "image": "/brand/cuan-dong/commodities/canned-sardines-hero.jpg",
+      "label": "Canned Sardines in Tomato Sauce & Oil OEM (HS 1604.13.10)",
+      "caption": "155g club/round & 425g oval retort-sterilized cans (Sardinella longiceps), supplied in blank bright-stock or custom buyer OEM lithography."
     }
   ],
   "actions": [
     {
       "key": "website",
-      "label": "Website Resmi · cuan-dong.com",
+      "label": "Official Corporate Portal · cuan-dong.com",
       "url": "https://cuan-dong.com/"
     },
     {
       "key": "whatsapp",
-      "label": "WhatsApp Desk · 0813-1723-0957",
+      "label": "WhatsApp B2B Trade Desk · +62 813-1723-0957",
       "url": "https://wa.me/6281317230957"
     },
     {
@@ -149,26 +183,26 @@
     },
     {
       "key": "email",
-      "label": "Email Pengadaan · cuandongholdings@gmail.com",
+      "label": "Export RFQ Desk · cuandongholdings@gmail.com",
       "url": "mailto:cuandongholdings@gmail.com"
     },
     {
       "key": "maps",
-      "label": "Google Maps · Workshop Bintaro Tangsel",
+      "label": "Google Maps · Bintaro Operations Office, South Tangerang",
       "url": "https://www.google.com/maps/search/?api=1&query=Bintaro+Jaya+Tangerang+Selatan"
     }
   ],
   "verification": {
     "status": "verified-authoritative",
-    "checkedAt": "2026-10-14",
-    "note": "Data perusahaan, legalitas ekspor, dan kontak diserahkan resmi oleh Disperindag Tangerang Selatan (Pak Eeng).",
+    "checkedAt": "2026-10-16",
+    "note": "Corporate credentials, export compliance dossier, and direct B2B trade desk channels officially verified by the Department of Industry and Trade (Disperindag) of South Tangerang.",
     "sources": [
       {
-        "label": "Disperindag Tangsel Handover",
+        "label": "Disperindag South Tangerang Official Handover",
         "url": "https://wa.me/6281296361446"
       },
       {
-        "label": "CUAN-DONG Global Holdings",
+        "label": "CUAN-DONG Global Holdings Official Portal",
         "url": "https://cuan-dong.com/"
       }
     ]
