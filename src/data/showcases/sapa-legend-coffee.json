@@ -125,6 +125,11 @@
       "url": "https://wa.me/qr/SKWPLFU7THBTC1"
     },
     {
+      "key": "zalo",
+      "label": "Zalo Direct · Mai Lan (+84 944 284 866)",
+      "url": "https://zalo.me/84944284866"
+    },
+    {
       "key": "website",
       "label": "Official Website · sapalegendcoffee.vn",
       "url": "https://www.sapalegendcoffee.vn"
@@ -152,9 +157,13 @@
   ],
   "verification": {
     "status": "verified-authoritative",
-    "checkedAt": "2026-10-15",
-    "note": "Verified 100% from official corporate domain sapalegendcoffee.vn, verified Hanoi office location, LinkedIn corporate profile, and Facebook business page.",
+    "checkedAt": "2026-10-16",
+    "note": "Verified 100% from official corporate domain sapalegendcoffee.vn, verified Hanoi office location, LinkedIn corporate profile, Zalo contact Mai Lan (+84 944 284 866), and Facebook business page.",
     "sources": [
+      {
+        "label": "Zalo Business Profile Mai Lan",
+        "url": "https://zalo.me/84944284866"
+      },
       {
         "label": "SAPA LEGEND Official Portal",
         "url": "https://www.sapalegendcoffee.vn"

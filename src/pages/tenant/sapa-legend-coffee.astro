@@ -12,13 +12,20 @@ const tenant = {
   theme: "food",
   whatsapp: "https://wa.me/qr/SKWPLFU7THBTC1",
   website: "https://www.sapalegendcoffee.vn",
-  researchStatus: "verified-authoritative", verifiedAt: '2026-10-15'
+  zalo: "https://zalo.me/84944284866",
+  researchStatus: "verified-authoritative", verifiedAt: '2026-10-16'
 };
 const structuredData = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
   name: tenant.name,
-  url: "https://mycustomid.github.io/tangsel-tradelink/"
+  url: "https://mycustomid.github.io/tangsel-tradelink/tenant/sapa-legend-coffee",
+  sameAs: [
+    tenant.website,
+    "https://zalo.me/84944284866",
+    "https://www.linkedin.com/company/sapa-legend-global-coffee-brand-partner/",
+    "https://www.facebook.com/share/18c8JQBRcy/?mibextid=wwXIfr"
+  ]
 };
 ---
 <BaseLayout favicon={resolveTenantFavicon(tenant, config)} title={`${tenant.name} — Tangsel TradeLink`} description={tenant.description} theme={tenant.theme}

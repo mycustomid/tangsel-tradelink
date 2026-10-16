@@ -6,11 +6,14 @@
   "logo": "/brand/peyek-den-bagus/peyek-den-bagus-logo.webp",
   "favicon": "/brand/peyek-den-bagus/favicon.png",
   "heroFit": "cover",
-  "heroAspectRatio": "16/9",
+  "heroAspectRatio": "16/11",
   "heroAspectRatioMobile": "4/3",
   "galleryAspectRatio": "4/3",
   "galleryFit": "cover",
   "visualMode": "food",
+  "pricelistImage": "/brand/peyek-den-bagus/den-bagus-katalog-pricelist.webp",
+  "pricelistTitle": "Katalog Resmi & Daftar Harga Peyek Den Bagus",
+  "pricelistLabel": "Katalog Produk & Harga",
   "palette": {
     "bg": "#faf4ec",
     "ink": "#2b1810",
@@ -59,29 +62,29 @@
   ],
   "commercialBlocks": [
     {
-      "title": "Katalog Menu & Paket Peyek Den Bagus",
-      "badge": "Otentik & Renyah",
-      "note": "Menerima pesanan ritel harian, hampers acara, suvenir kantor, dan suplai grosir toko oleh-oleh.",
+      "title": "Daftar Harga Ritel & Reseller Resmi",
+      "badge": "Cemilannya Para Bangsawan",
+      "note": "Tersedia aneka varian: Kacang Tanah, Kacang Hijau, Rebon, Rebon Spicy, dan Teri. Klik gambar katalog di atas untuk memperbesar.",
       "items": [
         {
-          "label": "Peyek Kacang Tanah (Toples Kedap Udara / Pouch)",
-          "value": "Varian Bestseller"
+          "label": "Peyek Zadul Ekonomis 150g (Semua Varian)",
+          "value": "Ritel 23K · Reseller 18K"
         },
         {
-          "label": "Peyek Teri Medan Super Gurih",
-          "value": "Varian Gurih Laut"
+          "label": "Peyek Zadul Kemasan Pouch 150g (Kacang/Hijau/Rebon)",
+          "value": "Ritel 27K · Reseller 22K"
         },
         {
-          "label": "Peyek Udang Rebon Harum Daun Jeruk",
-          "value": "Varian Wangi Rebon"
+          "label": "Peyek Zadul Ekonomis 250g (Semua Varian)",
+          "value": "Ritel 37K · Reseller 32K"
         },
         {
-          "label": "Peyek Kacang Hijau Tradisional",
-          "value": "Varian Tekstur Padat"
+          "label": "Peyek Mini Toples 180g (Semua Varian)",
+          "value": "Ritel 33K · Reseller 28K"
         },
         {
-          "label": "Paket Hampers & Cinderamata Acara",
-          "value": "Custom Toples & Pita"
+          "label": "Peyek Zadul Toples 300g (Semua Varian)",
+          "value": "Ritel 65K · Reseller 57K"
         }
       ]
     }
@@ -103,21 +106,21 @@
       "caption": "Toples praktis 300g dengan segel rapat kedap udara menjaga kerenyahan rempeyek tetap maksimal."
     },
     {
-      "image": "/brand/peyek-den-bagus/peyek-mimin-retail-display.webp",
-      "label": "Bu Mimin Casmiaty & Display Ritel",
-      "caption": "Pendiri Peyek Den Bagus, Bu Mimin Casmiaty dari Setu Tangerang Selatan, dengan produk rempeyek siap ekspor dan ritel modern."
+      "image": "/brand/peyek-den-bagus/peyek-kacang.webp",
+      "label": "Peyek Kacang Tanah Renyah Gurih",
+      "caption": "Rempeyek legendaris bertabur limpahan kacang tanah garing dengan irisan daun jeruk segar beraroma harum menggugah selera."
     }
   ],
   "actions": [
     {
+      "key": "whatsapp",
+      "label": "WhatsApp Bisnis · 0878-7590-9393",
+      "url": "https://wa.me/6287875909393"
+    },
+    {
       "key": "shopee",
       "label": "Shopee Official · mimincasmiaty",
       "url": "https://shopee.co.id/mimincasmiaty"
-    },
-    {
-      "key": "whatsapp",
-      "label": "WhatsApp Order · 0877-7174-8642",
-      "url": "https://wa.me/6287771748642"
     },
     {
       "key": "instagram",
@@ -132,9 +135,13 @@
   ],
   "verification": {
     "status": "verified-authoritative",
-    "checkedAt": "2026-10-15",
-    "note": "Data diverifikasi dari akun Shopee resmi Bu Mimin Casmiaty, Instagram @peyek_denbagus, Bank Konten 40 Post n8n, dan liputan Tangsel Pos.",
+    "checkedAt": "2026-10-16",
+    "note": "Data disinkronkan langsung dari katalog resmi Den Bagus 2026, nomor WhatsApp Bisnis 0878-7590-9393, akun Shopee Bu Mimin Casmiaty, Instagram @peyek_denbagus, dan liputan media Tangsel Pos.",
     "sources": [
+      {
+        "label": "WhatsApp Bisnis Peyek Den Bagus",
+        "url": "https://wa.me/6287875909393"
+      },
       {
         "label": "Shopee Resmi Mimin Casmiaty",
         "url": "https://shopee.co.id/mimincasmiaty"
