@@ -7,6 +7,9 @@
   "favicon": "/brand/dapur-nanay/dapur-nanay-asset-1.png",
   "heroFit": "cover",
   "visualMode": "food",
+  "pricelistImage": "/brand/dapur-nanay/dapur-nanay-katalog-pricelist.webp",
+  "pricelistTitle": "Katalog Resmi & Daftar Harga Naytaste Dapur Nanay",
+  "pricelistLabel": "Katalog Produk & Harga",
   "palette": {
     "bg": "#fffdf2",
     "ink": "#2d1d07",
@@ -15,60 +18,76 @@
   },
   "story": {
     "title": "Camilan Gurih Premium Olahan Keju Edam & Cheddar Berkualitas Ekspor.",
-    "body": "Dapur Nanay (Naytaste) berbasis di Pamulang, Tangerang Selatan, memproduksi aneka makanan ringan premium seperti Cheese Stick dengan kombinasi keju Edam dan cheddar pilihan, serta kentang mustofa renyah. Telah terdaftar resmi dengan legalitas lengkap (SPP-IRT, Halal LPPOM MUI, BPOM dan HAKI) dengan kapasitas produksi mencapai 5.000 pcs serta siap melayani kebutuhan ritel, hampers, dan mitra ekspor."
+    "body": "Dapur Nanay (Naytaste) dirintis oleh Ibu Amalia di Pamulang, Tangerang Selatan sejak tahun 2019. Memproduksi aneka camilan gurih premium seperti Cheese Stick dengan kombinasi keju Edam tua dan cheddar asli tanpa perisa kimia, serta Kentang Mustofa Dieng renyah alami tanpa rendaman kapur sirih. Seluruh produk menggunakan bahan alami pilihan dan minyak baru berkualitas tinggi yang aman dikonsumsi anak-anak hingga lansia. Memiliki legalitas lengkap (NIB, HAKI, Halal BPJPH/MUI, SPP-IRT, PKP, dan Laik Higiene) dan telah menembus pasar ritel modern (Tip Top Swalayan, Local Pride Pelindo, Toko Buah 88 Bintaro, Swiss-Belinn Bandara) serta pameran internasional Trade Expo Indonesia (TEI) 2026."
   },
   "stats": [
     {
-      "value": "5.000 pcs",
-      "label": "Kapasitas Produksi Bulanan Terkurasi Resmi"
+      "value": "Keju Edam",
+      "label": "Bahan Baku Keju Edam Asli Tanpa Perisa Buatan"
     },
     {
-      "value": "Multi-Legalitas",
-      "label": "Sertifikasi SPP-IRT, Halal MUI, BPOM & HAKI Lengkap"
+      "value": "Dieng Alami",
+      "label": "Kentang Mustofa Tanpa Kapur Sirih & Bumbu Alami"
     },
     {
-      "value": "Pamulang, Tangsel",
-      "label": "Workshop & Dapur Produksi di Tangerang Selatan"
+      "value": "Ritel Modern",
+      "label": "Mitra Tip Top, Pelindo, Toko Buah 88 & Swiss-Belinn"
     },
     {
       "value": "TEI 2026",
-      "label": "Peserta Binaan Resmi Disperindag Tangsel"
+      "label": "Peserta Binaan Resmi Disperindag Tangsel di ICE BSD"
     }
   ],
   "highlights": [
     {
-      "title": "Naytaste Cheese Stick Edam",
-      "body": "Stik keju gurih renyah dengan keju asli pilihan tanpa pengawet berbahaya."
+      "title": "Naytaste Cheese Stick (Edam & Cheddar)",
+      "body": "Stik keju renyah empuk tidak keras dengan sensasi gurih keju asli edam dan cheddar tanpa tambahan MSG berlebih."
     },
     {
-      "title": "Kentang Mustofa Renyah",
-      "body": "Olahan kentang mustofa bumbu balado otentik manis gurih khas nusantara."
+      "title": "Kentang Mustofa Dieng Balado",
+      "body": "Olahan kentang Dieng pilihan dengan racikan cabai, bawang, gula, dan garam alami yang dimasak matang tahan renyah."
     },
     {
-      "title": "Multi-Channel Ordering",
-      "body": "Tersedia pemesanan langsung melalui WhatsApp, Shopee, TikTok Shop, serta katalog Canva interaktif."
+      "title": "Stik Bawang Daun Seledri",
+      "body": "Perpaduan gurih harum bawang putih, daun bawang, dan daun seledri segar yang renyah berselera."
     },
     {
-      "title": "Paket Hampers & Suplai Event",
-      "body": "Melayani pesanan hampers korporat, bingkisan hari raya, serta pasokan konsumsi snack meeting berstandar higienis."
+      "title": "Sambal Cumi Juara Nanay",
+      "body": "Potongan cumi segar dipadukan bumbu cabai rempah melimpah dalam kemasan jar higienis siap santap."
     }
   ],
   "commercialBlocks": [
     {
-      "title": "Katalog Produk & Paket Hampers",
-      "badge": "Halal & P-IRT",
-      "note": "Tersedia kemasan toples dan standing pouch higienis.",
+      "title": "Daftar Harga Resmi Produk Dapur Nanay (Naytaste)",
+      "badge": "Halal & P-IRT Resmi",
+      "note": "Kemasan standing pouch zipper praktis & toples kedap udara eksklusif. Klik gambar katalog di atas untuk memperbesar.",
       "items": [
         {
-          "label": "Naytaste Cheese Stick (Toples)",
-          "value": "Ready Stock"
+          "label": "Naytaste Cheese Stick Edam (Pouch 150g)",
+          "value": "Rp20.000"
         },
         {
-          "label": "Kentang Mustofa Premium",
-          "value": "Ready Stock"
+          "label": "Naytaste Cheese Stick Edam (Toples Segel 250g)",
+          "value": "Rp35.000"
         },
         {
-          "label": "Paket Hampers & Oleh-oleh",
+          "label": "Kentang Mustofa Dieng Balado (Pouch 150g)",
+          "value": "Rp25.000"
+        },
+        {
+          "label": "Kentang Mustofa Dieng Balado (Toples Segel 250g)",
+          "value": "Rp45.000"
+        },
+        {
+          "label": "Stik Bawang Harum Seledri (Pouch 150g)",
+          "value": "Rp18.000"
+        },
+        {
+          "label": "Sambal Cumi Juara Nanay (Jar Kaca 150g)",
+          "value": "Rp30.000"
+        },
+        {
+          "label": "Paket Hampers & Suplai Event / Oleh-Oleh",
           "value": "Custom Order"
         }
       ]
@@ -76,24 +95,34 @@
   ],
   "gallery": [
     {
-      "image": "/brand/dapur-nanay/dapur-nanay-ig-5.jpg",
+      "image": "/brand/dapur-nanay/dapur-nanay-cheese-stick.webp",
+      "label": "Naytaste Cheese Stick Edam & Cheddar",
+      "caption": "Stik keju renyah gurih keju asli edam dan cheddar pilihan bertekstur empuk tidak keras bersertifikat Halal & P-IRT."
+    },
+    {
+      "image": "/brand/dapur-nanay/dapur-nanay-kentang-mustofa.webp",
+      "label": "Kentang Mustofa Dieng Balado Renyah",
+      "caption": "Kentang Dieng pilihan tanpa rendaman kapur sirih, berpadu bumbu cabai bawang alami matang gurih sedap."
+    },
+    {
+      "image": "/brand/dapur-nanay/dapur-nanay-stik-bawang.webp",
+      "label": "Stik Bawang Daun Seledri Gurih",
+      "caption": "Camilan gurih renyah perpaduan bawang putih dan seledri segar yang cocok untuk teman santap maupun cemilan harian."
+    },
+    {
+      "image": "/brand/dapur-nanay/dapur-nanay-sambal-cumi.webp",
       "label": "Sambal Cumi Juara Dapur Nanay",
-      "caption": "Sensasi pedas gurih potongan cumi segar dengan bumbu rempah melimpah."
+      "caption": "Potongan cumi segar higienis dengan limpahan bumbu cabai rempah pedas mantap dalam kemasan jar praktis."
+    },
+    {
+      "image": "/brand/dapur-nanay/dapur-nanay-retail-display.webp",
+      "label": "Jaringan Distribusi Ritel & Pelatihan Ekspor",
+      "caption": "Produk Dapur Nanay hadir di Tip Top Swalayan, Local Pride Pelindo, Toko Buah 88 Bintaro, Swiss-Belinn Bandara, & Gerai Lengkong."
     },
     {
       "image": "/brand/dapur-nanay/dapur-nanay-ig-12.jpg",
-      "label": "Naytaste di TEI 2026 ICE BSD",
-      "caption": "Camilan sehat praktis tanpa pengawet & MSG resmi hadir di Trade Expo Indonesia."
-    },
-    {
-      "image": "/brand/dapur-nanay/dapur-nanay-ig-21.jpg",
-      "label": "Naytaste Nanay Cheese Stick",
-      "caption": "Stik keju renyah edam & cheddar premium bersertifikasi Halal dan Dinkes."
-    },
-    {
-      "image": "/brand/dapur-nanay/dapur-nanay-ig-17.jpg",
-      "label": "Kentang Mustofa Dieng Balado",
-      "caption": "Olahan kentang Dieng pilihan dengan bumbu balado rempah alami otentik."
+      "label": "Dapur Nanay di TEI 2026 ICE BSD",
+      "caption": "Partisipasi resmi Dapur Nanay (Naytaste) pada pameran dagang internasional Trade Expo Indonesia 2026 binaan Disperindag Tangsel."
     }
   ],
   "actions": [
@@ -108,6 +137,16 @@
       "url": "https://dapurnanay.my.canva.site/dapurnanay-com"
     },
     {
+      "key": "shopee",
+      "label": "Shopee Official · dapurnanay1",
+      "url": "https://shopee.co.id/dapurnanay1"
+    },
+    {
+      "key": "maps",
+      "label": "Google Maps · Dapur Nanay Pamulang",
+      "url": "https://www.google.com/maps/search/?api=1&query=Dapur+Nanay+Pamulang+Tangerang+Selatan"
+    },
+    {
       "key": "instagram",
       "label": "Instagram · @dapur_nanay",
       "url": "https://www.instagram.com/dapur_nanay"
@@ -116,16 +155,6 @@
       "key": "tiktok",
       "label": "TikTok Shop · @dapurnanay",
       "url": "https://www.tiktok.com/@dapurnanay"
-    },
-    {
-      "key": "shopee",
-      "label": "Shopee · dapurnanay1",
-      "url": "https://shopee.co.id/dapurnanay1"
-    },
-    {
-      "key": "maps",
-      "label": "Google Maps & Review",
-      "url": "https://share.google/kdjkbuQ2gsJNaICJo"
     }
   ],
   "verification": {

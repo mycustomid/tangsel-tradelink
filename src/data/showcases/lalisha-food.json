@@ -2,7 +2,7 @@
   "brandLabel": "LALISHA FOOD",
   "tagline": "Instant seblak in Original Kencur and Keju Creamy variants, built for retail and export-market conversations.",
   "eyebrow": "Food / Pantry · Tangerang Selatan",
-  "heroImage": "/brand/tei-batch/lalisha-food.svg",
+  "heroImage": "/brand/lalisha-food/seblak-instan-lalisha-hero.webp",
   "heroFit": "cover",
   "visualMode": "food",
   "palette": {
@@ -52,8 +52,34 @@
     }
   ],
   "commercialBlocks": [],
-  "gallery": [],
+  "gallery": [
+    {
+      "image": "/brand/lalisha-food/seblak-instan-original-kencur.webp",
+      "label": "Seblak Instan Original Kencur",
+      "caption": "Seblak khas nusantara beraroma rempah kencur otentik dengan isian lengkap mie, cuanki tahu, endog lewo, dan pilus cikur."
+    },
+    {
+      "image": "/brand/lalisha-food/seblak-instan-keju-creamy.webp",
+      "label": "Seblak Instan Keju Creamy",
+      "caption": "Sensasi rasa keju yang gurih creamy berpadu pas dengan bumbu rempah pedas dan cabai daun jeruk khas Lalisha Food."
+    }
+  ],
   "actions": [
+    {
+      "key": "whatsapp",
+      "label": "WhatsApp · Haris (Founder)",
+      "url": "https://wa.me/628561317819"
+    },
+    {
+      "key": "whatsapp",
+      "label": "WhatsApp · Admin Order",
+      "url": "https://wa.me/6285779060370"
+    },
+    {
+      "key": "maps",
+      "label": "Google Maps · Lalisha Food Setu",
+      "url": "https://www.google.com/maps/search/?api=1&query=Seblak+Instan+Lalisha+Food+Setu+Tangerang+Selatan"
+    },
     {
       "key": "instagram",
       "label": "Instagram · @lalishafood",
@@ -63,11 +89,6 @@
       "key": "tiktok",
       "label": "TikTok · @lalishafood",
       "url": "https://www.tiktok.com/@lalishafood"
-    },
-    {
-      "key": "whatsapp",
-      "label": "WhatsApp · Lalisha Food",
-      "url": "https://wa.me/6285779060370"
     },
     {
       "key": "website",
@@ -101,7 +122,7 @@
   },
   "performance": {
     "optimizedAt": "2026-10-13",
-    "heroFormat": "svg"
+    "heroFormat": "webp"
   },
   "favicon": "/brand/tei-batch/lalisha-food.svg"
 }

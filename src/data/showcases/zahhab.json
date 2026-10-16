@@ -77,8 +77,8 @@
   "gallery": [
     {
       "image": "/brand/zahhab/zahhab-p-1.jpg",
-      "label": "Koleksi Busana Muslim Zahhab",
-      "caption": "Pilihan busana syari modern dengan material jatuh dan potongan anggun."
+      "label": "Zahhab Opak Imut Collection",
+      "caption": "Koleksi camilan opak singkong renyah Zahhab aneka rasa bersertifikasi Halal dan P-IRT."
     },
     {
       "image": "/brand/zahhab/zahhab-p-7.jpg",
@@ -106,6 +106,11 @@
       "key": "instagram",
       "label": "Instagram · @zahhab_head",
       "url": "https://www.instagram.com/zahhab_head"
+    },
+    {
+      "key": "maps",
+      "label": "Google Maps · Zahhab Tangerang Selatan",
+      "url": "https://www.google.com/maps/search/?api=1&query=Zahhab+Healthy+Drink+Tangerang+Selatan"
     }
   ],
   "verification": {

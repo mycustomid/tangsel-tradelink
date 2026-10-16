@@ -60,35 +60,7 @@
       "body": "Hadir dalam toples kedap udara anti-melempem untuk hampers/oleh-oleh dan standing pouch praktis untuk perjalanan."
     }
   ],
-  "commercialBlocks": [
-    {
-      "title": "Daftar Harga Ritel & Reseller Resmi",
-      "badge": "Cemilannya Para Bangsawan",
-      "note": "Tersedia aneka varian: Kacang Tanah, Kacang Hijau, Rebon, Rebon Spicy, dan Teri. Klik gambar katalog di atas untuk memperbesar.",
-      "items": [
-        {
-          "label": "Peyek Zadul Ekonomis 150g (Semua Varian)",
-          "value": "Ritel 23K · Reseller 18K"
-        },
-        {
-          "label": "Peyek Zadul Kemasan Pouch 150g (Kacang/Hijau/Rebon)",
-          "value": "Ritel 27K · Reseller 22K"
-        },
-        {
-          "label": "Peyek Zadul Ekonomis 250g (Semua Varian)",
-          "value": "Ritel 37K · Reseller 32K"
-        },
-        {
-          "label": "Peyek Mini Toples 180g (Semua Varian)",
-          "value": "Ritel 33K · Reseller 28K"
-        },
-        {
-          "label": "Peyek Zadul Toples 300g (Semua Varian)",
-          "value": "Ritel 65K · Reseller 57K"
-        }
-      ]
-    }
-  ],
+  "commercialBlocks": [],
   "gallery": [
     {
       "image": "/brand/peyek-den-bagus/peyek-pouch-varian-lengkap.webp",
@@ -99,6 +71,11 @@
       "image": "/brand/peyek-den-bagus/peyek-rebon-spicy-artisan.webp",
       "label": "Peyek Rebon Spicy Artisan",
       "caption": "Peyek renyah gurih bertabur udang rebon asli dan irisan daun jeruk segar berstandar P-IRT dan Halal resmi."
+    },
+    {
+      "image": "/brand/peyek-den-bagus/peyek-mimin-retail-display.webp",
+      "label": "Display Ritel & Sertifikasi Resmi",
+      "caption": "Bu Mimin Casmiaty bersama etalase display resmi Peyek Den Bagus bertaraf ritel modern dan bersertifikat Halal, P-IRT, & HAKI."
     },
     {
       "image": "/brand/peyek-den-bagus/peyek-toples-kedap-udara.webp",
@@ -121,6 +98,11 @@
       "key": "shopee",
       "label": "Shopee Official · mimincasmiaty",
       "url": "https://shopee.co.id/mimincasmiaty"
+    },
+    {
+      "key": "maps",
+      "label": "Google Maps · Setu Tangerang Selatan",
+      "url": "https://www.google.com/maps/search/?api=1&query=Peyek+Den+Bagus+Setu+Tangerang+Selatan"
     },
     {
       "key": "instagram",

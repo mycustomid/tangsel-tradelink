@@ -14,7 +14,7 @@ test('Ageman Ecoprint uses client supplied channels and verified public identity
   assert.equal(byLabel['TikTok Shop'], 'https://vt.tokopedia.com/t/ZS926vL7Vkdup-OZqd7/');
   assert.equal(byLabel['YouTube · Ageman Ecoprint'], 'https://www.youtube.com/@agemanecoprint');
   assert.equal(byLabel['Company Profile'], 'https://drive.google.com/drive/folders/1YsGGTu76f3Pdh6BpsLJjH_s-NBfk0DOz?usp=drive_link');
-  assert.equal(byLabel['Google Maps · Ageman'], 'https://share.google/W2hrypk2hTS8xlefp');
+  assert.equal(byLabel['Google Maps · Ageman'], 'https://www.google.com/maps/search/?api=1&query=Ecoprint+Ageman+Tangerang+Selatan');
   assert.equal(research.whatsapp, 'https://wa.me/6281234538838');
   assert.match(research.address, /Puspiptek/);
   assert.ok(config.gallery.length >= 3);

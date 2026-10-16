@@ -149,6 +149,11 @@
       "key": "email",
       "label": "Email · fevy59@gmail.com",
       "url": "mailto:fevy59@gmail.com"
+    },
+    {
+      "key": "maps",
+      "label": "Google Maps · PT Rempah Sumber Rezeki (ShayFara)",
+      "url": "https://www.google.com/maps/search/?api=1&query=PT+Rempah+Sumber+Rezeki+Ciputat+Tangerang+Selatan"
     }
   ],
   "verification": {

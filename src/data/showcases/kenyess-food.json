@@ -43,8 +43,8 @@
       "body": "Racikan otentik pasta bumbu asinan khas Betawi dengan rempah alami pilihan, kacang tanah sangrai gurih, dan asam cuka alami siap saji tanpa pengawet."
     },
     {
-      "title": "Kemania & Kemania Fish (Gluten-Free)",
-      "body": "Inovasi keripik sehat berbahan daun kemangi segar dan ikan kembung kaya protein nabati-hewani yang renyah dan ramah pencernaan."
+      "title": "Kemania Hijau (Sayur) & Kemania Fish Biru (Ikan)",
+      "body": "Dua varian keripik kemangi bebas gluten: Kemania bungkus hijau (100% nabati kemangi) dan Kemania Fish bungkus biru (perpaduan daun kemangi dan ikan laut berprotein)."
     },
     {
       "title": "Bawang Goreng Asli Sumenep (BaGor)",
@@ -66,8 +66,8 @@
           "value": "Kemasan Jar Higienis"
         },
         {
-          "label": "Keripik Kemania & Kemania Fish (Gluten-Free)",
-          "value": "Pouch 100g"
+          "label": "Kemania Hijau (Sayur) & Kemania Fish Biru (Ikan)",
+          "value": "Pouch 100g Gluten-Free"
         },
         {
           "label": "Bawang Goreng Asli Sumenep (BaGor)",
@@ -92,14 +92,14 @@
     },
     {
       "image": "/brand/kenyess-food/kenyess-wa-kemania.jpg",
-      "label": "Keripik Kemania (100% Plant Based)",
-      "caption": "Keripik daun kemangi masa kini 100% nabati dan bebas gluten (gluten-free), renyah alami tanpa MSG maupun pengawet sintetis.",
+      "label": "Keripik Kemania — Bungkus Hijau (100% Sayur Kemangi)",
+      "caption": "Kemania bungkus hijau adalah keripik kemangi original 100% nabati dan bebas gluten (gluten-free), renyah alami tanpa MSG maupun pengawet sintetis.",
       "url": "/brand/kenyess-food/kenyess-wa-kemania.jpg"
     },
     {
       "image": "/brand/kenyess-food/kenyess-wa-kemania-fish.jpg",
-      "label": "Keripik Kemania Fish (Sumber Protein Ikan)",
-      "caption": "Inovasi camilan keripik daun kemangi berpadu olahan daging ikan laut segar bernutrisi tinggi sumber protein alami, renyah dan gurih.",
+      "label": "Keripik Kemania Fish — Bungkus Biru (Dengan Protein Ikan)",
+      "caption": "Kemania Fish kemasan biru memadukan daun kemangi segar dengan olahan ikan laut bernutrisi tinggi sebagai sumber protein alami, gurih dan renyah.",
       "url": "/brand/kenyess-food/kenyess-wa-kemania-fish.jpg"
     },
     {
@@ -114,6 +114,11 @@
       "key": "whatsapp",
       "label": "WhatsApp Order · 0857-8236-2149",
       "url": "https://wa.me/6285782362149"
+    },
+    {
+      "key": "maps",
+      "label": "Google Maps · Kenyess Food Tangsel",
+      "url": "https://www.google.com/maps/search/?api=1&query=Kenyess+Food+Tangerang+Selatan"
     },
     {
       "key": "shopee",

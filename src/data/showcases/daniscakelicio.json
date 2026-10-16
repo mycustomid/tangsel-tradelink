@@ -93,6 +93,16 @@
   ],
   "actions": [
     {
+      "key": "whatsapp",
+      "label": "WhatsApp · Bu Nani (DANISCAKELICIO)",
+      "url": "https://wa.me/628119562887"
+    },
+    {
+      "key": "maps",
+      "label": "Google Maps · Daniscakelicio",
+      "url": "https://www.google.com/maps/search/?api=1&query=Daniscakelicio+Ciputat+Tangerang+Selatan"
+    },
+    {
       "key": "instagram",
       "label": "Instagram · @daniscakelicio",
       "url": "https://www.instagram.com/daniscakelicio"

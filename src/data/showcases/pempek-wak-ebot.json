@@ -55,6 +55,16 @@
   "gallery": [],
   "actions": [
     {
+      "key": "whatsapp",
+      "label": "WhatsApp · Bu Vera (Pempek Wak Ebot)",
+      "url": "https://wa.me/6281382736464"
+    },
+    {
+      "key": "maps",
+      "label": "Google Maps · Pempek Wak Ebot",
+      "url": "https://www.google.com/maps/search/?api=1&query=Pempek+Wak+Ebot+Tangerang+Selatan"
+    },
+    {
       "key": "website",
       "label": "BRIN-linked UMKM project reference",
       "url": "https://fliphtml5.com/adqut/vvmp/2_NDH_07_Naskah_Narasi_Proyek_Perubahan_Syaiful_Bakhri/"

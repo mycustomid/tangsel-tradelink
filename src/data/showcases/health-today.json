@@ -3,6 +3,8 @@
   "tagline": "Produsen Bahan Baku Minuman Premium B2B & Solusi Menu HoReCa Terkemuka.",
   "eyebrow": "Beverage Ingredients & HoReCa Supply · Taman Tekno BSD",
   "heroImage": "/brand/health-today/health-today-asset-1.jpg",
+  "logo": "/brand/health-today/logo.svg",
+  "favicon": "/brand/health-today/logo.svg",
   "heroFit": "contain",
   "visualMode": "beverage",
   "palette": {
@@ -75,8 +77,8 @@
   "gallery": [
     {
       "image": "/brand/health-today/health-today-asset-2.jpg",
-      "label": "Koleksi Bahan Minuman Premium",
-      "caption": "Pilihan sirup artisan dan bahan dasar minuman untuk kafe.",
+      "label": "Gourmet Caramel Sauce Health Today",
+      "caption": "Saus karamel premium kental untuk aneka kreasi gelato, blended beverages, dessert, dan racikan kopi modern.",
       "url": "https://healthtoday.id"
     },
     {

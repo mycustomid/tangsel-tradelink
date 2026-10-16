@@ -76,7 +76,7 @@
   ],
   "gallery": [
     {
-      "image": "/brand/zyvas/zyvas-p-8.jpg",
+      "image": "/brand/zyvas/zyvas-p-15.jpg",
       "label": "Homedress & Daster ZYVAS Dailywear",
       "caption": "Pakaian santai rumah bermotif kekinian dengan bahan katun rayon premium sejuk."
     },
@@ -111,6 +111,11 @@
       "key": "instagram",
       "label": "Instagram Dailywear · @zyvas.dailywear",
       "url": "https://www.instagram.com/zyvas.dailywear"
+    },
+    {
+      "key": "maps",
+      "label": "Google Maps · ZYVAS Tangerang Selatan",
+      "url": "https://www.google.com/maps/search/?api=1&query=ZYVAS+Tangerang+Selatan"
     }
   ],
   "verification": {

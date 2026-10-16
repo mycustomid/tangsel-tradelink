@@ -7,7 +7,7 @@ const page = fs.readFileSync(new URL('../src/pages/tenant/rumah-batik-setu.astro
 
 test('Rumah Batik Setu has a premium direct route with supplied Instagram and Maps links', () => {
   assert.equal(config.actions[0].url, 'https://www.instagram.com/rumahbatiksetu/');
-  assert.equal(config.actions[1].url, 'https://share.google/kzvdtx47TCfX9K5Tu');
+  assert.equal(config.actions[1].url, 'https://www.google.com/maps/search/?api=1&query=Rumah+Batik+Setu+Tangerang+Selatan');
   assert.ok(config.gallery.length >= 3);
   assert.match(page, /EnhancedRichTenantShowcase/);
   assert.match(page, /rumah-batik-setu-wordmark\.svg/);

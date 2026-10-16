@@ -63,6 +63,11 @@
       "key": "website",
       "label": "InaExport · Tokibi / PT Agrova Harmoni Lestari",
       "url": "https://www.inaexport.id/front_end/listeksportir/cetakpdfnew/237476"
+    },
+    {
+      "key": "maps",
+      "label": "Google Maps · Tokibi Coffee Tangsel",
+      "url": "https://www.google.com/maps/search/?api=1&query=Tokibi+Coffee+Tangerang+Selatan"
     }
   ],
   "verification": {

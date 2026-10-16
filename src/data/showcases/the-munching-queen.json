@@ -94,8 +94,8 @@
     },
     {
       "image": "/brand/the-munching-queen/munching-brownies-pack.png",
-      "label": "Crispy Brownies Chocolate",
-      "caption": "Brownies panggang renyah cokelat murni rendah minyak ramah anak bersertifikat Halal & BPOM resmi."
+      "label": "Crispy Brownies White Chocochips 35g",
+      "caption": "Brownies panggang renyah cokelat Belgia bertabur white chocochips, bebas gluten dan rendah minyak bersertifikat Halal & BPOM resmi."
     },
     {
       "image": "/brand/the-munching-queen/munching-tempeh-pack.png",
@@ -128,6 +128,11 @@
       "key": "website",
       "label": "Corporate Site · Cahaya Kencana",
       "url": "https://cahaya-kencana.com"
+    },
+    {
+      "key": "maps",
+      "label": "Google Maps · UD Cahaya Kencana (The Munching Queen)",
+      "url": "https://www.google.com/maps/search/?api=1&query=UD+Cahaya+Kencana+Surabaya"
     }
   ],
   "verification": {

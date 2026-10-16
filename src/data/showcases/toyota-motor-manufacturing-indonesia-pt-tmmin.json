@@ -90,6 +90,11 @@
       "key": "website",
       "label": "Factory Network",
       "url": "https://www.toyota.co.id/en/manufacturing/factory"
+    },
+    {
+      "key": "maps",
+      "label": "Google Maps · PT TMMIN Karawang Plant",
+      "url": "https://www.google.com/maps/search/?api=1&query=PT+Toyota+Motor+Manufacturing+Indonesia+Karawang"
     }
   ],
   "favicon": "/brand/toyota-motor-manufacturing-indonesia-pt-tmmin/favicon.svg"

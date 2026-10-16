@@ -126,6 +126,11 @@
       "key": "catalog",
       "label": "Inquire Official Catalog & Compro (PDF)",
       "url": "https://wa.me/6281314007827?text=Halo%20Ninauka,%20saya%20tertarik%20dengan%20katalog%20tas%20dan%20clutch%20ekspor%20TEI%202026."
+    },
+    {
+      "key": "maps",
+      "label": "Google Maps · Ninauka BSD City",
+      "url": "https://www.google.com/maps/search/?api=1&query=Ninauka+BSD+City+Tangerang+Selatan"
     }
   ],
   "verification": {

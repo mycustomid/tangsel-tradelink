@@ -62,9 +62,9 @@
       "caption": "Snack keripik tempe renyah gurih bergizi tinggi kaya protein nabati."
     },
     {
-      "image": "/brand/tempe-azaki/frozen-tempeh.jpg",
-      "label": "Frozen Premium Tempeh",
-      "caption": "Tempe beku higienis bersertifikasi FSSC 22000, BPOM, dan US FDA."
+      "image": "/brand/tempe-azaki/frozen-tempeh-jepang.jpg",
+      "label": "Frozen Premium Tempeh (Export Japan & Global)",
+      "caption": "Tempe beku higienis bersertifikasi FSSC 22000, BPOM, dan US FDA untuk pasar ekspor Jepang dan mancanegara."
     }
   ],
   "actions": [
@@ -87,6 +87,11 @@
       "key": "whatsapp",
       "label": "WhatsApp",
       "url": "https://wa.me/6281315441691"
+    },
+    {
+      "key": "maps",
+      "label": "Google Maps · Rumah Tempe Azaki",
+      "url": "https://www.google.com/maps/search/?api=1&query=Rumah+Tempe+Azaki"
     }
   ],
   "favicon": "/brand/tempe-azaki/favicon.svg"

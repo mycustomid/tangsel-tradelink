@@ -87,6 +87,11 @@
       "key": "whatsapp",
       "label": "WhatsApp",
       "url": "https://wa.me/628111920770"
+    },
+    {
+      "key": "maps",
+      "label": "Google Maps · PT Tatalogam Lestari",
+      "url": "https://www.google.com/maps/search/?api=1&query=PT+Tatalogam+Lestari"
     }
   ],
   "logo": "/brand/tatalogam-lestari-pt/tatalogam-logo.png",

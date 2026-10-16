@@ -66,8 +66,8 @@
     },
     {
       "key": "maps",
-      "label": "Cosmar location / FAQ",
-      "url": "https://ptcosmar.com/faq/"
+      "label": "Google Maps · PT Cosmar BSD",
+      "url": "https://www.google.com/maps/search/?api=1&query=PT+Cosmar+Taman+Tekno+BSD+Tangerang+Selatan"
     }
   ],
   "verification": {

@@ -68,6 +68,11 @@
       "key": "website",
       "label": "Apotek Mandjur · IKUZEN NoSpin",
       "url": "https://www.mandjur.co.id/products/ikuzen-nospin-inhaler"
+    },
+    {
+      "key": "maps",
+      "label": "Google Maps · Shirudo Lab Tangerang Selatan",
+      "url": "https://www.google.com/maps/search/?api=1&query=Shirudo+Lab+Tangerang+Selatan"
     }
   ],
   "verification": {

@@ -92,6 +92,11 @@
       "key": "whatsapp",
       "label": "WhatsApp",
       "url": "https://wa.me/628152556555"
+    },
+    {
+      "key": "maps",
+      "label": "Google Maps · Sanfood Cisauk",
+      "url": "https://www.google.com/maps/search/?api=1&query=Sanfood+Prima+Makmur+Cisauk+Tangerang"
     }
   ],
   "favicon": "/brand/sanfood-internasional/favicon.svg"

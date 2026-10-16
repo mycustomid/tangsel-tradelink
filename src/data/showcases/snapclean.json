@@ -110,6 +110,11 @@
       "key": "website",
       "label": "Profil PT Satu Nusa Biru",
       "url": "https://satunusabiru.com/"
+    },
+    {
+      "key": "maps",
+      "label": "Google Maps · Snap Clean Tangsel",
+      "url": "https://www.google.com/maps/search/?api=1&query=Snap+Clean+Tangerang+Selatan"
     }
   ],
   "verification": {

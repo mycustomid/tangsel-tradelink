@@ -68,6 +68,11 @@
       "key": "website",
       "label": "Plaza Banten · Dodol Haji Imang",
       "url": "https://plazabanten.com/shopView/216"
+    },
+    {
+      "key": "maps",
+      "label": "Google Maps · Dodol Betawi Hj Imang",
+      "url": "https://www.google.com/maps/search/?api=1&query=Dodol+Betawi+Haji+Imang+Setu+Tangerang+Selatan"
     }
   ],
   "verification": {

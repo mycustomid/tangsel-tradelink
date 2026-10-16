@@ -128,6 +128,11 @@
       "key": "tiktok",
       "label": "TikTok · @snacksantuy_official",
       "url": "https://www.tiktok.com/@snacksantuy_official"
+    },
+    {
+      "key": "maps",
+      "label": "Google Maps · Snack Santuy (ICE BSD TEI 2026)",
+      "url": "https://www.google.com/maps/search/?api=1&query=Indonesia+Convention+Exhibition+ICE+BSD+City"
     }
   ],
   "verification": {

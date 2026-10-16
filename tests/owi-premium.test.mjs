@@ -9,7 +9,7 @@ test('Owi Rajut uses a premium editorial showcase instead of the generic tenant 
   assert.equal(config.brandLabel, 'OWI RAJUT');
   assert.match(config.heroImage, /owi-rajut-hero\.svg$/);
   assert.equal(config.actions[0].url, 'https://www.instagram.com/owi.rajut/');
-  assert.equal(config.actions[1].url, 'https://share.google/Ene44rW2OTbtqHg39');
+  assert.equal(config.actions[1].url, 'https://www.google.com/maps/search/?api=1&query=Owi+Rajut+Tangerang+Selatan');
   assert.ok(config.gallery.length >= 3);
   assert.match(page, /import owiRajutShowcase/);
   assert.match(page, /'owi-rajut': owiRajutShowcase/);
