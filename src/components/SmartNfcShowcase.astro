@@ -239,8 +239,18 @@ const quickLabel = (action: any, index: number) => {
           const rawCaption = typeof item === 'string' ? '' : item.caption;
           const image = resolveAsset(rawSrc);
           const isContain = item.fit === 'contain';
+          const rawUrl = typeof item === 'object' ? item.url : null;
+          const isExternal = rawUrl && (rawUrl.startsWith('http://') || rawUrl.startsWith('https://'));
+          const url = rawUrl ? resolveAsset(rawUrl) : null;
+          const captionText = rawCaption ? `${rawLabel} — ${rawCaption}` : rawLabel;
+
           const figure = (
-            <figure class="gallery-card">
+            <figure
+              class:list={['gallery-card', !isExternal && image && 'js-lightbox-trigger']}
+              data-full-img={!isExternal && image ? image : undefined}
+              data-caption={!isExternal && image ? captionText : undefined}
+              style={!isExternal && image ? 'cursor:zoom-in' : undefined}
+            >
               <div class="gallery-img-wrap" style={item.aspectRatio ? `aspect-ratio:${item.aspectRatio}` : undefined}>
                 {image && (
                   <>
@@ -275,9 +285,14 @@ const quickLabel = (action: any, index: number) => {
               </figcaption>
             </figure>
           );
-          const rawUrl = typeof item === 'object' ? item.url : null;
-          const url = rawUrl ? resolveAsset(rawUrl) : null;
-          return url ? <a href={url} target="_blank" rel="noopener noreferrer">{figure}</a> : figure;
+
+          return isExternal && url ? (
+            <a href={url} target="_blank" rel="noopener noreferrer">
+              {figure}
+            </a>
+          ) : (
+            figure
+          );
         })}
       </div>
     </section>
@@ -567,10 +582,11 @@ const quickLabel = (action: any, index: number) => {
     .commercial-card{border-radius:20px}
     .action-grid a{min-height:56px}
     .nfc-footer{flex-direction:column}
-    .gallery{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch;scrollbar-width:none;gap:12px;margin-inline:-16px;padding:0 16px 12px}
+    .gallery{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch;scrollbar-width:none;gap:14px;margin-inline:-16px;padding:0 16px 14px}
     .gallery::-webkit-scrollbar{display:none}
-    .gallery>a,.gallery>figure{flex:0 0 min(84vw,340px);scroll-snap-align:center;display:flex;flex-direction:column}
-    .gallery figure.gallery-card{height:100%;flex:1}
+    .gallery>a,.gallery>figure,.gallery>.gallery-card{flex:0 0 min(84vw,340px)!important;min-width:min(84vw,340px)!important;max-width:min(84vw,340px)!important;width:min(84vw,340px)!important;flex-shrink:0!important;scroll-snap-align:center;display:flex;flex-direction:column}
+    .gallery>a>figure.gallery-card{height:100%;width:100%;flex:1 1 auto}
+    .gallery>figure.gallery-card{height:auto;width:100%}
     .mobile-quick{position:fixed;z-index:80;left:12px;right:12px;bottom:max(12px,env(safe-area-inset-bottom));display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;padding:8px;border:1px solid color-mix(in srgb,var(--nfc-ink) 14%,transparent);border-radius:20px;background:color-mix(in srgb,var(--nfc-bg) 92%,transparent);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);box-shadow:0 16px 44px rgba(0,0,0,.18);transition:transform .4s cubic-bezier(0.16,1,0.3,1)}
     .mobile-quick a{min-height:52px;display:flex;align-items:center;justify-content:center;gap:8px;border-radius:14px;color:var(--nfc-ink);text-decoration:none;font-size:.78rem;font-weight:850;touch-action:manipulation;-webkit-tap-highlight-color:transparent;transition:transform .15s cubic-bezier(0.2,0,0,1)}
     .mobile-quick a:active{transform:scale(0.96)}
