@@ -18,7 +18,7 @@
   },
   "story": {
     "title": "Camilan Gurih Premium Olahan Keju Edam & Cheddar Berkualitas Ekspor.",
-    "body": "Dapur Nanay (Naytaste) dirintis oleh Ibu Amalia di Pamulang, Tangerang Selatan sejak tahun 2019. Memproduksi aneka camilan gurih premium seperti Cheese Stick dengan kombinasi keju Edam tua dan cheddar asli tanpa perisa kimia, serta Kentang Mustofa Dieng renyah alami tanpa rendaman kapur sirih. Seluruh produk menggunakan bahan alami pilihan dan minyak baru berkualitas tinggi yang aman dikonsumsi anak-anak hingga lansia. Memiliki legalitas lengkap (NIB, HAKI, Halal BPJPH/MUI, SPP-IRT, PKP, dan Laik Higiene) dan telah menembus pasar ritel modern (Tip Top Swalayan, Local Pride Pelindo, Toko Buah 88 Bintaro, Swiss-Belinn Bandara) serta pameran internasional Trade Expo Indonesia (TEI) 2026."
+    "body": "Dapur Nanay (Naytaste) dirintis oleh Ibu Amalia di Pamulang, Tangerang Selatan sejak tahun 2019. Menghadirkan aneka camilan gurih berkualitas seperti Naytaste Cheese Stick dengan perpaduan keju Edam tua dan cheddar asli pilihan, serta Kentang Mustofa Dieng renyah berbumbu alami. Seluruh produk diolah higienis menggunakan bahan berkualitas dengan legalitas lengkap (NIB, HAKI, Halal BPJPH/MUI, SPP-IRT, PKP, dan Sertifikat Laik Higiene). Produk Naytaste telah dipercaya menembus berbagai pusat oleh-oleh dan ritel modern ternama seperti Toko Oleh-oleh Krisna Jogja, Transmart, K3Mart, Tip Top Swalayan, Local Pride Pelindo, Toko Buah 88 Bintaro, dan Swiss-Belinn Bandara, serta tampil resmi di Trade Expo Indonesia (TEI) 2026 dengan kehormatan kunjungan langsung dari Menteri Perdagangan RI Budi Santoso dan Wakil Menteri Perdagangan RI Dyah Roro Esti."
   },
   "stats": [
     {
@@ -27,15 +27,15 @@
     },
     {
       "value": "Dieng Alami",
-      "label": "Kentang Mustofa Tanpa Kapur Sirih & Bumbu Alami"
+      "label": "Kentang Mustofa Renyah Gurih Bumbu Alami"
     },
     {
-      "value": "Ritel Modern",
-      "label": "Mitra Tip Top, Pelindo, Toko Buah 88 & Swiss-Belinn"
+      "value": "Mitra Ritel",
+      "label": "Krisna Jogja, Transmart, K3Mart & Tip Top"
     },
     {
-      "value": "TEI 2026",
-      "label": "Peserta Binaan Resmi Disperindag Tangsel di ICE BSD"
+      "value": "Kunjungan Mendag",
+      "label": "Apresiasi Mendag & Wamendag RI di TEI 2026"
     }
   ],
   "highlights": [
@@ -116,13 +116,13 @@
     },
     {
       "image": "/brand/dapur-nanay/dapur-nanay-retail-display.webp",
-      "label": "Jaringan Distribusi Ritel & Pelatihan Ekspor",
-      "caption": "Produk Dapur Nanay hadir di Tip Top Swalayan, Local Pride Pelindo, Toko Buah 88 Bintaro, Swiss-Belinn Bandara, & Gerai Lengkong."
+      "label": "Jaringan Distribusi Ritel & Pusat Oleh-Oleh",
+      "caption": "Produk Naytaste hadir di Toko Oleh-oleh Krisna Jogja, Transmart, K3Mart, Tip Top Swalayan, Local Pride Pelindo, Toko Buah 88 Bintaro, dan Swiss-Belinn Bandara."
     },
     {
       "image": "/brand/dapur-nanay/dapur-nanay-ig-12.jpg",
-      "label": "Dapur Nanay di TEI 2026 ICE BSD",
-      "caption": "Partisipasi resmi Dapur Nanay (Naytaste) pada pameran dagang internasional Trade Expo Indonesia 2026 binaan Disperindag Tangsel."
+      "label": "Kunjungan Resmi Mendag & Wamendag RI di TEI 2026",
+      "caption": "Partisipasi resmi Dapur Nanay (Naytaste) pada Trade Expo Indonesia 2026 di ICE BSD dengan kunjungan kehormatan dari Menteri Perdagangan RI Budi Santoso dan Wakil Menteri Perdagangan RI Dyah Roro Esti."
     }
   ],
   "actions": [

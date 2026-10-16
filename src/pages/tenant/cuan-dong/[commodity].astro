@@ -1,0 +1,1829 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import commodities from '../../../data/cuan-dong-commodities.json';
+
+export function getStaticPaths() {
+  return commodities.map((commodity) => ({
+    params: { commodity: commodity.slug },
+    props: { commodity },
+  }));
+}
+
+interface Commodity {
+  id: string;
+  slug: string;
+  title: string;
+  brand: string;
+  category: string;
+  hsCode: string;
+  origin: string;
+  harvestSeason: string;
+  shortDescription: string;
+  fullDescription: string;
+  gradesAvailable: string[];
+  physicalChemicalSpecs: Record<string, string>;
+  packagingOptions: string[];
+  containerLoadability: Record<string, string>;
+  certifications: string[];
+  minOrderQuantity: string;
+  supplyCapacity: string;
+  incoTerms: string[];
+  loadingPort: string;
+  leadTime: string;
+  seo: {
+    title: string;
+    metaDescription: string;
+    primaryKeywords: string[];
+    secondaryKeywords: string[];
+  };
+  rfqAction: {
+    desk: string;
+    whatsappNumber: string;
+    prefilledText: string;
+    whatsappUrl: string;
+  };
+}
+
+const { commodity } = Astro.props as { commodity: Commodity };
+const baseUrl = import.meta.env.BASE_URL || '/';
+const normalizedBase = String(baseUrl).replace(/\/$/, '');
+const showcaseUrl = `${normalizedBase}/tenant/cuan-dong`;
+const canonicalPath = `${normalizedBase}/tenant/cuan-dong/${commodity.slug}`;
+
+const categoryImageMap: Record<string, string> = {
+  'Cocoa Derivatives': '/brand/cuan-dong/cuan-dong-cocoa.jpg',
+  'Indonesian Spices': '/brand/cuan-dong/cuan-dong-spices.jpg',
+  'Coconut Derivatives': '/brand/cuan-dong/cuan-dong-coconut.jpg',
+  'Marine & Seafood': '/brand/cuan-dong/cuan-dong-shipping.jpg',
+};
+
+const heroImagePath = categoryImageMap[commodity.category] || '/brand/cuan-dong/cuan-dong-hero.jpg';
+const resolvedHeroImage = `${normalizedBase}${heroImagePath}`;
+const resolvedLogo = `${normalizedBase}/brand/cuan-dong/cuan-dong-logo.png`;
+const resolvedFavicon = `${normalizedBase}/brand/cuan-dong/cuan-dong-favicon.png`;
+
+const specLabelOverrides: Record<string, string> = {
+  moistureContent: 'Moisture Content',
+  beanCountPer100g: 'Bean Count (per 100g)',
+  fermentationDegree: 'Fermentation Degree',
+  fatContentCocoaButter: 'Fat Content (Cocoa Butter)',
+  freeFattyAcidsFFA: 'Free Fatty Acids (FFA)',
+  pHValue: 'pH Value',
+  slatyBeansUnfermented: 'Slaty / Unfermented Beans',
+  moldyBeans: 'Moldy Beans',
+  insectDamagedBeans: 'Insect-Damaged Beans',
+  germinatedBeans: 'Germinated Beans',
+  wasteForeignMatter: 'Waste & Foreign Matter',
+  heavyMetalsLeadPb: 'Heavy Metals — Lead (Pb)',
+  heavyMetalsCadmiumCd: 'Heavy Metals — Cadmium (Cd)',
+  heavyMetalsArsenicAs: 'Heavy Metals — Arsenic (As)',
+  heavyMetalsMercuryHg: 'Heavy Metals — Mercury (Hg)',
+  fatContent: 'Fat Content',
+  finenessThrough200Mesh: 'Fineness (Through 200 Mesh)',
+  totalAsh: 'Total Ash',
+  acidInsolubleAsh: 'Acid-Insoluble Ash',
+  shellContent: 'Shell Content',
+  totalPlateCountTPC: 'Total Plate Count (TPC)',
+  yeastAndMold: 'Yeast & Mold',
+  enterobacteriaceae: 'Enterobacteriaceae',
+  escherichiaColi: 'Escherichia coli (E. coli)',
+  salmonella: 'Salmonella',
+  moistureAndVolatiles: 'Moisture & Volatiles',
+  slipMeltingPoint: 'Slip Melting Point',
+  iodineValue: 'Iodine Value',
+  saponificationValue: 'Saponification Value',
+  refractiveIndex40C: 'Refractive Index (@ 40°C)',
+  unsaponifiableMatter: 'Unsaponifiable Matter',
+  peroxideValue: 'Peroxide Value',
+  solidFatContentSFC20C: 'Solid Fat Content (SFC @ 20°C)',
+  solidFatContentSFC25C: 'Solid Fat Content (SFC @ 25°C)',
+  solidFatContentSFC30C: 'Solid Fat Content (SFC @ 30°C)',
+  solidFatContentSFC35C: 'Solid Fat Content (SFC @ 35°C)',
+  blueValue: 'Blue Value',
+  aerobicPlateCount: 'Aerobic Plate Count',
+  volatileOilContent: 'Volatile Oil Content',
+  cinnamaldehydeInOil: 'Cinnamaldehyde in Oil',
+  extraneousForeignMatter: 'Extraneous / Foreign Matter',
+  moldContamination: 'Mold Contamination',
+  insectDefilingExcreta: 'Insect Defiling / Excreta',
+  coumarinContent: 'Coumarin Content',
+  leadPb: 'Lead (Pb)',
+  eColi: 'Escherichia coli (E. coli)',
+  podDiameterSize: 'Pod Diameter Size',
+  openSplitPods: 'Open / Split Pods',
+  emptyImmaturePods: 'Empty / Immature Pods',
+  foreignMatterStems: 'Foreign Matter & Stems',
+  bulkDensity: 'Bulk Density',
+  insectDamageInfestation: 'Insect Damage & Infestation',
+  vanillinContent: 'Vanillin Content (Dry Basis)',
+  moistureContentGourmet: 'Moisture Content (Gourmet Grade)',
+  moistureContentExtract: 'Moisture Content (Extract Grade)',
+  podLengthGradeA: 'Pod Length (Grade A)',
+  podLengthGradeB: 'Pod Length (Grade B)',
+  colorAndAppearance: 'Color & Appearance',
+  texture: 'Physical Texture',
+  moldAndInsectContamination: 'Mold & Insect Contamination',
+  totalPlateCount: 'Total Plate Count',
+  eugenolPurityInOil: 'Eugenol Purity in Oil',
+  headlessCloves: 'Headless Cloves Tolerance',
+  stemsAndForeignMatter: 'Stems & Foreign Matter',
+  immatureBabyCloves: 'Immature / Baby Cloves',
+  moldyOrFermentedCloves: 'Moldy or Fermented Cloves',
+  insectDamagedCloves: 'Insect-Damaged Cloves',
+  oilContentDryBasis: 'Oil Content (Dry Basis)',
+  moistureContentEdible: 'Moisture Content (White Edible)',
+  moistureContentMilling: 'Moisture Content (Milling Grade)',
+  freeFattyAcidFFAEdible: 'Free Fatty Acid (FFA — Edible)',
+  freeFattyAcidFFAMilling: 'Free Fatty Acid (FFA — Milling)',
+  rubberyImmatureCups: 'Rubbery / Immature Cups',
+  smokyOrBurntCups: 'Smoky or Burnt Cups',
+  moldyDiscoloredCups: 'Moldy / Discolored Cups',
+  foreignMatter: 'Foreign Matter',
+  aflatoxinContent: 'Total Aflatoxin Content',
+  appearanceEdible: 'Appearance (Edible Grade)',
+  crudeProteinDryBasis: 'Crude Protein (Dry Basis)',
+  crudeFatResidualOil: 'Crude Fat / Residual Oil',
+  crudeFiber: 'Crude Fiber',
+  sandSilica: 'Sand & Silica (Acid-Insoluble)',
+  metabolizableEnergy: 'Metabolizable Energy (ME)',
+  aflatoxinB1: 'Aflatoxin B1 Limit',
+  melamineAndUrea: 'Melamine & Non-Protein Nitrogen',
+  fishSpecies: 'Marine Fish Species',
+  fishCut: 'Fish Dressing & Cut Spec',
+  netWeightOptions: 'Net Weight Options',
+  drainedWeightFishContent: 'Drained Weight (Fish Content)',
+  fishPieceCount: 'Fish Piece Count per Tin',
+  vacuumLevel: 'Internal Can Vacuum Level',
+  histamineContent: 'Histamine Level',
+  commercialSterility: 'Commercial Sterility (Retort)',
+  tinplateCanSpec: 'Tinplate Can & Lacquer Spec',
+  shelfLife: 'Guaranteed Shelf Life',
+};
+
+const formatSpecKey = (key: string) => {
+  if (specLabelOverrides[key]) return specLabelOverrides[key];
+  return key
+    .replace(/([A-Z])/g, ' $1')
+    .replace(/^./, (s) => s.toUpperCase())
+    .trim();
+};
+
+const containerLabelOverrides: Record<string, string> = {
+  fcl20ft: '20ft FCL Standard Loadability',
+  fcl40ft: '40ft FCL Standard Loadability',
+  fcl40ftHC: '40ft High Cube (HC) Loadability',
+  fcl20ftSolidCartons: '20ft FCL (Solid Block Cartons)',
+  fcl20ftFlexitankLiquid: '20ft FCL (Liquid Flexitank)',
+  fcl40ftReeferDry: '40ft FCL (Reefer / Dry Container)',
+  fcl20ftQuillsSticks: '20ft FCL (Cut Quills & Sticks)',
+  fcl20ftBrokenBales: '20ft FCL (Hydraulic Pressed Bales)',
+  fcl40ftHCBrokenBales: '40ft HC (Hydraulic Pressed Bales)',
+  fcl40ftHCQuillsSticks: '40ft HC (Cut Quills & Sticks)',
+  airFreightLCL: 'Air Cargo / LCL Consolidation',
+  fcl20ftDry: '20ft Dry Container (Vacuum Cartons)',
+  fcl20ftBags: '20ft FCL (Bagged Stowage)',
+  fcl40ftHCBags: '40ft HC (Bagged Stowage)',
+  fcl40ftHCLooseBulk: '40ft HC (Loose Bulk Liner)',
+  fcl20ft50kgBags: '20ft FCL (50 kg Woven PP Bags)',
+  fcl20ftJumboBags: '20ft FCL (1,000 kg FIBC Jumbo Bags)',
+  fcl40ftHC50kgBagsBulk: '40ft HC (50 kg Bags / Bulk)',
+  fcl20ft155gCartons: '20ft FCL (155g Club/Round Tins)',
+  fcl20ft425gCartons: '20ft FCL (425g Tall/Oval Tins)',
+};
+
+const formatContainerKey = (key: string) => {
+  if (containerLabelOverrides[key]) return containerLabelOverrides[key];
+  return key
+    .replace(/([A-Z])/g, ' $1')
+    .replace(/^./, (s) => s.toUpperCase())
+    .trim();
+};
+
+const primary20ft =
+  commodity.containerLoadability.fcl20ft ||
+  Object.entries(commodity.containerLoadability).find(([k]) => k.toLowerCase().includes('20ft'))?.[1] ||
+  Object.values(commodity.containerLoadability)[0];
+
+const primary40ft =
+  commodity.containerLoadability.fcl40ft ||
+  commodity.containerLoadability.fcl40ftHC ||
+  Object.entries(commodity.containerLoadability).find(([k]) => k.toLowerCase().includes('40ft'))?.[1] ||
+  'Custom FCL / Air Consolidation';
+
+const specEntries = Object.entries(commodity.physicalChemicalSpecs);
+const loadabilityEntries = Object.entries(commodity.containerLoadability);
+const relatedCommodities = commodities.filter((item) => item.slug !== commodity.slug);
+
+const emailSubject = encodeURIComponent(`RFQ Inquiry: ${commodity.title} (HS ${commodity.hsCode}) — CUAN-DONG Global Holdings`);
+const emailBody = encodeURIComponent(commodity.rfqAction.prefilledText);
+const mailtoUrl = `mailto:cuandongholdings@gmail.com?subject=${emailSubject}&body=${emailBody}`;
+
+const structuredData = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: 'CUAN-DONG Global Holdings',
+    url: 'https://cuan-dong.com/',
+    email: 'cuandongholdings@gmail.com',
+    telephone: '+62-813-1723-0957',
+    address: {
+      '@type': 'PostalAddress',
+      addressLocality: 'Tangerang Selatan',
+      addressRegion: 'Banten',
+      addressCountry: 'ID',
+    },
+    sameAs: ['https://www.instagram.com/cuandong_holdings'],
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Product',
+    name: commodity.title,
+    description: commodity.fullDescription,
+    sku: `CDGH-${commodity.id.toUpperCase()}`,
+    mpn: `HS-${commodity.hsCode}`,
+    category: commodity.category,
+    countryOfOrigin: {
+      '@type': 'Country',
+      name: 'Indonesia',
+    },
+    brand: {
+      '@type': 'Brand',
+      name: commodity.brand,
+    },
+    manufacturer: {
+      '@type': 'Organization',
+      name: 'CUAN-DONG Global Holdings',
+      url: 'https://cuan-dong.com/',
+    },
+    additionalProperty: [
+      {
+        '@type': 'PropertyValue',
+        name: 'HS Code',
+        value: commodity.hsCode,
+      },
+      {
+        '@type': 'PropertyValue',
+        name: 'Origin',
+        value: commodity.origin,
+      },
+      {
+        '@type': 'PropertyValue',
+        name: 'Minimum Order Quantity (MOQ)',
+        value: commodity.minOrderQuantity,
+      },
+      {
+        '@type': 'PropertyValue',
+        name: 'Monthly Supply Capacity',
+        value: commodity.supplyCapacity,
+      },
+      {
+        '@type': 'PropertyValue',
+        name: 'Loading Port',
+        value: commodity.loadingPort,
+      },
+    ],
+    offers: {
+      '@type': 'Offer',
+      availability: 'https://schema.org/InStock',
+      priceCurrency: 'USD',
+      priceSpecification: {
+        '@type': 'PriceSpecification',
+        priceCurrency: 'USD',
+        eligibleQuantity: {
+          '@type': 'QuantitativeValue',
+          name: commodity.minOrderQuantity,
+        },
+      },
+      seller: {
+        '@type': 'Organization',
+        name: 'CUAN-DONG Global Holdings',
+        url: 'https://cuan-dong.com/',
+      },
+    },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'ItemPage',
+    name: commodity.seo.title,
+    description: commodity.seo.metaDescription,
+    inLanguage: 'en',
+    mainEntity: {
+      '@type': 'Product',
+      name: commodity.title,
+      sku: `CDGH-${commodity.id.toUpperCase()}`,
+    },
+  },
+];
+---
+
+<BaseLayout
+  title={commodity.seo.title}
+  description={commodity.seo.metaDescription}
+  favicon={resolvedFavicon}
+  canonical={canonicalPath}
+  image={heroImagePath}
+  theme="industrial"
+  structuredData={structuredData}
+>
+  <div class="cd-page" lang="en">
+    <!-- Top Institutional Navigation Bar -->
+    <header class="cd-topbar">
+      <div class="cd-container cd-topbar-inner">
+        <div class="cd-topbar-left">
+          <a href={showcaseUrl} class="cd-back-link" aria-label="Back to CUAN-DONG Global Holdings Showcase">
+            <span class="cd-back-arrow" aria-hidden="true">←</span>
+            <span>CUAN-DONG Global Holdings Showcase</span>
+          </a>
+          <span class="cd-divider" aria-hidden="true">/</span>
+          <span class="cd-crumb-current">{commodity.title}</span>
+        </div>
+        <div class="cd-topbar-right">
+          <span class="cd-booth-pill">TEI 2026 · Hall 8 · Booth 8-7C</span>
+          <a href="https://cuan-dong.com/" target="_blank" rel="noopener noreferrer" class="cd-official-link">
+            <span>cuan-dong.com</span>
+            <b aria-hidden="true">↗</b>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main class="cd-main">
+      <!-- Hero Section -->
+      <section class="cd-hero" aria-labelledby="commodity-heading">
+        <div class="cd-container cd-hero-grid">
+          <div class="cd-hero-content">
+            <div class="cd-badge-row">
+              <span class="cd-badge cd-badge-category">{commodity.category}</span>
+              <span class="cd-badge cd-badge-hs">HS CODE: {commodity.hsCode}</span>
+              <span class="cd-badge cd-badge-verified">EXPORT READY · COA VERIFIED</span>
+            </div>
+
+            <h1 id="commodity-heading" class="cd-title">{commodity.title}</h1>
+
+            <div class="cd-origin-bar">
+              <div class="cd-origin-item">
+                <span class="cd-meta-label">ORIGINPROVENANCE</span>
+                <strong class="cd-meta-value">{commodity.origin}</strong>
+              </div>
+              <div class="cd-origin-item">
+                <span class="cd-meta-label">HARVEST / PRODUCTION WINDOW</span>
+                <strong class="cd-meta-value">{commodity.harvestSeason}</strong>
+              </div>
+            </div>
+
+            <p class="cd-short-desc">{commodity.shortDescription}</p>
+            <p class="cd-full-desc">{commodity.fullDescription}</p>
+
+            <div class="cd-cta-group" role="group" aria-label="Direct B2B RFQ Actions">
+              <a
+                href={commodity.rfqAction.whatsappUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="cd-btn cd-btn-primary"
+              >
+                <span class="cd-btn-dot" aria-hidden="true"></span>
+                <span>Inquire via WhatsApp Desk · +62 813-1723-0957</span>
+                <b aria-hidden="true">↗</b>
+              </a>
+              <a
+                href={mailtoUrl}
+                class="cd-btn cd-btn-secondary"
+              >
+                <span>Email RFQ · cuandongholdings@gmail.com</span>
+                <b aria-hidden="true">✉</b>
+              </a>
+            </div>
+          </div>
+
+          <aside class="cd-hero-aside" aria-label="Export Dossier Summary">
+            <div class="cd-dossier-card">
+              <div class="cd-dossier-media">
+                <img
+                  src={resolvedHeroImage}
+                  alt={`${commodity.title} — ${commodity.brand}`}
+                  width="800"
+                  height="520"
+                  loading="eager"
+                  decoding="async"
+                  fetchpriority="high"
+                />
+                <div class="cd-dossier-overlay">
+                  <img
+                    src={resolvedLogo}
+                    alt="CUAN-DONG Global Holdings"
+                    class="cd-dossier-logo"
+                    width="120"
+                    height="40"
+                    loading="eager"
+                  />
+                  <span class="cd-dossier-tag">INSTITUTIONAL EXPORT DOSSIER</span>
+                </div>
+              </div>
+
+              <div class="cd-dossier-body">
+                <div class="cd-dossier-header">
+                  <span class="cd-dossier-kicker">TRADE DESK REFERENCE</span>
+                  <strong>CDGH-{commodity.id.toUpperCase()}</strong>
+                </div>
+                <dl class="cd-dossier-list">
+                  <div>
+                    <dt>Harmonized System (HS)</dt>
+                    <dd class="cd-mono">{commodity.hsCode}</dd>
+                  </div>
+                  <div>
+                    <dt>20ft FCL Loadability</dt>
+                    <dd>{primary20ft}</dd>
+                  </div>
+                  <div>
+                    <dt>40ft FCL Loadability</dt>
+                    <dd>{primary40ft}</dd>
+                  </div>
+                  <div>
+                    <dt>Port of Loading</dt>
+                    <dd>{commodity.loadingPort}</dd>
+                  </div>
+                  <div>
+                    <dt>Payment & Settlement</dt>
+                    <dd>T/T Deposit or Irrevocable L/C at Sight</dd>
+                  </div>
+                </dl>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <!-- Key Export Metrics Strip -->
+      <section class="cd-metrics-strip" aria-label="Key Export Commercial Metrics">
+        <div class="cd-container">
+          <div class="cd-metrics-grid">
+            <article class="cd-metric-card">
+              <span class="cd-metric-label">HARMONIZED SYSTEM CODE</span>
+              <strong class="cd-metric-val cd-mono">HS {commodity.hsCode}</strong>
+              <span class="cd-metric-sub">WCO / Indonesian Customs BTKI</span>
+            </article>
+            <article class="cd-metric-card">
+              <span class="cd-metric-label">MINIMUM ORDER QUANTITY (MOQ)</span>
+              <strong class="cd-metric-val">{commodity.minOrderQuantity}</strong>
+              <span class="cd-metric-sub">Export Contract Baseline</span>
+            </article>
+            <article class="cd-metric-card">
+              <span class="cd-metric-label">MONTHLY SUPPLY CAPACITY</span>
+              <strong class="cd-metric-val">{commodity.supplyCapacity}</strong>
+              <span class="cd-metric-sub">Scalable Multi-Container Allocation</span>
+            </article>
+            <article class="cd-metric-card">
+              <span class="cd-metric-label">ESTIMATED DISPATCH LEAD TIME</span>
+              <strong class="cd-metric-val">{commodity.leadTime}</strong>
+              <span class="cd-metric-sub">From L/C Confirmation or Deposit</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Main Technical Grid: Grades + Physical/Chemical Matrix -->
+      <section class="cd-section" aria-labelledby="specs-heading">
+        <div class="cd-container">
+          <div class="cd-section-header">
+            <div>
+              <p class="cd-eyebrow">01 · LABORATORY & COMMERCIAL PARAMETERS</p>
+              <h2 id="specs-heading" class="cd-section-title">Technical Specifications & Export Grades</h2>
+            </div>
+            <p class="cd-section-note">
+              All physical, chemical, and microbiological parameters are verified prior to container stuffing and documented via batch-specific Certificate of Analysis (COA).
+            </p>
+          </div>
+
+          <div class="cd-tech-layout">
+            <!-- Available Export Grades -->
+            <div class="cd-panel cd-grades-panel">
+              <div class="cd-panel-head">
+                <h3>Available Export Grades & Formulations</h3>
+                <span class="cd-count-pill">{commodity.gradesAvailable.length} Grades</span>
+              </div>
+              <p class="cd-panel-desc">
+                Select your target grade specification when submitting an RFQ to our trade desk for tailored FOB/CIF pricing.
+              </p>
+              <ul class="cd-grades-list">
+                {commodity.gradesAvailable.map((grade, index) => (
+                  <li class="cd-grade-item">
+                    <span class="cd-grade-index">G-{String(index + 1).padStart(2, '0')}</span>
+                    <span class="cd-grade-text">{grade}</span>
+                  </li>
+                ))}
+              </ul>
+
+              <div class="cd-qa-callout">
+                <h4>Quality Assurance & Inspection Protocol</h4>
+                <p>
+                  Every shipment undergoes multi-stage gatekeeping at CUAN-DONG consolidation warehouses: raw batch sampling, moisture/purity assay, metal detection, and container cleanliness verification. Independent third-party pre-shipment inspection (SGS, Sucofindo, Bureau Veritas, or Intertek) is supported at port of loading.
+                </p>
+              </div>
+            </div>
+
+            <!-- Physical & Chemical Specification Matrix -->
+            <div class="cd-panel cd-matrix-panel">
+              <div class="cd-panel-head">
+                <h3>Physical & Chemical Specification Matrix</h3>
+                <span class="cd-count-pill cd-mono">COA STANDARD</span>
+              </div>
+              <div class="cd-table-wrap">
+                <table class="cd-spec-table">
+                  <thead>
+                    <tr>
+                      <th scope="col">Analytical Parameter</th>
+                      <th scope="col">Export Specification Limit / Standard</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {specEntries.map(([key, value]) => (
+                      <tr>
+                        <th scope="row">{formatSpecKey(key)}</th>
+                        <td>{value}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Logistics, Packaging & Container Loadability + Export Compliance -->
+      <section class="cd-section cd-section-alt" aria-labelledby="logistics-heading">
+        <div class="cd-container">
+          <div class="cd-section-header">
+            <div>
+              <p class="cd-eyebrow">02 · MARITIME LOGISTICS & REGULATORY COMPLIANCE</p>
+              <h2 id="logistics-heading" class="cd-section-title">Packaging, Container Loadability & Certifications</h2>
+            </div>
+            <p class="cd-section-note">
+              Engineered for long-haul maritime transit from Indonesian deep-water ports to global destinations with full customs and quarantine documentation.
+            </p>
+          </div>
+
+          <div class="cd-logistics-grid">
+            <!-- Packaging & Container Loadability -->
+            <div class="cd-panel">
+              <div class="cd-panel-head">
+                <h3>Export Packaging Configurations</h3>
+                <span class="cd-count-pill">MARITIME GRADE</span>
+              </div>
+              <ul class="cd-bullet-list">
+                {commodity.packagingOptions.map((option) => (
+                  <li>
+                    <span class="cd-check-icon" aria-hidden="true">■</span>
+                    <span>{option}</span>
+                  </li>
+                ))}
+              </ul>
+
+              <div class="cd-sub-block">
+                <h4>Container Loadability Matrix (FCL / LCL)</h4>
+                <dl class="cd-loadability-dl">
+                  {loadabilityEntries.map(([key, val]) => (
+                    <div class="cd-loadability-row">
+                      <dt>{formatContainerKey(key)}</dt>
+                      <dd>{val}</dd>
+                    </div>
+                  ))}
+                </dl>
+              </div>
+
+              <div class="cd-sub-block">
+                <h4>Supported Incoterms (2020) & Port of Loading</h4>
+                <div class="cd-incoterms-pills">
+                  {commodity.incoTerms.map((term) => (
+                    <span class="cd-incoterm-pill">{term}</span>
+                  ))}
+                </div>
+                <p class="cd-port-line">
+                  <strong>Authorized Loading Ports:</strong> {commodity.loadingPort}
+                </p>
+              </div>
+            </div>
+
+            <!-- Export Compliance & Certifications -->
+            <div class="cd-panel">
+              <div class="cd-panel-head">
+                <h3>Global Export Compliance & Certifications</h3>
+                <span class="cd-count-pill">{commodity.certifications.length} Documents</span>
+              </div>
+              <p class="cd-panel-desc">
+                Complete export dossier prepared and verified by CUAN-DONG Global Holdings trade compliance specialists for smooth destination customs clearance.
+              </p>
+              <ul class="cd-cert-grid">
+                {commodity.certifications.map((cert) => (
+                  <li class="cd-cert-card">
+                    <span class="cd-cert-badge" aria-hidden="true">✓</span>
+                    <div>
+                      <strong>{cert}</strong>
+                      <span>Verified Export Documentation</span>
+                    </div>
+                  </li>
+                ))}
+              </ul>
+
+              <div class="cd-compliance-note">
+                <strong>Destination Customs & Quarantine Readiness:</strong>
+                <p>
+                  We coordinate ISPM-15 heat-treated wooden pallets, phosphine/methyl bromide container fumigation, Kraft paper & desiccant moisture protection, and Preferential Certificates of Origin (Form D, Form E, Form AK, Form ICO) to optimize import tariff duties for international buyers.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Direct B2B RFQ Inquiry Block -->
+      <section class="cd-section cd-rfq-section" aria-labelledby="rfq-heading">
+        <div class="cd-container">
+          <div class="cd-rfq-box">
+            <div class="cd-rfq-copy">
+              <p class="cd-eyebrow">03 · DIRECT INSTITUTIONAL TRADE DESK</p>
+              <h2 id="rfq-heading">Request Official Quotation & COA for {commodity.title}</h2>
+              <p>
+                Connect directly with <strong>{commodity.rfqAction.desk}</strong> in Bintaro, Tangerang Selatan. Indicate your required grade, target destination port (FOB / CIF / CFR), packaging format, and annual/spot contract volume.
+              </p>
+              <div class="cd-rfq-meta">
+                <span><strong>HS Code:</strong> {commodity.hsCode}</span>
+                <span><strong>WhatsApp Desk:</strong> {commodity.rfqAction.whatsappNumber}</span>
+                <span><strong>Email Desk:</strong> cuandongholdings@gmail.com</span>
+              </div>
+            </div>
+            <div class="cd-rfq-actions">
+              <a
+                href={commodity.rfqAction.whatsappUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="cd-btn cd-btn-primary cd-btn-full"
+              >
+                <span class="cd-btn-dot" aria-hidden="true"></span>
+                <span>Inquire via WhatsApp Desk · +62 813-1723-0957</span>
+                <b aria-hidden="true">↗</b>
+              </a>
+              <a
+                href={mailtoUrl}
+                class="cd-btn cd-btn-secondary cd-btn-full"
+              >
+                <span>Email RFQ · cuandongholdings@gmail.com</span>
+                <b aria-hidden="true">✉</b>
+              </a>
+              <a
+                href="https://cuan-dong.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="cd-btn cd-btn-ghost cd-btn-full"
+              >
+                <span>Visit Corporate Portal · cuan-dong.com</span>
+                <b aria-hidden="true">↗</b>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Related Commodities Directory Grid -->
+      <section class="cd-section" aria-labelledby="related-heading">
+        <div class="cd-container">
+          <div class="cd-section-header">
+            <div>
+              <p class="cd-eyebrow">04 · MULTI-COMMODITY PORTFOLIO</p>
+              <h2 id="related-heading" class="cd-section-title">Explore Other CUAN-DONG Export Commodities</h2>
+            </div>
+            <a href={showcaseUrl} class="cd-view-all-link">
+              <span>Back to Main Company Showcase</span>
+              <span aria-hidden="true">→</span>
+            </a>
+          </div>
+
+          <div class="cd-related-grid">
+            {relatedCommodities.map((item) => (
+              <a href={`${normalizedBase}/tenant/cuan-dong/${item.slug}`} class="cd-related-card">
+                <div class="cd-related-top">
+                  <span class="cd-related-cat">{item.category}</span>
+                  <span class="cd-related-hs cd-mono">HS {item.hsCode}</span>
+                </div>
+                <h3 class="cd-related-title">{item.title}</h3>
+                <p class="cd-related-desc">{item.shortDescription}</p>
+                <div class="cd-related-foot">
+                  <span>MOQ: {item.minOrderQuantity}</span>
+                  <span class="cd-related-arrow">View Specs →</span>
+                </div>
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="cd-footer">
+      <div class="cd-container cd-footer-inner">
+        <div>
+          <strong>CUAN-DONG GLOBAL HOLDINGS</strong>
+          <p>Export Procurement & Structured Supply Chain Operations · Bintaro Jaya, Tangerang Selatan, Indonesia</p>
+        </div>
+        <div class="cd-footer-links">
+          <a href={showcaseUrl}>← CUAN-DONG Showcase</a>
+          <a href="https://cuan-dong.com/" target="_blank" rel="noopener noreferrer">cuan-dong.com ↗</a>
+          <a href={normalizedBase || '/'}>TEI 2026 Directory</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Floating Sticky WhatsApp RFQ Button -->
+    <a
+      href={commodity.rfqAction.whatsappUrl}
+      target="_blank"
+      rel="noopener noreferrer"
+      class="cd-floating-rfq"
+      aria-label={`Request quotation for ${commodity.title} on WhatsApp +62 813-1723-0957`}
+    >
+      <span class="cd-floating-pulse" aria-hidden="true"></span>
+      <span class="cd-floating-text">
+        <strong>WhatsApp RFQ Desk</strong>
+        <small>+62 813-1723-0957 · HS {commodity.hsCode}</small>
+      </span>
+      <span class="cd-floating-arrow" aria-hidden="true">↗</span>
+    </a>
+  </div>
+</BaseLayout>
+
+<style>
+  .cd-page {
+    --cd-bg: #07162d;
+    --cd-bg-elevated: #0a1e3f;
+    --cd-surface: #0f2444;
+    --cd-surface-hover: #15305b;
+    --cd-border: rgba(148, 163, 184, 0.18);
+    --cd-border-strong: rgba(56, 189, 248, 0.38);
+    --cd-ink: #f8fafc;
+    --cd-ink-muted: #cbd5e1;
+    --cd-ink-subtle: #94a3b8;
+    --cd-accent: #38bdf8;
+    --cd-accent-emerald: #10b981;
+    --cd-accent-gold: #f59e0b;
+    background-color: var(--cd-bg);
+    background-image:
+      radial-gradient(circle at 12% 0%, rgba(56, 189, 248, 0.12), transparent 42%),
+      radial-gradient(circle at 88% 12%, rgba(16, 185, 129, 0.08), transparent 36%);
+    color: var(--cd-ink);
+    min-height: 100vh;
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    padding-bottom: 84px;
+  }
+
+  .cd-container {
+    width: min(100% - 32px, 1240px);
+    margin-inline: auto;
+  }
+
+  .cd-mono {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    letter-spacing: 0.02em;
+  }
+
+  /* Topbar */
+  .cd-topbar {
+    position: sticky;
+    top: 0;
+    z-index: 60;
+    background: rgba(7, 22, 45, 0.88);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border-bottom: 1px solid var(--cd-border);
+  }
+
+  .cd-topbar-inner {
+    min-height: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    font-size: 0.78rem;
+  }
+
+  .cd-topbar-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    min-width: 0;
+  }
+
+  .cd-back-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--cd-accent);
+    text-decoration: none;
+    font-weight: 700;
+    white-space: nowrap;
+    transition: color 0.15s ease;
+  }
+
+  .cd-back-link:hover {
+    color: #7dd3fc;
+  }
+
+  .cd-divider {
+    color: var(--cd-ink-subtle);
+  }
+
+  .cd-crumb-current {
+    color: var(--cd-ink-muted);
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .cd-topbar-right {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-shrink: 0;
+  }
+
+  .cd-booth-pill {
+    padding: 5px 10px;
+    border-radius: 999px;
+    background: rgba(15, 36, 68, 0.9);
+    border: 1px solid var(--cd-border);
+    color: var(--cd-ink-muted);
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  .cd-official-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 6px 12px;
+    border-radius: 999px;
+    background: rgba(56, 189, 248, 0.12);
+    border: 1px solid var(--cd-border-strong);
+    color: var(--cd-accent);
+    text-decoration: none;
+    font-size: 0.74rem;
+    font-weight: 800;
+  }
+
+  /* Hero */
+  .cd-hero {
+    padding: clamp(32px, 5vw, 64px) 0 clamp(28px, 4vw, 48px);
+    border-bottom: 1px solid var(--cd-border);
+  }
+
+  .cd-hero-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1.25fr) minmax(320px, 0.75fr);
+    gap: clamp(28px, 4vw, 52px);
+    align-items: start;
+  }
+
+  .cd-badge-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 18px;
+  }
+
+  .cd-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 5px 11px;
+    border-radius: 6px;
+    font-size: 0.7rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .cd-badge-category {
+    background: rgba(56, 189, 248, 0.14);
+    color: var(--cd-accent);
+    border: 1px solid rgba(56, 189, 248, 0.35);
+  }
+
+  .cd-badge-hs {
+    background: rgba(245, 158, 11, 0.14);
+    color: #fbbf24;
+    border: 1px solid rgba(245, 158, 11, 0.35);
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  }
+
+  .cd-badge-verified {
+    background: rgba(16, 185, 129, 0.14);
+    color: #34d399;
+    border: 1px solid rgba(16, 185, 129, 0.35);
+  }
+
+  .cd-title {
+    margin: 0 0 20px;
+    font-size: clamp(2rem, 4.2vw, 3.35rem);
+    font-weight: 800;
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+    color: #ffffff;
+  }
+
+  .cd-origin-bar {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+    padding: 14px 16px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    background: rgba(15, 36, 68, 0.72);
+    border: 1px solid var(--cd-border);
+  }
+
+  .cd-meta-label {
+    display: block;
+    font-size: 0.65rem;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--cd-accent);
+    margin-bottom: 4px;
+  }
+
+  .cd-meta-value {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--cd-ink);
+    line-height: 1.4;
+  }
+
+  .cd-short-desc {
+    margin: 0 0 14px;
+    font-size: 1.04rem;
+    font-weight: 500;
+    line-height: 1.62;
+    color: #e2e8f0;
+  }
+
+  .cd-full-desc {
+    margin: 0 0 26px;
+    font-size: 0.92rem;
+    line-height: 1.72;
+    color: var(--cd-ink-muted);
+  }
+
+  .cd-cta-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .cd-btn {
+    min-height: 52px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-size: 0.84rem;
+    font-weight: 800;
+    text-decoration: none;
+    transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+  }
+
+  .cd-btn:hover {
+    transform: translateY(-1px);
+  }
+
+  .cd-btn-primary {
+    background: linear-gradient(135deg, #10b981, #059669);
+    color: #04130e;
+    border: 1px solid #34d399;
+    box-shadow: 0 10px 28px -8px rgba(16, 185, 129, 0.55);
+  }
+
+  .cd-btn-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #04130e;
+    box-shadow: 0 0 0 3px rgba(4, 19, 14, 0.25);
+  }
+
+  .cd-btn-secondary {
+    background: rgba(56, 189, 248, 0.14);
+    color: var(--cd-ink);
+    border: 1px solid var(--cd-border-strong);
+  }
+
+  .cd-btn-secondary:hover {
+    background: rgba(56, 189, 248, 0.22);
+  }
+
+  .cd-btn-ghost {
+    background: rgba(15, 36, 68, 0.7);
+    color: var(--cd-ink-muted);
+    border: 1px solid var(--cd-border);
+  }
+
+  .cd-btn-full {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  /* Hero Aside Dossier Card */
+  .cd-dossier-card {
+    border-radius: 16px;
+    overflow: hidden;
+    background: var(--cd-surface);
+    border: 1px solid var(--cd-border-strong);
+    box-shadow: 0 24px 48px -16px rgba(0, 0, 0, 0.55);
+  }
+
+  .cd-dossier-media {
+    position: relative;
+    aspect-ratio: 16 / 10;
+    background: #050f20;
+    overflow: hidden;
+  }
+
+  .cd-dossier-media > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .cd-dossier-overlay {
+    position: absolute;
+    inset: auto 0 0 0;
+    padding: 12px 16px;
+    background: linear-gradient(to top, rgba(7, 22, 45, 0.95), rgba(7, 22, 45, 0.4), transparent);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .cd-dossier-logo {
+    height: 28px;
+    width: auto;
+    object-fit: contain;
+  }
+
+  .cd-dossier-tag {
+    font-size: 0.62rem;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    color: var(--cd-accent);
+    text-transform: uppercase;
+  }
+
+  .cd-dossier-body {
+    padding: 20px;
+  }
+
+  .cd-dossier-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+    border-bottom: 1px solid var(--cd-border);
+  }
+
+  .cd-dossier-kicker {
+    font-size: 0.66rem;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    color: var(--cd-ink-subtle);
+  }
+
+  .cd-dossier-header strong {
+    font-size: 0.78rem;
+    color: var(--cd-accent);
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  }
+
+  .cd-dossier-list {
+    margin: 0;
+  }
+
+  .cd-dossier-list div {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 14px;
+    padding: 8px 0;
+    border-bottom: 1px dashed rgba(148, 163, 184, 0.14);
+    font-size: 0.8rem;
+  }
+
+  .cd-dossier-list div:last-child {
+    border-bottom: none;
+  }
+
+  .cd-dossier-list dt {
+    color: var(--cd-ink-subtle);
+    flex-shrink: 0;
+  }
+
+  .cd-dossier-list dd {
+    margin: 0;
+    font-weight: 700;
+    color: var(--cd-ink);
+    text-align: right;
+  }
+
+  /* Key Metrics Strip */
+  .cd-metrics-strip {
+    background: var(--cd-bg-elevated);
+    border-bottom: 1px solid var(--cd-border);
+    padding: 22px 0;
+  }
+
+  .cd-metrics-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 16px;
+  }
+
+  .cd-metric-card {
+    padding: 18px;
+    border-radius: 12px;
+    background: rgba(15, 36, 68, 0.75);
+    border: 1px solid var(--cd-border);
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .cd-metric-label {
+    font-size: 0.65rem;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--cd-accent);
+  }
+
+  .cd-metric-val {
+    font-size: 1.05rem;
+    font-weight: 800;
+    color: #ffffff;
+    line-height: 1.3;
+  }
+
+  .cd-metric-sub {
+    font-size: 0.72rem;
+    color: var(--cd-ink-subtle);
+  }
+
+  /* Sections */
+  .cd-section {
+    padding: clamp(40px, 6vw, 72px) 0;
+    border-bottom: 1px solid var(--cd-border);
+  }
+
+  .cd-section-alt {
+    background: rgba(10, 30, 63, 0.55);
+  }
+
+  .cd-section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 24px;
+    margin-bottom: 32px;
+  }
+
+  .cd-eyebrow {
+    margin: 0 0 8px;
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--cd-accent);
+  }
+
+  .cd-section-title {
+    margin: 0;
+    font-size: clamp(1.55rem, 3vw, 2.25rem);
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+  }
+
+  .cd-section-note {
+    margin: 0;
+    max-width: 440px;
+    font-size: 0.84rem;
+    line-height: 1.55;
+    color: var(--cd-ink-subtle);
+  }
+
+  .cd-tech-layout,
+  .cd-logistics-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 0.92fr) minmax(0, 1.08fr);
+    gap: 24px;
+    align-items: start;
+  }
+
+  .cd-panel {
+    padding: 26px;
+    border-radius: 16px;
+    background: var(--cd-surface);
+    border: 1px solid var(--cd-border);
+  }
+
+  .cd-panel-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    padding-bottom: 14px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid var(--cd-border);
+  }
+
+  .cd-panel-head h3 {
+    margin: 0;
+    font-size: 1.12rem;
+    font-weight: 800;
+    color: #ffffff;
+  }
+
+  .cd-count-pill {
+    padding: 4px 10px;
+    border-radius: 999px;
+    background: rgba(56, 189, 248, 0.14);
+    border: 1px solid rgba(56, 189, 248, 0.3);
+    color: var(--cd-accent);
+    font-size: 0.68rem;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+
+  .cd-panel-desc {
+    margin: 0 0 18px;
+    font-size: 0.85rem;
+    line-height: 1.55;
+    color: var(--cd-ink-muted);
+  }
+
+  /* Grades List */
+  .cd-grades-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .cd-grade-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 12px 14px;
+    border-radius: 10px;
+    background: rgba(7, 22, 45, 0.65);
+    border: 1px solid var(--cd-border);
+  }
+
+  .cd-grade-index {
+    padding: 3px 7px;
+    border-radius: 5px;
+    background: rgba(56, 189, 248, 0.15);
+    color: var(--cd-accent);
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: 0.7rem;
+    font-weight: 800;
+    flex-shrink: 0;
+  }
+
+  .cd-grade-text {
+    font-size: 0.86rem;
+    font-weight: 600;
+    line-height: 1.45;
+    color: var(--cd-ink);
+  }
+
+  .cd-qa-callout {
+    padding: 16px;
+    border-radius: 12px;
+    background: rgba(16, 185, 129, 0.08);
+    border: 1px solid rgba(16, 185, 129, 0.28);
+  }
+
+  .cd-qa-callout h4 {
+    margin: 0 0 6px;
+    font-size: 0.84rem;
+    font-weight: 800;
+    color: #34d399;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .cd-qa-callout p {
+    margin: 0;
+    font-size: 0.8rem;
+    line-height: 1.55;
+    color: var(--cd-ink-muted);
+  }
+
+  /* Technical Spec Table */
+  .cd-table-wrap {
+    overflow-x: auto;
+    border-radius: 10px;
+    border: 1px solid var(--cd-border);
+  }
+
+  .cd-spec-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.85rem;
+  }
+
+  .cd-spec-table thead tr {
+    background: rgba(7, 22, 45, 0.9);
+    border-bottom: 1px solid var(--cd-border-strong);
+  }
+
+  .cd-spec-table th,
+  .cd-spec-table td {
+    padding: 12px 14px;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  .cd-spec-table thead th {
+    font-size: 0.7rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--cd-accent);
+  }
+
+  .cd-spec-table tbody tr {
+    border-bottom: 1px solid rgba(148, 163, 184, 0.12);
+    background: rgba(7, 22, 45, 0.45);
+  }
+
+  .cd-spec-table tbody tr:nth-child(even) {
+    background: rgba(15, 36, 68, 0.45);
+  }
+
+  .cd-spec-table tbody th {
+    font-weight: 600;
+    color: var(--cd-ink-muted);
+    width: 44%;
+  }
+
+  .cd-spec-table tbody td {
+    font-weight: 700;
+    color: #ffffff;
+  }
+
+  /* Packaging & Certifications */
+  .cd-bullet-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .cd-bullet-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 0.86rem;
+    line-height: 1.5;
+    color: var(--cd-ink);
+  }
+
+  .cd-check-icon {
+    color: var(--cd-accent);
+    font-size: 0.7rem;
+    margin-top: 3px;
+  }
+
+  .cd-sub-block {
+    padding-top: 18px;
+    margin-top: 18px;
+    border-top: 1px solid var(--cd-border);
+  }
+
+  .cd-sub-block h4 {
+    margin: 0 0 12px;
+    font-size: 0.82rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--cd-accent);
+  }
+
+  .cd-loadability-dl {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .cd-loadability-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 16px;
+    padding: 10px 12px;
+    border-radius: 8px;
+    background: rgba(7, 22, 45, 0.65);
+    border: 1px solid var(--cd-border);
+    font-size: 0.82rem;
+  }
+
+  .cd-loadability-row dt {
+    color: var(--cd-ink-muted);
+    font-weight: 600;
+  }
+
+  .cd-loadability-row dd {
+    margin: 0;
+    font-weight: 800;
+    color: #ffffff;
+    text-align: right;
+  }
+
+  .cd-incoterms-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 12px;
+  }
+
+  .cd-incoterm-pill {
+    padding: 5px 10px;
+    border-radius: 6px;
+    background: rgba(56, 189, 248, 0.12);
+    border: 1px solid rgba(56, 189, 248, 0.3);
+    font-size: 0.76rem;
+    font-weight: 700;
+    color: var(--cd-ink);
+  }
+
+  .cd-port-line {
+    margin: 0;
+    font-size: 0.82rem;
+    color: var(--cd-ink-muted);
+    line-height: 1.5;
+  }
+
+  .cd-cert-grid {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .cd-cert-card {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 14px;
+    border-radius: 10px;
+    background: rgba(7, 22, 45, 0.65);
+    border: 1px solid var(--cd-border);
+  }
+
+  .cd-cert-badge {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: rgba(16, 185, 129, 0.18);
+    color: #34d399;
+    display: grid;
+    place-items: center;
+    font-size: 0.78rem;
+    font-weight: 900;
+    flex-shrink: 0;
+  }
+
+  .cd-cert-card strong {
+    display: block;
+    font-size: 0.85rem;
+    color: #ffffff;
+  }
+
+  .cd-cert-card span {
+    font-size: 0.72rem;
+    color: var(--cd-ink-subtle);
+  }
+
+  .cd-compliance-note {
+    padding: 16px;
+    border-radius: 12px;
+    background: rgba(56, 189, 248, 0.08);
+    border: 1px solid rgba(56, 189, 248, 0.25);
+    font-size: 0.8rem;
+    line-height: 1.55;
+    color: var(--cd-ink-muted);
+  }
+
+  .cd-compliance-note strong {
+    display: block;
+    color: var(--cd-accent);
+    margin-bottom: 4px;
+  }
+
+  .cd-compliance-note p {
+    margin: 0;
+  }
+
+  /* Direct RFQ Box */
+  .cd-rfq-box {
+    padding: clamp(24px, 4vw, 40px);
+    border-radius: 20px;
+    background: linear-gradient(135deg, #0f2444 0%, #091933 100%);
+    border: 1px solid var(--cd-border-strong);
+    display: grid;
+    grid-template-columns: 1.3fr 0.9fr;
+    gap: 32px;
+    align-items: center;
+    box-shadow: 0 24px 56px -16px rgba(0, 0, 0, 0.5);
+  }
+
+  .cd-rfq-copy h2 {
+    margin: 0 0 12px;
+    font-size: clamp(1.4rem, 2.6vw, 2rem);
+    color: #ffffff;
+  }
+
+  .cd-rfq-copy p {
+    margin: 0 0 18px;
+    font-size: 0.92rem;
+    line-height: 1.65;
+    color: var(--cd-ink-muted);
+  }
+
+  .cd-rfq-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    font-size: 0.8rem;
+    color: var(--cd-ink);
+  }
+
+  .cd-rfq-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  /* Related Commodities Grid */
+  .cd-view-all-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--cd-accent);
+    text-decoration: none;
+    font-size: 0.84rem;
+    font-weight: 800;
+  }
+
+  .cd-related-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px;
+  }
+
+  .cd-related-card {
+    padding: 20px;
+    border-radius: 14px;
+    background: var(--cd-surface);
+    border: 1px solid var(--cd-border);
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.18s ease, border-color 0.18s ease, background 0.18s ease;
+  }
+
+  .cd-related-card:hover {
+    transform: translateY(-3px);
+    border-color: var(--cd-border-strong);
+    background: var(--cd-surface-hover);
+  }
+
+  .cd-related-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 10px;
+  }
+
+  .cd-related-cat {
+    font-size: 0.66rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--cd-accent);
+  }
+
+  .cd-related-hs {
+    font-size: 0.68rem;
+    font-weight: 700;
+    padding: 2px 7px;
+    border-radius: 4px;
+    background: rgba(245, 158, 11, 0.14);
+    color: #fbbf24;
+  }
+
+  .cd-related-title {
+    margin: 0 0 8px;
+    font-size: 1.02rem;
+    font-weight: 800;
+    color: #ffffff;
+    line-height: 1.3;
+  }
+
+  .cd-related-desc {
+    margin: 0 0 16px;
+    font-size: 0.78rem;
+    line-height: 1.5;
+    color: var(--cd-ink-muted);
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    flex: 1;
+  }
+
+  .cd-related-foot {
+    padding-top: 12px;
+    border-top: 1px solid var(--cd-border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.74rem;
+    color: var(--cd-ink-subtle);
+  }
+
+  .cd-related-arrow {
+    color: var(--cd-accent);
+    font-weight: 800;
+  }
+
+  /* Footer */
+  .cd-footer {
+    padding: 28px 0;
+  }
+
+  .cd-footer-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    font-size: 0.78rem;
+    color: var(--cd-ink-subtle);
+  }
+
+  .cd-footer-inner strong {
+    color: var(--cd-ink);
+    display: block;
+    margin-bottom: 4px;
+  }
+
+  .cd-footer-inner p {
+    margin: 0;
+  }
+
+  .cd-footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+  }
+
+  .cd-footer-links a {
+    color: var(--cd-ink-muted);
+    text-decoration: none;
+    font-weight: 700;
+  }
+
+  .cd-footer-links a:hover {
+    color: var(--cd-accent);
+  }
+
+  /* Floating Sticky WhatsApp RFQ Button */
+  .cd-floating-rfq {
+    position: fixed;
+    right: 20px;
+    bottom: max(20px, env(safe-area-inset-bottom));
+    z-index: 90;
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 18px;
+    border-radius: 999px;
+    background: linear-gradient(135deg, #10b981, #047857);
+    color: #03140e;
+    border: 1px solid #6ee7b7;
+    box-shadow: 0 16px 36px rgba(4, 120, 87, 0.55);
+    text-decoration: none;
+    transition: transform 0.18s ease, box-shadow 0.18s ease;
+  }
+
+  .cd-floating-rfq:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 20px 44px rgba(4, 120, 87, 0.7);
+  }
+
+  .cd-floating-pulse {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #03140e;
+    box-shadow: 0 0 0 4px rgba(3, 20, 14, 0.25);
+  }
+
+  .cd-floating-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+  }
+
+  .cd-floating-text strong {
+    font-size: 0.8rem;
+    font-weight: 900;
+  }
+
+  .cd-floating-text small {
+    font-size: 0.68rem;
+    font-weight: 700;
+    opacity: 0.85;
+  }
+
+  .cd-floating-arrow {
+    font-weight: 900;
+    font-size: 0.9rem;
+  }
+
+  @media (max-width: 980px) {
+    .cd-hero-grid,
+    .cd-tech-layout,
+    .cd-logistics-grid,
+    .cd-rfq-box {
+      grid-template-columns: 1fr;
+    }
+
+    .cd-metrics-grid,
+    .cd-related-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .cd-section-header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .cd-booth-pill,
+    .cd-crumb-current,
+    .cd-divider {
+      display: none;
+    }
+
+    .cd-origin-bar,
+    .cd-metrics-grid,
+    .cd-related-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .cd-loadability-row {
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .cd-loadability-row dd {
+      text-align: left;
+    }
+
+    .cd-footer-inner {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .cd-floating-rfq {
+      left: 16px;
+      right: 16px;
+      justify-content: space-between;
+    }
+  }
+</style>

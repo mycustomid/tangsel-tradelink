@@ -55,21 +55,56 @@
   ],
   "commercialBlocks": [
     {
-      "title": "Kategori Pengadaan Unggulan",
-      "badge": "Export Grade",
-      "note": "Konsultasi RFQ dan penjadwalan business matching via website resmi atau WhatsApp pengadaan.",
+      "title": "Cocoa Derivatives & Aromatic Spices",
+      "badge": "Export Grade · COA",
+      "note": "Dedicated technical specification sheets, batch COA, and FOB/CIF container quotations available via our B2B Trade Desk.",
       "items": [
         {
-          "label": "Indonesian Specialty Coffee & Cocoa",
-          "value": "FCL / LCL Supply"
+          "label": "Fermented Cocoa Beans (HS 1801.00.00)",
+          "value": "20ft / 40ft FCL · 500–1,000 MT/Mo"
         },
         {
-          "label": "Spices & Coconut Derivatives",
-          "value": "Standardized Spec"
+          "label": "Natural & Alkalized Cocoa Powder (HS 1805.00.00)",
+          "value": "20ft / 40ft FCL · 400–800 MT/Mo"
         },
         {
-          "label": "Marine & Industrial Supply",
-          "value": "Contract Processing"
+          "label": "Prime Pressed Cocoa Butter (HS 1804.00.00)",
+          "value": "20ft FCL / Flexitank · 250–500 MT/Mo"
+        },
+        {
+          "label": "Indonesian Cassia Cinnamon (HS 0906.11.00)",
+          "value": "20ft / 40ft HC FCL · 150–300 MT/Mo"
+        },
+        {
+          "label": "Java Cardamom (HS 0908.31.00)",
+          "value": "20ft / 40ft HC FCL · 50–100 MT/Mo"
+        }
+      ]
+    },
+    {
+      "title": "Specialty Spices, Coconut & Marine OEM",
+      "badge": "FCL / LCL Supply",
+      "note": "Full export compliance: Halal BPJPH, HACCP, Phytosanitary, Fumigation, Health Certificate, and COO (Form D/E/AK/ICO).",
+      "items": [
+        {
+          "label": "Gourmet Vanilla Beans (HS 0905.10.00)",
+          "value": "Air Cargo / 20ft FCL · 5–15 MT/Mo"
+        },
+        {
+          "label": "Hand-Picked Cloves (HS 0907.10.00)",
+          "value": "20ft / 40ft HC FCL · 200–400 MT/Mo"
+        },
+        {
+          "label": "White Edible & Milling Copra (HS 1203.00.00)",
+          "value": "20ft / 40ft HC FCL · 500–1,000 MT/Mo"
+        },
+        {
+          "label": "Copra Meal Animal Feed Pellets (HS 2306.50.00)",
+          "value": "20ft / 40ft HC FCL · 1,000–3,000 MT/Mo"
+        },
+        {
+          "label": "Canned Sardines OEM (HS 1604.13.10)",
+          "value": "20ft FCL OEM · 20–40 Containers/Mo"
         }
       ]
     }
@@ -116,6 +151,11 @@
       "key": "email",
       "label": "Email Pengadaan · cuandongholdings@gmail.com",
       "url": "mailto:cuandongholdings@gmail.com"
+    },
+    {
+      "key": "maps",
+      "label": "Google Maps · Workshop Bintaro Tangsel",
+      "url": "https://www.google.com/maps/search/?api=1&query=Bintaro+Jaya+Tangerang+Selatan"
     }
   ],
   "verification": {
