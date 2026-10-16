@@ -1,0 +1,38 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { resolveTenantFavicon } from '../../lib/tenant-utils.mjs';
+import SmartNfcShowcase from '../../components/SmartNfcShowcase.astro';
+import config from '../../data/showcases/vietrade.json';
+
+const baseUrl = import.meta.env.BASE_URL;
+const tenant = {
+  name: "VIETRADE — Vietnam Trade Promotion Agency",
+  slug: "vietrade",
+  hall: '8',
+  booth: '8-7C',
+  category: "Government Agency & Trade Promotion",
+  description: "Official Trade Delegation & National Export Promotion — Ministry of Industry and Trade of Vietnam (MOIT). PIC: Tâm Trang.",
+  theme: "industrial",
+  whatsapp: "https://wa.me/84828807986",
+  website: "http://www.vietrade.gov.vn",
+  zalo: "https://zalo.me/84828807986",
+  researchStatus: "verified-authoritative",
+  verifiedAt: '2026-10-17'
+};
+const structuredData = {
+  '@context': 'https://schema.org',
+  '@type': 'GovernmentOrganization',
+  name: tenant.name,
+  url: "https://mycustomid.github.io/tangsel-tradelink/tenant/vietrade",
+  sameAs: [
+    tenant.website,
+    "https://zalo.me/84828807986",
+    "https://wa.me/84828807986",
+    "https://www.facebook.com/share/1EcwSiGKGU/"
+  ]
+};
+---
+<BaseLayout favicon={resolveTenantFavicon(tenant, config)} title={`${tenant.name} — Tangsel TradeLink`} description={tenant.description} theme={tenant.theme}
+  canonical={`${baseUrl}tenant/${tenant.slug}`} image={config.heroImage} structuredData={structuredData}>
+  <SmartNfcShowcase tenant={tenant} config={config} baseUrl={baseUrl} />
+</BaseLayout>
