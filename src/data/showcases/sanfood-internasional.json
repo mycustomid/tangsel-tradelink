@@ -52,19 +52,19 @@
   ],
   "gallery": [
     {
-      "image": "https://cf.shopee.co.id/file/sg-11134201-22100-htvumq857sivb2",
-      "label": "Sauces & seasoning",
-      "caption": "A broad cooking-sauce and seasoning family."
+      "image": "/brand/sanfood-internasional/sanfood-sauce-seasoning.jpg",
+      "label": "Sauces & Seasoning Series",
+      "caption": "Rangkaian saus bumbu dapur sehat ramah anak bebas MSG sintetik."
     },
     {
-      "image": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/catalog-image/103/MTA-166437480/sanfood_sanfood_aromatic_chicken_fat_oil_cooking_minyak_ayam_140ml_dapur_masakan_full02_nzfbfviu.jpg",
-      "label": "Aromatic cooking oils",
-      "caption": "Convenient flavor-building products for home cooking."
+      "image": "/brand/sanfood-internasional/sanfood-aromatic-chicken-oil.jpg",
+      "label": "Aromatic Chicken Fat Oil",
+      "caption": "Minyak ayam aromatik berkualitas untuk masakan lezat dan bergizi."
     },
     {
-      "image": "https://images.tokopedia.net/img/cache/700/VqbcmM/2021/11/17/c3629a8a-e901-44dc-9d41-0ca2d672a8c3.jpg",
-      "label": "Kaldu Alami Sanfood",
-      "caption": "Penyedap rasa kaldu jamur dan sapi alami non-MSG untuk masakan sehat."
+      "image": "/brand/sanfood-internasional/sanfood-kaldu-alami.jpg",
+      "label": "Kaldu Alami Non-MSG",
+      "caption": "Penyedap rasa kaldu alami bersertifikasi BPOM, Halal dan HACCP siap ekspor."
     }
   ],
   "actions": [
@@ -93,5 +93,6 @@
       "label": "WhatsApp",
       "url": "https://wa.me/628152556555"
     }
-  ]
+  ],
+  "favicon": "/brand/sanfood-internasional/favicon.svg"
 }

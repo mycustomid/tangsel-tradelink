@@ -63,9 +63,9 @@
       "url": "https://www.instagram.com/owi.rajut/"
     },
     {
-      "image": "/brand/owi-rajut-hero.svg",
-      "label": "Owi Rajut",
-      "caption": "A TradeLink editorial identity visual built around the verified knitting-yarn category.",
+      "image": "/brand/owi-rajut-craft.svg",
+      "label": "Knit Craft Texture",
+      "caption": "TradeLink editorial craft study inspired by artisan knitting; not an official product image.",
       "url": "https://www.instagram.com/owi.rajut/"
     }
   ],
@@ -80,5 +80,6 @@
       "label": "Google Maps · Owi Rajut",
       "url": "https://share.google/Ene44rW2OTbtqHg39"
     }
-  ]
+  ],
+  "favicon": "/brand/owi-rajut-yarn.svg"
 }

@@ -2,13 +2,13 @@
   "brandLabel": "BOPET PAGARUYUNG",
   "tagline": "Cita Rasa Tradisi Kuliner Minang & Racikan Rempah Otentik Nusantara.",
   "eyebrow": "Niken Gubie · Kuliner Tradisional Nusantara · Palembang & Sekitarnya",
-  "heroImage": "/brand/bopet-pagaruyung/bopet-pagaruyung-hero.webp",
+  "heroImage": "/brand/bopet-pagaruyung/bopet-rendang-daging.jpg",
   "logo": "/brand/bopet-pagaruyung/bopet-pagaruyung-logo.webp",
   "favicon": "/brand/bopet-pagaruyung/favicon.png",
-  "heroFit": "contain",
-  "heroAspectRatio": "4/3",
+  "heroFit": "cover",
+  "heroAspectRatio": "16/9",
   "galleryAspectRatio": "1/1",
-  "galleryFit": "contain",
+  "galleryFit": "cover",
   "visualMode": "food",
   "palette": {
     "bg": "#faf6f0",
@@ -81,7 +81,23 @@
       ]
     }
   ],
-  "gallery": [],
+  "gallery": [
+    {
+      "image": "/brand/bopet-pagaruyung/bopet-ketan-sarikaya.jpg",
+      "label": "Ketan Sarikaya Gula Merah",
+      "caption": "Ketan pulen gurih santan berpadu selai sarikaya gula merah legit autentik khas Bukittinggi."
+    },
+    {
+      "image": "/brand/bopet-pagaruyung/bopet-bubur-kampiun.jpg",
+      "label": "Bubur Kampiun Legendaris",
+      "caption": "Perpaduan bubur sumsum, kolak pisang, ketan hitam, bubur candil dan sarikaya legit manis gurih."
+    },
+    {
+      "image": "/brand/bopet-pagaruyung/bopet-soto-padang.jpg",
+      "label": "Soto Padang Daging Sapi Rempah",
+      "caption": "Soto Padang berkuah kaldu sapi bening kaya rempah kapulaga dan bunga lawang dengan dendeng renyah."
+    }
+  ],
   "actions": [
     {
       "key": "whatsapp",

@@ -3,8 +3,8 @@
   "tagline": "Handmade crochet keychains, bags, and artisan accessories from Ciputat with export-grade craftsmanship.",
   "eyebrow": "Artisan Crochet & Handmade Craft · Tangerang Selatan",
   "heroImage": "/brand/fennycroche/fennycroche-hero.jpg",
-  "logo": "/brand/fennycroche/fennycroche-gallery-5.jpg",
-  "favicon": "/brand/fennycroche/fennycroche-gallery-5.jpg",
+  "logo": "/brand/tei-batch/fennycroche.svg",
+  "favicon": "/brand/tei-batch/fennycroche.svg",
   "heroFit": "cover",
   "visualMode": "craft",
   "palette": {
@@ -76,24 +76,34 @@
   ],
   "gallery": [
     {
-      "image": "/brand/fennycroche/fennycroche-gallery-4.jpg",
-      "label": "Amigurumi Karakter Unggulan",
-      "caption": "Karya rajut boneka tangan karakter detail presisi siap display cinderamata."
+      "image": "/brand/fennycroche/amigurumi-ondel-ondel-betawi.webp",
+      "label": "Amigurumi Sepasang Ondel-Ondel Betawi",
+      "caption": "Karya rajut boneka tangan karakter budaya khas Betawi Tangerang Selatan dalam kemasan boks eksklusif siap display ekspor."
     },
     {
-      "image": "/brand/fennycroche/fennycroche-gallery-1.jpg",
-      "label": "Detail Amigurumi Presisi",
-      "caption": "Rajutan tangan rapi dengan detail ekspresi karakter yang menggemaskan."
+      "image": "/brand/fennycroche/amigurumi-superhero-captain-america.webp",
+      "label": "Amigurumi Superhero Captain America",
+      "caption": "Gantungan kunci boneka rajut tangan karakter superhero dengan tameng ikonik dan jahitan benang presisi tinggi."
     },
     {
-      "image": "/brand/fennycroche/fennycroche-gallery-2.jpg",
-      "label": "Tas & Pouch Rajutan Eksklusif",
-      "caption": "Aksesoris tas rajut benang katun lembut bernuansa warna pastel elegan."
+      "image": "/brand/fennycroche/amigurumi-superhero-superman.webp",
+      "label": "Amigurumi Superhero Superman",
+      "caption": "Koleksi suvenir rajutan boneka tangan karakter berkostum jubah merah lengkap dengan emblem dada."
     },
     {
-      "image": "/brand/fennycroche/fennycroche-gallery-3.jpg",
-      "label": "Buket Bunga Rajut Handmade",
-      "caption": "Buket bunga rajutan tangan berhias pita satin cerah, pilihan hadiah eksklusif dan suvenir pameran."
+      "image": "/brand/fennycroche/amigurumi-kelinci-wortel.webp",
+      "label": "Amigurumi Kelinci Lucu & Wortel",
+      "caption": "Gantungan kunci rajut boneka hewan kelinci memegang wortel dalam kemasan jendela resmi Fennycroche."
+    },
+    {
+      "image": "/brand/fennycroche/amigurumi-santa-claus.webp",
+      "label": "Amigurumi Karakter Santa Claus",
+      "caption": "Boneka rajut tangan figur kakek jenggot putih celana merah untuk suvenir seasonal dan cinderamata festival."
+    },
+    {
+      "image": "/brand/fennycroche/amigurumi-peri-cupid.webp",
+      "label": "Amigurumi Karakter Peri Cupid",
+      "caption": "Detail rajutan boneka karakter rambut merah dengan sayap malaikat putih berpadu suspender merah estetik."
     }
   ],
   "testimonials": [

@@ -4,11 +4,11 @@
   "eyebrow": "Artisan Rempeyek & Traditional Savory Crisps · Setu, Tangerang Selatan",
   "heroImage": "/brand/peyek-den-bagus/peyek-den-bagus-hero.webp",
   "logo": "/brand/peyek-den-bagus/peyek-den-bagus-logo.webp",
-  "favicon": "/brand/peyek-den-bagus/peyek-den-bagus-logo.png",
+  "favicon": "/brand/peyek-den-bagus/favicon.png",
   "heroFit": "cover",
   "heroAspectRatio": "16/9",
   "heroAspectRatioMobile": "4/3",
-  "galleryAspectRatio": "1/1",
+  "galleryAspectRatio": "4/3",
   "galleryFit": "cover",
   "visualMode": "food",
   "palette": {

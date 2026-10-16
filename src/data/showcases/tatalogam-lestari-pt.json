@@ -52,19 +52,19 @@
   ],
   "gallery": [
     {
-      "image": "https://images.bisnis.com/posts/2020/12/18/1332996/taso.jpg",
-      "label": "TASO lightweight steel",
-      "caption": "Structural framing designed around strength, consistency and corrosion resistance."
+      "image": "/brand/tatalogam-lestari-pt/taso-baja-ringan.jpg",
+      "label": "TASO Rangka Baja Ringan",
+      "caption": "Sistem rangka atap baja ringan kuat, presisi, dan bersertifikat SNI."
     },
     {
-      "image": "https://tatalogam.com/wp-content/uploads/2021/04/multi-roof.jpg",
-      "label": "Multi Roof Metal Tiles",
-      "caption": "Genteng metal berpasir berkualitas tinggi tahan karat dan cuaca ekstrem."
+      "image": "/brand/tatalogam-lestari-pt/tatalogam-genteng-metal.jpg",
+      "label": "Genteng Metal Multi Roof",
+      "caption": "Genteng metal berlapis pasir anti-karat dan tahan cuaca ekstrem."
     },
     {
-      "image": "https://tatalogam.com/wp-content/uploads/2021/04/sakura-roof.jpg",
-      "label": "Sakura Roof Coated Tiles",
-      "caption": "Inovasi genteng metal ringan ekonomis dan tahan bocor untuk hunian modern."
+      "image": "/brand/tatalogam-lestari-pt/tatalogam-metal-roof.jpg",
+      "label": "Standing Seam Metal Roofing",
+      "caption": "Inovasi atap metal modern arsitektural untuk bangunan komersial dan hunian."
     }
   ],
   "actions": [
@@ -88,5 +88,7 @@
       "label": "WhatsApp",
       "url": "https://wa.me/628111920770"
     }
-  ]
+  ],
+  "logo": "/brand/tatalogam-lestari-pt/tatalogam-logo.png",
+  "favicon": "/brand/tatalogam-lestari-pt/tatalogam-logo.png"
 }

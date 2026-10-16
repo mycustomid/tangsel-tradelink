@@ -19,4 +19,7 @@ extracted_tei_md/
 raw_mined_data.json
 wa_mined_assets.json
 scripts/
-
+recent_wa_messages.json
+active_chats_oct14_16.txt
+jenny_messages.json
+reports/codex_prompt.txt

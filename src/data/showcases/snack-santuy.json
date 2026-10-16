@@ -8,7 +8,7 @@
   "heroFit": "contain",
   "heroAspectRatio": "4/3",
   "galleryAspectRatio": "1/1",
-  "galleryFit": "contain",
+  "galleryFit": "cover",
   "visualMode": "food",
   "palette": {
     "bg": "#f6faf5",
@@ -89,7 +89,23 @@
       ]
     }
   ],
-  "gallery": [],
+  "gallery": [
+    {
+      "image": "/brand/snack-santuy/snack-makaroni-pedas.jpg",
+      "label": "Makaroni Pedas Daun Jeruk",
+      "caption": "Makaroni renyah gurih bertabur cabai kering asli dan aroma daun jeruk segar berizin PIRT & Halal."
+    },
+    {
+      "image": "/brand/snack-santuy/snack-basreng-pedas.jpg",
+      "label": "Basreng Pedas Renyah",
+      "caption": "Bakso goreng krispi berbumbu rempah pedas daun jeruk nikmat berstandar pangan higienis."
+    },
+    {
+      "image": "/brand/snack-santuy/snack-stik-bawang.jpg",
+      "label": "Stik Bawang Gurih Renyah",
+      "caption": "Camilan stik bawang klasik gurih tanpa pengawet sintetik cocok untuk paket reseller."
+    }
+  ],
   "actions": [
     {
       "key": "whatsapp",

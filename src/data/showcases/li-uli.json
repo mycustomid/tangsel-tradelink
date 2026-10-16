@@ -51,9 +51,9 @@
   ],
   "gallery": [
     {
-      "image": "https://liulicraft.wordpress.com/wp-content/uploads/2022/05/jpeg-image-1c20eb145b56-1.jpeg?w=847",
-      "label": "Tenun Balige Tote",
-      "caption": "Laminated burlap combined with Tenun Balige inspired by Ulos motifs.",
+      "image": "/brand/li-uli/li-uli-tonga-pink.jpg",
+      "label": "Tonga Tonga Pucca Tote",
+      "caption": "Tas wastra tenun etnik modern kombinasi goni laminasi bermotif khas nusantara.",
       "url": "https://liulicraft.wordpress.com/"
     },
     {
@@ -115,5 +115,7 @@
       "label": "Karya Perempuan",
       "url": "https://www.karyaperempuan.id/product/tas-hampers-qgfe1"
     }
-  ]
+  ],
+  "favicon": "/brand/li-uli/favicon.png",
+  "logo": "/brand/li-uli/favicon.png"
 }

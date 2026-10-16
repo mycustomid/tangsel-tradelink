@@ -52,19 +52,19 @@
   ],
   "gallery": [
     {
-      "image": "https://cf.shopee.co.id/file/bfe101be82a3acbbf35af3a8d4e252d1",
-      "label": "Dragon product family",
-      "caption": "A broad household wellness portfolio under a recognizable heritage brand."
+      "image": "/brand/dragon-prima-farma/dragon-product-family.jpg",
+      "label": "Dragon Product Family",
+      "caption": "Portofolio produk obat tradisional dan perawatan kesehatan keluarga sejak 1948."
     },
     {
-      "image": "https://down-id.img.susercontent.com/file/id-11134207-822wl-mnf5z352lyiw8e",
-      "label": "Balsem Kuning",
-      "caption": "A classic Dragon balm format with BPOM and Halal positioning."
+      "image": "/brand/dragon-prima-farma/dragon-balsem-kuning.jpg",
+      "label": "Balsem Kuning Dragon",
+      "caption": "Balsem herbal hangat pereda pegal linu dan masuk angin berizin resmi BPOM dan Halal."
     },
     {
-      "image": "https://down-id.img.susercontent.com/file/id-11134207-822wl-mnf5z352ng3cf7",
-      "label": "Minyak Kayu Putih Dragon",
-      "caption": "Minyak kayu putih alami berkhasiat menghangatkan tubuh dan meredakan masuk angin."
+      "image": "/brand/dragon-prima-farma/dragon-minyak-kayu-putih.png",
+      "label": "Minyak Kayu Putih Murni",
+      "caption": "Minyak kayu putih alami berkhasiat menghangatkan dan melegakan pernapasan."
     }
   ],
   "actions": [
@@ -88,5 +88,6 @@
       "label": "Official WhatsApp",
       "url": "https://wa.me/6282111009910"
     }
-  ]
+  ],
+  "favicon": "/brand/dragon-prima-farma/favicon.svg"
 }

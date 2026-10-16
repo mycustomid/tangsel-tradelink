@@ -52,9 +52,9 @@
   ],
   "gallery": [
     {
-      "image": "https://deltamas.id/wp-content/uploads/2024/11/new-GIIC-4.jpg",
-      "label": "GIIC industrial ecosystem",
-      "caption": "Large-scale green industrial development in Bekasi."
+      "image": "/brand/sinar-mas-land/giic-industrial.jpg",
+      "label": "GIIC Industrial Ecosystem",
+      "caption": "Greenland International Industrial Center Bekasi berwawasan lingkungan."
     },
     {
       "image": "https://asset.kompas.com/crops/86IL5U2qyyJahSPwg9d4TD5BzMw%3D/81x0%3A939x573/1200x900/data/photo/2021/10/12/6165bb5a124a1.jpeg",
@@ -62,9 +62,9 @@
       "caption": "A mature industrial city serving national and multinational manufacturers."
     },
     {
-      "image": "https://www.sinarmasland.com/assets/images/bsd-city-hub.jpg",
-      "label": "BSD City Smart Township",
-      "caption": "Pusat inovasi bisnis dan perkantoran digital terintegrasi di Tangerang Selatan."
+      "image": "/brand/sinar-mas-land/ice-bsd-city.jpg",
+      "label": "Indonesia Convention Exhibition BSD",
+      "caption": "Pusat konvensi dan pameran internasional terbesar di Tangerang Selatan."
     }
   ],
   "actions": [
@@ -88,5 +88,6 @@
       "label": "Sinar Mas Land Plaza",
       "url": "https://www.google.com/maps/search/?api=1&query=Sinar%20Mas%20Land%20Plaza%20BSD%20City"
     }
-  ]
+  ],
+  "favicon": "/brand/sinar-mas-land/bsd-city-logo.png"
 }

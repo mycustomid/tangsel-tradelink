@@ -51,7 +51,7 @@
   ],
   "gallery": [
     {
-      "image": "/brand/raja-freeze-dried-hero.webp",
+      "image": "/brand/raja-freeze-dried-product.webp",
       "label": "Koleksi Buah Kering Beku Tropis",
       "caption": "Nanas, mangga, strawberry, dan buah naga olahan freeze-drying renyah bernutrisi tinggi alami.",
       "url": "https://rajafreezedriedfood.com/"
@@ -128,5 +128,6 @@
     "optimizedAt": "2026-10-13",
     "heroFormat": "webp",
     "removedOversizeAsset": true
-  }
+  },
+  "favicon": "/brand/raja-freeze-dried-favicon.png"
 }

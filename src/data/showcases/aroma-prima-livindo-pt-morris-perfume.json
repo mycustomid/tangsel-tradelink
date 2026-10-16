@@ -52,19 +52,19 @@
   ],
   "gallery": [
     {
-      "image": "https://down-id.img.susercontent.com/file/id-11134207-7r98p-llhjs0vw2u84b5",
-      "label": "Fantasy Edition",
-      "caption": "Six playful scent stories in one recognizable Morris family."
+      "image": "/brand/aroma-prima-livindo-pt-morris-perfume/morris-red-edition.jpg",
+      "label": "Morris Red Edition EDP",
+      "caption": "Varian Eau de Parfum berkarakter segar berani untuk aktivitas harian."
     },
     {
-      "image": "https://down-id.img.susercontent.com/file/id-11134207-7r98r-llhjs0vw48sk06",
-      "label": "Morris Tropical Edition",
-      "caption": "Varian aroma buah tropis segar tahan lama untuk aktivitas harian."
+      "image": "/brand/aroma-prima-livindo-pt-morris-perfume/morris-gold-edition.jpg",
+      "label": "Morris Gold Edition EDP",
+      "caption": "Aroma mewah hangat dan elegan berizin resmi BPOM dari pabrik Balaraja Tangerang."
     },
     {
-      "image": "https://down-id.img.susercontent.com/file/id-11134207-7r98v-llhjs0vw5mv06e",
-      "label": "Morris Robot Futuristic Edition",
-      "caption": "Parfum pria maskulin berkarakter modern energik kemasan botol robot ikonik."
+      "image": "/brand/aroma-prima-livindo-pt-morris-perfume/morris-silver-edition.jpg",
+      "label": "Morris Silver Edition EDP",
+      "caption": "Parfum berkarakter maskulin modern dan tahan lama untuk pria dinamis."
     }
   ],
   "actions": [
@@ -88,5 +88,7 @@
       "label": "Aroma Prima Livindo",
       "url": "https://livindo.co.id/"
     }
-  ]
+  ],
+  "logo": "/brand/aroma-prima-livindo-pt-morris-perfume/morris-apl-logo.png",
+  "favicon": "/brand/aroma-prima-livindo-pt-morris-perfume/morris-apl-logo.png"
 }

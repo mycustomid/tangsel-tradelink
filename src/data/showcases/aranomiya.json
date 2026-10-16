@@ -1,14 +1,14 @@
 {
   "brandLabel": "ARANOMIYA",
-  "tagline": "Indonesian botanical body care for retail, hospitality and private-label collaboration.",
-  "eyebrow": "Handcrafted Natural Soap · Botanical Body Care · Serua, Ciputat, Tangerang Selatan",
+  "tagline": "Premium Natural Care from Indonesia — Indonesian botanical body care for retail, hospitality and private-label collaboration.",
+  "eyebrow": "Aranomiya Abimantrana Jaya · Premium Natural Care · Serua, Ciputat, Tangerang Selatan",
   "heroImage": "/brand/aranomiya/soap-kunyit-1.webp",
-  "logo": "/brand/aranomiya/aranomiya-logo.png",
-  "favicon": "/brand/aranomiya/aranomiya-logo.png",
+  "logo": "/brand/aranomiya/aranomiya-linktree-avatar.jpg",
+  "favicon": "/brand/aranomiya/aranomiya-linktree-avatar.jpg",
   "heroFit": "cover",
-  "heroAspectRatio": "1/1",
-  "heroAspectRatioMobile": "1/1",
-  "galleryAspectRatio": "1/1",
+  "heroAspectRatio": "16/11",
+  "heroAspectRatioMobile": "4/3",
+  "galleryAspectRatio": "4/3",
   "visualMode": "beauty",
   "palette": {
     "bg": "#f5f8f5",
@@ -17,8 +17,8 @@
     "surface": "#bbf7d0"
   },
   "story": {
-    "title": "Natural soap, rooted in Indonesian botanicals.",
-    "body": "ARANOMIYA adalah produsen sabun alami dan perawatan tubuh herbal berbasis di Tangerang Selatan yang dipimpin oleh Shasty. Memanfaatkan minyak nabati alami, ekstrak tumbuhan nusantara, dan minyak atsiri murni untuk menciptakan sabun batang artisanal, sampo padat, serta pembersih tubuh yang ramah lingkungan. Siap berkolaborasi untuk ritel butik, amenitas hotel/spa, dan layanan private label (maklon)."
+    "title": "Aranomiya Abimantrana Jaya — Natural care, rooted in Indonesian botanicals.",
+    "body": "Aranomiya didirikan di Serua, Ciputat, Tangerang Selatan, menghadirkan rangkaian perawatan tubuh alami berstandar premium. Mengkombinasikan minyak nabati nusantara, ekstrak herbal pilihan, dan minyak atsiri murni untuk menciptakan sabun artisanal batang proses dingin, sampo padat zero-waste, dan pembersih tubuh bebas deterjen keras. Memiliki legalitas resmi terdaftar di Kemendag InaExport dan siap melayani ritel butik, amenitas hotel & spa mewah, serta maklon private label."
   },
   "stats": [
     {
@@ -85,14 +85,19 @@
       "url": "https://linkumkm.id/ecommerce/detail/34726/sabun-cair-natural"
     },
     {
+      "image": "/brand/aranomiya/aranomiya-linktree-featured.jpg",
+      "label": "Aranomiya Abimantrana Jaya Official Showcase",
+      "caption": "Koleksi resmi perawatan tubuh alami premium karya Aranomiya dari Serua Ciputat Tangerang Selatan."
+    },
+    {
       "image": "/brand/aranomiya/aranomiya-real-4.jpg",
       "label": "Koleksi Gift Souvenir & Amenitas Organza",
-      "caption": "Paket suvenir eksklusif aneka varian sabun alami (Calendula, Batik, Kunyit) dalam kemasan kantong organza emas ramah lingkungan."
+      "caption": "Paket suvenir eksklusif aneka varian sabun alami dalam kemasan kantong organza emas ramah lingkungan."
     },
     {
       "image": "/brand/aranomiya/soap-batang-tamanu-bare.webp",
       "label": "Artisan Cold-Process Soap Bar",
-      "caption": "Tekstur padat lembut sabun proses dingin tanpa SLS/paraben, mempertahankan gliserin alami untuk melembapkan kulit secara mendalam."
+      "caption": "Tekstur padat lembut sabun proses dingin tanpa SLS/paraben yang mempertahankan gliserin alami."
     }
   ],
   "actions": [
@@ -102,28 +107,42 @@
       "url": "https://wa.me/6281586542838"
     },
     {
+      "key": "website",
+      "label": "Official Website · aranomiya.com",
+      "url": "https://www.aranomiya.com"
+    },
+    {
+      "key": "catalog",
+      "label": "Company Profile · PDF OneDrive",
+      "url": "https://1drv.ms/b/c/c00c80680b54ea76/IQALNahD_ffNSa5wlG_ab6dYATu6bl_ayM0mvOIeprIv6Pw?e=bfQsLa"
+    },
+    {
       "key": "instagram",
       "label": "Instagram · @aranomiya",
       "url": "https://www.instagram.com/aranomiya"
     },
     {
       "key": "website",
-      "label": "InaExport · ARANOMIYA",
+      "label": "InaExport · Kemendag RI",
       "url": "https://inaexport.id/perusahaan/95439-aranomiya-abimantrana-jaya"
     }
   ],
   "verification": {
     "status": "verified-authoritative",
-    "checkedAt": "2026-10-15",
-    "note": "Aset visual resolusi tinggi studio, kontak langsung Kak Shasty dan InaExport Kemendag RI.",
+    "checkedAt": "2026-10-16",
+    "note": "Disinkronkan dengan profil resmi linktr.ee/AranomiyA, website aranomiya.com, kontak langsung Kak Shasty, dan InaExport Kemendag RI.",
     "sources": [
+      {
+        "label": "Linktree Resmi Aranomiya",
+        "url": "https://linktr.ee/AranomiyA"
+      },
+      {
+        "label": "Website Resmi Aranomiya",
+        "url": "https://www.aranomiya.com"
+      },
       {
         "label": "WhatsApp Kak Shasty Aranomiya",
         "url": "https://wa.me/6281586542838"
-      },
-      {
-        "label": "Instagram @aranomiya",
-        "url": "https://www.instagram.com/aranomiya"
       },
       {
         "label": "InaExport Kemendag",

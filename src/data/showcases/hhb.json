@@ -99,6 +99,16 @@
   ],
   "gallery": [
     {
+      "image": "/brand/hhb/hhb-ocean-freight.webp",
+      "label": "Layanan Ocean Freight FCL & LCL",
+      "caption": "Pengiriman kargo laut internasional terintegrasi dengan jaringan shipping line global terkemuka."
+    },
+    {
+      "image": "/brand/hhb/hhb-air-cargo.webp",
+      "label": "International Air Freight Handling",
+      "caption": "Solusi pengiriman kargo udara cepat dan aman dengan penanganan customs clearance profesional."
+    },
+    {
       "image": "/brand/hhb/hhb-team.jpg",
       "label": "Tim Freight Forwarding HHB",
       "caption": "Profesional customs clearance dan manajemen logistik kargo ekspor-impor terpercaya."

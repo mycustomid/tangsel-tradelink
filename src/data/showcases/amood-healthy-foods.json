@@ -2,13 +2,13 @@
   "brandLabel": "PT AMOOD HEALTHY FOODS",
   "tagline": "Nuts Specialist — Kacang Almond & Mete Panggang Premium \"For Your Good Mood\".",
   "eyebrow": "Muhammad Alamudi · CEO & Founder · Tebet, South Jakarta",
-  "heroImage": "/brand/amood-healthy-foods/amood-healthy-foods-hero.webp",
+  "heroImage": "/brand/amood-healthy-foods/amood-roasted-almond-garlic.jpg",
   "logo": "/brand/amood-healthy-foods/amood-healthy-foods-logo.webp",
   "favicon": "/brand/amood-healthy-foods/favicon.png",
-  "heroFit": "contain",
-  "heroAspectRatio": "4/3",
+  "heroFit": "cover",
+  "heroAspectRatio": "16/9",
   "galleryAspectRatio": "1/1",
-  "galleryFit": "contain",
+  "galleryFit": "cover",
   "visualMode": "food",
   "palette": {
     "bg": "#faf7f4",
@@ -89,7 +89,23 @@
       ]
     }
   ],
-  "gallery": [],
+  "gallery": [
+    {
+      "image": "/brand/amood-healthy-foods/amood-roasted-cashews.jpg",
+      "label": "Roasted Cashews Garlic & Sea Salt",
+      "caption": "Kacang mete panggang renyah gurih dengan garam laut alami dan bawang putih premium berizin Halal & PIRT."
+    },
+    {
+      "image": "/brand/amood-healthy-foods/amood-honey-almonds.jpg",
+      "label": "Honey Glazed Almonds",
+      "caption": "Kacang almond panggang balut madu hutan murni manis alami bernutrisi tinggi tanpa pengawet sintetik."
+    },
+    {
+      "image": "/brand/amood-healthy-foods/amood-roasted-pistachio.jpg",
+      "label": "Roasted Salted Pistachios",
+      "caption": "Kacang pistachio panggang gurih renyah kaya nutrisi dan protein nabati pilihan."
+    }
+  ],
   "actions": [
     {
       "key": "whatsapp",

@@ -2,13 +2,13 @@
   "brandLabel": "PT KUSUMA KENCANA MULYA",
   "tagline": "Pabrik Tekstil & Pelopor Batik Printing Modern Pekalongan Sejak 1988.",
   "eyebrow": "Adie Sugiarto · Industrial Textile Manufacturer · Buaran, Pekalongan",
-  "heroImage": "/brand/kusuma-kencana-mulya/kusuma-kencana-mulya-hero.webp",
+  "heroImage": "/brand/kusuma-kencana-mulya/kusuma-batik-pekalongan.jpg",
   "logo": "/brand/kusuma-kencana-mulya/kusuma-kencana-mulya-logo.webp",
   "favicon": "/brand/kusuma-kencana-mulya/favicon.png",
-  "heroFit": "contain",
-  "heroAspectRatio": "4/3",
+  "heroFit": "cover",
+  "heroAspectRatio": "16/9",
   "galleryAspectRatio": "1/1",
-  "galleryFit": "contain",
+  "galleryFit": "cover",
   "visualMode": "editorial",
   "palette": {
     "bg": "#f9f6f1",
@@ -85,7 +85,23 @@
       ]
     }
   ],
-  "gallery": [],
+  "gallery": [
+    {
+      "image": "/brand/kusuma-kencana-mulya/kusuma-kain-mori.jpg",
+      "label": "Kain Mori Tenun Halus",
+      "caption": "Kain mori katun 100% tenunan rapat berstandar tekstil prima untuk bahan baku batik berkualitas."
+    },
+    {
+      "image": "/brand/kusuma-kencana-mulya/kusuma-rayon-weaving.jpg",
+      "label": "Kain Rayon Santung Printing",
+      "caption": "Tekstil rayon printing adem lembut bersertifikat OEKO-TEX dan K3L ramah lingkungan."
+    },
+    {
+      "image": "/brand/kusuma-kencana-mulya/kusuma-batik-tulis.jpg",
+      "label": "Kain Batik Tulis Canting Halus",
+      "caption": "Kain batik tulis tradisional motif pesisiran karya perajin batik Pekalongan bernilai seni tinggi."
+    }
+  ],
   "actions": [
     {
       "key": "whatsapp",

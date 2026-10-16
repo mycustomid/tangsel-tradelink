@@ -2,13 +2,13 @@
   "brandLabel": "ARJUNA 68",
   "tagline": "Home Made Cake, Pastry & Premium Cookies — Kelezatan Panggang Otentik Jakarta Pusat.",
   "eyebrow": "Artisan Bakery & Kue Kering Istimewa · Jakarta Pusat",
-  "heroImage": "/brand/arjuna-68/arjuna-68-hero.webp",
+  "heroImage": "/brand/arjuna-68/arjuna-kastengel-keju.jpg",
   "logo": "/brand/arjuna-68/arjuna-68-logo.webp",
   "favicon": "/brand/arjuna-68/favicon.png",
-  "heroFit": "contain",
-  "heroAspectRatio": "4/3",
+  "heroFit": "cover",
+  "heroAspectRatio": "16/9",
   "galleryAspectRatio": "1/1",
-  "galleryFit": "contain",
+  "galleryFit": "cover",
   "visualMode": "food",
   "palette": {
     "bg": "#fffdfa",
@@ -85,7 +85,23 @@
       ]
     }
   ],
-  "gallery": [],
+  "gallery": [
+    {
+      "image": "/brand/arjuna-68/arjuna-fudgy-brownies.jpg",
+      "label": "Fudgy Chocolate Brownies",
+      "caption": "Brownies panggang cokelat pekat lumer dengan shiny crust renyah bertabur almond slice."
+    },
+    {
+      "image": "/brand/arjuna-68/arjuna-nastar-wisman.jpg",
+      "label": "Nastar Wisman Nanas Asli",
+      "caption": "Kue kering mentega wisman lembut dengan isian selai nanas segar alami manis asam seimbang."
+    },
+    {
+      "image": "/brand/arjuna-68/arjuna-artisan-pastry.jpg",
+      "label": "Artisan Butter Pastry & Croissant",
+      "caption": "Aneka olahan pastry mentega panggang segar beraroma harum mentega dengan lapisan renyah berlapis."
+    }
+  ],
   "actions": [
     {
       "key": "whatsapp",

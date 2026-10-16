@@ -52,19 +52,19 @@
   ],
   "gallery": [
     {
-      "image": "https://tempeazaki.com/wp-content/uploads/2025/02/Frame-427323138.jpg",
-      "label": "Tempeh product family",
-      "caption": "Fresh, frozen and snack formats built for different markets."
+      "image": "/brand/tempe-azaki/tempeh-product-family.jpg",
+      "label": "Tempe Azaki Product Family",
+      "caption": "Inovasi produk tempe higienis berstandar ekspor ke berbagai negara."
     },
     {
-      "image": "https://tempeazaki.com/wp-content/uploads/elementor/thumbs/Frame-427323136-r2vkghzxfaiorotejevvvxrdyglt27yv1qdpznczdc.jpg",
-      "label": "Original Tempe Chips",
-      "caption": "A convenient snack interpretation of Indonesian tempeh."
+      "image": "/brand/tempe-azaki/tempe-chips.jpg",
+      "label": "Keripik Tempe Premium",
+      "caption": "Snack keripik tempe renyah gurih bergizi tinggi kaya protein nabati."
     },
     {
-      "image": "https://tempeazaki.com/wp-content/uploads/2025/02/Frame-427323137.jpg",
+      "image": "/brand/tempe-azaki/frozen-tempeh.jpg",
       "label": "Frozen Premium Tempeh",
-      "caption": "Tempe beku higienis siap ekspor standar internasional."
+      "caption": "Tempe beku higienis bersertifikasi FSSC 22000, BPOM, dan US FDA."
     }
   ],
   "actions": [
@@ -88,5 +88,6 @@
       "label": "WhatsApp",
       "url": "https://wa.me/6281315441691"
     }
-  ]
+  ],
+  "favicon": "/brand/tempe-azaki/favicon.svg"
 }

@@ -8,7 +8,7 @@
   "heroFit": "contain",
   "heroAspectRatio": "4/3",
   "galleryAspectRatio": "1/1",
-  "galleryFit": "contain",
+  "galleryFit": "cover",
   "visualMode": "food",
   "palette": {
     "bg": "#fdfbf7",
@@ -85,7 +85,23 @@
       ]
     }
   ],
-  "gallery": [],
+  "gallery": [
+    {
+      "image": "/brand/the-munching-queen/munching-freeze-dried-strawberry.jpg",
+      "label": "Freeze-Dried Strawberries Crisps",
+      "caption": "Buah strawberry asli utuh diproses freeze-drying renyah tanpa tambahan pengawet dan pewarna buatan."
+    },
+    {
+      "image": "/brand/the-munching-queen/munching-banana-chips.jpg",
+      "label": "Natural Banana Chips",
+      "caption": "Keripik pisang pilihan berkualitas ekspor bertekstur krispi renyah bernutrisi tinggi untuk keluarga."
+    },
+    {
+      "image": "/brand/the-munching-queen/munching-dried-fruit-crisps.jpg",
+      "label": "Assorted Tropical Fruit Crisps",
+      "caption": "Koleksi aneka buah kering sehat kaya serat dan vitamin alami ramah anak."
+    }
+  ],
   "actions": [
     {
       "key": "whatsapp",

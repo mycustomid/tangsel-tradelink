@@ -52,19 +52,19 @@
   ],
   "gallery": [
     {
-      "image": "https://down-id.img.susercontent.com/file/71f769c3f91718471b8d6ee0cc65bca7",
-      "label": "Cleaning essentials",
-      "caption": "Everyday tools designed for practical, repeat use."
+      "image": "/brand/clean-matic/clean-matic-essentials.jpg",
+      "label": "Cleaning Essentials Range",
+      "caption": "Ragam alat kebersihan rumah tangga dan industri yang praktis dan tahan lama."
     },
     {
-      "image": "https://img.mbizmarket.co.id/products/thumbs/800x800/2023/10/11/495e61ddf2dc63179da7f1a0e65692b1.jpg",
-      "label": "Microfibre system",
-      "caption": "Cleaning textiles and supporting accessories expand the range."
+      "image": "/brand/clean-matic/clean-matic-microfibre.jpg",
+      "label": "Microfibre Cleaning System",
+      "caption": "Kain mikrofiber dan aksesoris pembersih higienis berdaya serap tinggi."
     },
     {
-      "image": "https://down-id.img.susercontent.com/file/id-11134207-7r98o-lm6t0w1bqwfcf7",
-      "label": "Alat Pel Putar Otomatis",
-      "caption": "Mop pembersih lantai higienis berteknologi putar otomatis efisien dan hemat tenaga."
+      "image": "/brand/clean-matic/clean-matic-spin-mop.jpg",
+      "label": "Spin Mop System",
+      "caption": "Alat pel putar ergonomis untuk efisiensi kebersihan lantai modern."
     }
   ],
   "actions": [
@@ -83,5 +83,6 @@
       "label": "Taman Tekno Store",
       "url": "https://www.google.com/maps/search/?api=1&query=Clean%20Matic%20Store%20Taman%20Tekno%20Tangerang%20Selatan"
     }
-  ]
+  ],
+  "favicon": "/brand/clean-matic/favicon.svg"
 }
