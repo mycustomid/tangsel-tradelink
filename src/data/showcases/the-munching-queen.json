@@ -5,9 +5,10 @@
   "heroImage": "/brand/the-munching-queen/the-munching-queen-hero.webp",
   "logo": "/brand/the-munching-queen/the-munching-queen-logo.webp",
   "favicon": "/brand/the-munching-queen/favicon.png",
-  "heroFit": "contain",
-  "heroAspectRatio": "4/3",
-  "galleryAspectRatio": "1/1",
+  "heroFit": "cover",
+  "heroAspectRatio": "16/11",
+  "heroAspectRatioMobile": "4/3",
+  "galleryAspectRatio": "4/3",
   "galleryFit": "cover",
   "visualMode": "food",
   "palette": {
@@ -18,7 +19,7 @@
   },
   "story": {
     "title": "Camilan Sehat Ramah Anak Berstandar Ekspor dari UD Cahaya Kencana Surabaya.",
-    "body": "The Munching Queen didirikan di bawah naungan UD Cahaya Kencana (Surabaya) untuk menghadirkan camilan sehat, lezat, dan aman bagi anak-anak serta seluruh anggota keluarga. Mengutamakan bahan baku alami berkualitas tinggi tanpa tambahan MSG maupun perisa artifisial berbahaya. Lini produk unggulan mencakup oven-baked pasta chips, kerupuk keju ikan, keripik tempe renyah, hingga brownies krispi yang siap diekspor ke berbagai pasar mancanegara."
+    "body": "The Munching Queen didirikan di bawah naungan UD Cahaya Kencana (Surabaya) untuk menghadirkan camilan sehat, lezat, dan aman bagi anak-anak serta seluruh anggota keluarga. Mengutamakan bahan baku alami berkualitas tinggi tanpa tambahan MSG maupun perisa artifisial berbahaya. Lini produk unggulan mencakup Fish & Cheese crackers, oven-baked pasta chips, keripik tempe renyah bumbu salmon furikake, hingga brownies krispi yang siap diekspor ke berbagai pasar mancanegara dengan standar Halal, BPOM, dan HACCP."
   },
   "stats": [
     {
@@ -34,22 +35,22 @@
       "label": "Standar Kemasan & Mutu Ekspor Terjamin"
     },
     {
-      "value": "Surabaya",
-      "label": "Basis Produksi Higienis Jawa Timur"
+      "value": "HACCP & Halal",
+      "label": "Sertifikasi BPOM, MUI & Standar Internasional"
     }
   ],
   "highlights": [
-    {
-      "title": "Oven-Baked Pasta Chips",
-      "body": "Keripik pasta panggang renyah rendah minyak dengan taburan bumbu keju dan rempah alami yang disukai anak-anak."
-    },
     {
       "title": "Fish & Cheese Crackers",
       "body": "Kerupuk olahan ikan segar berpadu gurihnya keju asli kaya kalsium dan protein tinggi."
     },
     {
-      "title": "Crispy Tempeh & Brownies",
-      "body": "Kombinasi keripik tempe tradisional higienis dan varian brownies kering cokelat murni yang renyah legit."
+      "title": "Oven-Baked Pasta Chips",
+      "body": "Keripik pasta panggang renyah rendah minyak dengan taburan bumbu keju dan rempah alami yang disukai anak-anak."
+    },
+    {
+      "title": "Tempeh Chips Salmon Furikake",
+      "body": "Kombinasi keripik tempe tradisional higienis dengan bumbu furikake salmon bercita rasa gurih alami."
     },
     {
       "title": "Kemasan Zipper Stand Pouch",
@@ -63,15 +64,15 @@
       "note": "Menerima pesanan ritel, reseller distributor, suvenir hampers, dan pengadaan ekspor kontainer.",
       "items": [
         {
-          "label": "Oven-Baked Pasta Chips Series",
+          "label": "Fish & Cheese Nutritional Crackers (85g / 30g / 10g)",
           "value": "Varian Bestseller"
         },
         {
-          "label": "Fish & Cheese Nutritional Crackers",
-          "value": "Kaya Kalsium"
+          "label": "Oven-Baked Pasta Chips Series",
+          "value": "Rendah Minyak"
         },
         {
-          "label": "Artisan Crispy Tempeh Chips",
+          "label": "Artisan Crispy Tempeh Chips Furikake",
           "value": "Protein Nabati"
         },
         {
@@ -87,22 +88,32 @@
   ],
   "gallery": [
     {
-      "image": "/brand/the-munching-queen/munching-freeze-dried-strawberry.jpg",
-      "label": "Freeze-Dried Strawberries Crisps",
-      "caption": "Buah strawberry asli utuh diproses freeze-drying renyah tanpa tambahan pengawet dan pewarna buatan."
+      "image": "/brand/the-munching-queen/munching-fish-cheese-pack.png",
+      "label": "Fish & Cheese Crackers - Original 85g",
+      "caption": "Camilan kerupuk keju olahan ikan segar bernutrisi tinggi kaya protein dan kalsium kemasan standing pouch."
     },
     {
-      "image": "/brand/the-munching-queen/munching-banana-chips.jpg",
-      "label": "Natural Banana Chips",
-      "caption": "Keripik pisang pilihan berkualitas ekspor bertekstur krispi renyah bernutrisi tinggi untuk keluarga."
+      "image": "/brand/the-munching-queen/munching-brownies-pack.png",
+      "label": "Crispy Brownies Chocolate",
+      "caption": "Brownies panggang renyah cokelat murni rendah minyak ramah anak bersertifikat Halal & BPOM resmi."
     },
     {
-      "image": "/brand/the-munching-queen/munching-dried-fruit-crisps.jpg",
-      "label": "Assorted Tropical Fruit Crisps",
-      "caption": "Koleksi aneka buah kering sehat kaya serat dan vitamin alami ramah anak."
+      "image": "/brand/the-munching-queen/munching-tempeh-pack.png",
+      "label": "Tempeh Chips Salmon Furikake",
+      "caption": "Keripik tempe kedelai fermentasi higienis bertabur bumbu furikake salmon bercita rasa gurih alami."
+    },
+    {
+      "image": "/brand/the-munching-queen/munching-fish-cheese.webp",
+      "label": "Fish & Cheese Sharing Platter",
+      "caption": "Sajian sehat renyah bergizi untuk momen keluarga dan camilan ceria anak-anak di rumah."
     }
   ],
   "actions": [
+    {
+      "key": "website",
+      "label": "Official Website · The Munching Queen",
+      "url": "https://themunchingqueen.com"
+    },
     {
       "key": "whatsapp",
       "label": "WhatsApp Export · Dian Ika Safitri",
@@ -115,18 +126,22 @@
     },
     {
       "key": "website",
-      "label": "Official Website · Cahaya Kencana",
-      "url": "https://www.cahaya-kencana.com"
+      "label": "Corporate Site · Cahaya Kencana",
+      "url": "https://cahaya-kencana.com"
     }
   ],
   "verification": {
     "status": "verified-authoritative",
-    "checkedAt": "2026-10-15",
-    "note": "Diverifikasi langsung dari kartu bisnis pameran TEI 2026 dan direktori resmi UD Cahaya Kencana.",
+    "checkedAt": "2026-10-16",
+    "note": "Data disinkronkan langsung dari website resmi themunchingqueen.com, kartu bisnis pameran TEI 2026, dan direktori UD Cahaya Kencana.",
     "sources": [
       {
+        "label": "Website Resmi The Munching Queen",
+        "url": "https://themunchingqueen.com"
+      },
+      {
         "label": "Website Resmi Cahaya Kencana",
-        "url": "https://www.cahaya-kencana.com"
+        "url": "https://cahaya-kencana.com"
       },
       {
         "label": "Kontak WhatsApp Dian Ika Safitri",

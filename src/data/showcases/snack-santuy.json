@@ -5,9 +5,10 @@
   "heroImage": "/brand/snack-santuy/snack-santuy-hero.webp",
   "logo": "/brand/snack-santuy/snack-santuy-logo.webp",
   "favicon": "/brand/snack-santuy/favicon.png",
-  "heroFit": "contain",
-  "heroAspectRatio": "4/3",
-  "galleryAspectRatio": "1/1",
+  "heroFit": "cover",
+  "heroAspectRatio": "16/11",
+  "heroAspectRatioMobile": "4/3",
+  "galleryAspectRatio": "4/3",
   "galleryFit": "cover",
   "visualMode": "food",
   "palette": {
@@ -40,16 +41,16 @@
   ],
   "highlights": [
     {
-      "title": "Crunchy Edamame & Spinach",
-      "body": "Kedelai edamame jepang dan bayam hijau renyah tinggi serat dan protein nabati."
+      "title": "Otak-Otak Crispy Original",
+      "body": "Camilan olahan ikan gurih bertekstur krispi renyah untuk teman santai kapan saja."
     },
     {
       "title": "Broccoli Crispy & Jackfruit",
       "body": "Kuntum brokoli utuh krispi dan nangka manis alami dengan kerenyahan tahan lama."
     },
     {
-      "title": "Otak-Otak Crispy Original",
-      "body": "Camilan olahan ikan gurih bertekstur krispi renyah untuk teman santai kapan saja."
+      "title": "Makaroni Pedas Daun Jeruk",
+      "body": "Makaroni renyah gurih pedas nampol bertabur cabai kering dan aroma daun jeruk aromatik."
     },
     {
       "title": "Peluang Reseller Se-Indonesia",
@@ -63,24 +64,20 @@
       "note": "Pemesanan dapat langsung dikirim ke seluruh Indonesia via kurir ekspedisi resmi.",
       "items": [
         {
-          "label": "Crunchy Edamame Pouch",
-          "value": "Protein Nabati"
+          "label": "Otak-Otak Crispy Original (70g)",
+          "value": "Gurih Ikan Pilihan"
         },
         {
-          "label": "Crunchy Spinach (Keripik Bayam)",
-          "value": "Tinggi Zat Besi"
-        },
-        {
-          "label": "Brocoli Crispy Homemade",
+          "label": "Brocoli Crispy Homemade (50g/70g)",
           "value": "Sayur Anti-GTM"
         },
         {
-          "label": "Jackfruit Crispy Alami",
-          "value": "Buah Asli Manis"
+          "label": "Crunchy Edamame & Spinach",
+          "value": "Protein Nabati"
         },
         {
-          "label": "Otak-Otak Crispy Original",
-          "value": "Gurih Ikan Pilihan"
+          "label": "Makaroni Pedas Daun Jeruk (150g)",
+          "value": "Pedas Kriuk"
         },
         {
           "label": "Starter Kit Reseller (Mulai 100K)",
@@ -91,14 +88,19 @@
   ],
   "gallery": [
     {
-      "image": "/brand/snack-santuy/snack-makaroni-pedas.jpg",
-      "label": "Makaroni Pedas Daun Jeruk",
-      "caption": "Makaroni renyah gurih bertabur cabai kering asli dan aroma daun jeruk segar berizin PIRT & Halal."
+      "image": "/brand/snack-santuy/snack-otak-otak-crispy.jpg",
+      "label": "Otak-Otak Crispy Original 70g",
+      "caption": "Camilan otak-otak ikan garing gurih renyah tanpa pengawet kemasan standing pouch resmi Snack Santuy."
     },
     {
-      "image": "/brand/snack-santuy/snack-basreng-pedas.jpg",
-      "label": "Basreng Pedas Renyah",
-      "caption": "Bakso goreng krispi berbumbu rempah pedas daun jeruk nikmat berstandar pangan higienis."
+      "image": "/brand/snack-santuy/snack-brokoli-crispy.jpg",
+      "label": "Brokoli Crispy Super Renyah",
+      "caption": "Keripik sayur brokoli hijau asli kaya serat dengan kerenyahan tahan lama tanpa pewarna sintetis."
+    },
+    {
+      "image": "/brand/snack-santuy/snack-makaroni-pedas.jpg",
+      "label": "Makaroni Pedas Daun Jeruk 150g",
+      "caption": "Makaroni renyah gurih bertabur cabai kering asli dan aroma daun jeruk segar berizin PIRT & Halal."
     },
     {
       "image": "/brand/snack-santuy/snack-stik-bawang.jpg",
@@ -109,8 +111,13 @@
   "actions": [
     {
       "key": "whatsapp",
-      "label": "WhatsApp Order · 0881 0252 52498",
+      "label": "WhatsApp Order Reseller · 0881 0252 52498",
       "url": "https://wa.me/62881025252498"
+    },
+    {
+      "key": "shopee",
+      "label": "Shopee Official · Snack_Santuy",
+      "url": "https://shopee.co.id/snack_santuy"
     },
     {
       "key": "instagram",
@@ -125,9 +132,13 @@
   ],
   "verification": {
     "status": "verified-authoritative",
-    "checkedAt": "2026-10-15",
-    "note": "Diverifikasi langsung dari flyer pameran TEI 2026 dan kanal media sosial resmi Snack Santuy.",
+    "checkedAt": "2026-10-16",
+    "note": "Diverifikasi langsung dari official Shopee store Snack_Santuy, materi promosi reseller TEI 2026, dan media sosial resmi.",
     "sources": [
+      {
+        "label": "Shopee Resmi Snack Santuy",
+        "url": "https://shopee.co.id/snack_santuy"
+      },
       {
         "label": "Instagram Resmi Snack Santuy",
         "url": "https://www.instagram.com/snacksantuy_official/"

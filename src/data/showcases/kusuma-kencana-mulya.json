@@ -2,12 +2,13 @@
   "brandLabel": "PT KUSUMA KENCANA MULYA",
   "tagline": "Pabrik Tekstil & Pelopor Batik Printing Modern Pekalongan Sejak 1988.",
   "eyebrow": "Adie Sugiarto · Industrial Textile Manufacturer · Buaran, Pekalongan",
-  "heroImage": "/brand/kusuma-kencana-mulya/kusuma-batik-pekalongan.jpg",
+  "heroImage": "/brand/kusuma-kencana-mulya/kusuma-kencana-mulya-hero.webp",
   "logo": "/brand/kusuma-kencana-mulya/kusuma-kencana-mulya-logo.webp",
   "favicon": "/brand/kusuma-kencana-mulya/favicon.png",
   "heroFit": "cover",
-  "heroAspectRatio": "16/9",
-  "galleryAspectRatio": "1/1",
+  "heroAspectRatio": "16/11",
+  "heroAspectRatioMobile": "4/3",
+  "galleryAspectRatio": "4/3",
   "galleryFit": "cover",
   "visualMode": "editorial",
   "palette": {
@@ -100,6 +101,11 @@
       "image": "/brand/kusuma-kencana-mulya/kusuma-batik-tulis.jpg",
       "label": "Kain Batik Tulis Canting Halus",
       "caption": "Kain batik tulis tradisional motif pesisiran karya perajin batik Pekalongan bernilai seni tinggi."
+    },
+    {
+      "image": "/brand/kusuma-kencana-mulya/kusuma-batik-fabric.jpg",
+      "label": "Kain Batik Printing Rol Premium",
+      "caption": "Koleksi rol kain batik katun printing halus ragam motif pesisiran modern siap suplai garmen dan ritel."
     }
   ],
   "actions": [

@@ -2,12 +2,13 @@
   "brandLabel": "BOPET PAGARUYUNG",
   "tagline": "Cita Rasa Tradisi Kuliner Minang & Racikan Rempah Otentik Nusantara.",
   "eyebrow": "Niken Gubie · Kuliner Tradisional Nusantara · Palembang & Sekitarnya",
-  "heroImage": "/brand/bopet-pagaruyung/bopet-rendang-daging.jpg",
+  "heroImage": "/brand/bopet-pagaruyung/bopet-pagaruyung-hero.webp",
   "logo": "/brand/bopet-pagaruyung/bopet-pagaruyung-logo.webp",
   "favicon": "/brand/bopet-pagaruyung/favicon.png",
   "heroFit": "cover",
-  "heroAspectRatio": "16/9",
-  "galleryAspectRatio": "1/1",
+  "heroAspectRatio": "16/11",
+  "heroAspectRatioMobile": "4/3",
+  "galleryAspectRatio": "4/3",
   "galleryFit": "cover",
   "visualMode": "food",
   "palette": {
@@ -96,6 +97,11 @@
       "image": "/brand/bopet-pagaruyung/bopet-soto-padang.jpg",
       "label": "Soto Padang Daging Sapi Rempah",
       "caption": "Soto Padang berkuah kaldu sapi bening kaya rempah kapulaga dan bunga lawang dengan dendeng renyah."
+    },
+    {
+      "image": "/brand/bopet-pagaruyung/bopet-rendang-suwir.jpg",
+      "label": "Rendang Daging Suwir Otentik",
+      "caption": "Serat daging sapi empuk dimasak perlahan dalam santan kelapa pekat dan racikan rempah Minang otentik."
     }
   ],
   "actions": [
