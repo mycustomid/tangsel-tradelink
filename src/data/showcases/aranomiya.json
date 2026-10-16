@@ -58,21 +58,33 @@
   ],
   "commercialBlocks": [
     {
-      "title": "Koleksi Botanical Care Aranomiya",
+      "title": "Katalog Botanical Care & Bestsellers Aranomiya",
       "badge": "Eco & Natural",
-      "note": "Konsultasi pesanan ritel atau maklon B2B via WhatsApp.",
+      "note": "Melayani pesanan ritel butik, hampers korporasi, suplai amenitas hotel/resort, dan maklon B2B.",
       "items": [
+        {
+          "label": "Coffee Solid Soap Bar (Handcrafted)",
+          "value": "IDR 65.000"
+        },
+        {
+          "label": "Tamanu Liquid Soap (Face & Body)",
+          "value": "IDR 60.000"
+        },
+        {
+          "label": "Reed Diffuser Botanical Aromatherapy",
+          "value": "IDR 175.000"
+        },
+        {
+          "label": "Crystal Infused Scented Candle",
+          "value": "Aromatik Alami"
+        },
         {
           "label": "Artisan Botanical Soap Bar (Kunyit / Tamanu)",
           "value": "Bar 100g"
         },
         {
-          "label": "Activated Charcoal Liquid Soap (Face & Body)",
-          "value": "Bottle 60ml"
-        },
-        {
-          "label": "Custom Souvenir & Amenity Set (Organza Pack)",
-          "value": "Hotel / Event Pack"
+          "label": "Custom Souvenir & Hotel Amenity Set (Organza Pack)",
+          "value": "Paket Kustom B2B"
         }
       ]
     }
@@ -112,6 +124,21 @@
       "url": "https://www.aranomiya.com"
     },
     {
+      "key": "shopee",
+      "label": "Shopee Official · aranomiya",
+      "url": "https://shopee.co.id/aranomiya"
+    },
+    {
+      "key": "tokopedia",
+      "label": "Tokopedia Store · Aranomiya",
+      "url": "https://www.tokopedia.com/aranomiya"
+    },
+    {
+      "key": "website",
+      "label": "Toco.id Store · Aranomiya Eco Care",
+      "url": "https://toco.id/store/aranomiya"
+    },
+    {
       "key": "catalog",
       "label": "Company Profile · PDF OneDrive",
       "url": "https://1drv.ms/b/c/c00c80680b54ea76/IQALNahD_ffNSa5wlG_ab6dYATu6bl_ayM0mvOIeprIv6Pw?e=bfQsLa"
@@ -122,6 +149,31 @@
       "url": "https://www.instagram.com/aranomiya"
     },
     {
+      "key": "youtube",
+      "label": "YouTube Official · Aranomiya",
+      "url": "http://www.youtube.com/aranomiya"
+    },
+    {
+      "key": "maps",
+      "label": "Google Maps & Review · Ciputat Tangsel",
+      "url": "https://maps.app.goo.gl/EoKbubpxvzuT18FL9"
+    },
+    {
+      "key": "email",
+      "label": "Email Inquiries · info@aranomiya.com",
+      "url": "mailto:info@aranomiya.com"
+    },
+    {
+      "key": "website",
+      "label": "Linktree Hub · linktr.ee/AranomiyA",
+      "url": "https://linktr.ee/AranomiyA"
+    },
+    {
+      "key": "website",
+      "label": "Lynk.id Store · lynk.id/aranomiya",
+      "url": "https://lynk.id/aranomiya"
+    },
+    {
       "key": "website",
       "label": "InaExport · Kemendag RI",
       "url": "https://inaexport.id/perusahaan/95439-aranomiya-abimantrana-jaya"
@@ -130,10 +182,10 @@
   "verification": {
     "status": "verified-authoritative",
     "checkedAt": "2026-10-16",
-    "note": "Disinkronkan dengan profil resmi linktr.ee/AranomiyA, website aranomiya.com, kontak langsung Kak Shasty, dan InaExport Kemendag RI.",
+    "note": "Disinkronkan lengkap dengan 13 kanal resmi: Linktree @AranomiyA, situs resmi aranomiya.com, Tokopedia, Shopee, Toco, Lynk.id, YouTube, profil InaExport Kemendag RI, dan kontak langsung WhatsApp Kak Shasty Pramahesty.",
     "sources": [
       {
-        "label": "Linktree Resmi Aranomiya",
+        "label": "Linktree Resmi @AranomiyA",
         "url": "https://linktr.ee/AranomiyA"
       },
       {
@@ -141,11 +193,27 @@
         "url": "https://www.aranomiya.com"
       },
       {
+        "label": "Shopee Resmi Aranomiya",
+        "url": "https://shopee.co.id/aranomiya"
+      },
+      {
+        "label": "Tokopedia Toko Aranomiya",
+        "url": "https://www.tokopedia.com/aranomiya"
+      },
+      {
+        "label": "Toco.id Official Store",
+        "url": "https://toco.id/store/aranomiya"
+      },
+      {
+        "label": "YouTube Resmi Aranomiya",
+        "url": "http://www.youtube.com/aranomiya"
+      },
+      {
         "label": "WhatsApp Kak Shasty Aranomiya",
         "url": "https://wa.me/6281586542838"
       },
       {
-        "label": "InaExport Kemendag",
+        "label": "InaExport Kemendag RI",
         "url": "https://inaexport.id/perusahaan/95439-aranomiya-abimantrana-jaya"
       }
     ]

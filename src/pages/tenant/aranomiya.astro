@@ -14,7 +14,14 @@ const tenant = {
 };
 const structuredData = {
   '@context':'https://schema.org','@type':'Organization',name:tenant.name,
-  url:tenant.website,telephone:'+62 815-8654-2838',sameAs:[tenant.instagram]
+  url:tenant.website,telephone:'+62 815-8654-2838',sameAs:[
+    tenant.instagram,
+    'https://shopee.co.id/aranomiya',
+    'https://www.tokopedia.com/aranomiya',
+    'https://toco.id/store/aranomiya',
+    'http://www.youtube.com/aranomiya',
+    'https://linktr.ee/AranomiyA'
+  ]
 };
 ---
 <BaseLayout favicon={resolveTenantFavicon(tenant, config)} title="ARANOMIYA — Tangsel TradeLink" description={tenant.description} theme="beauty"
