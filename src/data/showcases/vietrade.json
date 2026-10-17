@@ -1,11 +1,11 @@
 {
-  "brandLabel": "VIETRADE — Vietnam Trade Promotion Agency",
-  "tagline": "Official Trade Delegation & National Export Promotion — Ministry of Industry and Trade of Vietnam.",
-  "eyebrow": "Government Trade Agency · Ministry of Industry and Trade (MOIT) · Hanoi, Viet Nam",
+  "brandLabel": "BỘ CÔNG THƯƠNG · CỤC XÚC TIẾN THƯƠNG MẠI — VIETRADE",
+  "tagline": "Official National Trade Promotion Delegation · Ministry of Industry and Trade of the Socialist Republic of Vietnam.",
+  "eyebrow": "State Government Agency · Ministry of Industry and Trade (MOIT) · Hanoi, Viet Nam",
   "heroImage": "/brand/vietrade/vietrade-hero.webp",
   "logo": "/brand/vietrade/vietrade-logo.webp",
   "favicon": "/brand/vietrade/vietrade-logo.webp",
-  "heroFit": "contain",
+  "heroFit": "cover",
   "visualMode": "tech",
   "lang": "en",
   "palette": {
@@ -14,26 +14,131 @@
     "accent": "#d4af37",
     "surface": "#0f233d"
   },
+  "officer": {
+    "name": "Tâm Trang",
+    "title": "Trade Promotion Officer",
+    "titleVi": "Cán bộ Xúc tiến Thương mại",
+    "agency": "Vietnam Trade Promotion Agency (VIETRADE)",
+    "ministry": "Ministry of Industry and Trade of Vietnam (MOIT)",
+    "avatar": "/brand/vietrade/tam-trang-avatar.webp",
+    "qrCode": "/brand/vietrade/vietrade-qr.png",
+    "vcard": "/brand/vietrade/tam-trang-vietrade.vcf",
+    "phone": "+84 82 880 7986",
+    "email": "tamtrang.vietrade@gmail.com",
+    "zalo": "https://zalo.me/84828807986",
+    "whatsapp": "https://wa.me/84828807986",
+    "location": "Trade Expo Indonesia 2026 · Hall 8 · Booth 8-7C",
+    "badge": "Official State Delegate · TEI 2026"
+  },
   "story": {
-    "title": "Connecting Global Buyers with Vietnamese Industrial Manufacturing & Export Excellence.",
-    "body": "The Vietnam Trade Promotion Agency (VIETRADE) is the governmental agency operating under the Ministry of Industry and Trade of Vietnam (MOIT) responsible for state management, national trade promotion, export acceleration, and the Vietnam National Brand program. Leading the Vietnamese commercial presence at Trade Expo Indonesia (TEI 2026), VIETRADE connects international buyers, importers, and regional distribution partners directly with accredited Vietnamese enterprises across agriculture, specialty coffee, consumer goods, renewable materials, and industrial supply chains."
+    "title": "Connecting Global Sourcing Partners with Vietnam's Premier Manufacturing & Industrial Excellence.",
+    "body": "The Vietnam Trade Promotion Agency (VIETRADE — Cục Xúc tiến thương mại) is the premier governmental authority operating under the Ministry of Industry and Trade of Vietnam (MOIT). VIETRADE spearheads state trade promotion, national export acceleration, foreign investment linkages, and the prestigious Vietnam National Brand program (Vietnam Value / Thương hiệu Quốc gia). Heading the official Vietnamese trade delegation at Trade Expo Indonesia (TEI 2026), VIETRADE establishes direct, high-trust bridges between international importers, sovereign procurement authorities, and accredited Vietnamese producers across specialty coffee, agricultural commodities, consumer electronics, and sustainable bio-materials."
   },
   "stats": [
     {
       "value": "MOIT Vietnam",
-      "label": "Ministry of Industry and Trade National Executive Agency"
+      "label": "Ministry of Industry and Trade Executive Directorate"
     },
     {
       "value": "100+ Nations",
-      "label": "Global Bilateral Trade Networks & Export Corridors"
+      "label": "Bilateral Trade Networks & Cross-Border Sourcing Desks"
     },
     {
       "value": "Vietnam Value",
-      "label": "National Brand Quality & Innovation Certification Program"
+      "label": "Thương hiệu Quốc gia National Brand Certification"
     },
     {
       "value": "Hanoi HQ",
-      "label": "Số 20 Lý Thường Kiệt, Hoàn Kiếm, Hà Nội"
+      "label": "Số 20 Lý Thường Kiệt, Hoàn Kiếm, TP. Hà Nội"
+    }
+  ],
+  "exportCorridors": [
+    {
+      "id": "coffee",
+      "name": "Specialty Coffee & Fine Robusta",
+      "subtitle": "Central Highlands (Tây Nguyên) · Buôn Ma Thuột & Lâm Đồng",
+      "image": "/brand/vietrade/vietnam-coffee-robusta.webp",
+      "tag": "World #1 Robusta Origin",
+      "highlights": [
+        "Single-origin Highland Robusta (altitude 800m - 1,500m)",
+        "Specialty honey-processed & anaerobic fermentation lots",
+        "Direct container-load export (FOB Haiphong & Cat Lai)",
+        "Certified 4C, Rainforest Alliance & Organic supply chains"
+      ]
+    },
+    {
+      "id": "agro",
+      "name": "Agro-Food Processing & Tropical Harvest",
+      "subtitle": "Mekong Delta & South Central Coast Agro-Hubs",
+      "image": "/brand/vietrade/vietnam-expo-matchmaking.webp",
+      "tag": "Global Agricultural Powerhouse",
+      "highlights": [
+        "Premium cashew kernels (#1 global export volume) & black pepper",
+        "Tropical dried fruits: vacuum-fried mango, dragonfruit, jackfruit",
+        "Phú Quốc artisanal fish sauce & premium jasmine rice varieties",
+        "Full HACCP, ISO 22000 & Halal accreditation for ASEAN distribution"
+      ]
+    },
+    {
+      "id": "electronics",
+      "name": "High-Tech Electronics & Textile Manufacturing",
+      "subtitle": "Bắc Ninh · Thái Nguyên · Saigon Hi-Tech Park (SHTP)",
+      "image": "/brand/vietrade/vietrade-digital-sourcing.webp",
+      "tag": "Advanced Supply Chain Hub",
+      "highlights": [
+        "SMT automated precision printed circuit board (PCB) assembly",
+        "Semiconductor component packaging & cleanroom manufacturing",
+        "Integrated textile, technical apparel, and functional footwear clusters",
+        "Zero-tariff bilateral corridors under ASEAN-Vietnam agreements"
+      ]
+    },
+    {
+      "id": "green",
+      "name": "Sustainable Green Materials & Bio-Packaging",
+      "subtitle": "Phú Vinh Craft Village & Renewable Biomass Centers",
+      "image": "/brand/vietrade/vietnam-green-materials.webp",
+      "tag": "Circular Economy Leadership",
+      "highlights": [
+        "FSC-certified sustainable acacia wood & indoor-outdoor furniture",
+        "Artisanal woven bamboo, rattan, and natural seagrass homeware",
+        "Biodegradable cassava starch & coconut-fiber industrial packaging",
+        "Low-carbon footprint verified for EU & North American ESG standards"
+      ]
+    }
+  ],
+  "vietnamValue": {
+    "title": "Chương trình Thương hiệu Quốc gia Việt Nam (Vietnam Value)",
+    "description": "Approved directly by the Prime Minister and chaired by the Minister of Industry and Trade, Vietnam Value is the nation's highest accreditation for enterprise excellence. Participating enterprises represent the pinnacle of Vietnamese industry across three non-negotiable criteria:",
+    "pillars": [
+      {
+        "title": "Chất lượng (Quality)",
+        "desc": "Rigorous compliance with stringent global technical standards, ISO/FDA accreditations, and zero-defect quality control."
+      },
+      {
+        "title": "Đổi mới, Sáng tạo (Innovation)",
+        "desc": "Continuous technological modernization, automated manufacturing, and domestic research & development capabilities."
+      },
+      {
+        "title": "Năng lực tiên phong (Pioneering Capacity)",
+        "desc": "Market leadership, sustainable governance, and capacity to represent Vietnamese commercial pride globally."
+      }
+    ]
+  },
+  "tradeAgenda": [
+    {
+      "event": "Vietnam Expo 2026 (Spring Edition)",
+      "date": "April 2026 · Hanoi International Exhibition Center (I.C.E. Hanoi)",
+      "scope": "The longest-running general trade fair in Vietnam with 600+ international exhibitors across industrial machinery, electronics, and global trade corridors."
+    },
+    {
+      "event": "Vietnam Foodexpo 2026",
+      "date": "November 2026 · Saigon Exhibition & Convention Center (SECC, HCMC)",
+      "scope": "The definitive international food industry exhibition of Vietnam, connecting 500+ food processors with global supermarket chains and distributors."
+    },
+    {
+      "event": "Vietnam Expo Ho Chi Minh City 2026 (Winter Edition)",
+      "date": "December 2026 · SECC, Ho Chi Minh City",
+      "scope": "Focus on consumer electronics, smart home hardware, hardware & hand tools, and garden technology."
     }
   ],
   "highlights": [

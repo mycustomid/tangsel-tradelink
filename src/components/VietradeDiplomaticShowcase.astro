@@ -1,0 +1,1847 @@
+---
+import BrandIcon from './BrandIcon.astro';
+
+interface Props {
+  tenant: Record<string, any>;
+  config: Record<string, any>;
+  baseUrl?: string;
+}
+
+const { tenant, config, baseUrl = '' } = Astro.props;
+const normalizedBase = String(baseUrl).replace(/\/$/, '');
+const resolveAsset = (src?: string) =>
+  src?.startsWith('/brand/') ? `${normalizedBase}${src}` : src;
+const resolveLink = (url?: string) =>
+  url?.startsWith('/') && !url.startsWith('//') ? `${normalizedBase}${url}` : url;
+
+const heroImage = resolveAsset(config.heroImage);
+const emblemSvg = resolveAsset('/brand/vietrade/vietnam-emblem.svg');
+const officer = config.officer || {};
+const corridors = config.exportCorridors || [];
+const vietnamValue = config.vietnamValue || {};
+const tradeAgenda = config.tradeAgenda || [];
+const gallery = config.gallery || [];
+const actions = config.actions || [];
+const verification = config.verification || {};
+---
+
+<main class="diplomatic-showcase" id="main-content">
+  <!-- Top Sovereign Header Bar -->
+  <header class="gov-topbar">
+    <div class="gov-topbar-inner">
+      <div class="gov-crest-brand">
+        <img src={emblemSvg} alt="Quốc huy Việt Nam" class="national-crest" width="38" height="38" loading="eager" />
+        <div class="gov-titles">
+          <span class="gov-sup">BỘ CÔNG THƯƠNG · VIỆT NAM</span>
+          <strong class="gov-sub">CỤC XÚC TIẾN THƯƠNG MẠI · VIETRADE</strong>
+        </div>
+      </div>
+
+      <div class="gov-topbar-right">
+        <span class="mission-tag">TEI 2026 · Hall {tenant.hall || '8'} · Booth {tenant.booth || '8-7C'}</span>
+        <a href={baseUrl || '/'} class="back-link">Tangsel TradeLink ↗</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="diplomatic-hero" aria-labelledby="diplomatic-title">
+    <div class="hero-backdrop" aria-hidden="true">
+      <img src={resolveAsset('/brand/vietrade/vietrade-hq-hanoi.webp')} alt="" class="hero-bg-img" />
+      <div class="hero-gradient-overlay"></div>
+    </div>
+
+    <div class="hero-content">
+      <div class="delegation-chip">
+        <span class="pulse-indicator"></span>
+        <span>OFFICIAL STATE TRADE MISSION · TRADE EXPO INDONESIA 2026</span>
+      </div>
+
+      <p class="hero-kicker">CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</p>
+      <h1 id="diplomatic-title" class="hero-headline">
+        VIETNAM TRADE<br />
+        <span class="gold-gradient-text">PROMOTION AGENCY</span>
+      </h1>
+      <p class="hero-viet-title">CỤC XÚC TIẾN THƯƠNG MẠI · BỘ CÔNG THƯƠNG</p>
+      
+      <p class="hero-desc">
+        {config.tagline || 'Official National Trade Promotion Delegation · Ministry of Industry and Trade of Vietnam.'}
+      </p>
+
+      <!-- Quick Diplomatic Actions -->
+      <div class="hero-cta-group">
+        <a href={officer.zalo || 'https://zalo.me/84828807986'} target="_blank" rel="noopener noreferrer" class="btn-diplomatic btn-gold">
+          <BrandIcon name="zalo" />
+          <span>Connect Zalo Official</span>
+          <b aria-hidden="true">↗</b>
+        </a>
+        <a href={officer.whatsapp || 'https://wa.me/84828807986'} target="_blank" rel="noopener noreferrer" class="btn-diplomatic btn-outline">
+          <BrandIcon name="whatsapp" />
+          <span>WhatsApp Direct Desk</span>
+          <b aria-hidden="true">↗</b>
+        </a>
+        <a href={resolveAsset(officer.vcard || '/brand/vietrade/tam-trang-vietrade.vcf')} download="tam-trang-vietrade.vcf" class="btn-diplomatic btn-vcard">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+          <span>Save Contact (.vcf)</span>
+        </a>
+      </div>
+
+      <!-- Quick Metrics Ribbon -->
+      <div class="hero-stats-ribbon">
+        {(config.stats || []).map((s:any) => (
+          <div class="stat-cell">
+            <strong>{s.value}</strong>
+            <span>{s.label}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Executive NFC Card Section: Tâm Trang -->
+  <section class="section-nfc-card" id="executive-card" aria-labelledby="officer-name">
+    <div class="section-container">
+      <div class="section-eyebrow-center">
+        <span class="gold-badge">DIPLOMATIC CREDENTIAL</span>
+        <h2>Official Delegation Trade Representative</h2>
+        <p>Bilateral sourcing matchmaking, factory due diligence, and sovereign trade linkage at TEI 2026.</p>
+      </div>
+
+      <div class="card-executive-layout">
+        <!-- Physical NFC Smart Card Visual Showcase -->
+        <div class="card-visual-column">
+          <div class="smart-card-perspective">
+            <figure class="nfc-card-frame">
+              <img
+                src={resolveAsset('/brand/vietrade/vietrade-card-front.webp')}
+                alt="Executive NFC Touch Card — Tâm Trang (VIETRADE)"
+                width="1200"
+                height="750"
+                loading="eager"
+                class="nfc-card-image"
+              />
+              <div class="nfc-card-sheen" aria-hidden="true"></div>
+            </figure>
+          </div>
+          <div class="nfc-tap-guidance">
+            <span class="nfc-icon-wave">📡</span>
+            <p><strong>NFC SMART TOUCH READY:</strong> Tap delegation physical card against your mobile phone to instantly sync trade credentials.</p>
+          </div>
+        </div>
+
+        <!-- Executive Detail Dossier -->
+        <div class="officer-dossier">
+          <div class="officer-header">
+            <div class="officer-avatar-wrap">
+              <img
+                src={resolveAsset(officer.avatar || '/brand/vietrade/tam-trang-avatar.webp')}
+                alt={officer.name || 'Tâm Trang'}
+                width="110"
+                height="110"
+                class="officer-avatar"
+              />
+              <span class="officer-status-badge" title="Official Delegate on Site">✓</span>
+            </div>
+            <div class="officer-identity">
+              <div class="badge-role">{officer.badge || 'Official State Delegate · TEI 2026'}</div>
+              <h3 id="officer-name">{officer.name || 'Tâm Trang'}</h3>
+              <p class="officer-title-vi">{officer.titleVi || 'Cán bộ Xúc tiến Thương mại'}</p>
+              <p class="officer-title-en">{officer.title || 'Trade Promotion Officer'}</p>
+              <p class="officer-agency">{officer.agency || 'VIETRADE'} · {officer.ministry || 'MOIT Vietnam'}</p>
+            </div>
+          </div>
+
+          <div class="officer-contact-matrix">
+            <div class="contact-entry">
+              <span class="contact-label">Direct Mobile / WhatsApp / Zalo</span>
+              <a href={`tel:${officer.phone}`} class="contact-val highlight-gold">{officer.phone || '+84 82 880 7986'}</a>
+            </div>
+            <div class="contact-entry">
+              <span class="contact-label">Official Ministry Email</span>
+              <a href={`mailto:${officer.email}`} class="contact-val">{officer.email || 'tamtrang.vietrade@gmail.com'}</a>
+            </div>
+            <div class="contact-entry">
+              <span class="contact-label">Official Government Portal</span>
+              <a href={config.actions?.[0]?.url || 'http://www.vietrade.gov.vn'} target="_blank" rel="noopener noreferrer" class="contact-val">www.vietrade.gov.vn ↗</a>
+            </div>
+            <div class="contact-entry">
+              <span class="contact-label">Exhibition Station</span>
+              <span class="contact-val">{officer.location || 'Trade Expo Indonesia 2026 · Hall 8 · Booth 8-7C'}</span>
+            </div>
+          </div>
+
+          <!-- Dossier Actions -->
+          <div class="officer-actions-grid">
+            <a href={resolveAsset(officer.vcard || '/brand/vietrade/tam-trang-vietrade.vcf')} download="tam-trang-vietrade.vcf" class="btn-dossier btn-primary-gold btn-full-row">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+              <span>Save Contact to Phone (.vcf)</span>
+            </a>
+            <button type="button" class="btn-dossier btn-secondary js-open-qr" aria-haspopup="dialog">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
+              <span>Show Delegate QR</span>
+            </button>
+            <a href={officer.zalo || 'https://zalo.me/84828807986'} target="_blank" rel="noopener noreferrer" class="btn-dossier btn-zalo">
+              <BrandIcon name="zalo" />
+              <span>Zalo Official</span>
+            </a>
+            <a href={officer.whatsapp || 'https://wa.me/84828807986'} target="_blank" rel="noopener noreferrer" class="btn-dossier btn-wa">
+              <BrandIcon name="whatsapp" />
+              <span>WhatsApp Desk</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4 Strategic Export Corridors -->
+  <section class="section-corridors" id="export-corridors" aria-labelledby="corridors-title">
+    <div class="section-container">
+      <div class="section-eyebrow-center">
+        <span class="gold-badge">NATIONAL INDUSTRIAL CORRIDORS</span>
+        <h2 id="corridors-title">4 Strategic Export Corridors of Vietnam</h2>
+        <p>Authoritative trade channels connecting accredited Vietnamese manufacturing hubs with Indonesian & ASEAN buyers.</p>
+      </div>
+
+      <div class="corridors-grid">
+        {corridors.map((corridor:any, index:number) => (
+          <article class="corridor-card" data-corridor-id={corridor.id}>
+            <div class="corridor-img-wrap">
+              <img
+                src={resolveAsset(corridor.image)}
+                alt={corridor.name}
+                width="800"
+                height="530"
+                decoding="async"
+                class="corridor-img"
+              />
+              <span class="corridor-number">0{index + 1}</span>
+              <span class="corridor-tag">{corridor.tag}</span>
+            </div>
+            <div class="corridor-body">
+              <h3>{corridor.name}</h3>
+              <p class="corridor-sub">{corridor.subtitle}</p>
+              <ul class="corridor-bullets">
+                {(corridor.highlights || []).map((h:string) => (
+                  <li>
+                    <span class="check-gold">✓</span>
+                    <span>{h}</span>
+                  </li>
+                ))}
+              </ul>
+              <div class="corridor-footer">
+                <a
+                  href={`mailto:${officer.email}?subject=Inquiry:%20${encodeURIComponent(corridor.name)}%20(TEI%202026)`}
+                  class="corridor-inquiry-link"
+                >
+                  <span>Request Sourcing Dossier</span>
+                  <b aria-hidden="true">→</b>
+                </a>
+              </div>
+            </div>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Vietnam Value (Thương hiệu Quốc gia) Profile -->
+  <section class="section-vietnam-value" aria-labelledby="value-title">
+    <div class="section-container">
+      <div class="value-layout">
+        <div class="value-media-col">
+          <figure class="value-brand-card">
+            <img
+              src={resolveAsset('/brand/vietrade/vietnam-value-brand.webp')}
+              alt="Vietnam Value — Thương hiệu Quốc gia Việt Nam"
+              width="1200"
+              height="800"
+              loading="lazy"
+              class="value-brand-img"
+            />
+          </figure>
+          <div class="value-accreditation-quote">
+            <p>“The Vietnam National Brand program (Vietnam Value) is the only governmental brand development initiative approved by the Prime Minister and entrusted to the Ministry of Industry and Trade to champion national industrial competitiveness.”</p>
+            <cite>— Ministry of Industry and Trade of Vietnam (MOIT)</cite>
+          </div>
+        </div>
+
+        <div class="value-copy-col">
+          <span class="gold-badge">NATIONAL ACCREDITATION</span>
+          <h2 id="value-title">{vietnamValue.title || 'Chương trình Thương hiệu Quốc gia Việt Nam'}</h2>
+          <p class="value-intro">{vietnamValue.description}</p>
+
+          <div class="pillars-stack">
+            {(vietnamValue.pillars || []).map((p:any, i:number) => (
+              <div class="pillar-card">
+                <div class="pillar-num">0{i + 1}</div>
+                <div class="pillar-text">
+                  <h4>{p.title}</h4>
+                  <p>{p.desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <div class="value-cta-wrap">
+            <a href="http://www.vietrade.gov.vn" target="_blank" rel="noopener noreferrer" class="btn-diplomatic btn-gold">
+              <BrandIcon name="website" />
+              <span>Explore Certified National Brand Enterprises</span>
+              <b aria-hidden="true">↗</b>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Official Trade Agenda & Vietnam Expo 2026 -->
+  <section class="section-agenda" aria-labelledby="agenda-title">
+    <div class="section-container">
+      <div class="section-eyebrow-center">
+        <span class="gold-badge">ANNUAL TRADE CALENDAR</span>
+        <h2 id="agenda-title">Official Vietnam Trade Fairs & Overseas Pavilions</h2>
+        <p>Key bilateral exhibition platforms managed by VIETRADE for international buyers and regional importers.</p>
+      </div>
+
+      <div class="agenda-grid">
+        {tradeAgenda.map((item:any, index:number) => (
+          <article class="agenda-card">
+            <div class="agenda-time-chip">
+              <span class="agenda-cal-icon">📅</span>
+              <span>{item.date}</span>
+            </div>
+            <h3>{item.event}</h3>
+            <p>{item.scope}</p>
+            <div class="agenda-footer">
+              <span class="delegation-organizer">Organized by VIETRADE · MOIT</span>
+              <a href="http://www.vietrade.gov.vn" target="_blank" rel="noopener noreferrer" class="agenda-link">Official Portal ↗</a>
+            </div>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Institutional Photo Gallery & Headquarters (5 verified items) -->
+  <section class="section-gallery" aria-labelledby="gallery-title">
+    <div class="section-container">
+      <div class="section-heading-split">
+        <div>
+          <span class="gold-badge">INSTITUTIONAL ARCHIVES</span>
+          <h2 id="gallery-title">Official Facilities & State Operations</h2>
+        </div>
+        <p class="heading-aside-text">Photographic records of VIETRADE executive headquarters, national trade pavilions, and certified industrial operations.</p>
+      </div>
+
+      <div class="gallery-grid">
+        {gallery.map((g:any) => (
+          <figure class="gallery-item js-gallery-lightbox" data-full-img={resolveAsset(g.image)} data-caption={`${g.label} — ${g.caption}`}>
+            <div class="gallery-item-wrap">
+              <img src={resolveAsset(g.image)} alt={g.label} width="800" height="530" loading="lazy" decoding="async" />
+              <div class="gallery-item-overlay">
+                <span class="zoom-icon">🔍 View Full Size</span>
+              </div>
+            </div>
+            <figcaption>
+              <strong>{g.label}</strong>
+              <small>{g.caption}</small>
+            </figcaption>
+          </figure>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Official Direct Desks & Verification Ledger -->
+  <section class="section-channels" aria-labelledby="channels-title">
+    <div class="section-container">
+      <div class="section-eyebrow-center">
+        <span class="gold-badge">DIRECT CHANNELS</span>
+        <h2 id="channels-title">Official Bilateral Trade Links</h2>
+        <p>Communicate directly with the Vietnamese trade delegation without intermediation.</p>
+      </div>
+
+      <div class="channels-grid">
+        {actions.map((act:any) => (
+          <a href={resolveLink(act.url)} target="_blank" rel="noopener noreferrer" class="channel-card">
+            <BrandIcon name={act.key} />
+            <div class="channel-info">
+              <strong>{act.label}</strong>
+              <span class="channel-url">{act.url}</span>
+            </div>
+            <span class="channel-arrow">↗</span>
+          </a>
+        ))}
+      </div>
+
+      <!-- Verification Seal Box -->
+      <div class="verification-seal-box">
+        <div class="seal-header">
+          <span class="seal-icon">🏛️</span>
+          <div>
+            <strong>STATE GOVERNMENT AUTHORITATIVE ACCREDITATION</strong>
+            <p>Verified against official government records of the Ministry of Industry and Trade (MOIT Vietnam).</p>
+          </div>
+          <span class="status-verified-chip">✓ {verification.status || 'verified-authoritative'}</span>
+        </div>
+        <p class="seal-note">{verification.note}</p>
+        <div class="sources-list">
+          <span>Authoritative Primary Proofs:</span>
+          {(verification.sources || []).map((s:any) => (
+            <a href={s.url} target="_blank" rel="noopener noreferrer" class="source-tag">{s.label} ↗</a>
+          ))}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Diplomatic Sovereign Footer -->
+  <footer class="diplomatic-footer">
+    <div class="footer-container">
+      <div class="footer-top">
+        <div class="footer-emblem-wrap">
+          <img src={emblemSvg} alt="Quốc huy Việt Nam" width="48" height="48" />
+          <div>
+            <strong>BỘ CÔNG THƯƠNG · CỤC XÚC TIẾN THƯƠNG MẠI</strong>
+            <p>VIETNAM TRADE PROMOTION AGENCY (VIETRADE)</p>
+          </div>
+        </div>
+        <div class="footer-location">
+          <span>Trụ sở chính (Headquarters):</span>
+          <address>Số 20 Lý Thường Kiệt, P. Phan Chu Trinh, Q. Hoàn Kiếm, TP. Hà Nội, Vietnam</address>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 VIETRADE — Ministry of Industry and Trade of the Socialist Republic of Vietnam.</p>
+        <div class="footer-links">
+          <a href={baseUrl || '/'}>Tangsel TradeLink Directory</a>
+          <span>·</span>
+          <a href="http://www.vietrade.gov.vn" target="_blank" rel="noopener noreferrer">vietrade.gov.vn</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Mobile Floating Quick Contact Bar -->
+  <div class="mobile-delegation-bar" aria-label="Mobile quick trade contacts">
+    <a href={resolveAsset(officer.vcard || '/brand/vietrade/tam-trang-vietrade.vcf')} download="tam-trang-vietrade.vcf" class="mob-btn mob-vcard">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+      <span>Save vCard</span>
+    </a>
+    <a href={officer.zalo || 'https://zalo.me/84828807986'} target="_blank" rel="noopener noreferrer" class="mob-btn mob-zalo">
+      <BrandIcon name="zalo" />
+      <span>Zalo</span>
+    </a>
+    <a href={officer.whatsapp || 'https://wa.me/84828807986'} target="_blank" rel="noopener noreferrer" class="mob-btn mob-wa">
+      <BrandIcon name="whatsapp" />
+      <span>WhatsApp</span>
+    </a>
+  </div>
+
+  <!-- QR Code Dialog Modal -->
+  <dialog id="qr-dialog" class="diplomatic-dialog" aria-labelledby="qr-modal-title">
+    <div class="dialog-card">
+      <button type="button" class="dialog-close js-close-qr" aria-label="Close dialog">✕</button>
+      <div class="dialog-crest">
+        <img src={emblemSvg} alt="" width="36" height="36" />
+        <span class="dialog-kicker">CỤC XÚC TIẾN THƯƠNG MẠI</span>
+      </div>
+      <h3 id="qr-modal-title">Tâm Trang · VIETRADE</h3>
+      <p class="dialog-sub">Trade Promotion Officer · Trade Expo Indonesia 2026</p>
+      
+      <figure class="dialog-qr-wrap">
+        <img src={resolveAsset(officer.qrCode || '/brand/vietrade/vietrade-qr.png')} alt="Tâm Trang VIETRADE QR Code" width="220" height="220" />
+      </figure>
+
+      <p class="dialog-hint">Scan with camera to open official delegation showcase & instant contact links.</p>
+
+      <div class="dialog-actions">
+        <a href={resolveAsset(officer.vcard || '/brand/vietrade/tam-trang-vietrade.vcf')} download="tam-trang-vietrade.vcf" class="btn-diplomatic btn-gold" style="width:100%;justify-content:center;">
+          Download vCard (.vcf)
+        </a>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- Gallery Lightbox Modal -->
+  <dialog id="gallery-dialog" class="diplomatic-dialog lightbox-dialog" aria-label="Full size institutional image">
+    <div class="lightbox-inner">
+      <button type="button" class="lightbox-close js-close-gallery" aria-label="Close image">✕</button>
+      <img id="lightbox-img" src="" alt="" />
+      <p id="lightbox-cap"></p>
+    </div>
+  </dialog>
+</main>
+
+<script>
+  function initDiplomaticInteractions() {
+    // QR Modal
+    const qrDialog = document.getElementById('qr-dialog') as HTMLDialogElement | null;
+    document.querySelectorAll('.js-open-qr').forEach(btn => {
+      btn.addEventListener('click', () => qrDialog?.showModal());
+    });
+    document.querySelectorAll('.js-close-qr').forEach(btn => {
+      btn.addEventListener('click', () => qrDialog?.close());
+    });
+    qrDialog?.addEventListener('click', (e) => {
+      if (e.target === qrDialog) qrDialog.close();
+    });
+
+    // Gallery Lightbox
+    const galleryDialog = document.getElementById('gallery-dialog') as HTMLDialogElement | null;
+    const lightboxImg = document.getElementById('lightbox-img') as HTMLImageElement | null;
+    const lightboxCap = document.getElementById('lightbox-cap');
+
+    document.querySelectorAll('.js-gallery-lightbox').forEach(item => {
+      item.addEventListener('click', () => {
+        const full = item.getAttribute('data-full-img');
+        const cap = item.getAttribute('data-caption') || '';
+        if (lightboxImg && full) lightboxImg.src = full;
+        if (lightboxCap) lightboxCap.textContent = cap;
+        galleryDialog?.showModal();
+      });
+    });
+
+    document.querySelectorAll('.js-close-gallery').forEach(btn => {
+      btn.addEventListener('click', () => galleryDialog?.close());
+    });
+    galleryDialog?.addEventListener('click', (e) => {
+      if (e.target === galleryDialog) galleryDialog.close();
+    });
+  }
+
+  if (typeof document !== 'undefined') {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initDiplomaticInteractions);
+    } else {
+      initDiplomaticInteractions();
+    }
+    document.addEventListener('astro:page-load', initDiplomaticInteractions);
+  }
+</script>
+
+<style>
+  :global(:root) {
+    --vt-navy-deep: #081426;
+    --vt-navy-dark: #0A192F;
+    --vt-navy-surface: #0E223D;
+    --vt-navy-card: #132A4A;
+    --vt-gold: #D4AF37;
+    --vt-gold-light: #FFE082;
+    --vt-gold-muted: #AA771C;
+    --vt-red: #DA251D;
+    --vt-text-white: #FFFFFF;
+    --vt-text-slate: #94A3B8;
+    --vt-text-light: #E2E8F0;
+    --vt-border-gold: rgba(212, 175, 55, 0.35);
+    --vt-border-subtle: rgba(255, 255, 255, 0.08);
+  }
+
+  /* Base Diplomatic Showcase Theme */
+  .diplomatic-showcase {
+    background-color: var(--vt-navy-deep);
+    color: var(--vt-text-white);
+    min-height: 100vh;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+
+  .section-container {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  /* Sovereign Topbar */
+  .gov-topbar {
+    background: rgba(8, 20, 38, 0.95);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-bottom: 1px solid var(--vt-border-gold);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  .gov-topbar-inner {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 12px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+  }
+  .gov-crest-brand {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+  .national-crest {
+    width: 38px;
+    height: 38px;
+    object-fit: contain;
+    filter: drop-shadow(0 2px 6px rgba(218, 37, 29, 0.4));
+  }
+  .gov-titles {
+    display: flex;
+    flex-direction: column;
+  }
+  .gov-sup {
+    font-size: 0.65rem;
+    font-weight: 800;
+    letter-spacing: 0.15em;
+    color: var(--vt-gold-light);
+    text-transform: uppercase;
+  }
+  .gov-sub {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 0.95rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+  }
+  .gov-topbar-right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .mission-tag {
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    padding: 6px 14px;
+    border-radius: 999px;
+    background: rgba(212, 175, 55, 0.12);
+    border: 1px solid var(--vt-border-gold);
+    color: var(--vt-gold-light);
+    text-transform: uppercase;
+  }
+  .back-link {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--vt-text-slate);
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  .back-link:hover {
+    color: #FFFFFF;
+  }
+
+  /* Hero Section */
+  .diplomatic-hero {
+    position: relative;
+    padding: clamp(60px, 8vw, 120px) 24px clamp(50px, 6vw, 90px);
+    overflow: hidden;
+  }
+  .hero-backdrop {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    overflow: hidden;
+  }
+  .hero-bg-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 30%;
+    filter: brightness(0.28) saturate(1.2);
+    transform: scale(1.04);
+  }
+  .hero-gradient-overlay {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at 60% 20%, rgba(20, 45, 84, 0.7) 0%, transparent 60%),
+                linear-gradient(180deg, rgba(8, 20, 38, 0.7) 0%, rgba(8, 20, 38, 0.96) 80%, #081426 100%);
+  }
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 1080px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .delegation-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 16px;
+    border-radius: 999px;
+    background: rgba(218, 37, 29, 0.18);
+    border: 1px solid rgba(218, 37, 29, 0.45);
+    color: #FFA59E;
+    font-size: 0.7rem;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+  }
+  .pulse-indicator {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--vt-red);
+    box-shadow: 0 0 10px var(--vt-red);
+    animation: pulseGlow 2s infinite;
+  }
+  @keyframes pulseGlow {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.4; transform: scale(0.85); }
+  }
+  .hero-kicker {
+    margin: 0;
+    font-size: 0.8rem;
+    font-weight: 800;
+    letter-spacing: 0.25em;
+    color: var(--vt-gold-light);
+    text-transform: uppercase;
+  }
+  .hero-headline {
+    margin: 12px 0 8px;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: clamp(2.8rem, 6.5vw, 5.8rem);
+    font-weight: 400;
+    line-height: 1.02;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+  }
+  .gold-gradient-text {
+    background: linear-gradient(135deg, #FFF0B3 0%, #D4AF37 50%, #FFE082 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    font-weight: 700;
+  }
+  .hero-viet-title {
+    margin: 6px 0 20px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: var(--vt-gold-light);
+    text-transform: uppercase;
+  }
+  .hero-desc {
+    max-width: 760px;
+    margin: 0 0 34px;
+    font-size: clamp(1rem, 1.6vw, 1.25rem);
+    line-height: 1.65;
+    color: var(--vt-text-light);
+  }
+  .hero-cta-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 14px;
+    margin-bottom: 48px;
+  }
+  .btn-diplomatic {
+    min-height: 52px;
+    padding: 12px 24px;
+    border-radius: 999px;
+    font-size: 0.82rem;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    transition: transform 0.18s cubic-bezier(0.2,0,0,1), box-shadow 0.18s ease;
+  }
+  .btn-diplomatic:hover {
+    transform: translateY(-2px);
+  }
+  .btn-gold {
+    background: linear-gradient(135deg, #FFE082 0%, #D4AF37 100%);
+    color: #081426;
+    box-shadow: 0 10px 28px -6px rgba(212, 175, 55, 0.4);
+    border: none;
+  }
+  .btn-outline {
+    background: rgba(14, 34, 61, 0.8);
+    border: 1px solid var(--vt-border-gold);
+    color: #FFFFFF;
+    backdrop-filter: blur(10px);
+  }
+  .btn-vcard {
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #FFFFFF;
+  }
+  .hero-stats-ribbon {
+    width: 100%;
+    max-width: 980px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border-top: 1px solid var(--vt-border-gold);
+    border-bottom: 1px solid var(--vt-border-gold);
+    background: rgba(10, 25, 47, 0.6);
+    backdrop-filter: blur(12px);
+    border-radius: 16px;
+    overflow: hidden;
+  }
+  .stat-cell {
+    padding: 20px 16px;
+    text-align: center;
+    border-right: 1px solid rgba(212, 175, 55, 0.15);
+  }
+  .stat-cell:last-child {
+    border-right: none;
+  }
+  .stat-cell strong {
+    display: block;
+    font-family: Georgia, serif;
+    font-size: clamp(1.2rem, 2vw, 1.8rem);
+    color: var(--vt-gold-light);
+    font-weight: 600;
+  }
+  .stat-cell span {
+    display: block;
+    margin-top: 4px;
+    font-size: 0.68rem;
+    line-height: 1.35;
+    color: var(--vt-text-slate);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+
+  /* Section Styling */
+  .section-nfc-card, .section-corridors, .section-vietnam-value, .section-agenda, .section-gallery, .section-channels {
+    padding: clamp(60px, 8vw, 100px) 0;
+    border-top: 1px solid var(--vt-border-subtle);
+  }
+  .section-eyebrow-center {
+    text-align: center;
+    max-width: 760px;
+    margin: 0 auto 50px;
+  }
+  .gold-badge {
+    display: inline-block;
+    font-size: 0.68rem;
+    font-weight: 800;
+    letter-spacing: 0.16em;
+    color: var(--vt-gold-light);
+    background: rgba(212, 175, 55, 0.12);
+    border: 1px solid var(--vt-border-gold);
+    padding: 5px 14px;
+    border-radius: 999px;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+  }
+  .section-eyebrow-center h2 {
+    margin: 0 0 14px;
+    font-family: Georgia, serif;
+    font-size: clamp(2.2rem, 4vw, 3.4rem);
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+  }
+  .section-eyebrow-center p {
+    margin: 0;
+    font-size: 1rem;
+    color: var(--vt-text-slate);
+    line-height: 1.6;
+  }
+
+  /* Executive NFC Card Section */
+  .card-executive-layout {
+    display: grid;
+    grid-template-columns: 1.05fr 0.95fr;
+    gap: 40px;
+    align-items: center;
+    background: linear-gradient(145deg, rgba(14, 34, 61, 0.7), rgba(8, 20, 38, 0.9));
+    border: 1px solid var(--vt-border-gold);
+    border-radius: 32px;
+    padding: clamp(28px, 4vw, 54px);
+    box-shadow: 0 24px 60px -15px rgba(0, 0, 0, 0.7);
+  }
+  .smart-card-perspective {
+    perspective: 1200px;
+  }
+  .nfc-card-frame {
+    position: relative;
+    margin: 0;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 20px 48px -10px rgba(0, 0, 0, 0.8), 0 0 0 1px var(--vt-border-gold);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+  }
+  .nfc-card-frame:hover {
+    transform: rotateY(-3deg) rotateX(2deg) translateY(-4px);
+    box-shadow: 0 28px 64px -10px rgba(212, 175, 55, 0.25), 0 0 0 1.5px var(--vt-gold);
+  }
+  .nfc-card-image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .nfc-card-sheen {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(125deg, rgba(255,255,255,0.15) 0%, transparent 40%, rgba(212,175,55,0.1) 70%, transparent 100%);
+    pointer-events: none;
+  }
+  .nfc-tap-guidance {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 18px;
+    padding: 12px 18px;
+    border-radius: 14px;
+    background: rgba(10, 25, 47, 0.7);
+    border: 1px dashed var(--vt-border-gold);
+    font-size: 0.76rem;
+    color: var(--vt-text-light);
+  }
+  .nfc-icon-wave {
+    font-size: 1.4rem;
+  }
+
+  .officer-dossier {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .officer-header {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  .officer-avatar-wrap {
+    position: relative;
+    flex-shrink: 0;
+  }
+  .officer-avatar {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid var(--vt-gold);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+  }
+  .officer-status-badge {
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #10B981;
+    color: #FFFFFF;
+    display: grid;
+    place-items: center;
+    font-size: 0.75rem;
+    font-weight: 900;
+    border: 2px solid var(--vt-navy-deep);
+  }
+  .badge-role {
+    display: inline-block;
+    font-size: 0.65rem;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    color: var(--vt-gold-light);
+    text-transform: uppercase;
+    margin-bottom: 4px;
+  }
+  .officer-identity h3 {
+    margin: 0;
+    font-family: Georgia, serif;
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 1.1;
+    color: #FFFFFF;
+  }
+  .officer-title-vi {
+    margin: 4px 0 0;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--vt-gold);
+  }
+  .officer-title-en {
+    margin: 2px 0 0;
+    font-size: 0.85rem;
+    color: var(--vt-text-slate);
+  }
+  .officer-agency {
+    margin: 4px 0 0;
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: var(--vt-text-light);
+  }
+
+  .officer-contact-matrix {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    background: rgba(8, 20, 38, 0.6);
+    border: 1px solid var(--vt-border-subtle);
+    border-radius: 18px;
+    padding: 16px;
+  }
+  .contact-entry {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  }
+  .contact-entry:last-child {
+    border-bottom: none;
+  }
+  .contact-label {
+    font-size: 0.72rem;
+    color: var(--vt-text-slate);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .contact-val {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: right;
+  }
+  .contact-val.highlight-gold {
+    color: var(--vt-gold-light);
+  }
+
+  .officer-actions-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    align-items: center;
+  }
+  .btn-full-row {
+    grid-column: span 3;
+    justify-content: center;
+    font-size: 0.85rem;
+  }
+  .btn-dossier {
+    min-height: 48px;
+    padding: 10px 14px;
+    border-radius: 12px;
+    font-size: 0.74rem;
+    font-weight: 800;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid var(--vt-border-gold);
+    transition: transform 0.15s ease, background 0.15s ease;
+  }
+  .btn-dossier:hover {
+    transform: translateY(-2px);
+  }
+  .btn-primary-gold {
+    background: linear-gradient(135deg, #FFE082 0%, #D4AF37 100%);
+    color: #081426;
+    border: none;
+  }
+  .btn-secondary {
+    background: rgba(255, 255, 255, 0.08);
+    color: #FFFFFF;
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+  .btn-zalo {
+    background: rgba(0, 104, 255, 0.15);
+    border-color: #0068FF;
+    color: #FFFFFF;
+  }
+  .btn-wa {
+    background: rgba(37, 211, 102, 0.15);
+    border-color: #25D366;
+    color: #FFFFFF;
+  }
+
+  /* 4 Corridors Grid */
+  .corridors-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 28px;
+  }
+  .corridor-card {
+    background: var(--vt-navy-surface);
+    border: 1px solid var(--vt-border-subtle);
+    border-radius: 24px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 12px 32px -8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s cubic-bezier(0.2,0,0,1), border-color 0.3s ease;
+  }
+  .corridor-card:hover {
+    transform: translateY(-4px);
+    border-color: var(--vt-border-gold);
+  }
+  .corridor-img-wrap {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16/9;
+    overflow: hidden;
+    background: #040A14;
+  }
+  .corridor-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.5s ease;
+  }
+  .corridor-card:hover .corridor-img {
+    transform: scale(1.04);
+  }
+  .corridor-number {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background: rgba(8, 20, 38, 0.85);
+    backdrop-filter: blur(8px);
+    border: 1px solid var(--vt-border-gold);
+    color: var(--vt-gold-light);
+    display: grid;
+    place-items: center;
+    font-family: Georgia, serif;
+    font-weight: 700;
+    font-size: 0.95rem;
+  }
+  .corridor-tag {
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+    padding: 6px 12px;
+    border-radius: 999px;
+    background: rgba(8, 20, 38, 0.88);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    font-size: 0.68rem;
+    font-weight: 800;
+    color: #FFFFFF;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .corridor-body {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  .corridor-body h3 {
+    margin: 0;
+    font-family: Georgia, serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 1.2;
+  }
+  .corridor-sub {
+    margin: 6px 0 16px;
+    font-size: 0.8rem;
+    color: var(--vt-gold);
+    font-weight: 600;
+  }
+  .corridor-bullets {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .corridor-bullets li {
+    font-size: 0.82rem;
+    color: var(--vt-text-light);
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    line-height: 1.45;
+  }
+  .check-gold {
+    color: var(--vt-gold);
+    font-weight: 900;
+    flex-shrink: 0;
+  }
+  .corridor-footer {
+    margin-top: auto;
+    padding-top: 16px;
+    border-top: 1px solid rgba(255, 255, 255, 0.06);
+  }
+  .corridor-inquiry-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.78rem;
+    font-weight: 800;
+    color: var(--vt-gold-light);
+    text-decoration: none;
+    letter-spacing: 0.04em;
+    transition: gap 0.2s ease;
+  }
+  .corridor-inquiry-link:hover {
+    gap: 12px;
+  }
+
+  /* Vietnam Value Section */
+  .value-layout {
+    display: grid;
+    grid-template-columns: 0.95fr 1.05fr;
+    gap: 48px;
+    align-items: center;
+  }
+  .value-brand-card {
+    margin: 0;
+    border-radius: 28px;
+    overflow: hidden;
+    border: 1px solid var(--vt-border-gold);
+    box-shadow: 0 20px 50px -10px rgba(0, 0, 0, 0.7);
+  }
+  .value-brand-img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .value-accreditation-quote {
+    margin-top: 20px;
+    padding: 18px 22px;
+    border-left: 3px solid var(--vt-gold);
+    background: rgba(14, 34, 61, 0.5);
+    border-radius: 0 16px 16px 0;
+    font-style: italic;
+    font-size: 0.85rem;
+    color: var(--vt-text-light);
+    line-height: 1.6;
+  }
+  .value-accreditation-quote cite {
+    display: block;
+    margin-top: 8px;
+    font-style: normal;
+    font-size: 0.75rem;
+    font-weight: 800;
+    color: var(--vt-gold);
+  }
+
+  .value-copy-col h2 {
+    margin: 0 0 16px;
+    font-family: Georgia, serif;
+    font-size: clamp(2rem, 3.5vw, 3rem);
+    font-weight: 400;
+    line-height: 1.15;
+    color: #FFFFFF;
+  }
+  .value-intro {
+    font-size: 0.95rem;
+    line-height: 1.65;
+    color: var(--vt-text-slate);
+    margin: 0 0 28px;
+  }
+  .pillars-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 32px;
+  }
+  .pillar-card {
+    display: flex;
+    gap: 18px;
+    padding: 16px;
+    border-radius: 16px;
+    background: var(--vt-navy-surface);
+    border: 1px solid var(--vt-border-subtle);
+  }
+  .pillar-num {
+    font-family: Georgia, serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--vt-gold-light);
+    flex-shrink: 0;
+    line-height: 1;
+  }
+  .pillar-text h4 {
+    margin: 0 0 4px;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #FFFFFF;
+  }
+  .pillar-text p {
+    margin: 0;
+    font-size: 0.8rem;
+    color: var(--vt-text-slate);
+    line-height: 1.5;
+  }
+
+  /* Trade Agenda */
+  .agenda-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .agenda-card {
+    background: var(--vt-navy-surface);
+    border: 1px solid var(--vt-border-subtle);
+    border-radius: 20px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s ease, border-color 0.2s ease;
+  }
+  .agenda-card:hover {
+    transform: translateY(-3px);
+    border-color: var(--vt-border-gold);
+  }
+  .agenda-time-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: var(--vt-gold-light);
+    margin-bottom: 14px;
+  }
+  .agenda-card h3 {
+    margin: 0 0 10px;
+    font-family: Georgia, serif;
+    font-size: 1.35rem;
+    font-weight: 400;
+    line-height: 1.25;
+    color: #FFFFFF;
+  }
+  .agenda-card p {
+    margin: 0 0 20px;
+    font-size: 0.82rem;
+    color: var(--vt-text-slate);
+    line-height: 1.55;
+  }
+  .agenda-footer {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.72rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.06);
+    padding-top: 14px;
+  }
+  .delegation-organizer {
+    color: var(--vt-text-slate);
+    font-weight: 600;
+  }
+  .agenda-link {
+    color: var(--vt-gold-light);
+    text-decoration: none;
+    font-weight: 700;
+  }
+
+  /* Gallery Grid */
+  .section-heading-split {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 30px;
+    margin-bottom: 36px;
+  }
+  .section-heading-split h2 {
+    margin: 8px 0 0;
+    font-family: Georgia, serif;
+    font-size: clamp(2rem, 3.5vw, 3rem);
+    font-weight: 400;
+    color: #FFFFFF;
+  }
+  .heading-aside-text {
+    max-width: 440px;
+    margin: 0;
+    font-size: 0.88rem;
+    color: var(--vt-text-slate);
+    line-height: 1.55;
+  }
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+  }
+  .gallery-item {
+    margin: 0;
+    background: var(--vt-navy-surface);
+    border: 1px solid var(--vt-border-subtle);
+    border-radius: 18px;
+    overflow: hidden;
+    cursor: zoom-in;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+  }
+  .gallery-item:first-child {
+    grid-column: span 2;
+  }
+  .gallery-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 16px 36px -10px rgba(0,0,0,0.6);
+  }
+  .gallery-item-wrap {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16/10;
+    overflow: hidden;
+    background: #040A14;
+  }
+  .gallery-item-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.4s ease;
+  }
+  .gallery-item:hover .gallery-item-wrap img {
+    transform: scale(1.03);
+  }
+  .gallery-item-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(8, 20, 38, 0.45);
+    display: grid;
+    place-items: center;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+  }
+  .gallery-item:hover .gallery-item-overlay {
+    opacity: 1;
+  }
+  .zoom-icon {
+    padding: 8px 16px;
+    border-radius: 999px;
+    background: rgba(8, 20, 38, 0.85);
+    border: 1px solid var(--vt-border-gold);
+    color: #FFFFFF;
+    font-size: 0.72rem;
+    font-weight: 700;
+  }
+  .gallery-item figcaption {
+    padding: 14px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    background: var(--vt-navy-card);
+  }
+  .gallery-item figcaption strong {
+    font-size: 0.9rem;
+    color: #FFFFFF;
+  }
+  .gallery-item figcaption small {
+    font-size: 0.72rem;
+    color: var(--vt-text-slate);
+    line-height: 1.4;
+  }
+
+  /* Direct Channels & Verification */
+  .channels-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+    margin-bottom: 40px;
+  }
+  .channel-card {
+    display: grid;
+    grid-template-columns: 28px 1fr auto;
+    align-items: center;
+    gap: 14px;
+    padding: 16px 20px;
+    border-radius: 16px;
+    background: var(--vt-navy-surface);
+    border: 1px solid var(--vt-border-subtle);
+    color: inherit;
+    text-decoration: none;
+    transition: transform 0.15s ease, border-color 0.15s ease;
+  }
+  .channel-card:hover {
+    transform: translateY(-2px);
+    border-color: var(--vt-border-gold);
+  }
+  .channel-info strong {
+    display: block;
+    font-size: 0.85rem;
+    color: #FFFFFF;
+  }
+  .channel-url {
+    display: block;
+    font-size: 0.68rem;
+    color: var(--vt-text-slate);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 200px;
+  }
+  .channel-arrow {
+    color: var(--vt-gold);
+    font-weight: 900;
+  }
+
+  /* Verification Seal Box */
+  .verification-seal-box {
+    background: rgba(14, 34, 61, 0.7);
+    border: 1px solid var(--vt-border-gold);
+    border-radius: 24px;
+    padding: 28px;
+    box-shadow: 0 16px 40px -10px rgba(0, 0, 0, 0.5);
+  }
+  .seal-header {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-bottom: 14px;
+  }
+  .seal-icon {
+    font-size: 2rem;
+  }
+  .seal-header strong {
+    font-size: 0.92rem;
+    letter-spacing: 0.08em;
+    color: var(--vt-gold-light);
+    display: block;
+  }
+  .seal-header p {
+    margin: 2px 0 0;
+    font-size: 0.78rem;
+    color: var(--vt-text-slate);
+  }
+  .status-verified-chip {
+    margin-left: auto;
+    padding: 6px 14px;
+    border-radius: 999px;
+    background: rgba(16, 185, 129, 0.15);
+    border: 1px solid #10B981;
+    color: #34D399;
+    font-size: 0.72rem;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+  .seal-note {
+    font-size: 0.82rem;
+    line-height: 1.6;
+    color: var(--vt-text-light);
+    margin: 0 0 18px;
+  }
+  .sources-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.75rem;
+    color: var(--vt-text-slate);
+  }
+  .source-tag {
+    padding: 5px 12px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: var(--vt-gold-light);
+    text-decoration: none;
+    font-size: 0.72rem;
+  }
+  .source-tag:hover {
+    background: rgba(212, 175, 55, 0.15);
+  }
+
+  /* Sovereign Footer */
+  .diplomatic-footer {
+    border-top: 1px solid var(--vt-border-gold);
+    background: #040A14;
+    padding: 50px 24px 80px;
+  }
+  .footer-container {
+    max-width: 1240px;
+    margin: 0 auto;
+  }
+  .footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  }
+  .footer-emblem-wrap {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .footer-emblem-wrap strong {
+    font-size: 0.95rem;
+    color: var(--vt-gold-light);
+    display: block;
+  }
+  .footer-emblem-wrap p {
+    margin: 2px 0 0;
+    font-size: 0.78rem;
+    color: var(--vt-text-slate);
+  }
+  .footer-location {
+    text-align: right;
+    font-size: 0.78rem;
+    color: var(--vt-text-slate);
+  }
+  .footer-location address {
+    font-style: normal;
+    color: var(--vt-text-light);
+    margin-top: 2px;
+  }
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding-top: 24px;
+    font-size: 0.75rem;
+    color: var(--vt-text-slate);
+  }
+  .footer-links a {
+    color: var(--vt-gold-light);
+    text-decoration: none;
+  }
+
+  /* Mobile Delegation Floating Bar */
+  .mobile-delegation-bar {
+    display: none;
+  }
+
+  /* Modal Dialogs */
+  dialog.diplomatic-dialog {
+    padding: 0;
+    border: none;
+    background: transparent;
+    max-width: 90vw;
+    margin: auto;
+    outline: none;
+  }
+  dialog.diplomatic-dialog::backdrop {
+    background: rgba(4, 10, 20, 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
+  .dialog-card {
+    background: var(--vt-navy-surface);
+    border: 1px solid var(--vt-border-gold);
+    border-radius: 28px;
+    padding: 34px 28px;
+    max-width: 420px;
+    position: relative;
+    text-align: center;
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.8);
+  }
+  .dialog-close {
+    position: absolute;
+    top: 18px;
+    right: 18px;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #FFFFFF;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  .dialog-crest {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 12px;
+  }
+  .dialog-kicker {
+    font-size: 0.65rem;
+    font-weight: 800;
+    letter-spacing: 0.15em;
+    color: var(--vt-gold-light);
+    text-transform: uppercase;
+  }
+  .dialog-card h3 {
+    margin: 0;
+    font-family: Georgia, serif;
+    font-size: 1.8rem;
+    color: #FFFFFF;
+  }
+  .dialog-sub {
+    margin: 4px 0 20px;
+    font-size: 0.8rem;
+    color: var(--vt-text-slate);
+  }
+  .dialog-qr-wrap {
+    margin: 0 0 20px;
+    background: #FFFFFF;
+    padding: 16px;
+    border-radius: 18px;
+    display: inline-block;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  }
+  .dialog-qr-wrap img {
+    display: block;
+  }
+  .dialog-hint {
+    font-size: 0.75rem;
+    color: var(--vt-text-slate);
+    line-height: 1.45;
+    margin: 0 0 24px;
+  }
+
+  /* Lightbox Dialog */
+  .lightbox-inner {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 92vw;
+    max-height: 90vh;
+  }
+  .lightbox-inner img {
+    max-width: 90vw;
+    max-height: 80vh;
+    object-fit: contain;
+    border-radius: 16px;
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.9);
+    border: 1px solid var(--vt-border-gold);
+  }
+  .lightbox-close {
+    position: fixed;
+    top: 24px;
+    right: 24px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 1.2rem;
+  }
+  #lightbox-cap {
+    margin: 14px 0 0;
+    font-size: 0.85rem;
+    color: #FFFFFF;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.8);
+    text-align: center;
+  }
+
+  /* Responsive Rules */
+  @media (max-width: 980px) {
+    .card-executive-layout, .value-layout {
+      grid-template-columns: 1fr;
+      gap: 32px;
+    }
+    .corridors-grid, .agenda-grid, .channels-grid {
+      grid-template-columns: 1fr;
+    }
+    .gallery-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+    .gallery-item:first-child {
+      grid-column: span 2;
+    }
+    .hero-stats-ribbon {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .stat-cell:nth-child(2) {
+      border-right: none;
+    }
+    .stat-cell:nth-child(1), .stat-cell:nth-child(2) {
+      border-bottom: 1px solid rgba(212, 175, 55, 0.15);
+    }
+    .footer-top {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 16px;
+    }
+    .footer-location {
+      text-align: left;
+    }
+  }
+
+  @media (max-width: 680px) {
+    .gov-titles {
+      display: none;
+    }
+    .hero-cta-group {
+      flex-direction: column;
+      width: 100%;
+    }
+    .btn-diplomatic {
+      width: 100%;
+      justify-content: center;
+    }
+    .gallery-grid {
+      grid-template-columns: 1fr;
+    }
+    .gallery-item:first-child {
+      grid-column: auto;
+    }
+    .officer-header {
+      flex-direction: column;
+      text-align: center;
+    }
+    .contact-entry {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 2px;
+    }
+    .contact-val {
+      text-align: left;
+    }
+    .officer-actions-grid {
+      grid-template-columns: 1fr;
+      width: 100%;
+    }
+    .btn-full-row {
+      grid-column: span 1;
+    }
+    .btn-dossier {
+      width: 100%;
+      justify-content: center;
+    }
+    .mobile-delegation-bar {
+      position: fixed;
+      z-index: 90;
+      bottom: max(12px, env(safe-area-inset-bottom));
+      left: 12px;
+      right: 12px;
+      display: grid;
+      grid-template-columns: 1.2fr 1fr 1fr;
+      gap: 8px;
+      padding: 8px;
+      border-radius: 18px;
+      background: rgba(8, 20, 38, 0.94);
+      backdrop-filter: blur(20px);
+      border: 1px solid var(--vt-border-gold);
+      box-shadow: 0 16px 40px rgba(0, 0, 0, 0.8);
+    }
+    .mob-btn {
+      min-height: 48px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      border-radius: 12px;
+      font-size: 0.74rem;
+      font-weight: 800;
+      text-decoration: none;
+      color: #FFFFFF;
+    }
+    .mob-vcard {
+      background: linear-gradient(135deg, #FFE082 0%, #D4AF37 100%);
+      color: #081426;
+    }
+    .mob-zalo {
+      background: #0068FF;
+    }
+    .mob-wa {
+      background: #25D366;
+    }
+    .diplomatic-showcase {
+      padding-bottom: 80px;
+    }
+  }
+</style>

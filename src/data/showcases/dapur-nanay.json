@@ -18,7 +18,7 @@
   },
   "story": {
     "title": "Camilan Gurih Premium Olahan Keju Edam & Cheddar Berkualitas Ekspor.",
-    "body": "Dapur Nanay (Naytaste) dirintis oleh Ibu Amalia di Pamulang, Tangerang Selatan sejak tahun 2019. Menghadirkan aneka camilan gurih berkualitas seperti Naytaste Cheese Stick dengan perpaduan keju Edam tua dan cheddar asli pilihan, serta Kentang Mustofa Dieng renyah berbumbu alami. Seluruh produk diolah higienis menggunakan bahan berkualitas dengan legalitas lengkap (NIB, HAKI, Halal BPJPH/MUI, SPP-IRT, PKP, dan Sertifikat Laik Higiene). Produk Naytaste telah dipercaya menembus berbagai pusat oleh-oleh dan ritel modern ternama seperti Toko Oleh-oleh Krisna Jogja, Transmart, K3Mart, Tip Top Swalayan, Local Pride Pelindo, Toko Buah 88 Bintaro, dan Swiss-Belinn Bandara, serta tampil resmi di Trade Expo Indonesia (TEI) 2026 dengan kehormatan kunjungan langsung dari Menteri Perdagangan RI Budi Santoso dan Wakil Menteri Perdagangan RI Dyah Roro Esti."
+    "body": "Dapur Nanay (Naytaste) dirintis oleh Ibu Amalia di Pamulang, Tangerang Selatan sejak tahun 2019. Menghadirkan aneka camilan gurih berkualitas seperti Naytaste Cheese Stick dengan perpaduan keju Edam tua dan cheddar asli pilihan, serta Kentang Mustofa Dieng renyah berbumbu alami. Seluruh produk diolah higienis menggunakan bahan berkualitas dengan legalitas lengkap (NIB, HAKI, Halal BPJPH/MUI, SPP-IRT, PKP, dan Sertifikat Laik Higiene). Produk Naytaste telah dipercaya menembus berbagai pusat oleh-oleh dan ritel modern ternama seperti Toko Oleh-oleh Krisna Jogja, Transmart, K3Mart, Tip Top Swalayan, Local Pride Pelindo, Toko Buah 88 Bintaro, dan Swiss-Belinn Bandara, serta terpilih sebagai Top 20 UMKM Program Pendampingan Gapai Pasar Global dengan AI oleh Meta, Kementerian Perdagangan RI, dan UKM Indonesia."
   },
   "stats": [
     {
@@ -31,17 +31,17 @@
     },
     {
       "value": "Mitra Ritel",
-      "label": "Krisna Jogja, Transmart, K3Mart & Tip Top"
+      "label": "Toko Oleh-oleh Krisna Jogja, Transmart, K3Mart & Tip Top"
     },
     {
-      "value": "Kunjungan Mendag",
-      "label": "Apresiasi Mendag & Wamendag RI di TEI 2026"
+      "value": "Top 20 UMKM",
+      "label": "Program Pasar Global Meta & Kemendag RI"
     }
   ],
   "highlights": [
     {
       "title": "Naytaste Cheese Stick (Edam & Cheddar)",
-      "body": "Stik keju renyah empuk tidak keras dengan sensasi gurih keju asli edam dan cheddar tanpa tambahan MSG berlebih."
+      "body": "Stik keju renyah empuk tidak keras dengan sensasi gurih keju asli edam dan cheddar tanpa bahan pengawet & tanpa MSG."
     },
     {
       "title": "Kentang Mustofa Dieng Balado",
@@ -52,43 +52,70 @@
       "body": "Perpaduan gurih harum bawang putih, daun bawang, dan daun seledri segar yang renyah berselera."
     },
     {
-      "title": "Sambal Cumi Juara Nanay",
-      "body": "Potongan cumi segar dipadukan bumbu cabai rempah melimpah dalam kemasan jar higienis siap santap."
+      "title": "Aneka Sambal Botol Pilihan",
+      "body": "Racikan sambal cabai dan rempah pilihan dalam kemasan botol higienis 150ml yang praktis dan sedap."
     }
   ],
   "commercialBlocks": [
     {
-      "title": "Daftar Harga Resmi Produk Dapur Nanay (Naytaste)",
+      "title": "Naytaste Camilan Kemasan & Sambal",
       "badge": "Halal & P-IRT Resmi",
-      "note": "Kemasan standing pouch zipper praktis & toples kedap udara eksklusif. Klik gambar katalog di atas untuk memperbesar.",
+      "note": "Kemasan standing pouch zipper praktis & toples kedap udara eksklusif.",
       "items": [
         {
           "label": "Naytaste Cheese Stick Edam (Pouch 150g)",
-          "value": "Rp20.000"
-        },
-        {
-          "label": "Naytaste Cheese Stick Edam (Toples Segel 250g)",
-          "value": "Rp35.000"
-        },
-        {
-          "label": "Kentang Mustofa Dieng Balado (Pouch 150g)",
           "value": "Rp25.000"
         },
         {
-          "label": "Kentang Mustofa Dieng Balado (Toples Segel 250g)",
+          "label": "Naytaste Cheese Stick Edam (Pouch 85g)",
+          "value": "Rp20.000"
+        },
+        {
+          "label": "Kentang Mustofa Dieng Balado (Pouch 100g)",
+          "value": "Rp25.000"
+        },
+        {
+          "label": "Kentang Mustofa Dieng Balado (Pouch 250g)",
           "value": "Rp45.000"
         },
         {
-          "label": "Stik Bawang Harum Seledri (Pouch 150g)",
-          "value": "Rp18.000"
+          "label": "Kentang Mustofa Dieng Balado (Toples Segel 250g)",
+          "value": "Rp50.000"
         },
         {
-          "label": "Sambal Cumi Juara Nanay (Jar Kaca 150g)",
-          "value": "Rp30.000"
+          "label": "Stik Bawang Harum Seledri (Pouch 100g)",
+          "value": "Rp20.000"
         },
         {
-          "label": "Paket Hampers & Suplai Event / Oleh-Oleh",
-          "value": "Custom Order"
+          "label": "Aneka Sambal Botol Pilihan (Botol 150ml)",
+          "value": "Rp35.000"
+        }
+      ]
+    },
+    {
+      "title": "Kuliner Siap Santap & Katering",
+      "badge": "Katering & Pesanan Acara",
+      "note": "Olahan bebek & ayam bumbu rempah pilihan lengkap dengan lalapan dan sambal khas Dapur Nanay.",
+      "items": [
+        {
+          "label": "Bebek Bakar/Goreng Potongan Besar (Potong 4 + Sambal + Lalapan)",
+          "value": "Rp35.000"
+        },
+        {
+          "label": "Bebek Goreng/Bakar Potongan Kecil (Potong 8 + Sambal + Lalapan)",
+          "value": "Rp25.000"
+        },
+        {
+          "label": "Ayam Bakar/Goreng (Potong 4 + Sambal + Lalapan)",
+          "value": "Rp15.000"
+        },
+        {
+          "label": "Paket Nasi Box",
+          "value": "Rp25.000 – Rp50.000"
+        },
+        {
+          "label": "Paket Snack Box",
+          "value": "Rp10.000 – Rp35.000"
         }
       ]
     }
@@ -110,19 +137,14 @@
       "caption": "Camilan gurih renyah perpaduan bawang putih dan seledri segar yang cocok untuk teman santap maupun cemilan harian."
     },
     {
-      "image": "/brand/dapur-nanay/dapur-nanay-sambal-cumi.webp",
-      "label": "Sambal Cumi Juara Dapur Nanay",
-      "caption": "Potongan cumi segar higienis dengan limpahan bumbu cabai rempah pedas mantap dalam kemasan jar praktis."
-    },
-    {
       "image": "/brand/dapur-nanay/dapur-nanay-retail-display.webp",
       "label": "Jaringan Distribusi Ritel & Pusat Oleh-Oleh",
       "caption": "Produk Naytaste hadir di Toko Oleh-oleh Krisna Jogja, Transmart, K3Mart, Tip Top Swalayan, Local Pride Pelindo, Toko Buah 88 Bintaro, dan Swiss-Belinn Bandara."
     },
     {
-      "image": "/brand/dapur-nanay/dapur-nanay-ig-12.jpg",
-      "label": "Kunjungan Resmi Mendag & Wamendag RI di TEI 2026",
-      "caption": "Partisipasi resmi Dapur Nanay (Naytaste) pada Trade Expo Indonesia 2026 di ICE BSD dengan kunjungan kehormatan dari Menteri Perdagangan RI Budi Santoso dan Wakil Menteri Perdagangan RI Dyah Roro Esti."
+      "image": "/brand/dapur-nanay/dapur-nanay-ig-14.jpg",
+      "label": "Top 20 UMKM Gapai Pasar Global Meta & Kemendag RI",
+      "caption": "Naytaste Dapur Nanay terpilih sebagai Top 20 Peserta Terbaik Jakarta program pendampingan UMKM Gapai Pasar Global dengan AI oleh Meta, Kementerian Perdagangan RI, dan UKM Indonesia."
     }
   ],
   "actions": [
@@ -159,9 +181,13 @@
   ],
   "verification": {
     "status": "verified-authoritative",
-    "checkedAt": "2026-10-13",
-    "note": "Foto produk asli diambil langsung dari akun Instagram @dapur_nanay, data kanal dan kontak dikonfirmasi resmi oleh Disperindag Tangsel.",
+    "checkedAt": "2026-10-16",
+    "note": "Foto produk asli dan daftar harga diverifikasi langsung bersama Ibu Amalia (Owner Naytaste Dapur Nanay) per 16 Oktober 2026.",
     "sources": [
+      {
+        "label": "WhatsApp Konfirmasi Ibu Amalia (Owner)",
+        "url": "https://wa.me/6281809693375"
+      },
       {
         "label": "Instagram @dapur_nanay",
         "url": "https://www.instagram.com/dapur_nanay"

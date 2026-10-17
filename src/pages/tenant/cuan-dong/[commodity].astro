@@ -249,7 +249,7 @@ const relatedCommodities = commodities.filter((item) => item.slug !== commodity.
 
 const emailSubject = encodeURIComponent(`RFQ Inquiry: ${commodity.title} (HS ${commodity.hsCode}) — CUAN-DONG Global Holdings`);
 const emailBody = encodeURIComponent(commodity.rfqAction.prefilledText);
-const mailtoUrl = `mailto:cuandongholdings@gmail.com?subject=${emailSubject}&body=${emailBody}`;
+const mailtoUrl = `mailto:heriscaleup@gmail.com?subject=${emailSubject}&body=${emailBody}`;
 
 const structuredData = [
   {
@@ -257,7 +257,7 @@ const structuredData = [
     '@type': 'Organization',
     name: 'CUAN-DONG Global Holdings',
     url: 'https://cuan-dong.com/',
-    email: 'cuandongholdings@gmail.com',
+    email: 'heriscaleup@gmail.com',
     telephone: '+62-813-1723-0957',
     address: {
       '@type': 'PostalAddress',
@@ -424,7 +424,7 @@ const structuredData = [
                 href={mailtoUrl}
                 class="cd-btn cd-btn-secondary"
               >
-                <span>Email RFQ · cuandongholdings@gmail.com</span>
+                <span>Email RFQ · heriscaleup@gmail.com</span>
                 <b aria-hidden="true">✉</b>
               </a>
             </div>
@@ -723,7 +723,7 @@ const structuredData = [
               <div class="cd-rfq-meta">
                 <span><strong>HS Code:</strong> {commodity.hsCode}</span>
                 <span><strong>WhatsApp Desk:</strong> {commodity.rfqAction.whatsappNumber}</span>
-                <span><strong>Email Desk:</strong> cuandongholdings@gmail.com</span>
+                <span><strong>Email Desk:</strong> heriscaleup@gmail.com</span>
               </div>
             </div>
             <div class="cd-rfq-actions">
@@ -741,7 +741,7 @@ const structuredData = [
                 href={mailtoUrl}
                 class="cd-btn cd-btn-secondary cd-btn-full"
               >
-                <span>Email RFQ · cuandongholdings@gmail.com</span>
+                <span>Email RFQ · heriscaleup@gmail.com</span>
                 <b aria-hidden="true">✉</b>
               </a>
               <a

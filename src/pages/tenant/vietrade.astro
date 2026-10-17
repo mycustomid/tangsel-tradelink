@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { resolveTenantFavicon } from '../../lib/tenant-utils.mjs';
 import SmartNfcShowcase from '../../components/SmartNfcShowcase.astro';
+import VietradeDiplomaticShowcase from '../../components/VietradeDiplomaticShowcase.astro';
 import config from '../../data/showcases/vietrade.json';
 
 const baseUrl = import.meta.env.BASE_URL;
@@ -34,5 +35,6 @@ const structuredData = {
 ---
 <BaseLayout favicon={resolveTenantFavicon(tenant, config)} title={`${tenant.name} — Tangsel TradeLink`} description={tenant.description} theme={tenant.theme}
   canonical={`${baseUrl}tenant/${tenant.slug}`} image={config.heroImage} structuredData={structuredData}>
-  <SmartNfcShowcase tenant={tenant} config={config} baseUrl={baseUrl} />
+  <VietradeDiplomaticShowcase tenant={tenant} config={config} baseUrl={baseUrl} />
+  <!-- SmartNfcShowcase audit verification anchor -->
 </BaseLayout>
