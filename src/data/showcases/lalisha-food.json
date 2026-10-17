@@ -4,14 +4,14 @@
   "titleLogo": "/brand/lalisha-food/lalisha-logo.png",
   "logo": "/brand/lalisha-food/lalisha-logo.png",
   "favicon": "/brand/lalisha-food/lalisha-favicon.png",
-  "tagline": "Instant seblak in Original Kencur and Keju Creamy variants, built for retail and export-market conversations.",
-  "eyebrow": "Food / Pantry · Tangerang Selatan",
+  "tagline": "Seblak instan khas nusantara dalam varian Original Kencur & Keju Creamy, hadir di jaringan ritel K3MART, Amanda Brownies, dan siap untuk ekspansi ekspor.",
+  "eyebrow": "Food & Pantry · Tangerang Selatan",
   "heroImage": "/brand/lalisha-food/seblak-instan-lalisha-hero.webp",
   "heroFit": "contain",
   "heroAspectRatio": "1/1",
   "heroAspectRatioMobile": "1/1",
   "galleryFit": "contain",
-  "galleryAspectRatio": "1/1",
+  "galleryAspectRatio": "4/3",
   "visualMode": "food",
   "palette": {
     "bg": "#faf3e9",
@@ -20,8 +20,8 @@
     "surface": "#ead5b8"
   },
   "story": {
-    "title": "Instant seblak in Original Kencur and Keju Creamy variants, built for retail and export-market conversations.",
-    "body": "Lalisha Food menghadirkan inovasi Seblak Instan khas nusantara dari Setu, Tangerang Selatan. Tersedia dalam varian Original Kencur beraroma rempah otentik dan Keju Creamy yang gurih lezat, cukup diseduh air panas dan siap dinikmati kapan saja. Bersertifikasi resmi NIB, Halal, P-IRT, dan HAKI dengan kapasitas produksi hingga 10.000 bungkus per bulan. Melayani pesanan satuan, reseller, distributor, hingga kemitraan ritel dan ekspor."
+    "title": "Seblak instan rempah otentik siap seduh 3 menit, tersertifikasi lengkap untuk pasar ritel & ekspor.",
+    "body": "Lalisha Food menghadirkan inovasi Seblak Instan khas nusantara dari Setu, Tangerang Selatan. Memadukan bumbu kencur segar dan racikan rempah alami dalam varian Original Kencur dan Keju Creamy yang gurih lezat, cukup diseduh air panas 3 menit. Telah bersertifikasi resmi NIB, Halal BPJPH, P-IRT, dan HAKI Kemenkumham RI dengan kapasitas produksi mencapai 10.000 packs per bulan. Produk telah resmi dipasarkan di K3MART seluruh Indonesia, Amanda Brownies, Hotel Mercure, Citadines Connect Airport, Bakery Ika Cakes, dan Gerai Lengkong. Melayani pesanan satuan, reseller, distributor, hingga kemitraan ritel modern dan ekspor internasional."
   },
   "stats": [
     {
@@ -33,8 +33,8 @@
       "label": "Melayani Satuan, Reseller & Distributor"
     },
     {
-      "value": "2",
-      "label": "Varian Utama: Original Kencur & Keju Creamy"
+      "value": "2 Varian",
+      "label": "Original Kencur & Keju Creamy"
     },
     {
       "value": "NIB / Halal",
@@ -51,26 +51,203 @@
       "body": "Varian creamy gurih keju berpadu cabai daun jeruk untuk jangkauan pasar ritel lebih luas."
     },
     {
-      "title": "3-minute prep",
-      "body": "Penyajian praktis cukup diseduh air mendidih sekitar 3 menit, langsung siap dinikmati."
+      "title": "Seduh 3 Menit",
+      "body": "Penyajian praktis cukup diseduh air mendidih sekitar 3 menit, langsung siap dinikmati kapan saja."
     },
     {
-      "title": "Jaringan Ritel",
-      "body": "Telah tersedia di K3MART (Gading Serpong & Summarecon Bekasi), Amanda Brownies Bogor Timur, Bakery Ika Cakes, dan Gerai Lengkong."
+      "title": "Jaringan Ritel Nasional",
+      "body": "Telah tersedia di K3MART seluruh Indonesia, Amanda Brownies Bogor Timur, Bakery Ika Cakes, Hotel Mercure, dan Citadines Connect Airport."
     }
   ],
-  "commercialBlocks": [],
+  "pricelistLabel": "Jaringan Distribusi & Kemitraan",
+  "pricelistTitle": "Tersedia di Jaringan Ritel Modern, Hotel, & Toko Oleh-Oleh.",
+  "pricelistImage": "/brand/lalisha-food/jaringan-outlet-resmi-lalisha.webp",
+  "commercialBlocks": [
+    {
+      "title": "Spesifikasi Produksi & Suplai",
+      "badge": "Skala Fleksibel",
+      "note": "Lalisha Food melayani pengadaan untuk kebutuhan ritel modern, grosir, reseller, hingga ekspor.",
+      "items": [
+        {
+          "label": "Kapasitas Produksi",
+          "value": "Hingga 10.000 packs / bulan"
+        },
+        {
+          "label": "Model Kemitraan",
+          "value": "Satuan, Reseller, Distributor, Ritel Modern"
+        },
+        {
+          "label": "Varian Utama",
+          "value": "Original Kencur & Keju Creamy"
+        },
+        {
+          "label": "Waktu Seduh",
+          "value": "Siap saji dalam 3 menit (Air Panas)"
+        },
+        {
+          "label": "Penyimpanan",
+          "value": "Suhu Ruang 20-25°C, Kode Produksi Tertera"
+        }
+      ]
+    },
+    {
+      "title": "Legalitas & Kepatuhan Mutu",
+      "badge": "100% Terverifikasi",
+      "note": "Seluruh perizinan usaha, sertifikasi halal, dan perlindungan merek telah tervalidasi resmi.",
+      "items": [
+        {
+          "label": "Merek Dagang",
+          "value": "Sertifikat HAKI Kemenkumham RI"
+        },
+        {
+          "label": "Sertifikat Halal",
+          "value": "BPJPH Kementerian Agama RI"
+        },
+        {
+          "label": "Izin Edar & Usaha",
+          "value": "Nomor Induk Berusaha (NIB) & P-IRT"
+        },
+        {
+          "label": "Uji Mutu Laboratorium",
+          "value": "Hasil Uji Parameter Pangan & Nilai Gizi"
+        },
+        {
+          "label": "Lokasi Produksi",
+          "value": "Setu, Tangerang Selatan, Banten"
+        }
+      ]
+    }
+  ],
   "gallery": [
     {
-      "image": "/brand/lalisha-food/seblak-instan-original-kencur.webp",
+      "image": "/brand/lalisha-food/outlet-k3mart-summarecon-bekasi.webp",
+      "label": "Display Ritel K3MART Summarecon Bekasi",
+      "caption": "Display resmi Seblak Instan Lalisha Food di rak etalase modern K3MART Summarecon Bekasi.",
+      "fit": "contain",
+      "aspectRatio": "3/4"
+    },
+    {
+      "image": "/brand/lalisha-food/outlet-k3mart-gading-serpong.webp",
+      "label": "Display Ritel K3MART Gading Serpong",
+      "caption": "Ketersediaan stok Seblak Instan Lalisha Food di outlet modern K3MART Gading Serpong.",
+      "fit": "contain",
+      "aspectRatio": "4/3"
+    },
+    {
+      "image": "/brand/lalisha-food/outlet-amanda-brownies-bogor.webp",
+      "label": "Display Ritel Amanda Brownies Cabang Bogor Timur",
+      "caption": "Kemitraan display Seblak Instan Lalisha Food di jaringan Amanda Brownies Cabang Bogor Timur.",
+      "fit": "contain",
+      "aspectRatio": "3/4"
+    },
+    {
+      "image": "/brand/lalisha-food/jaringan-outlet-resmi-lalisha.webp",
+      "label": "Daftar Jaringan Distribusi Ritel & Hotel",
+      "caption": "K3MART Seluruh Indonesia, 7 Days Otista Tangerang, Citadines Connect Airport, Hotel Mercure, Amanda Brownies, & Bakery Ika Cakes.",
+      "fit": "contain",
+      "aspectRatio": "16/10"
+    },
+    {
+      "image": "/brand/lalisha-food/sertifikat-haki-merek-lalisha.webp",
+      "label": "Sertifikat Merek Dagang HAKI",
+      "caption": "Perlindungan Hak Kekayaan Intelektual resmi merek dagang LALISHA FOOD dari Kemenkumham RI.",
+      "fit": "contain",
+      "aspectRatio": "4/3"
+    },
+    {
+      "image": "/brand/lalisha-food/sertifikat-halal-bpjph.webp",
+      "label": "Sertifikat Halal Indonesia (BPJPH)",
+      "caption": "Jaminan kehalalan produk pangan dari Badan Penyelenggara Jaminan Produk Halal (BPJPH) Kemenag RI.",
+      "fit": "contain",
+      "aspectRatio": "3/4"
+    },
+    {
+      "image": "/brand/lalisha-food/sertifikat-nib-izin-usaha.webp",
+      "label": "Nomor Induk Berusaha (NIB) Resmi",
+      "caption": "Legalitas perizinan usaha mikro dan menengah resmi terdaftar di sistem OSS Republik Indonesia.",
+      "fit": "contain",
+      "aspectRatio": "3/4"
+    },
+    {
+      "image": "/brand/lalisha-food/hasil-uji-laboratorium-nutrisi.webp",
+      "label": "Sertifikat Uji Nilai Gizi Laboratorium",
+      "caption": "Hasil pengujian parameter pangan laboratorium terakreditasi untuk jaminan mutu dan keamanan nutrisi konsumsi.",
+      "fit": "contain",
+      "aspectRatio": "3/5"
+    },
+    {
+      "image": "/brand/lalisha-food/varian-original-kencur-pouch.webp",
       "label": "Seblak Instan Original Kencur",
-      "caption": "Seblak khas nusantara beraroma rempah kencur otentik dengan isian lengkap mie, cuanki tahu, endog lewo, dan pilus cikur.",
+      "caption": "Kemasan pouch higienis varian Original Kencur dengan bumbu rempah pilihan khas nusantara.",
+      "fit": "contain",
+      "aspectRatio": "3/4"
+    },
+    {
+      "image": "/brand/lalisha-food/varian-keju-creamy-pouch.webp",
+      "label": "Seblak Instan Keju Creamy",
+      "caption": "Kemasan pouch higienis varian Keju Creamy berpadu gurih keju dan sensasi cabai daun jeruk.",
+      "fit": "contain",
+      "aspectRatio": "3/4"
+    },
+    {
+      "image": "/brand/lalisha-food/kemasan-siap-seduh-lalisha.webp",
+      "label": "Kemasan Siap Seduh Lalisha Food",
+      "caption": "Penyajian praktis tinggal seduh air panas dalam 3 menit, cocok untuk konsumsi harian dan oleh-oleh.",
+      "fit": "contain",
+      "aspectRatio": "1/1"
+    },
+    {
+      "image": "/brand/lalisha-food/komposisi-rempah-nusantara.webp",
+      "label": "Komposisi & Bumbu Rempah Otentik",
+      "caption": "Bahan alami berkualitas: terigu, tapioka, kerupuk, tahu, singkong, mie kering, kencur asli, bawang putih, dan cabai rempah.",
+      "fit": "contain",
+      "aspectRatio": "4/3"
+    },
+    {
+      "image": "/brand/lalisha-food/panduan-saran-penyajian.webp",
+      "label": "Panduan Saran Penyajian Cepat",
+      "caption": "Instruksi seduh praktis 3 menit dengan air mendidih serta petunjuk penyimpanan optimal pada suhu ruang 20-25°C.",
+      "fit": "contain",
+      "aspectRatio": "4/3"
+    },
+    {
+      "image": "/brand/lalisha-food/standar-kualitas-premium.webp",
+      "label": "Standar Mutu Pangan Kualitas Premium",
+      "caption": "Produksi higienis standar UMKM Tangsel siap mendukung pasokan ritel modern dan pasar nasional.",
+      "fit": "contain",
+      "aspectRatio": "4/3"
+    },
+    {
+      "image": "/brand/lalisha-food/informasi-nilai-gizi-kemasan.webp",
+      "label": "Informasi Nilai Gizi Kemasan",
+      "caption": "Transparansi takaran saji dan nilai gizi pada kemasan untuk kepastian konsumen dan standar ritel modern.",
+      "fit": "contain",
+      "aspectRatio": "4/3"
+    },
+    {
+      "image": "/brand/lalisha-food/seblak-instan-tampak-depan.webp",
+      "label": "Tampilan Kemasan Seblak Instan",
+      "caption": "Desain kemasan modern eye-catching dengan identitas merek Lalisha Food yang kuat di etalase ritel.",
+      "fit": "contain",
+      "aspectRatio": "4/3"
+    },
+    {
+      "image": "/brand/lalisha-food/detail-kemasan-penyimpanan.webp",
+      "label": "Petunjuk Penyimpanan & Ketahanan Produk",
+      "caption": "Informasi kode produksi dan daya tahan produk untuk manajemen inventori distributor dan reseller.",
+      "fit": "contain",
+      "aspectRatio": "4/3"
+    },
+    {
+      "image": "/brand/lalisha-food/seblak-instan-original-kencur.webp",
+      "label": "Seblak Instan Original Kencur (Full Pouch)",
+      "caption": "Isian lengkap mie, cuanki tahu, endog lewo, dan pilus cikur dengan bumbu kencur otentik.",
       "fit": "contain",
       "aspectRatio": "1/2"
     },
     {
       "image": "/brand/lalisha-food/seblak-instan-keju-creamy.webp",
-      "label": "Seblak Instan Keju Creamy",
+      "label": "Seblak Instan Keju Creamy (Full Pouch)",
       "caption": "Sensasi rasa keju yang gurih creamy berpadu pas dengan bumbu rempah pedas dan cabai daun jeruk khas Lalisha Food.",
       "fit": "contain",
       "aspectRatio": "1/2"
@@ -126,6 +303,5 @@
   "performance": {
     "optimizedAt": "2026-10-17",
     "heroFormat": "webp"
-  },
-  "favicon": "/brand/lalisha-food/lalisha-favicon.png"
+  }
 }
