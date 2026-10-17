@@ -15,19 +15,25 @@
     "surface": "#0f233d"
   },
   "officer": {
-    "name": "Tâm Trang",
-    "title": "Trade Promotion Officer",
-    "titleVi": "Cán bộ Xúc tiến Thương mại",
-    "agency": "Vietnam Trade Promotion Agency (VIETRADE)",
+    "name": "Nguyễn Tâm Trang",
+    "nameEn": "Nguyen Tam Trang",
+    "title": "Training and Sales Support Division",
+    "titleVi": "Phòng Đào tạo & Hỗ trợ kinh doanh",
+    "agency": "Export Promotion Center (PROMOCEN)",
+    "agencyVi": "Trung tâm Hỗ trợ Xuất khẩu",
+    "organization": "Vietnam Trade Promotion Agency (VIETRADE)",
     "ministry": "Ministry of Industry and Trade of Vietnam (MOIT)",
     "avatar": "/brand/vietrade/tam-trang-avatar.webp",
     "qrCode": "/brand/vietrade/vietrade-qr.png",
     "vcard": "/brand/vietrade/tam-trang-vietrade.vcf",
     "phone": "+84 82 880 7986",
+    "officeTel": "84-43 936 4791 (Ext: 118)",
+    "fax": "84-43 936 4793",
     "email": "tamtrang.vietrade@gmail.com",
     "zalo": "https://zalo.me/84828807986",
     "whatsapp": "https://wa.me/84828807986",
     "location": "Trade Expo Indonesia 2026 · Hall 8 · Booth 8-7C",
+    "officeAddress": "Floor 7th, 20 Ly Thuong Kiet, Hanoi (Tầng 7, 20 Lý Thường Kiệt, Hà Nội)",
     "badge": "Official State Delegate · TEI 2026"
   },
   "story": {
@@ -167,7 +173,15 @@
       "items": [
         {
           "label": "Delegation Representative",
-          "value": "Tâm Trang · Trade Promotion Officer"
+          "value": "Nguyễn Tâm Trang (Nguyen Tam Trang) · Training and Sales Support Division"
+        },
+        {
+          "label": "Agency Division",
+          "value": "Export Promotion Center (PROMOCEN) · VIETRADE"
+        },
+        {
+          "label": "Direct Office Phone",
+          "value": "84-43 936 4791 (Ext: 118) · Fax: 84-43 936 4793"
         },
         {
           "label": "Mobile / WhatsApp / Zalo",
@@ -187,7 +201,7 @@
         },
         {
           "label": "Headquarters Address",
-          "value": "Số 20 Lý Thường Kiệt, P. Phan Chu Trinh, Q. Hoàn Kiếm, TP. Hà Nội, Vietnam"
+          "value": "Floor 7th, 20 Ly Thuong Kiet, Hoan Kiem, Hanoi, Vietnam"
         }
       ]
     }
@@ -195,8 +209,8 @@
   "gallery": [
     {
       "image": "/brand/vietrade/vietrade-card-front.webp",
-      "label": "Tâm Trang — Executive Trade Delegation Card",
-      "caption": "Official trade promotion representative credentials for Trade Expo Indonesia 2026.",
+      "label": "Nguyễn Tâm Trang — Executive Delegation Card",
+      "caption": "Authentic business card credentials of Nguyen Tam Trang (Training and Sales Support Division, Export Promotion Center - VIETRADE).",
       "url": "http://www.vietrade.gov.vn"
     },
     {

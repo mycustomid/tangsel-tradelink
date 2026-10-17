@@ -1,14 +1,16 @@
 BEGIN:VCARD
 VERSION:3.0
-N:Trang;Tâm;;;
-FN:Tâm Trang
-ORG:VIETRADE — Vietnam Trade Promotion Agency;Ministry of Industry and Trade (MOIT)
-TITLE:Trade Promotion Officer · Cán bộ Xúc tiến Thương mại
+N:Trang;Nguyễn;Tâm;;
+FN:Nguyễn Tâm Trang (Nguyen Tam Trang)
+ORG:VIETRADE — Vietnam Trade Promotion Agency;Export Promotion Center (PROMOCEN)
+TITLE:Training and Sales Support Division · Cục Xúc tiến Thương mại
 TEL;TYPE=CELL,VOICE,WHATSAPP,ZALO:+84828807986
+TEL;TYPE=WORK,VOICE:+84439364791;ext=118
+TEL;TYPE=FAX:+84439364793
 EMAIL;TYPE=PREF,INTERNET:tamtrang.vietrade@gmail.com
 URL;TYPE=WORK:http://www.vietrade.gov.vn
 URL;TYPE=SHOWCASE:https://mycustomid.github.io/tangsel-tradelink/tenant/vietrade/
-ADR;TYPE=WORK:;;Số 20 Lý Thường Kiệt, Phan Chu Trinh;Hoàn Kiếm;Hà Nội;;Vietnam
+ADR;TYPE=WORK:;;Floor 7th, 20 Ly Thuong Kiet;Hoan Kiem;Hanoi;;Vietnam
 NOTE:Official Trade Delegation Representative for Vietnam at Trade Expo Indonesia (TEI 2026). Hall 8, Booth 8-7C.
-REV:2026-10-17T07:00:00Z
+REV:2026-10-17T08:15:00Z
 END:VCARD

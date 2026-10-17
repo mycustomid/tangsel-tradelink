@@ -114,14 +114,22 @@ const verification = config.verification || {};
             <figure class="nfc-card-frame">
               <img
                 src={resolveAsset('/brand/vietrade/vietrade-card-front.webp')}
-                alt="Executive NFC Touch Card — Tâm Trang (VIETRADE)"
+                alt="Executive NFC Touch Card — Nguyễn Tâm Trang (VIETRADE)"
                 width="1200"
                 height="750"
                 loading="eager"
                 class="nfc-card-image"
+                id="active-nfc-card"
               />
               <div class="nfc-card-sheen" aria-hidden="true"></div>
             </figure>
+          </div>
+          <!-- Language & side switcher for authentic delegation card -->
+          <div class="card-sides-toolbar" role="tablist" aria-label="Business Card Language">
+            <span class="toolbar-label">Official Card:</span>
+            <button type="button" class="btn-side is-active js-switch-side" data-side-img={resolveAsset('/brand/vietrade/vietrade-card-en.webp')} aria-selected="true">English (International)</button>
+            <button type="button" class="btn-side js-switch-side" data-side-img={resolveAsset('/brand/vietrade/vietrade-card-vi.webp')} aria-selected="false">Tiếng Việt</button>
+            <button type="button" class="btn-side js-switch-side" data-side-img={resolveAsset('/brand/vietrade/vietrade-card-dual.webp')} aria-selected="false">Dual View</button>
           </div>
           <div class="nfc-tap-guidance">
             <span class="nfc-icon-wave">📡</span>
@@ -135,7 +143,7 @@ const verification = config.verification || {};
             <div class="officer-avatar-wrap">
               <img
                 src={resolveAsset(officer.avatar || '/brand/vietrade/tam-trang-avatar.webp')}
-                alt={officer.name || 'Tâm Trang'}
+                alt={officer.name || 'Nguyễn Tâm Trang'}
                 width="110"
                 height="110"
                 class="officer-avatar"
@@ -144,29 +152,29 @@ const verification = config.verification || {};
             </div>
             <div class="officer-identity">
               <div class="badge-role">{officer.badge || 'Official State Delegate · TEI 2026'}</div>
-              <h3 id="officer-name">{officer.name || 'Tâm Trang'}</h3>
-              <p class="officer-title-vi">{officer.titleVi || 'Cán bộ Xúc tiến Thương mại'}</p>
-              <p class="officer-title-en">{officer.title || 'Trade Promotion Officer'}</p>
-              <p class="officer-agency">{officer.agency || 'VIETRADE'} · {officer.ministry || 'MOIT Vietnam'}</p>
+              <h3 id="officer-name">{officer.name || 'Nguyễn Tâm Trang'}</h3>
+              <p class="officer-title-vi">{officer.titleVi || 'Phòng Đào tạo & Hỗ trợ kinh doanh'}</p>
+              <p class="officer-title-en">{officer.title || 'Training and Sales Support Division'}</p>
+              <p class="officer-agency">{officer.agency || 'Export Promotion Center (PROMOCEN)'} · {officer.organization || 'VIETRADE'}</p>
             </div>
           </div>
 
           <div class="officer-contact-matrix">
             <div class="contact-entry">
-              <span class="contact-label">Direct Mobile / WhatsApp / Zalo</span>
+              <span class="contact-label">Mobile / WhatsApp / Zalo</span>
               <a href={`tel:${officer.phone}`} class="contact-val highlight-gold">{officer.phone || '+84 82 880 7986'}</a>
+            </div>
+            <div class="contact-entry">
+              <span class="contact-label">Hanoi Office Tel & Fax</span>
+              <span class="contact-val">{officer.officeTel || '84-43 936 4791 (Ext: 118)'} · Fax: {officer.fax || '84-43 936 4793'}</span>
             </div>
             <div class="contact-entry">
               <span class="contact-label">Official Ministry Email</span>
               <a href={`mailto:${officer.email}`} class="contact-val">{officer.email || 'tamtrang.vietrade@gmail.com'}</a>
             </div>
             <div class="contact-entry">
-              <span class="contact-label">Official Government Portal</span>
-              <a href={config.actions?.[0]?.url || 'http://www.vietrade.gov.vn'} target="_blank" rel="noopener noreferrer" class="contact-val">www.vietrade.gov.vn ↗</a>
-            </div>
-            <div class="contact-entry">
-              <span class="contact-label">Exhibition Station</span>
-              <span class="contact-val">{officer.location || 'Trade Expo Indonesia 2026 · Hall 8 · Booth 8-7C'}</span>
+              <span class="contact-label">Headquarters Office & Stand</span>
+              <span class="contact-val">{officer.officeAddress || 'Tầng 7, 20 Lý Thường Kiệt, Hà Nội'} · {officer.location || 'TEI 2026 Booth 8-7C'}</span>
             </div>
           </div>
 
@@ -476,6 +484,24 @@ const verification = config.verification || {};
 
 <script>
   function initDiplomaticInteractions() {
+    // Card Side Switcher
+    const activeCard = document.getElementById('active-nfc-card') as HTMLImageElement | null;
+    const switchBtns = document.querySelectorAll<HTMLButtonElement>('.js-switch-side');
+    switchBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const src = btn.getAttribute('data-side-img');
+        if (activeCard && src) {
+          activeCard.src = src;
+          switchBtns.forEach(b => {
+            b.classList.remove('is-active');
+            b.setAttribute('aria-selected', 'false');
+          });
+          btn.classList.add('is-active');
+          btn.setAttribute('aria-selected', 'true');
+        }
+      });
+    });
+
     // QR Modal
     const qrDialog = document.getElementById('qr-dialog') as HTMLDialogElement | null;
     document.querySelectorAll('.js-open-qr').forEach(btn => {
@@ -884,6 +910,48 @@ const verification = config.verification || {};
     background: linear-gradient(125deg, rgba(255,255,255,0.15) 0%, transparent 40%, rgba(212,175,55,0.1) 70%, transparent 100%);
     pointer-events: none;
   }
+  .card-sides-toolbar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 14px;
+    background: rgba(10, 25, 47, 0.75);
+    border: 1px solid var(--vt-border-subtle);
+    border-radius: 12px;
+    padding: 6px 12px;
+    flex-wrap: wrap;
+  }
+  .toolbar-label {
+    font-size: 0.68rem;
+    font-weight: 800;
+    color: var(--vt-gold-light);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-right: 4px;
+  }
+  .btn-side {
+    background: transparent;
+    border: 1px solid transparent;
+    color: var(--vt-text-slate);
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  .btn-side:hover {
+    color: #FFFFFF;
+    background: rgba(255, 255, 255, 0.08);
+  }
+  .btn-side.is-active {
+    background: var(--vt-gold);
+    color: #081426;
+    font-weight: 700;
+    border-color: var(--vt-gold-light);
+    box-shadow: 0 2px 8px rgba(212, 175, 55, 0.3);
+  }
+
   .nfc-tap-guidance {
     display: flex;
     align-items: center;
