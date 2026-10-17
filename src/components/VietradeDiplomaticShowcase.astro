@@ -108,32 +108,51 @@ const verification = config.verification || {};
       </div>
 
       <div class="card-executive-layout">
-        <!-- Physical NFC Smart Card Visual Showcase -->
+        <!-- Physical NFC Smart Card Visual Showcase — DUAL DELEGATION CARDS (VIETNAMESE & ENGLISH) -->
         <div class="card-visual-column">
-          <div class="smart-card-perspective">
-            <figure class="nfc-card-frame">
-              <img
-                src={resolveAsset('/brand/vietrade/vietrade-card-front.webp')}
-                alt="Executive NFC Touch Card — Nguyễn Tâm Trang (VIETRADE)"
-                width="1200"
-                height="750"
-                loading="eager"
-                class="nfc-card-image"
-                id="active-nfc-card"
-              />
-              <div class="nfc-card-sheen" aria-hidden="true"></div>
-            </figure>
+          <div class="dual-cards-stack">
+            <!-- Card Side 1: Tiếng Việt -->
+            <div class="delegation-card-block">
+              <div class="card-side-header">
+                <span class="flag-pill">🇻🇳 TIẾNG VIỆT</span>
+                <span class="side-desc">BỘ CÔNG THƯƠNG · CỤC XÚC TIẾN THƯƠNG MẠI</span>
+              </div>
+              <figure class="nfc-card-frame">
+                <img
+                  src={resolveAsset('/brand/vietrade/vietrade-card-vi.webp')}
+                  alt="Thẻ Danh Thiếp Đại Biểu VIETRADE (Tiếng Việt) — Nguyễn Tâm Trang"
+                  width="593"
+                  height="361"
+                  loading="eager"
+                  class="nfc-card-image"
+                />
+                <div class="nfc-card-sheen" aria-hidden="true"></div>
+              </figure>
+            </div>
+
+            <!-- Card Side 2: English International -->
+            <div class="delegation-card-block">
+              <div class="card-side-header">
+                <span class="flag-pill">🌐 ENGLISH</span>
+                <span class="side-desc">VIETNAM TRADE PROMOTION AGENCY · PROMOCEN</span>
+              </div>
+              <figure class="nfc-card-frame">
+                <img
+                  src={resolveAsset('/brand/vietrade/vietrade-card-en.webp')}
+                  alt="Official Delegate Business Card (English) — Nguyen Tam Trang"
+                  width="593"
+                  height="361"
+                  loading="eager"
+                  class="nfc-card-image"
+                />
+                <div class="nfc-card-sheen" aria-hidden="true"></div>
+              </figure>
+            </div>
           </div>
-          <!-- Language & side switcher for authentic delegation card -->
-          <div class="card-sides-toolbar" role="tablist" aria-label="Business Card Language">
-            <span class="toolbar-label">Official Card:</span>
-            <button type="button" class="btn-side is-active js-switch-side" data-side-img={resolveAsset('/brand/vietrade/vietrade-card-en.webp')} aria-selected="true">English (International)</button>
-            <button type="button" class="btn-side js-switch-side" data-side-img={resolveAsset('/brand/vietrade/vietrade-card-vi.webp')} aria-selected="false">Tiếng Việt</button>
-            <button type="button" class="btn-side js-switch-side" data-side-img={resolveAsset('/brand/vietrade/vietrade-card-dual.webp')} aria-selected="false">Dual View</button>
-          </div>
+
           <div class="nfc-tap-guidance">
             <span class="nfc-icon-wave">📡</span>
-            <p><strong>NFC SMART TOUCH READY:</strong> Tap delegation physical card against your mobile phone to instantly sync trade credentials.</p>
+            <p><strong>DUAL-SIDED NFC OFFICIAL CREDENTIAL:</strong> Both Tiếng Việt & English sides displayed simultaneously. Tap delegation physical card against your mobile phone to instantly sync trade credentials.</p>
           </div>
         </div>
 
@@ -484,23 +503,25 @@ const verification = config.verification || {};
 
 <script>
   function initDiplomaticInteractions() {
-    // Card Side Switcher
+    // Optional Card Switcher (if switcher buttons exist)
     const activeCard = document.getElementById('active-nfc-card') as HTMLImageElement | null;
     const switchBtns = document.querySelectorAll<HTMLButtonElement>('.js-switch-side');
-    switchBtns.forEach(btn => {
-      btn.addEventListener('click', () => {
-        const src = btn.getAttribute('data-side-img');
-        if (activeCard && src) {
-          activeCard.src = src;
-          switchBtns.forEach(b => {
-            b.classList.remove('is-active');
-            b.setAttribute('aria-selected', 'false');
-          });
-          btn.classList.add('is-active');
-          btn.setAttribute('aria-selected', 'true');
-        }
+    if (activeCard && switchBtns.length > 0) {
+      switchBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          const src = btn.getAttribute('data-side-img');
+          if (activeCard && src) {
+            activeCard.src = src;
+            switchBtns.forEach(b => {
+              b.classList.remove('is-active');
+              b.setAttribute('aria-selected', 'false');
+            });
+            btn.classList.add('is-active');
+            btn.setAttribute('aria-selected', 'true');
+          }
+        });
       });
-    });
+    }
 
     // QR Modal
     const qrDialog = document.getElementById('qr-dialog') as HTMLDialogElement | null;
@@ -884,20 +905,55 @@ const verification = config.verification || {};
     padding: clamp(28px, 4vw, 54px);
     box-shadow: 0 24px 60px -15px rgba(0, 0, 0, 0.7);
   }
-  .smart-card-perspective {
-    perspective: 1200px;
+  .dual-cards-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .delegation-card-block {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .card-side-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .flag-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    background: rgba(212, 175, 55, 0.16);
+    border: 1px solid var(--vt-border-gold);
+    color: var(--vt-gold-light);
+    font-size: 0.68rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    padding: 3px 10px;
+    border-radius: 999px;
+    text-transform: uppercase;
+  }
+  .side-desc {
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: var(--vt-text-slate);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
   }
   .nfc-card-frame {
     position: relative;
     margin: 0;
-    border-radius: 20px;
+    border-radius: 16px;
     overflow: hidden;
-    box-shadow: 0 20px 48px -10px rgba(0, 0, 0, 0.8), 0 0 0 1px var(--vt-border-gold);
-    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    background: #FFFFFF;
+    box-shadow: 0 16px 40px -10px rgba(0, 0, 0, 0.8), 0 0 0 1px var(--vt-border-gold);
+    transition: transform 0.35s cubic-bezier(0.2,0,0,1), box-shadow 0.35s ease;
   }
   .nfc-card-frame:hover {
-    transform: rotateY(-3deg) rotateX(2deg) translateY(-4px);
-    box-shadow: 0 28px 64px -10px rgba(212, 175, 55, 0.25), 0 0 0 1.5px var(--vt-gold);
+    transform: translateY(-4px) scale(1.01);
+    box-shadow: 0 24px 50px -10px rgba(212, 175, 55, 0.3), 0 0 0 1.5px var(--vt-gold);
   }
   .nfc-card-image {
     width: 100%;
@@ -907,49 +963,8 @@ const verification = config.verification || {};
   .nfc-card-sheen {
     position: absolute;
     inset: 0;
-    background: linear-gradient(125deg, rgba(255,255,255,0.15) 0%, transparent 40%, rgba(212,175,55,0.1) 70%, transparent 100%);
+    background: linear-gradient(125deg, rgba(255,255,255,0.18) 0%, transparent 40%, rgba(212,175,55,0.12) 70%, transparent 100%);
     pointer-events: none;
-  }
-  .card-sides-toolbar {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    margin-top: 14px;
-    background: rgba(10, 25, 47, 0.75);
-    border: 1px solid var(--vt-border-subtle);
-    border-radius: 12px;
-    padding: 6px 12px;
-    flex-wrap: wrap;
-  }
-  .toolbar-label {
-    font-size: 0.68rem;
-    font-weight: 800;
-    color: var(--vt-gold-light);
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    margin-right: 4px;
-  }
-  .btn-side {
-    background: transparent;
-    border: 1px solid transparent;
-    color: var(--vt-text-slate);
-    font-size: 0.75rem;
-    font-weight: 600;
-    padding: 4px 10px;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: all 0.2s ease;
-  }
-  .btn-side:hover {
-    color: #FFFFFF;
-    background: rgba(255, 255, 255, 0.08);
-  }
-  .btn-side.is-active {
-    background: var(--vt-gold);
-    color: #081426;
-    font-weight: 700;
-    border-color: var(--vt-gold-light);
-    box-shadow: 0 2px 8px rgba(212, 175, 55, 0.3);
   }
 
   .nfc-tap-guidance {
