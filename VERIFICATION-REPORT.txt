@@ -1,0 +1,15 @@
+Focused local verification executed against the packaged delta plus the repository's tenant export fixture.
+
+Result: 14 tests, 14 passed, 0 failed.
+
+Covered contracts:
+- CI budget workflow constraints
+- Lika Snack supplied Instagram + both Maps URLs
+- local Lika visual + honest external category-reference visual
+- corroborated Lika product copy
+- premium mobile CTA / touch targets / safe-area / long-name handling
+- SmartNfcShowcase multi-axis art direction and mobile composition
+- 97 explicit tenant fingerprints with uniqueness threshold
+- adaptive renderer semantic art-direction attributes
+
+Full production build was already green on the feature-branch baseline. Because this ZIP is intentionally local-only and was not pushed, the final local overlay should still be followed by npm test + npm run build in the recipient repository.

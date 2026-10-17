@@ -8,15 +8,31 @@ const baseUrl = import.meta.env.BASE_URL;
 const tenant = {
   name: "Lika Snack", slug: "lika-snack", hall: '8', booth: '8-7C',
   category: "Food, Beverage & Agriculture Products",
-  description: "Traditional snack profile for TEI 2026 discovery.",
+  description: "Emping jagung krispi, rengginang, dan snack tradisional dari Bambu Apus, Pamulang, Tangerang Selatan.",
+  phone: '+6282210889077',
+  instagram: 'https://www.instagram.com/likasnack.id/',
+  maps: 'https://maps.app.goo.gl/UVLpADewTTFCSyELA',
   theme: "food",
-  researchStatus: "handover-verified", verifiedAt: '2026-10-13'
+  researchStatus: "handover-verified", verifiedAt: '2026-10-17'
 };
 const structuredData = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
   name: tenant.name,
-  url: "https://mycustomid.github.io/tangsel-tradelink/"
+  telephone: tenant.phone,
+  sameAs: [
+    'https://www.instagram.com/likasnack.id/',
+    'https://maps.app.goo.gl/UVLpADewTTFCSyELA',
+    'https://maps.app.goo.gl/gvrePUrXNPe1PXJ26'
+  ],
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: 'Jl. Mujair Raya No.63, RT.001/RW.004, Bambu Apus',
+    addressLocality: 'Pamulang, Tangerang Selatan',
+    addressRegion: 'Banten',
+    postalCode: '15415',
+    addressCountry: 'ID'
+  }
 };
 ---
 <BaseLayout favicon={resolveTenantFavicon(tenant, config)} title={`${tenant.name} — Tangsel TradeLink`} description={tenant.description} theme={tenant.theme}

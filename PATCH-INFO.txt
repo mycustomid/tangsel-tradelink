@@ -1,0 +1,37 @@
+Tangsel TradeLink — Cumulative Mega Patch / Final RC
+Date: 2026-10-17
+Repository: mycustomid/tangsel-tradelink
+Base main commit: 3b2b13e9c44be6dad5286c36da389492338c5d85
+Verified feature branch baseline: feat/art-direction-97-final @ 88ce21fd0c8b566d0e561559d99949573f709ffa
+No GitHub push was performed for this ZIP.
+
+WHAT IS INCLUDED
+- Complete main→feature-branch art-direction/UX delta, including the previously omitted adaptive-tenant-ux.css.
+- Adaptive renderer for generic tenant routes.
+- 97 explicit tenant art-direction fingerprints with >=80 distinct signatures.
+- Dedicated SmartNfcShowcase art-direction layer so dedicated tenant pages do not collapse into one category template.
+- Premium/flagship responsive + conversion hardening: single hero CTA, mobile thumb-zone CTA, safe-area support, long-name protection.
+- Lika Snack update: @likasnack.id, both supplied Google Maps links, public WhatsApp route, structured data, corroborated product copy, local brand-safe context visual, and one external category-reference image clearly labelled as non-official.
+- CI/Pages workflow budget hardening: no CI on every feature-branch push, PR/manual CI only, path filters, npm cache, npm ci, concurrency cancellation and timeouts.
+
+BASELINE CI EVIDENCE
+- GitHub Actions run 39021989221: SUCCESS for feature branch baseline.
+- Baseline branch test suite and Astro production build passed before local-only Lika/SmartNFC/CI delta.
+
+LOCAL DELTA VERIFICATION
+- 14/14 focused patch regression tests: PASS
+  * 97-tenant art direction coverage
+  * dedicated SmartNFC design differentiation
+  * premium/mobile UX contracts
+  * Lika Snack routes/assets/copy
+  * CI budget constraints
+- Lika JSON parse: PASS (covered by tests)
+- Local Lika visual exists in patch and is referenced by config: PASS
+
+IMPORTANT
+The external emping-jagung image is a category reference, not Lika Snack official product/packaging photography. The UI and source ledger label it accordingly. The local SVG is an editorial context visual based on verified public product information, also explicitly labelled as non-official packaging photography.
+
+RECOMMENDED AFTER APPLYING LOCALLY
+  npm ci --prefer-offline --no-audit --no-fund
+  npm test
+  npm run build

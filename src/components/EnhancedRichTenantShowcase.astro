@@ -11,20 +11,35 @@ interface Props {
 const { tenant, config, baseUrl = '' } = Astro.props;
 const tenantLinks = getTenantLinks(tenant);
 const existing = new Set((config.actions || []).map((action: any) => String(action.key || '').toLowerCase()));
-const priorityExtras = tenantLinks
-  .filter((link: any) => ['whatsapp', 'maps'].includes(link.key) && !existing.has(link.key))
+const whatsappExtras = tenantLinks
+  .filter((link: any) => link.key === 'whatsapp' && !existing.has(link.key))
   .map((link: any) => ({ key: link.key, label: link.label, url: link.href }));
-const enhancedConfig = { ...config, actions: [...priorityExtras, ...(config.actions || [])] };
+const mapExtras = tenantLinks
+  .filter((link: any) => link.key === 'maps' && !existing.has(link.key))
+  .map((link: any) => ({ key: link.key, label: link.label, url: link.href }));
+const enhancedConfig = { ...config, actions: [...whatsappExtras, ...(config.actions || []), ...mapExtras] };
+const primaryAction = enhancedConfig.actions?.[0];
 const rawLogo = getTenantLogo(tenant) || (tenant as any)?.logo || (config as any)?.logo;
 const normalizedBase = String(baseUrl).replace(/\/$/, '');
 const brandLogo = normalizedBase && rawLogo?.startsWith('/') && !rawLogo.startsWith(normalizedBase)
   ? `${normalizedBase}${rawLogo}`
   : rawLogo;
 const enhancedTenant = brandLogo ? { ...tenant, logo: brandLogo } : tenant;
+const tenantName = String(tenant.name || '');
+const nameLength = tenantName.length > 58 ? 'xlong' : tenantName.length > 34 ? 'long' : 'normal';
 ---
 
-<div class:list={['enhanced-rich-showcase', brandLogo && 'has-brand-logo']}>
+<div class:list={['enhanced-rich-showcase', brandLogo && 'has-brand-logo']} data-name-length={nameLength}>
   <RichTenantShowcase tenant={enhancedTenant} config={enhancedConfig} baseUrl={baseUrl} />
+  {primaryAction && (
+    <div class="premium-mobile-cta" aria-label={`Recommended next step for ${tenantName}`}>
+      <a href={primaryAction.url} target="_blank" rel="noopener noreferrer">
+        <span>Recommended next step</span>
+        <strong>{primaryAction.label}</strong>
+        <b aria-hidden="true">↗</b>
+      </a>
+    </div>
+  )}
 </div>
 
 <style is:global>

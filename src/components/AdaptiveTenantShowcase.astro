@@ -1,0 +1,246 @@
+---
+import '../styles/adaptive-tenant-showcase.css';
+import '../styles/adaptive-tenant-ux.css';
+
+interface TenantLink {
+  key?: string;
+  href: string;
+  label: string;
+  icon?: string;
+}
+
+interface Props {
+  tenant: any;
+  links?: TenantLink[];
+  logo?: string;
+  direction: {
+    archetype: string;
+    layout: string;
+    hero: string;
+    type: string;
+    surface: string;
+    motion: string;
+    accent: string;
+    media: string;
+  };
+  baseUrl?: string;
+}
+
+const { tenant, links = [], logo, direction, baseUrl = '' } = Astro.props;
+const sources = Array.isArray(tenant.sources) ? tenant.sources.filter(Boolean) : [];
+const tenantName = String(tenant.name || 'Trade Expo Indonesia exhibitor');
+const initials = tenantName.split(/\s+/).filter(Boolean).slice(0, 2).map((part: string) => part[0]).join('').toUpperCase();
+const heroAsset = tenant.heroImage || tenant.image || tenant.photo || '';
+const boothLabel = [tenant.hall && `Hall ${tenant.hall}`, tenant.booth && `Booth ${tenant.booth}`].filter(Boolean).join(' · ') || 'TEI 2026';
+const verificationLabel = tenant.researchStatus === 'floorplan-only' ? 'Exhibition data verified' : 'Public sources checked';
+const sourceDate = tenant.verifiedAt || '2026';
+const rootStyle = `--tenant-accent:${direction.accent}`;
+const sourceCount = sources.length;
+const nameLength = tenantName.length > 58 ? 'xlong' : tenantName.length > 34 ? 'long' : 'normal';
+
+const LINK_PRIORITY: Record<string, number> = {
+  catalog: 0,
+  website: 1,
+  whatsapp: 2,
+  email: 3,
+  linkedin: 4,
+  instagram: 5,
+  maps: 6,
+  youtube: 7,
+  tiktok: 8,
+  facebook: 9,
+};
+
+const linkKind = (link: TenantLink) => {
+  const hint = `${link.key || ''} ${link.icon || ''} ${link.label || ''}`.toLowerCase();
+  return Object.keys(LINK_PRIORITY).find((key) => hint.includes(key)) || 'link';
+};
+const intentRank = (link: TenantLink) => LINK_PRIORITY[linkKind(link)] ?? 50;
+const prioritizedLinks = [...links].sort((a, b) => intentRank(a) - intentRank(b));
+const primaryAction = prioritizedLinks[0];
+const secondaryActions = prioritizedLinks.slice(1);
+
+const actionLabel = (link?: TenantLink) => {
+  if (!link) return '';
+  const kind = linkKind(link);
+  const labels: Record<string, string> = {
+    catalog: 'Open product catalog',
+    website: 'Visit official website',
+    whatsapp: 'Start a WhatsApp conversation',
+    email: 'Email business contact',
+    linkedin: 'View LinkedIn profile',
+    instagram: 'See brand on Instagram',
+    maps: 'Open verified map',
+    youtube: 'Watch official videos',
+    tiktok: 'See brand on TikTok',
+    facebook: 'View official Facebook page',
+  };
+  return labels[kind] || `Open ${link.label}`;
+};
+
+const institutionalArchetypes = new Set(['civic', 'infrastructure', 'network', 'control', 'industrial', 'architectural', 'placemaking', 'utility']);
+const isInstitutional = institutionalArchetypes.has(direction.archetype);
+const briefLabel = isInstitutional ? 'Meeting brief' : tenant.category ? 'Buyer brief' : 'Visit brief';
+const storyTitle = isInstitutional
+  ? `Know the role of ${tenantName} before the conversation starts.`
+  : tenant.description
+    ? `Decide whether ${tenantName} belongs on your shortlist.`
+    : `Find ${tenantName} with verified exhibition context.`;
+const signalsTitle = isInstitutional ? 'Make the first minute of the meeting useful.' : 'Qualify the opportunity before you approach.';
+const connectTitle = primaryAction ? 'Continue through the strongest verified route.' : 'Continue the conversation on the exhibition floor.';
+const connectCopy = primaryAction
+  ? 'One primary route is prioritized for speed. Other verified channels remain available below when you need them.'
+  : 'No digital contact is promoted until it can be matched reliably. Use the verified exhibition location instead.';
+
+const domain = (() => {
+  const website = tenant.website || prioritizedLinks.find((link: TenantLink) => /^https?:/.test(link.href || ''))?.href;
+  if (!website) return '';
+  try { return new URL(website).hostname.replace(/^www\./, ''); } catch { return ''; }
+})();
+---
+
+<main
+  class="adaptive-tenant"
+  style={rootStyle}
+  data-archetype={direction.archetype}
+  data-layout={direction.layout}
+  data-hero={direction.hero}
+  data-type={direction.type}
+  data-surface={direction.surface}
+  data-motion={direction.motion}
+  data-media={direction.media}
+  data-name-length={nameLength}
+>
+  <header class="tenant-bar">
+    <a class="directory-link" href={baseUrl || '/'} aria-label="Back to Tangsel TradeLink directory">
+      <span aria-hidden="true">←</span>
+      <strong>Tenant directory</strong>
+    </a>
+    <div class="booth-chip"><span>{boothLabel}</span><b>TEI 2026</b></div>
+  </header>
+
+  <section class="tenant-hero" aria-labelledby="tenant-title">
+    <div class="hero-copy">
+      <div class="brand-mark" aria-label={`${tenantName} brand mark`}>
+        {logo && <img src={logo} alt="" width="72" height="72" loading="eager" decoding="async" referrerpolicy="no-referrer" onerror="this.remove()" />}
+        <span aria-hidden="true">{initials}</span>
+      </div>
+      <p class="hero-kicker">{briefLabel} · {tenant.category || 'Trade Expo Indonesia 2026'}</p>
+      <h1 id="tenant-title">{tenantName}</h1>
+      <p class="hero-description">{tenant.description || `${tenantName} is a verified Trade Expo Indonesia 2026 exhibitor. Use this page to locate the booth and choose only reliably matched public channels.`}</p>
+
+      <div class="hero-proof" aria-label="Verification summary">
+        <span>{verificationLabel}</span>
+        <span>{boothLabel}</span>
+        {domain && <span>{domain}</span>}
+      </div>
+
+      {primaryAction && (
+        <div class="hero-actions" aria-label={`Recommended next step for ${tenantName}`}>
+          <a
+            class="hero-action is-primary"
+            href={primaryAction.href}
+            target={String(primaryAction.href).startsWith('http') ? '_blank' : undefined}
+            rel={String(primaryAction.href).startsWith('http') ? 'noopener noreferrer' : undefined}
+          >
+            <span>01</span>
+            <strong>{actionLabel(primaryAction)}</strong>
+            <b aria-hidden="true">↗</b>
+          </a>
+        </div>
+      )}
+    </div>
+
+    <figure class:list={['hero-stage', !heroAsset && 'is-type-led']}>
+      <div class="stage-grid" aria-hidden="true"><span></span><span></span><span></span></div>
+      <div class="type-poster" aria-hidden="true"><span>{initials}</span><b>{tenantName}</b></div>
+      {heroAsset && (
+        <img src={heroAsset} alt={`${tenantName} brand visual`} loading="eager" fetchpriority="high" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display='none';this.parentElement?.classList.add('image-failed')" />
+      )}
+      <figcaption>
+        <small>{heroAsset ? direction.media.replaceAll('-', ' ') : 'Typography-led profile'}</small>
+        <strong>{boothLabel}</strong>
+      </figcaption>
+    </figure>
+
+    <div class="hero-index" aria-hidden="true">
+      <span>01</span>
+      <b>{direction.layout}</b>
+    </div>
+  </section>
+
+  <section class="tenant-story content-block" aria-labelledby="story-title">
+    <div class="section-marker"><span>02</span><p>Context</p></div>
+    <div class="story-grid">
+      <h2 id="story-title">{storyTitle}</h2>
+      <div class="story-copy">
+        <p>{tenant.description || `The useful facts here are deliberately limited to verified exhibition data and reliably matched public sources. That keeps the page useful without inventing a company story.`}</p>
+        <div class="source-line"><span></span><small>{sourceCount > 0 ? `${sourceCount} recorded source${sourceCount === 1 ? '' : 's'}` : 'Floorplan-led profile'}</small></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="tenant-signals content-block" aria-labelledby="signals-title">
+    <div class="section-marker"><span>03</span><p>{briefLabel}</p></div>
+    <div class="signals-heading">
+      <h2 id="signals-title">{signalsTitle}</h2>
+      <p>Confirm sector, booth, evidence level, and the best verified route before you start the conversation.</p>
+    </div>
+    <div class="signal-grid">
+      <article><small>Offering</small><strong>{tenant.category || 'TEI 2026'}</strong><p>Sector context</p></article>
+      <article><small>Where</small><strong>{tenant.booth || tenant.hall || 'TEI'}</strong><p>{boothLabel}</p></article>
+      <article><small>Evidence</small><strong>{tenant.researchStatus === 'floorplan-only' ? 'Floorplan' : 'Checked'}</strong><p>{verificationLabel}</p></article>
+      <article><small>Best route</small><strong>{primaryAction ? primaryAction.label : 'On floor'}</strong><p>{primaryAction ? actionLabel(primaryAction) : 'Use verified booth location'}</p></article>
+    </div>
+  </section>
+
+  <section class="tenant-connect content-block" aria-labelledby="connect-title">
+    <div class="section-marker"><span>04</span><p>Next step</p></div>
+    <div class="connect-heading">
+      <h2 id="connect-title">{connectTitle}</h2>
+      <p>{connectCopy}</p>
+    </div>
+
+    {prioritizedLinks.length > 0 ? (
+      <div class="link-ledger">
+        {prioritizedLinks.map((link: TenantLink, index: number) => (
+          <a
+            href={link.href}
+            data-link-kind={linkKind(link)}
+            target={String(link.href).startsWith('http') ? '_blank' : undefined}
+            rel={String(link.href).startsWith('http') ? 'noopener noreferrer' : undefined}
+          >
+            <span>{String(index + 1).padStart(2, '0')}</span>
+            <small>{link.label}</small>
+            <strong>{actionLabel(link)}</strong>
+            <b aria-hidden="true">↗</b>
+          </a>
+        ))}
+      </div>
+    ) : (
+      <div class="floor-only">
+        <span>{initials}</span>
+        <div><small>Verified exhibition location</small><strong>{boothLabel}</strong></div>
+      </div>
+    )}
+  </section>
+
+  <footer class="tenant-footer">
+    <div class="footer-mark"><span>{initials}</span><strong>{tenantName}</strong></div>
+    <div class="footer-meta"><span>{verificationLabel}</span><span>{sourceDate}</span><a href={baseUrl || '/'}>Tenant directory ↗</a></div>
+  </footer>
+
+  {primaryAction && (
+    <div class="mobile-cta-dock" aria-label="Recommended action">
+      <a
+        href={primaryAction.href}
+        target={String(primaryAction.href).startsWith('http') ? '_blank' : undefined}
+        rel={String(primaryAction.href).startsWith('http') ? 'noopener noreferrer' : undefined}
+      >
+        <span>{primaryAction.label}</span>
+        <strong>{actionLabel(primaryAction)}</strong>
+        <b aria-hidden="true">↗</b>
+      </a>
+    </div>
+  )}
+</main>

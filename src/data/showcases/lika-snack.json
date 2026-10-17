@@ -1,59 +1,94 @@
 {
   "brandLabel": "LIKA SNACK",
-  "tagline": "Emping jagung crispy and traditional snack products from Poniyem in Pamulang.",
-  "eyebrow": "Food / Pantry · Tangerang Selatan",
+  "tagline": "Emping jagung krispi, rengginang, dan snack tradisional dari Bambu Apus, Pamulang.",
+  "eyebrow": "Corn snacks / traditional pantry · Tangerang Selatan",
   "heroImage": "/brand/tei-batch/lika-snack.svg",
-  "heroFit": "cover",
+  "heroFit": "contain",
   "visualMode": "food",
+  "galleryAspectRatio": "4/3",
+  "galleryLimit": 2,
   "palette": {
-    "bg": "#faf3e9",
+    "bg": "#fff5df",
     "ink": "#2d1c15",
     "accent": "#c45d2a",
-    "surface": "#ead5b8"
+    "surface": "#f2d59a"
   },
   "story": {
-    "title": "Emping jagung crispy and traditional snack products from Poniyem in Pamulang.",
-    "body": "Lika Snack dikelola oleh Poniyem di Bambu Apus, Pamulang, Tangerang Selatan, memproduksi aneka emping jagung krispi dan camilan gurih tradisional nusantara. Diolah secara higienis dengan bumbu rempah alami tanpa bahan pengawet berbahaya, bersertifikasi Halal resmi dan siap memasok kebutuhan pasar ritel, toko oleh-oleh, serta konsumsi keluarga."
+    "title": "Jagung renyah dari Pamulang, dengan lini snack yang lebih luas dari satu produk.",
+    "body": "Lika Snack dikelola oleh Poniyem di Bambu Apus, Pamulang, Tangerang Selatan. Sumber publik mencatat emping jagung krispi sebagai produk utamanya; pemberitaan IDN Times juga mendokumentasikan varian balado, jagung bakar dan barbeque, rengginang rasa terasi dan bawang, serta slondok putih. Profil ini menampilkan hanya informasi yang dapat ditelusuri atau diserahkan langsung oleh proyek."
   },
   "stats": [
     {
-      "value": "Pamulang",
-      "label": "public records place the business in Bambu Apus"
+      "value": "Bambu Apus",
+      "label": "Pamulang, Tangerang Selatan"
     },
     {
-      "value": "Emping",
-      "label": "emping jagung crispy documented publicly"
+      "value": "3",
+      "label": "documented emping jagung flavour directions"
     },
     {
-      "value": "Snack",
-      "label": "food/snack business category"
+      "value": "2",
+      "label": "documented rengginang flavour directions"
     },
     {
-      "value": "Public",
-      "label": "identity corroborated by government and academic sources"
+      "value": "Japan",
+      "label": "publicly reported trial market through family network"
     }
   ],
   "highlights": [
     {
-      "title": "Emping jagung",
-      "body": "The clearest publicly documented product is crispy corn emping."
+      "title": "Emping jagung krispi",
+      "body": "Varian yang diberitakan publik: balado, jagung bakar, dan barbeque."
     },
     {
-      "title": "Aneka Camilan Tradisional",
-      "body": "Pilihan aneka snack gurih renyah khas nusantara untuk camilan harian dan sajian acara."
+      "title": "Rengginang",
+      "body": "Pilihan rasa terasi dan bawang juga disebut dalam profil usaha yang dipublikasikan."
     },
     {
-      "title": "Owner identity",
-      "body": "Poniyem is named in public government records together with Lika Snack."
+      "title": "Slondok putih",
+      "body": "Produk snack tradisional lain yang tercatat bersama lini Lika Snack."
     },
     {
-      "title": "Pemesanan Langsung",
-      "body": "Layanan pemesanan produk melalui kontak perwakilan resmi booth pameran TEI Tangsel."
+      "title": "Direct discovery",
+      "body": "Instagram, WhatsApp, dan dua pin Google Maps disediakan untuk mempercepat verifikasi atau kunjungan."
     }
   ],
   "commercialBlocks": [],
-  "gallery": [],
+  "gallery": [
+    {
+      "image": "/brand/lika-snack/lika-snack-context.svg",
+      "label": "Lika Snack · verified product context",
+      "caption": "Visual editorial berbasis data produk Lika Snack yang terverifikasi; bukan foto kemasan resmi.",
+      "fit": "contain"
+    },
+    {
+      "image": "https://www.pesonanusantara.co.id/images/upload/pes-EmpingJagungB3.jpeg",
+      "label": "Emping jagung · category reference",
+      "caption": "Referensi visual kategori dari sumber web publik. Bukan produk atau kemasan resmi Lika Snack.",
+      "url": "https://www.pesonanusantara.co.id/main/detail/EMPING%2BJAGUNG"
+    }
+  ],
   "actions": [
+    {
+      "key": "whatsapp",
+      "label": "WhatsApp Lika Snack",
+      "url": "https://wa.me/6282210889077"
+    },
+    {
+      "key": "instagram",
+      "label": "Instagram · @likasnack.id",
+      "url": "https://www.instagram.com/likasnack.id/"
+    },
+    {
+      "key": "maps",
+      "label": "Google Maps · Location 1",
+      "url": "https://maps.app.goo.gl/UVLpADewTTFCSyELA"
+    },
+    {
+      "key": "maps",
+      "label": "Google Maps · Location 2",
+      "url": "https://maps.app.goo.gl/gvrePUrXNPe1PXJ26"
+    },
     {
       "key": "website",
       "label": "Public UMKM record · Lika Snack",
@@ -62,8 +97,8 @@
   ],
   "verification": {
     "status": "public-source-checked",
-    "checkedAt": "2026-10-13",
-    "note": "Claims on this profile were rechecked against public sources on 2026-10-13; unsupported claims and guessed links are intentionally omitted.",
+    "checkedAt": "2026-10-17",
+    "note": "Instagram dan dua tautan Maps berasal dari handover proyek 17 Oktober 2026. Alamat, nomor kontak, identitas Poniyem, dan lini produk dicocokkan dengan sumber publik. Visual gallery diberi label category reference karena bukan foto resmi Lika Snack.",
     "sources": [
       {
         "label": "Kemendagri-hosted UMKM record",
@@ -71,13 +106,18 @@
       },
       {
         "label": "Pamulang halal-assistance study",
-        "url": "https://www.researchgate.net/publication/390338972_Optimalisasi_Pendampingan_Sertifikasi_Halal_bagi_UMKM_Pamulang_Strategi_Meningkatkan_Daya_Saing_Global"
+        "url": "https://jurnal.unigal.ac.id/index.php/abdimasgaluh/article/download/17992/9458"
+      },
+      {
+        "label": "IDN Times Banten · Lika Snack profile context",
+        "url": "https://banten.idntimes.com/news/banten/umkm-di-tangsel-tumbuh-pesat-ada-140-ribu-usai-pandemik-00-fx5pg-pnttt5/amp"
       }
     ]
   },
   "performance": {
-    "optimizedAt": "2026-10-13",
-    "heroFormat": "svg"
+    "optimizedAt": "2026-10-17",
+    "heroFormat": "svg",
+    "galleryStrategy": "local editorial fallback + one lazy external category-reference image"
   },
   "favicon": "/brand/tei-batch/lika-snack.svg"
 }
