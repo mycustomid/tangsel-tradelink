@@ -5,6 +5,8 @@
   "heroImage": "/brand/elleta/elleta-hero.png",
   "logo": "/brand/elleta/elleta-logo.png",
   "favicon": "/brand/elleta/elleta-icon.png",
+  "titleAsLogo": true,
+  "titleLogo": "/brand/elleta/elleta-logo.png",
   "heroFit": "cover",
   "visualMode": "fashion",
   "palette": {
