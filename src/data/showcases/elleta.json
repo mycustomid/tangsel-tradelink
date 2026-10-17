@@ -1,10 +1,10 @@
 {
-  "brandLabel": "ELLETA",
-  "tagline": "Koleksi Wastra Nusantara, Batik Tulis & Tenun Modern Bergaya Kontemporer.",
-  "eyebrow": "Heritage Textile & Modern Batik · Tangsel",
+  "brandLabel": "Elleta",
+  "tagline": "Koleksi Wastra Nusantara: Pakaian Pria, Pakaian Wanita & Aksesoris Bergaya Kontemporer.",
+  "eyebrow": "Kategori: Pakaian Pria · Pakaian Wanita · Aksesoris",
   "heroImage": "/brand/elleta/elleta-hero.png",
   "logo": "/brand/elleta/elleta-logo.png",
-  "favicon": "/brand/elleta/elleta-logo.png",
+  "favicon": "/brand/elleta/elleta-icon.png",
   "heroFit": "cover",
   "visualMode": "fashion",
   "palette": {
@@ -15,61 +15,99 @@
   },
   "story": {
     "title": "Elegansi Wastra Nusantara Berkualitas Kurasi Ekspor oleh Joanita Kusumawati.",
-    "body": "ELLETA menghadirkan perpaduan keanggunan motif batik tradisional dan kain tenun nusantara dalam balutan desain busana kontemporer yang elegan. Dikelola oleh desainer Joanita Kusumawati di Tangerang Selatan, ELLETA memadukan seni wastra otentik dengan siluet modern untuk kebutuhan butik, busana formal, dan pameran dagang internasional."
+    "body": "Elleta menghadirkan perpaduan keanggunan motif batik tradisional dan kain tenun nusantara dalam balutan busana kontemporer yang elegan. Dikelola oleh desainer Joanita Kusumawati di Tangerang Selatan, Elleta memadukan seni wastra otentik dengan siluet modern untuk 3 kategori utama: Pakaian Pria, Pakaian Wanita, dan Aksesoris bernilai seni tinggi."
   },
   "stats": [
     {
-      "value": "Wastra Modern",
-      "label": "Batik Tulis, Tenun & Busana Kontemporer Elegan"
+      "value": "Pakaian Pria",
+      "label": "Kemeja Tenun & Batik Tulis Formal Pria"
     },
     {
-      "value": "Tangsel",
-      "label": "Studio Desain & Butik di Tangerang Selatan"
+      "value": "Pakaian Wanita",
+      "label": "Blus, Dress & Outer Tenun Modern Wanita"
+    },
+    {
+      "value": "Aksesoris",
+      "label": "Syal, Scarf & Aksesoris Wastra Nusantara"
     },
     {
       "value": "Joanita K.",
-      "label": "Desainer & Pendiri Brand ELLETA"
-    },
-    {
-      "value": "TEI 2026",
-      "label": "Peserta Binaan Resmi Disperindag Tangsel"
+      "label": "Desainer & Pendiri Brand Elleta"
     }
   ],
   "highlights": [
     {
-      "title": "Busana Tenun & Batik Eksklusif",
-      "body": "Koleksi busana siap pakai (ready-to-wear) bermaterial wastra asli pilihan dengan jahitan butik presisi."
+      "title": "Kategori: Pakaian Pria",
+      "body": "Rancangan kemeja batik tulis dan baju tenun eksklusif dengan siluet maskulin presisi untuk acara formal, jamuan bisnis, dan pertemuan resmi."
     },
     {
-      "title": "Desain Kontemporer Fleksibel",
-      "body": "Potongan busana yang anggun dan nyaman untuk acara resmi kenegaraan, resepsi, maupun pertemuan bisnis."
+      "title": "Kategori: Pakaian Wanita",
+      "body": "Koleksi blus tenun kontemporer, dress batik modern, dan blazer anggun dengan sentuhan wastra nusantara dan jahitan butik berkualitas tinggi."
+    },
+    {
+      "title": "Kategori: Aksesoris",
+      "body": "Pilihan syal batik unisex, scarf tenun tradisional, dan aksesoris etnik berkarakter nusantara pelengkap gaya busana berkelas."
     },
     {
       "title": "Layanan Custom & Kurasi Buyer",
-      "body": "Menerima pesanan rancangan kustom untuk seragam korporat, hampers eksklusif, dan buyers internasional."
-    },
-    {
-      "title": "Aksesoris Syal & Wastra Nusantara",
-      "body": "Pilihan syal batik unisex panjang dan aksesoris bandana pelengkap penampilan modis berkarakter khas Indonesia."
+      "body": "Menerima pesanan rancangan kustom untuk pakaian pria, pakaian wanita, seragam korporat, hampers eksklusif, dan buyers internasional."
     }
   ],
   "commercialBlocks": [
     {
-      "title": "Lini Koleksi Busana",
-      "badge": "Handmade Wastra",
-      "note": "Konsultasi busana dan pemesanan katalog via admin WhatsApp.",
+      "title": "Kategori: Pakaian Pria",
+      "badge": "Men's Collection",
+      "note": "Pemesanan kemeja formal, kemeja tenun, dan fitting ukuran via WhatsApp.",
       "items": [
         {
-          "label": "Modern Tenun Blazer & Outer",
+          "label": "Kemeja Tenun Kontemporer Pria",
           "value": "Exclusive"
         },
         {
-          "label": "Batik Dress & Formal Tops",
+          "label": "Kemeja Batik Tulis Sutra / Katun Primissima",
+          "value": "Ready & PO"
+        },
+        {
+          "label": "Outer & Rompi Tenun Pria Etnik",
+          "value": "Limited Series"
+        }
+      ]
+    },
+    {
+      "title": "Kategori: Pakaian Wanita",
+      "badge": "Women's Collection",
+      "note": "Konsultasi model, ukuran, dan busana ready-to-wear via WhatsApp.",
+      "items": [
+        {
+          "label": "Blus & Atasan Tenun Lurik Modern",
+          "value": "Best Seller"
+        },
+        {
+          "label": "Dress & Gaun Batik Pesta Kontemporer",
           "value": "Ready Stock"
         },
         {
-          "label": "Custom Made by Designer",
-          "value": "By Appointment"
+          "label": "Outerwear, Rompi & Blazer Tenun Butik",
+          "value": "Eksklusif"
+        }
+      ]
+    },
+    {
+      "title": "Kategori: Aksesoris",
+      "badge": "Accessories",
+      "note": "Aksesoris pelengkap busana pria dan wanita berbahan wastra nusantara asli.",
+      "items": [
+        {
+          "label": "Syal & Scarf Batik Unisex",
+          "value": "Ready Stock"
+        },
+        {
+          "label": "Selendang Tenun Tradisional Asli",
+          "value": "Handmade"
+        },
+        {
+          "label": "Bandana & Aksesoris Etnik Nusantara",
+          "value": "Available"
         }
       ]
     }
@@ -82,24 +120,24 @@
     },
     {
       "image": "/brand/elleta/elleta-asset-1.png",
-      "label": "Atasan Tenun Lurik & Wastra Modern",
+      "label": "Pakaian Wanita · Atasan Tenun Lurik Modern",
       "caption": "Blus atasan tenun lurik kontemporer dengan siluet elegan dan aksen tali pinggang bergaya modern."
     },
     {
       "image": "/brand/elleta/elleta-asset-3.jpg",
-      "label": "Dedikasi Wastra Nusantara ELLETA",
+      "label": "Dedikasi Wastra Nusantara Elleta",
       "caption": "Harmoni proses tenun tangan tradisional nusantara dan busana kontemporer karya desainer Joanita Kusumawati."
     }
   ],
   "actions": [
     {
-      "key": "website",
-      "label": "Official Website · elleta.id",
-      "url": "https://elleta.id/"
+      "key": "maps",
+      "label": "Google Review & Maps · Ulasan Resmi Elleta",
+      "url": "https://share.google/EsjShAAf7wdLIb8f0"
     },
     {
       "key": "whatsapp",
-      "label": "WhatsApp Owner · 0813-8900-8035",
+      "label": "WhatsApp Owner · 0813-8900-8035 (Bu Joanita)",
       "url": "https://wa.me/6281389008035"
     },
     {
@@ -111,20 +149,34 @@
       "key": "instagram",
       "label": "Instagram Butik · @elleta.butik",
       "url": "https://www.instagram.com/elleta.butik"
+    },
+    {
+      "key": "facebook",
+      "label": "Facebook Resmi · Elleta ID",
+      "url": "https://www.facebook.com/share/19fsCSCgHh/"
+    },
+    {
+      "key": "website",
+      "label": "Official Website · elleta.id",
+      "url": "https://elleta.id/"
     }
   ],
   "verification": {
     "status": "verified-authoritative",
-    "checkedAt": "2026-10-13",
-    "note": "Kanal resmi Instagram dan kontak langsung owner (Bu Joanita) divalidasi silang via Disperindag Tangsel dan WhatsApp Gateway.",
+    "checkedAt": "2026-10-17",
+    "note": "Kanal resmi Instagram, Facebook, Google Review bisnis, dan kontak langsung owner (Bu Joanita) divalidasi langsung via WhatsApp.",
     "sources": [
       {
-        "label": "Disperindag Tangsel Handover",
-        "url": "https://wa.me/6281296361446"
+        "label": "Google Review Bisnis Resmi Elleta",
+        "url": "https://share.google/EsjShAAf7wdLIb8f0"
       },
       {
-        "label": "Official Instagram ELLETA",
+        "label": "Official Instagram Elleta",
         "url": "https://www.instagram.com/elleta.official"
+      },
+      {
+        "label": "Official Facebook Elleta ID",
+        "url": "https://www.facebook.com/share/19fsCSCgHh/"
       }
     ]
   }
