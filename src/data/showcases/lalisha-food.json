@@ -21,7 +21,7 @@
   },
   "story": {
     "title": "Instant seblak in Original Kencur and Keju Creamy variants, built for retail and export-market conversations.",
-    "body": "Lalisha Food menghadirkan inovasi Seblak Instan khas nusantara dari Setu, Tangerang Selatan. Tersedia dalam varian Original Kencur beraroma rempah otentik dan Keju Creamy yang gurih lezat, cukup diseduh air panas dan siap dinikmati kapan saja. Bersertifikasi resmi P-IRT dan Halal dengan kapasitas produksi hingga 10.000 bungkus per bulan untuk mitra ritel dan ekspor."
+    "body": "Lalisha Food menghadirkan inovasi Seblak Instan khas nusantara dari Setu, Tangerang Selatan. Tersedia dalam varian Original Kencur beraroma rempah otentik dan Keju Creamy yang gurih lezat, cukup diseduh air panas dan siap dinikmati kapan saja. Bersertifikasi resmi NIB, Halal, P-IRT, dan HAKI dengan kapasitas produksi hingga 10.000 bungkus per bulan. Melayani pesanan satuan, reseller, distributor, hingga kemitraan ritel dan ekspor."
   },
   "stats": [
     {
@@ -29,16 +29,16 @@
       "label": "Kapasitas Produksi Bulanan (Packs)"
     },
     {
-      "value": "100 packs",
-      "label": "Minimum Pemesanan (MOQ)"
+      "value": "Fleksibel",
+      "label": "Melayani Satuan, Reseller & Distributor"
     },
     {
       "value": "2",
       "label": "Varian Utama: Original Kencur & Keju Creamy"
     },
     {
-      "value": "Halal / P-IRT",
-      "label": "Sertifikasi Resmi Terdaftar"
+      "value": "NIB / Halal",
+      "label": "P-IRT & HAKI Resmi Terdaftar"
     }
   ],
   "highlights": [
@@ -55,8 +55,8 @@
       "body": "Penyajian praktis cukup diseduh air mendidih sekitar 3 menit, langsung siap dinikmati."
     },
     {
-      "title": "Retail expansion",
-      "body": "Jangkauan distribusi mencakup K3Mart, Gerai Lengkong, dan jaringan mitra resmi."
+      "title": "Jaringan Ritel",
+      "body": "Telah tersedia di K3MART (Gading Serpong & Summarecon Bekasi), Amanda Brownies Bogor Timur, Bakery Ika Cakes, dan Gerai Lengkong."
     }
   ],
   "commercialBlocks": [],
@@ -90,7 +90,7 @@
     {
       "key": "maps",
       "label": "Google Maps · Lalisha Food Setu",
-      "url": "https://maps.google.com/?q=Seblak+Instan+Lalisha+Food+Setu+Tangerang+Selatan"
+      "url": "https://maps.app.goo.gl/rKsnSaMTCce35ZVh9?g_st=iw"
     },
     {
       "key": "instagram",
