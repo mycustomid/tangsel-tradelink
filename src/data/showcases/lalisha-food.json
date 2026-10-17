@@ -1,9 +1,17 @@
 {
   "brandLabel": "LALISHA FOOD",
+  "titleAsLogo": true,
+  "titleLogo": "/brand/lalisha-food/lalisha-logo.png",
+  "logo": "/brand/lalisha-food/lalisha-logo.png",
+  "favicon": "/brand/lalisha-food/lalisha-favicon.png",
   "tagline": "Instant seblak in Original Kencur and Keju Creamy variants, built for retail and export-market conversations.",
   "eyebrow": "Food / Pantry · Tangerang Selatan",
   "heroImage": "/brand/lalisha-food/seblak-instan-lalisha-hero.webp",
-  "heroFit": "cover",
+  "heroFit": "contain",
+  "heroAspectRatio": "1/1",
+  "heroAspectRatioMobile": "1/1",
+  "galleryFit": "contain",
+  "galleryAspectRatio": "1/1",
   "visualMode": "food",
   "palette": {
     "bg": "#faf3e9",
@@ -18,37 +26,37 @@
   "stats": [
     {
       "value": "10,000",
-      "label": "packs/month capacity on InaExport"
+      "label": "Kapasitas Produksi Bulanan (Packs)"
     },
     {
       "value": "100 packs",
-      "label": "minimum order on InaExport"
+      "label": "Minimum Pemesanan (MOQ)"
     },
     {
       "value": "2",
-      "label": "Original Kencur and Keju Creamy variants"
+      "label": "Varian Utama: Original Kencur & Keju Creamy"
     },
     {
       "value": "Halal / P-IRT",
-      "label": "certificates visible on InaExport"
+      "label": "Sertifikasi Resmi Terdaftar"
     }
   ],
   "highlights": [
     {
       "title": "Original Kencur",
-      "body": "Classic spicy-savoury seblak profile."
+      "body": "Profil pedas gurih klasik dengan aroma kencur dan rempah nusantara otentik."
     },
     {
       "title": "Keju Creamy",
-      "body": "Creamier variant for a broader retail audience."
+      "body": "Varian creamy gurih keju berpadu cabai daun jeruk untuk jangkauan pasar ritel lebih luas."
     },
     {
       "title": "3-minute prep",
-      "body": "InaExport describes preparation with hot water in about three minutes."
+      "body": "Penyajian praktis cukup diseduh air mendidih sekitar 3 menit, langsung siap dinikmati."
     },
     {
       "title": "Retail expansion",
-      "body": "Public reporting mentions K3Mart, Gerai Lengkong and online channels."
+      "body": "Jangkauan distribusi mencakup K3Mart, Gerai Lengkong, dan jaringan mitra resmi."
     }
   ],
   "commercialBlocks": [],
@@ -56,12 +64,16 @@
     {
       "image": "/brand/lalisha-food/seblak-instan-original-kencur.webp",
       "label": "Seblak Instan Original Kencur",
-      "caption": "Seblak khas nusantara beraroma rempah kencur otentik dengan isian lengkap mie, cuanki tahu, endog lewo, dan pilus cikur."
+      "caption": "Seblak khas nusantara beraroma rempah kencur otentik dengan isian lengkap mie, cuanki tahu, endog lewo, dan pilus cikur.",
+      "fit": "contain",
+      "aspectRatio": "1/2"
     },
     {
       "image": "/brand/lalisha-food/seblak-instan-keju-creamy.webp",
       "label": "Seblak Instan Keju Creamy",
-      "caption": "Sensasi rasa keju yang gurih creamy berpadu pas dengan bumbu rempah pedas dan cabai daun jeruk khas Lalisha Food."
+      "caption": "Sensasi rasa keju yang gurih creamy berpadu pas dengan bumbu rempah pedas dan cabai daun jeruk khas Lalisha Food.",
+      "fit": "contain",
+      "aspectRatio": "1/2"
     }
   ],
   "actions": [
@@ -78,7 +90,7 @@
     {
       "key": "maps",
       "label": "Google Maps · Lalisha Food Setu",
-      "url": "https://www.google.com/maps/search/?api=1&query=Seblak+Instan+Lalisha+Food+Setu+Tangerang+Selatan"
+      "url": "https://maps.google.com/?q=Seblak+Instan+Lalisha+Food+Setu+Tangerang+Selatan"
     },
     {
       "key": "instagram",
@@ -92,24 +104,15 @@
     },
     {
       "key": "website",
-      "label": "InaExport · Lalisha Food",
-      "url": "https://inaexport.id/produk/snack-food/40774/seblak-instan-original-dan-keju"
-    },
-    {
-      "key": "website",
       "label": "Rumah Kurasi · Lalisha Food",
       "url": "https://kurasi.tangerangselatankota.go.id/produk/398"
     }
   ],
   "verification": {
     "status": "public-source-checked",
-    "checkedAt": "2026-10-13",
-    "note": "Claims on this profile were rechecked against public sources on 2026-10-13; unsupported claims and guessed links are intentionally omitted.",
+    "checkedAt": "2026-10-17",
+    "note": "Profil diverifikasi langsung dengan Haris (Founder) dan katalog resmi Lalisha Food; data InaExport ditiadakan sesuai pembaruan brand.",
     "sources": [
-      {
-        "label": "InaExport · Lalisha Food",
-        "url": "https://inaexport.id/produk/snack-food/40774/seblak-instan-original-dan-keju"
-      },
       {
         "label": "Rumah Kurasi · Lalisha Food",
         "url": "https://kurasi.tangerangselatankota.go.id/produk/398"
@@ -121,8 +124,8 @@
     ]
   },
   "performance": {
-    "optimizedAt": "2026-10-13",
+    "optimizedAt": "2026-10-17",
     "heroFormat": "webp"
   },
-  "favicon": "/brand/tei-batch/lalisha-food.svg"
+  "favicon": "/brand/lalisha-food/lalisha-favicon.png"
 }

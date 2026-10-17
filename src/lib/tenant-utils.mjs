@@ -55,7 +55,7 @@ function mapsUrl(tenant = {}) {
   if (explicit) return explicit;
   const query = String(tenant.address || tenant.name || '').trim();
   if (!query) return '';
-  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
+  return `https://www.google.com/maps?q=${encodeURIComponent(query)}`;
 }
 
 function emailUrl(value) {
