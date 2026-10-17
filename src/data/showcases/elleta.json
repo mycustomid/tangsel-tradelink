@@ -7,6 +7,7 @@
   "favicon": "/brand/elleta/elleta-icon.png",
   "titleAsLogo": true,
   "titleLogo": "/brand/elleta/elleta-logo.png",
+  "galleryLimit": 9,
   "heroFit": "cover",
   "visualMode": "fashion",
   "palette": {
@@ -116,19 +117,49 @@
   ],
   "gallery": [
     {
-      "image": "/brand/elleta/elleta-asset-2.jpg",
-      "label": "Pengrajin Tenun Tradisional Baduy",
-      "caption": "Artisan penenun tradisional Baduy sedang menenun kain wastra menggunakan alat tenun tradisional di rumah panggung adat."
+      "image": "/brand/elleta/pria-kemeja-tenun.webp",
+      "label": "Pakaian Pria · Kemeja Tenun Kontemporer",
+      "caption": "Kemeja tenun ikat pria berlengan pendek dengan perpaduan warna marun-abu elegan untuk acara formal dan kasual bisnis."
     },
     {
-      "image": "/brand/elleta/elleta-asset-1.png",
+      "image": "/brand/elleta/wanita-outer-tenun.webp",
+      "label": "Pakaian Wanita · Outer Tenun Sutra Modern",
+      "caption": "Busana atasan outer tenun wanita berwarna kuning cerah kontemporer dengan piping hijau dan siluet modern yang anggun."
+    },
+    {
+      "image": "/brand/elleta/aksesoris-koleksi.webp",
+      "label": "Aksesoris · Syal Batik Sutra Pria & Formal",
+      "caption": "Syal batik sutra pria eksklusif pelengkap setelan jas formal untuk pertemuan bisnis, resepsi, dan jamuan delegasi internasional."
+    },
+    {
+      "image": "/brand/elleta/pria-kemeja-batik.webp",
+      "label": "Pakaian Pria · Kemeja Batik Tulis Sutra",
+      "caption": "Kemeja batik tulis pria berkarakter maskulin anggun dengan motif khas nusantara dan jahitan butik presisi."
+    },
+    {
+      "image": "/brand/elleta/wanita-blus-lurik.webp",
       "label": "Pakaian Wanita · Atasan Tenun Lurik Modern",
-      "caption": "Blus atasan tenun lurik kontemporer dengan siluet elegan dan aksen tali pinggang bergaya modern."
+      "caption": "Blus atasan tenun lurik kontemporer dengan aksen tali pinggang feminin dan potongan kerah V bergaya chic."
     },
     {
-      "image": "/brand/elleta/elleta-asset-3.jpg",
-      "label": "Dedikasi Wastra Nusantara Elleta",
-      "caption": "Harmoni proses tenun tangan tradisional nusantara dan busana kontemporer karya desainer Joanita Kusumawati."
+      "image": "/brand/elleta/aksesoris-bandana-wastra.webp",
+      "label": "Aksesoris · Bandana & Scarf Etnik Nusantara",
+      "caption": "Koleksi bandana, scarf, dan ikat rambut berbahan kain wastra perca pilihan yang ramah lingkungan dan modis."
+    },
+    {
+      "image": "/brand/elleta/wanita-vest-tenun.webp",
+      "label": "Pakaian Wanita · Vest & Rompi Tenun Modern",
+      "caption": "Rompi tenun modern pelengkap busana formal wanita yang stylish, praktis, dan memancarkan wibawa profesional."
+    },
+    {
+      "image": "/brand/elleta/pria-outer-unisex.webp",
+      "label": "Pakaian Pria & Unisex · Outer Tenun Etnik",
+      "caption": "Outerwear tenun kasual formal bergaya unisex kontemporer rancangan eksklusif desainer Joanita Kusumawati."
+    },
+    {
+      "image": "/brand/elleta/wanita-dress-kontemporer.webp",
+      "label": "Joanita Kusumawati · Desainer & Pendiri Elleta",
+      "caption": "Desainer Joanita Kusumawati, sosok di balik kreasi wastra nusantara modern Elleta yang siap mendunia di TEI 2026."
     }
   ],
   "actions": [
