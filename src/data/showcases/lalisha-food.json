@@ -7,7 +7,7 @@
   "tagline": "Seblak instan khas nusantara dalam varian Original Kencur & Keju Creamy, hadir di jaringan ritel K3MART, Amanda Brownies, dan siap untuk ekspansi ekspor.",
   "eyebrow": "Food & Pantry · Tangerang Selatan",
   "heroImage": "/brand/lalisha-food/seblak-instan-lalisha-hero-grid4.webp",
-  "heroFit": "contain",
+  "heroFit": "cover",
   "heroAspectRatio": "1/1",
   "heroAspectRatioMobile": "1/1",
   "galleryFit": "contain",
@@ -142,11 +142,11 @@
       "aspectRatio": "1/1"
     },
     {
-      "image": "/brand/lalisha-food/grid-keju-cup.webp",
-      "label": "Seblak Instan Varian Keju",
-      "caption": "Varian favorit Keju Creamy pedas gurih asoyyy netto 105g.",
+      "image": "/brand/lalisha-food/seblak-instan-duo-varian-keju-original.webp",
+      "label": "Seblak Instan Duo Varian (Keju Creamy & Original Kencur)",
+      "caption": "Seblak Instan Keju Creamy (Full Pouch) — Sensasi rasa keju yang gurih creamy berpadu pas dengan bumbu rempah pedas dan cabai daun jeruk khas Lalisha Food. Seblak Instan Original Kencur (Full Pouch) — Isian lengkap mie, cuanki tahu, endog lewo, dan pilus cikur dengan bumbu kencur otentik.",
       "fit": "contain",
-      "aspectRatio": "3/4"
+      "aspectRatio": "3/2"
     },
     {
       "image": "/brand/lalisha-food/outlet-k3mart-summarecon-bekasi.webp",
@@ -203,20 +203,6 @@
       "caption": "Hasil pengujian parameter pangan laboratorium terakreditasi untuk jaminan mutu dan keamanan nutrisi konsumsi.",
       "fit": "contain",
       "aspectRatio": "3/5"
-    },
-    {
-      "image": "/brand/lalisha-food/varian-original-kencur-pouch.webp",
-      "label": "Seblak Instan Original Kencur",
-      "caption": "Kemasan pouch higienis varian Original Kencur dengan bumbu rempah pilihan khas nusantara.",
-      "fit": "contain",
-      "aspectRatio": "3/4"
-    },
-    {
-      "image": "/brand/lalisha-food/varian-keju-creamy-pouch.webp",
-      "label": "Seblak Instan Keju Creamy",
-      "caption": "Kemasan pouch higienis varian Keju Creamy berpadu gurih keju dan sensasi cabai daun jeruk.",
-      "fit": "contain",
-      "aspectRatio": "3/4"
     },
     {
       "image": "/brand/lalisha-food/kemasan-siap-seduh-lalisha.webp",
