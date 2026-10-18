@@ -10,11 +10,13 @@ const tenant = {
   description:'Date-based drinks including susu kurma and lemon kurma — Zahhab Healthy Drink.',
   theme:'food', website:'https://www.instagram.com/zahhab_head', instagram:'https://www.instagram.com/zahhab_head',
   tiktok:'https://www.tiktok.com/@Zahhab20', youtube:'https://www.youtube.com/@zahhab2020',
-  researchStatus:'public-source-checked', verifiedAt:'2026-10-13'
+  facebook:'https://www.facebook.com/search/top?q=Zahhab%20Head',
+  shopee:'https://shopee.co.id/search?keyword=Zahhab%20Official',
+  researchStatus:'public-source-checked', verifiedAt:'2026-10-18'
 };
 const structuredData = {
   '@context':'https://schema.org','@type':'Organization',name:tenant.name,
-  sameAs:[tenant.instagram,tenant.tiktok,tenant.youtube]
+  sameAs:[tenant.instagram,tenant.tiktok,tenant.youtube,tenant.facebook,tenant.shopee]
 };
 ---
 <BaseLayout favicon={resolveTenantFavicon(tenant, config)} title="Zahhab Healthy Drink — Tangsel TradeLink" description={tenant.description} theme="food"

@@ -103,9 +103,39 @@
       "url": "https://wa.me/6281298567832"
     },
     {
+      "key": "whatsapp",
+      "label": "WhatsApp Kontak · 0813-8751-7575",
+      "url": "https://wa.me/6281387517575"
+    },
+    {
       "key": "instagram",
       "label": "Instagram · @zahhab_head",
       "url": "https://www.instagram.com/zahhab_head"
+    },
+    {
+      "key": "shopee",
+      "label": "Shopee Official · Zahhab Official",
+      "url": "https://shopee.co.id/search?keyword=Zahhab%20Official"
+    },
+    {
+      "key": "tiktok",
+      "label": "TikTok · @Zahhab20",
+      "url": "https://www.tiktok.com/@Zahhab20"
+    },
+    {
+      "key": "youtube",
+      "label": "YouTube · @zahhab2020",
+      "url": "https://www.youtube.com/@zahhab2020"
+    },
+    {
+      "key": "facebook",
+      "label": "Facebook · Zahhab Head",
+      "url": "https://www.facebook.com/search/top?q=Zahhab%20Head"
+    },
+    {
+      "key": "website",
+      "label": "Snack Video · Zahhab Head",
+      "url": "https://s.snackvideo.com/search?keyword=Zahhab%20Head"
     },
     {
       "key": "maps",
