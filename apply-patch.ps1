@@ -1,6 +1,6 @@
 param([string]$Target = ".")
 $PatchDir = Split-Path -Parent $MyInvocation.MyCommand.Path
-$Items = @('.github','.nvmrc','docs','package.json','public','src','tests')
+$Items = @('.github','.nvmrc','package.json','public','scripts','src','tests')
 foreach ($Item in $Items) {
   $Source = Join-Path $PatchDir $Item
   if (Test-Path $Source) { Copy-Item $Source -Destination $Target -Recurse -Force }

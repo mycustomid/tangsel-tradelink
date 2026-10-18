@@ -16,7 +16,7 @@ const dedicatedSlugs = [
   'the-munching-queen','titik-kurniasih','tokibi-coffee','vietrade','zahhab','zyvas'
 ];
 
-test('SmartNfcShowcase consumes the same multi-axis art-direction system as the 97-tenant adaptive renderer', async () => {
+test('SmartNfcShowcase consumes the same multi-axis art-direction system as the published-tenant adaptive renderer', async () => {
   const component = await read('src/components/SmartNfcShowcase.astro');
   assert.match(component, /getTenantArtDirectionForAnySlug/);
   for (const attr of ['data-archetype','data-layout','data-hero','data-type','data-surface','data-motion','data-media']) {

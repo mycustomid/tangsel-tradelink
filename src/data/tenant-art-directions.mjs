@@ -1,4 +1,4 @@
-// 97-tenant art-direction registry. Every slug receives an explicit key and a multi-axis fingerprint.
+// Published-tenant art-direction registry. Every locked slug receives an explicit multi-axis fingerprint.
 const GROUPS = {
   "provisions": new Set(["adlaera-botanica-indonesia-pt", "agrofarm-nusa-raya-pt", "aneka-kakao-pt", "arenga-alam-sejahtera", "arga-bumi-indonesia-pt", "candra", "cipta-abadi", "coco-reina-global-charcoal-pt", "corina-sutera-intan-pt", "ferrotek-trading-indonesia-pt", "golden-coffee-bean-pt", "klumbayan-gold-farm-pt", "makmur-emas-aren-pt", "merporizad-berkah-abadi-cv", "nusantara-primer-niaga", "pratama-spices-indonesia-pt", "prendjak", "samudra-international-commerce-pt", "star-laboratories-ud", "superdryers", "tenggara-jaya-kibar-pt"]),
   "atelier": new Set(["ageman-ecoprint", "asephi", "dispar-prov-banten", "dkait-craft", "ilalang-craft", "li-uli", "owi-rajut"]),
@@ -64,7 +64,7 @@ function familyFor(slug) {
   return 'editorial';
 }
 function build(slug) {
-  const special = SPECIAL[slug];
+  const special = SPECIAL[slug] || EXTRA_SPECIAL[slug];
   const archetype = special?.archetype || familyFor(slug);
   const family = FAMILY[familyFor(slug)] || FAMILY.editorial;
   return Object.freeze({
@@ -79,7 +79,7 @@ function build(slug) {
   });
 }
 
-const SLUGS = [...new Set(Object.values(GROUPS).flatMap((set) => [...set]).concat(Object.keys(SPECIAL)))];
+const SLUGS = ["adlaera-botanica-indonesia-pt", "ageman-ecoprint", "agrofarm-nusa-raya-pt", "amood-healthy-foods", "aneka-kakao-pt", "anindya-wiraputra-konsult-pt", "aranomiya", "arenga-alam-sejahtera", "arga-bumi-indonesia-pt", "arjuna-68", "aroma-prima-livindo-pt-morris-perfume", "asephi", "banana-paper", "batinos-pastry", "blotani", "bopet-pagaruyung", "bp-batam", "bp-tanjung-pinang", "bumina-eenk", "buminaeenk-freeze-dried", "campus-preneur", "candra", "chakra-naga-furniture-pt", "cipta-abadi", "cipta-orion-metal-pt", "clean-matic", "cma-cgm", "cmn-internasional-indonesia-pt", "coco-reina-global-charcoal-pt", "coco-riki-international-pt", "corina-sutera-intan-pt", "cuan-dong", "cv-makmur-jaya-sentosa", "daniscakelicio", "dapur-nanay", "datik-batik", "dbumbu-aurelshop", "deka-sari-perkasa-pt", "den-bagus", "dinas-ppkukm-prov-dki-jakarta", "disdagin-kota-bandung", "dispar-prov-banten", "disperindag-provinsi-jateng", "disperindag-provinsi-jatim", "dkait-craft", "dkpbpb-bintan-karimun", "dodol-betawi-haji-imang", "dpd-himki-jabodetabek", "dragon-prima-farma", "easylink", "elleta", "eni-chandra", "ery-mamaw", "euis-siti-khodijah", "evange-line", "fabulous-agro-mandiri-pt", "fenda-iriani", "fennycroche", "ferrotek-trading-indonesia-pt", "fevy", "giga-tech", "golden-coffee-bean-pt", "green-riverina", "gs1-indonesia", "haira", "health-today", "hhb", "himki", "hipbaki", "home-fashions-indonesia-cv-sae-home", "homeliving-by-exoticawood-furniture", "ilalang-craft", "indo-living-utama-cv", "jahe-hayatiqu", "javanesia-teakindo-cv", "kalika-indonesia", "kartika-bela", "kawasan-berikat-nusantara", "kawasan-industri-gresik-pt", "kemen-ekraf", "kemen-investasi-dan-hilirisasi-bkpm", "kenyess-food", "klumbayan-gold-farm-pt", "kule-perfume", "kusuma-kencana-mulya", "ladifa-collection", "lalisha-food", "larrisa-food", "li-uli", "lika-snack", "mahata-gangga-sukta", "makmur-emas-aren-pt", "mandiri", "mba-wanti", "md-organic", "meraki", "merpati-mahardika-pt", "merporizad-berkah-abadi-cv", "my-aicustom", "ninauka", "nuansa-kayu-bekas-cv", "nurazlinda", "nusantara-primer-niaga", "ochokat", "oto-adult-diapers", "our-herb", "owi-rajut", "patimban-industrial-estate", "peddler-indonesia", "pelindo", "pemkab-gianyar", "pemkab-lombok-barat", "pemkab-serang", "pemkab-tuban", "pemkot-tangerang", "pemkot-tangsel", "pempek-wak-ebot", "pratama-spices-indonesia-pt", "prendjak", "primaniyarta", "pt-cosmar", "pt-niaga-citra-mandiri", "pt-pertamina-persero", "raja-freeze-dried", "rhr-snack", "roemah-koffie", "rosniati", "rumah-batik-setu", "samara-from-home", "samudra-international-commerce-pt", "sanfood-internasional", "sapa-legend-coffee", "sepatu-wanita-naa", "shayfara", "shirudo-lab", "sinar-continental-pt", "sinar-mas-land", "snack-santuy", "snapclean", "star-laboratories-ud", "superdryers", "tamanu-indonesia-gemilang-pt", "tatalogam-lestari-pt", "tempe-azaki", "tenggara-jaya-kibar-pt", "the-munching-queen", "titik-kurniasih", "tokibi-coffee", "toyota-motor-manufacturing-indonesia-pt-tmmin", "umbra", "vietrade", "watershore-growth-advisory-pt", "zahhab", "zyvas"];
 export const TENANT_ART_DIRECTIONS = Object.fromEntries(SLUGS.map((slug) => [slug, build(slug)]));
 export function getTenantArtDirection(slug) { return TENANT_ART_DIRECTIONS[slug] || null; }
 export function getTenantArtDirectionForAnySlug(slug) {

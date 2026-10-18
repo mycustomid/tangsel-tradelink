@@ -27,6 +27,8 @@ interface Props {
 }
 
 const { tenant, links = [], logo, direction, baseUrl = '' } = Astro.props;
+const normalizedBase = String(baseUrl || '/').endsWith('/') ? String(baseUrl || '/') : `${baseUrl}/`;
+const directoryUrl = `${normalizedBase}directory/`;
 const sources = Array.isArray(tenant.sources) ? tenant.sources.filter(Boolean) : [];
 const tenantName = String(tenant.name || 'Trade Expo Indonesia exhibitor');
 const initials = tenantName.split(/\s+/).filter(Boolean).slice(0, 2).map((part: string) => part[0]).join('').toUpperCase();
@@ -112,7 +114,7 @@ const domain = (() => {
   data-name-length={nameLength}
 >
   <header class="tenant-bar">
-    <a class="directory-link" href={baseUrl || '/'} aria-label="Back to Tangsel TradeLink directory">
+    <a class="directory-link" href={directoryUrl} aria-label="Back to Tangsel TradeLink directory">
       <span aria-hidden="true">←</span>
       <strong>Tenant directory</strong>
     </a>
@@ -227,7 +229,7 @@ const domain = (() => {
 
   <footer class="tenant-footer">
     <div class="footer-mark"><span>{initials}</span><strong>{tenantName}</strong></div>
-    <div class="footer-meta"><span>{verificationLabel}</span><span>{sourceDate}</span><a href={baseUrl || '/'}>Tenant directory ↗</a></div>
+    <div class="footer-meta"><span>{verificationLabel}</span><span>{sourceDate}</span><a href={directoryUrl}>Tenant directory ↗</a></div>
   </footer>
 
   {primaryAction && (

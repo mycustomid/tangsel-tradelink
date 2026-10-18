@@ -8,10 +8,11 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "build": "npm run validate:data && astro build",
+    "build": "npm run validate:data && npm run validate:permalinks && astro build",
     "preview": "astro preview",
     "test": "node --test tests/*.test.mjs",
-    "validate:data": "node scripts/validate-tenants.mjs"
+    "validate:data": "node scripts/validate-tenants.mjs",
+    "validate:permalinks": "node scripts/validate-permalinks.mjs"
   },
   "dependencies": {
     "astro": "7.3.0"

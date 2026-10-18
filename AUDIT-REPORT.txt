@@ -1,0 +1,16 @@
+AUDIT NOTES — 2026-10-18
+
+This delivery was re-audited after the prior ZIP was challenged.
+
+Resolved defects found during the audit:
+1. Apply helper omitted scripts/ even though package.json invokes scripts/validate-permalinks.mjs. Fixed in Bash and PowerShell helpers.
+2. Permalink validation previously checked only three legacy dedicated files. It now checks every tenants-extra dedicated route, duplicate data slugs, unsafe slug characters, lock drift, and the primary dynamic route contract.
+3. Generic/SmartNFC links labelled as tenant-directory links pointed to the homepage. They now resolve to /directory/.
+4. Lika Snack explicit canonical omitted the trailing slash used by the existing NFC permalink. Fixed.
+5. Invalid ?sector= / ?hall= values could visually select All while continuing to filter against an invalid value. Fixed by normalization.
+6. Several directory interaction targets were under the intended mobile touch-target size. Hardened.
+7. GitHub Pages upload action was behind the current major version. Updated to v5.
+8. Stale 97-tenant design documents were removed from the delivered overlay to avoid misleading scope metadata.
+
+Non-change decision:
+- astro.config.mjs was intentionally not changed. The existing production is already published and NFC URLs are live; changing global trailingSlash/build behavior without a fresh full dependency-backed build would add unnecessary blast radius. The permalink lock instead protects the exact published NFC URL strings.

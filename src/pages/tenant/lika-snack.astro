@@ -36,6 +36,6 @@ const structuredData = {
 };
 ---
 <BaseLayout favicon={resolveTenantFavicon(tenant, config)} title={`${tenant.name} — Tangsel TradeLink`} description={tenant.description} theme={tenant.theme}
-  canonical={`${baseUrl}tenant/${tenant.slug}`} image={config.heroImage} structuredData={structuredData}>
+  canonical={`${baseUrl}tenant/${tenant.slug}/`} image={config.heroImage} structuredData={structuredData}>
   <SmartNfcShowcase tenant={tenant} config={config} baseUrl={baseUrl} />
 </BaseLayout>

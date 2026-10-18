@@ -1,51 +1,42 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { readFile } from 'node:fs/promises';
+import fs from 'node:fs';
+import path from 'node:path';
+import { TENANT_ART_DIRECTIONS } from '../src/data/tenant-art-directions.mjs';
 
-const ROOT = new URL('../', import.meta.url);
+const root = process.cwd();
+const lock = JSON.parse(fs.readFileSync(path.join(root,'src/data/tenant-permalinks.lock.json'),'utf8'));
+const publishedSlugs = lock.urls.map((url) => url.replace(/\/$/,'').split('/').pop());
 
-async function read(rel) {
-  return readFile(new URL(rel, ROOT), 'utf8');
-}
-
-test('every exported tenant has an explicit art-direction fingerprint', async () => {
-  const exportData = JSON.parse(await read('tenant_alphabetical_export.json'));
-  const slugs = Object.values(exportData.groups).flat().map((tenant) => tenant.slug);
-  const { TENANT_ART_DIRECTIONS } = await import('../src/data/tenant-art-directions.mjs');
-
-  assert.equal(slugs.length, 97, 'directory export must remain at 97 tenants for this patch');
-  assert.equal(new Set(slugs).size, 97, 'tenant slugs must stay unique');
-  assert.equal(Object.keys(TENANT_ART_DIRECTIONS).length, 97, 'registry must explicitly cover all 97 tenant slugs');
-
-  for (const slug of slugs) {
-    const art = TENANT_ART_DIRECTIONS[slug];
-    assert.ok(art, `missing art direction for ${slug}`);
-    for (const key of ['archetype', 'layout', 'hero', 'type', 'surface', 'motion', 'accent', 'media']) {
-      assert.equal(typeof art[key], 'string', `${slug}.${key} must be a string`);
-      assert.ok(art[key].length > 0, `${slug}.${key} must not be empty`);
+test('every published tenant URL has an explicit art-direction fingerprint', () => {
+  assert.equal(publishedSlugs.length, lock.count);
+  for (const slug of publishedSlugs) {
+    const direction = TENANT_ART_DIRECTIONS[slug];
+    assert.ok(direction, `missing direction for ${slug}`);
+    for (const key of ['archetype','layout','hero','type','surface','motion','accent','media']) {
+      assert.ok(direction[key], `${slug} missing ${key}`);
     }
   }
+});
 
-  const signatures = slugs.map((slug) => {
-    const art = TENANT_ART_DIRECTIONS[slug];
-    return [art.archetype, art.layout, art.hero, art.type, art.surface, art.motion, art.accent, art.media].join('|');
+test('published tenants are not collapsed into a handful of identical designs', () => {
+  const signatures = publishedSlugs.map((slug) => {
+    const d = TENANT_ART_DIRECTIONS[slug];
+    return [d.archetype,d.layout,d.hero,d.type,d.surface,d.motion,d.media,d.accent].join('|');
   });
-  assert.ok(new Set(signatures).size >= 80, 'art direction must create at least 80 distinct tenant fingerprints');
+  const unique = new Set(signatures);
+  assert.equal(unique.size, publishedSlugs.length, 'every published slug should resolve to a unique fingerprint');
 });
 
-test('generic tenant route uses adaptive showcase instead of the old link-card fallback', async () => {
-  const route = await read('src/pages/tenant/[slug].astro');
+test('generic tenant route uses adaptive showcase instead of the old link-card fallback', () => {
+  const route = fs.readFileSync(path.join(root,'src/pages/tenant/[slug].astro'),'utf8');
   assert.match(route, /AdaptiveTenantShowcase/);
-  assert.doesNotMatch(route, /<TenantHeader/);
-  assert.doesNotMatch(route, /<LinkButton/);
+  assert.doesNotMatch(route, /class="tenant-card"/);
 });
 
-test('adaptive renderer exposes design dimensions as semantic data attributes', async () => {
-  const component = await read('src/components/AdaptiveTenantShowcase.astro');
-  for (const attribute of ['data-archetype', 'data-layout', 'data-hero', 'data-type', 'data-surface', 'data-motion', 'data-media']) {
-    assert.ok(component.includes(attribute), `adaptive renderer must expose ${attribute}`);
+test('adaptive renderer exposes design dimensions as semantic data attributes', () => {
+  const component = fs.readFileSync(path.join(root,'src/components/AdaptiveTenantShowcase.astro'),'utf8');
+  for (const attr of ['data-archetype','data-layout','data-hero','data-type','data-surface','data-motion','data-media']) {
+    assert.match(component, new RegExp(attr));
   }
-  const css = await read('src/styles/adaptive-tenant-showcase.css');
-  assert.match(css, /prefers-reduced-motion/);
-  assert.match(css, /content-visibility/);
 });

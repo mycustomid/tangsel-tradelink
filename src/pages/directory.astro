@@ -3,772 +3,217 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import tenants from '../data/tenants.json';
 import tenantExtras from '../data/tenants-extra.json';
 import { uniqueValues } from '../lib/tenant-utils.mjs';
+import '../styles/discovery-editorial.css';
 import type { Tenant } from '../types/tenant';
 
 const rawList = [...(tenants as Tenant[]), ...(tenantExtras as Tenant[])];
-// Deduplicate by slug
-const seenSlugs = new Set();
-const tenantList = rawList.filter(t => {
-  if (!t.slug || seenSlugs.has(t.slug)) return false;
-  seenSlugs.add(t.slug);
+const seenSlugs = new Set<string>();
+const tenantList = rawList.filter((tenant) => {
+  if (!tenant.slug || seenSlugs.has(tenant.slug)) return false;
+  seenSlugs.add(tenant.slug);
   return true;
 });
-
 const categories = uniqueValues(tenantList, 'category');
 const halls = uniqueValues(tenantList, 'hall');
 const rawBaseUrl = import.meta.env.BASE_URL;
 const baseUrl = rawBaseUrl.endsWith('/') ? rawBaseUrl : `${rawBaseUrl}/`;
 
-// Helper for vibrant, cohesive avatar colors based on slug
-function getAvatarColor(slug: string) {
-  const hues = [
-    { bg: '#e0f2fe', fg: '#0369a1' }, // sky
-    { bg: '#ecfdf5', fg: '#047857' }, // emerald
-    { bg: '#fef3c7', fg: '#b45309' }, // amber
-    { bg: '#fdf2f8', fg: '#be185d' }, // pink
-    { bg: '#ede9fe', fg: '#6d28d9' }, // purple
-    { bg: '#fee2e2', fg: '#b91c1c' }, // red
-    { bg: '#f0fdf4', fg: '#15803d' }, // green
-    { bg: '#f1f5f9', fg: '#334155' }, // slate
-    { bg: '#ffedd5', fg: '#c2410c' }  // orange
-  ];
-  let hash = 0;
-  for (let i = 0; i < slug.length; i++) hash = (hash << 5) - hash + slug.charCodeAt(i);
-  const idx = Math.abs(hash) % hues.length;
-  return hues[idx];
-}
-
 function getInitials(name: string) {
-  const clean = name.replace(/^(pt\.|cv\.|ud\.)\s*/i, '').trim();
-  const words = clean.split(/\s+/);
-  if (words.length >= 2) {
-    return (words[0][0] + words[1][0]).toUpperCase();
-  }
-  return clean.slice(0, 2).toUpperCase();
+  const clean = name.replace(/^(pt\.?|cv\.?|ud\.?)\s*/i, '').trim();
+  const words = clean.split(/\s+/).filter(Boolean);
+  return (words.length > 1 ? `${words[0][0]}${words[1][0]}` : clean.slice(0,2)).toUpperCase();
 }
+const pageDescription = `Cari ${tenantList.length} profil bisnis Trade Expo Indonesia 2026 berdasarkan sektor, hall, booth, atau nama tenant.`;
 ---
 
-<BaseLayout 
-  title="Direktori 141 Tenant & Katalog Produk — Tangsel TradeLink TEI 2026" 
-  description="Cari dan hubungi 141 tenant resmi delegasi Tangerang Selatan di Trade Expo Indonesia 2026. Filter kategori F&B, Fashion, Manufaktur, Teknologi dan lokasi Hall 3A ICE BSD."
->
+<BaseLayout title={`Business Directory — ${tenantList.length} Profiles · Tangsel TradeLink`} description={pageDescription}>
   <main class="directory-page">
-    <!-- Header Nav -->
-    <header class="top-nav-bar shell">
-      <div class="nav-brand">
-        <a href={baseUrl} class="brand-link">
-          <span class="badge-dot"></span>
-          <strong>Tangsel TradeLink</strong>
-          <span class="edition-tag">TEI 2026</span>
-        </a>
-      </div>
-      <nav class="nav-links" aria-label="Navigasi Halaman">
-        <a href={baseUrl}>Beranda</a>
-        <a href={`${baseUrl}directory`} class="active" aria-current="page">Direktori Tenant</a>
-        <a href={`${baseUrl}guide`}>Panduan Hall 3A</a>
+    <header class="discovery-nav discovery-shell">
+      <a class="discovery-brand" href={baseUrl}><strong>Tangsel TradeLink</strong><span>TEI / 2026</span></a>
+      <nav aria-label="Navigasi utama">
+        <a href={baseUrl}>Overview</a>
+        <a href={`${baseUrl}directory`} aria-current="page">Directory</a>
+        <a href={`${baseUrl}guide`}>Hall guide</a>
       </nav>
     </header>
 
-    <!-- Hero Header -->
-    <section class="directory-hero shell">
-      <div class="hero-inner">
-        <div class="hero-chip">Trade Expo Indonesia · 41st Edition</div>
-        <h1>Direktori Tenant & Delegasi Bisnis</h1>
-        <p class="hero-sub">
-          Jelajahi <strong>{tenantList.length} profil bisnis dan eksportir</strong> binaan Kota Tangerang Selatan di ICE BSD City. Terhubung langsung via kanal resmi, WhatsApp, dan showcase produk.
-        </p>
+    <section class="directory-hero discovery-shell" aria-labelledby="directory-title">
+      <div>
+        <span class="directory-kicker">Business discovery / {tenantList.length} published profiles</span>
+        <h1 id="directory-title">Find the right conversation.</h1>
       </div>
+      <p class="directory-intro">Cari berdasarkan nama, produk, sektor, hall, atau booth. Setiap hasil menuju <strong>URL tenant yang tetap</strong>, sehingga NFC card, bookmark, dan link yang sudah dibagikan tidak berubah.</p>
     </section>
 
-    <!-- Interactive Sticky Search & Filter -->
-    <section class="directory-controls-wrap shell">
-      <div class="controls-card">
-        <!-- Search Input Row -->
+    <section class="directory-controls-wrap" aria-label="Pencarian dan filter tenant">
+      <div class="controls-card discovery-shell">
         <div class="search-row">
           <div class="search-input-box">
-            <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <circle cx="11" cy="11" r="8"></circle>
-              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-            </svg>
-            <input 
-              type="search" 
-              placeholder="Cari nama bisnis, produk, kategori, hall atau booth..." 
-              data-search 
-              autocomplete="off" 
-              aria-label="Cari tenant"
-            />
+            <input type="search" data-search autocomplete="off" placeholder="Search business, product, hall or booth…" aria-label="Cari tenant" />
             <button type="button" class="clear-btn" data-clear aria-label="Hapus pencarian" hidden>×</button>
           </div>
-          <div class="counter-badge" data-count aria-live="polite">
-            {tenantList.length} tenant
-          </div>
+          <div class="counter-badge" data-count aria-live="polite">{tenantList.length} profiles</div>
         </div>
-
-        <!-- Filter Chips: Kategori -->
-        <div class="filter-group">
-          <span class="filter-label">Kategori Sektor:</span>
-          <div class="chips-scroll" role="tablist" aria-label="Filter kategori">
-            <button type="button" class="chip active" data-cat-filter="" role="tab" aria-selected="true">Semua Sektor</button>
-            {categories.map((cat) => (
-              <button type="button" class="chip" data-cat-filter={cat.toLowerCase()} role="tab" aria-selected="false">
-                {cat}
-              </button>
-            ))}
+        <div class="filter-rails">
+          <div class="filter-group">
+            <span class="filter-label">Sector</span>
+            <div class="chips-scroll" role="group" aria-label="Filter kategori">
+              <button type="button" class="chip active" data-cat-filter="" aria-pressed="true">All sectors</button>
+              {categories.map((category) => <button type="button" class="chip" data-cat-filter={category.toLowerCase()} aria-pressed="false">{category}</button>)}
+            </div>
           </div>
-        </div>
-
-        <!-- Filter Chips: Hall -->
-        <div class="filter-group filter-group-halls">
-          <span class="filter-label">Lokasi Hall:</span>
-          <div class="chips-scroll" role="tablist" aria-label="Filter hall">
-            <button type="button" class="chip chip-hall active" data-hall-filter="" role="tab" aria-selected="true">Semua Hall</button>
-            {halls.map((h) => (
-              <button type="button" class="chip chip-hall" data-hall-filter={h.toLowerCase()} role="tab" aria-selected="false">
-                Hall {h} {h === '3A' ? '⭐' : ''}
-              </button>
-            ))}
+          <div class="filter-group">
+            <span class="filter-label">Hall</span>
+            <div class="chips-scroll" role="group" aria-label="Filter hall">
+              <button type="button" class="chip active" data-hall-filter="" aria-pressed="true">All halls</button>
+              {halls.map((hall) => <button type="button" class="chip" data-hall-filter={hall.toLowerCase()} aria-pressed="false">Hall {hall}</button>)}
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Tenant Grid -->
-    <section class="tenant-grid-wrap shell">
-      <div class="tenant-grid" data-list>
-        {tenantList.map((tenant) => {
-          const colors = getAvatarColor(tenant.slug);
-          const initials = getInitials(tenant.name);
-          const searchable = [
-            tenant.name,
-            tenant.category,
-            tenant.hall ? `hall ${tenant.hall}` : '',
-            tenant.booth ? `booth ${tenant.booth}` : '',
-            tenant.description || ''
-          ].join(' ').toLowerCase();
+    <section class="tenant-grid-wrap discovery-shell" data-results data-view="list" aria-labelledby="results-title">
+      <div class="results-head">
+        <div><span class="result-count">Live results</span><h2 id="results-title">Business profiles</h2></div>
+        <div class="result-tools">
+          <span class="result-count" data-count-secondary>{tenantList.length} shown</span>
+          <div class="view-toggle" aria-label="Tampilan hasil">
+            <button type="button" data-view-toggle="list" aria-pressed="true">List</button>
+            <button type="button" data-view-toggle="grid" aria-pressed="false">Grid</button>
+          </div>
+        </div>
+      </div>
 
+      <div class="tenant-grid" data-list>
+        {tenantList.map((tenant, index) => {
+          const searchable = [tenant.name, tenant.category, tenant.hall ? `hall ${tenant.hall}` : '', tenant.booth ? `booth ${tenant.booth}` : '', tenant.description || ''].join(' ').toLowerCase();
           return (
-            <a 
-              class="tenant-card" 
-              href={`${baseUrl}tenant/${tenant.slug}`}
+            <a
+              class="tenant-card"
+              href={`${baseUrl}tenant/${tenant.slug}/`}
               data-tenant-card
               data-searchable={searchable}
               data-category={(tenant.category || '').toLowerCase()}
               data-hall={(tenant.hall || '').toLowerCase()}
             >
-              <div class="tenant-avatar" style={`background-color: ${colors.bg}; color: ${colors.fg};`}>
-                <span>{initials}</span>
+              <div class="tenant-avatar" aria-hidden="true">{getInitials(tenant.name)}</div>
+              <div>
+                <span class="profile-index">{String(index + 1).padStart(3,'0')}</span>
+                <h3 class="tenant-name">{tenant.name}</h3>
               </div>
-              
-              <div class="tenant-body">
-                <div class="tenant-name-wrap">
-                  <h3 class="tenant-name">{tenant.name}</h3>
-                </div>
-                
-                <div class="tenant-meta-pills">
-                  {tenant.category && (
-                    <span class="meta-pill pill-category">{tenant.category}</span>
-                  )}
-                  {tenant.hall && (
-                    <span class="meta-pill pill-hall">
-                      📍 Hall {tenant.hall}{tenant.booth ? ` · #${tenant.booth}` : ''}
-                    </span>
-                  )}
-                </div>
-              </div>
-
-              <div class="tenant-arrow">
-                <span class="arrow-icon" aria-hidden="true">→</span>
-              </div>
+              <div class="tenant-category">{tenant.category || 'Trade Expo Indonesia 2026'}</div>
+              <div class="tenant-location">{tenant.hall ? `Hall ${tenant.hall}` : 'TEI 2026'}{tenant.booth ? ` · ${tenant.booth}` : ''}</div>
+              <div class="tenant-arrow" aria-hidden="true">↗</div>
             </a>
           );
         })}
       </div>
 
-      <!-- Empty State -->
       <div class="empty-results-box" data-no-results hidden>
-        <div class="empty-icon">🔍</div>
-        <h3>Tidak ada tenant yang cocok</h3>
-        <p>Coba kata kunci lain atau pilih filter kategori "Semua Sektor".</p>
-        <button type="button" class="reset-filter-btn" data-reset>Reset Pencarian & Filter</button>
+        <h3>No matching profile.</h3>
+        <p>Kurangi filter atau gunakan nama bisnis yang lebih pendek.</p>
+        <button type="button" class="reset-filter-btn" data-reset>Reset search & filters</button>
       </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="directory-footer shell">
-      <div class="footer-left">
-        <strong>Tangsel TradeLink 2026</strong>
-        <span>Portal Pameran Resmi Binaan Disperindag Kota Tangerang Selatan</span>
-      </div>
-      <div class="footer-right">
-        <a href={`${baseUrl}guide`}>Panduan Hall 3A ICE BSD →</a>
-      </div>
+    <footer class="discovery-footer discovery-shell">
+      <div><strong>Tangsel TradeLink</strong><br/>Trade Expo Indonesia 2026</div>
+      <div>{tenantList.length} published profiles · NFC-safe permanent routes</div>
+      <a href={`${baseUrl}guide`}>Hall guide ↗</a>
     </footer>
   </main>
 
   <script>
     const searchInput = document.querySelector<HTMLInputElement>('[data-search]');
     const clearBtn = document.querySelector<HTMLButtonElement>('[data-clear]');
-    const catChips = document.querySelectorAll<HTMLButtonElement>('[data-cat-filter]');
-    const hallChips = document.querySelectorAll<HTMLButtonElement>('[data-hall-filter]');
+    const catChips = [...document.querySelectorAll<HTMLButtonElement>('[data-cat-filter]')];
+    const hallChips = [...document.querySelectorAll<HTMLButtonElement>('[data-hall-filter]')];
     const cards = [...document.querySelectorAll<HTMLElement>('[data-tenant-card]')];
-    const countBadge = document.querySelector<HTMLElement>('[data-count]');
+    const countBadges = [...document.querySelectorAll<HTMLElement>('[data-count], [data-count-secondary]')];
     const noResults = document.querySelector<HTMLElement>('[data-no-results]');
     const resetBtn = document.querySelector<HTMLButtonElement>('[data-reset]');
+    const resultsWrap = document.querySelector<HTMLElement>('[data-results]');
+    const viewButtons = [...document.querySelectorAll<HTMLButtonElement>('[data-view-toggle]')];
 
-    let activeCategory = '';
-    let activeHall = '';
+    const params = new URLSearchParams(window.location.search);
+    let activeCategory = (params.get('sector') || '').toLowerCase();
+    let activeHall = (params.get('hall') || '').toLowerCase();
+    let activeView = params.get('view') === 'grid' ? 'grid' : 'list';
+    if (searchInput) searchInput.value = params.get('q') || '';
 
-    function filterTenants() {
-      const q = (searchInput?.value || '').trim().toLowerCase();
-      if (clearBtn) clearBtn.hidden = q.length === 0;
-
-      let visibleCount = 0;
-      cards.forEach(card => {
-        const text = card.dataset.searchable || '';
-        const cat = card.dataset.category || '';
-        const hall = card.dataset.hall || '';
-
-        const matchQuery = !q || text.includes(q);
-        const matchCat = !activeCategory || cat === activeCategory;
-        const matchHall = !activeHall || hall === activeHall;
-
-        const isVisible = matchQuery && matchCat && matchHall;
-        card.style.display = isVisible ? 'grid' : 'none';
-        if (isVisible) visibleCount++;
+    function markActive(buttons: HTMLButtonElement[], key: 'catFilter' | 'hallFilter', value: string) {
+      const values = new Set(buttons.map((button) => button.dataset[key] || ''));
+      const normalized = values.has(value) ? value : '';
+      buttons.forEach((button) => {
+        const active = (button.dataset[key] || '') === normalized;
+        button.classList.toggle('active', active);
+        button.setAttribute('aria-pressed', String(active));
       });
-
-      if (countBadge) {
-        countBadge.textContent = `${visibleCount} tenant`;
-      }
-      if (noResults) {
-        noResults.hidden = visibleCount > 0;
-      }
+      return normalized;
     }
 
-    // Category chips click
-    catChips.forEach(chip => {
-      chip.addEventListener('click', () => {
-        catChips.forEach(c => {
-          c.classList.remove('active');
-          c.setAttribute('aria-selected', 'false');
-        });
-        chip.classList.add('active');
-        chip.setAttribute('aria-selected', 'true');
-        activeCategory = chip.dataset.catFilter || '';
-        filterTenants();
+    function syncUrl(query: string) {
+      const next = new URLSearchParams();
+      if (query) next.set('q', query);
+      if (activeCategory) next.set('sector', activeCategory);
+      if (activeHall) next.set('hall', activeHall);
+      if (activeView !== 'list') next.set('view', activeView);
+      const suffix = next.toString();
+      history.replaceState(null, '', `${location.pathname}${suffix ? `?${suffix}` : ''}`);
+    }
+
+    function setView(view: string) {
+      activeView = view === 'grid' ? 'grid' : 'list';
+      if (resultsWrap) resultsWrap.dataset.view = activeView;
+      viewButtons.forEach((button) => button.setAttribute('aria-pressed', String(button.dataset.viewToggle === activeView)));
+    }
+
+    function filterTenants() {
+      const query = (searchInput?.value || '').trim().toLowerCase();
+      if (clearBtn) clearBtn.hidden = query.length === 0;
+      let visible = 0;
+      cards.forEach((card) => {
+        const matchesQuery = !query || (card.dataset.searchable || '').includes(query);
+        const matchesCategory = !activeCategory || card.dataset.category === activeCategory;
+        const matchesHall = !activeHall || card.dataset.hall === activeHall;
+        const show = matchesQuery && matchesCategory && matchesHall;
+        card.hidden = !show;
+        if (show) visible += 1;
       });
-    });
+      countBadges.forEach((badge, index) => badge.textContent = index === 0 ? `${visible} profiles` : `${visible} shown`);
+      if (noResults) noResults.hidden = visible !== 0;
+      syncUrl(query);
+    }
 
-    // Hall chips click
-    hallChips.forEach(chip => {
-      chip.addEventListener('click', () => {
-        hallChips.forEach(c => {
-          c.classList.remove('active');
-          c.setAttribute('aria-selected', 'false');
-        });
-        chip.classList.add('active');
-        chip.setAttribute('aria-selected', 'true');
-        activeHall = chip.dataset.hallFilter || '';
-        filterTenants();
-      });
-    });
-
-    // Search input
-    searchInput?.addEventListener('input', filterTenants);
-
-    // Clear button
-    clearBtn?.addEventListener('click', () => {
-      if (searchInput) {
-        searchInput.value = '';
-        searchInput.focus();
-      }
+    catChips.forEach((button) => button.addEventListener('click', () => {
+      activeCategory = button.dataset.catFilter || '';
+      markActive(catChips, 'catFilter', activeCategory);
       filterTenants();
-    });
-
-    // Reset button
+    }));
+    hallChips.forEach((button) => button.addEventListener('click', () => {
+      activeHall = button.dataset.hallFilter || '';
+      markActive(hallChips, 'hallFilter', activeHall);
+      filterTenants();
+    }));
+    viewButtons.forEach((button) => button.addEventListener('click', () => {
+      setView(button.dataset.viewToggle || 'list');
+      filterTenants();
+    }));
+    searchInput?.addEventListener('input', filterTenants);
+    clearBtn?.addEventListener('click', () => { if (searchInput) { searchInput.value = ''; searchInput.focus(); } filterTenants(); });
     resetBtn?.addEventListener('click', () => {
       if (searchInput) searchInput.value = '';
       activeCategory = '';
       activeHall = '';
-      catChips.forEach((c, i) => {
-        c.classList.toggle('active', i === 0);
-        c.setAttribute('aria-selected', i === 0 ? 'true' : 'false');
-      });
-      hallChips.forEach((c, i) => {
-        c.classList.toggle('active', i === 0);
-        c.setAttribute('aria-selected', i === 0 ? 'true' : 'false');
-      });
+      markActive(catChips, 'catFilter', '');
+      markActive(hallChips, 'hallFilter', '');
       filterTenants();
     });
 
-    // Init filter on load
+    activeCategory = markActive(catChips, 'catFilter', activeCategory);
+    activeHall = markActive(hallChips, 'hallFilter', activeHall);
+    setView(activeView);
     filterTenants();
   </script>
 </BaseLayout>
-
-<style>
-  :root {
-    --brand-teal: #0d9488;
-    --brand-teal-dark: #0f766e;
-    --brand-navy: #0f172a;
-    --brand-sand: #fbfaf8;
-    --brand-border: #e2e8f0;
-  }
-
-  .directory-page {
-    background-color: var(--brand-sand);
-    min-height: 100vh;
-    padding-bottom: 70px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    color: #1e293b;
-  }
-
-  .shell {
-    width: min(100% - 32px, 1200px);
-    margin-inline: auto;
-  }
-
-  /* Top Navigation */
-  .top-nav-bar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 16px 0;
-    border-bottom: 1px solid var(--brand-border);
-  }
-  .brand-link {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    text-decoration: none;
-    color: var(--brand-navy);
-  }
-  .badge-dot {
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background-color: var(--brand-teal);
-  }
-  .brand-link strong {
-    font-size: 1.05rem;
-    letter-spacing: -0.02em;
-  }
-  .edition-tag {
-    font-size: 0.72rem;
-    font-weight: 700;
-    padding: 2px 7px;
-    border-radius: 12px;
-    background-color: #e0f2fe;
-    color: #0369a1;
-  }
-  .nav-links {
-    display: flex;
-    gap: 16px;
-  }
-  .nav-links a {
-    text-decoration: none;
-    color: #64748b;
-    font-size: 0.88rem;
-    font-weight: 600;
-    padding: 6px 12px;
-    border-radius: 8px;
-    transition: all 0.2s ease;
-  }
-  .nav-links a:hover, .nav-links a.active {
-    color: var(--brand-teal-dark);
-    background-color: #f0fdfa;
-  }
-
-  /* Directory Hero */
-  .directory-hero {
-    padding: 44px 0 24px;
-  }
-  .hero-inner {
-    max-width: 820px;
-  }
-  .hero-chip {
-    display: inline-block;
-    font-size: 0.78rem;
-    font-weight: 800;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: var(--brand-teal);
-    margin-bottom: 12px;
-  }
-  .directory-hero h1 {
-    font-family: Georgia, 'Times New Roman', serif;
-    font-size: clamp(2.4rem, 5.5vw, 4.2rem);
-    line-height: 1.05;
-    letter-spacing: -0.04em;
-    margin: 0 0 16px;
-    color: var(--brand-navy);
-  }
-  .hero-sub {
-    font-size: clamp(1rem, 1.8vw, 1.15rem);
-    line-height: 1.6;
-    color: #475569;
-    margin: 0;
-  }
-
-  /* Controls Section */
-  .directory-controls-wrap {
-    margin-top: 10px;
-    margin-bottom: 30px;
-  }
-  .controls-card {
-    background: #ffffff;
-    border: 1px solid var(--brand-border);
-    border-radius: 16px;
-    padding: 20px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
-    display: grid;
-    gap: 16px;
-  }
-
-  .search-row {
-    display: flex;
-    gap: 12px;
-    align-items: center;
-  }
-  .search-input-box {
-    position: relative;
-    flex: 1;
-    display: flex;
-    align-items: center;
-  }
-  .search-icon {
-    position: absolute;
-    left: 14px;
-    color: #94a3b8;
-    pointer-events: none;
-  }
-  .search-input-box input {
-    width: 100%;
-    height: 48px;
-    padding: 0 40px 0 44px;
-    border: 1.5px solid var(--brand-border);
-    border-radius: 10px;
-    font-size: 0.98rem;
-    color: #0f172a;
-    background: #f8fafc;
-    transition: all 0.2s ease;
-    outline: none;
-  }
-  .search-input-box input:focus {
-    background: #ffffff;
-    border-color: var(--brand-teal);
-    box-shadow: 0 0 0 3px rgba(13, 148, 136, 0.15);
-  }
-  .clear-btn {
-    position: absolute;
-    right: 12px;
-    background: #e2e8f0;
-    border: none;
-    border-radius: 50%;
-    width: 24px;
-    height: 24px;
-    display: grid;
-    place-items: center;
-    font-size: 16px;
-    color: #475569;
-    cursor: pointer;
-  }
-
-  .counter-badge {
-    white-space: nowrap;
-    padding: 0 16px;
-    height: 48px;
-    display: inline-flex;
-    align-items: center;
-    background: #f0fdfa;
-    color: var(--brand-teal-dark);
-    font-weight: 700;
-    font-size: 0.9rem;
-    border-radius: 10px;
-    border: 1px solid #ccfbf1;
-  }
-
-  /* Filter Chips */
-  .filter-group {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-  }
-  .filter-label {
-    font-size: 0.78rem;
-    font-weight: 700;
-    color: #64748b;
-    white-space: nowrap;
-    min-width: 90px;
-  }
-  .chips-scroll {
-    display: flex;
-    gap: 8px;
-    overflow-x: auto;
-    padding-bottom: 4px;
-    scrollbar-width: thin;
-    -webkit-overflow-scrolling: touch;
-  }
-  .chips-scroll::-webkit-scrollbar {
-    height: 4px;
-  }
-  .chips-scroll::-webkit-scrollbar-thumb {
-    background: #cbd5e1;
-    border-radius: 4px;
-  }
-  .chip {
-    white-space: nowrap;
-    font-size: 0.82rem;
-    font-weight: 600;
-    padding: 8px 14px;
-    border-radius: 20px;
-    border: 1px solid var(--brand-border);
-    background: #f8fafc;
-    color: #475569;
-    cursor: pointer;
-    transition: all 0.18s ease;
-    user-select: none;
-    touch-action: manipulation;
-  }
-  .chip:hover {
-    border-color: #cbd5e1;
-    background: #f1f5f9;
-  }
-  .chip.active {
-    background: var(--brand-navy);
-    color: #ffffff;
-    border-color: var(--brand-navy);
-  }
-  .chip-hall.active {
-    background: var(--brand-teal-dark);
-    border-color: var(--brand-teal-dark);
-  }
-
-  /* Tenant Cards Grid */
-  .tenant-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
-    gap: 16px;
-  }
-  .tenant-card {
-    display: grid;
-    grid-template-columns: 52px 1fr 36px;
-    align-items: center;
-    gap: 14px;
-    padding: 16px;
-    background: #ffffff;
-    border: 1px solid var(--brand-border);
-    border-radius: 14px;
-    text-decoration: none;
-    color: inherit;
-    transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s ease, border-color 0.2s ease;
-  }
-  .tenant-card:hover, .tenant-card:focus-visible {
-    transform: translateY(-3px);
-    border-color: var(--brand-teal);
-    box-shadow: 0 12px 28px rgba(13, 148, 136, 0.08);
-    outline: none;
-  }
-
-  .tenant-avatar {
-    width: 52px;
-    height: 52px;
-    border-radius: 12px;
-    display: grid;
-    place-items: center;
-    font-weight: 800;
-    font-size: 1.15rem;
-    letter-spacing: -0.02em;
-    user-select: none;
-    flex-shrink: 0;
-  }
-
-  .tenant-body {
-    min-width: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-  }
-  .tenant-name-wrap {
-    display: flex;
-    align-items: baseline;
-    gap: 6px;
-  }
-  .tenant-name {
-    margin: 0;
-    font-size: 0.96rem;
-    font-weight: 700;
-    color: var(--brand-navy);
-    line-height: 1.3;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-
-  .tenant-meta-pills {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6px;
-  }
-  .meta-pill {
-    font-size: 0.72rem;
-    padding: 2px 8px;
-    border-radius: 6px;
-    font-weight: 600;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    max-width: 200px;
-  }
-  .pill-category {
-    background: #f1f5f9;
-    color: #475569;
-  }
-  .pill-hall {
-    background: #fef3c7;
-    color: #92400e;
-    font-weight: 700;
-  }
-
-  .tenant-arrow {
-    display: grid;
-    place-items: center;
-  }
-  .arrow-icon {
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    background: #f8fafc;
-    border: 1px solid #e2e8f0;
-    color: #64748b;
-    display: grid;
-    place-items: center;
-    font-weight: 800;
-    transition: all 0.2s ease;
-  }
-  .tenant-card:hover .arrow-icon {
-    background: var(--brand-teal);
-    border-color: var(--brand-teal);
-    color: #ffffff;
-    transform: translateX(2px);
-  }
-
-  /* Empty State */
-  .empty-results-box {
-    text-align: center;
-    padding: 60px 20px;
-    background: #ffffff;
-    border: 1px dashed var(--brand-border);
-    border-radius: 16px;
-    margin-top: 20px;
-  }
-  .empty-icon {
-    font-size: 2.4rem;
-    margin-bottom: 12px;
-  }
-  .empty-results-box h3 {
-    margin: 0 0 8px;
-    font-size: 1.25rem;
-    color: var(--brand-navy);
-  }
-  .empty-results-box p {
-    margin: 0 0 20px;
-    color: #64748b;
-  }
-  .reset-filter-btn {
-    padding: 10px 20px;
-    background: var(--brand-teal);
-    color: #ffffff;
-    border: none;
-    border-radius: 8px;
-    font-weight: 700;
-    cursor: pointer;
-  }
-
-  /* Footer */
-  .directory-footer {
-    margin-top: 60px;
-    padding-top: 24px;
-    border-top: 1px solid var(--brand-border);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 16px;
-    color: #64748b;
-    font-size: 0.85rem;
-  }
-  .footer-left {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-  }
-  .footer-left strong {
-    color: var(--brand-navy);
-  }
-  .footer-right a {
-    color: var(--brand-teal-dark);
-    font-weight: 700;
-    text-decoration: none;
-  }
-
-  /* Mobile Optimizations (Responsive Awwwards-tier) */
-  @media (max-width: 640px) {
-    .shell {
-      width: min(100% - 24px, 1200px);
-    }
-    .top-nav-bar {
-      flex-direction: column;
-      gap: 12px;
-      align-items: flex-start;
-    }
-    .nav-links {
-      width: 100%;
-      overflow-x: auto;
-      padding-bottom: 4px;
-    }
-    .directory-hero {
-      padding: 24px 0 16px;
-    }
-    .directory-hero h1 {
-      font-size: 2.1rem;
-    }
-    .controls-card {
-      padding: 14px;
-      gap: 14px;
-    }
-    .search-row {
-      flex-direction: column;
-      align-items: stretch;
-    }
-    .counter-badge {
-      justify-content: center;
-      height: 38px;
-    }
-    .filter-group {
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 6px;
-    }
-    .tenant-grid {
-      grid-template-columns: 1fr;
-      gap: 10px;
-    }
-    .tenant-card {
-      padding: 12px;
-      gap: 12px;
-    }
-    .tenant-avatar {
-      width: 44px;
-      height: 44px;
-      font-size: 1rem;
-    }
-    .tenant-name {
-      font-size: 0.92rem;
-    }
-    .directory-footer {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-  }
-</style>

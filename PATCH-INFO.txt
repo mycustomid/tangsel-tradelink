@@ -1,37 +1,38 @@
-Tangsel TradeLink — Cumulative Mega Patch / Final RC
-Date: 2026-10-17
-Repository: mycustomid/tangsel-tradelink
-Base main commit: 3b2b13e9c44be6dad5286c36da389492338c5d85
-Verified feature branch baseline: feat/art-direction-97-final @ 88ce21fd0c8b566d0e561559d99949573f709ffa
-No GitHub push was performed for this ZIP.
+Tangsel TradeLink — Awwwards Discovery + Immutable NFC URLs — AUDITED FINAL
+Generated: 2026-10-18
+Delivery: cumulative overlay patch; no GitHub push performed.
 
-WHAT IS INCLUDED
-- Complete main→feature-branch art-direction/UX delta, including the previously omitted adaptive-tenant-ux.css.
-- Adaptive renderer for generic tenant routes.
-- 97 explicit tenant art-direction fingerprints with >=80 distinct signatures.
-- Dedicated SmartNfcShowcase art-direction layer so dedicated tenant pages do not collapse into one category template.
-- Premium/flagship responsive + conversion hardening: single hero CTA, mobile thumb-zone CTA, safe-area support, long-name protection.
-- Lika Snack update: @likasnack.id, both supplied Google Maps links, public WhatsApp route, structured data, corroborated product copy, local brand-safe context visual, and one external category-reference image clearly labelled as non-official.
-- CI/Pages workflow budget hardening: no CI on every feature-branch push, PR/manual CI only, path filters, npm cache, npm ci, concurrency cancellation and timeouts.
+Core outcomes
+- Homepage redesigned as an editorial discovery surface.
+- Directory redesigned for search-first discovery with sector + hall filters and list/grid views.
+- Tenant count is dynamic from live data; stale hard-coded totals are removed.
+- 151 active data slugs + 3 legacy published tenant routes = 154 locked tenant permalinks.
+- Existing NFC route shape remains exactly: /tangsel-tradelink/tenant/<slug>/
+- Production build script includes validate:permalinks so accidental slug drift fails the build.
+- Validator additionally rejects duplicate/unsafe slugs and verifies every tenant-extra dedicated route exists.
+- Art-direction registry covers all 154 locked tenant URLs with deterministic multi-axis fingerprints.
+- Previous responsive/mobile, premium, SmartNFC, Lika Snack, and CI-budget improvements remain included.
 
-BASELINE CI EVIDENCE
-- GitHub Actions run 39021989221: SUCCESS for feature branch baseline.
-- Baseline branch test suite and Astro production build passed before local-only Lika/SmartNFC/CI delta.
+Audit corrections in this release
+- FIXED: APPLY-PATCH.sh / APPLY-PATCH.ps1 now copy scripts/, required by validate:permalinks.
+- FIXED: Tenant-directory labels now route to /directory/ instead of the homepage.
+- FIXED: Lika Snack canonical URL now matches the immutable trailing-slash NFC permalink.
+- FIXED: invalid directory filter query values normalize back to All instead of showing contradictory UI.
+- HARDENED: directory touch targets (view, reset, mobile chips, nav/clear controls).
+- HARDENED: Pages artifact action updated to actions/upload-pages-artifact@v5.
+- REMOVED FROM DELIVERY: stale old-scope design docs referring to 97 tenants.
 
-LOCAL DELTA VERIFICATION
-- 14/14 focused patch regression tests: PASS
-  * 97-tenant art direction coverage
-  * dedicated SmartNFC design differentiation
-  * premium/mobile UX contracts
-  * Lika Snack routes/assets/copy
-  * CI budget constraints
-- Lika JSON parse: PASS (covered by tests)
-- Local Lika visual exists in patch and is referenced by config: PASS
+Verification performed
+- Permalink validator: PASS — 154 URLs protected.
+- Focused regression suite: PASS — 27/27, 0 failed.
+- JSON parse: PASS.
+- YAML parse: PASS.
+- CSS parser: PASS.
+- Node syntax checks: PASS.
+- Bash syntax check: PASS.
+- Apply-helper dry run: PASS; existing files preserved and scripts/ copied.
+- Local obvious-secret pattern scan: PASS; no credential-like strings detected.
 
-IMPORTANT
-The external emping-jagung image is a category reference, not Lika Snack official product/packaging photography. The UI and source ledger label it accordingly. The local SVG is an editorial context visual based on verified public product information, also explicitly labelled as non-official packaging photography.
-
-RECOMMENDED AFTER APPLYING LOCALLY
-  npm ci --prefer-offline --no-audit --no-fund
-  npm test
-  npm run build
+Build note
+- A fresh full Astro production build could not be re-run in this sandbox because outbound DNS to github.com is blocked and dependencies are not locally installed.
+- The earlier cumulative branch baseline passed GitHub Actions production tests/build at commit 88ce21fd0c8b566d0e561559d99949573f709ffa.

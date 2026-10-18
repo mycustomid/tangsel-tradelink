@@ -12,6 +12,7 @@ interface Props {
 const { tenant, config, baseUrl = '' } = Astro.props;
 const direction = getTenantArtDirectionForAnySlug(tenant.slug || String(tenant.name || 'tenant').toLowerCase().replace(/[^a-z0-9]+/g, '-'));
 const normalizedBase = String(baseUrl).replace(/\/$/, '');
+const directoryUrl = `${normalizedBase}/directory/`;
 const resolveAsset = (src?: string) =>
   src?.startsWith('/brand/') ? `${normalizedBase}${src}` : src;
 const resolveLink = (url?: string) =>
@@ -58,7 +59,7 @@ const quickLabel = (action: any, index: number) => {
 
 <main class="smart-nfc" style={vars} data-visual-mode={visualMode} data-archetype={direction.archetype} data-layout={direction.layout} data-hero={direction.hero} data-type={direction.type} data-surface={direction.surface} data-motion={direction.motion} data-media={direction.media}>
   <header class="nfc-topbar">
-    <a href={baseUrl || '/'} class="directory-link">Tangsel TradeLink</a>
+    <a href={directoryUrl} class="directory-link">Tangsel TradeLink</a>
     <span>TEI 2026 · Hall {tenant.hall || '—'}{tenant.booth ? ` · Booth ${tenant.booth}` : ''}</span>
   </header>
 
@@ -366,14 +367,14 @@ const quickLabel = (action: any, index: number) => {
       <div class="channel-pending">
         <strong>Use the TEI booth / Tangsel TradeLink directory for now.</strong>
         <p>The business profile is ready, but a direct public WhatsApp, website, marketplace or social link has not been verified strongly enough to publish.</p>
-        <a href={baseUrl || '/'}>Back to tenant directory →</a>
+        <a href={directoryUrl}>Back to tenant directory →</a>
       </div>
     )}
   </section>
 
   <footer class="nfc-footer">
     <span>{label}</span>
-    <a href={baseUrl || '/'}>Back to TEI 2026 directory</a>
+    <a href={directoryUrl}>Back to TEI 2026 directory</a>
   </footer>
 
   {primaryActions.length > 0 && (

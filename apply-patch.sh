@@ -2,7 +2,7 @@
 set -euo pipefail
 PATCH_DIR="$(cd "$(dirname "$0")" && pwd)"
 TARGET="${1:-.}"
-for item in .github .nvmrc docs package.json public src tests; do
+for item in .github .nvmrc package.json public scripts src tests; do
   if [ -e "$PATCH_DIR/$item" ]; then
     cp -a "$PATCH_DIR/$item" "$TARGET/"
   fi
