@@ -25,14 +25,15 @@ test('SmartNfcShowcase consumes the same multi-axis art-direction system as the 
   assert.match(component, /smart-nfc-art-direction\.css/);
 });
 
-test('dedicated tenant slugs receive mostly unique design fingerprints instead of category templates', async () => {
+test('dedicated tenants have explicit business-led directions with composition variety', async () => {
   const { getTenantArtDirectionForAnySlug } = await import('../src/data/tenant-art-directions.mjs');
   const signatures = dedicatedSlugs.map((slug) => {
     const d = getTenantArtDirectionForAnySlug(slug);
     assert.ok(d, `missing fallback direction for ${slug}`);
+    assert.ok(d.rationale, `missing business rationale for ${slug}`);
     return [d.archetype,d.layout,d.hero,d.type,d.surface,d.motion,d.accent,d.media].join('|');
   });
-  assert.ok(new Set(signatures).size >= 60, `expected >=60 distinct fingerprints, got ${new Set(signatures).size}`);
+  assert.ok(new Set(signatures).size >= 12, 'business families need distinct compositions; arbitrary slug uniqueness is not a design goal');
 });
 
 test('Smart NFC art-direction CSS changes composition on desktop and mobile, not only palette', async () => {

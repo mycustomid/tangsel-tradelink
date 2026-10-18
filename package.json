@@ -8,13 +8,27 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "build": "npm run validate:data && npm run validate:permalinks && astro build",
+    "build": "npm run validate:data && npm run validate:permalinks && astro build && node scripts/validate-output.mjs",
     "preview": "astro preview",
     "test": "node --test tests/*.test.mjs",
     "validate:data": "node scripts/validate-tenants.mjs",
-    "validate:permalinks": "node scripts/validate-permalinks.mjs"
+    "validate:permalinks": "node scripts/validate-permalinks.mjs",
+    "validate:output": "node scripts/validate-output.mjs",
+    "test:browser": "node scripts/browser-qa.mjs",
+    "test:a11y": "node scripts/accessibility-qa.mjs",
+    "package:rc": "node scripts/package-release.mjs"
   },
   "dependencies": {
-    "astro": "7.3.0"
+    "@tailwindcss/vite": "4.3.3",
+    "astro": "5.18.2",
+    "tailwindcss": "4.3.3"
+  },
+  "overrides": {
+    "sharp": "0.35.5",
+    "esbuild": "0.28.2"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.11.1",
+    "playwright": "1.64.1"
   }
 }

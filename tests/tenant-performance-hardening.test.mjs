@@ -31,9 +31,9 @@ test('generic tenant logos have stable intrinsic dimensions', () => {
 });
 
 test('directory cards skip offscreen painting', () => {
-  const index = read('src/pages/index.astro');
+  const index = read('src/styles/discovery-editorial.css');
   assert.match(index, /content-visibility:\s*auto/);
-  assert.match(index, /contain-intrinsic-size:\s*72px/);
+  assert.match(index, /contain-intrinsic-size:\s*120px/);
 });
 
 test('oversized Raja product PNG is no longer referenced by either Raja config', () => {

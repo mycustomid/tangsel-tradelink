@@ -239,7 +239,7 @@ const quickLabel = (action: any, index: number) => {
         <p class="section-label">{isEn ? 'Commodity & Operations Gallery' : 'Visuals'}</p>
         <h2 id="visual-title">{isEn ? 'Unbranded export-grade commodities & white-label readiness.' : 'Brand & product context.'}</h2>
       </div>
-      <div class="gallery">
+      <div class="gallery" tabindex="0" role="region" aria-label="Galeri produk">
         {gallery.map((item:any) => {
           const rawSrc = typeof item === 'string' ? item : (item.image || item.src);
           const rawLabel = typeof item === 'string' ? `${label} Product` : item.label;
@@ -256,6 +256,9 @@ const quickLabel = (action: any, index: number) => {
               class:list={['gallery-card', !isExternal && image && 'js-lightbox-trigger']}
               data-full-img={!isExternal && image ? image : undefined}
               data-caption={!isExternal && image ? captionText : undefined}
+              tabindex={!isExternal && image ? 0 : undefined}
+              role={!isExternal && image ? 'button' : undefined}
+              aria-label={!isExternal && image ? `Perbesar: ${rawLabel}` : undefined}
               style={!isExternal && image ? 'cursor:zoom-in' : undefined}
             >
               <div class="gallery-img-wrap" style={item.aspectRatio ? `aspect-ratio:${item.aspectRatio}` : undefined}>
@@ -394,7 +397,7 @@ const quickLabel = (action: any, index: number) => {
         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
       </button>
       <div class="lightbox-img-scroll">
-        <img id="lightbox-main-img" src="" alt={isEn ? 'Full size product visual' : 'Tampilan penuh gambar katalog'} loading="lazy" />
+        <img id="lightbox-main-img" alt={isEn ? 'Full size product visual' : 'Tampilan penuh gambar katalog'} loading="lazy" />
       </div>
       <p id="lightbox-caption" class="lightbox-caption-text"></p>
     </div>
@@ -410,6 +413,10 @@ const quickLabel = (action: any, index: number) => {
     const closeBtn = document.getElementById('lightbox-close-btn');
 
     document.querySelectorAll('.js-lightbox-trigger').forEach((trigger) => {
+      trigger.addEventListener('keydown', (e) => {
+        const event = e as KeyboardEvent;
+        if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); (trigger as HTMLElement).click(); }
+      });
       trigger.addEventListener('click', (e) => {
         e.preventDefault();
         const fullSrc = trigger.getAttribute('data-full-img');
@@ -487,7 +494,7 @@ const quickLabel = (action: any, index: number) => {
   .facts article{min-height:132px;padding:18px 14px;border-bottom:1px solid color-mix(in srgb,var(--nfc-ink) 12%,transparent)}
   .facts article:nth-child(odd){border-right:1px solid color-mix(in srgb,var(--nfc-ink) 12%,transparent)}
   .facts strong{display:block;font-family:Georgia,serif;font-size:clamp(1.7rem,3vw,2.8rem);font-weight:400;color:var(--nfc-accent)}
-  .facts span{display:block;margin-top:8px;font-size:.72rem;line-height:1.35;color:color-mix(in srgb,var(--nfc-ink) 62%,transparent)}
+  .facts span{display:block;margin-top:8px;font-size:.72rem;line-height:1.35;color:color-mix(in srgb,var(--nfc-ink) 78%,transparent)}
   .section-heading{display:flex;justify-content:space-between;align-items:end;gap:28px;margin-bottom:28px}
   .section-heading h2{max-width:780px}
   .highlight-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
@@ -505,7 +512,7 @@ const quickLabel = (action: any, index: number) => {
   dialog.nfc-lightbox-dialog{padding:0;border:none;background:transparent;max-width:96vw;max-height:96vh;width:auto;height:auto;overflow:visible;margin:auto;outline:none}
   dialog.nfc-lightbox-dialog::backdrop{background:rgba(10,8,7,.88);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px)}
   .lightbox-dialog-inner{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;max-width:96vw;max-height:94vh;padding:12px}
-  .lightbox-close-btn{position:fixed;top:24px;right:24px;width:44px;height:44px;border-radius:50%;background:rgba(255,255,255,.2);border:1px solid rgba(255,255,255,.35);color:#fff;cursor:pointer;display:grid;place-items:center;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);transition:background .2s ease,transform .15s ease;z-index:9999}
+  .lightbox-close-btn{position:fixed;top:24px;right:24px;width:48px;height:48px;border-radius:50%;background:rgba(255,255,255,.2);border:1px solid rgba(255,255,255,.35);color:#fff;cursor:pointer;display:grid;place-items:center;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);transition:background .2s ease,transform .15s ease;z-index:9999}
   .lightbox-close-btn:hover{background:rgba(255,255,255,.4);transform:scale(1.08)}
   .lightbox-close-btn:active{transform:scale(0.95)}
   .lightbox-img-scroll{max-height:84vh;max-width:92vw;overflow:auto;border-radius:16px;box-shadow:0 30px 60px -15px rgba(0,0,0,.8);display:flex;justify-content:center}

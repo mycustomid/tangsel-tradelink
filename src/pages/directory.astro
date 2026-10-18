@@ -5,8 +5,9 @@ import tenantExtras from '../data/tenants-extra.json';
 import { uniqueValues } from '../lib/tenant-utils.mjs';
 import '../styles/discovery-editorial.css';
 import type { Tenant } from '../types/tenant';
+import { discoveryProfiles } from '../data/discovery-profiles.mjs';
 
-const rawList = [...(tenants as Tenant[]), ...(tenantExtras as Tenant[])];
+const rawList = discoveryProfiles;
 const seenSlugs = new Set<string>();
 const tenantList = rawList.filter((tenant) => {
   if (!tenant.slug || seenSlugs.has(tenant.slug)) return false;
@@ -42,7 +43,7 @@ const pageDescription = `Cari ${tenantList.length} profil bisnis Trade Expo Indo
         <span class="directory-kicker">Business discovery / {tenantList.length} published profiles</span>
         <h1 id="directory-title">Find the right conversation.</h1>
       </div>
-      <p class="directory-intro">Cari berdasarkan nama, produk, sektor, hall, atau booth. Setiap hasil menuju <strong>URL tenant yang tetap</strong>, sehingga NFC card, bookmark, dan link yang sudah dibagikan tidak berubah.</p>
+      <p class="directory-intro">Dari produsen pangan hingga studio kriya. Cari produk yang Anda butuhkan, temukan lokasinya, lalu kenali bisnisnya sebelum memulai percakapan.</p>
     </section>
 
     <section class="directory-controls-wrap" aria-label="Pencarian dan filter tenant">
@@ -87,7 +88,7 @@ const pageDescription = `Cari ${tenantList.length} profil bisnis Trade Expo Indo
 
       <div class="tenant-grid" data-list>
         {tenantList.map((tenant, index) => {
-          const searchable = [tenant.name, tenant.category, tenant.hall ? `hall ${tenant.hall}` : '', tenant.booth ? `booth ${tenant.booth}` : '', tenant.description || ''].join(' ').toLowerCase();
+          const searchable = tenant.searchable;
           return (
             <a
               class="tenant-card"
@@ -101,6 +102,7 @@ const pageDescription = `Cari ${tenantList.length} profil bisnis Trade Expo Indo
               <div>
                 <span class="profile-index">{String(index + 1).padStart(3,'0')}</span>
                 <h3 class="tenant-name">{tenant.name}</h3>
+                {tenant.description && <p class="tenant-preview">{tenant.description}</p>}
               </div>
               <div class="tenant-category">{tenant.category || 'Trade Expo Indonesia 2026'}</div>
               <div class="tenant-location">{tenant.hall ? `Hall ${tenant.hall}` : 'TEI 2026'}{tenant.booth ? ` · ${tenant.booth}` : ''}</div>
@@ -119,12 +121,13 @@ const pageDescription = `Cari ${tenantList.length} profil bisnis Trade Expo Indo
 
     <footer class="discovery-footer discovery-shell">
       <div><strong>Tangsel TradeLink</strong><br/>Trade Expo Indonesia 2026</div>
-      <div>{tenantList.length} published profiles · NFC-safe permanent routes</div>
+      <div>{tenantList.length} business profiles · Trade Expo Indonesia 2026</div>
       <a href={`${baseUrl}guide`}>Hall guide ↗</a>
     </footer>
   </main>
 
   <script>
+    import { normalizeSearch } from '../lib/discovery.mjs';
     const searchInput = document.querySelector<HTMLInputElement>('[data-search]');
     const clearBtn = document.querySelector<HTMLButtonElement>('[data-clear]');
     const catChips = [...document.querySelectorAll<HTMLButtonElement>('[data-cat-filter]')];
@@ -170,11 +173,11 @@ const pageDescription = `Cari ${tenantList.length} profil bisnis Trade Expo Indo
     }
 
     function filterTenants() {
-      const query = (searchInput?.value || '').trim().toLowerCase();
+      const query = normalizeSearch(searchInput?.value || '');
       if (clearBtn) clearBtn.hidden = query.length === 0;
       let visible = 0;
       cards.forEach((card) => {
-        const matchesQuery = !query || (card.dataset.searchable || '').includes(query);
+        const matchesQuery = query.split(' ').every((word) => (card.dataset.searchable || '').includes(word));
         const matchesCategory = !activeCategory || card.dataset.category === activeCategory;
         const matchesHall = !activeHall || card.dataset.hall === activeHall;
         const show = matchesQuery && matchesCategory && matchesHall;
@@ -208,6 +211,16 @@ const pageDescription = `Cari ${tenantList.length} profil bisnis Trade Expo Indo
       activeHall = '';
       markActive(catChips, 'catFilter', '');
       markActive(hallChips, 'hallFilter', '');
+      filterTenants();
+      searchInput?.focus();
+    });
+
+    window.addEventListener('popstate', () => {
+      const restored = new URLSearchParams(location.search);
+      if (searchInput) searchInput.value = restored.get('q') || '';
+      activeCategory = markActive(catChips, 'catFilter', (restored.get('sector') || '').toLowerCase());
+      activeHall = markActive(hallChips, 'hallFilter', (restored.get('hall') || '').toLowerCase());
+      setView(restored.get('view') || 'list');
       filterTenants();
     });
 

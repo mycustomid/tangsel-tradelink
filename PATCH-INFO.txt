@@ -1,38 +1,8 @@
-Tangsel TradeLink — Awwwards Discovery + Immutable NFC URLs — AUDITED FINAL
-Generated: 2026-10-18
-Delivery: cumulative overlay patch; no GitHub push performed.
-
-Core outcomes
-- Homepage redesigned as an editorial discovery surface.
-- Directory redesigned for search-first discovery with sector + hall filters and list/grid views.
-- Tenant count is dynamic from live data; stale hard-coded totals are removed.
-- 151 active data slugs + 3 legacy published tenant routes = 154 locked tenant permalinks.
-- Existing NFC route shape remains exactly: /tangsel-tradelink/tenant/<slug>/
-- Production build script includes validate:permalinks so accidental slug drift fails the build.
-- Validator additionally rejects duplicate/unsafe slugs and verifies every tenant-extra dedicated route exists.
-- Art-direction registry covers all 154 locked tenant URLs with deterministic multi-axis fingerprints.
-- Previous responsive/mobile, premium, SmartNFC, Lika Snack, and CI-budget improvements remain included.
-
-Audit corrections in this release
-- FIXED: APPLY-PATCH.sh / APPLY-PATCH.ps1 now copy scripts/, required by validate:permalinks.
-- FIXED: Tenant-directory labels now route to /directory/ instead of the homepage.
-- FIXED: Lika Snack canonical URL now matches the immutable trailing-slash NFC permalink.
-- FIXED: invalid directory filter query values normalize back to All instead of showing contradictory UI.
-- HARDENED: directory touch targets (view, reset, mobile chips, nav/clear controls).
-- HARDENED: Pages artifact action updated to actions/upload-pages-artifact@v5.
-- REMOVED FROM DELIVERY: stale old-scope design docs referring to 97 tenants.
-
-Verification performed
-- Permalink validator: PASS — 154 URLs protected.
-- Focused regression suite: PASS — 27/27, 0 failed.
-- JSON parse: PASS.
-- YAML parse: PASS.
-- CSS parser: PASS.
-- Node syntax checks: PASS.
-- Bash syntax check: PASS.
-- Apply-helper dry run: PASS; existing files preserved and scripts/ copied.
-- Local obvious-secret pattern scan: PASS; no credential-like strings detected.
-
-Build note
-- A fresh full Astro production build could not be re-run in this sandbox because outbound DNS to github.com is blocked and dependencies are not locally installed.
-- The earlier cumulative branch baseline passed GitHub Actions production tests/build at commit 88ce21fd0c8b566d0e561559d99949573f709ffa.
+Tangsel TradeLink cumulative local RC
+Baseline HEAD: f505f4d
+Production base: https://mycustomid.github.io/tangsel-tradelink/
+Directory: 151 active entries; 3 legacy aliases; 154 immutable tenant URLs.
+Archive content is a complete source/public overlay, not built deployment output.
+No push or deployment is authorized or performed.
+Read VERIFICATION-REPORT.md and reports/SECURITY-REVIEW.md before release.
+Astro 5 upstream security advisory remains an explicit release blocker.

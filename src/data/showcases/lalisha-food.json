@@ -6,12 +6,13 @@
   "favicon": "/brand/lalisha-food/lalisha-favicon.png",
   "tagline": "Seblak instan khas nusantara dalam varian Original Kencur & Keju Creamy, hadir di jaringan ritel K3MART, Amanda Brownies, dan siap untuk ekspansi ekspor.",
   "eyebrow": "Food & Pantry · Tangerang Selatan",
-  "heroImage": "/brand/lalisha-food/seblak-instan-lalisha-hero.webp",
+  "heroImage": "/brand/lalisha-food/seblak-instan-lalisha-hero-grid4.webp",
   "heroFit": "contain",
   "heroAspectRatio": "1/1",
   "heroAspectRatioMobile": "1/1",
   "galleryFit": "contain",
   "galleryAspectRatio": "4/3",
+  "galleryLimit": 35,
   "visualMode": "food",
   "palette": {
     "bg": "#faf3e9",
@@ -119,6 +120,34 @@
     }
   ],
   "gallery": [
+    {
+      "image": "/brand/lalisha-food/penyajian-seblak-instan-keju-bowl.webp",
+      "label": "Saran Penyajian Seblak Instan Keju",
+      "caption": "Penyajian praktis seduh 3 menit dengan topping melimpah, mie kenyal, dan kuah pedas gurih creamy.",
+      "fit": "contain",
+      "aspectRatio": "3/4"
+    },
+    {
+      "image": "/brand/lalisha-food/grid-stack-cups.webp",
+      "label": "Seblak Instan Cup Tower",
+      "caption": "Kemasan cup higienis premium siap seduh untuk ritel modern dan ekspor.",
+      "fit": "contain",
+      "aspectRatio": "1/1"
+    },
+    {
+      "image": "/brand/lalisha-food/grid-topview-cups.webp",
+      "label": "Tampak Atas Cup & Topping",
+      "caption": "Topping siomay, kerupuk, cuanki, mie dan bumbu rempah terbungkus higienis.",
+      "fit": "contain",
+      "aspectRatio": "1/1"
+    },
+    {
+      "image": "/brand/lalisha-food/grid-keju-cup.webp",
+      "label": "Seblak Instan Varian Keju",
+      "caption": "Varian favorit Keju Creamy pedas gurih asoyyy netto 105g.",
+      "fit": "contain",
+      "aspectRatio": "3/4"
+    },
     {
       "image": "/brand/lalisha-food/outlet-k3mart-summarecon-bekasi.webp",
       "label": "Display Ritel K3MART Summarecon Bekasi",

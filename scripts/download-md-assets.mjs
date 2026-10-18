@@ -14,8 +14,12 @@ const downloads = [
 ];
 
 async function downloadFile(url, destName) {
+  if (!/^[a-z0-9-]+\.webp$/.test(destName)) throw new Error('Unsafe asset filename');
+  // Filename allowlist above and resolved-directory boundary below prevent traversal.
+  const destination = path.resolve(brandDir, destName); // nosemgrep: javascript.lang.security.audit.path-traversal.path-join-resolve-traversal.path-join-resolve-traversal
+  if (!destination.startsWith(path.resolve(brandDir) + path.sep)) throw new Error('Asset path escaped brand directory');
   return new Promise((resolve, reject) => {
-    const file = fs.createWriteStream(path.join(brandDir, destName));
+    const file = fs.createWriteStream(destination);
     https.get(url, (res) => {
       if (res.statusCode !== 200) {
         return reject(new Error(`Failed to download ${url}: status ${res.statusCode}`));
@@ -28,7 +32,7 @@ async function downloadFile(url, destName) {
         });
       });
     }).on('error', (err) => {
-      fs.unlink(path.join(brandDir, destName), () => {});
+      fs.unlink(destination, () => {});
       reject(err);
     });
   });

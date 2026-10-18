@@ -64,8 +64,8 @@ test('Lika canonical preserves the exact NFC permalink shape', () => {
 });
 
 test('patch apply helpers include the validator scripts directory', () => {
-  assert.match(read('APPLY-PATCH.sh'), /public scripts src tests/);
-  assert.match(read('APPLY-PATCH.ps1'), /'public','scripts','src','tests'/);
+  assert.match(read('apply-patch.sh'), /public scripts src tests/);
+  assert.match(read('apply-patch.ps1'), /'public','scripts','src','tests'/);
 });
 
 test('permalink validator guards dedicated extra routes and duplicate slugs', () => {

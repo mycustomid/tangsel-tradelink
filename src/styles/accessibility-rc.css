@@ -1,0 +1,27 @@
+/* Keep decorative brand accents; use full-contrast ink for informational text. */
+.smart-nfc .section-label,.smart-nfc .highlight-grid small,.smart-nfc .testimonial-role,.smart-nfc .channel-pending a,.smart-nfc .facts strong{color:var(--nfc-ink)!important}
+.smart-nfc .facts span,.smart-nfc footer,.smart-nfc footer>*{color:var(--nfc-ink)!important;opacity:1!important}
+.smart-nfc .verification{color:var(--nfc-ink)!important}
+.smart-nfc .hero-copy .eyebrow{white-space:normal!important;max-width:100%;overflow-wrap:anywhere;color:inherit!important}
+.smart-nfc[data-layout="poster-stack"] .verification{color:var(--nfc-bg)!important}
+.smart-nfc .commercial-grid>*{min-width:0;overflow-wrap:anywhere}
+.adaptive-tenant .booth-chip span{opacity:.85}
+.premium-onepage .chapter-kicker>span,.premium-onepage .story-aside,.premium-onepage .links .index,.premium-onepage .ledger-head span,.premium-onepage .stats-grid small,.premium-onepage .highlight-grid>article>span{color:var(--ink)!important}
+.premium-onepage .visuals .chapter-kicker>span{color:var(--page)!important}
+.premium-onepage .story-copy p,.premium-onepage .story-copy small,.premium-onepage .connect-heading>p,.premium-onepage .proof-heading>p,.premium-onepage .stats-grid article>p,.premium-onepage .highlight-grid article>p,.premium-onepage .endcap small{color:var(--ink)!important;opacity:1!important}
+.premium-onepage .source-ledger{background:var(--page)!important;color:var(--ink)!important}
+.premium-onepage .source-ledger em,.premium-onepage .source-ledger p,.premium-onepage .source-ledger a{color:var(--ink)!important;opacity:1!important}
+.premium-onepage .brand-token>span:not(.has-brand-logo){background:var(--ink)!important;color:var(--page)!important}
+.rk-onepage .section-kicker>span,.rk-onepage .place-list a>span{color:inherit!important}
+.rk-onepage .business-grid a:nth-child(2){background:#744022!important;color:#fff!important}
+.rk-onepage .business-grid a:nth-child(2)>span,.rk-onepage .business-grid a:nth-child(2)>b{color:#fff!important;opacity:1!important}
+.guide .source,.guide footer{color:#4d5d6f!important}
+.cd-dir-specs dt{color:#b7c7db!important}
+.mob-wa{background:#087a36!important;color:#fff!important}
+.smart-nfc .gallery:focus-visible,.premium-onepage [role="region"]:focus-visible{outline:3px solid currentColor;outline-offset:4px}
+.premium-onepage{--rc-section-ink:var(--ink)}
+.premium-onepage[data-experience="hospitality-retreat"] .story,.premium-onepage[data-experience="hospitality-retreat"] .proof,.premium-onepage[data-experience="hospitality-retreat"] .connect{--rc-section-ink:#143327}
+.premium-onepage .chapter-kicker>span,.premium-onepage .story-aside,.premium-onepage .links .index,.premium-onepage .ledger-head span,.premium-onepage .stats-grid small,.premium-onepage .highlight-grid>article>span,.premium-onepage .story-copy p,.premium-onepage .story-copy small,.premium-onepage .connect-heading>p,.premium-onepage .proof-heading>p,.premium-onepage .stats-grid article>p,.premium-onepage .highlight-grid article>p,.premium-onepage .endcap small{color:var(--rc-section-ink)!important}
+.premium-onepage .visuals .chapter-kicker>span{color:#fff!important}
+.premium-onepage .source-ledger{--rc-section-ink:var(--ink)}
+.smart-nfc[data-visual-mode="tech"] .facts strong,.smart-nfc[data-visual-mode="tech"] .facts span{color:#eef5f7!important}

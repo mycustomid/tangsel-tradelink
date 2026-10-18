@@ -19,32 +19,10 @@ const mimeTypes = {
   '.ico': 'image/x-icon'
 };
 
-const server = http.createServer((req, res) => {
-  let reqPath = decodeURI(req.url.split('?')[0]);
-  // Handle base url /tangsel-tradelink/
-  if (reqPath.startsWith('/tangsel-tradelink')) {
-    reqPath = reqPath.slice('/tangsel-tradelink'.length);
-  }
-  if (reqPath === '' || reqPath === '/') reqPath = '/index.html';
-  
-  let filePath = path.join(distDir, reqPath);
-  if (fs.existsSync(filePath) && fs.statSync(filePath).isDirectory()) {
-    filePath = path.join(filePath, 'index.html');
-  } else if (!fs.existsSync(filePath) && fs.existsSync(filePath + '.html')) {
-    filePath = filePath + '.html';
-  }
+const {createStaticServer} = require('./static-server.cjs');
+const server = createStaticServer(distDir);
 
-  if (fs.existsSync(filePath) && fs.statSync(filePath).isFile()) {
-    const ext = path.extname(filePath).toLowerCase();
-    res.writeHead(200, { 'Content-Type': mimeTypes[ext] || 'application/octet-stream' });
-    fs.createReadStream(filePath).pipe(res);
-  } else {
-    res.writeHead(404, { 'Content-Type': 'text/plain' });
-    res.end('Not Found: ' + req.url);
-  }
-});
-
-server.listen(4567, async () => {
+server.listen(4567, '127.0.0.1', async () => {
   console.log('Static server listening on http://127.0.0.1:4567');
   const browser = await chromium.launch({ headless: true });
   

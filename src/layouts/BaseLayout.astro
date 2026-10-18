@@ -1,6 +1,8 @@
 ---
-import '../styles/mobile-nfc.css';
-import '../styles/tenant-awwwards.css';
+import mobileStyles from '../styles/mobile-nfc.css?url';
+import '../styles/tailwind.css';
+import tenantStyles from '../styles/tenant-awwwards.css?url';
+import '../styles/accessibility-rc.css';
 import SeoMeta from '../components/SeoMeta.astro';
 
 interface Props {
@@ -28,6 +30,7 @@ const {
 } = Astro.props;
 
 const basePath = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`;
+const isTenantRoute = Astro.url.pathname.includes('/tenant/');
 const defaultFavicon = `${basePath}favicon.svg`;
 const faviconPath = favicon
   ? (favicon.startsWith('http://') || favicon.startsWith('https://') || favicon.startsWith('data:')
@@ -40,12 +43,11 @@ const isSvg = faviconPath.endsWith('.svg');
 const isPng = faviconPath.endsWith('.png');
 const isIco = faviconPath.endsWith('.ico');
 const isWebp = faviconPath.endsWith('.webp');
-const pngFallback = isSvg
-  ? faviconPath.replace(/\.svg$/, '.png')
-  : faviconPath;
+const pngFallback = faviconPath;
 
 const origin = Astro.site ?? new URL(Astro.url.origin);
-const canonicalUrl = new URL(canonical || Astro.url.pathname, origin).href;
+const canonicalPath = (canonical || Astro.url.pathname).replace('/tangsel-tradelinktenant/', '/tangsel-tradelink/tenant/');
+const canonicalUrl = new URL(canonicalPath.replace(/\/?$/, '/'), origin).href;
 const imagePath = image
   ? (image.startsWith('http://') || image.startsWith('https://')
       ? image
@@ -54,8 +56,11 @@ const imagePath = image
         : `${basePath}${image.replace(/^\//, '')}`)
   : undefined;
 const imageUrl = imagePath ? new URL(imagePath, origin).href : undefined;
-const structuredJson = structuredData
-  ? JSON.stringify(structuredData).replace(/</g, '\\u003c')
+const normalizedStructuredData = structuredData && (Array.isArray(structuredData) ? structuredData : [structuredData]).map((entry) => (
+  ['Organization', 'LocalBusiness'].includes(String(entry['@type'])) ? { ...entry, url: canonicalUrl } : entry
+));
+const structuredJson = normalizedStructuredData
+  ? JSON.stringify(normalizedStructuredData).replace(/</g, '\\u003c')
   : undefined;
 
 ---
@@ -66,6 +71,8 @@ const structuredJson = structuredData
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="theme-color" content="#0b1727" />
+    {isTenantRoute && <link rel="stylesheet" href={mobileStyles} />}
+    {isTenantRoute && <link rel="stylesheet" href={tenantStyles} />}
     <title>{title}</title>
     <meta name="description" content={description} />
     <meta name="robots" content={robots} />
@@ -92,11 +99,18 @@ const structuredJson = structuredData
     <link rel="apple-touch-icon" href={`${pngFallback}?v=3`} />
   </head>
   <body data-theme={theme}>
-    <slot />
+    <a class="skip-link" href="#main-content">Lewati ke konten utama</a>
+    {Astro.url.pathname.includes('/tenant/') && <nav class="tenant-return" aria-label="Kembali ke direktori"><a href={`${basePath}directory/`}>← All businesses</a></nav>}
+    <div id="main-content" tabindex="-1"><slot /></div>
   </body>
 </html>
 
 <style is:global>
+  .skip-link{position:fixed;top:8px;left:8px;z-index:9999;padding:14px 18px;background:#fff;color:#102033;transform:translateY(-180%);font-weight:700}
+  .skip-link:focus{transform:none;outline:3px solid #0d766e}
+  .tenant-return{background:#f3efe8;color:#172018;padding:0 24px;border-bottom:1px solid #ccc8c0}
+  .tenant-return a{display:inline-flex;align-items:center;min-height:48px;font:700 .8rem/1.4 system-ui;text-underline-offset:4px}
+  body:has(.smart-nfc)>.tenant-return,body:has(.adaptive-tenant)>.tenant-return{display:none}
   :root {
     font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     color: #102033;

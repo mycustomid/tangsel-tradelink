@@ -1,0 +1,2494 @@
+{
+  "roemah-koffie": {
+    "archetype": "coffeehouse",
+    "layout": "editorial-offset",
+    "hero": "aperture",
+    "type": "serif-display",
+    "surface": "cocoa",
+    "motion": "drift",
+    "media": "photo-cover",
+    "accent": "#69442e",
+    "family": "coffee",
+    "rationale": "Roastery publication: coffee origins, brewing and places.",
+    "evidence": [
+      "https://roemahkoffie.co.id/",
+      "https://linktr.ee/roemahkoffieindonesia"
+    ],
+    "renderer": "dynamic"
+  },
+  "prendjak": {
+    "archetype": "provisions",
+    "layout": "poster-stack",
+    "hero": "billboard",
+    "type": "slab",
+    "surface": "paper",
+    "motion": "rise",
+    "media": "product-stage",
+    "accent": "#9c4323",
+    "family": "pantry",
+    "rationale": "Packaging-led pantry: actual products, serving formats and contact.",
+    "evidence": [
+      "https://shopee.co.id/prendjakecommerce"
+    ],
+    "renderer": "dynamic"
+  },
+  "samudra-international-commerce-pt": {
+    "archetype": "provisions",
+    "layout": "poster-stack",
+    "hero": "billboard",
+    "type": "slab",
+    "surface": "paper",
+    "motion": "rise",
+    "media": "product-stage",
+    "accent": "#9c4323",
+    "family": "pantry",
+    "rationale": "Packaging-led pantry: actual products, serving formats and contact.",
+    "evidence": [
+      "https://www.samudrainternationalcommerce.com/"
+    ],
+    "renderer": "dynamic"
+  },
+  "corina-sutera-intan-pt": {
+    "archetype": "provisions",
+    "layout": "poster-stack",
+    "hero": "billboard",
+    "type": "slab",
+    "surface": "paper",
+    "motion": "rise",
+    "media": "product-stage",
+    "accent": "#9c4323",
+    "family": "pantry",
+    "rationale": "Packaging-led pantry: actual products, serving formats and contact.",
+    "evidence": [
+      "https://companieshouse.id/corina-sutera-intan"
+    ],
+    "renderer": "dynamic"
+  },
+  "nusantara-primer-niaga": {
+    "archetype": "provisions",
+    "layout": "poster-stack",
+    "hero": "billboard",
+    "type": "slab",
+    "surface": "paper",
+    "motion": "rise",
+    "media": "product-stage",
+    "accent": "#9c4323",
+    "family": "pantry",
+    "rationale": "Packaging-led pantry: actual products, serving formats and contact.",
+    "evidence": [
+      "https://companyhouse.id/nusantara-primer-niaga"
+    ],
+    "renderer": "dynamic"
+  },
+  "agrofarm-nusa-raya-pt": {
+    "archetype": "natural-export",
+    "layout": "split-right",
+    "hero": "specimen",
+    "type": "serif-display",
+    "surface": "botanical",
+    "motion": "rise",
+    "media": "product-stage",
+    "accent": "#386142",
+    "family": "agriculture",
+    "rationale": "Provenance journal: commodity, origin and buyer enquiry.",
+    "evidence": [
+      "https://agrofarmnusaraya.id/"
+    ],
+    "renderer": "dynamic"
+  },
+  "merporizad-berkah-abadi-cv": {
+    "archetype": "natural-export",
+    "layout": "split-right",
+    "hero": "specimen",
+    "type": "serif-display",
+    "surface": "botanical",
+    "motion": "rise",
+    "media": "product-stage",
+    "accent": "#386142",
+    "family": "agriculture",
+    "rationale": "Provenance journal: commodity, origin and buyer enquiry.",
+    "evidence": [
+      "https://dgip.go.id/"
+    ],
+    "renderer": "dynamic"
+  },
+  "candra": {
+    "archetype": "provisions",
+    "layout": "poster-stack",
+    "hero": "billboard",
+    "type": "slab",
+    "surface": "paper",
+    "motion": "rise",
+    "media": "product-stage",
+    "accent": "#9c4323",
+    "family": "pantry",
+    "rationale": "Packaging-led pantry: actual products, serving formats and contact.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dynamic"
+  },
+  "cipta-abadi": {
+    "archetype": "provisions",
+    "layout": "poster-stack",
+    "hero": "billboard",
+    "type": "slab",
+    "surface": "paper",
+    "motion": "rise",
+    "media": "product-stage",
+    "accent": "#9c4323",
+    "family": "pantry",
+    "rationale": "Packaging-led pantry: actual products, serving formats and contact.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dynamic"
+  },
+  "superdryers": {
+    "archetype": "provisions",
+    "layout": "poster-stack",
+    "hero": "billboard",
+    "type": "slab",
+    "surface": "paper",
+    "motion": "rise",
+    "media": "product-stage",
+    "accent": "#9c4323",
+    "family": "pantry",
+    "rationale": "Packaging-led pantry: actual products, serving formats and contact.",
+    "evidence": [
+      "http://www.superdryers.com/"
+    ],
+    "renderer": "dynamic"
+  },
+  "star-laboratories-ud": {
+    "archetype": "natural-export",
+    "layout": "split-right",
+    "hero": "specimen",
+    "type": "serif-display",
+    "surface": "botanical",
+    "motion": "rise",
+    "media": "product-stage",
+    "accent": "#386142",
+    "family": "agriculture",
+    "rationale": "Provenance journal: commodity, origin and buyer enquiry.",
+    "evidence": [
+      "https://star-laboratories.com/"
+    ],
+    "renderer": "dynamic"
+  },
+  "sanfood-internasional": {
+    "archetype": "provisions",
+    "layout": "poster-stack",
+    "hero": "billboard",
+    "type": "slab",
+    "surface": "paper",
+    "motion": "rise",
+    "media": "product-stage",
+    "accent": "#7fb84c",
+    "family": "pantry",
+    "rationale": "Packaging-led pantry: actual products, serving formats and contact.",
+    "evidence": [
+      "https://www.sanfood.id/",
+      "https://linktr.ee/sanfood.indonesia"
+    ],
+    "renderer": "dynamic"
+  },
+  "tamanu-indonesia-gemilang-pt": {
+    "archetype": "natural-export",
+    "layout": "split-right",
+    "hero": "specimen",
+    "type": "serif-display",
+    "surface": "botanical",
+    "motion": "rise",
+    "media": "product-stage",
+    "accent": "#386142",
+    "family": "agriculture",
+    "rationale": "Provenance journal: commodity, origin and buyer enquiry.",
+    "evidence": [
+      "https://www.tamanuindonesia.com/"
+    ],
+    "renderer": "dynamic"
+  },
+  "adlaera-botanica-indonesia-pt": {
+    "archetype": "natural-export",
+    "layout": "split-right",
+    "hero": "specimen",
+    "type": "serif-display",
+    "surface": "botanical",
+    "motion": "rise",
+    "media": "product-stage",
+    "accent": "#386142",
+    "family": "agriculture",
+    "rationale": "Provenance journal: commodity, origin and buyer enquiry.",
+    "evidence": [
+      "https://tradexpoindonesia.com/exhibiting/exhibitor-profile-and-product/"
+    ],
+    "renderer": "dynamic"
+  },
+  "golden-coffee-bean-pt": {
+    "archetype": "coffeehouse",
+    "layout": "editorial-offset",
+    "hero": "aperture",
+    "type": "serif-display",
+    "surface": "cocoa",
+    "motion": "drift",
+    "media": "photo-cover",
+    "accent": "#69442e",
+    "family": "coffee",
+    "rationale": "Roastery publication: coffee origins, brewing and places.",
+    "evidence": [
+      "https://www.goldencoffeebean.com/"
+    ],
+    "renderer": "dynamic"
+  },
+  "tenggara-jaya-kibar-pt": {
+    "archetype": "provisions",
+    "layout": "poster-stack",
+    "hero": "billboard",
+    "type": "slab",
+    "surface": "paper",
+    "motion": "rise",
+    "media": "product-stage",
+    "accent": "#9c4323",
+    "family": "pantry",
+    "rationale": "Packaging-led pantry: actual products, serving formats and contact.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dynamic"
+  },
+  "ferrotek-trading-indonesia-pt": {
+    "archetype": "provisions",
+    "layout": "poster-stack",
+    "hero": "billboard",
+    "type": "slab",
+    "surface": "paper",
+    "motion": "rise",
+    "media": "product-stage",
+    "accent": "#9c4323",
+    "family": "pantry",
+    "rationale": "Packaging-led pantry: actual products, serving formats and contact.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dynamic"
+  },
+  "klumbayan-gold-farm-pt": {
+    "archetype": "natural-export",
+    "layout": "split-right",
+    "hero": "specimen",
+    "type": "serif-display",
+    "surface": "botanical",
+    "motion": "rise",
+    "media": "product-stage",
+    "accent": "#386142",
+    "family": "agriculture",
+    "rationale": "Provenance journal: commodity, origin and buyer enquiry.",
+    "evidence": [
+      "https://klumbayanfarm.com/"
+    ],
+    "renderer": "dynamic"
+  },
+  "fabulous-agro-mandiri-pt": {
+    "archetype": "provisions",
+    "layout": "poster-stack",
+    "hero": "billboard",
+    "type": "slab",
+    "surface": "paper",
+    "motion": "rise",
+    "media": "product-stage",
+    "accent": "#9c4323",
+    "family": "pantry",
+    "rationale": "Packaging-led pantry: actual products, serving formats and contact.",
+    "evidence": [
+      "https://ptfarm-international.com/"
+    ],
+    "renderer": "dynamic"
+  },
+  "pratama-spices-indonesia-pt": {
+    "archetype": "natural-export",
+    "layout": "split-right",
+    "hero": "specimen",
+    "type": "serif-display",
+    "surface": "botanical",
+    "motion": "rise",
+    "media": "product-stage",
+    "accent": "#386142",
+    "family": "agriculture",
+    "rationale": "Provenance journal: commodity, origin and buyer enquiry.",
+    "evidence": [
+      "http://www.pratamaspices.com/"
+    ],
+    "renderer": "dynamic"
+  },
+  "makmur-emas-aren-pt": {
+    "archetype": "natural-export",
+    "layout": "split-right",
+    "hero": "specimen",
+    "type": "serif-display",
+    "surface": "botanical",
+    "motion": "rise",
+    "media": "product-stage",
+    "accent": "#386142",
+    "family": "agriculture",
+    "rationale": "Provenance journal: commodity, origin and buyer enquiry.",
+    "evidence": [
+      "https://makmuremasaren.id/"
+    ],
+    "renderer": "dynamic"
+  },
+  "arga-bumi-indonesia-pt": {
+    "archetype": "natural-export",
+    "layout": "split-right",
+    "hero": "specimen",
+    "type": "serif-display",
+    "surface": "botanical",
+    "motion": "rise",
+    "media": "product-stage",
+    "accent": "#386142",
+    "family": "agriculture",
+    "rationale": "Provenance journal: commodity, origin and buyer enquiry.",
+    "evidence": [
+      "https://argabumi.id/id/"
+    ],
+    "renderer": "dynamic"
+  },
+  "aneka-kakao-pt": {
+    "archetype": "natural-export",
+    "layout": "split-right",
+    "hero": "specimen",
+    "type": "serif-display",
+    "surface": "botanical",
+    "motion": "rise",
+    "media": "product-stage",
+    "accent": "#386142",
+    "family": "agriculture",
+    "rationale": "Provenance journal: commodity, origin and buyer enquiry.",
+    "evidence": [
+      "https://anekakakao.com/website/",
+      "https://tradexpoindonesia.com/exhibiting/exhibitor-profile-and-product/"
+    ],
+    "renderer": "dynamic"
+  },
+  "arenga-alam-sejahtera": {
+    "archetype": "provisions",
+    "layout": "poster-stack",
+    "hero": "billboard",
+    "type": "slab",
+    "surface": "paper",
+    "motion": "rise",
+    "media": "product-stage",
+    "accent": "#9c4323",
+    "family": "pantry",
+    "rationale": "Packaging-led pantry: actual products, serving formats and contact.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dynamic"
+  },
+  "tempe-azaki": {
+    "archetype": "provisions",
+    "layout": "poster-stack",
+    "hero": "billboard",
+    "type": "slab",
+    "surface": "paper",
+    "motion": "rise",
+    "media": "product-stage",
+    "accent": "#78a94f",
+    "family": "pantry",
+    "rationale": "Packaging-led pantry: actual products, serving formats and contact.",
+    "evidence": [
+      "https://tempeazaki.com/"
+    ],
+    "renderer": "dynamic"
+  },
+  "tatalogam-lestari-pt": {
+    "archetype": "industrial",
+    "layout": "split-right",
+    "hero": "billboard",
+    "type": "condensed",
+    "surface": "chrome",
+    "motion": "snap",
+    "media": "mark-led",
+    "accent": "#70a943",
+    "family": "industrial",
+    "rationale": "Technical portfolio: manufacturing scope and buyer information.",
+    "evidence": [
+      "https://tatalogam.com/",
+      "https://tatalogam.com/contact/"
+    ],
+    "renderer": "dynamic"
+  },
+  "coco-reina-global-charcoal-pt": {
+    "archetype": "industrial",
+    "layout": "split-right",
+    "hero": "billboard",
+    "type": "condensed",
+    "surface": "chrome",
+    "motion": "snap",
+    "media": "mark-led",
+    "accent": "#355b75",
+    "family": "industrial",
+    "rationale": "Technical portfolio: manufacturing scope and buyer information.",
+    "evidence": [
+      "https://coconutcharcoal.org/"
+    ],
+    "renderer": "dynamic"
+  },
+  "primaniyarta": {
+    "archetype": "civic",
+    "layout": "ledger",
+    "hero": "column",
+    "type": "civic-sans",
+    "surface": "paper",
+    "motion": "reveal",
+    "media": "mark-led",
+    "accent": "#285d62",
+    "family": "civic",
+    "rationale": "Civic ledger: institutional role, location and public channels.",
+    "evidence": [
+      "https://www.kemendag.go.id/"
+    ],
+    "renderer": "dynamic"
+  },
+  "umbra": {
+    "archetype": "industrial",
+    "layout": "split-right",
+    "hero": "billboard",
+    "type": "condensed",
+    "surface": "chrome",
+    "motion": "snap",
+    "media": "mark-led",
+    "accent": "#355b75",
+    "family": "industrial",
+    "rationale": "Technical portfolio: manufacturing scope and buyer information.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dynamic"
+  },
+  "coco-riki-international-pt": {
+    "archetype": "industrial",
+    "layout": "split-right",
+    "hero": "billboard",
+    "type": "condensed",
+    "surface": "chrome",
+    "motion": "snap",
+    "media": "mark-led",
+    "accent": "#355b75",
+    "family": "industrial",
+    "rationale": "Technical portfolio: manufacturing scope and buyer information.",
+    "evidence": [
+      "http://www.cocoriki.com/",
+      "https://linktr.ee/cocorikii",
+      "https://www.inaexport.id/perusahaan/76021-coco-riki-international"
+    ],
+    "renderer": "dynamic"
+  },
+  "cma-cgm": {
+    "archetype": "network",
+    "layout": "map-grid",
+    "hero": "framed",
+    "type": "mono-accent",
+    "surface": "grid",
+    "motion": "scan",
+    "media": "map",
+    "accent": "#285e71",
+    "family": "logistics",
+    "rationale": "Trade network: services, operational scope and direct enquiry.",
+    "evidence": [
+      "https://www.cma-cgm.com/local/indonesia"
+    ],
+    "renderer": "dynamic"
+  },
+  "anindya-wiraputra-konsult-pt": {
+    "archetype": "network",
+    "layout": "map-grid",
+    "hero": "framed",
+    "type": "mono-accent",
+    "surface": "grid",
+    "motion": "scan",
+    "media": "map",
+    "accent": "#285e71",
+    "family": "logistics",
+    "rationale": "Trade network: services, operational scope and direct enquiry.",
+    "evidence": [
+      "https://www.linkedin.com/"
+    ],
+    "renderer": "dynamic"
+  },
+  "hipbaki": {
+    "archetype": "civic",
+    "layout": "ledger",
+    "hero": "column",
+    "type": "civic-sans",
+    "surface": "paper",
+    "motion": "reveal",
+    "media": "mark-led",
+    "accent": "#285d62",
+    "family": "civic",
+    "rationale": "Civic ledger: institutional role, location and public channels.",
+    "evidence": [
+      "https://hipbaki.com/"
+    ],
+    "renderer": "dynamic"
+  },
+  "mandiri": {
+    "archetype": "industrial",
+    "layout": "split-right",
+    "hero": "billboard",
+    "type": "condensed",
+    "surface": "chrome",
+    "motion": "snap",
+    "media": "mark-led",
+    "accent": "#355b75",
+    "family": "industrial",
+    "rationale": "Technical portfolio: manufacturing scope and buyer information.",
+    "evidence": [
+      "https://www.bankmandiri.co.id/"
+    ],
+    "renderer": "dynamic"
+  },
+  "toyota-motor-manufacturing-indonesia-pt-tmmin": {
+    "archetype": "industrial",
+    "layout": "split-right",
+    "hero": "billboard",
+    "type": "condensed",
+    "surface": "chrome",
+    "motion": "snap",
+    "media": "mark-led",
+    "accent": "#eb0a1e",
+    "family": "industrial",
+    "rationale": "Technical portfolio: manufacturing scope and buyer information.",
+    "evidence": [
+      "https://www.toyota.co.id/en/corporate"
+    ],
+    "renderer": "dynamic"
+  },
+  "oto-adult-diapers": {
+    "archetype": "luxury",
+    "layout": "product-stage",
+    "hero": "specimen",
+    "type": "serif-display",
+    "surface": "apothecary",
+    "motion": "reveal",
+    "media": "photo-contain",
+    "accent": "#725162",
+    "family": "beauty",
+    "rationale": "Beauty editorial: formulation context and product range.",
+    "evidence": [
+      "https://otoadultdiapers.com/"
+    ],
+    "renderer": "dynamic"
+  },
+  "merpati-mahardika-pt": {
+    "archetype": "luxury",
+    "layout": "product-stage",
+    "hero": "specimen",
+    "type": "serif-display",
+    "surface": "apothecary",
+    "motion": "reveal",
+    "media": "photo-contain",
+    "accent": "#725162",
+    "family": "beauty",
+    "rationale": "Beauty editorial: formulation context and product range.",
+    "evidence": [
+      "https://mmnatures.co.id/"
+    ],
+    "renderer": "dynamic"
+  },
+  "clean-matic": {
+    "archetype": "utility",
+    "layout": "index",
+    "hero": "framed",
+    "type": "grotesk",
+    "surface": "grid",
+    "motion": "snap",
+    "media": "product-stage",
+    "accent": "#45b883",
+    "family": "utility",
+    "rationale": "Practical catalogue: product use and business contact.",
+    "evidence": [
+      "https://cleanmatic.id/"
+    ],
+    "renderer": "dynamic"
+  },
+  "cipta-orion-metal-pt": {
+    "archetype": "industrial",
+    "layout": "split-right",
+    "hero": "billboard",
+    "type": "condensed",
+    "surface": "chrome",
+    "motion": "snap",
+    "media": "mark-led",
+    "accent": "#355b75",
+    "family": "industrial",
+    "rationale": "Technical portfolio: manufacturing scope and buyer information.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dynamic"
+  },
+  "easylink": {
+    "archetype": "network",
+    "layout": "map-grid",
+    "hero": "framed",
+    "type": "mono-accent",
+    "surface": "grid",
+    "motion": "scan",
+    "media": "map",
+    "accent": "#285e71",
+    "family": "logistics",
+    "rationale": "Trade network: services, operational scope and direct enquiry.",
+    "evidence": [
+      "https://easylink.id/"
+    ],
+    "renderer": "dynamic"
+  },
+  "watershore-growth-advisory-pt": {
+    "archetype": "network",
+    "layout": "map-grid",
+    "hero": "framed",
+    "type": "mono-accent",
+    "surface": "grid",
+    "motion": "scan",
+    "media": "map",
+    "accent": "#285e71",
+    "family": "logistics",
+    "rationale": "Trade network: services, operational scope and direct enquiry.",
+    "evidence": [
+      "https://companieshouse.id/watershore-growth-advisory"
+    ],
+    "renderer": "dynamic"
+  },
+  "cmn-internasional-indonesia-pt": {
+    "archetype": "industrial",
+    "layout": "split-right",
+    "hero": "billboard",
+    "type": "condensed",
+    "surface": "chrome",
+    "motion": "snap",
+    "media": "mark-led",
+    "accent": "#355b75",
+    "family": "industrial",
+    "rationale": "Technical portfolio: manufacturing scope and buyer information.",
+    "evidence": [
+      "https://moorlife.id/",
+      "https://www.inaexport.id/"
+    ],
+    "renderer": "dynamic"
+  },
+  "evange-line": {
+    "archetype": "luxury",
+    "layout": "product-stage",
+    "hero": "specimen",
+    "type": "serif-display",
+    "surface": "apothecary",
+    "motion": "reveal",
+    "media": "photo-contain",
+    "accent": "#725162",
+    "family": "beauty",
+    "rationale": "Beauty editorial: formulation context and product range.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dynamic"
+  },
+  "aroma-prima-livindo-pt-morris-perfume": {
+    "archetype": "luxury",
+    "layout": "product-stage",
+    "hero": "specimen",
+    "type": "serif-display",
+    "surface": "apothecary",
+    "motion": "reveal",
+    "media": "photo-contain",
+    "accent": "#e38db7",
+    "family": "beauty",
+    "rationale": "Beauty editorial: formulation context and product range.",
+    "evidence": [
+      "https://livindo.co.id/",
+      "https://livindo.co.id/eau-de-parfum/"
+    ],
+    "renderer": "dynamic"
+  },
+  "dragon-prima-farma": {
+    "archetype": "luxury",
+    "layout": "product-stage",
+    "hero": "specimen",
+    "type": "serif-display",
+    "surface": "apothecary",
+    "motion": "reveal",
+    "media": "photo-contain",
+    "accent": "#e5bd28",
+    "family": "beauty",
+    "rationale": "Beauty editorial: formulation context and product range.",
+    "evidence": [
+      "https://dragonprimafarma.com/",
+      "https://linktr.ee/dragonprima"
+    ],
+    "renderer": "dynamic"
+  },
+  "gs1-indonesia": {
+    "archetype": "civic",
+    "layout": "ledger",
+    "hero": "column",
+    "type": "civic-sans",
+    "surface": "paper",
+    "motion": "reveal",
+    "media": "mark-led",
+    "accent": "#285d62",
+    "family": "civic",
+    "rationale": "Civic ledger: institutional role, location and public channels.",
+    "evidence": [
+      "https://www.gs1.org/locations/indonesia"
+    ],
+    "renderer": "dynamic"
+  },
+  "pemkab-lombok-barat": {
+    "archetype": "civic",
+    "layout": "ledger",
+    "hero": "column",
+    "type": "civic-sans",
+    "surface": "paper",
+    "motion": "reveal",
+    "media": "mark-led",
+    "accent": "#285d62",
+    "family": "civic",
+    "rationale": "Civic ledger: institutional role, location and public channels.",
+    "evidence": [
+      "https://lombokbaratkab.go.id/"
+    ],
+    "renderer": "dynamic"
+  },
+  "pemkab-tuban": {
+    "archetype": "civic",
+    "layout": "ledger",
+    "hero": "column",
+    "type": "civic-sans",
+    "surface": "paper",
+    "motion": "reveal",
+    "media": "mark-led",
+    "accent": "#285d62",
+    "family": "civic",
+    "rationale": "Civic ledger: institutional role, location and public channels.",
+    "evidence": [
+      "https://tubankab.go.id/"
+    ],
+    "renderer": "dynamic"
+  },
+  "pemkab-gianyar": {
+    "archetype": "civic",
+    "layout": "ledger",
+    "hero": "column",
+    "type": "civic-sans",
+    "surface": "paper",
+    "motion": "reveal",
+    "media": "mark-led",
+    "accent": "#285d62",
+    "family": "civic",
+    "rationale": "Civic ledger: institutional role, location and public channels.",
+    "evidence": [
+      "https://gianyarkab.go.id/"
+    ],
+    "renderer": "dynamic"
+  },
+  "sinar-mas-land": {
+    "archetype": "industrial",
+    "layout": "split-right",
+    "hero": "billboard",
+    "type": "condensed",
+    "surface": "chrome",
+    "motion": "snap",
+    "media": "mark-led",
+    "accent": "#d5b24b",
+    "family": "industrial",
+    "rationale": "Technical portfolio: manufacturing scope and buyer information.",
+    "evidence": [
+      "https://www.sinarmasland.com/"
+    ],
+    "renderer": "dynamic"
+  },
+  "disperindag-provinsi-jatim": {
+    "archetype": "civic",
+    "layout": "ledger",
+    "hero": "column",
+    "type": "civic-sans",
+    "surface": "paper",
+    "motion": "reveal",
+    "media": "mark-led",
+    "accent": "#285d62",
+    "family": "civic",
+    "rationale": "Civic ledger: institutional role, location and public channels.",
+    "evidence": [
+      "https://disperindag.jatimprov.go.id/"
+    ],
+    "renderer": "dynamic"
+  },
+  "bp-batam": {
+    "archetype": "civic",
+    "layout": "ledger",
+    "hero": "column",
+    "type": "civic-sans",
+    "surface": "paper",
+    "motion": "reveal",
+    "media": "mark-led",
+    "accent": "#285d62",
+    "family": "civic",
+    "rationale": "Civic ledger: institutional role, location and public channels.",
+    "evidence": [
+      "https://bpbatam.go.id/"
+    ],
+    "renderer": "dynamic"
+  },
+  "bp-tanjung-pinang": {
+    "archetype": "civic",
+    "layout": "ledger",
+    "hero": "column",
+    "type": "civic-sans",
+    "surface": "paper",
+    "motion": "reveal",
+    "media": "mark-led",
+    "accent": "#285d62",
+    "family": "civic",
+    "rationale": "Civic ledger: institutional role, location and public channels.",
+    "evidence": [
+      "https://bptanjungpinang.id/"
+    ],
+    "renderer": "dynamic"
+  },
+  "dkpbpb-bintan-karimun": {
+    "archetype": "civic",
+    "layout": "ledger",
+    "hero": "column",
+    "type": "civic-sans",
+    "surface": "paper",
+    "motion": "reveal",
+    "media": "mark-led",
+    "accent": "#285d62",
+    "family": "civic",
+    "rationale": "Civic ledger: institutional role, location and public channels.",
+    "evidence": [
+      "https://www.kepriprov.go.id/"
+    ],
+    "renderer": "dynamic"
+  },
+  "disperindag-provinsi-jateng": {
+    "archetype": "civic",
+    "layout": "ledger",
+    "hero": "column",
+    "type": "civic-sans",
+    "surface": "paper",
+    "motion": "reveal",
+    "media": "mark-led",
+    "accent": "#285d62",
+    "family": "civic",
+    "rationale": "Civic ledger: institutional role, location and public channels.",
+    "evidence": [
+      "https://disperindag.jatengprov.go.id/"
+    ],
+    "renderer": "dynamic"
+  },
+  "campus-preneur": {
+    "archetype": "industrial",
+    "layout": "split-right",
+    "hero": "billboard",
+    "type": "condensed",
+    "surface": "chrome",
+    "motion": "snap",
+    "media": "mark-led",
+    "accent": "#355b75",
+    "family": "industrial",
+    "rationale": "Technical portfolio: manufacturing scope and buyer information.",
+    "evidence": [
+      "https://ppejp.kemendag.go.id/"
+    ],
+    "renderer": "dynamic"
+  },
+  "kawasan-berikat-nusantara": {
+    "archetype": "industrial",
+    "layout": "split-right",
+    "hero": "billboard",
+    "type": "condensed",
+    "surface": "chrome",
+    "motion": "snap",
+    "media": "mark-led",
+    "accent": "#355b75",
+    "family": "industrial",
+    "rationale": "Technical portfolio: manufacturing scope and buyer information.",
+    "evidence": [
+      "https://www.kbn.co.id/"
+    ],
+    "renderer": "dynamic"
+  },
+  "kawasan-industri-gresik-pt": {
+    "archetype": "industrial",
+    "layout": "split-right",
+    "hero": "billboard",
+    "type": "condensed",
+    "surface": "chrome",
+    "motion": "snap",
+    "media": "mark-led",
+    "accent": "#355b75",
+    "family": "industrial",
+    "rationale": "Technical portfolio: manufacturing scope and buyer information.",
+    "evidence": [
+      "https://kig.co.id/"
+    ],
+    "renderer": "dynamic"
+  },
+  "patimban-industrial-estate": {
+    "archetype": "industrial",
+    "layout": "split-right",
+    "hero": "billboard",
+    "type": "condensed",
+    "surface": "chrome",
+    "motion": "snap",
+    "media": "mark-led",
+    "accent": "#355b75",
+    "family": "industrial",
+    "rationale": "Technical portfolio: manufacturing scope and buyer information.",
+    "evidence": [
+      "https://patimbanindustrialestate.co.id/",
+      "https://linktr.ee/patimbanindustrialestate"
+    ],
+    "renderer": "dynamic"
+  },
+  "dinas-ppkukm-prov-dki-jakarta": {
+    "archetype": "civic",
+    "layout": "ledger",
+    "hero": "column",
+    "type": "civic-sans",
+    "surface": "paper",
+    "motion": "reveal",
+    "media": "mark-led",
+    "accent": "#285d62",
+    "family": "civic",
+    "rationale": "Civic ledger: institutional role, location and public channels.",
+    "evidence": [
+      "https://disppkukm.jakarta.go.id/"
+    ],
+    "renderer": "dynamic"
+  },
+  "disdagin-kota-bandung": {
+    "archetype": "civic",
+    "layout": "ledger",
+    "hero": "column",
+    "type": "civic-sans",
+    "surface": "paper",
+    "motion": "reveal",
+    "media": "mark-led",
+    "accent": "#285d62",
+    "family": "civic",
+    "rationale": "Civic ledger: institutional role, location and public channels.",
+    "evidence": [
+      "https://multisite.bandung.go.id/disdagin/",
+      "https://linktr.ee/disdagin_bdg"
+    ],
+    "renderer": "dynamic"
+  },
+  "pelindo": {
+    "archetype": "atelier",
+    "layout": "editorial-offset",
+    "hero": "framed",
+    "type": "archival",
+    "surface": "fabric",
+    "motion": "wipe",
+    "media": "collage",
+    "accent": "#795731",
+    "family": "craft",
+    "rationale": "Material journal: making, texture and artisan identity.",
+    "evidence": [
+      "https://www.pelindo.co.id/"
+    ],
+    "renderer": "dynamic"
+  },
+  "pt-pertamina-persero": {
+    "archetype": "industrial",
+    "layout": "split-right",
+    "hero": "billboard",
+    "type": "condensed",
+    "surface": "chrome",
+    "motion": "snap",
+    "media": "mark-led",
+    "accent": "#355b75",
+    "family": "industrial",
+    "rationale": "Technical portfolio: manufacturing scope and buyer information.",
+    "evidence": [
+      "https://www.pertamina.com/"
+    ],
+    "renderer": "dynamic"
+  },
+  "asephi": {
+    "archetype": "civic",
+    "layout": "ledger",
+    "hero": "column",
+    "type": "civic-sans",
+    "surface": "paper",
+    "motion": "reveal",
+    "media": "mark-led",
+    "accent": "#285d62",
+    "family": "civic",
+    "rationale": "Civic ledger: institutional role, location and public channels.",
+    "evidence": [
+      "https://asephi.com/"
+    ],
+    "renderer": "dynamic"
+  },
+  "kemen-ekraf": {
+    "archetype": "civic",
+    "layout": "ledger",
+    "hero": "column",
+    "type": "civic-sans",
+    "surface": "paper",
+    "motion": "reveal",
+    "media": "mark-led",
+    "accent": "#285d62",
+    "family": "civic",
+    "rationale": "Civic ledger: institutional role, location and public channels.",
+    "evidence": [
+      "https://ekraf.go.id/"
+    ],
+    "renderer": "dynamic"
+  },
+  "pemkot-tangerang": {
+    "archetype": "civic",
+    "layout": "ledger",
+    "hero": "column",
+    "type": "civic-sans",
+    "surface": "paper",
+    "motion": "reveal",
+    "media": "mark-led",
+    "accent": "#285d62",
+    "family": "civic",
+    "rationale": "Civic ledger: institutional role, location and public channels.",
+    "evidence": [
+      "https://www.tangerangkota.go.id/"
+    ],
+    "renderer": "dynamic"
+  },
+  "pemkot-tangsel": {
+    "archetype": "civic",
+    "layout": "ledger",
+    "hero": "column",
+    "type": "civic-sans",
+    "surface": "paper",
+    "motion": "reveal",
+    "media": "mark-led",
+    "accent": "#285d62",
+    "family": "civic",
+    "rationale": "Civic ledger: institutional role, location and public channels.",
+    "evidence": [
+      "https://tangerangselatankota.go.id/"
+    ],
+    "renderer": "dynamic"
+  },
+  "li-uli": {
+    "archetype": "atelier",
+    "layout": "editorial-offset",
+    "hero": "framed",
+    "type": "archival",
+    "surface": "fabric",
+    "motion": "wipe",
+    "media": "collage",
+    "accent": "#c96f43",
+    "family": "craft",
+    "rationale": "Material journal: making, texture and artisan identity.",
+    "evidence": [
+      "https://liulicraft.wordpress.com/",
+      "https://www.inalum.id/id/read/produk-wastra-tenun-desa-meat-karya-penyandang-disabilitas-melenggang-sampai-jamaica",
+      "https://dgip.go.id/uploads/berita_resmi/file/4aa86b1d28c87828a57b3b0f3a8c53c2.pdf",
+      "https://tangselpos.id/detail/32141/sederet-produk-unggulan-tenun-hingga-makanan-lezat-terpajang-di-galeri-dekranasda-pondok-aren",
+      "https://shopee.co.id/tokoliuli"
+    ],
+    "renderer": "dynamic"
+  },
+  "ageman-ecoprint": {
+    "archetype": "atelier",
+    "layout": "editorial-offset",
+    "hero": "framed",
+    "type": "archival",
+    "surface": "fabric",
+    "motion": "wipe",
+    "media": "collage",
+    "accent": "#6d7d49",
+    "family": "craft",
+    "rationale": "Material journal: making, texture and artisan identity.",
+    "evidence": [
+      "https://agemanecoprint.netlify.app/",
+      "https://glints.com/id/companies/ageman-ecoprint/59882a88-6c16-4721-9e2c-3c7741d48cd3",
+      "https://isef.co.id/wp-content/uploads/2023/10/Fashion_IN2MF_2023.pdf",
+      "https://www.idntimes.com/life/women/kelana-wastra-fashion-fest-2024-00-mm7zv-n7t61k",
+      "https://www.bcasyariah.co.id/cfind/source/files/annual-report/ar-bcas-2023---ind---convert_240715_141129.pdf"
+    ],
+    "renderer": "dynamic"
+  },
+  "dkait-craft": {
+    "archetype": "atelier",
+    "layout": "editorial-offset",
+    "hero": "framed",
+    "type": "archival",
+    "surface": "fabric",
+    "motion": "wipe",
+    "media": "collage",
+    "accent": "#795731",
+    "family": "craft",
+    "rationale": "Material journal: making, texture and artisan identity.",
+    "evidence": [
+      "https://lamansitu.lc.kemendag.go.id/domestic-brand/detail/dkait-craft",
+      "https://www.dgip.go.id/uploads/berita_resmi/file/237786c97d88ac6e164727ac5a49fb0a.pdf",
+      "https://journals.indexcopernicus.com/api/file/viewByFileId/1731279",
+      "https://msha.ke/katalogproduksmlumkmcentre/",
+      "https://plazabanten.com/products?data_from=brand&id=3&page=1"
+    ],
+    "renderer": "dynamic"
+  },
+  "ilalang-craft": {
+    "archetype": "atelier",
+    "layout": "editorial-offset",
+    "hero": "framed",
+    "type": "archival",
+    "surface": "fabric",
+    "motion": "wipe",
+    "media": "collage",
+    "accent": "#795731",
+    "family": "craft",
+    "rationale": "Material journal: making, texture and artisan identity.",
+    "evidence": [
+      "https://jom.fikom.budiluhur.ac.id/index.php/Pantarei/article/download/793/648",
+      "https://dgip.go.id/uploads/berita_resmi/file/f0491d5b4f1639bc7c3e625db3cd1b3a.pdf"
+    ],
+    "renderer": "dynamic"
+  },
+  "owi-rajut": {
+    "archetype": "atelier",
+    "layout": "editorial-offset",
+    "hero": "framed",
+    "type": "archival",
+    "surface": "fabric",
+    "motion": "wipe",
+    "media": "collage",
+    "accent": "#8b5a47",
+    "family": "craft",
+    "rationale": "Material journal: making, texture and artisan identity.",
+    "evidence": [
+      "https://www.dgip.go.id/uploads/berita_resmi/file/9e6511b217f11a588fa294908106de13.pdf",
+      "https://app.jumbomark.com/tmas?page=26700",
+      "https://openjournal.unpam.ac.id/index.php/informatika/article/download/15254/pdf/51477"
+    ],
+    "renderer": "dynamic"
+  },
+  "pemkab-serang": {
+    "archetype": "civic",
+    "layout": "ledger",
+    "hero": "column",
+    "type": "civic-sans",
+    "surface": "paper",
+    "motion": "reveal",
+    "media": "mark-led",
+    "accent": "#285d62",
+    "family": "civic",
+    "rationale": "Civic ledger: institutional role, location and public channels.",
+    "evidence": [
+      "https://serangkab.go.id/"
+    ],
+    "renderer": "dynamic"
+  },
+  "dispar-prov-banten": {
+    "archetype": "civic",
+    "layout": "ledger",
+    "hero": "column",
+    "type": "civic-sans",
+    "surface": "paper",
+    "motion": "reveal",
+    "media": "mark-led",
+    "accent": "#285d62",
+    "family": "civic",
+    "rationale": "Civic ledger: institutional role, location and public channels.",
+    "evidence": [
+      "https://dispar.bantenprov.go.id/"
+    ],
+    "renderer": "dynamic"
+  },
+  "kemen-investasi-dan-hilirisasi-bkpm": {
+    "archetype": "civic",
+    "layout": "ledger",
+    "hero": "column",
+    "type": "civic-sans",
+    "surface": "paper",
+    "motion": "reveal",
+    "media": "mark-led",
+    "accent": "#285d62",
+    "family": "civic",
+    "rationale": "Civic ledger: institutional role, location and public channels.",
+    "evidence": [
+      "https://www.bkpm.go.id/"
+    ],
+    "renderer": "dynamic"
+  },
+  "himki": {
+    "archetype": "civic",
+    "layout": "ledger",
+    "hero": "column",
+    "type": "civic-sans",
+    "surface": "paper",
+    "motion": "reveal",
+    "media": "mark-led",
+    "accent": "#4ba89c",
+    "family": "civic",
+    "rationale": "Civic ledger: institutional role, location and public channels.",
+    "evidence": [
+      "https://www.himki.id/"
+    ],
+    "renderer": "dynamic"
+  },
+  "blotani": {
+    "archetype": "interior",
+    "layout": "gallery-first",
+    "hero": "panorama",
+    "type": "grotesk",
+    "surface": "wood",
+    "motion": "drift",
+    "media": "photo-cover",
+    "accent": "#665c42",
+    "family": "furniture",
+    "rationale": "Architectural catalogue: objects, materials and spatial context.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dynamic"
+  },
+  "nuansa-kayu-bekas-cv": {
+    "archetype": "interior",
+    "layout": "gallery-first",
+    "hero": "panorama",
+    "type": "grotesk",
+    "surface": "wood",
+    "motion": "drift",
+    "media": "photo-cover",
+    "accent": "#665c42",
+    "family": "furniture",
+    "rationale": "Architectural catalogue: objects, materials and spatial context.",
+    "evidence": [
+      "https://www.wastewoodfurniture.com/"
+    ],
+    "renderer": "dynamic"
+  },
+  "kalika-indonesia": {
+    "archetype": "interior",
+    "layout": "gallery-first",
+    "hero": "panorama",
+    "type": "grotesk",
+    "surface": "wood",
+    "motion": "drift",
+    "media": "photo-cover",
+    "accent": "#665c42",
+    "family": "furniture",
+    "rationale": "Architectural catalogue: objects, materials and spatial context.",
+    "evidence": [
+      "https://www.infinityglobalexport.com/index.html"
+    ],
+    "renderer": "dynamic"
+  },
+  "sinar-continental-pt": {
+    "archetype": "interior",
+    "layout": "gallery-first",
+    "hero": "panorama",
+    "type": "grotesk",
+    "surface": "wood",
+    "motion": "drift",
+    "media": "photo-cover",
+    "accent": "#665c42",
+    "family": "furniture",
+    "rationale": "Architectural catalogue: objects, materials and spatial context.",
+    "evidence": [
+      "https://ptsinar.com/"
+    ],
+    "renderer": "dynamic"
+  },
+  "banana-paper": {
+    "archetype": "interior",
+    "layout": "gallery-first",
+    "hero": "panorama",
+    "type": "grotesk",
+    "surface": "wood",
+    "motion": "drift",
+    "media": "photo-cover",
+    "accent": "#665c42",
+    "family": "furniture",
+    "rationale": "Architectural catalogue: objects, materials and spatial context.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dynamic"
+  },
+  "indo-living-utama-cv": {
+    "archetype": "interior",
+    "layout": "gallery-first",
+    "hero": "panorama",
+    "type": "grotesk",
+    "surface": "wood",
+    "motion": "drift",
+    "media": "photo-cover",
+    "accent": "#665c42",
+    "family": "furniture",
+    "rationale": "Architectural catalogue: objects, materials and spatial context.",
+    "evidence": [
+      "https://tradexpoindonesia.com/"
+    ],
+    "renderer": "dynamic"
+  },
+  "deka-sari-perkasa-pt": {
+    "archetype": "interior",
+    "layout": "gallery-first",
+    "hero": "panorama",
+    "type": "grotesk",
+    "surface": "wood",
+    "motion": "drift",
+    "media": "photo-cover",
+    "accent": "#665c42",
+    "family": "furniture",
+    "rationale": "Architectural catalogue: objects, materials and spatial context.",
+    "evidence": [
+      "https://innola.co.id/",
+      "https://www.linkedin.com/company/ptdekasariperkasa/"
+    ],
+    "renderer": "dynamic"
+  },
+  "green-riverina": {
+    "archetype": "interior",
+    "layout": "gallery-first",
+    "hero": "panorama",
+    "type": "grotesk",
+    "surface": "wood",
+    "motion": "drift",
+    "media": "photo-cover",
+    "accent": "#665c42",
+    "family": "furniture",
+    "rationale": "Architectural catalogue: objects, materials and spatial context.",
+    "evidence": [
+      "https://greenriverina.com/website/"
+    ],
+    "renderer": "dynamic"
+  },
+  "dpd-himki-jabodetabek": {
+    "archetype": "civic",
+    "layout": "ledger",
+    "hero": "column",
+    "type": "civic-sans",
+    "surface": "paper",
+    "motion": "reveal",
+    "media": "mark-led",
+    "accent": "#285d62",
+    "family": "civic",
+    "rationale": "Civic ledger: institutional role, location and public channels.",
+    "evidence": [
+      "https://himkijabodetabek.org/"
+    ],
+    "renderer": "dynamic"
+  },
+  "javanesia-teakindo-cv": {
+    "archetype": "interior",
+    "layout": "gallery-first",
+    "hero": "panorama",
+    "type": "grotesk",
+    "surface": "wood",
+    "motion": "drift",
+    "media": "photo-cover",
+    "accent": "#665c42",
+    "family": "furniture",
+    "rationale": "Architectural catalogue: objects, materials and spatial context.",
+    "evidence": [
+      "http://www.javateakindo.com/"
+    ],
+    "renderer": "dynamic"
+  },
+  "mahata-gangga-sukta": {
+    "archetype": "interior",
+    "layout": "gallery-first",
+    "hero": "panorama",
+    "type": "grotesk",
+    "surface": "wood",
+    "motion": "drift",
+    "media": "photo-cover",
+    "accent": "#665c42",
+    "family": "furniture",
+    "rationale": "Architectural catalogue: objects, materials and spatial context.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dynamic"
+  },
+  "homeliving-by-exoticawood-furniture": {
+    "archetype": "interior",
+    "layout": "gallery-first",
+    "hero": "panorama",
+    "type": "grotesk",
+    "surface": "wood",
+    "motion": "drift",
+    "media": "photo-cover",
+    "accent": "#665c42",
+    "family": "furniture",
+    "rationale": "Architectural catalogue: objects, materials and spatial context.",
+    "evidence": [
+      "https://exoticawood.com/"
+    ],
+    "renderer": "dynamic"
+  },
+  "chakra-naga-furniture-pt": {
+    "archetype": "interior",
+    "layout": "gallery-first",
+    "hero": "panorama",
+    "type": "grotesk",
+    "surface": "wood",
+    "motion": "drift",
+    "media": "photo-cover",
+    "accent": "#665c42",
+    "family": "furniture",
+    "rationale": "Architectural catalogue: objects, materials and spatial context.",
+    "evidence": [
+      "https://www.grandome.id/"
+    ],
+    "renderer": "dynamic"
+  },
+  "home-fashions-indonesia-cv-sae-home": {
+    "archetype": "interior",
+    "layout": "gallery-first",
+    "hero": "panorama",
+    "type": "grotesk",
+    "surface": "wood",
+    "motion": "drift",
+    "media": "photo-cover",
+    "accent": "#665c42",
+    "family": "furniture",
+    "rationale": "Architectural catalogue: objects, materials and spatial context.",
+    "evidence": [
+      "https://www.saehomeliving.com/",
+      "https://linktr.ee/saehomeliving"
+    ],
+    "renderer": "dynamic"
+  },
+  "rumah-batik-setu": {
+    "archetype": "atelier",
+    "layout": "editorial-offset",
+    "hero": "framed",
+    "type": "archival",
+    "surface": "fabric",
+    "motion": "wipe",
+    "media": "collage",
+    "accent": "#19a9a4",
+    "family": "craft",
+    "rationale": "Material journal: making, texture and artisan identity.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dedicated"
+  },
+  "my-aicustom": {
+    "archetype": "control",
+    "layout": "split-right",
+    "hero": "console",
+    "type": "mono-accent",
+    "surface": "night",
+    "motion": "scan",
+    "media": "mark-led",
+    "accent": "#36d6ff",
+    "family": "technology",
+    "rationale": "Technical interface: capability and direct service enquiry.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dedicated"
+  },
+  "sepatu-wanita-naa": {
+    "archetype": "atelier",
+    "layout": "editorial-offset",
+    "hero": "framed",
+    "type": "archival",
+    "surface": "fabric",
+    "motion": "wipe",
+    "media": "collage",
+    "accent": "#9f6f52",
+    "family": "craft",
+    "rationale": "Material journal: making, texture and artisan identity.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dedicated"
+  },
+  "raja-freeze-dried": {
+    "archetype": "provisions",
+    "layout": "poster-stack",
+    "hero": "billboard",
+    "type": "slab",
+    "surface": "paper",
+    "motion": "rise",
+    "media": "product-stage",
+    "accent": "#10b981",
+    "family": "pantry",
+    "rationale": "Packaging-led pantry: actual products, serving formats and contact.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dedicated"
+  },
+  "bumina-eenk": {
+    "archetype": "destination",
+    "layout": "gallery-first",
+    "hero": "panorama",
+    "type": "italic-editorial",
+    "surface": "linen",
+    "motion": "drift",
+    "media": "panorama",
+    "accent": "#10b981",
+    "family": "hospitality",
+    "rationale": "Destination journal: authentic place imagery and booking channels.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dedicated"
+  },
+  "samara-from-home": {
+    "archetype": "luxury",
+    "layout": "product-stage",
+    "hero": "specimen",
+    "type": "serif-display",
+    "surface": "apothecary",
+    "motion": "reveal",
+    "media": "photo-contain",
+    "accent": "#c2593f",
+    "family": "beauty",
+    "rationale": "Beauty editorial: formulation context and product range.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dedicated"
+  },
+  "hhb": {
+    "archetype": "network",
+    "layout": "map-grid",
+    "hero": "framed",
+    "type": "mono-accent",
+    "surface": "grid",
+    "motion": "scan",
+    "media": "map",
+    "accent": "#0284c7",
+    "family": "logistics",
+    "rationale": "Trade network: services, operational scope and direct enquiry.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dedicated"
+  },
+  "aranomiya": {
+    "archetype": "luxury",
+    "layout": "product-stage",
+    "hero": "specimen",
+    "type": "serif-display",
+    "surface": "apothecary",
+    "motion": "reveal",
+    "media": "photo-contain",
+    "accent": "#15803d",
+    "family": "beauty",
+    "rationale": "Beauty editorial: formulation context and product range.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dedicated"
+  },
+  "dbumbu-aurelshop": {
+    "archetype": "provisions",
+    "layout": "poster-stack",
+    "hero": "billboard",
+    "type": "slab",
+    "surface": "paper",
+    "motion": "rise",
+    "media": "product-stage",
+    "accent": "#059669",
+    "family": "pantry",
+    "rationale": "Packaging-led pantry: actual products, serving formats and contact.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dedicated"
+  },
+  "zahhab": {
+    "archetype": "provisions",
+    "layout": "poster-stack",
+    "hero": "billboard",
+    "type": "slab",
+    "surface": "paper",
+    "motion": "rise",
+    "media": "product-stage",
+    "accent": "#16a34a",
+    "family": "pantry",
+    "rationale": "Packaging-led pantry: actual products, serving formats and contact.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dedicated"
+  },
+  "our-herb": {
+    "archetype": "provisions",
+    "layout": "poster-stack",
+    "hero": "billboard",
+    "type": "slab",
+    "surface": "paper",
+    "motion": "rise",
+    "media": "product-stage",
+    "accent": "#4338ca",
+    "family": "pantry",
+    "rationale": "Packaging-led pantry: actual products, serving formats and contact.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dedicated"
+  },
+  "md-organic": {
+    "archetype": "natural-export",
+    "layout": "split-right",
+    "hero": "specimen",
+    "type": "serif-display",
+    "surface": "botanical",
+    "motion": "rise",
+    "media": "product-stage",
+    "accent": "#047857",
+    "family": "agriculture",
+    "rationale": "Provenance journal: commodity, origin and buyer enquiry.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dedicated"
+  },
+  "titik-kurniasih": {
+    "archetype": "atelier",
+    "layout": "editorial-offset",
+    "hero": "framed",
+    "type": "archival",
+    "surface": "fabric",
+    "motion": "wipe",
+    "media": "collage",
+    "accent": "#8c5339",
+    "family": "craft",
+    "rationale": "Material journal: making, texture and artisan identity.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dedicated"
+  },
+  "ladifa-collection": {
+    "archetype": "atelier",
+    "layout": "editorial-offset",
+    "hero": "framed",
+    "type": "archival",
+    "surface": "fabric",
+    "motion": "wipe",
+    "media": "collage",
+    "accent": "#7e22ce",
+    "family": "craft",
+    "rationale": "Material journal: making, texture and artisan identity.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dedicated"
+  },
+  "euis-siti-khodijah": {
+    "archetype": "atelier",
+    "layout": "editorial-offset",
+    "hero": "framed",
+    "type": "archival",
+    "surface": "fabric",
+    "motion": "wipe",
+    "media": "collage",
+    "accent": "#98643c",
+    "family": "craft",
+    "rationale": "Material journal: making, texture and artisan identity.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dedicated"
+  },
+  "fenda-iriani": {
+    "archetype": "provisions",
+    "layout": "poster-stack",
+    "hero": "billboard",
+    "type": "slab",
+    "surface": "paper",
+    "motion": "rise",
+    "media": "product-stage",
+    "accent": "#c45d2a",
+    "family": "pantry",
+    "rationale": "Packaging-led pantry: actual products, serving formats and contact.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dedicated"
+  },
+  "den-bagus": {
+    "archetype": "provisions",
+    "layout": "poster-stack",
+    "hero": "billboard",
+    "type": "slab",
+    "surface": "paper",
+    "motion": "rise",
+    "media": "product-stage",
+    "accent": "#b75b2a",
+    "family": "pantry",
+    "rationale": "Packaging-led pantry: actual products, serving formats and contact.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dedicated"
+  },
+  "shirudo-lab": {
+    "archetype": "luxury",
+    "layout": "product-stage",
+    "hero": "specimen",
+    "type": "serif-display",
+    "surface": "apothecary",
+    "motion": "reveal",
+    "media": "photo-contain",
+    "accent": "#95607e",
+    "family": "beauty",
+    "rationale": "Beauty editorial: formulation context and product range.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dedicated"
+  },
+  "haira": {
+    "archetype": "atelier",
+    "layout": "editorial-offset",
+    "hero": "framed",
+    "type": "archival",
+    "surface": "fabric",
+    "motion": "wipe",
+    "media": "collage",
+    "accent": "#9a4964",
+    "family": "craft",
+    "rationale": "Material journal: making, texture and artisan identity.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dedicated"
+  },
+  "lika-snack": {
+    "archetype": "provisions",
+    "layout": "poster-stack",
+    "hero": "billboard",
+    "type": "slab",
+    "surface": "paper",
+    "motion": "rise",
+    "media": "product-stage",
+    "accent": "#c45d2a",
+    "family": "pantry",
+    "rationale": "Packaging-led pantry: actual products, serving formats and contact.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dedicated"
+  },
+  "daniscakelicio": {
+    "archetype": "provisions",
+    "layout": "poster-stack",
+    "hero": "billboard",
+    "type": "slab",
+    "surface": "paper",
+    "motion": "rise",
+    "media": "product-stage",
+    "accent": "#d97706",
+    "family": "pantry",
+    "rationale": "Packaging-led pantry: actual products, serving formats and contact.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dedicated"
+  },
+  "pt-cosmar": {
+    "archetype": "luxury",
+    "layout": "product-stage",
+    "hero": "specimen",
+    "type": "serif-display",
+    "surface": "apothecary",
+    "motion": "reveal",
+    "media": "photo-contain",
+    "accent": "#32627c",
+    "family": "beauty",
+    "rationale": "Beauty editorial: formulation context and product range.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dedicated"
+  },
+  "dapur-nanay": {
+    "archetype": "provisions",
+    "layout": "poster-stack",
+    "hero": "billboard",
+    "type": "slab",
+    "surface": "paper",
+    "motion": "rise",
+    "media": "product-stage",
+    "accent": "#ca8a04",
+    "family": "pantry",
+    "rationale": "Packaging-led pantry: actual products, serving formats and contact.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dedicated"
+  },
+  "pempek-wak-ebot": {
+    "archetype": "civic",
+    "layout": "ledger",
+    "hero": "column",
+    "type": "civic-sans",
+    "surface": "paper",
+    "motion": "reveal",
+    "media": "mark-led",
+    "accent": "#c45d2a",
+    "family": "civic",
+    "rationale": "Civic ledger: institutional role, location and public channels.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dedicated"
+  },
+  "zyvas": {
+    "archetype": "atelier",
+    "layout": "editorial-offset",
+    "hero": "framed",
+    "type": "archival",
+    "surface": "fabric",
+    "motion": "wipe",
+    "media": "collage",
+    "accent": "#9f2a47",
+    "family": "craft",
+    "rationale": "Material journal: making, texture and artisan identity.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dedicated"
+  },
+  "pt-niaga-citra-mandiri": {
+    "archetype": "network",
+    "layout": "map-grid",
+    "hero": "framed",
+    "type": "mono-accent",
+    "surface": "grid",
+    "motion": "scan",
+    "media": "map",
+    "accent": "#32627c",
+    "family": "logistics",
+    "rationale": "Trade network: services, operational scope and direct enquiry.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dedicated"
+  },
+  "rhr-snack": {
+    "archetype": "provisions",
+    "layout": "poster-stack",
+    "hero": "billboard",
+    "type": "slab",
+    "surface": "paper",
+    "motion": "rise",
+    "media": "product-stage",
+    "accent": "#c45d2a",
+    "family": "pantry",
+    "rationale": "Packaging-led pantry: actual products, serving formats and contact.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dedicated"
+  },
+  "ery-mamaw": {
+    "archetype": "provisions",
+    "layout": "poster-stack",
+    "hero": "billboard",
+    "type": "slab",
+    "surface": "paper",
+    "motion": "rise",
+    "media": "product-stage",
+    "accent": "#c45d2a",
+    "family": "pantry",
+    "rationale": "Packaging-led pantry: actual products, serving formats and contact.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dedicated"
+  },
+  "rosniati": {
+    "archetype": "provisions",
+    "layout": "poster-stack",
+    "hero": "billboard",
+    "type": "slab",
+    "surface": "paper",
+    "motion": "rise",
+    "media": "product-stage",
+    "accent": "#c45d2a",
+    "family": "pantry",
+    "rationale": "Packaging-led pantry: actual products, serving formats and contact.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dedicated"
+  },
+  "eni-chandra": {
+    "archetype": "atelier",
+    "layout": "editorial-offset",
+    "hero": "framed",
+    "type": "archival",
+    "surface": "fabric",
+    "motion": "wipe",
+    "media": "collage",
+    "accent": "#b45309",
+    "family": "craft",
+    "rationale": "Material journal: making, texture and artisan identity.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dedicated"
+  },
+  "jahe-hayatiqu": {
+    "archetype": "provisions",
+    "layout": "poster-stack",
+    "hero": "billboard",
+    "type": "slab",
+    "surface": "paper",
+    "motion": "rise",
+    "media": "product-stage",
+    "accent": "#527b4a",
+    "family": "pantry",
+    "rationale": "Packaging-led pantry: actual products, serving formats and contact.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dedicated"
+  },
+  "ochokat": {
+    "archetype": "provisions",
+    "layout": "poster-stack",
+    "hero": "billboard",
+    "type": "slab",
+    "surface": "paper",
+    "motion": "rise",
+    "media": "product-stage",
+    "accent": "#c45d2a",
+    "family": "pantry",
+    "rationale": "Packaging-led pantry: actual products, serving formats and contact.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dedicated"
+  },
+  "fennycroche": {
+    "archetype": "atelier",
+    "layout": "editorial-offset",
+    "hero": "framed",
+    "type": "archival",
+    "surface": "fabric",
+    "motion": "wipe",
+    "media": "collage",
+    "accent": "#98643c",
+    "family": "craft",
+    "rationale": "Material journal: making, texture and artisan identity.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dedicated"
+  },
+  "elleta": {
+    "archetype": "atelier",
+    "layout": "editorial-offset",
+    "hero": "framed",
+    "type": "archival",
+    "surface": "fabric",
+    "motion": "wipe",
+    "media": "collage",
+    "accent": "#9f1239",
+    "family": "craft",
+    "rationale": "Material journal: making, texture and artisan identity.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dedicated"
+  },
+  "kartika-bela": {
+    "archetype": "provisions",
+    "layout": "poster-stack",
+    "hero": "billboard",
+    "type": "slab",
+    "surface": "paper",
+    "motion": "rise",
+    "media": "product-stage",
+    "accent": "#c45d2a",
+    "family": "pantry",
+    "rationale": "Packaging-led pantry: actual products, serving formats and contact.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dedicated"
+  },
+  "snapclean": {
+    "archetype": "utility",
+    "layout": "index",
+    "hero": "framed",
+    "type": "grotesk",
+    "surface": "grid",
+    "motion": "snap",
+    "media": "product-stage",
+    "accent": "#32627c",
+    "family": "utility",
+    "rationale": "Practical catalogue: product use and business contact.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dedicated"
+  },
+  "nurazlinda": {
+    "archetype": "atelier",
+    "layout": "editorial-offset",
+    "hero": "framed",
+    "type": "archival",
+    "surface": "fabric",
+    "motion": "wipe",
+    "media": "collage",
+    "accent": "#9a4964",
+    "family": "craft",
+    "rationale": "Material journal: making, texture and artisan identity.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dedicated"
+  },
+  "fevy": {
+    "archetype": "provisions",
+    "layout": "poster-stack",
+    "hero": "billboard",
+    "type": "slab",
+    "surface": "paper",
+    "motion": "rise",
+    "media": "product-stage",
+    "accent": "#8d3b14",
+    "family": "pantry",
+    "rationale": "Packaging-led pantry: actual products, serving formats and contact.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dedicated"
+  },
+  "health-today": {
+    "archetype": "provisions",
+    "layout": "poster-stack",
+    "hero": "billboard",
+    "type": "slab",
+    "surface": "paper",
+    "motion": "rise",
+    "media": "product-stage",
+    "accent": "#527b4a",
+    "family": "pantry",
+    "rationale": "Packaging-led pantry: actual products, serving formats and contact.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dedicated"
+  },
+  "batinos-pastry": {
+    "archetype": "provisions",
+    "layout": "poster-stack",
+    "hero": "billboard",
+    "type": "slab",
+    "surface": "paper",
+    "motion": "rise",
+    "media": "product-stage",
+    "accent": "#c45d2a",
+    "family": "pantry",
+    "rationale": "Packaging-led pantry: actual products, serving formats and contact.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dedicated"
+  },
+  "meraki": {
+    "archetype": "atelier",
+    "layout": "editorial-offset",
+    "hero": "framed",
+    "type": "archival",
+    "surface": "fabric",
+    "motion": "wipe",
+    "media": "collage",
+    "accent": "#98643c",
+    "family": "craft",
+    "rationale": "Material journal: making, texture and artisan identity.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dedicated"
+  },
+  "giga-tech": {
+    "archetype": "control",
+    "layout": "split-right",
+    "hero": "console",
+    "type": "mono-accent",
+    "surface": "night",
+    "motion": "scan",
+    "media": "mark-led",
+    "accent": "#167b8d",
+    "family": "technology",
+    "rationale": "Technical interface: capability and direct service enquiry.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dedicated"
+  },
+  "lalisha-food": {
+    "archetype": "provisions",
+    "layout": "poster-stack",
+    "hero": "billboard",
+    "type": "slab",
+    "surface": "paper",
+    "motion": "rise",
+    "media": "product-stage",
+    "accent": "#c45d2a",
+    "family": "pantry",
+    "rationale": "Packaging-led pantry: actual products, serving formats and contact.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dedicated"
+  },
+  "tokibi-coffee": {
+    "archetype": "coffeehouse",
+    "layout": "editorial-offset",
+    "hero": "aperture",
+    "type": "serif-display",
+    "surface": "cocoa",
+    "motion": "drift",
+    "media": "photo-cover",
+    "accent": "#527b4a",
+    "family": "coffee",
+    "rationale": "Roastery publication: coffee origins, brewing and places.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dedicated"
+  },
+  "mba-wanti": {
+    "archetype": "provisions",
+    "layout": "poster-stack",
+    "hero": "billboard",
+    "type": "slab",
+    "surface": "paper",
+    "motion": "rise",
+    "media": "product-stage",
+    "accent": "#c45d2a",
+    "family": "pantry",
+    "rationale": "Packaging-led pantry: actual products, serving formats and contact.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dedicated"
+  },
+  "datik-batik": {
+    "archetype": "atelier",
+    "layout": "editorial-offset",
+    "hero": "framed",
+    "type": "archival",
+    "surface": "fabric",
+    "motion": "wipe",
+    "media": "collage",
+    "accent": "#9a4964",
+    "family": "craft",
+    "rationale": "Material journal: making, texture and artisan identity.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dedicated"
+  },
+  "peddler-indonesia": {
+    "archetype": "atelier",
+    "layout": "editorial-offset",
+    "hero": "framed",
+    "type": "archival",
+    "surface": "fabric",
+    "motion": "wipe",
+    "media": "collage",
+    "accent": "#9a4964",
+    "family": "craft",
+    "rationale": "Material journal: making, texture and artisan identity.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dedicated"
+  },
+  "dodol-betawi-haji-imang": {
+    "archetype": "provisions",
+    "layout": "poster-stack",
+    "hero": "billboard",
+    "type": "slab",
+    "surface": "paper",
+    "motion": "rise",
+    "media": "product-stage",
+    "accent": "#c45d2a",
+    "family": "pantry",
+    "rationale": "Packaging-led pantry: actual products, serving formats and contact.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dedicated"
+  },
+  "larrisa-food": {
+    "archetype": "provisions",
+    "layout": "poster-stack",
+    "hero": "billboard",
+    "type": "slab",
+    "surface": "paper",
+    "motion": "rise",
+    "media": "product-stage",
+    "accent": "#c45d2a",
+    "family": "pantry",
+    "rationale": "Packaging-led pantry: actual products, serving formats and contact.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dedicated"
+  },
+  "cv-makmur-jaya-sentosa": {
+    "archetype": "network",
+    "layout": "map-grid",
+    "hero": "framed",
+    "type": "mono-accent",
+    "surface": "grid",
+    "motion": "scan",
+    "media": "map",
+    "accent": "#32627c",
+    "family": "logistics",
+    "rationale": "Trade network: services, operational scope and direct enquiry.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dedicated"
+  },
+  "kenyess-food": {
+    "archetype": "provisions",
+    "layout": "poster-stack",
+    "hero": "billboard",
+    "type": "slab",
+    "surface": "paper",
+    "motion": "rise",
+    "media": "product-stage",
+    "accent": "#c2410c",
+    "family": "pantry",
+    "rationale": "Packaging-led pantry: actual products, serving formats and contact.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dedicated"
+  },
+  "cuan-dong": {
+    "archetype": "network",
+    "layout": "map-grid",
+    "hero": "framed",
+    "type": "mono-accent",
+    "surface": "grid",
+    "motion": "scan",
+    "media": "map",
+    "accent": "#38bdf8",
+    "family": "logistics",
+    "rationale": "Trade network: services, operational scope and direct enquiry.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dedicated"
+  },
+  "kule-perfume": {
+    "archetype": "luxury",
+    "layout": "product-stage",
+    "hero": "specimen",
+    "type": "serif-display",
+    "surface": "apothecary",
+    "motion": "reveal",
+    "media": "photo-contain",
+    "accent": "#d97706",
+    "family": "beauty",
+    "rationale": "Beauty editorial: formulation context and product range.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dedicated"
+  },
+  "sapa-legend-coffee": {
+    "archetype": "coffeehouse",
+    "layout": "editorial-offset",
+    "hero": "aperture",
+    "type": "serif-display",
+    "surface": "cocoa",
+    "motion": "drift",
+    "media": "photo-cover",
+    "accent": "#d4a373",
+    "family": "coffee",
+    "rationale": "Roastery publication: coffee origins, brewing and places.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dedicated"
+  },
+  "vietrade": {
+    "archetype": "civic",
+    "layout": "ledger",
+    "hero": "column",
+    "type": "civic-sans",
+    "surface": "paper",
+    "motion": "reveal",
+    "media": "mark-led",
+    "accent": "#d4af37",
+    "family": "civic",
+    "rationale": "Civic ledger: institutional role, location and public channels.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dedicated"
+  },
+  "the-munching-queen": {
+    "archetype": "provisions",
+    "layout": "poster-stack",
+    "hero": "billboard",
+    "type": "slab",
+    "surface": "paper",
+    "motion": "rise",
+    "media": "product-stage",
+    "accent": "#d97706",
+    "family": "pantry",
+    "rationale": "Packaging-led pantry: actual products, serving formats and contact.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dedicated"
+  },
+  "snack-santuy": {
+    "archetype": "provisions",
+    "layout": "poster-stack",
+    "hero": "billboard",
+    "type": "slab",
+    "surface": "paper",
+    "motion": "rise",
+    "media": "product-stage",
+    "accent": "#15803d",
+    "family": "pantry",
+    "rationale": "Packaging-led pantry: actual products, serving formats and contact.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dedicated"
+  },
+  "bopet-pagaruyung": {
+    "archetype": "provisions",
+    "layout": "poster-stack",
+    "hero": "billboard",
+    "type": "slab",
+    "surface": "paper",
+    "motion": "rise",
+    "media": "product-stage",
+    "accent": "#b91c1c",
+    "family": "pantry",
+    "rationale": "Packaging-led pantry: actual products, serving formats and contact.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dedicated"
+  },
+  "kusuma-kencana-mulya": {
+    "archetype": "atelier",
+    "layout": "editorial-offset",
+    "hero": "framed",
+    "type": "archival",
+    "surface": "fabric",
+    "motion": "wipe",
+    "media": "collage",
+    "accent": "#1e3a8a",
+    "family": "craft",
+    "rationale": "Material journal: making, texture and artisan identity.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dedicated"
+  },
+  "arjuna-68": {
+    "archetype": "provisions",
+    "layout": "poster-stack",
+    "hero": "billboard",
+    "type": "slab",
+    "surface": "paper",
+    "motion": "rise",
+    "media": "product-stage",
+    "accent": "#c2410c",
+    "family": "pantry",
+    "rationale": "Packaging-led pantry: actual products, serving formats and contact.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dedicated"
+  },
+  "amood-healthy-foods": {
+    "archetype": "provisions",
+    "layout": "poster-stack",
+    "hero": "billboard",
+    "type": "slab",
+    "surface": "paper",
+    "motion": "rise",
+    "media": "product-stage",
+    "accent": "#ea580c",
+    "family": "pantry",
+    "rationale": "Packaging-led pantry: actual products, serving formats and contact.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dedicated"
+  },
+  "buminaeenk-freeze-dried": {
+    "archetype": "provisions",
+    "layout": "poster-stack",
+    "hero": "billboard",
+    "type": "slab",
+    "surface": "paper",
+    "motion": "rise",
+    "media": "product-stage",
+    "accent": "#10b981",
+    "family": "pantry",
+    "rationale": "Legacy identity preserved. Packaging-led pantry: actual products, serving formats and contact.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dedicated"
+  },
+  "ninauka": {
+    "archetype": "atelier",
+    "layout": "editorial-offset",
+    "hero": "framed",
+    "type": "archival",
+    "surface": "fabric",
+    "motion": "wipe",
+    "media": "collage",
+    "accent": "#8c5339",
+    "family": "craft",
+    "rationale": "Legacy identity preserved. Material journal: making, texture and artisan identity.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dedicated"
+  },
+  "shayfara": {
+    "archetype": "provisions",
+    "layout": "poster-stack",
+    "hero": "billboard",
+    "type": "slab",
+    "surface": "paper",
+    "motion": "rise",
+    "media": "product-stage",
+    "accent": "#059669",
+    "family": "pantry",
+    "rationale": "Legacy identity preserved. Packaging-led pantry: actual products, serving formats and contact.",
+    "evidence": [
+      "Repository tenant category and exhibition listing"
+    ],
+    "renderer": "dedicated"
+  }
+}

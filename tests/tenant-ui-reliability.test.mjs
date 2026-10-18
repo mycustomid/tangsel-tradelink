@@ -29,12 +29,12 @@ test('every tenant exposes a valid Maps discovery link', () => {
   }
 });
 
-test('website-backed tenants use a remote brand/site icon instead of a generated letter', () => {
+test('unverified website icons are not promoted to brand logos', () => {
   for (const base of tenants) {
     const tenant = { ...base, ...(research[base.slug] || {}) };
-    if (tenant.website || tenant.logo) {
+    if (tenant.logo) {
       assert.match(getTenantLogo(tenant), /^https?:\/\//, `missing logo source for ${base.slug}`);
-    }
+    } else assert.equal(getTenantLogo(tenant), '', 'use typographic fallback when logo evidence is missing');
   }
 });
 

@@ -19,13 +19,15 @@ test('every published tenant URL has an explicit art-direction fingerprint', () 
   }
 });
 
-test('published tenants are not collapsed into a handful of identical designs', () => {
+test('published tenants receive business-led compositions rather than random fingerprints', () => {
   const signatures = publishedSlugs.map((slug) => {
     const d = TENANT_ART_DIRECTIONS[slug];
     return [d.archetype,d.layout,d.hero,d.type,d.surface,d.motion,d.media,d.accent].join('|');
   });
   const unique = new Set(signatures);
-  assert.equal(unique.size, publishedSlugs.length, 'every published slug should resolve to a unique fingerprint');
+  assert.ok(unique.size >= 12, 'distinct business families need distinct composition choices');
+  for (const slug of publishedSlugs) assert.ok(TENANT_ART_DIRECTIONS[slug].rationale.length > 30);
+  assert.doesNotMatch(fs.readFileSync(path.join(root,'src/data/tenant-art-directions.mjs'),'utf8'), /Math\.random|Math\.imul/);
 });
 
 test('generic tenant route uses adaptive showcase instead of the old link-card fallback', () => {

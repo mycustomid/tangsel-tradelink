@@ -74,20 +74,20 @@ function downloadFile(url, dest) {
       const ext = u.toLowerCase().includes('.png') ? '.png' : (u.toLowerCase().includes('.webp') ? '.webp' : '.jpg');
       const filename = `kenyess-asset-${saved + 1}${ext}`;
       const dest = path.join(outDir, filename);
-      console.log(`Downloading ${u} -> ${filename}...`);
+      console.log("%s", `Downloading ${u} -> ${filename}...`);
       await downloadFile(u, dest);
       const stat = fs.statSync(dest);
       if (stat.size > 2000) {
-        console.log(`Saved ${filename} (${stat.size} bytes)`);
+        console.log("%s", `Saved ${filename} (${stat.size} bytes)`);
         saved++;
       } else {
         fs.unlinkSync(dest);
       }
     } catch (err) {
-      console.log(`Failed to download ${u}:`, err.message);
+      console.log("%s", `Failed to download ${u}:`, err.message);
     }
   }
 
   await browser.close();
-  console.log(`Finished scraping Kenyess Food assets. Total saved: ${saved}`);
+  console.log("%s", `Finished scraping Kenyess Food assets. Total saved: ${saved}`);
 })();

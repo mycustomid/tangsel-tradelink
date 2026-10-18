@@ -25,7 +25,7 @@ const resolveAsset = (src?: string) => {
   return src;
 };
 const heroImage = resolveAsset(config.heroImage);
-const gallery = config.gallery.map((item) => ({ ...item, image: resolveAsset(item.image) }));
+const gallery = config.gallery.map((item) => ({ ...item, image: resolveAsset(item.image), url: resolveAsset(item.url) }));
 const p = config.palette || {};
 const vars = `--page:${p.bg||'#f3f0e9'};--ink:${p.ink||'#141414'};--accent:${p.accent||'#b46b3d'};--surface:${p.surface||'#ffffff'}`;
 const label = config.brandLabel || tenant.name;
@@ -180,13 +180,13 @@ const experience = experienceMap[label] || {
     <div class="chapter-kicker reveal"><span>02</span><p>{experience.proofKicker}</p></div>
     <div class="proof-heading"><h2 class="reveal">{experience.proofTitle}</h2><p class="reveal" style="--delay:.08s">{experience.proofIntro}</p></div>
     <div class="stats-grid reveal">{config.stats.map((s,i)=><article><small>{String(i+1).padStart(2,'0')}</small><strong>{s.value}</strong><p>{s.label}</p></article>)}</div>
-    <div class="highlight-grid">{config.highlights.map((h,i)=><article class="reveal" style={`--delay:${i*.07}s`}><span>{String(i+1).padStart(2,'0')}</span><h3>{h.title}</h3><p>{h.body}</p></article>)}</div>
+    <div class="highlight-grid" tabindex="0" role="region" aria-label="Products and capabilities">{config.highlights.map((h,i)=><article class="reveal" style={`--delay:${i*.07}s`}><span>{String(i+1).padStart(2,'0')}</span><h3>{h.title}</h3><p>{h.body}</p></article>)}</div>
   </section>
 
   <section id="chapter-4" class="chapter visuals" data-chapter="4">
     <div class="chapter-kicker reveal"><span>03</span><p>{experience.visualKicker}</p></div>
     <div class="visual-heading"><h2 class="reveal">{experience.visualTitle}</h2><p class="reveal" style="--delay:.1s">{experience.visualIntro}</p></div>
-    <div class="gallery">{gallery.map((g,i)=>{const card=<figure class:list={[i===0&&'wide','reveal']} style={`--delay:${i*.08}s`}><div class="visual-fallback"><b>{String(i+1).padStart(2,'0')}</b><span>{g.label}</span></div>{g.image&&<img src={g.image} alt={g.label} loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.style.display='none'"/>}<figcaption><small>{String(i+1).padStart(2,'0')}</small><strong>{g.label}</strong>{g.caption&&<span>{g.caption}</span>}</figcaption></figure>;return g.url?<a href={g.url} target="_blank" rel="noopener noreferrer">{card}</a>:card})}</div>
+    <div class="gallery" tabindex="0" role="region" aria-label="Brand gallery">{gallery.map((g,i)=>{const card=<figure class:list={[i===0&&'wide','reveal']} style={`--delay:${i*.08}s`}><div class="visual-fallback"><b>{String(i+1).padStart(2,'0')}</b><span>{g.label}</span></div>{g.image&&<img src={g.image} alt={g.label} loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.style.display='none'"/>}<figcaption><small>{String(i+1).padStart(2,'0')}</small><strong>{g.label}</strong>{g.caption&&<span>{g.caption}</span>}</figcaption></figure>;return g.url?<a href={g.url} target="_blank" rel="noopener noreferrer">{card}</a>:card})}</div>
   </section>
 
   <section id="chapter-5" class="chapter connect" data-chapter="5">

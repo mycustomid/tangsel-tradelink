@@ -1,0 +1,33 @@
+{
+  "conditions": "Local unthrottled Chromium, 390x844, reduced motion; synthetic event samples are not field INP.",
+  "results": [
+    {
+      "route": "",
+      "lcp": 668,
+      "cls": 0,
+      "events": []
+    },
+    {
+      "route": "directory/",
+      "lcp": 444,
+      "cls": 0,
+      "events": [
+        72,
+        72,
+        72
+      ]
+    },
+    {
+      "route": "tenant/lika-snack/",
+      "lcp": 812,
+      "cls": 0,
+      "events": []
+    },
+    {
+      "route": "tenant/lalisha-food/",
+      "lcp": 688,
+      "cls": 0,
+      "events": []
+    }
+  ]
+}

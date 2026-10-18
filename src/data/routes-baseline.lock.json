@@ -1,0 +1,1687 @@
+{
+  "baselineHead": "f505f4d",
+  "base": "/tangsel-tradelink/",
+  "sourcePages": [
+    "src/pages/directory.astro",
+    "src/pages/guide.astro",
+    "src/pages/index.astro",
+    "src/pages/tenant/[slug].astro",
+    "src/pages/tenant/amood-healthy-foods.astro",
+    "src/pages/tenant/aranomiya.astro",
+    "src/pages/tenant/arjuna-68.astro",
+    "src/pages/tenant/batinos-pastry.astro",
+    "src/pages/tenant/bopet-pagaruyung.astro",
+    "src/pages/tenant/bumina-eenk.astro",
+    "src/pages/tenant/buminaeenk-freeze-dried.astro",
+    "src/pages/tenant/cuan-dong.astro",
+    "src/pages/tenant/cuan-dong/[commodity].astro",
+    "src/pages/tenant/cv-makmur-jaya-sentosa.astro",
+    "src/pages/tenant/daniscakelicio.astro",
+    "src/pages/tenant/dapur-nanay.astro",
+    "src/pages/tenant/datik-batik.astro",
+    "src/pages/tenant/dbumbu-aurelshop.astro",
+    "src/pages/tenant/den-bagus.astro",
+    "src/pages/tenant/dodol-betawi-haji-imang.astro",
+    "src/pages/tenant/elleta.astro",
+    "src/pages/tenant/eni-chandra.astro",
+    "src/pages/tenant/ery-mamaw.astro",
+    "src/pages/tenant/euis-siti-khodijah.astro",
+    "src/pages/tenant/fenda-iriani.astro",
+    "src/pages/tenant/fennycroche.astro",
+    "src/pages/tenant/fevy.astro",
+    "src/pages/tenant/giga-tech.astro",
+    "src/pages/tenant/haira.astro",
+    "src/pages/tenant/health-today.astro",
+    "src/pages/tenant/hhb.astro",
+    "src/pages/tenant/jahe-hayatiqu.astro",
+    "src/pages/tenant/kartika-bela.astro",
+    "src/pages/tenant/kenyess-food.astro",
+    "src/pages/tenant/kule-perfume.astro",
+    "src/pages/tenant/kusuma-kencana-mulya.astro",
+    "src/pages/tenant/ladifa-collection.astro",
+    "src/pages/tenant/lalisha-food.astro",
+    "src/pages/tenant/larrisa-food.astro",
+    "src/pages/tenant/lika-snack.astro",
+    "src/pages/tenant/mba-wanti.astro",
+    "src/pages/tenant/md-organic.astro",
+    "src/pages/tenant/meraki.astro",
+    "src/pages/tenant/my-aicustom.astro",
+    "src/pages/tenant/ninauka.astro",
+    "src/pages/tenant/nurazlinda.astro",
+    "src/pages/tenant/ochokat.astro",
+    "src/pages/tenant/our-herb.astro",
+    "src/pages/tenant/peddler-indonesia.astro",
+    "src/pages/tenant/pempek-wak-ebot.astro",
+    "src/pages/tenant/pt-cosmar.astro",
+    "src/pages/tenant/pt-niaga-citra-mandiri.astro",
+    "src/pages/tenant/raja-freeze-dried.astro",
+    "src/pages/tenant/rhr-snack.astro",
+    "src/pages/tenant/rosniati.astro",
+    "src/pages/tenant/rumah-batik-setu.astro",
+    "src/pages/tenant/samara-from-home.astro",
+    "src/pages/tenant/sapa-legend-coffee.astro",
+    "src/pages/tenant/sepatu-wanita-naa.astro",
+    "src/pages/tenant/shayfara.astro",
+    "src/pages/tenant/shirudo-lab.astro",
+    "src/pages/tenant/snack-santuy.astro",
+    "src/pages/tenant/snapclean.astro",
+    "src/pages/tenant/the-munching-queen.astro",
+    "src/pages/tenant/titik-kurniasih.astro",
+    "src/pages/tenant/tokibi-coffee.astro",
+    "src/pages/tenant/vietrade.astro",
+    "src/pages/tenant/zahhab.astro",
+    "src/pages/tenant/zyvas.astro"
+  ],
+  "routes": [
+    {
+      "path": "/directory/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/directory",
+      "externalLinks": []
+    },
+    {
+      "path": "/guide/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/guide",
+      "externalLinks": [
+        "https://2026.tradexpoindonesia.com/register",
+        "https://ice-indonesia.com/en/event/event_list/trade-expo-indonesia-2026",
+        "https://tradexpoindonesia.com/about/exhibition-layout",
+        "https://www.google.com/maps/search/?api=1&query=ICE+BSD+City",
+        "https://www.kemendag.go.id/berita/siaran-pers/tei-2026-siapkan-zona-khusus-kopi-teh-dan-kakao-permudah-buyer-di-area-pameran"
+      ]
+    },
+    {
+      "path": "/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink",
+      "externalLinks": []
+    },
+    {
+      "path": "/tenant/adlaera-botanica-indonesia-pt/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/adlaera-botanica-indonesia-pt",
+      "externalLinks": [
+        "https://www.google.com/maps?q=ADLAERA%20BOTANICA%20INDONESIA%2C%20PT"
+      ]
+    },
+    {
+      "path": "/tenant/ageman-ecoprint/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/ageman-ecoprint",
+      "externalLinks": [
+        "https://agemanecoprint.netlify.app/",
+        "https://drive.google.com/drive/folders/1YsGGTu76f3Pdh6BpsLJjH_s-NBfk0DOz?usp=drive_link",
+        "https://vt.tokopedia.com/t/ZS926vL7Vkdup-OZqd7/",
+        "https://wa.me/6281234538838",
+        "https://www.google.com/maps/search/?api=1&query=Ecoprint+Ageman+Tangerang+Selatan",
+        "https://www.idntimes.com/life/women/kelana-wastra-fashion-fest-2024-00-mm7zv-n7t61k",
+        "https://www.instagram.com/agemanecoprint/",
+        "https://www.tiktok.com/@agemanecoprint",
+        "https://www.youtube.com/@agemanecoprint"
+      ]
+    },
+    {
+      "path": "/tenant/agrofarm-nusa-raya-pt/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/agrofarm-nusa-raya-pt",
+      "externalLinks": [
+        "https://agrofarmnusaraya.id/",
+        "https://www.google.com/maps?q=AGROFARM%20NUSA%20RAYA%2C%20PT",
+        "mailto:csagrofarm@agrofarm.id"
+      ]
+    },
+    {
+      "path": "/tenant/amood-healthy-foods/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelinktenant/amood-healthy-foods",
+      "externalLinks": [
+        "https://wa.me/6281381828281",
+        "https://www.amood.id",
+        "https://www.instagram.com/amoodhealthyfoods/",
+        "mailto:m.alamudi@amood.id"
+      ]
+    },
+    {
+      "path": "/tenant/aneka-kakao-pt/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/aneka-kakao-pt",
+      "externalLinks": [
+        "https://anekakakao.com/website/",
+        "https://www.google.com/maps?q=ANEKA%20KAKAO%2C%20PT",
+        "mailto:info@anekakakao.com"
+      ]
+    },
+    {
+      "path": "/tenant/anindya-wiraputra-konsult-pt/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/anindya-wiraputra-konsult-pt",
+      "externalLinks": [
+        "https://www.google.com/maps?q=ANINDYA%20WIRAPUTRA%20KONSULT%2C%20PT",
+        "https://www.linkedin.com/company/anindya-wiraputra-konsult/"
+      ]
+    },
+    {
+      "path": "/tenant/aranomiya/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelinktenant/aranomiya",
+      "externalLinks": [
+        "http://www.youtube.com/aranomiya",
+        "https://1drv.ms/b/c/c00c80680b54ea76/IQALNahD_ffNSa5wlG_ab6dYATu6bl_ayM0mvOIeprIv6Pw?e=bfQsLa",
+        "https://inaexport.id/perusahaan/95439-aranomiya-abimantrana-jaya",
+        "https://linktr.ee/AranomiyA",
+        "https://linkumkm.id/ecommerce/detail/34726/sabun-cair-natural",
+        "https://lynk.id/aranomiya",
+        "https://maps.app.goo.gl/EoKbubpxvzuT18FL9",
+        "https://shopee.co.id/aranomiya",
+        "https://toco.id/store/aranomiya",
+        "https://wa.me/6281586542838",
+        "https://www.aranomiya.com",
+        "https://www.instagram.com/aranomiya",
+        "https://www.tokopedia.com/aranomiya",
+        "mailto:info@aranomiya.com"
+      ]
+    },
+    {
+      "path": "/tenant/arenga-alam-sejahtera/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/arenga-alam-sejahtera",
+      "externalLinks": [
+        "https://www.google.com/maps?q=ARENGA%20ALAM%20SEJAHTERA"
+      ]
+    },
+    {
+      "path": "/tenant/arga-bumi-indonesia-pt/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/arga-bumi-indonesia-pt",
+      "externalLinks": [
+        "https://argabumi.id/id/",
+        "https://wa.me/6285111021781",
+        "https://www.google.com/maps?q=ARGA%20BUMI%20INDONESIA%2C%20PT"
+      ]
+    },
+    {
+      "path": "/tenant/arjuna-68/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelinktenant/arjuna-68",
+      "externalLinks": [
+        "https://wa.me/6281293762929",
+        "https://www.instagram.com/arjuna68cake/"
+      ]
+    },
+    {
+      "path": "/tenant/aroma-prima-livindo-pt-morris-perfume/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/aroma-prima-livindo-pt-morris-perfume",
+      "externalLinks": [
+        "https://livindo.co.id/",
+        "https://livindo.co.id/eau-de-parfum/",
+        "https://livindo.co.id/product-category/eau-de-parfum/",
+        "https://livindo.co.id/product/morris-eau-de-parfum-fantasy-edition-110ml-beauty-inside/",
+        "https://www.google.com/maps?q=AROMA%20PRIMA%20LIVINDO%2C%20PT%20(MORRIS%20PERFUME)"
+      ]
+    },
+    {
+      "path": "/tenant/asephi/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/asephi",
+      "externalLinks": [
+        "https://asephi.com/",
+        "https://www.google.com/maps?q=ASEPHI",
+        "https://www.instagram.com/asephi.official/",
+        "mailto:bpp@asephi.id"
+      ]
+    },
+    {
+      "path": "/tenant/banana-paper/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/banana-paper",
+      "externalLinks": [
+        "https://www.google.com/maps?q=BANANA%20PAPER"
+      ]
+    },
+    {
+      "path": "/tenant/batinos-pastry/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelinktenant/batinos-pastry",
+      "externalLinks": [
+        "https://fliphtml5.com/teskatalog/fhzc/E-Katalog_BM_PERTAMINA_SMEXPO_2024_compressed/",
+        "https://www.instagram.com/batinos.pastry"
+      ]
+    },
+    {
+      "path": "/tenant/blotani/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/blotani",
+      "externalLinks": [
+        "https://www.google.com/maps?q=BLOTANI"
+      ]
+    },
+    {
+      "path": "/tenant/bopet-pagaruyung/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelinktenant/bopet-pagaruyung",
+      "externalLinks": [
+        "https://wa.me/62895321424198",
+        "mailto:niken.122024@gmail.com"
+      ]
+    },
+    {
+      "path": "/tenant/bp-batam/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/bp-batam",
+      "externalLinks": [
+        "https://bpbatam.go.id/",
+        "https://www.google.com/maps?q=BP%20BATAM"
+      ]
+    },
+    {
+      "path": "/tenant/bp-tanjung-pinang/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/bp-tanjung-pinang",
+      "externalLinks": [
+        "https://bptanjungpinang.id/",
+        "https://www.google.com/maps?q=BP%20TANJUNG%20PINANG"
+      ]
+    },
+    {
+      "path": "/tenant/bumina-eenk/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelinktenant/bumina-eenk",
+      "externalLinks": [
+        "https://buminaeenk.com/",
+        "https://buminaeenk.com/contact",
+        "https://wa.me/6285219460779?text=Halo%2C%20saya%20ingin%20tanya%20ketersediaan%20Homestay%20Bumina%20EENK%20Pangalengan",
+        "https://www.agoda.com/en-za/homestay-bumina-eenk-bandung-pangalengan/hotel/palayangan-id.html",
+        "https://www.booking.com/hotel/id/bumina-eenk.html",
+        "https://www.booking.com/hotel/id/bumina-eenk.id.html",
+        "https://www.google.com/maps/search/?api=1&query=Homestay+Bumina+Eenk+Pangalengan",
+        "https://www.instagram.com/homestay_buminaeenk/"
+      ]
+    },
+    {
+      "path": "/tenant/buminaeenk-freeze-dried/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/raja-freeze-dried",
+      "externalLinks": []
+    },
+    {
+      "path": "/tenant/campus-preneur/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/campus-preneur",
+      "externalLinks": [
+        "https://ppejp.kemendag.go.id/",
+        "https://www.google.com/maps?q=CAMPUS%20PRENEUR"
+      ]
+    },
+    {
+      "path": "/tenant/candra/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/candra",
+      "externalLinks": [
+        "https://www.google.com/maps?q=CANDRA"
+      ]
+    },
+    {
+      "path": "/tenant/chakra-naga-furniture-pt/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/chakra-naga-furniture-pt",
+      "externalLinks": [
+        "https://www.google.com/maps?q=CHAKRA%20NAGA%20FURNITURE%2C%20PT",
+        "https://www.grandome.id/"
+      ]
+    },
+    {
+      "path": "/tenant/cipta-abadi/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/cipta-abadi",
+      "externalLinks": [
+        "https://www.google.com/maps?q=CIPTA%20ABADI"
+      ]
+    },
+    {
+      "path": "/tenant/cipta-orion-metal-pt/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/cipta-orion-metal-pt",
+      "externalLinks": [
+        "https://www.google.com/maps?q=CIPTA%20ORION%20METAL%2C%20PT"
+      ]
+    },
+    {
+      "path": "/tenant/clean-matic/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/clean-matic",
+      "externalLinks": [
+        "https://cleanmatic.id/",
+        "https://shopee.co.id/cleanmaticstore",
+        "https://wa.me/6285171212115",
+        "https://www.google.com/maps/search/?api=1&query=Clean%20Matic%20Store%20Taman%20Tekno%20Tangerang%20Selatan"
+      ]
+    },
+    {
+      "path": "/tenant/cma-cgm/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/cma-cgm",
+      "externalLinks": [
+        "https://www.cma-cgm.com/local/indonesia",
+        "https://www.google.com/maps?q=CMA-CGM"
+      ]
+    },
+    {
+      "path": "/tenant/cmn-internasional-indonesia-pt/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/cmn-internasional-indonesia-pt",
+      "externalLinks": [
+        "https://moorlife.id/",
+        "https://wa.me/6281334438226",
+        "https://www.google.com/maps?q=CMN%20INTERNASIONAL%20INDONESIA%2C%20PT",
+        "mailto:export@moorlife.id"
+      ]
+    },
+    {
+      "path": "/tenant/coco-reina-global-charcoal-pt/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/coco-reina-global-charcoal-pt",
+      "externalLinks": [
+        "https://coconutcharcoal.org/",
+        "https://wa.me/628118797070",
+        "https://www.google.com/maps?q=COCO%20REINA%20GLOBAL%20CHARCOAL%2C%20PT"
+      ]
+    },
+    {
+      "path": "/tenant/coco-riki-international-pt/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/coco-riki-international-pt",
+      "externalLinks": [
+        "http://www.cocoriki.com/",
+        "https://www.google.com/maps?q=COCO%20RIKI%20INTERNATIONAL%2C%20PT",
+        "mailto:ptcocorikiinternational@gmail.com"
+      ]
+    },
+    {
+      "path": "/tenant/corina-sutera-intan-pt/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/corina-sutera-intan-pt",
+      "externalLinks": [
+        "https://www.google.com/maps?q=CORINA%20SUTERA%20INTAN%2C%20PT"
+      ]
+    },
+    {
+      "path": "/tenant/cuan-dong/canned-sardines/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/cuan-dong/canned-sardines",
+      "externalLinks": [
+        "https://cuan-dong.com/",
+        "https://wa.me/6281317230957?text=Hello%20CUAN-DONG%20Global%20Holdings%2C%20we%20are%20inquiring%20about%20procuring%20Canned%20Sardines%20in%20Tomato%20Sauce%20%26%20Oil%20(HS%201604.13.10).%20Please%20provide%20your%20product%20catalog%2C%20COA%2C%20OEM%20private-label%20terms%2C%20and%20FOB%2FCIF%20quotation%20for%201x20ft%20%2F%2040ft%20FCL.",
+        "mailto:heriscaleup@gmail.com?subject=RFQ%20Inquiry%3A%20Canned%20Sardines%20in%20Tomato%20Sauce%20%26%20Vegetable%20Oil%20(HS%201604.13.10)%20%E2%80%94%20CUAN-DONG%20Global%20Holdings&body=Hello%20CUAN-DONG%20Global%20Holdings%2C%20we%20are%20inquiring%20about%20procuring%20Canned%20Sardines%20in%20Tomato%20Sauce%20%26%20Oil%20(HS%201604.13.10).%20Please%20provide%20your%20product%20catalog%2C%20COA%2C%20OEM%20private-label%20terms%2C%20and%20FOB%2FCIF%20quotation%20for%201x20ft%20%2F%2040ft%20FCL."
+      ]
+    },
+    {
+      "path": "/tenant/cuan-dong/cardamom/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/cuan-dong/cardamom",
+      "externalLinks": [
+        "https://cuan-dong.com/",
+        "https://wa.me/6281317230957?text=Hello%20CUAN-DONG%20Global%20Holdings%2C%20we%20are%20inquiring%20about%20purchasing%20Java%20Cardamom%20(HS%200908.31.00).%20Please%20provide%20your%20technical%20spec%20sheet%2C%20COA%2C%20FOB%2FCIF%20pricing%20per%20metric%20ton%2C%20and%20availability%20for%20Super%20Grade%20A%20White%20%2F%20Natural%20Brown%20pods.",
+        "mailto:heriscaleup@gmail.com?subject=RFQ%20Inquiry%3A%20Java%20White%20%26%20Green%20Cardamom%20(Amomum%20compactum)%20(HS%200908.31.00)%20%E2%80%94%20CUAN-DONG%20Global%20Holdings&body=Hello%20CUAN-DONG%20Global%20Holdings%2C%20we%20are%20inquiring%20about%20purchasing%20Java%20Cardamom%20(HS%200908.31.00).%20Please%20provide%20your%20technical%20spec%20sheet%2C%20COA%2C%20FOB%2FCIF%20pricing%20per%20metric%20ton%2C%20and%20availability%20for%20Super%20Grade%20A%20White%20%2F%20Natural%20Brown%20pods."
+      ]
+    },
+    {
+      "path": "/tenant/cuan-dong/cinnamon/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/cuan-dong/cinnamon",
+      "externalLinks": [
+        "https://cuan-dong.com/",
+        "https://wa.me/6281317230957?text=Hello%20CUAN-DONG%20Global%20Holdings%2C%20we%20wish%20to%20submit%20an%20RFQ%20for%20Indonesian%20Cassia%20Vera%20%2F%20Cinnamon%20(HS%200906.11.00).%20Please%20share%20your%20technical%20specs%2C%20COA%2C%20FOB%2FCIF%20quote%2C%20and%20grade%20options%20(AA%20Sticks%2C%20KBBC%20Broken%2C%20or%20Powder)%20for%201x20ft%20%2F%2040ft%20FCL.",
+        "mailto:heriscaleup@gmail.com?subject=RFQ%20Inquiry%3A%20Indonesian%20Cassia%20Vera%20(Cinnamomum%20burmannii)%20(HS%200906.11.00)%20%E2%80%94%20CUAN-DONG%20Global%20Holdings&body=Hello%20CUAN-DONG%20Global%20Holdings%2C%20we%20wish%20to%20submit%20an%20RFQ%20for%20Indonesian%20Cassia%20Vera%20%2F%20Cinnamon%20(HS%200906.11.00).%20Please%20share%20your%20technical%20specs%2C%20COA%2C%20FOB%2FCIF%20quote%2C%20and%20grade%20options%20(AA%20Sticks%2C%20KBBC%20Broken%2C%20or%20Powder)%20for%201x20ft%20%2F%2040ft%20FCL."
+      ]
+    },
+    {
+      "path": "/tenant/cuan-dong/clove/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/cuan-dong/clove",
+      "externalLinks": [
+        "https://cuan-dong.com/",
+        "https://wa.me/6281317230957?text=Hello%20CUAN-DONG%20Global%20Holdings%2C%20we%20are%20inquiring%20about%20procuring%20Indonesian%20Whole%20Cloves%20(HS%200907.10.00).%20Please%20share%20your%20technical%20spec%20sheet%2C%20COA%2C%20FOB%2FCIF%20price%20per%20MT%2C%20and%20availability%20for%20Lalpari%20HPS%20%2F%20Zanzibar%20CG-1%20grades.",
+        "mailto:heriscaleup@gmail.com?subject=RFQ%20Inquiry%3A%20Indonesian%20Hand-Picked%20Cloves%20(Syzygium%20aromaticum)%20(HS%200907.10.00)%20%E2%80%94%20CUAN-DONG%20Global%20Holdings&body=Hello%20CUAN-DONG%20Global%20Holdings%2C%20we%20are%20inquiring%20about%20procuring%20Indonesian%20Whole%20Cloves%20(HS%200907.10.00).%20Please%20share%20your%20technical%20spec%20sheet%2C%20COA%2C%20FOB%2FCIF%20price%20per%20MT%2C%20and%20availability%20for%20Lalpari%20HPS%20%2F%20Zanzibar%20CG-1%20grades."
+      ]
+    },
+    {
+      "path": "/tenant/cuan-dong/cocoa-beans/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/cuan-dong/cocoa-beans",
+      "externalLinks": [
+        "https://cuan-dong.com/",
+        "https://wa.me/6281317230957?text=Hello%20CUAN-DONG%20Global%20Holdings%2C%20we%20are%20inquiring%20about%20procuring%20Indonesian%20Fermented%20Cocoa%20Beans%20(HS%201801.00.00).%20Please%20share%20your%20latest%20FOB%2FCIF%20price%20per%20metric%20ton%2C%20technical%20specification%20sheet%2C%20COA%2C%20and%20export%20contract%20terms%20for%201x20ft%20%2F%2040ft%20FCL.",
+        "mailto:heriscaleup@gmail.com?subject=RFQ%20Inquiry%3A%20Indonesian%20Fermented%20Cocoa%20Beans%20(HS%201801.00.00)%20%E2%80%94%20CUAN-DONG%20Global%20Holdings&body=Hello%20CUAN-DONG%20Global%20Holdings%2C%20we%20are%20inquiring%20about%20procuring%20Indonesian%20Fermented%20Cocoa%20Beans%20(HS%201801.00.00).%20Please%20share%20your%20latest%20FOB%2FCIF%20price%20per%20metric%20ton%2C%20technical%20specification%20sheet%2C%20COA%2C%20and%20export%20contract%20terms%20for%201x20ft%20%2F%2040ft%20FCL."
+      ]
+    },
+    {
+      "path": "/tenant/cuan-dong/cocoa-butter/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/cuan-dong/cocoa-butter",
+      "externalLinks": [
+        "https://cuan-dong.com/",
+        "https://wa.me/6281317230957?text=Hello%20CUAN-DONG%20Global%20Holdings%2C%20we%20are%20looking%20to%20procure%20Prime%20Pressed%20Pure%20Cocoa%20Butter%20(HS%201804.00.00).%20Please%20provide%20your%20COA%2C%20product%20specification%20sheet%2C%20pricing%20for%20Natural%20vs%20Deodorized%20grades%2C%20and%20MOQ%20terms%20for%201x20ft%20FCL.",
+        "mailto:heriscaleup@gmail.com?subject=RFQ%20Inquiry%3A%20Pure%20Prime%20Pressed%20Cocoa%20Butter%20(HS%201804.00.00)%20%E2%80%94%20CUAN-DONG%20Global%20Holdings&body=Hello%20CUAN-DONG%20Global%20Holdings%2C%20we%20are%20looking%20to%20procure%20Prime%20Pressed%20Pure%20Cocoa%20Butter%20(HS%201804.00.00).%20Please%20provide%20your%20COA%2C%20product%20specification%20sheet%2C%20pricing%20for%20Natural%20vs%20Deodorized%20grades%2C%20and%20MOQ%20terms%20for%201x20ft%20FCL."
+      ]
+    },
+    {
+      "path": "/tenant/cuan-dong/cocoa-powder/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/cuan-dong/cocoa-powder",
+      "externalLinks": [
+        "https://cuan-dong.com/",
+        "https://wa.me/6281317230957?text=Hello%20CUAN-DONG%20Global%20Holdings%2C%20we%20require%20a%20commercial%20B2B%20quotation%20for%20Cocoa%20Powder%20(HS%201805.00.00).%20Please%20provide%20your%20COA%2C%20product%20specification%20sheet%2C%20FOB%2FCIF%20pricing%2C%20and%20available%20fat%20levels%20(10-12%25%20or%2020-22%25%20Natural%2FAlkalized)%20for%201x20ft%20%2F%2040ft%20FCL.",
+        "mailto:heriscaleup@gmail.com?subject=RFQ%20Inquiry%3A%20Pure%20Natural%20%26%20Alkalized%20Cocoa%20Powder%20(HS%201805.00.00)%20%E2%80%94%20CUAN-DONG%20Global%20Holdings&body=Hello%20CUAN-DONG%20Global%20Holdings%2C%20we%20require%20a%20commercial%20B2B%20quotation%20for%20Cocoa%20Powder%20(HS%201805.00.00).%20Please%20provide%20your%20COA%2C%20product%20specification%20sheet%2C%20FOB%2FCIF%20pricing%2C%20and%20available%20fat%20levels%20(10-12%25%20or%2020-22%25%20Natural%2FAlkalized)%20for%201x20ft%20%2F%2040ft%20FCL."
+      ]
+    },
+    {
+      "path": "/tenant/cuan-dong/coconut-feed/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/cuan-dong/coconut-feed",
+      "externalLinks": [
+        "https://cuan-dong.com/",
+        "https://wa.me/6281317230957?text=Hello%20CUAN-DONG%20Global%20Holdings%2C%20we%20require%20a%20quotation%20for%20Copra%20Meal%20%2F%20Coconut%20Cake%20Pellets%20for%20Animal%20Feed%20(HS%202306.50.00).%20Please%20provide%20your%20technical%20spec%20sheet%2C%20nutritional%20feed%20analysis%2C%20FOB%2FCIF%20price%20per%20MT%2C%20and%20pellet%20vs%20meal%20availability%20for%201x20ft%20%2F%2040ft%20HC%20FCL.",
+        "mailto:heriscaleup@gmail.com?subject=RFQ%20Inquiry%3A%20Copra%20Meal%20%26%20Coconut%20Cake%20Pellets%20for%20Animal%20Feed%20(HS%202306.50.00)%20%E2%80%94%20CUAN-DONG%20Global%20Holdings&body=Hello%20CUAN-DONG%20Global%20Holdings%2C%20we%20require%20a%20quotation%20for%20Copra%20Meal%20%2F%20Coconut%20Cake%20Pellets%20for%20Animal%20Feed%20(HS%202306.50.00).%20Please%20provide%20your%20technical%20spec%20sheet%2C%20nutritional%20feed%20analysis%2C%20FOB%2FCIF%20price%20per%20MT%2C%20and%20pellet%20vs%20meal%20availability%20for%201x20ft%20%2F%2040ft%20HC%20FCL."
+      ]
+    },
+    {
+      "path": "/tenant/cuan-dong/copra/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/cuan-dong/copra",
+      "externalLinks": [
+        "https://cuan-dong.com/",
+        "https://wa.me/6281317230957?text=Hello%20CUAN-DONG%20Global%20Holdings%2C%20we%20are%20interested%20in%20procuring%20Indonesian%20Coconut%20Copra%20(HS%201203.00.00).%20Please%20provide%20your%20latest%20FOB%2FCIF%20quote%2C%20COA%2C%20oil%20content%20assay%2C%20and%20grade%20options%20(White%20Edible%20vs%20Milling%20Copra)%20for%201x20ft%20%2F%2040ft%20HC%20FCL.",
+        "mailto:heriscaleup@gmail.com?subject=RFQ%20Inquiry%3A%20White%20Edible%20%26%20Milling%20Coconut%20Copra%20(HS%201203.00.00)%20%E2%80%94%20CUAN-DONG%20Global%20Holdings&body=Hello%20CUAN-DONG%20Global%20Holdings%2C%20we%20are%20interested%20in%20procuring%20Indonesian%20Coconut%20Copra%20(HS%201203.00.00).%20Please%20provide%20your%20latest%20FOB%2FCIF%20quote%2C%20COA%2C%20oil%20content%20assay%2C%20and%20grade%20options%20(White%20Edible%20vs%20Milling%20Copra)%20for%201x20ft%20%2F%2040ft%20HC%20FCL."
+      ]
+    },
+    {
+      "path": "/tenant/cuan-dong/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelinktenant/cuan-dong",
+      "externalLinks": [
+        "https://cuan-dong.com/",
+        "https://wa.me/6281317230957",
+        "https://wa.me/6281317230957?text=Hello%20CUAN-DONG%20Global%20Holdings%2C%20we%20are%20inquiring%20about%20procuring%20Canned%20Sardines%20in%20Tomato%20Sauce%20%26%20Oil%20(HS%201604.13.10).%20Please%20provide%20your%20product%20catalog%2C%20COA%2C%20OEM%20private-label%20terms%2C%20and%20FOB%2FCIF%20quotation%20for%201x20ft%20%2F%2040ft%20FCL.",
+        "https://wa.me/6281317230957?text=Hello%20CUAN-DONG%20Global%20Holdings%2C%20we%20are%20inquiring%20about%20procuring%20Indonesian%20Fermented%20Cocoa%20Beans%20(HS%201801.00.00).%20Please%20share%20your%20latest%20FOB%2FCIF%20price%20per%20metric%20ton%2C%20technical%20specification%20sheet%2C%20COA%2C%20and%20export%20contract%20terms%20for%201x20ft%20%2F%2040ft%20FCL.",
+        "https://wa.me/6281317230957?text=Hello%20CUAN-DONG%20Global%20Holdings%2C%20we%20are%20inquiring%20about%20procuring%20Indonesian%20Whole%20Cloves%20(HS%200907.10.00).%20Please%20share%20your%20technical%20spec%20sheet%2C%20COA%2C%20FOB%2FCIF%20price%20per%20MT%2C%20and%20availability%20for%20Lalpari%20HPS%20%2F%20Zanzibar%20CG-1%20grades.",
+        "https://wa.me/6281317230957?text=Hello%20CUAN-DONG%20Global%20Holdings%2C%20we%20are%20inquiring%20about%20purchasing%20Indonesian%20Vanilla%20Beans%20(HS%200905.10.00).%20Please%20provide%20your%20latest%20HPLC%20assay%2C%20COA%2C%20air%20freight%2Focean%20pricing%20per%20kg%2C%20and%20samples%20policy%20for%20Gourmet%20Planifolia%20%2F%20Tahitensis.",
+        "https://wa.me/6281317230957?text=Hello%20CUAN-DONG%20Global%20Holdings%2C%20we%20are%20inquiring%20about%20purchasing%20Java%20Cardamom%20(HS%200908.31.00).%20Please%20provide%20your%20technical%20spec%20sheet%2C%20COA%2C%20FOB%2FCIF%20pricing%20per%20metric%20ton%2C%20and%20availability%20for%20Super%20Grade%20A%20White%20%2F%20Natural%20Brown%20pods.",
+        "https://wa.me/6281317230957?text=Hello%20CUAN-DONG%20Global%20Holdings%2C%20we%20are%20interested%20in%20procuring%20Indonesian%20Coconut%20Copra%20(HS%201203.00.00).%20Please%20provide%20your%20latest%20FOB%2FCIF%20quote%2C%20COA%2C%20oil%20content%20assay%2C%20and%20grade%20options%20(White%20Edible%20vs%20Milling%20Copra)%20for%201x20ft%20%2F%2040ft%20HC%20FCL.",
+        "https://wa.me/6281317230957?text=Hello%20CUAN-DONG%20Global%20Holdings%2C%20we%20are%20looking%20to%20procure%20Prime%20Pressed%20Pure%20Cocoa%20Butter%20(HS%201804.00.00).%20Please%20provide%20your%20COA%2C%20product%20specification%20sheet%2C%20pricing%20for%20Natural%20vs%20Deodorized%20grades%2C%20and%20MOQ%20terms%20for%201x20ft%20FCL.",
+        "https://wa.me/6281317230957?text=Hello%20CUAN-DONG%20Global%20Holdings%2C%20we%20require%20a%20commercial%20B2B%20quotation%20for%20Cocoa%20Powder%20(HS%201805.00.00).%20Please%20provide%20your%20COA%2C%20product%20specification%20sheet%2C%20FOB%2FCIF%20pricing%2C%20and%20available%20fat%20levels%20(10-12%25%20or%2020-22%25%20Natural%2FAlkalized)%20for%201x20ft%20%2F%2040ft%20FCL.",
+        "https://wa.me/6281317230957?text=Hello%20CUAN-DONG%20Global%20Holdings%2C%20we%20require%20a%20quotation%20for%20Copra%20Meal%20%2F%20Coconut%20Cake%20Pellets%20for%20Animal%20Feed%20(HS%202306.50.00).%20Please%20provide%20your%20technical%20spec%20sheet%2C%20nutritional%20feed%20analysis%2C%20FOB%2FCIF%20price%20per%20MT%2C%20and%20pellet%20vs%20meal%20availability%20for%201x20ft%20%2F%2040ft%20HC%20FCL.",
+        "https://wa.me/6281317230957?text=Hello%20CUAN-DONG%20Global%20Holdings%2C%20we%20wish%20to%20submit%20an%20RFQ%20for%20Indonesian%20Cassia%20Vera%20%2F%20Cinnamon%20(HS%200906.11.00).%20Please%20share%20your%20technical%20specs%2C%20COA%2C%20FOB%2FCIF%20quote%2C%20and%20grade%20options%20(AA%20Sticks%2C%20KBBC%20Broken%2C%20or%20Powder)%20for%201x20ft%20%2F%2040ft%20FCL.",
+        "https://www.google.com/maps/search/?api=1&query=Bintaro+Jaya+Tangerang+Selatan",
+        "https://www.instagram.com/cuandong_holdings",
+        "mailto:heriscaleup@gmail.com"
+      ]
+    },
+    {
+      "path": "/tenant/cuan-dong/vanilla/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/cuan-dong/vanilla",
+      "externalLinks": [
+        "https://cuan-dong.com/",
+        "https://wa.me/6281317230957?text=Hello%20CUAN-DONG%20Global%20Holdings%2C%20we%20are%20inquiring%20about%20purchasing%20Indonesian%20Vanilla%20Beans%20(HS%200905.10.00).%20Please%20provide%20your%20latest%20HPLC%20assay%2C%20COA%2C%20air%20freight%2Focean%20pricing%20per%20kg%2C%20and%20samples%20policy%20for%20Gourmet%20Planifolia%20%2F%20Tahitensis.",
+        "mailto:heriscaleup@gmail.com?subject=RFQ%20Inquiry%3A%20Indonesian%20Gourmet%20Vanilla%20Beans%20(Planifolia%20%26%20Tahitensis)%20(HS%200905.10.00)%20%E2%80%94%20CUAN-DONG%20Global%20Holdings&body=Hello%20CUAN-DONG%20Global%20Holdings%2C%20we%20are%20inquiring%20about%20purchasing%20Indonesian%20Vanilla%20Beans%20(HS%200905.10.00).%20Please%20provide%20your%20latest%20HPLC%20assay%2C%20COA%2C%20air%20freight%2Focean%20pricing%20per%20kg%2C%20and%20samples%20policy%20for%20Gourmet%20Planifolia%20%2F%20Tahitensis."
+      ]
+    },
+    {
+      "path": "/tenant/cv-makmur-jaya-sentosa/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelinktenant/cv-makmur-jaya-sentosa",
+      "externalLinks": [
+        "https://makmurjayasentosa.com/"
+      ]
+    },
+    {
+      "path": "/tenant/daniscakelicio/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelinktenant/daniscakelicio",
+      "externalLinks": [
+        "https://shopee.co.id/shop/953337492",
+        "https://tamara.tangerangselatankota.go.id/?page=4",
+        "https://wa.me/628119562887",
+        "https://www.google.com/maps/search/?api=1&query=Daniscakelicio+Ciputat+Tangerang+Selatan",
+        "https://www.instagram.com/daniscakelicio"
+      ]
+    },
+    {
+      "path": "/tenant/dapur-nanay/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelinktenant/dapur-nanay",
+      "externalLinks": [
+        "https://dapurnanay.my.canva.site/dapurnanay-com",
+        "https://shopee.co.id/dapurnanay1",
+        "https://wa.me/6281809693375",
+        "https://www.google.com/maps/search/?api=1&query=Dapur+Nanay+Pamulang+Tangerang+Selatan",
+        "https://www.instagram.com/dapur_nanay",
+        "https://www.tiktok.com/@dapurnanay"
+      ]
+    },
+    {
+      "path": "/tenant/datik-batik/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelinktenant/datik-batik",
+      "externalLinks": [
+        "https://economy.okezone.com/read/2025/10/21/455/3178194/kisah-insipiratif-umkm-binaan-bri-mengenalkan-batik-khas-tangerang-hingga-tembus-pasar-luar-negeri",
+        "https://www.bri.co.id/web/guest/id/promo-news-detail/1272",
+        "https://www.instagram.com/datikbatik"
+      ]
+    },
+    {
+      "path": "/tenant/dbumbu-aurelshop/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelinktenant/dbumbu-aurelshop",
+      "externalLinks": [
+        "https://maps.app.goo.gl/kSZjhvxdMvS4dJyM9",
+        "https://shopee.co.id/aurelshop2018",
+        "https://wa.me/6281280603913",
+        "https://wa.me/6282259771919",
+        "https://www.instagram.com/aurelshop2018",
+        "mailto:aliefshop2019@gmail.com"
+      ]
+    },
+    {
+      "path": "/tenant/deka-sari-perkasa-pt/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/deka-sari-perkasa-pt",
+      "externalLinks": [
+        "https://innola.co.id/",
+        "https://www.google.com/maps?q=DEKA%20SARI%20PERKASA%2C%20PT",
+        "https://www.linkedin.com/company/ptdekasariperkasa/"
+      ]
+    },
+    {
+      "path": "/tenant/den-bagus/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelinktenant/den-bagus",
+      "externalLinks": [
+        "https://shopee.co.id/mimincasmiaty",
+        "https://tangselpos.id/detail/52672/peyek-den-bagus-dari-setu-rambah-bandara",
+        "https://wa.me/6287875909393",
+        "https://www.google.com/maps/search/?api=1&query=Peyek+Den+Bagus+Setu+Tangerang+Selatan",
+        "https://www.instagram.com/peyek_denbagus/"
+      ]
+    },
+    {
+      "path": "/tenant/dinas-ppkukm-prov-dki-jakarta/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/dinas-ppkukm-prov-dki-jakarta",
+      "externalLinks": [
+        "https://disppkukm.jakarta.go.id/",
+        "https://www.google.com/maps?q=DINAS%20PPKUKM%20PROV.%20DKI%20JAKARTA",
+        "mailto:disppkukm@jakarta.go.id"
+      ]
+    },
+    {
+      "path": "/tenant/disdagin-kota-bandung/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/disdagin-kota-bandung",
+      "externalLinks": [
+        "https://multisite.bandung.go.id/disdagin/",
+        "https://wa.me/6282312564590",
+        "https://www.google.com/maps?q=DISDAGIN%20KOTA%20BANDUNG",
+        "https://www.instagram.com/bdg.perdaganganindustri/",
+        "https://www.tiktok.com/@disdagin.bandung",
+        "mailto:disdagin@bandung.go.id"
+      ]
+    },
+    {
+      "path": "/tenant/dispar-prov-banten/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/dispar-prov-banten",
+      "externalLinks": [
+        "https://dispar.bantenprov.go.id/",
+        "https://www.google.com/maps?q=DISPAR%20PROV.%20BANTEN",
+        "mailto:dispar@bantenprov.go.id"
+      ]
+    },
+    {
+      "path": "/tenant/disperindag-provinsi-jateng/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/disperindag-provinsi-jateng",
+      "externalLinks": [
+        "https://disperindag.jatengprov.go.id/",
+        "https://www.google.com/maps?q=DISPERINDAG%20PROVINSI%20JATENG",
+        "https://www.instagram.com/disperindagjateng/",
+        "mailto:dinperindag@jatengprov.go.id"
+      ]
+    },
+    {
+      "path": "/tenant/disperindag-provinsi-jatim/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/disperindag-provinsi-jatim",
+      "externalLinks": [
+        "https://disperindag.jatimprov.go.id/",
+        "https://www.google.com/maps?q=DISPERINDAG%20PROVINSI%20JATIM",
+        "mailto:disperindag@jatimprov.go.id"
+      ]
+    },
+    {
+      "path": "/tenant/dkait-craft/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/dkait-craft",
+      "externalLinks": [
+        "https://msha.ke/katalogproduksmlumkmcentre/",
+        "https://share.google/K6OtiiVM3xm83aIGg",
+        "https://wa.me/628170703054",
+        "https://www.instagram.com/dkait_craft/",
+        "https://www.tiktok.com/@dkait_craft"
+      ]
+    },
+    {
+      "path": "/tenant/dkpbpb-bintan-karimun/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/dkpbpb-bintan-karimun",
+      "externalLinks": [
+        "https://www.google.com/maps?q=DKPBPB%20BINTAN%20%26%20KARIMUN",
+        "https://www.kepriprov.go.id/"
+      ]
+    },
+    {
+      "path": "/tenant/dodol-betawi-haji-imang/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelinktenant/dodol-betawi-haji-imang",
+      "externalLinks": [
+        "https://linktr.ee/dodolbetawi.hajiimang",
+        "https://plazabanten.com/shopView/216",
+        "https://www.google.com/maps/search/?api=1&query=Dodol+Betawi+Haji+Imang+Setu+Tangerang+Selatan",
+        "https://www.instagram.com/dodolbetawi.hajiimang"
+      ]
+    },
+    {
+      "path": "/tenant/dpd-himki-jabodetabek/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/dpd-himki-jabodetabek",
+      "externalLinks": [
+        "https://himkijabodetabek.org/",
+        "https://wa.me/6281519368685",
+        "https://www.google.com/maps?q=DPD%20HIMKI%20JABODETABEK",
+        "mailto:info@himki.id"
+      ]
+    },
+    {
+      "path": "/tenant/dragon-prima-farma/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/dragon-prima-farma",
+      "externalLinks": [
+        "https://dragonprimafarma.com/",
+        "https://dragonprimafarma.com/produk/read/balsem",
+        "https://dragonprimafarma.com/produk/read/domestik",
+        "https://wa.me/6282111009910",
+        "https://www.google.com/maps?q=DRAGON%20PRIMA%20FARMA"
+      ]
+    },
+    {
+      "path": "/tenant/easylink/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/easylink",
+      "externalLinks": [
+        "https://easylink.id/",
+        "https://wa.me/6281188813889",
+        "https://www.google.com/maps?q=EASYLINK",
+        "mailto:customer.support@easylink.id"
+      ]
+    },
+    {
+      "path": "/tenant/elleta/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelinktenant/elleta",
+      "externalLinks": [
+        "https://elleta.id/",
+        "https://share.google/EsjShAAf7wdLIb8f0",
+        "https://wa.me/6281389008035",
+        "https://www.facebook.com/share/19fsCSCgHh/",
+        "https://www.instagram.com/elleta.butik",
+        "https://www.instagram.com/elleta.official"
+      ]
+    },
+    {
+      "path": "/tenant/eni-chandra/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelinktenant/eni-chandra",
+      "externalLinks": [
+        "https://wa.me/628129023863",
+        "https://www.instagram.com/aliyacookies.bk"
+      ]
+    },
+    {
+      "path": "/tenant/ery-mamaw/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelinktenant/ery-mamaw",
+      "externalLinks": []
+    },
+    {
+      "path": "/tenant/euis-siti-khodijah/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelinktenant/euis-siti-khodijah",
+      "externalLinks": []
+    },
+    {
+      "path": "/tenant/evange-line/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/evange-line",
+      "externalLinks": [
+        "https://www.google.com/maps?q=EVANGE%20LINE"
+      ]
+    },
+    {
+      "path": "/tenant/fabulous-agro-mandiri-pt/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/fabulous-agro-mandiri-pt",
+      "externalLinks": [
+        "https://ptfarm-international.com/",
+        "https://www.google.com/maps?q=FABULOUS%20AGRO%20MANDIRI%2C%20PT"
+      ]
+    },
+    {
+      "path": "/tenant/fenda-iriani/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelinktenant/fenda-iriani",
+      "externalLinks": [
+        "https://kurasi.tangerangselatankota.go.id/produk/536",
+        "https://kurasi.tangerangselatankota.go.id/produk/537"
+      ]
+    },
+    {
+      "path": "/tenant/fennycroche/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelinktenant/fennycroche",
+      "externalLinks": [
+        "https://kurasi.tangerangselatankota.go.id/produk/549",
+        "https://share.google/Oe4hK5lmZXGXJWa58",
+        "https://wa.me/6281998948609",
+        "https://www.instagram.com/fennycroche"
+      ]
+    },
+    {
+      "path": "/tenant/ferrotek-trading-indonesia-pt/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/ferrotek-trading-indonesia-pt",
+      "externalLinks": [
+        "https://www.google.com/maps?q=FERROTEK%20TRADING%20INDONESIA%2C%20PT"
+      ]
+    },
+    {
+      "path": "/tenant/fevy/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelinktenant/fevy",
+      "externalLinks": [
+        "https://drive.google.com/file/d/1WS1gng1Lmub1ygxUN55LwF9GWDdNqiCZ/view?usp=drivesdk",
+        "https://s.id/ShayFara-RempahModernPilihanNusantara",
+        "https://shayfara-rempahsumberrezeki.myr.id/catalog/coklat-rempah",
+        "https://shayfara-rempahsumberrezeki.myr.id/catalog/kopi-rempah-75667",
+        "https://shayfara-rempahsumberrezeki.myr.id/catalog/kopi-susu-rempah",
+        "https://shayfara-rempahsumberrezeki.myr.id/catalog/susu-rempah",
+        "https://wa.me/c/6285778880047",
+        "https://www.instagram.com/shayfara_rempahsumberrezeki",
+        "https://www.tiktok.com/@rempah.sumber.rezeki",
+        "mailto:fevy59@gmail.com"
+      ]
+    },
+    {
+      "path": "/tenant/giga-tech/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelinktenant/giga-tech",
+      "externalLinks": [
+        "https://gigatech.co.id",
+        "https://wa.me/628973616000",
+        "https://www.instagram.com/gigatech.id/",
+        "https://www.tiktok.com/@gigatech.co.id"
+      ]
+    },
+    {
+      "path": "/tenant/golden-coffee-bean-pt/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/golden-coffee-bean-pt",
+      "externalLinks": [
+        "https://www.goldencoffeebean.com/",
+        "https://www.google.com/maps?q=GOLDEN%20COFFEE%20BEAN%2C%20PT"
+      ]
+    },
+    {
+      "path": "/tenant/green-riverina/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/green-riverina",
+      "externalLinks": [
+        "https://greenriverina.com/website/",
+        "https://wa.me/628112742709",
+        "https://www.google.com/maps?q=GREEN%20RIVERINA"
+      ]
+    },
+    {
+      "path": "/tenant/gs1-indonesia/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/gs1-indonesia",
+      "externalLinks": [
+        "https://www.google.com/maps?q=GS1%20INDONESIA",
+        "https://www.gs1id.org/",
+        "mailto:info@gs1id.org"
+      ]
+    },
+    {
+      "path": "/tenant/haira/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelinktenant/haira",
+      "externalLinks": [
+        "https://www.instagram.com/hafra__id"
+      ]
+    },
+    {
+      "path": "/tenant/health-today/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelinktenant/health-today",
+      "externalLinks": [
+        "https://healthtoday.id",
+        "https://wa.me/6281110012338",
+        "https://www.instagram.com/healthtodayindonesia"
+      ]
+    },
+    {
+      "path": "/tenant/hhb/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelinktenant/hhb",
+      "externalLinks": [
+        "https://instagram.com/hhbindonesia?psln=MTAzZWdkcTcxM2Zqdg%3D%3D",
+        "https://wa.me/6281806265777",
+        "https://www.google.com/maps/search/?api=1&query=PT+Harmoni+Harapan+Bersama+Tangerang+Selatan",
+        "https://www.hhb.co.id/id",
+        "mailto:cs@hhb.co.id"
+      ]
+    },
+    {
+      "path": "/tenant/himki/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/himki",
+      "externalLinks": [
+        "https://www.google.com/maps?q=HIMKI",
+        "https://www.himki.id/",
+        "https://www.himki.id/tentang-himki",
+        "mailto:info@himki.id"
+      ]
+    },
+    {
+      "path": "/tenant/hipbaki/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/hipbaki",
+      "externalLinks": [
+        "https://hipbaki.com/",
+        "https://wa.me/6282121661061",
+        "https://www.google.com/maps?q=HIPBAKI",
+        "https://www.instagram.com/hipbakiofficial/",
+        "mailto:info@hipbaki.com"
+      ]
+    },
+    {
+      "path": "/tenant/home-fashions-indonesia-cv-sae-home/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/home-fashions-indonesia-cv-sae-home",
+      "externalLinks": [
+        "https://wa.me/6281384116432",
+        "https://www.google.com/maps?q=HOME%20FASHIONS%20INDONESIA%2C%20CV%20(SAE%20HOME)",
+        "https://www.instagram.com/saehomeliving.co/",
+        "https://www.saehomeliving.com/",
+        "mailto:hello@saehomeliving.com"
+      ]
+    },
+    {
+      "path": "/tenant/homeliving-by-exoticawood-furniture/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/homeliving-by-exoticawood-furniture",
+      "externalLinks": [
+        "https://exoticawood.com/",
+        "https://www.google.com/maps?q=HOMELIVING%20BY%20EXOTICAWOOD%20FURNITURE",
+        "mailto:info@exoticawood.com"
+      ]
+    },
+    {
+      "path": "/tenant/ilalang-craft/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/ilalang-craft",
+      "externalLinks": [
+        "https://wa.me/6287779132379",
+        "https://www.google.com/maps?q=Griya%20Asri%20Pamulang%20Blok%20E9%2F14%2C%20Bakti%20Jaya%2C%20Setu%2C%20Kota%20Tangerang%20Selatan%2C%20Banten%2015315%2C%20Indonesia",
+        "https://www.instagram.com/ilalangcraft.co/"
+      ]
+    },
+    {
+      "path": "/tenant/indo-living-utama-cv/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/indo-living-utama-cv",
+      "externalLinks": [
+        "https://www.google.com/maps?q=INDO%20LIVING%20UTAMA%2C%20CV"
+      ]
+    },
+    {
+      "path": "/tenant/jahe-hayatiqu/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelinktenant/jahe-hayatiqu",
+      "externalLinks": [
+        "https://www.bantennews.co.id/bantenesia/akuntansi-d3-universitas-pamulang-mengedukasi-menabur-manfaat-untuk-negeri-dalam-program-pengabdian-kepada-masyarakat/",
+        "https://www.instagram.com/jahemerah_hayatiqu"
+      ]
+    },
+    {
+      "path": "/tenant/javanesia-teakindo-cv/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/javanesia-teakindo-cv",
+      "externalLinks": [
+        "http://www.javateakindo.com/",
+        "https://www.google.com/maps?q=JAVANESIA%20TEAKINDO%2C%20CV"
+      ]
+    },
+    {
+      "path": "/tenant/kalika-indonesia/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/kalika-indonesia",
+      "externalLinks": [
+        "https://wa.me/6288215914876",
+        "https://www.google.com/maps?q=KALIKA%20INDONESIA",
+        "https://www.infinityglobalexport.com/index.html",
+        "mailto:kalikaindonesia@infinityglobalexport.com"
+      ]
+    },
+    {
+      "path": "/tenant/kartika-bela/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelinktenant/kartika-bela",
+      "externalLinks": []
+    },
+    {
+      "path": "/tenant/kawasan-berikat-nusantara/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/kawasan-berikat-nusantara",
+      "externalLinks": [
+        "https://www.google.com/maps?q=KAWASAN%20BERIKAT%20NUSANTARA",
+        "https://www.kbn.co.id/",
+        "mailto:sekper@kbn.co.id"
+      ]
+    },
+    {
+      "path": "/tenant/kawasan-industri-gresik-pt/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/kawasan-industri-gresik-pt",
+      "externalLinks": [
+        "https://kig.co.id/",
+        "https://www.google.com/maps?q=KAWASAN%20INDUSTRI%20GRESIK%2C%20PT"
+      ]
+    },
+    {
+      "path": "/tenant/kemen-ekraf/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/kemen-ekraf",
+      "externalLinks": [
+        "https://ekraf.go.id/",
+        "https://wa.me/6281299998881",
+        "https://www.google.com/maps?q=KEMEN%20EKRAF",
+        "mailto:informasi.publik@ekraf.go.id"
+      ]
+    },
+    {
+      "path": "/tenant/kemen-investasi-dan-hilirisasi-bkpm/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/kemen-investasi-dan-hilirisasi-bkpm",
+      "externalLinks": [
+        "https://www.bkpm.go.id/",
+        "https://www.google.com/maps?q=KEMEN%20INVESTASI%20DAN%20HILIRISASI%20%2F%20BKPM"
+      ]
+    },
+    {
+      "path": "/tenant/kenyess-food/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelinktenant/kenyess-food",
+      "externalLinks": [
+        "https://shopee.co.id/kenyessfood",
+        "https://wa.me/6285782362149",
+        "https://www.google.com/maps/search/?api=1&query=Kenyess+Food+Tangerang+Selatan",
+        "https://www.instagram.com/kenyessfood",
+        "https://www.tiktok.com/@kenyessfood",
+        "https://www.tokopedia.com/kenyessfood"
+      ]
+    },
+    {
+      "path": "/tenant/klumbayan-gold-farm-pt/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/klumbayan-gold-farm-pt",
+      "externalLinks": [
+        "https://klumbayanfarm.com/",
+        "https://www.google.com/maps?q=KLUMBAYAN%20GOLD%20FARM%2C%20PT"
+      ]
+    },
+    {
+      "path": "/tenant/kule-perfume/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelinktenant/kule-perfume",
+      "externalLinks": [
+        "https://maps.app.goo.gl/8mKBrDXxzNFpwyrd7?g_st=ac",
+        "https://shopee.co.id/kule_parfum",
+        "https://wa.me/6281911104646",
+        "https://www.instagram.com/kuleperfume"
+      ]
+    },
+    {
+      "path": "/tenant/kusuma-kencana-mulya/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelinktenant/kusuma-kencana-mulya",
+      "externalLinks": [
+        "http://www.kusumakencanamulya.com",
+        "https://wa.me/6281275657020",
+        "mailto:adicahyanto@yahoo.com"
+      ]
+    },
+    {
+      "path": "/tenant/ladifa-collection/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelinktenant/ladifa-collection",
+      "externalLinks": [
+        "https://wa.me/6287784644546",
+        "https://www.instagram.com/ladifacollection",
+        "https://www.ladifa.id"
+      ]
+    },
+    {
+      "path": "/tenant/lalisha-food/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelinktenant/lalisha-food",
+      "externalLinks": [
+        "https://kurasi.tangerangselatankota.go.id/produk/398",
+        "https://maps.app.goo.gl/rKsnSaMTCce35ZVh9?g_st=iw",
+        "https://wa.me/628561317819",
+        "https://wa.me/6285779060370",
+        "https://www.instagram.com/lalishafood",
+        "https://www.tiktok.com/@lalishafood"
+      ]
+    },
+    {
+      "path": "/tenant/larrisa-food/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelinktenant/larrisa-food",
+      "externalLinks": [
+        "https://fliphtml5.com/adqut/vvmp/2_NDH_07_Naskah_Narasi_Proyek_Perubahan_Syaiful_Bakhri/"
+      ]
+    },
+    {
+      "path": "/tenant/li-uli/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/li-uli",
+      "externalLinks": [
+        "https://liulicraft.wordpress.com/",
+        "https://maps.app.goo.gl/8WWZiTvLNDr5B6287",
+        "https://shopee.co.id/tokoliuli",
+        "https://wa.me/6281280902454",
+        "https://www.facebook.com/share/19HGUgaRBb/?mibextid=wwXIfr",
+        "https://www.instagram.com/liuli_fashion/",
+        "https://www.instagram.com/liulicraft",
+        "https://www.instagram.com/liulicraft/",
+        "https://www.karyaperempuan.id/product/tas-hampers-qgfe1",
+        "https://www.tiktok.com/@liulicraft1?_r=1&_t=ZS-99pJDrdmjUC"
+      ]
+    },
+    {
+      "path": "/tenant/lika-snack/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelinktenant/lika-snack/",
+      "externalLinks": [
+        "https://maps.app.goo.gl/UVLpADewTTFCSyELA",
+        "https://maps.app.goo.gl/gvrePUrXNPe1PXJ26",
+        "https://ppid.kemendagri.go.id/storage/dokumen/fzuXhk1M8131JuJHgtdTD3sB9Rm6yM5ZcJ3tO3SI.pdf",
+        "https://wa.me/6282210889077",
+        "https://www.instagram.com/likasnack.id/",
+        "https://www.pesonanusantara.co.id/main/detail/EMPING%2BJAGUNG"
+      ]
+    },
+    {
+      "path": "/tenant/mahata-gangga-sukta/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/mahata-gangga-sukta",
+      "externalLinks": [
+        "https://www.google.com/maps?q=MAHATA%20GANGGA%20SUKTA"
+      ]
+    },
+    {
+      "path": "/tenant/makmur-emas-aren-pt/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/makmur-emas-aren-pt",
+      "externalLinks": [
+        "https://makmuremasaren.id/",
+        "https://wa.me/6285716752280",
+        "https://www.google.com/maps?q=MAKMUR%20EMAS%20AREN%2C%20PT",
+        "mailto:info@makmuremasaren.com"
+      ]
+    },
+    {
+      "path": "/tenant/mandiri/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/mandiri",
+      "externalLinks": [
+        "https://www.bankmandiri.co.id/",
+        "https://www.google.com/maps?q=MANDIRI",
+        "mailto:mandiricare@bankmandiri.co.id"
+      ]
+    },
+    {
+      "path": "/tenant/mba-wanti/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelinktenant/mba-wanti",
+      "externalLinks": [
+        "https://fliphtml5.com/adqut/vvmp/2_NDH_07_Naskah_Narasi_Proyek_Perubahan_Syaiful_Bakhri/"
+      ]
+    },
+    {
+      "path": "/tenant/md-organic/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelinktenant/md-organic",
+      "externalLinks": [
+        "https://blibli.onelink.me/GNtk/mgmjpy2c",
+        "https://id.shp.ee/FvTLHMmw",
+        "https://tk.tokopedia.com/ZSbKnanCT/",
+        "https://wa.me/6285889995454",
+        "https://www.google.com/maps/search/?api=1&query=Perumahan+anggrek+loka+blok+B4+no+12+graha+Raya+Bintaro+jaya+Tangerang+Selatan",
+        "https://www.instagram.com/organic_md",
+        "https://www.organic-md.com",
+        "https://www.youtube.com/@MDOrganic"
+      ]
+    },
+    {
+      "path": "/tenant/meraki/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelinktenant/meraki",
+      "externalLinks": []
+    },
+    {
+      "path": "/tenant/merpati-mahardika-pt/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/merpati-mahardika-pt",
+      "externalLinks": [
+        "https://mmnatures.co.id/",
+        "https://www.google.com/maps?q=MERPATI%20MAHARDIKA%2C%20PT"
+      ]
+    },
+    {
+      "path": "/tenant/merporizad-berkah-abadi-cv/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/merporizad-berkah-abadi-cv",
+      "externalLinks": [
+        "https://www.google.com/maps?q=MERPORIZAD%20BERKAH%20ABADI%2C%20CV"
+      ]
+    },
+    {
+      "path": "/tenant/my-aicustom/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelinktenant/my-aicustom",
+      "externalLinks": [
+        "https://my-aicustom.com/",
+        "https://my-aicustom.com/company-profile/",
+        "https://my-aicustom.com/contact/",
+        "https://my-aicustom.com/portfolio/",
+        "https://my-aicustom.com/service/",
+        "https://wa.me/6282121292938",
+        "https://www.google.com/maps?q=MY-AICUSTOM",
+        "https://www.instagram.com/myaicustom/",
+        "mailto:myaicustom@gmail.com"
+      ]
+    },
+    {
+      "path": "/tenant/ninauka/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelinktenant/titik-kurniasih",
+      "externalLinks": [
+        "https://wa.me/6281314007827",
+        "https://wa.me/6281314007827?text=Halo%20Ninauka,%20saya%20tertarik%20dengan%20katalog%20tas%20dan%20clutch%20ekspor%20TEI%202026.",
+        "https://www.google.com/maps/search/?api=1&query=Ninauka+BSD+City+Tangerang+Selatan",
+        "https://www.instagram.com/ninauka_n2k/",
+        "mailto:Ninauka68@gmail.com"
+      ]
+    },
+    {
+      "path": "/tenant/nuansa-kayu-bekas-cv/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/nuansa-kayu-bekas-cv",
+      "externalLinks": [
+        "https://www.google.com/maps?q=NUANSA%20KAYU%20BEKAS%2C%20CV",
+        "https://www.instagram.com/whywastewood.id/",
+        "https://www.wastewoodfurniture.com/",
+        "mailto:info@mkabadi.com"
+      ]
+    },
+    {
+      "path": "/tenant/nurazlinda/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelinktenant/nurazlinda",
+      "externalLinks": []
+    },
+    {
+      "path": "/tenant/nusantara-primer-niaga/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/nusantara-primer-niaga",
+      "externalLinks": [
+        "https://www.google.com/maps?q=NUSANTARA%20PRIMER%20NIAGA"
+      ]
+    },
+    {
+      "path": "/tenant/ochokat/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelinktenant/ochokat",
+      "externalLinks": [
+        "https://ppid.kemendagri.go.id/storage/dokumen/fzuXhk1M8131JuJHgtdTD3sB9Rm6yM5ZcJ3tO3SI.pdf"
+      ]
+    },
+    {
+      "path": "/tenant/oto-adult-diapers/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/oto-adult-diapers",
+      "externalLinks": [
+        "https://otoadultdiapers.com/",
+        "https://www.google.com/maps?q=OTO%20ADULT%20DIAPERS",
+        "mailto:sales@exindosource.com"
+      ]
+    },
+    {
+      "path": "/tenant/our-herb/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelinktenant/our-herb",
+      "externalLinks": [
+        "https://kurasi.tangerangselatankota.go.id/produk/134",
+        "https://pknstan.ac.id/id/pelatihan-1",
+        "https://wa.me/6287838209055",
+        "https://wa.me/6287838209055?text=Hello%20Our%20Herb,%20please%20send%20the%20export%20catalog%20and%20company%20profile",
+        "https://www.instagram.com/ourherb.id"
+      ]
+    },
+    {
+      "path": "/tenant/owi-rajut/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/owi-rajut",
+      "externalLinks": [
+        "https://www.google.com/maps/search/?api=1&query=Owi+Rajut+Tangerang+Selatan",
+        "https://www.instagram.com/owi.rajut/"
+      ]
+    },
+    {
+      "path": "/tenant/patimban-industrial-estate/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/patimban-industrial-estate",
+      "externalLinks": [
+        "https://patimbanindustrialestate.co.id/",
+        "https://wa.me/628877007700",
+        "https://www.google.com/maps?q=PATIMBAN%20INDUSTRIAL%20ESTATE"
+      ]
+    },
+    {
+      "path": "/tenant/peddler-indonesia/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelinktenant/peddler-indonesia",
+      "externalLinks": []
+    },
+    {
+      "path": "/tenant/pelindo/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/pelindo",
+      "externalLinks": [
+        "https://wa.me/628111552102",
+        "https://www.google.com/maps?q=PELINDO",
+        "https://www.pelindo.co.id/",
+        "mailto:customer.care@pelindo.co.id"
+      ]
+    },
+    {
+      "path": "/tenant/pemkab-gianyar/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/pemkab-gianyar",
+      "externalLinks": [
+        "https://gianyarkab.go.id/",
+        "https://www.google.com/maps?q=PEMKAB%20GIANYAR"
+      ]
+    },
+    {
+      "path": "/tenant/pemkab-lombok-barat/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/pemkab-lombok-barat",
+      "externalLinks": [
+        "https://lombokbaratkab.go.id/",
+        "https://www.google.com/maps?q=PEMKAB%20LOMBOK%20BARAT",
+        "mailto:diskominfo@lombokbaratkab.go.id"
+      ]
+    },
+    {
+      "path": "/tenant/pemkab-serang/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/pemkab-serang",
+      "externalLinks": [
+        "https://serangkab.go.id/",
+        "https://www.google.com/maps?q=PEMKAB%20SERANG",
+        "mailto:layanan@serangkab.go.id"
+      ]
+    },
+    {
+      "path": "/tenant/pemkab-tuban/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/pemkab-tuban",
+      "externalLinks": [
+        "https://tubankab.go.id/",
+        "https://www.google.com/maps?q=PEMKAB%20TUBAN",
+        "mailto:info@tubankab.go.id"
+      ]
+    },
+    {
+      "path": "/tenant/pemkot-tangerang/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/pemkot-tangerang",
+      "externalLinks": [
+        "https://wa.me/628111500152",
+        "https://www.google.com/maps?q=PEMKOT%20TANGERANG",
+        "https://www.tangerangkota.go.id/",
+        "mailto:layanan@tangerangkota.go.id"
+      ]
+    },
+    {
+      "path": "/tenant/pemkot-tangsel/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/pemkot-tangsel",
+      "externalLinks": [
+        "https://tangerangselatankota.go.id/",
+        "https://www.google.com/maps?q=PEMKOT%20TANGSEL"
+      ]
+    },
+    {
+      "path": "/tenant/pempek-wak-ebot/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelinktenant/pempek-wak-ebot",
+      "externalLinks": [
+        "https://fliphtml5.com/adqut/vvmp/2_NDH_07_Naskah_Narasi_Proyek_Perubahan_Syaiful_Bakhri/",
+        "https://wa.me/6281382736464",
+        "https://www.google.com/maps/search/?api=1&query=Pempek+Wak+Ebot+Tangerang+Selatan"
+      ]
+    },
+    {
+      "path": "/tenant/pratama-spices-indonesia-pt/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/pratama-spices-indonesia-pt",
+      "externalLinks": [
+        "http://www.pratamaspices.com/",
+        "https://www.google.com/maps?q=PRATAMA%20SPICES%20INDONESIA%2C%20PT"
+      ]
+    },
+    {
+      "path": "/tenant/prendjak/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/prendjak",
+      "externalLinks": [
+        "https://shopee.co.id/prendjakecommerce",
+        "https://www.google.com/maps?q=PRENDJAK"
+      ]
+    },
+    {
+      "path": "/tenant/primaniyarta/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/primaniyarta",
+      "externalLinks": [
+        "https://www.google.com/maps?q=PRIMANIYARTA",
+        "https://www.kemendag.go.id/"
+      ]
+    },
+    {
+      "path": "/tenant/pt-cosmar/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelinktenant/pt-cosmar",
+      "externalLinks": [
+        "https://ptcosmar.com/",
+        "https://ptcosmar.com/produk/",
+        "https://www.google.com/maps/search/?api=1&query=PT+Cosmar+Taman+Tekno+BSD+Tangerang+Selatan"
+      ]
+    },
+    {
+      "path": "/tenant/pt-niaga-citra-mandiri/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelinktenant/pt-niaga-citra-mandiri",
+      "externalLinks": [
+        "https://berita.tangerangselatankota.go.id/berita/pilar-lepas-ekspor-perdana-bumbu-masak-pt-niaga-citra-mandiri-ke-arab-saudi"
+      ]
+    },
+    {
+      "path": "/tenant/pt-pertamina-persero/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/pt-pertamina-persero",
+      "externalLinks": [
+        "https://www.google.com/maps?q=PT%20PERTAMINA%20(PERSERO)",
+        "https://www.pertamina.com/"
+      ]
+    },
+    {
+      "path": "/tenant/raja-freeze-dried/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelinktenant/raja-freeze-dried",
+      "externalLinks": [
+        "https://rajafreezedriedfood.com/",
+        "https://rajafreezedriedfood.com/contact/",
+        "https://rajafreezedriedfood.com/maklon-freeze-dried/",
+        "https://wa.me/6282124985339",
+        "https://www.google.com/maps?q=Raja%20Freeze%20Dried%20Food",
+        "mailto:info@rajafreezdriedfood.com"
+      ]
+    },
+    {
+      "path": "/tenant/rhr-snack/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelinktenant/rhr-snack",
+      "externalLinks": [
+        "https://kurasi.tangerangselatankota.go.id/produk/177",
+        "https://shopee.co.id/Kerupuk-Ikan-Tenggiri-RHR-Snack-i.487081002.23876299609"
+      ]
+    },
+    {
+      "path": "/tenant/roemah-koffie/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/roemah-koffie",
+      "externalLinks": [
+        "https://drive.google.com/drive/folders/1DfM9Ekf077RtwJTPwhsHs-gDtMFPw0yC?hl=id",
+        "https://drive.google.com/drive/u/0/folders/1JhoVh6bOkLD9de4auTDSf0DAIiuKrD34",
+        "https://drive.google.com/drive/u/0/folders/1p1ZBsYN62RiFmtxJ-tkjZebm0nb-aUdG",
+        "https://g.co/kgs/E6y3kcb",
+        "https://g.co/kgs/GifACCm",
+        "https://g.co/kgs/Haij3Ds",
+        "https://g.co/kgs/KRu8xrj",
+        "https://roemahkoffie.co.id/academy/",
+        "https://roemahkoffie.co.id/franchise/",
+        "https://roemahkoffie.co.id/register/",
+        "https://roemahkoffie.co.id/table-reservation/",
+        "https://share.google/8a9ngJ101i5VbRAJ3",
+        "https://shopee.co.id/roemahkoffieindonesia",
+        "https://tr.ee/RoemahKoffieCelebration",
+        "https://vt.tiktok.com/ZSkMaowKf/?page=Mall",
+        "https://wa.me/628119550020",
+        "https://www.instagram.com/roemahkoffieindonesia/",
+        "https://www.roemahkoffie.co.id/",
+        "https://www.tokopedia.com/roemahkoffie"
+      ]
+    },
+    {
+      "path": "/tenant/rosniati/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelinktenant/rosniati",
+      "externalLinks": [
+        "https://ejournal.urindo.ac.id/index.php/PAMAS/article/download/3652/1915"
+      ]
+    },
+    {
+      "path": "/tenant/rumah-batik-setu/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/rumah-batik-setu",
+      "externalLinks": [
+        "https://journal.lppmunindra.ac.id/index.php/Jurnal_Desain/article/view/22807",
+        "https://www.google.com/maps/search/?api=1&query=Rumah+Batik+Setu+Tangerang+Selatan",
+        "https://www.instagram.com/rumahbatiksetu/"
+      ]
+    },
+    {
+      "path": "/tenant/samara-from-home/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelinktenant/samara-from-home",
+      "externalLinks": [
+        "https://wa.me/628561096967",
+        "https://www.google.com/maps/search/?api=1&query=-6.305892,106.734535",
+        "https://www.instagram.com/samara.fromhome/",
+        "https://www.tokopedia.com/samarafromhome"
+      ]
+    },
+    {
+      "path": "/tenant/samudra-international-commerce-pt/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/samudra-international-commerce-pt",
+      "externalLinks": [
+        "https://wa.me/6282379535398",
+        "https://www.google.com/maps?q=SAMUDRA%20INTERNATIONAL%20COMMERCE%2C%20PT",
+        "https://www.samudrainternationalcommerce.com/",
+        "mailto:info@samudrainternationalcommerce.com"
+      ]
+    },
+    {
+      "path": "/tenant/sanfood-internasional/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/sanfood-internasional",
+      "externalLinks": [
+        "https://drive.google.com/file/d/1yRvFF9oXQG5aYMzjimgYtDFf_7kl-o1R/view?usp=drive_link",
+        "https://shopee.co.id/sanfoodbrilian",
+        "https://wa.me/628152556555",
+        "https://www.google.com/maps/search/?api=1&query=Sanfood+Prima+Makmur+Cisauk+Tangerang",
+        "https://www.sanfood.id/",
+        "https://www.tokopedia.com/sanfoodindonesia"
+      ]
+    },
+    {
+      "path": "/tenant/sapa-legend-coffee/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelinktenant/sapa-legend-coffee",
+      "externalLinks": [
+        "https://maps.app.goo.gl/cbkJDeX5pQCyA8eu5?g_st=iz",
+        "https://wa.me/qr/SKWPLFU7THBTC1",
+        "https://www.facebook.com/share/18c8JQBRcy/?mibextid=wwXIfr",
+        "https://www.linkedin.com/company/sapa-legend-global-coffee-brand-partner/",
+        "https://www.sapalegendcoffee.vn",
+        "https://www.sapalegendcoffee.vn/arabica-honey-process.html",
+        "https://www.sapalegendcoffee.vn/freeze-dried-instant-coffee.html",
+        "https://www.sapalegendcoffee.vn/liberica-clean-unwashed.html",
+        "https://www.sapalegendcoffee.vn/robusta-clean-unwashed.html",
+        "https://zalo.me/84944284866",
+        "mailto:info@sapalegendcoffee.vn"
+      ]
+    },
+    {
+      "path": "/tenant/sepatu-wanita-naa/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/sepatu-wanita-naa",
+      "externalLinks": [
+        "https://maps.app.goo.gl/bdwuTbR7Efwaiudf7?g_st=awb",
+        "https://wa.me/message/63AO3V4U5XLVB1",
+        "https://www.instagram.com/sepatu_wanita_naa/",
+        "https://www.threads.com/@sepatu_wanita_naa"
+      ]
+    },
+    {
+      "path": "/tenant/shayfara/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelinktenant/shayfara",
+      "externalLinks": [
+        "https://drive.google.com/file/d/1WS1gng1Lmub1ygxUN55LwF9GWDdNqiCZ/view?usp=drivesdk",
+        "https://s.id/ShayFara-RempahModernPilihanNusantara",
+        "https://shayfara-rempahsumberrezeki.myr.id/catalog/coklat-rempah",
+        "https://shayfara-rempahsumberrezeki.myr.id/catalog/kopi-rempah-75667",
+        "https://shayfara-rempahsumberrezeki.myr.id/catalog/kopi-susu-rempah",
+        "https://shayfara-rempahsumberrezeki.myr.id/catalog/susu-rempah",
+        "https://wa.me/c/6285778880047",
+        "https://www.google.com/maps/search/?api=1&query=PT+Rempah+Sumber+Rezeki+Ciputat+Tangerang+Selatan",
+        "https://www.instagram.com/shayfara_rempahsumberrezeki",
+        "https://www.tiktok.com/@rempah.sumber.rezeki",
+        "mailto:fevy59@gmail.com"
+      ]
+    },
+    {
+      "path": "/tenant/shirudo-lab/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelinktenant/shirudo-lab",
+      "externalLinks": [
+        "https://shopee.co.id/shirudo.lab",
+        "https://www.google.com/maps/search/?api=1&query=Shirudo+Lab+Tangerang+Selatan",
+        "https://www.instagram.com/shirudolabindonesia",
+        "https://www.mandjur.co.id/products/ikuzen-nospin-inhaler"
+      ]
+    },
+    {
+      "path": "/tenant/sinar-continental-pt/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/sinar-continental-pt",
+      "externalLinks": [
+        "https://ptsinar.com/",
+        "https://www.google.com/maps?q=SINAR%20CONTINENTAL%2C%20PT"
+      ]
+    },
+    {
+      "path": "/tenant/sinar-mas-land/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/sinar-mas-land",
+      "externalLinks": [
+        "https://www.google.com/maps/search/?api=1&query=Sinar%20Mas%20Land%20Plaza%20BSD%20City",
+        "https://www.sinarmasland.com/id",
+        "https://www.sinarmasland.com/id/contact-us",
+        "https://www.sinarmasland.com/id/development/industrial"
+      ]
+    },
+    {
+      "path": "/tenant/snack-santuy/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelinktenant/snack-santuy",
+      "externalLinks": [
+        "https://shopee.co.id/snack_santuy",
+        "https://wa.me/62881025252498",
+        "https://www.google.com/maps/search/?api=1&query=Indonesia+Convention+Exhibition+ICE+BSD+City",
+        "https://www.instagram.com/snacksantuy_official/",
+        "https://www.tiktok.com/@snacksantuy_official"
+      ]
+    },
+    {
+      "path": "/tenant/snapclean/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelinktenant/snapclean",
+      "externalLinks": [
+        "https://satunusabiru.com/",
+        "https://www.google.com/maps/search/?api=1&query=Snap+Clean+Tangerang+Selatan",
+        "https://www.snapclean.co.id"
+      ]
+    },
+    {
+      "path": "/tenant/star-laboratories-ud/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/star-laboratories-ud",
+      "externalLinks": [
+        "https://star-laboratories.com/",
+        "https://wa.me/628170797171",
+        "https://www.google.com/maps?q=STAR%20LABORATORIES%2C%20UD",
+        "mailto:marketing@star-laboratories.com"
+      ]
+    },
+    {
+      "path": "/tenant/superdryers/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/superdryers",
+      "externalLinks": [
+        "http://www.superdryers.com/",
+        "https://www.google.com/maps?q=SUPERDRYERS",
+        "mailto:marketing@superdryers.com"
+      ]
+    },
+    {
+      "path": "/tenant/tamanu-indonesia-gemilang-pt/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/tamanu-indonesia-gemilang-pt",
+      "externalLinks": [
+        "https://wa.me/6285352056929",
+        "https://www.google.com/maps?q=TAMANU%20INDONESIA%20GEMILANG%2C%20PT",
+        "https://www.tamanuindonesia.com/",
+        "mailto:tamanuindonesiagemilang@gmail.com"
+      ]
+    },
+    {
+      "path": "/tenant/tatalogam-lestari-pt/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/tatalogam-lestari-pt",
+      "externalLinks": [
+        "https://tatalogam.com/",
+        "https://tatalogam.com/authorized-reseller/",
+        "https://tatalogam.com/product-categories/",
+        "https://wa.me/628111920770",
+        "https://www.google.com/maps/search/?api=1&query=PT+Tatalogam+Lestari"
+      ]
+    },
+    {
+      "path": "/tenant/tempe-azaki/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/tempe-azaki",
+      "externalLinks": [
+        "https://tempeazaki.com/",
+        "https://tempeazaki.com/about/",
+        "https://tempeazaki.com/products/",
+        "https://wa.me/6281315441691",
+        "https://www.google.com/maps/search/?api=1&query=Rumah+Tempe+Azaki"
+      ]
+    },
+    {
+      "path": "/tenant/tenggara-jaya-kibar-pt/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/tenggara-jaya-kibar-pt",
+      "externalLinks": [
+        "https://www.google.com/maps?q=TENGGARA%20JAYA%20KIBAR%2C%20PT"
+      ]
+    },
+    {
+      "path": "/tenant/the-munching-queen/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelinktenant/the-munching-queen",
+      "externalLinks": [
+        "https://cahaya-kencana.com",
+        "https://themunchingqueen.com",
+        "https://wa.me/6281289638889",
+        "https://www.google.com/maps/search/?api=1&query=UD+Cahaya+Kencana+Surabaya",
+        "mailto:dianika@cahaya-kencana.com"
+      ]
+    },
+    {
+      "path": "/tenant/titik-kurniasih/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelinktenant/titik-kurniasih",
+      "externalLinks": [
+        "https://wa.me/6281314007827",
+        "https://wa.me/6281314007827?text=Halo%20Ninauka,%20saya%20tertarik%20dengan%20katalog%20tas%20dan%20clutch%20ekspor%20TEI%202026.",
+        "https://www.google.com/maps/search/?api=1&query=Ninauka+BSD+City+Tangerang+Selatan",
+        "https://www.instagram.com/ninauka_n2k/",
+        "mailto:Ninauka68@gmail.com"
+      ]
+    },
+    {
+      "path": "/tenant/tokibi-coffee/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelinktenant/tokibi-coffee",
+      "externalLinks": [
+        "https://www.google.com/maps/search/?api=1&query=Tokibi+Coffee+Tangerang+Selatan",
+        "https://www.inaexport.id/front_end/listeksportir/cetakpdfnew/237476",
+        "https://www.instagram.com/tokibicoffee"
+      ]
+    },
+    {
+      "path": "/tenant/toyota-motor-manufacturing-indonesia-pt-tmmin/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/toyota-motor-manufacturing-indonesia-pt-tmmin",
+      "externalLinks": [
+        "https://www.google.com/maps/search/?api=1&query=PT+Toyota+Motor+Manufacturing+Indonesia+Karawang",
+        "https://www.toyota.co.id/corporate",
+        "https://www.toyota.co.id/en/manufacturing/factory",
+        "https://www.toyota.co.id/en/manufacturing/how-we-manufacture",
+        "https://www.toyota.co.id/manufacturing",
+        "https://www.youtube.com/watch?v=Xkr_Ozl4pBA",
+        "https://www.youtube.com/watch?v=a5Q-RaqCADY",
+        "https://www.youtube.com/watch?v=uNifBwyyMDc"
+      ]
+    },
+    {
+      "path": "/tenant/umbra/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/umbra",
+      "externalLinks": [
+        "https://www.google.com/maps?q=UMBRA"
+      ]
+    },
+    {
+      "path": "/tenant/vietrade/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelinktenant/vietrade",
+      "externalLinks": [
+        "http://www.vietrade.gov.vn",
+        "https://wa.me/84828807986",
+        "https://www.facebook.com/share/1EcwSiGKGU/",
+        "https://www.google.com/maps/search/?api=1&query=S%E1%BB%91+20+L%C3%BD+Th%C6%B0%E1%BB%9Dng+Ki%E1%BB%87t+Phan+Chu+Trinh+Hoan+Kiem+Ha+Noi+Vietnam",
+        "https://zalo.me/84828807986",
+        "mailto:tamtrang.vietrade@gmail.com",
+        "mailto:tamtrang.vietrade@gmail.com?subject=Inquiry:%20Agro-Food%20Processing%20%26%20Tropical%20Harvest%20(TEI%202026)",
+        "mailto:tamtrang.vietrade@gmail.com?subject=Inquiry:%20High-Tech%20Electronics%20%26%20Textile%20Manufacturing%20(TEI%202026)",
+        "mailto:tamtrang.vietrade@gmail.com?subject=Inquiry:%20Specialty%20Coffee%20%26%20Fine%20Robusta%20(TEI%202026)",
+        "mailto:tamtrang.vietrade@gmail.com?subject=Inquiry:%20Sustainable%20Green%20Materials%20%26%20Bio-Packaging%20(TEI%202026)",
+        "tel:+84 82 880 7986"
+      ]
+    },
+    {
+      "path": "/tenant/watershore-growth-advisory-pt/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelink/tenant/watershore-growth-advisory-pt",
+      "externalLinks": [
+        "https://www.google.com/maps?q=WATERSHORE%20GROWTH%20ADVISORY%2C%20PT"
+      ]
+    },
+    {
+      "path": "/tenant/zahhab/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelinktenant/zahhab",
+      "externalLinks": [
+        "https://wa.me/6281298567832",
+        "https://www.google.com/maps/search/?api=1&query=Zahhab+Healthy+Drink+Tangerang+Selatan",
+        "https://www.instagram.com/zahhab_head"
+      ]
+    },
+    {
+      "path": "/tenant/zyvas/",
+      "canonical": "https://mycustomid.github.io/tangsel-tradelinktenant/zyvas",
+      "externalLinks": [
+        "https://wa.me/6281807833077",
+        "https://www.google.com/maps/search/?api=1&query=ZYVAS+Tangerang+Selatan",
+        "https://www.instagram.com/zyvas.dailywear",
+        "https://www.instagram.com/zyvas__"
+      ]
+    }
+  ],
+  "protectedAssets": {
+    "public/brand/lalisha-food/detail-kemasan-penyimpanan.webp": "a52d61bca6f0baeca1c79a35f99e3e1dc454614cb9482c4076342e22f4529f23",
+    "public/brand/lalisha-food/hasil-uji-laboratorium-nutrisi.webp": "a14c0447cb7594354f585088ab80921fb9d3af860c83d5826e0df72f971b566f",
+    "public/brand/lalisha-food/informasi-nilai-gizi-kemasan.webp": "a417287db94e1282380aeec19e799445b5c026d6a7628a2f23d11a175cce6b40",
+    "public/brand/lalisha-food/jaringan-outlet-resmi-lalisha.webp": "651ec49907d944d37fd254a51714b115a5d31d0bbdcacfd2095bf3276a4cfcf3",
+    "public/brand/lalisha-food/kemasan-siap-seduh-lalisha.webp": "35d5085f36ab935d0f208520a190429ad1501dbaad1d2336ec48282b6f92bc94",
+    "public/brand/lalisha-food/komposisi-rempah-nusantara.webp": "dbf08b2144d4030cd8bd0e5d001e0183533b98cbeaa0b526851c3240abca3d3a",
+    "public/brand/lalisha-food/lalisha-favicon.png": "88acff69236b15b38e894a23e7cc72f21f829303225bbc270b40bf3510fea785",
+    "public/brand/lalisha-food/lalisha-food-raw-1.jpg": "5bb80ae44c0e78976f704e082828b918f201f6102dc80d6dbe1804adbf7154b9",
+    "public/brand/lalisha-food/lalisha-logo.png": "7673fdabf9d48a8eaf2607ecc65e3694ed26308e0b15f566a37d270da9b97623",
+    "public/brand/lalisha-food/outlet-amanda-brownies-bogor.webp": "bc5598f04d9332f3f575785c5ec4badf8ef24d49fec475c1030da4ef73dd6a75",
+    "public/brand/lalisha-food/outlet-k3mart-gading-serpong.webp": "8767ee780413805ecd6c8bd4b25fb60b125b90ba1846b8df9a7a7f8cc31db96c",
+    "public/brand/lalisha-food/outlet-k3mart-summarecon-bekasi.webp": "798ab45ebc811ad3ef2ff954cf4bb2ec35ec505854c0b9775d7428f3e19a29b9",
+    "public/brand/lalisha-food/panduan-saran-penyajian.webp": "27002e73cc210c594ca440967fd1e620c26c48e76677f97c2671acf40e260f01",
+    "public/brand/lalisha-food/seblak-instan-keju-creamy.webp": "50de0678e27a55b4b837d4aa08580cd0d8834b5bcf37b7b9c1107c7b419fc63f",
+    "public/brand/lalisha-food/seblak-instan-lalisha-hero.webp": "2a91b4a8c99d11c1b8d67d3cd7b00c7bfe4c67feb4a6f4968ffa46ff11fe2ef1",
+    "public/brand/lalisha-food/seblak-instan-original-kencur.webp": "4c7af8ffa984bfc936941d930b96f00879a297e16019f231535254aa11c6a078",
+    "public/brand/lalisha-food/seblak-instan-tampak-depan.webp": "62774e097c43718129db5c9b2566f0f91724294e0f8a098b945ed2941f6eeabe",
+    "public/brand/lalisha-food/sertifikat-haki-merek-lalisha.webp": "3116497469cf340d05f06a9cf961535d3d4274c8d98a3fdb4c2b975a521881e4",
+    "public/brand/lalisha-food/sertifikat-halal-bpjph.webp": "1b534845fd127a5b7053844a7864037d3b8c75881652beaee2ffbb325ce96f06",
+    "public/brand/lalisha-food/sertifikat-nib-izin-usaha.webp": "256e2a5abb469f381fc16e029d58576a233133813f06eafeb323a4a11e1b6837",
+    "public/brand/lalisha-food/standar-kualitas-premium.webp": "706f265feebe6030e132810a7725fc4c4e8bb9b19b97d22f394e13ee92352bf8",
+    "public/brand/lalisha-food/varian-keju-creamy-pouch.webp": "f3847c3daab28384f84e137b8a297061eaa51d7e45c23e701fe23f07ef4c3857",
+    "public/brand/lalisha-food/varian-original-kencur-pouch.webp": "0b1cafa1b2e39a10d912b0f39791d6bfafda782df8c4567736748ed6fd7bcf7a"
+  },
+  "legacyCanonicalTargets": {
+    "buminaeenk-freeze-dried": "raja-freeze-dried",
+    "ninauka": "titik-kurniasih",
+    "shayfara": "shayfara"
+  },
+  "permalinkLockSHA256": "c25ec62120f07d22ed91784416f3ef4dc6b195f8e52913c27d783044b4b94dec"
+}

@@ -46,7 +46,11 @@ const pageDescription = `Direktori digital ${tenantList.length} profil bisnis Tr
       <div class="hero-copy">
         <span class="hero-serial">Tangerang Selatan · Trade Expo Indonesia 2026</span>
         <h1 id="home-title">One fair.<br/><em>Many identities.</em></h1>
-        <p>Temukan bisnis yang relevan, pahami apa yang mereka tawarkan, lalu masuk ke kanal resmi tanpa lapisan informasi yang tidak perlu. Setiap profil punya karakter visual sendiri; struktur navigasinya tetap konsisten.</p>
+        <p>Produk pangan, kriya, manufaktur, dan ide dari Indonesia. Temukan mitra berikutnya di Trade Expo Indonesia 2026—mulai dari nama, produk, atau lokasi booth.</p>
+        <form class="home-search" action={`${baseUrl}directory/`} role="search">
+          <label for="home-query">What are you looking for?</label>
+          <div><input id="home-query" name="q" type="search" placeholder="Coffee, batik, snacks…" /><button type="submit" aria-label="Cari bisnis">↗</button></div>
+        </form>
         <a class="hero-primary" href={`${baseUrl}directory`}><span>Explore all {tenantList.length} profiles</span><b aria-hidden="true">↗</b></a>
         <a class="hero-secondary" href={`${baseUrl}guide`}>Open Hall 3A visitor guide →</a>
       </div>
@@ -61,7 +65,7 @@ const pageDescription = `Direktori digital ${tenantList.length} profil bisnis Tr
       <div class="section-head">
         <span class="section-index">01 / Browse</span>
         <h2 id="sector-title">Start with what you need.</h2>
-        <p>Sektor berfungsi sebagai pintu masuk, bukan dekorasi. Pilih konteks bisnis dulu, lalu persempit berdasarkan hall atau nama tenant di direktori.</p>
+        <p>Mulai dari sektor yang relevan untuk bisnis Anda. Lihat profil dan lokasi tenant dalam satu direktori.</p>
       </div>
       <div class="sector-index">
         {categoryCounts.map((item, index) => (
@@ -77,13 +81,13 @@ const pageDescription = `Direktori digital ${tenantList.length} profil bisnis Tr
     <section class="editorial-section discovery-shell" aria-labelledby="selected-title">
       <div class="section-head">
         <span class="section-index">02 / Selected</span>
-        <h2 id="selected-title">Profiles with distinct visual voices.</h2>
-        <p>Contoh tenant dengan treatment berbeda—technology, food, hospitality, craft—tetapi tetap berada dalam satu sistem TradeLink yang mudah dipahami.</p>
+        <h2 id="selected-title">Meet the makers.<br/>See the possibilities.</h2>
+        <p>Dari pengolahan pangan hingga tempat singgah di alam. Kenali enam bisnis dan apa yang mereka tawarkan.</p>
       </div>
       <div class="profile-stage featured-showcases">
         {featuredShowcases.map((item, index) => (
           <a class="profile-card featured-showcase" href={`${baseUrl}tenant/${item.slug}/`}>
-            <div class="profile-media"><img src={item.image} alt="" loading={index < 2 ? 'eager' : 'lazy'} decoding="async" /></div>
+            <div class="profile-media"><img src={item.image} alt="" width="960" height="640" loading="lazy" decoding="async" /></div>
             <div class="profile-top"><span>{String(index + 1).padStart(2,'0')}</span><span>{item.category}</span></div>
             <div class="profile-body"><h3>{item.name}</h3><p>{item.line}</p><span class="profile-arrow" aria-hidden="true">↗</span></div>
           </a>
@@ -96,7 +100,7 @@ const pageDescription = `Direktori digital ${tenantList.length} profil bisnis Tr
         <div>
           <span class="section-index">03 / Directory</span>
           <h2>Search first. Tap once.</h2>
-          <p>Gunakan pencarian, sektor, dan hall untuk menemukan tenant. URL profile tetap permanen karena halaman-halaman ini juga menjadi destination untuk NFC card yang sudah beredar.</p>
+          <p>Sudah tahu produk yang dicari? Buka direktori, persempit pilihan berdasarkan sektor dan hall, lalu hubungi bisnis melalui kanal yang tersedia.</p>
         </div>
         <a class="hero-primary" href={`${baseUrl}directory`}><span>Open business directory</span><b aria-hidden="true">↗</b></a>
       </div>
@@ -110,10 +114,3 @@ const pageDescription = `Direktori digital ${tenantList.length} profil bisnis Tr
   </main>
 </BaseLayout>
 
-<style>
-  .profile-card,
-  .sector-row {
-    content-visibility: auto;
-    contain-intrinsic-size: 72px;
-  }
-</style>

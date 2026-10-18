@@ -68,12 +68,8 @@ function emailUrl(value) {
 export function getTenantLogo(tenant = {}) {
   const explicitLogo = safeWebUrl(tenant.logo);
   if (explicitLogo) return explicitLogo;
-  const website = safeWebUrl(tenant.website);
-  if (!website || website.startsWith('/')) return '';
-  try {
-    const hostname = new URL(website).hostname;
-    return hostname ? `https://www.google.com/s2/favicons?sz=128&domain_url=${encodeURIComponent(`https://${hostname}`)}` : '';
-  } catch { return ''; }
+  // A website favicon is not evidence of an authorized brand logo.
+  return '';
 }
 
 export function makeMonogramFavicon(label = '', background = '#1e3a8a', foreground = '#ffffff') {
@@ -94,15 +90,6 @@ export function resolveTenantFavicon(tenant = {}, config = {}) {
   if (tenant.favicon) return tenant.favicon;
   if (tenant.logo) return tenant.logo;
 
-  const website = safeWebUrl(tenant.website || config.website);
-  if (website && !website.startsWith('/')) {
-    try {
-      const hostname = new URL(website).hostname;
-      if (hostname && !hostname.includes('github.io') && !hostname.includes('canva.site') && !hostname.includes('google.com')) {
-        return `https://www.google.com/s2/favicons?sz=128&domain_url=${encodeURIComponent(`https://${hostname}`)}`;
-      }
-    } catch {}
-  }
 
   if (config.heroImage && (/\.(png|webp|svg|jpg|jpeg)$/i.test(config.heroImage)) && !config.heroImage.includes('tei-batch')) {
     return config.heroImage;

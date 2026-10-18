@@ -18,7 +18,17 @@ extracted_raw_error.txt
 extracted_tei_md/
 raw_mined_data.json
 wa_mined_assets.json
-scripts/
+# Keep private research/operations scripts out of the release; track public validation tools.
+scripts/*
+!scripts/validate-permalinks.mjs
+!scripts/validate-tenants.mjs
+!scripts/validate-output.mjs
+!scripts/verify-package.mjs
+!scripts/browser-qa.mjs
+!scripts/accessibility-qa.mjs
+!scripts/package-release.mjs
+!scripts/static-server.cjs
+reports/browser/*.png
 recent_wa_messages.json
 active_chats_oct14_16.txt
 jenny_messages.json

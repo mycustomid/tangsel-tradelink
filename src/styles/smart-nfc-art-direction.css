@@ -120,3 +120,8 @@
   .smart-nfc[data-hero="aperture"] .hero-visual,.smart-nfc[data-hero="panorama"] .hero-visual,.smart-nfc[data-hero="specimen"] .hero-visual{border-radius:64px 64px 0 0}
 }
 @media(prefers-reduced-motion:reduce){.smart-nfc[data-motion] .hero-copy,.smart-nfc[data-motion] .hero-visual{animation:none!important}}
+/* Prevent intrinsic aspect-ratio minimums from widening narrow exhibition profiles. */
+.smart-nfc .nfc-hero>*{min-width:0;max-width:100%}
+.smart-nfc .hero-visual{width:100%;min-width:0;max-width:100%;box-sizing:border-box}
+.smart-nfc .nfc-overview>*,.smart-nfc .highlight-grid>*,.smart-nfc .action-grid>*{min-width:0;overflow-wrap:anywhere}
+@media(max-width:720px){.smart-nfc[data-layout] .nfc-hero{grid-template-columns:minmax(0,1fr)}.smart-nfc[data-layout] .hero-visual{min-height:0;max-width:100%;aspect-ratio:var(--hero-aspect-mobile,4/3)}.smart-nfc .gallery{max-width:calc(100% + 32px)}.smart-nfc .nfc-topbar{flex-wrap:wrap;gap:8px;padding-block:14px}.smart-nfc[data-layout="poster-stack"] .hero-copy{padding:24px}.smart-nfc h1{overflow-wrap:anywhere}}

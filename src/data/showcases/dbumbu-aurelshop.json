@@ -1,12 +1,15 @@
 {
   "brandLabel": "DBUMBU",
-  "tagline": "Pusat Rempah, Herbal & Bahan Dapur: Supplier Sayuran Segar Horeka & Bawang Hitam Fermentasi.",
+  "tagline": "Pusat Rempah Nusantara, Bumbu Bubuk Murni, Simplisia Herbal & Supplier Sayuran Segar Horeka.",
   "eyebrow": "Pusat Rempah Nusantara · Herbal Kering · Sayuran Segar Horeka · Tangerang Selatan",
   "heroImage": "/brand/dbumbu-aurelshop/dbumbu-fresh-vegetables.jpg",
   "logo": "/brand/dbumbu-aurelshop/dbumbu-logo.jpg",
   "favicon": "/brand/dbumbu-aurelshop/dbumbu-logo.jpg",
   "heroFit": "cover",
   "visualMode": "food",
+  "galleryLimit": 50,
+  "galleryFit": "contain",
+  "galleryAspectRatio": "3/4",
   "palette": {
     "bg": "#fcf8f2",
     "ink": "#231815",
@@ -55,40 +58,209 @@
   ],
   "commercialBlocks": [
     {
-      "title": "Katalog Fresh Vegetables & Spices",
-      "badge": "Fresh Horeka",
-      "note": "Pemesanan pasokan rutin dapur & horeka via WhatsApp 0822-5977-1919.",
+      "title": "Biji Rempah & Rempah Utuh",
+      "badge": "Rempah Nusantara",
+      "note": "Rempah utuh sortiran mutu tinggi untuk industri bumbu makanan, F&B, dan jamu.",
       "items": [
         {
-          "label": "Sayuran Segar & Bawang Kupas Sortir",
-          "value": "Bawang Merah/Putih Kating, Iris, Buncis, Brokoli"
+          "label": "Kapulaga, Cengkeh & Bunga Lawang",
+          "value": "Kapulaga Hijau/Putih, Cengkeh Pilihan, Bunga Lawang (Pekak)"
         },
         {
-          "label": "Bumbu Giling Segar Higienis",
-          "value": "Bawang Merah/Putih, Cabai, Jahe, Kunyit, Laos, Sereh"
+          "label": "Lada, Pala & Kayu Manis",
+          "value": "Lada Hitam/Putih Biji, Pala Bulat/Lonjong/Fuli, Kayu Manis Stick"
         },
         {
-          "label": "Jamur Segar & Hasil Laut Kering",
-          "value": "Enoki, Kancing, Shimeji, Cumi Asin, Ebi, Teri Medan"
+          "label": "Ketumbar, Jintan & Adas",
+          "value": "Ketumbar Hitam/Putih, Jintan Hitam/Putih, Adas Biji, Biji Selasih"
+        },
+        {
+          "label": "Kemiri, Kaskas & Angkak",
+          "value": "Kemiri Utuh/Belah/Hancur, Biji Kaskas Poppy, Angkak Biji Beras Merah"
         }
       ]
     },
     {
-      "title": "Katalog Rempah, Herbal & Bahan Dapur",
-      "badge": "Murni & Higienis",
-      "note": "Rempah utuh, bubuk murni dan simplisia jamu kering siap kemas.",
+      "title": "Bubuk Murni 100%",
+      "badge": "Murni Higienis",
+      "note": "Penggilingan halus higienis tanpa campuran pengawet, perisa, atau pewarna sintetis.",
       "items": [
         {
-          "label": "Rempah Nusantara Biji & Bubuk Murni",
-          "value": "Adas, Angkak, Kapulaga, Cengkeh, Kayu Manis, Lada, Pala"
+          "label": "Bubuk Rempah Aromatik",
+          "value": "Bawang Putih Bubuk, Bombay Bubuk, Kayu Manis, Cengkeh, Pala, Kapulaga"
         },
         {
-          "label": "Daun Herbal & Jamu Tradisional",
-          "value": "Kelor, Senna, Sambiloto, Insulin, Temulawak, Wedang Uwuh"
+          "label": "Lada & Cabai Bubuk",
+          "value": "Lada Hitam/Putih Halus & Kasar, Cabai Halus, Cabai Kasar, Paprika"
         },
         {
-          "label": "Daebak Black Garlic (Bawang Hitam)",
-          "value": "Jar 200g - 500g & Kemasan Custom"
+          "label": "Bubuk Rimpang Nusantara",
+          "value": "Jahe Merah/Putih, Kunyit Murni, Kunyit Putih, Temulawak, Kencur, Laos"
+        },
+        {
+          "label": "Herbal & Bumbu Daun",
+          "value": "Sereh Bubuk, Daun Jeruk Purut Bubuk, Kelor Bubuk, Cabe Jawa Bubuk"
+        }
+      ]
+    },
+    {
+      "title": "Simplisia & Herbal Kering",
+      "badge": "Herbal & Jamu",
+      "note": "Bahan simplisia kering alami untuk jamu godok, seduhan herbal, dan industri farmasi tradisional.",
+      "items": [
+        {
+          "label": "Simplisia Daun Kering",
+          "value": "Daun Kelor, Daun Senna/Jati Cina, Jati Belanda, Daun Insulin/Yakon"
+        },
+        {
+          "label": "Herbal Vitalitas & Tradisional",
+          "value": "Pasak Bumi Merah Slice & Bubuk, Sambiloto Kering, Biji Mahoni, Manjakani"
+        },
+        {
+          "label": "Kulit Batang & Kayu Herbal",
+          "value": "Kayu Secang, Kayu Masohi, Kulit Manggis, Kayu Pule, Pulosari, Sintok"
+        },
+        {
+          "label": "Minuman Tradisional & Spesial",
+          "value": "Paket Wedang Uwuh Komplit, Bawang Hitam Fermentasi (Black Garlic)"
+        }
+      ]
+    },
+    {
+      "title": "Sayuran Segar Horeka",
+      "badge": "Pasokan Harian",
+      "note": "Sortiran segar harian langsung dari pasar induk untuk hotel, resto, dan katering.",
+      "items": [
+        {
+          "label": "Sayuran Hijau & Selada",
+          "value": "Brokoli, Buncis, Pakcoy, Kailan, Selada Keriting, Lolorosa, Romaine"
+        },
+        {
+          "label": "Cabai Segar Lengkap",
+          "value": "Cabai Rawit Merah/Hijau/Putih, Cabai Merah/Hijau Keriting & Besar TW, Gendot"
+        },
+        {
+          "label": "Daun Bumbu & Herbal Segar",
+          "value": "Daun Bawang, Seledri, Kemangi, Basil, Rosemary, Mint, Parsley, Salam, Jeruk"
+        },
+        {
+          "label": "Sayuran Dapur & Buah Sayur",
+          "value": "Tomat Merah/Cherry/Hijau, Timun Kyuri/Jukini, Terong, Pare, Oyong, Labu Siam"
+        }
+      ]
+    },
+    {
+      "title": "Aneka Bawang Kupas/Goreng",
+      "badge": "Siap Pakai",
+      "note": "Bawang pilihan kupas bersih, iris siap masak, dan bawang goreng renyah wangi.",
+      "items": [
+        {
+          "label": "Bawang Merah Kupas & Iris",
+          "value": "Bawang Merah Kupas Bersih Horeka, Bawang Merah Iris Siap Masak"
+        },
+        {
+          "label": "Bawang Putih Kupas Kating & Honam",
+          "value": "Bawang Putih Kating Kupas, Bawang Putih Honam Kupas, Bawang Tunggal"
+        },
+        {
+          "label": "Bawang Goreng Renyah",
+          "value": "Bawang Merah Goreng Renyah Asli, Bawang Putih Goreng Gurih"
+        },
+        {
+          "label": "Bawang Bombay & Spesial",
+          "value": "Bawang Bombay Kuning & Merah, Daebak Black Garlic Fermentasi"
+        }
+      ]
+    },
+    {
+      "title": "Bumbu Giling Segar",
+      "badge": "Dapur Cepat Saji",
+      "note": "Bumbu dapur segar digiling harian higienis tanpa air berlebih dan tanpa pengawet.",
+      "items": [
+        {
+          "label": "Bumbu Dasar Giling",
+          "value": "Bawang Merah Giling, Bawang Putih Giling, Kemiri Giling Segar"
+        },
+        {
+          "label": "Cabai Giling Segar",
+          "value": "Cabai Merah Halus, Cabai Merah Kasar, Cabai Hijau Giling"
+        },
+        {
+          "label": "Rimpang Dapur Giling",
+          "value": "Jahe Giling Segar, Kunyit Giling, Laos/Lengkuas Giling, Sereh Giling"
+        },
+        {
+          "label": "Custom Bumbu Horeka",
+          "value": "Melayani pesanan porsi besar kiloan untuk resep resto & katering"
+        }
+      ]
+    },
+    {
+      "title": "Jamur Segar",
+      "badge": "Fresh Fungi",
+      "note": "Pasokan jamur segar mutu resto Jepang, oriental dining, dan masakan nusantara.",
+      "items": [
+        {
+          "label": "Jamur Resto Populer",
+          "value": "Jamur Enoki Segar, Jamur Kancing (Champignon), King Oyster"
+        },
+        {
+          "label": "Jamur Shimeji & Tiram",
+          "value": "Shimeji Coklat Segar, Shimeji Putih, Jamur Tiram Putih Segar"
+        },
+        {
+          "label": "Jamur Tradisional",
+          "value": "Jamur Merang Segar, Jamur Kuping Hitam Kenyal"
+        },
+        {
+          "label": "Karakter Pasokan",
+          "value": "Kemasan steril terlindung, kondisi dingin segar siap olah"
+        }
+      ]
+    },
+    {
+      "title": "Hasil Laut Kering",
+      "badge": "Kering & Gurih",
+      "note": "Hasil laut kering dan aneka ikan asin pilihan kualitas bersih tanpa formalin/pemutih.",
+      "items": [
+        {
+          "label": "Cumi Asin & Ebi Pilihan",
+          "value": "Cumi Asin Basah/Kering/Panjang, Ebi Rebon Tawar/Asin, Ebi Kupas"
+        },
+        {
+          "label": "Ikan Teri Premium",
+          "value": "Teri Medan Super, Teri Nasi Tuban, Teri Jengki Utuh & Belah, Teri Hitam"
+        },
+        {
+          "label": "Ikan Asin Tradisional",
+          "value": "Ikan Jambal Roti, Gabus, Jambrong, Peda Merah/Putih, Sepat, Petek"
+        },
+        {
+          "label": "Ikan Asin Tambang & Bandeng",
+          "value": "Ikan Asin Bandeng, Borneo, Dajang, Samge, Tawes, Ikan Tawar Pakang"
+        }
+      ]
+    },
+    {
+      "title": "Umbi-umbian & Beras Ketan",
+      "badge": "Pangan & Pati",
+      "note": "Bahan karbohidrat alami, umbi madu berkualitas, dan ketan pilihan untuk olahan pangan.",
+      "items": [
+        {
+          "label": "Beras Ketan & Beras Sehat",
+          "value": "Beras Ketan Putih Super, Beras Ketan Hitam Wangi, Beras Merah Alami"
+        },
+        {
+          "label": "Aneka Ubi Madu & Ungu",
+          "value": "Ubi Madu Cilembu Manis Meleleh, Ubi Kuning Pulen, Ubi Ungu Pekat"
+        },
+        {
+          "label": "Umbi Dapur & Olahan Tradisional",
+          "value": "Singkong Pulen, Talas Bogor Empuk, Kentang Dieng Segar, Wortel"
+        },
+        {
+          "label": "Krupuk & Bahan Pelengkap",
+          "value": "Aneka Kerupuk Mentah Siap Goreng (Emping, Ikan, Udang, Gendar), Mutiara Sagu"
         }
       ]
     }
@@ -98,19 +270,169 @@
       "image": "/brand/dbumbu-aurelshop/dbumbu-black-garlic.jpg",
       "label": "Bawang Hitam Fermentasi Alami",
       "caption": "Black garlic kaya antioksidan dengan cita rasa manis asam alami.",
+      "fit": "contain",
+      "aspectRatio": "3/4",
       "url": "/brand/dbumbu-aurelshop/dbumbu-black-garlic.jpg"
     },
     {
       "image": "/brand/dbumbu-aurelshop/dbumbu-spices-hero.jpg",
       "label": "Pusat Rempah Nusantara DBumbu",
       "caption": "Koleksi rempah-rempah pilihan nusantara siap pasok untuk industri makanan, minuman, dan jamu.",
+      "fit": "contain",
+      "aspectRatio": "3/4",
       "url": "/brand/dbumbu-aurelshop/dbumbu-spices-hero.jpg"
     },
     {
       "image": "/brand/dbumbu-aurelshop/dbumbu-bawang-kupas-horeka.jpg",
       "label": "Suplai Bawang Kupas & Bawang Goreng",
       "caption": "Bawang merah kupas, bawang iris, dan bawang goreng higienis siap pakai untuk resto dan katering.",
+      "fit": "contain",
+      "aspectRatio": "3/4",
       "url": "/brand/dbumbu-aurelshop/dbumbu-bawang-kupas-horeka.jpg"
+    },
+    {
+      "image": "/brand/dbumbu-aurelshop/catalog/katalog-rempah-hal-1.webp",
+      "label": "Katalog Rempah & Herbal · Cover Resmi",
+      "caption": "Cover resmi DBumbu Catalog Product Spices — Pusat rempah nusantara, herbal & bahan dapur berstandar mutu tinggi.",
+      "fit": "contain",
+      "aspectRatio": "3/4",
+      "url": "/brand/dbumbu-aurelshop/catalog/katalog-rempah-hal-1.webp"
+    },
+    {
+      "image": "/brand/dbumbu-aurelshop/catalog/katalog-rempah-hal-2.webp",
+      "label": "Katalog Rempah · Hal 02 (Biji Rempah & Bubuk Murni)",
+      "caption": "Adas biji/bubuk, angkak biji/bubuk, asam glugur/kandis, bawang hitam, bawang putih bubuk, cabe bubuk/kasar, cengkeh biji/bubuk, cabe jawa, paprika, cabe keriting kering.",
+      "fit": "contain",
+      "aspectRatio": "3/4",
+      "url": "/brand/dbumbu-aurelshop/catalog/katalog-rempah-hal-2.webp"
+    },
+    {
+      "image": "/brand/dbumbu-aurelshop/catalog/katalog-rempah-hal-3.webp",
+      "label": "Katalog Rempah · Hal 03 (Herbal Daun & Cabai Kering)",
+      "caption": "Cabe rawit/merah kering, daun jeruk bubuk, basil, bayleaf, oregano, parsley, rosemary, thyme, jahe merah/putih bubuk, jintan hitam/putih, daun kelor, jati cina, jati belanda, insulin.",
+      "fit": "contain",
+      "aspectRatio": "3/4",
+      "url": "/brand/dbumbu-aurelshop/catalog/katalog-rempah-hal-3.webp"
+    },
+    {
+      "image": "/brand/dbumbu-aurelshop/catalog/katalog-rempah-hal-4.webp",
+      "label": "Katalog Rempah · Hal 04 (Kayu Manis & Kapulaga)",
+      "caption": "Biji kecipir, kedaung, kelor, kayu manis stick/bubuk, kayu masohi, kapulaga hijau/putih, kaskas, kemiri utuh/belah/hancur, ketumbar hitam/putih/bubuk, kencur bubuk, kunyit bubuk.",
+      "fit": "contain",
+      "aspectRatio": "3/4",
+      "url": "/brand/dbumbu-aurelshop/catalog/katalog-rempah-hal-4.webp"
+    },
+    {
+      "image": "/brand/dbumbu-aurelshop/catalog/katalog-rempah-hal-5.webp",
+      "label": "Katalog Rempah · Hal 05 (Lada, Pala & Kayu Herbal)",
+      "caption": "Kunyit putih bubuk, kayu pule, pulosari, secang, kulit manggis, lada hitam/putih (biji/kasar/bubuk), laos bubuk, biji mahoni, manjakani, melur, pala bulat/lonjong/fuli/bubuk, pekak.",
+      "fit": "contain",
+      "aspectRatio": "3/4",
+      "url": "/brand/dbumbu-aurelshop/catalog/katalog-rempah-hal-5.webp"
+    },
+    {
+      "image": "/brand/dbumbu-aurelshop/catalog/katalog-rempah-hal-6.webp",
+      "label": "Katalog Rempah · Hal 06 (Pasak Bumi & Jamu Tradisional)",
+      "caption": "Pekak bubuk, pasak bumi merah slice & bubuk, biji selasih, sambiloto, bunga sedap malam, sereh bubuk, temulawak bubuk, wedang uwuh komplit, wijen hitam/putih.",
+      "fit": "contain",
+      "aspectRatio": "3/4",
+      "url": "/brand/dbumbu-aurelshop/catalog/katalog-rempah-hal-6.webp"
+    },
+    {
+      "image": "/brand/dbumbu-aurelshop/catalog/katalog-fresh-hal-1.webp",
+      "label": "Katalog Fresh Vegetables · Cover Resmi",
+      "caption": "Cover resmi DBumbu Catalog Product Fresh Vegetables & Spices — Pasokan segar sayuran, bumbu giling, dan bahan dapur horeka.",
+      "fit": "contain",
+      "aspectRatio": "3/4",
+      "url": "/brand/dbumbu-aurelshop/catalog/katalog-fresh-hal-1.webp"
+    },
+    {
+      "image": "/brand/dbumbu-aurelshop/catalog/katalog-fresh-hal-2.webp",
+      "label": "Katalog Fresh · Hal 02 (Aneka Bawang & Beras Ketan)",
+      "caption": "Asam cikala/muda, asparagus, bawang bombay merah/kuning, bawang merah (bulat, iris, kupas, goreng), bawang putih kating/honam (kupas, goreng), beras ketan hitam/putih, beras merah, buncis, brokoli.",
+      "fit": "contain",
+      "aspectRatio": "3/4",
+      "url": "/brand/dbumbu-aurelshop/catalog/katalog-fresh-hal-2.webp"
+    },
+    {
+      "image": "/brand/dbumbu-aurelshop/catalog/katalog-fresh-hal-3.webp",
+      "label": "Katalog Fresh · Hal 03 (Bumbu Giling Higienis & Cabai)",
+      "caption": "Bumbu giling segar higienis (bawang merah/putih, cabai halus/kasar, jahe, kemiri, kunyit, laos, sereh), cabe gendot, cabai hijau/merah keriting/besar TW, cabai rawit segar, daun basil & bawang.",
+      "fit": "contain",
+      "aspectRatio": "3/4",
+      "url": "/brand/dbumbu-aurelshop/catalog/katalog-fresh-hal-3.webp"
+    },
+    {
+      "image": "/brand/dbumbu-aurelshop/catalog/katalog-fresh-hal-4.webp",
+      "label": "Katalog Fresh · Hal 04 (Aneka Daun Segar & Selada)",
+      "caption": "Daun bayam, jeruk purut, kenikir, kangkung, daun kunyit, kucai, ketumbar, mint, daun lettuce romain, melinjo, pandan, parsley, daun pisang, salam, rosemary, selada lolorosa/keriting, kailan, seledri.",
+      "fit": "contain",
+      "aspectRatio": "3/4",
+      "url": "/brand/dbumbu-aurelshop/catalog/katalog-fresh-hal-4.webp"
+    },
+    {
+      "image": "/brand/dbumbu-aurelshop/catalog/katalog-fresh-hal-5.webp",
+      "label": "Katalog Fresh · Hal 05 (Jamur Segar, Jagung & Rimpang)",
+      "caption": "Daun kemangi, singkong, sawi hijau/putih, jagung kupas/pipil/putren, jahe gajah/emprit/merah, aneka jamur segar (enoki, merang, kancing, king oyster, kuping, tiram, shimeji coklat/putih), jengkol.",
+      "fit": "contain",
+      "aspectRatio": "3/4",
+      "url": "/brand/dbumbu-aurelshop/catalog/katalog-fresh-hal-5.webp"
+    },
+    {
+      "image": "/brand/dbumbu-aurelshop/catalog/katalog-fresh-hal-6.webp",
+      "label": "Katalog Fresh · Hal 06 (Hasil Laut Kering & Ikan Asin)",
+      "caption": "Cumi asin basah/kering/panjang, ebi rebon asin/tawar, ebi kulit/kupas, ikan asin gabus, jambal, jambrong, japuh siro, kapasan tawar/asin, peda merah/putih, petek, sepat, ikan padang tawar.",
+      "fit": "contain",
+      "aspectRatio": "3/4",
+      "url": "/brand/dbumbu-aurelshop/catalog/katalog-fresh-hal-6.webp"
+    },
+    {
+      "image": "/brand/dbumbu-aurelshop/catalog/katalog-fresh-hal-7.webp",
+      "label": "Katalog Fresh · Hal 07 (Aneka Teri, Jeruk Dapur & Labu)",
+      "caption": "Ikan asin bandeng, borneo, samge, tambang, tawes, teri nasi tuban, teri hitam, teri medan super, teri jengki, ikan tawar pakang, jeruk limo, nipis, purut, lemon California/import, kabocha oranye.",
+      "fit": "contain",
+      "aspectRatio": "3/4",
+      "url": "/brand/dbumbu-aurelshop/catalog/katalog-fresh-hal-7.webp"
+    },
+    {
+      "image": "/brand/dbumbu-aurelshop/catalog/katalog-fresh-hal-8.webp",
+      "label": "Katalog Fresh · Hal 08 (Kacang-kacangan, Kopi & Sayuran)",
+      "caption": "Kacang hijau kupas/utuh, kedelai, kacang tanah kupas/kulit, kacang merah, mete, kacang panjang, kecombrang, tolo, edamame, kembang kol, kentang, kencur, kol putih/ungu, kolang kaling, kopi Lampung.",
+      "fit": "contain",
+      "aspectRatio": "3/4",
+      "url": "/brand/dbumbu-aurelshop/catalog/katalog-fresh-hal-8.webp"
+    },
+    {
+      "image": "/brand/dbumbu-aurelshop/catalog/katalog-fresh-hal-9.webp",
+      "label": "Katalog Fresh · Hal 09 (Aneka Kerupuk Mentah Siap Goreng)",
+      "caption": "Kopi Lampung robusta, aneka kerupuk mentah (emping, bawang, gendar, ikan, kulit, mawar putih/kuning, mie asin, merah Padang, sari udang, taro, singkong, slondok, stik kentang, kerupuk udang).",
+      "fit": "contain",
+      "aspectRatio": "3/4",
+      "url": "/brand/dbumbu-aurelshop/catalog/katalog-fresh-hal-9.webp"
+    },
+    {
+      "image": "/brand/dbumbu-aurelshop/catalog/katalog-fresh-hal-10.webp",
+      "label": "Katalog Fresh · Hal 10 (Rimpang Segar, Sayur Labu & Paprika)",
+      "caption": "Kunyit, kunyit biang/putih, labu siam besar/kecil, lettuce head, laos, lobak merah/putih, meses coklat/warna, mutiara sagu, nangka sayur, oncom, oyong, pacar cina, pakcoy, paprika hijau/merah/kuning.",
+      "fit": "contain",
+      "aspectRatio": "3/4",
+      "url": "/brand/dbumbu-aurelshop/catalog/katalog-fresh-hal-10.webp"
+    },
+    {
+      "image": "/brand/dbumbu-aurelshop/catalog/katalog-fresh-hal-11.webp",
+      "label": "Katalog Fresh · Hal 11 (Tahu, Tempe, Terong & Timun Horeka)",
+      "caption": "Pare, petai cina/kupas, sereh, singkong, tahu Bandung, tahu sutra Cina, tahu kulit coklat, tempe, talas Bogor, tawas, temu kunci, temulawak, terong bulat/hijau/ungu, timun kyuri, jukini, tomat cherry.",
+      "fit": "contain",
+      "aspectRatio": "3/4",
+      "url": "/brand/dbumbu-aurelshop/catalog/katalog-fresh-hal-11.webp"
+    },
+    {
+      "image": "/brand/dbumbu-aurelshop/catalog/katalog-fresh-hal-12.webp",
+      "label": "Katalog Fresh · Hal 12 (Tomat, Tauge, Aneka Ubi & Wortel)",
+      "caption": "Tomat hijau, tomat merah segar, tauge segar renyah, ubi madu Cilembu, ubi kuning, ubi ungu manis, wortel segar sortiran premium pasar induk.",
+      "fit": "contain",
+      "aspectRatio": "3/4",
+      "url": "/brand/dbumbu-aurelshop/catalog/katalog-fresh-hal-12.webp"
     }
   ],
   "actions": [
@@ -123,6 +445,16 @@
       "key": "shopee",
       "label": "Shopee Official · aurelshop2018",
       "url": "https://shopee.co.id/aurelshop2018"
+    },
+    {
+      "key": "catalog",
+      "label": "Unduh Katalog Rempah & Herbal (PDF)",
+      "url": "/brand/dbumbu-aurelshop/DBUMBU_Catalog_Rempah.pdf"
+    },
+    {
+      "key": "catalog",
+      "label": "Unduh Katalog Sayuran & Horeka (PDF)",
+      "url": "/brand/dbumbu-aurelshop/DBUMBU_Katalog_Fresh.pdf"
     },
     {
       "key": "email",
@@ -147,16 +479,16 @@
   ],
   "verification": {
     "status": "handover-verified",
-    "checkedAt": "2026-10-15",
-    "note": "Katalog resmi Product Fresh Vegetables & Spices, Catalog Product Spices, serta identitas logo resmi terverifikasi langsung dari Bu Henny Kartika Wati (DBumbu) untuk TEI 2026.",
+    "checkedAt": "2026-10-18",
+    "note": "Katalog resmi Product Fresh Vegetables & Spices (12 halaman), Catalog Product Spices (6 halaman), serta identitas logo resmi terverifikasi langsung dari Bu Henny Kartika Wati (DBumbu Aurelshop) untuk TEI 2026.",
     "sources": [
       {
         "label": "Katalog Resmi DBumbu Fresh Vegetables & Spices (PDF)",
-        "url": "https://wa.me/6282259771919"
+        "url": "/brand/dbumbu-aurelshop/DBUMBU_Katalog_Fresh.pdf"
       },
       {
         "label": "Katalog Resmi DBumbu Pusat Rempah & Herbal (PDF)",
-        "url": "https://wa.me/6282259771919"
+        "url": "/brand/dbumbu-aurelshop/DBUMBU_Catalog_Rempah.pdf"
       },
       {
         "label": "Shopee Toko Resmi aurelshop2018",

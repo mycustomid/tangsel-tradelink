@@ -3,7 +3,10 @@ import path from 'node:path';
 import process from 'node:process';
 
 const file = path.resolve('src/data/tenants.json');
-const tenants = JSON.parse(fs.readFileSync(file, 'utf8'));
+const primary = JSON.parse(fs.readFileSync(file, 'utf8'));
+const extra = JSON.parse(fs.readFileSync(path.resolve('src/data/tenants-extra.json'), 'utf8'));
+if (!Array.isArray(primary) || !Array.isArray(extra)) throw new Error('Both tenant datasets must be arrays.');
+const tenants = [...primary, ...extra];
 const requiredFields = ['name', 'slug', 'hall', 'booth', 'category'];
 const optionalFields = ['description', 'logo', 'theme', 'whatsapp', 'instagram', 'maps', 'website', 'catalog', 'email'];
 

@@ -83,16 +83,12 @@ const actionLabel = (link?: TenantLink) => {
 const institutionalArchetypes = new Set(['civic', 'infrastructure', 'network', 'control', 'industrial', 'architectural', 'placemaking', 'utility']);
 const isInstitutional = institutionalArchetypes.has(direction.archetype);
 const briefLabel = isInstitutional ? 'Meeting brief' : tenant.category ? 'Buyer brief' : 'Visit brief';
-const storyTitle = isInstitutional
-  ? `Know the role of ${tenantName} before the conversation starts.`
-  : tenant.description
-    ? `Decide whether ${tenantName} belongs on your shortlist.`
-    : `Find ${tenantName} with verified exhibition context.`;
-const signalsTitle = isInstitutional ? 'Make the first minute of the meeting useful.' : 'Qualify the opportunity before you approach.';
-const connectTitle = primaryAction ? 'Continue through the strongest verified route.' : 'Continue the conversation on the exhibition floor.';
+const storyTitle = isInstitutional ? 'Role & services' : tenant.category || 'About the business';
+const signalsTitle = 'At a glance';
+const connectTitle = primaryAction ? `Contact ${tenantName}` : 'Meet at the exhibition';
 const connectCopy = primaryAction
-  ? 'One primary route is prioritized for speed. Other verified channels remain available below when you need them.'
-  : 'No digital contact is promoted until it can be matched reliably. Use the verified exhibition location instead.';
+  ? 'Choose a business channel below for product details, availability or a meeting.'
+  : `Visit ${boothLabel} to ask about products, services and business enquiries.`;
 
 const domain = (() => {
   const website = tenant.website || prioritizedLinks.find((link: TenantLink) => /^https?:/.test(link.href || ''))?.href;
@@ -123,7 +119,7 @@ const domain = (() => {
 
   <section class="tenant-hero" aria-labelledby="tenant-title">
     <div class="hero-copy">
-      <div class="brand-mark" aria-label={`${tenantName} brand mark`}>
+      <div class="brand-mark" role="img" aria-label={`${tenantName} brand mark`}>
         {logo && <img src={logo} alt="" width="72" height="72" loading="eager" decoding="async" referrerpolicy="no-referrer" onerror="this.remove()" />}
         <span aria-hidden="true">{initials}</span>
       </div>
@@ -176,7 +172,7 @@ const domain = (() => {
     <div class="story-grid">
       <h2 id="story-title">{storyTitle}</h2>
       <div class="story-copy">
-        <p>{tenant.description || `The useful facts here are deliberately limited to verified exhibition data and reliably matched public sources. That keeps the page useful without inventing a company story.`}</p>
+        <p>{tenant.description || `${tenantName} is listed in ${tenant.category || 'the exhibition directory'} at ${boothLabel}.`}</p>
         <div class="source-line"><span></span><small>{sourceCount > 0 ? `${sourceCount} recorded source${sourceCount === 1 ? '' : 's'}` : 'Floorplan-led profile'}</small></div>
       </div>
     </div>
@@ -186,7 +182,7 @@ const domain = (() => {
     <div class="section-marker"><span>03</span><p>{briefLabel}</p></div>
     <div class="signals-heading">
       <h2 id="signals-title">{signalsTitle}</h2>
-      <p>Confirm sector, booth, evidence level, and the best verified route before you start the conversation.</p>
+      <p>Business sector, exhibition location and available contact channels.</p>
     </div>
     <div class="signal-grid">
       <article><small>Offering</small><strong>{tenant.category || 'TEI 2026'}</strong><p>Sector context</p></article>

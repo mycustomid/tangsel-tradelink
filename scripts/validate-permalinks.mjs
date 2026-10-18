@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import crypto from 'node:crypto';
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(here, '..');
@@ -8,6 +9,10 @@ const readJson = (file) => JSON.parse(fs.readFileSync(path.join(root, file), 'ut
 const tenants = readJson('src/data/tenants.json');
 const extras = readJson('src/data/tenants-extra.json');
 const lock = readJson('src/data/tenant-permalinks.lock.json');
+const baseline = readJson('src/data/routes-baseline.lock.json');
+if (lock.count !== 154) throw new Error('The release baseline must retain exactly 154 NFC URLs');
+const lockHash = crypto.createHash('sha256').update(fs.readFileSync(path.join(root,'src/data/tenant-permalinks.lock.json'))).digest('hex');
+if (lockHash !== baseline.permalinkLockSHA256) throw new Error('Immutable permalink lock bytes changed');
 const legacySlugs = ['buminaeenk-freeze-dried', 'ninauka', 'shayfara'];
 const dataSlugs = [...new Set([...tenants, ...extras].map((item) => item.slug).filter(Boolean))];
 const extraSlugs = [...new Set(extras.map((item) => item.slug).filter(Boolean))];
