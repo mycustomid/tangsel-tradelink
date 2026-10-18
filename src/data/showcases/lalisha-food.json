@@ -252,20 +252,6 @@
       "caption": "Informasi kode produksi dan daya tahan produk untuk manajemen inventori distributor dan reseller.",
       "fit": "contain",
       "aspectRatio": "4/3"
-    },
-    {
-      "image": "/brand/lalisha-food/seblak-instan-original-kencur.webp",
-      "label": "Seblak Instan Original Kencur (Full Pouch)",
-      "caption": "Isian lengkap mie, cuanki tahu, endog lewo, dan pilus cikur dengan bumbu kencur otentik.",
-      "fit": "contain",
-      "aspectRatio": "1/2"
-    },
-    {
-      "image": "/brand/lalisha-food/seblak-instan-keju-creamy.webp",
-      "label": "Seblak Instan Keju Creamy (Full Pouch)",
-      "caption": "Sensasi rasa keju yang gurih creamy berpadu pas dengan bumbu rempah pedas dan cabai daun jeruk khas Lalisha Food.",
-      "fit": "contain",
-      "aspectRatio": "1/2"
     }
   ],
   "actions": [
