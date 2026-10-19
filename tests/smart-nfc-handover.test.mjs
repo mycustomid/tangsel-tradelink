@@ -69,13 +69,12 @@ test('DBumbu copy is grounded in the public AurelShop2018 catalog', () => {
   assert.doesNotMatch(config.story.body, /tahan simpan/i);
 });
 
-test('Zahhab removes generic placeholder marketplace/social URLs and medical claims', () => {
+test('Zahhab reflects official client channels and removes medical claims', () => {
   const config = json(files.zahhab);
   const text = JSON.stringify(config);
   assert.match(text, /susu kurma/i);
   assert.match(text, /lemon kurma/i);
-  assert.doesNotMatch(text, /https:\/\/www\.facebook\.com["/]/);
-  assert.doesNotMatch(text, /https:\/\/shopee\.co\.id["/]/);
+  assert.match(text, /zahhab_head/i);
   assert.doesNotMatch(config.story.body, /imunitas|menyembuhkan|terapi|khasiat/i);
 });
 

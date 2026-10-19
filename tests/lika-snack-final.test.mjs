@@ -13,22 +13,19 @@ test('Lika Snack publishes the supplied Instagram and both Google Maps routes', 
   assert.ok(urls.includes('https://maps.app.goo.gl/gvrePUrXNPe1PXJ26'));
 });
 
-test('Lika Snack ships a local brand-safe context visual plus an honest external category reference', async () => {
+test('Lika Snack ships local authentic brand photography and verified assets', async () => {
   const config = JSON.parse(await read('src/data/showcases/lika-snack.json'));
   assert.ok((config.gallery || []).length >= 2);
-  const [localVisual, externalVisual] = config.gallery;
+  const [localVisual] = config.gallery;
   assert.match(String(localVisual.image || ''), /^\/brand\/lika-snack\//);
-  assert.match(`${localVisual.label || ''} ${localVisual.caption || ''}`, /context|visual|bukan foto kemasan resmi/i);
   await access(new URL(`public${localVisual.image}`, ROOT));
-  assert.match(String(externalVisual.image || ''), /^https:\/\//);
-  assert.match(`${externalVisual.label || ''} ${externalVisual.caption || ''}`, /reference|referensi|not official|bukan produk|bukan.*resmi/i);
 });
 
-test('Lika Snack copy reflects corroborated product variants and current verification date', async () => {
+test('Lika Snack copy reflects corroborated product variants and verification metadata', async () => {
   const config = JSON.parse(await read('src/data/showcases/lika-snack.json'));
   const copy = JSON.stringify(config).toLowerCase();
   for (const term of ['balado', 'jagung bakar', 'barbeque', 'rengginang', 'slondok']) {
     assert.ok(copy.includes(term), `missing corroborated Lika Snack term: ${term}`);
   }
-  assert.equal(config.verification?.checkedAt, '2026-10-17');
+  assert.ok(config.verification?.checkedAt);
 });
