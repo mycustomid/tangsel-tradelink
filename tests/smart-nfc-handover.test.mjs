@@ -77,6 +77,8 @@ test('Zahhab reflects official client channels and removes medical claims', () =
   assert.match(text, /zahhab_head/i);
   assert.match(text, /zahhab-healty\.vercel\.app/i);
   assert.match(text, /maps\.app\.goo\.gl\/a7BtJogD39BQ8wKXA/i);
+  assert.match(text, /6281289015525/);
+  assert.doesNotMatch(text, /6281298567832/);
   assert.doesNotMatch(config.story.body, /imunitas|menyembuhkan|terapi|khasiat/i);
 });
 
